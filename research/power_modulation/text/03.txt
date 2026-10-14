@@ -1,0 +1,406 @@
+Source: modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf
+
+## PDF page 1
+
+                                                                                     LightLight MetalsMetals 20092009 EditedEdited by:by: GeoffGeoff BearneBearne
+                                                   TMSTMS (The(The Minerals,Minerals, MetalsMetals && MaterialsMaterials Society),Society), 20092009
+     ALUMINA DISSOLUTION AND CURRENT EFFICIENCY IN HALL-HEROULT CELLS
+
+                                       Bjørn Lillebuen1, Marvin Bugge1 and Helge Høie2
+                                            1 Hydro Aluminium, P.O. Box 2560, NO-3908, Porsgrunn, Norway
+                                            2 Hydro Aluminium Karmøy, NO-4265, Håvik, Norway
+
+                              Keywords: Alumina, Current Efficiency (CE), Sodium, Dissolution
+
+
+                         Abstract
+                                                                      In this paper we will present some operational data, and discuss
+The dissolution and distribution of alumina in cryolite melts can       correlations and links to the phenomena introduced above.
+be described as a coupled heat and mass transport process, with
+intermediate formation of solid cryolite. Current efficiency (CE)                      Alumina Dissolution
+can be evaluated by means of the rate equations for the back
+reaction between dissolved metal and carbon dioxide gas. Solid       1. Alumina Quality
+cryolite may be formed close to the metal pad under certain
+conditions in the cell. The bath superheat and the mass transfer     Alumina quality is often considered to be the main parameter for
+coefficient   at  the  bath/metal  interface  will  be  important      alumina dissolution control. Modern sandy alumina has quality
+parameters for the maximization of current efficiency. In some       variations that represent challenges for point feeding control, but
+cells there is a clear correlation between current efficiency and the     more and more we have come to see that these variations may be
+sodium content in the metal, indicating that mass transfer is the       less critical than the heat and mass transport conditions inside the
+dominant factor. In other cells sodium levels can be quite low        cells. Successful implementation of point feeding has enabled
+even at high current efficiency, which indicates that formation of      computer control of the alumina concentration in the bath, and
+solid cryolite can play a significant role, making superheat the     made possible a dramatic reduction in anode effect frequency and
+dominating factor.                                                      duration, in addition to the general performance improvement
+                                                                  seen in new smelters. In order to improve from today’s situation, a
+                       Introduction                                  detailed understanding and description of alumina dissolution is
+                                                                         required.
+1. Alumina Dissolution
+                                                                              2. Dissolution of an Alumina Particle
+When alumina is added to molten bath, it starts to dissolve. The
+dissolution process is endothermic, so heat needs to be transported      For illustration, a simplistic calculation of the dissolution rate of
+to the dissolution interface by a driving temperature gradient.      an alumina particle  is shown. The particle  is heated to bath
+Since the bath temperature normally is just a few degrees above      temperature and dissolved, and Figure 1 gives an illustration of
+the bath liquidus temperature, the alumina dissolution may lead to      temperature and concentration gradients in the bath boundary
+local formation of solid cryolite.  This solid cryolite will then       layer (”film”) around the particle, and related to the bath phase
+gradually melt as more heat is tranported to the interface.               diagram.
+
+2. Aluminum Electrolysis
+
+The electrolytic deposition of molten aluminum takes place with
+sodium ions as charge carrier, and discharging of Al-containing
+species at the metal/bath interface. This sets up a concentration
+gradient with higher bath ratios at the interface than in the bulk of
+the bath. Higher bath ratio means higher liquidus temperature, so
+formation of cryolite may take place also at the cathodic interface
+between metal and bath.
+
+3. Current Efficiency and Sodium
+
+The sodium levels in aluminum are determined by the bath ratio at
+the cathodic interface according to the equilibrium reaction:
+                                                                                   Figure 1. Particle Dissolution.
+           Al + 3 NaF = AlF3 + 3 Na          (1)
+
+From this same interface metal will dissolve and react with carbon     The following equations can be written for the dissolution rate,
+dioxide by the so-called back reaction. The back reaction  is        ref. Asbjørnsen and Andersen (1):
+assumed to be responsible for the largest part of the current
+efficiency losses in modern cells. In addition to Al, metals like Na        M = k (c* - c)                           (2)
+and Li will also dissolve and back react, and dissolved metals may
+also react with impurities like phosphorous in the melt.                Q = h (T – T*)                          (3)
+
+
+                                                 389
+
+## PDF page 2
+
+                                                      From the figure  it seems  to  last about 100 seconds  for the
+      Q = M (Hdiss)                          (4)                   temperature to climb back up to the value shown before feeding
+
+        (T – T*)/(c*- cs) = const                (5)
+
+where M is dissolution rate, Q is heat transport rate, Hdiss is total
+dissolution enthalpy, and the concentrations can be interpreted by
+means of Figure 1. Solving these equations:
+
+
+     M = k (a / (a+1)) (cs – c)               (6)
+where:
+         a = (h/k) (const/Hdiss)                  (7)
+
+
+Assuming that a is much larger than 1, then:
+
+     M = k (cs – c)                          (8)
+
+
+This means the normal rate equation as the product between the
+mass transfer coefficient k and the concentration gradient for the
+constant bath temperature case.                                           Figure 2. Alumina dissolution rate, from Thonstad et al . (2).
+
+
+The differential equation for dissolution of the particle can be
+written:
+
+          dt = const (Adr)/ (MA)                  (9)
+
+where A is area and r is radius. The mass transfer coefficient k can
+be estimated from the relation:
+
+                            1/2      1/3
+        Sh = 0.332 (Re)    (Sc)               (10)
+
+The dimensionless groups are estimated by inserting relevant
+physical data, and assuming an interfacial velocity of 5 cm/s.
+
+Integrating from t = 0 to t and r = r to 0 gives:
+
+                         3/2
+              t = 26573 (r)                          (11)
+                                                                   Figure 3. Temperature drops during dissolution of 1.5 kg alumina
+For a normal alumina particle with diameter 100 micron, r = 0.005      doses, taken from Kobbeltvedt et al. (3).
+cm, then:
+                                                                                                                                   .
+              t = 9.4 seconds                        (12)
+
+                                                                      In order to illustrate the thermal effects during dissolution, the
+Thonstad et al. (2) have made careful laboratory experiments and      approximate volume of bath needed to dissolve 1.5 kg alumina is
+measured dissolution rates in the range of 5-10 seconds, which is       calculated, assuming perfect mixing in the bath, no exchange with
+in good agreement with our very approximate calculation for a      the surroundings, and with ten degrees of bath cooling.  With
+constant temperature dissolution. Some of Thonstad’s data are      reference to the works done by Bratland and Grjotheim (4) and
+reproduced in Figure 2.                                   Holm (5), the bath volume (x) can be written as a function of the
+                                                                    temperature drop (dT):
+
+3. Dissolution under Point Feeders                                    dTx = 494                            (13)
+
+Kobbeltvedt  et  al.  (3)  have shown  that  bath  temperatures       or:
+measured near the feeder will drop several degrees every time the            x = 49 kg bath                          (14)
+feeder adds 1.5 kg alumina, see Figure 3, taken from his work.
+
+
+                                                 390
+
+## PDF page 3
+
+                                                            where r is back reaction rate = metal dissolution rate, k is mass
+In words: 1.5 kg alumina will dissolve with a cooling effect       transfer coefficient for dissolved metal, A is metal/bath interface
+corresponding to ten degrees cooling of 49 kg bath.                       area,  cAl  is  metal  saturation  concentration  at  the  interface
+                                                                        metal/bath, and f1 and f2 are functions of mass transfer parameters
+Two comments should be made. Firstly, the calculation above was      and solubility parameters for the metal/bath and for the gas/bath
+made for a bath with 2.3 wt% alumina. The dissolution enthalpy is       interfaces.
+strongly dependent upon alumina concentration  as shown  in
+Figure 4, taken from Holm’s early work (5). Cryolite formation is        If  the  gas  bubble  area  (Ab)  is  very  small,  the  following
+therefore  favored   if  the   cell  operates   at  low  alumina      approximation can be written:
+concentrations in the bath.
+                                                                                             rAl = kAl Ab cAl                      (16)
+Secondly, it is conceivable that some of the alumina/cryolite mix
+can  float  on  the  metal  surface,  thus  influencing  on-going        If instead the bubble area is very much larger than the metal area,
+processes at the interface. This will be discussed in the following       then:
+with a view on current efficiency and the sodium content in Al.
+                                                                                             rAl = kAl AAl cAl                     (17)
+
+                                                               For practical application in plant cells we may write finally:
+
+                                                                                             rAl = kAl AAl cAl (1 – f )             (18)
+
+                                                             Here f can be treated as a cell calibration constant, and:
+
+                                                    CE = 100% (r – rAl) /r                 (19)
+
+                                                       when r is metal production for CE = 100%.
+
+                                                                                                It is possible to describe also the effect of bath impurities on
+                                                                        current efficiency in a similar context. If the bath contains an
+                                                                    oxidized impurity in+ which reacts with dissolved metal in the
+                                                                    bath boundary layer close to the metal surface, then:
+
+                                                                                 in+ + (n/ 3) Al = i + (n/ 3) Al3+         (20)
+
+                                                                  This will enhance the metal dissolution rate, thereby reducing
+                                                                        current efficiency, with an enhancement factor (e), given by:
+
+                                                                           e = 1 + (n/ 3) (Di / DAl) (ci/cAl )         (21)
+
+                                                             Here D is diffusivity for in+ and for dissolved Al, respectively, ci
+                                                                                        is concentration of in+ in the bulk of the bath, and cAl is metal
+                                                                             solubility in the bath at the metal/bath interface. Equation (21) can
+                                                                    help explain why some multivalent impurities like phosporous can
+        Figure 4. Partial Dissolution Enthalpy, from Holm (5).
+                                                                  reduce the current efficiency.
+                        .
+
+                                                                  Sodium and Phosphorous in Al
+
+                   Current Efficiency
+                                                                              1. Sodium in Al
+
+Current efficiency is reduced in a number of ways, for instance by
+                                                         The well-known shift in bath composition passing from bulk bath
+electronic conduction, and by the presence of impurities like
+                                                                  through the boundary layer and on to the metal/bath interface, can
+phosphorous.
+                                                              be described by (6):
+
+However, it is expected that current efficiency reductions mainly
+occur as a result of the back reaction between dissolved metal and         CAlF3 (bulk) – CAlF3 (interface) = I / nFk     (22)
+carbon dioxide gas. Applying boundary layer diffusion theory
+(classical film theory) it is easy to show that:                       where F is Faraday constant, I is the current density, k is the mass
+                                                                             transfer coefficient, and C is the concentration.
+           rAl = kAl AAl cAl (1 – f1/f2)                   (15)
+                                                         The high bath ratio at the interface will determine sodium levels
+                                                                           in Al according to:
+
+
+                                                 391
+
+## PDF page 4
+
+     Al + 3NaF = 3Na + AlF3                      (23)              Older pots show lower sodium content, displayed in Figure 7,
+                                                             which is in line with the normal reduction of current efficiency
+                                                                   with increasing age, shown in Figure 9. In  this way, sodium in Al will depend on mass transfer and
+ current density, and less on bulk bath ratio, see Tabereaux (7).
+
+ In Figure 5 the sodium in Al  is plotted along with current
+ efficiency for one side-by-side potline, as time series over several
+ years.  In  spite  of many  different  operational  upsets,  the
+ covariation between sodium and current efficiency is obvious.
+ Sodium  will sometimes change before  current  efficiency,  as
+ expected since current efficiency numbers are based on aluminum
+ tapping weights.
+
+No similar covariation has been found for older end-to-end and
+ Soederberg lines. Sodium levels are normally lower in these older
+ lines, even though current efficiency may sometimes be higher.
+
+
+
+  120                                 97
+
+                   CE
+  100                                 95
+                                                                              Figure 7. Sodium in Al as a function of cell age (days).
+                      %ppm
+   80                                 93 CE
+Na              Na
+   60                                 91
+                                                                       Excellent current efficiency values can be achieved with low
+                                                                      noise levels, as indicated in Figure 8.
+   40                                 89
+                 Month
+
+
+ Figure 5. Current efficiency and sodium content, monthly values.
+
+
+
+
+ Results of a comprehensive study in one of our potlines are
+ displayed in Figures 6-8. All cell numbers were averaged over one
+ whole year, and a regression analysis was performed:
+
+
+       Na (ppm) = -1271 + 14.4 (%CE)       (24)
+
+
+ This explained 84% of the data variation displayed in Figure 6.
+
+ .
+
+
+
+
+                                                                                 Figure 8. Current efficiency and cell noise.
+
+
+
+
+                                                                       In Figure 9 current efficiency is plotted versus cell age. These data
+                                                               have been collected some years later than data in Figures 6-8, but
+                                                                  confirm the trend.
+
+
+
+ Figure 6. Sodium in Al versus current efficiency, yearly cell data.
+
+
+                                                 392
+
+## PDF page 5
+
+   98                                                                    indicates that well-balanced magnetic fields (low k) as well as
+   97                                                             high  current  density  (low A)  should  both  increase  current
+                                                                            efficiency. As is well known, this is not always happening, and
+ (%) 96                                                        some  of  the  complicating  factors  will be  discussed  in  the
+   95                                                                 following.
+
+   94
+                                                           Reduced turbulence will reduce k, but it will also increase c, since    Efficiency 93
+                                                                  metal solubility will increase when the bath ratio increases, see
+   92                                                               Peterson and Wang (8). We have tried to quantify the relation   Current 91                                                         between k and c, and our preliminary conclusion is that changes in
+                                                           k will be modified by changes in c, but the turbulence factor will
+   90
+                                                                always remain dominant.
+   89
+      0      500     1000    1500    2000    2500    3000    3500   Electronic conduction is known (9) to increase in importance as
+                            Pot Age (days)                           bath ratio increases, but it is not clear if the interface ratio or the
+                                                                 bulk bath ratio will determine the effect of electronic conduction
+                                                          on current efficiency
+     Figure 9. Current Efficiency (one year average) and cell age.
+                                                               Higher bath ratio at the interface will increase the possibility for
+                                                                             cryolite  to  precipitate,  thereby reducing  the  metal  area and
+2. Phosphorous in Al                                                reducing back reaction rate. Obviously there will be a limit above
+                                                            which excessive cryolite formation can lead to erratic current
+A detailed study for phosphorous, partly displayed in Figure 10,       distribution and even to bottom sludge.
+gave the following regression correlation:
+                                                                       Cryolite can form  directly  at  the metal  interface,  or during
+   P (ppm) = 19.4 – 0.0052 (A - 1130) + 1.6 (CE – 93.8)  (25)        alumina dissolution. In both cases bath superheat will be an
+                                                                    important  parameter. Dewing  (10)  published  the  following
+A is cell age in days. This equation indicates that the phosphorous      empiric regression equation:
+level in Al will increase with increasing current efficiency, but
+equation (25) could only explain 40% of the scatter.                       Log (%CE) = 0.0095 dT – 0.019%AlF3          (27)
+                                                                   – 0.06%LiF + const.
+
+                                                        Lower superheat (dT) will according to this equation lead to
+                                                                     higher  current  efficiency, and  cryolite  formation may be  a
+                                                                       possible part of the explanation.
+
+                                                           High current density will increase heat production in the cell. In
+                                                                     order to conserve energy, every pcell designer and cell operator
+                                                                            will strive to reduce the anode-cathode distance (ACD). This will
+                                                                      eventually  increase  turbulence,  with   deteriorating  current
+                                                                            distribution and increased gas release resistance.  The reduced
+                                          ACD may also result in more anode problems like anode spikes,
+                                                             and reduce the current efficiency. To some extent the low ACD is
+                                                                  today compensated by multiple and deep slots in the anodes.
+
+                                                         The high bath ratio at the metal interface will also tend to increase
+                                                                        the Marangoni turbulence, which has been described by Utigard
+                                                                            (11). Interfacial tension between bath and metal varies with the
+                                                                    bath  ratio, and  this  creates  horizontal  velocities  in  the bath
+          Fig. 10. Phosphorous in Al versus cell age.                 boundary layer due to bath ratio gradients. The discussion of these
+                                                         phenomena also involves the slow transport of alumina (and
+                                                                           fluoride) from the cell bottom to the electrode space, through the
+A1 and A2 represent two different anode qualities with slightly      bath film assumed to surround the entire metal pool in the cell.
+different phosphrous content.
+                                                         The idea that cryolite is an active ingredient in the cell processes
+                                                                                        is not a new one. Recently, Solheim (12) modelled the conditions
+                         Discussion                                    for cryolite formation, and Haupin (13, 14) has mentioned cryolite
+                                                                           precipitation as a possible explanation for the so-called “liqidus
+The ”standard” equation for back reaction rate:                      enigma” found in many cells. The measured resistance hysteresis
+                                                                      reported by Kvande and co-workers (15) can perhaps also be
+             rAl = kAl AAl cAl                            (26)         explained by means of cryolite precipitation.
+
+
+
+                                                 393
+
+## PDF page 6
+
+In order  to maintain  excellent current  efficiency and energy            5.   J.L.Holm,  Thermodynamic   Properties   of  Molten
+consumption at very high electrode current density in large cells,                Cryolite and other Fluoride Mixtures, Inst. of Inorganic
+it may be necessary to optimize both alumina feeding (16) and the               Chemistry, NTNU, Trondheim, Norway, 1971
+ACD in a more localized way than before, in order to control            6.   J.Thonstad and S.Rolseth, Electrochimica Acta, 1978,
+cryolite formation.                                                           Vol. 23, pp. 233-241
+                                                                                   7.   A.T.Tabereaux, Light Metals 1996, pp. 319-326
+                                                                                   8.   R.D.Peterson and X.Wang, Light Metals 1991, pp. 331-
+                                                                  337
+                 Conclusion                                                 9.   G.M.Haarberg et al., Light Metals 2002, pp. 1083-1089
+                                                                          10. E.W.Dewing, Met. Trans. B, Vol. 22, 1991, pp. 177-182
+Alumina dissolution in cells with point feeders proceeds with           11.  T.Utigard et al., Light Metals 1991, pp. 273-281
+intermediate cryolite formation.                                            12.  A.Solheim, Light Metals 2002, pp. 225-230
+                                                                          13.  W.Haupin, Light Metals 1992, pp. 477-480
+To melt, dissolve and distribute the alumina-cryolite mixture,           14.  W.Haupin, Light Metals 1997, pp. 319-324
+sufficient turbulence (locally) is needed.                                    15. H.Kvande et al., Light Metals 1997, pp. 403-410
+                                                                          16.  B.P.Moxnes, Light Metals 2009, in print.
+High current density, low superheat and good magnetic stability
+may lead to precipitation of cryolite on the metal surface.
+
+Some amount of solid cryolite formation can increase the current
+efficiency by slowing down the back reaction rate, but excessive
+amounts  of  cryolite  could  disturb  current  distribution, form
+bottom sludge and reduce current efficiency.
+
+Individual control of point feeders and anodes may benefit the
+development of large cells with high anodic current density, as
+discussed by Moxnes (16).
+
+
+
+
+
+         Picture 1. HAL275 in Sunndal, Norway.
+
+
+
+
+                        References
+
+
+     1.   O.A.Asbjørnsen and J.A.Andersen, Light Metals 1977,
+          pp. 137-143
+     2.   J.Thonstad et al., Met. Trans. 3, p. 403, (1972)
+     3.   O.Kobbeltvedt et al., Light Metals 1996, pp. 421-428
+     4.   D.Bratland and K.Grjotheim, Light Metals 1976, Vol. 1,
+          pp. 3-21
+
+
+
+                                                 394

@@ -1,0 +1,1045 @@
+Source: modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf
+
+## PDF page 1
+
+               ||||||||||||III                                                                   US005089.093A
+United States Patent   (19)                 11   Patent Number:     5,089,093
+Blatch et al.                                                      (45)  Date of Patent:    Feb. 18, 1992
+
+(54)  PROCESS FOR CONTROLLING                 57            ABSTRACT
+   ALUMINUM SMELTING CELLS          A process for controlling an aluminum smelting cell
+ 75)  Inventors:  Geoffrey I. Blatch, Westgarth; Mark    comprising monitoring the cell voltage and current,
+                  P. Taylor, Greensborough; Mark       alumina dumps, additions, operations and anode to cath
+                   Fyfe, Slengarry, all of Australia        ode distance movements, continuously calculating the                                                                   cell resistance and the bath resistivity from said moni
+ 73)  Assignee:  Comalco Aluminum Ltd.,                tored cell voltage and current, monitoring the existence
+               Georgetown, Australia                of low frequency and high frequency noise in the volt
+                                                     age of the cell, continuously calculating the time rate of(21)  Appl. No.: 481,845                                                  change of resistance of the cell, suspending calculation
+ 22).  Filed:      Feb. 20, 1990                            for a predetermined time when an alumina dump, addi
+(30)       Foreign Application Priority Data                 tion, operation or ACD movement occurs, establishing                                                                   filtered   resistance  slope   thresholds,  determining
+  Feb. 24, 1989 AU)   Australia  ............................... PJ2938    whether the low frequency noise is above a predeter
+ 51)   Int. Cl............................ C25C3/06; C25C 3/20    mined threshold, and if so, increasing the filtered slope
+ 52   U.S. Cl. ...................................... 204/67; 204/225;     thresholds for low alumina concentration detection,                                    204/228; 204/245     calculating an alumina inventory from the alumina
+ 58)   Field of Search ...................... 204/67, 243 R-247,    dumps, determining whether the cell is overfed, and if                             204/153. 1, 400, 225, 228     not feeding alumina to prevent an anode affect, calculat
+                                                        ing the heat supplied and heat required for aluminum
+(56)               References Cited                       production, calculating the heat available for dissipa
+           U.S. PATENT DOCUMENTS                  tion, calculating the target heat for the cell, calculating
+                                                         the difference between the available heat and the target     3,573,79  3/1971  Dirth et al.  ........................... 204/67    heat with respect to time, calculating a running heat     3,625,842 12/1971  Bristol et al.  ......................... 204/67
+     3,660,256  5/1972  Lippitt et al.  ......................... 204/67    inventory from the integral of this difference, establish     3,712,857   1/1973  Piller  ..................................... 204/67    ing a target resistance for the cell and modifying that
+     3,812,024  5/1974 Goodnow et al.  .................... 204/67     target resistance to achieve a zero heat integral, check
+     4,425,201   1/1984  Wilson et al.  ......................... 204/67    ing that the target resistance is an allowable value, and
+     4,814,050 3/ 1989 McGraw et al.  ..................... 204/67    moving the anodes of the cell to establish the new target
+                                                                 resistance, estimating the time rate of change of bath     FOREIGN PATENT DOCUMENTS                                                                     resistivity and checking whether  resistivity and the
+      0044794  7/1981  European Pat. Off.   .                   derivative are greater than predetermined limits, and if
+      2238775  2/1975  France   .                                 so, adjusting the target heat of the cell to maintain the
+ WO86/05008  8/1986 PCT Int'l Appl.   .                   long term heat balance of the cell.
+Primary Examiner-Donald R. Valentine
+Attorney, Agent, or Firm-Kenyon & Kenyon                        32 Claims, 12 Drawing Sheets
+            HEAT AND MASS BALANCE CONTROL STRATEGY
+
+                      TIME SCALE:   Short Terrn  -  ..........................awswovovovoodooeuvrute 48009008woooow- Medium/Long Tern
+
+                     NITAL                             NPUT OTARGE:
+                NPUS                             CESUPERHEAT TARGETRAiGETHERMODATA.EMF
+                   DYNAMIC                 7uma DuPS                               CACULATE BATHRESSMY
+                     INPUTS     /vie /       ADDITIOMS,OPERATIONS,
+                                                                               ACE MCWEMES
+                            CALC RESISTANCE
+                                 (V-EMF/
+
+                                      00.1 Hz (LO)     NOSE f-----
+                           04-Hz (HI)        CALC.                                                                            CA.C.HEAT SUPPLIED &
+                                                                  HEATRECURED FOR A.
+                                                                              PROD.
+                     CA.C.FTERED
+                      RESSTANCE SLOPE  -                                                              -                                         YES
+                                (Every second)                                          CA.C.HEAT AVAILABLE                                             Awrage
+                        Day Times                                FOR OSSAPATION                                                            Superhead
+                                 Racak.R                           OAwakW (10 min)                                                             out orange
+                        S Yfiller Const's
+    -4.KOSE ABOEFREG FEED                                  Neware
+             NHEsote?        .                                CAC  WOFFERENCE
+                    x /                                         Of (OAVAIL-0TARGE)                                     WHME
+
+## PDF page 2
+
+U.S. Patent         Feb. 18, 1992         Sheet 1 of 12      5,089,093
+
+
+
+
+
+       IVBHCINVSSVINBONVTwaTOHLNOOHLSAÐHLV
+
+
+
+
+                                                                                                                                                                       WISISHB"OTVO3.ON
+
+
+
+                                         ---.
+
+## PDF page 3
+
+
+
+## PDF page 4
+
+U.S. Patent         Feb. 18, 1992         Sheet 3 of 12      5,089,093
+
+                                      KHOSIAHBdInSHELDdWNO                                                                                                                                                                                                     S001&sep0SJ0uII
+
+
+
+    €)|–|(2
+
+## PDF page 5
+
+U.S. Patent         Feb. 18, 1992         Sheet 4 of 12      5,089,093
+
+
+            SºmpoW|?SION
+                       ‘OTWO
+
+
+
+
+                                 '+LOCH
+
+
+
+
+
+                                                                                                                               '0|00GOW–
+
+
+            |p883–                                    pººgay–     þ004dBV–
+
+## PDF page 6
+
+U.S. Patent         Feb. 18, 1992         Sheet 5 of 12      5,089,093
+
+
+
+
+
+                                                                                                    asses  - - - - - - -  -
+
+
+
+
+
+                 CELL RESISTANCE
+
+## PDF page 7
+
+U.S. Patent                                    5,089,093
+
+
+
+
+
+                 RESISTANCE  WALVES
+
+## PDF page 8
+
+U.S. Patent         Feb. 18, 1992         Sheet 7 of 12      5,089,093
+
+                                        NEWEST
+                                           VALUE
+
+
+                                                                      W      1N--
+
+
+          fk   k-1     fit                     to
+                     FG.4B
+
+
+                                          NOSE = 0
+                 FG4C
+
+
+
+
+                                                    NOISE = O
+
+                FG4D
+
+
+ /1Nu     NOISE > 0
+                            F. G.4E
+
+               Low Frequency Noise  Calculation and  Examples
+
+## PDF page 9
+
+U.S. Patent         Feb. 18, 1992         Sheet 8 of 12      5,089,093
+
+     s     260.0         A                        B            C
+    to     255.0
+    -     250.0
+             245.0
+        200
+     a     2350                                Q, TARGET
+         2300                                -
+   S     225.0   D                     AVA.  <    2200  - I -             17.0
+
+               15.0
+
+         er     13.0
+             t
+     <C   10
+           V
+    x
+    S        9.0
+
+               7.0
+   E   0.560
+  S   0.520
+   6    0.480
+     >-    0.440
+   D    0.400
+      U    0.360
+         ?h     0.320
+      E     0.12      N
+   JN    0.08
+    5     0.04
+            taxml    0.00                     y                                          .                         2
+          - 0.0l.       W      W
+          -0.08
+    SN - 0.12
+           -0.16
+              6   ;      ,      ;    b    to   12    it    is   a  20  22  2, 2s  23   So
+                                DAYS
+                      Available  Heat, %x SAF.  Bath  Resistivity                         and  Slope  of   Resistivity
+
+## PDF page 10
+
+U.S. Patent         Feb. 18, 1992         Sheet 9 of 12      5,089,093
+
+
+       s.    2600           D                              E                - 4
+                255.0
+    5as     250.0
+               245.0
+             2400
+             2350                   Q. TARGET
+                    w     2300   J               -  T     -----Pl
+       s.    225.0          C    2200
+               17.0
+
+                  15.0
+
+            er     13.0
+
+       C        11.0
+         V
+     x
+       S        9.0
+
+                 7.0
+     E   0.560
+   S   0.520
+     G    0.480
+       >-    0.440     >              0.400
+              0.360
+       CY    0.320
+         E    012
+        G  N    0.08
+     5     0.04
+   S    0.00   AAA  AmA     M WAN
+           - 0.0   Vy My W.          Vf  Y" /
+            -0.08
+     SN - 0.12
+             -0.16
+              0   2      l   6   8   10   12    14,   16   18  20  22   24,  26  28  30
+                                 DAYS
+ FG.5B      Available  Heat, %x SAF.  Bath  Resistivity                            and  Slope  of   Resistivity
+
+## PDF page 11
+
+U.S. Patent         Feb. 18, 1992        Sheet 10 of 12      5,089,093
+
+
+
+
+
+                          ACTUAL
+
+
+
+
+
+                 6
+
+
+              0.54
+             0.52
+          c.  0.50              ACTUAL
+             0.48      -s  0.46
+                                      TARGET            Oll
+               0.42
+              0.40
+             0.39
+              0  2   4  6  8   10  12  14   16  18 20  22  24, 26  28 30
+                            DAYS
+  F G. 5C     Target  Heat, %xs AlF3, and                          Bath  Resistivity.
+
+## PDF page 12
+
+U.S. Patent         Feb. 18, 1992         Sheet 11 of 12      5,089,093
+
+
+
+                    CALCULATED  POWER ABSORBED
+                                                  ( or Compensating  Action)
+
+                               l O
+
+                    3 O
+
+                   2O
+                          1 O
+
+                    O        10      20       30         l,0
+                           TIME   min
+  FG 6     Calculated Energy Impact (hence   compensating
+                                                                d         action ) for  Feeding  a  Celt
+
+
+
+                                                                  (a) REACTION
+
+
+                                                             (b) FEED
+
+
+           10
+          SO                                                     (c) SETTING
+            30
+             10 -
+           20                                               (d) ADDITIONS
+            10           N           O             O                    8          12          16       20        24
+                              TIME (hours)
+  FG 7     Breakdown  of  Calculated  Energy
+                   Absorbed  by   Cell over  24 hours
+
+## PDF page 13
+
+U.S. Patent         Feb. 18, 1992        Sheet 12 of 12      5,089,093
+
+
+         200                                                 (a) POWER ABSORBED
+         180
+     -160
+     R  s
+   2    250
+    -      9 200      3.     TARGET. - ..........                           (b) POWER AVALABLE
+  25  O   e G 25          50                                           (c) HEAT DEFICT/EXCESS
+  55 38                                                          d) RESISTANCE
+  As  36      C
+    or <( 34                                                 ARCH -1-a-          32
+            O                l         9         12         16        20           2l
+                            TIME (hours
+ FG. 8        Control  System  and  Cell  Response over  24 hours
+
+            50
+        uC     &mined5, 49
+            l6                 F. G. 9
+         U
+     2     36                                  Detail  of  Stop  Feed
+         E  BS                              Search  for  Alumina
+             d5   3.           9.                                       Control                 33
+             95
+            S.
+          A    cya 950
+            -- 9S
+
+               m   02
+               01
+    is   0--                                                                                    a     8 d  8
+            -01                            (d)
+     VS-02      STOP FEED SEARCH
+                 0  10 20  30 O SO 60 70 80
+                       TIME  min)
+
+## PDF page 14
+
+                                      5,089,093                                        1.                                      2
+                                                               tion of adjustment of cell resistance on the basis of long
+  PROCESS FOR CONTROLLING ALUMNUM      term running metal production figures. This does not
+           SMELTING CELLS                      constitute a calculation of the energy balance or process
+                                                    energy requirement.
+       FIELD OF THE INVENTION             5     In U.S. Pat. No. 4,766,552 Aalbu et al, the resistan
+  This invention relates to improvements in the auto    ce/alumina concentration curve is used to control alumated control of electrolytic smelting cells for the pro    mina concentration on point feed cells. A linear modelduction of aluminium.                                 of the cell resistance variation is set up using the resis                                                        tance slope as a parameter. By fitting the model to con
+   BACKGROUND OF THE INVENTION       O tinuous resistance measurements, the slope is estimated.
+  The control of electrolytic cells in the production of    However, this strategy does not ensure that the result
+aluminium is influenced by both short term and long    ing slope is related only to alumina concentration, interm process parameter changes. In the short term, bath     fact  it assumes this one to one relationship. Anode
+superheat, alumina concentration and anode to cathode   movement is included in the fitted algorithm and other
+distance (ACD) need constant monitoring, while longer 15 disturbances are filtered by reducing the gain of the
+term control is required for metal depth and the compo     fitting functions when they occur. This procedure is
+sition and volume of the electrolyte in the cell. Operat    very complex and could be prone to error. In addition,
+ing abnormalities also require attention, such as sludg    the strategy does not attempt to maintain heat balance
+ing, anode effects and their frequency, and the short    within the cell.
+circuiting of the current between the anodes and the 20   In U.S. Pat. No. 4,333,803 Seger and Haupin, a heat
+metal pad.                                                    flux sensor is used to measure sidewall heat flow. Cell.
+  The complexity of the interrelationships between the     resistance is adjusted to maintain this at a predetermined
+dependent and independent variables in the smelting     value. However, this strategy:                                  V
+process are illustrated  in Chapter 9 of "Aluminium          1. does not guarantee that heat losses from other
+Smelter Technology'-Grjotheim and Welch-Alumini 25      portions of the cell are under control (top, bottom);
+un-Verlag,  1988, and this chapter provides a useful        2. does not react to changes inside the cell on a useful
+summary of the currently  utilised control strategies.         time scale (hours or within a day)-the cell can be
+This summary and the proliferation of literature on the          significantly out of heat balance before an adjustsubject further illustrate the complexity of the problem                                                      30     ment is made; andand the absence of a strategy that provides a satisfactory        3. does not provide information about the events/oplevel of control resulting in constantly high efficiency                                                                  erations occurring in the electrolyte. These events
+levels.                                                         are needed to close the overall energy balance-in  Numerous examples of control strategy proposals are                                                             cluding the continuous changing process requirealso to be found in the patent literature. Recent exam                                                        35     ments-and to sense the condition of the liquidples include U.S. Pat. No. 4,654,129 Leroy which de          electrolyte which  is where electrolysis  is takingscribes a process involving periods of over supply and                                                                   place. Effective bath resistivity sensing in the stratunder supply to maintain the alumina concentration in                                                      egy disclosed here allows much faster response to athe cell within a narrow range by monitoring the rate of                                                              heat imbalance in the electrolyte.change of the resistance of the cell. This process relies                                                   40   Other control strategies are described in U.S. Pat.for its success on the use of point feeding of alumina to                                                      Nos. 3,969,669 Brault and Lacroise, 3,829,365 Chandthe cell, and it is not therefore useful for cells without                                                          huri et  al, 4,431,491 Bonny et  al, 4,654,129 Leroy,point feeders. Also, since in this strategy it is critical to                                                          4,654,130 Tabereaux et al, 3,622,475 Shiver, 3,878,070maintain the alumina concentration within a narrow                                                Murphy, 3,573,179 Dirth et al, 4,035,251 Shiver andrange, the strategy suffers if the concentration moves                                                      45 4,488,117 Seo. This list is by no means intended to beoutside that range and it is often difficult to restore thesystem to its optimum operating conditions.                exhaustive.                                  A primary factor in reduction cell efficiency is the  A similar control strategy  is described in Interna                                                       thermal state of the materials in the cell cavity. A con tional    Patent    Application   PCT/NO86/00017                                                                   trol strategy directed at optimizing efficiency should(W086/050008) Aalbu et al. In common with the above                                                     50 therefore aim to maintain a thermal steady state in the U.S. patent, the strategy relies heavily on the rate of                                                                          cell. That is, the rate of heat dissipation from the cellchange of the resistance of the cell to monitor alumina                                                           cavity should be kept constant. If this is achieved in concentration and does not have regard to other impor                                                        concert with stable bath and metal inventories, opera tant parameters to control the heat and mass balance of                                                                 tional stability can be enhanced. The bath superheat will the cell. The disclosure similarly does not address the strategy to be adopted during process events, such as 55 be constant; hence bath volume, chemistry and temper                                                            ature will be stable due to the absence of ledge freezing alumina feeding, anode movements, anode setting and                                                       or melting. Improved operational stability may allow a tapping.                                                                    cell to be operated with better alumina feed control, at   U.S. Pat. Nos. 4,008,142 and 4,024,034 Doring et al,
+ uses the concept of constant anode-cathode distance to    a lower bath ratio, and at a lower time averaged rate of                                                     60 heat loss. This will improve the process productivity. adjust cell resistance according to the known or as                                 A major difficulty in maintaining thermal steady state sumed  electrochemical voltage breakdown. Anode
+ cathode distance adjustment  is made in cases where     in a reduction cell is the discontinuous nature of various current efficiency (by metal production measurement)     operations. The energy requirements of alumina feeding       .
+ is less than expected theoretically. Automatic adjust    and dissolution can vary from minute-to-minute, partic
+ ment of voltage/cell resistance in response to noise on 65  ularly on breaker-bar cells. This is further exacerbated
+ the signal  is also indicated. However, no attempt  is    by the deliberate changes in feed rate required by many made to calculate the heat or alumina balances or to    feed control techniques. Anode setting in pre-baked
+ make furnace adjustments on this basis, with the excep     cells also introduces a large cyclic energy requirement.
+
+## PDF page 15
+
+                                      5,089,093                  3                                                                          4.
+Other processes, such as bath additions, anode effects                         -continued
+and amperage fluctuations further alter the short-term                                                                                  Operation                    Delaythermal balance of a cell. Currently available control                                                                                                          300 sec.systems do not address these fluctuating thermal re                 Bath Addition
+quirements in a comprehensive way. For example, tar
+get voltage control has allowed for alumina feeding in       In a preferred form, the resistance of the cell is calcu
+some systems. Similarly, anode effects have been used     lated using a known formula which compensates for the
+to control the power input. However, the complete    continuously calculated back EMF of the cell, as will be
+range of variable energy requirements are not treated    described further below. The resistance values are fil
+systematically or quantitatively to maintain a constant 10 tered using digital filtration techniques (e.g. multiple
+rate of heat supply available for dissipation through the    Kalman filters) in a manner which smooths random and
+cell.                                                   higher frequency pot noise while adequately respond
+                                                        ing to step changes and the resistance disturbances. This SUMMARY OF INVENTION AND OBJECTS                                                                   filtered resistance is used for automatic resistance con
+   It is an object of the present invention to provide an 15  trol. The resistance slope is calculated from raw (unfil
+improved process for controlling aluminium smelting     tered) resistance values as described further below and
+cells in which the heat balance of the cell is comprehen     similar digital filtration is used to continuously calculate
+sively controlled.                                   smoothed resistance slope values.
+  In a first aspect, the invention provides a process for 20   The smoothed resistance slope is searched for values
+controlling the operation of an aluminium smelting cell,    exceeding a predetermined slope which is chosen to
+comprising the steps of:                                    indicate concentration polarisation and alumina deple
+    (i) continuously monitoring cell voltage and current,     tion. Different forms of alumina search may be used,
+   (ii) calculating the resistance of the cell from the    and these are described in greater detail in the following
+    monitored cell voltage and current,               25  specification.
+    (iii) calculating the rate of change of cell resistance     The invention also provides a system for controlling
+     (resistance slope) and providing a smoothed value    the operation of an aluminium smelting cell comprising
+    of said resistance slope,                                 suitable means for performing each of the steps defined
+   (iv) utilizing the smoothed resistance slope values to    above.
+     maintain mass balance in the cell,                 30    In a second aspect, the invention further provides a
+   (v) monitoring cell process operations including alu    process for controlling the operation of an aluminium
+    mina additions, electrolyte bath additions, anode    smelting cell, comprising the steps of:
+     changes, tapping, beam  raising and anode beam        (a) monitoring the cell voltage and current and calcu
+    movement,                                                    lating the resistance of the cell from the monitored
+   (vi) delaying the calculation of resistance slope and 35      voltage and current,
+    smoothed resistance slope for a predetermined time        (b) monitoring alumina additions to the cell, monitor
+    when any one of said monitored cell process opera         ing other additions to the cell bath and monitoring
+     tions occurs, and                                          operational changes including anode movements,
+   (vii)  recalculating  said  cell  resistance slope and         tapping, anode setting and beam raising,
+    smoothed resistance slope after said predetermined        (c) continuously calculating the energy absorbed by
+    time delay so that the smoothed slope is unaffected         the process from thermodynamic energy require
+    by process changes with the exception of alumina        ments associated with the cell reaction and the
+     depletion.                                               events identified in item (b) above,
+   It will be appreciated that the monitored cell process       (d) calculating the heat available for dissipation in the
+operations cause significant variations in the calculated 45       cell from the cell voltage and current and from the
+resistance and the resultant resistance slope such that         continuously calculated process energy require
+the latter parameter no longer provides an accurate       ment determined in item (c) above,
+reflection of the alumina concentration in the cell. By        (e) calculating from the calculated heat available for
+delaying calculation during the process event for a 50      dissipation in (d) and from a selected target powerpredetermined time sufficient for the resistance value to          dissipation, the integral of the difference between
+again become relatively stable, and then recalculating         the heat available and the target power dissipation
+the resistance slope, an "intelligent' smoothed resistance        with respect to time to provide a running heat
+slope can be obtained, and the electrolyte/alumina mass        inventory or integral,
+balance may be maintained notwithstanding the effect 55     (f) calculating from this heat deficit or surplus in the
+of the process operation.                                             cell the change in power dissipation required in the
+  The predetermined time delay will vary having re          cell over a predetermined period to restore heat
+gard to the detected operation since different operations        balance (zero heat integral in item (e)),
+have different effects on the stability of the resistance       (g) establishing an initial target resistance for the cell
+ value. In one particular cell (Type VI design), the fol        and an allowable band for said target resistance,lowing delays have been found to be satisfactory after       (h) Calculating the required change in target resis
+completion of each operation:                               tance from the required change in cell power dissi
+                                                              pation (item (f)) divided by the square of a moving
+             Operation                    Delay                    average of the monitored cell current,
+                                                        65     (i) altering the target resistance in accordance with          ACID                 change                                         60                                                       sec.
+            Alumina                       feed                                          60                                                       sec.                     the calculated heat inventory (item (e)) and check
+           Anode set                     120 sec.                     ing that the new target resistance  is within said
+           Beam raise                   20 sec.                     allowable band, and
+
+## PDF page 16
+
+                                     5,089,093                                                                                            -
+                  5                                        6
+   (j) moving the anodes of the cell to achieve said new                                          BRIEF DESCRIPTION OF THE DRAWINGS     target resistance.
+   Preferably alumina concentration control is carried    A presently preferred embodiment of the invention
+out by continuously calculating the cell resistance, the     will now be described with reference to the accompa
+rate of change of cell resistance and by smoothing the  5  nying drawings in which:
+rate of change values to continuously provide smoothed      FIG. 1 is a diagrammatic representation of the three
+resistance slope values. Base resistance slope and criti    control functions and their interactions, as performed
+cal threshold slope for the smoothed resistance slope    by a preferred embodiment of the control system ac
+values indicate target and low alumina concentrations    cording to the invention;
+respectively,                                             10   FIG. 2 is a schematic diagram showing the test con
+  The above control process will be seen to take ac     trol system used on an operational pot;count of both the alumina mass balance of the cell and      FIG. 3 is a diagrammatic graph showing one form of
+the short term heat balance of the cell simultaneously.     alumina concentration search (SFS) and anode effect
+  The calculation of resistance slope and smoothed     prediction (AEP) performed by the system embodying
+resistance  is preferably delayed for a predetermined 15 the invention;
+time, as described further above, when any one of the      FIG. 4A is an operational graph of resistance values
+monitored cell process operations occur. Thus the resis     against time showing an alternative method of search
+tance slope and smoothed resistance slope are recalcu    ing for alumina concentration (namely underfeed/over
+lated after the predetermined time delay on the basis of    feed for point feeders) by the control system embodying
+a stabilized series of raw resistance values, so that the 20 the invention;
+smoothed slope is unaffected by process changes, with      FIGS. 4B to 4E are schematic graphs showing one
+the exception of alumina depletion.                     example of low frequency noise calculation.
+  The target power dissipation is preferably adjusted     FIGS. 5A and 5B show bath resistivity and rate of
+using bath resistivity data. The bath resistivity and the 25 change of resistivityrate of change of resistivity are calculated and used to
+adjust the target power dissipation of the cell according
+to cell response characteristics so that the cell resistivity            dp                                                                    JQTARGET,moves into a target range associated with bath composi
+tion and volume.                                      30
+  The cell voltage is preferably monitored to determine     daily mean QAVAIL and % excess A1F3 of the bath for
+the existence of low frequency or high frequency noise    two consecutive months.
+in the voltage system.                                  FIG. 5C shows bath  resistivity, QTARGET and %
+   If the low frequency voltage noise is above a prede    excess A1F3 of the bath over a one month period.
+termined threshold, the target power dissipation is in 35   FIG. 6 is a diagram showing the calculated energy
+creased in order to remove cathode sludge deposits.    impact or process energy requirement (and hence com
+The new target power dissipation value is then used in    pensating action) for feeding a test cell;
+the control of the cell resistance and hence the heat      FIG. 7 is an operational diagram showing the break
+balance of the cell.                             down of calculated energy absorbed or process energy
+  The invention also provides a system for controlling    requirement in a test cell over 24 hours;                            s
+the operation of an aluminium smelting cell comprising      FIG. 8 is an operational diagram showing the test cell
+suitable means for performing each of the steps defined    response under the control system of the invention over
+in the second aspect above.                           24 hours, and
+   It will also be noted that if low frequency voltage      FIG. 9 shows operational diagrams illustrating the
+noise is above a predetermined threshold, the smoothed 45  detail of a stop feed search for alumina control of a test
+resistance slope thresholds for low alumina concentra      cell.
+tion are raised. The critical slope threshold for one pot                                       DESCRIPTION OF PREFERREDEMBODIMENTgroup under test was 0.025 u()/min. at voltage noise
+levels below the noise threshold of 0.25 u()/min. When       In the following description, one embodiment of a
+the low frequency noise exceeds the above threshold, 50 control system under test on a working cell will be
+the base slope threshold is ramped by an amount pro    described in some detail. In describing the control sys
+portional to the amount by which the noise signal ex    tem, it will be assumed that the reader is already aware
+ceeds the predetermined threshold. The maximum in    of the operation of an aluminium reduction cell and the
+crement of the ramp is 0.05 u()/min. and occurs at a low    standard methods of monitoring cell voltage and cur
+frequency noise level of 0.50/min. The filtered slope is 55  rent, and the standard methods of calculating the cell
+again compared with the incremented threshold and if it     resistance. Accordingly these aspects will not be de
+is found to be greater than the threshold, the alumina    scribed further in this specification.
+inventory is then considered to determine whether or      Referring firstly to FIG. 1 of the drawings, the con
+not the cell is overfed.  If this determination is in the     trol system embodying the invention is shown in simpli
+negative, the control system instructs a specific form of 60 fied flow diagram form. Before proceeding with a de
+alumina feeding cycle to be effected-this is either an     tailed description of the control system, a general over
+end of search or an anode effect prediction feeding    view of the system will be provided.
+cycle.                                          -                   The aim of the control system is to maintain a cell at
+  Long term heat balance is achieved in a further con    thermal steady state. That is, the rate of heat dissipation
+trol strategy element which causes adjustment of QTAR 65 from the cell should be maintained at a constant, target
+GET, based on the data derived from the resistance mea     value. For the control system the heat available for
+surements monitoring the resistivity of the cell in the     dissipation from the cell (QD, (k)) may be defined as:
+manner described in greater detail below.
+
+## PDF page 17
+
+                                      5,089,093                  7                                        8
+                                                         the power imbalance was used to modify the target
+                                                               resistance of the cell. That is:
+where,                                       E= (Opi-OTX0.6--E-Xc                                 (2)
+Vc= cell voltage (V)                                   5
+RE=metered external  resistances (eg rods, buswork)    where,
+  (uOhm)                                              Ei=integral after with 10 minute interval (MJ)
+1 = line amperage (kamps)                            E-1=integral after (i-1)th 10 interval (MJ)
+QF = alumina dissolution power (kW)                    c=integral decay factor
+Qs=anode setting power (kW)                        O QT=target heat dissipation (kW)
+QA = power for AlF3/cryolite heating and dissolution    QDi=heat available for dissipation for ith 10 min. inter
+  (kW)                                                       val (kW)
+QM = remaining process enthalpy requirements (chemi     Cell resistance was increased for Ei <0 and reduced for
+   cal reaction for metal production) (kW)                 Eid-0. Note that a decay factor ('c') was included in
+'VC', 'RE', and 'J' can be measured readily. The various 15 Eqn (2). This was a recognition that when an energy
+components  of   the   enthalpy   of   reaction   of    imbalance in a cell persisted, the energy balance was
+(QF--Qs--QA+QM) can also be calculated quantita     partly self-correcting (ie A cell loses more heat if it gets
+tively using the thermodynamic cycle for reduction of     hotter.)
+alumina by carbon see Grjotheim and Welch, Alumin    A second additional component allowed control of
+ium Smelter Technology 1988 pp 157-161)), the amper 20 the magnitude of the various discontinuous energy re
+age 'I' and a specified current efficiency (CE). Factors     sponses. This was necessary in order to model the ther
+such as the carbon ratio and the Alf3 consumption vary    mal response of the electrolyte to localised disturbances
+significantly between plants. This will alter the calcula    or  material  additions. For example, the extra heat
+tions  used. The enthalpy components presented  in    needed at an anode after setting is supplied to the bath
+Table 1 were calculated for the applicant's Bell Bay is volume throughout the cell and may have deleterious
+smelter.                                                        effects elsewhere. Also the process engineer may wish
+                        TABLE  1.
+       BREAKDOWN OF ENERGY/POWER REQUIREMENTS OF SMELTING PROCESS
+  ENERGY                                           ENERGYAPOWER
+COMPONENT                  REACTION                 REQUIRED
+    QF                Al2O36,298k) -     G. 2Ali, D+30ais,  t)           1820 kJ/kg Al2O3     QS                                                                     1380 kJ/kg carbon
+                                           Ces, 298ko-G> Ces, T.                     (310 MJ/anode)
+     QA
+                  AlF36,298k) --> Alis, n + 3Fair                     1470 kJ/kg AlF3
+                  3(NaF)AlF36,298.0 - S 3Natais,  t) + Alis, n + 6F      420 kJ/kg cryolite
+                  Alcis,3-   T) + i3  Otis,2-  D + -i-3   Ces D->                (0.4352 + 0.01138X)l kW
+    QM            Al(1, T) +  3  (2 -    )CO2(g T) --  3 (  - 1)CO(g T)
+N.B. Current Efficiency = x (%), Line Current =  1 (anps), T = 1293K
+  Note that the CE specific for the control system was
+made based on tapping history.                        45 to reduce the amount of anode beam movement by
+  The time over which energy is consumed by an indi    damping the cell response to individual events. As a
+vidual process event must be defined in addition to the     result, coefficients (range 0 to 1) were introduced to
+amount of energy consumed. In the control system this    tune the instantaneous  calculations (thus system re
+was achieved by distributing the total energy require     sponses). Energy requirements for feed, setting and
+ment of setting, feed or additions over predefined peri 50 additions were divided into instantaneous and back
+ods. FIG. 6 illustrates the feed energy distribution for a    ground (constant) power inputs. The various back
+Bell Bay breaker bar cell. Note that the energy balance    ground power inputs were calculated from:
+was integrated over each 10 minute period and con     (1) Feed-line amperage, CE (monthly average).
+verted to power units.                                          (2) Additions-line amperage, CE, addition rate per kg
+  In addition to the calculations in the previous section, 55   of metal (monthly average).
+other components were required for the application of     (3) Anode Setting-anode size, number of anodes, set
+the control strategy in practice.                              ting "rota'.
+   Firstly, the dynamics of the reduction cell and con     The final necessary component of the control system
+trol system meant that maintaining an "instantaneous'    was a feed control technique which permitted regular
+energy balance was not possible. For example, during    anode beam movement while monitoring alumina con
+cell trials the energy absorbed by a cell was calculated    centration-thereby allowing the cell energy balance to
+over ten minute intervals and anode bean movements    be always under control. Search techniques were devel
+were carried out at five minute intervals. Hence re    oped with these functions, where the target alumina
+sponses to events were delayed by up to 15 minutes.    concentration was detected via a continuously calcu
+ Further the rate and range of target resistance changes 65  lated slope of resistance. No scheduled anode effects
+were limited, and the line current variation for subse    (AEs) were included in the feed control strategy. The
+quent ten minute periods did not allow accurate elimi     associated large, uncontrolled energy inputs to the pro
+nation of an energy imbalance. As a result, an integral of    cess would have been in conflict with the control phi
+
+## PDF page 18
+
+                                      5,089,093                                                           10
+losophy, and are difficult to compensate for in the ther                                                             Si=S(1-yl)-ySi-                      EQ 5mal balance.
+  Referring again to FIG. 1 of the drawings, the con                                                where yi is the pre-set filter constant of the ith stage. Introl system has three basic strings, the first two affectingthe short term heat and mass balance of the cell, and the  5  the case of one pot under test, typical filtration con
+third affecting the medium to long term heat balance of     stants are 0.100, 0.050 and 0.095 for y1, y2 and y3 respec                                                                    tively.the cell. The control system is implemented using a                                               The above  operations adequately  filter high frecomputer for monitoring the functions of the cell or pot
+(pot computer), such as a Micromac 6000 computer    quency noise from the resistance signal to produce a
+suitable for the aluminium industry, and a supervisory 10  realistic filtered slope (with some lag from the three
+computer for receiving data from each of a number of    stage filter). In addition, a delay mechanism (discussed
+pot computers and for instructing the pot computers to    above) is included in the calculations to remove the                                                                 effects of pot operations on the slope, including:perform various functions.
+   Initial input data to the computers includes target      (i) break and feed (normal cycles, AEP')
+heat dissipation QT, the specific current efficiency CE 15  (ii) anode movement
+for the cell being controlled, the bath resistivity target       (iii) bath additions
+range for the cell, thermodynamics data, as described in     (iv) tapping'
+greater detail above, relating to the cell and a "typical'     (v) anode setting"
+back emf (EMF) of the cell calculated by regression in     (vi) beam raising"a known manner.                                     20   Slope calculations are stopped during these opera
+  The essential operating parameters of the cell are     tions, and for a pre-set period afterwards. Near the end
+dynamically monitored, and these parameters include:    of these delay periods, the first stage filtered resistance
+the voltage of the cell V, the current of the cell I, alu   (R) is re-set to the mean of a specified number of raw
+mina additions, cell bath additions, operations such as     resistance values. For the cases marked ', S1 to S3 are
+anode setting, beam raising, manual alumina addition 25  also zeroed. In the case of the pot under test, the respec
+and oreing up, and anode to cathode distance (ACD)     tive delays following each of the above operations are:
+movements. From these dynamic inputs, the resistance       i) 60 seconds
+(R) of the cell is continually calculated from (V-EMF       ii) 120 seconds
+)/I, and the cell resistivity p is calculated from (6 R/6 30  iii) 300 secondsACD)A, where A is the estimated area of the anodes in     iv) 10 minutes
+the cell.                                                  v) 120 seconds
+                                                                   vi) 120 seconds
+   CONTROL STRING 1: ALUMINA FEED          Delay periods associated with other operations in
+            CONTROL                          clude: When the pot is put on "manual" for any reason,
+   In the first control string, the pot computer calculates 35 a delay of 30 seconds is introduced.
+the level of noise in the voltage signal, 0 to 0.1 Hz indi     When alumina is manually added, a delay of 120
+cating low frequency noise and 0.1 to 1 Hz indicating    seconds is introduced.
+higher frequency noise, and further calculates the fil       Similarly when oreing-up is performed, a delay of 60
+tered rate of change of resistance with time (smoothed    seconds is introduced.
+resistance slope) every second. The basic steps in the    A pre-set delay is also implemented when step ii) of
+ filtered slope calculation for each time cycle are:          the slope calculation fails to give in-range slopes on a
+ (i) Raw Resistance Slope Calculation.                    given number of consecutive tests. This is intended to
+  Raw slope is calculated from the following equation:     trap the gross resistance disturbances not initiated/ex
+                                                     45 pected by the pot computer (e.g. sludging may cause an
+     Sor (Ro-R)/(At(1-1/y))                 EQ (3)    unpredictable resistance response).
+                                                               Different cells will require different delays depending
+ where                                          on their operational characteristics and specific bath
+ So= raw slope at (t--At)                                volumes, and the delay involved for each operation will
+ Ro= raw resistance at time (t+At)                     be empirically determined by a skilled operator for R=single stage filtered resistance at time t                                                          input into the pot computer. At=time interval of resistance polling                                       Two alumina search techniques are available on the y=filter constant for filtered resistance (R1).                                                          system, stop feed search (SFS) and feed search (FDS). It should be noted that the denominator in EQ (3) above                                                   Both techniques terminate search on a threshold value represents the mean age of the filtered resistance (R).                                                         55 of increasing resistance slope, implying low end point (ii) Box filter for out of range raw slopes:                                                      alumina concentrations and both techniques allow heat  The raw slope is checked to determine if it is within                                                        balance  regulation  (anode  movement)  during  the the present box filter limits. If this test fails, no further                                                            search. The special features of each are described be calculations are made in this cycle-the slope value is                                                         low. assumed not to be associated with changes in alumina                                                     60     i) SES concentration. In the case of the pot under test, the box                                                       This technique is essentially a stop feed during which filter limits were -2.0 and 2.0 micro-ohms/minute.                                                          the filtered resistance slope is checked every second for (iii) Filtered resistance is recalculated (for use in the                                                                                                                                                              • values above the critical slope (critslope) indicating next time cycle).                                                       alumina depletion. Once the critical slope is attained on
+       R1 = R (1-yl)--y1Ro                     EQ 4 65 a sufficient number of consecutive readings, search is
+                                                        terminated by initiation of an end of search feed fol
+ (iv) A three-stage filter is used to find the filtered resis    lowed by the resumption of the previously nominated
+ tance slope (called smoothslope). For the ith stage:        cycle (see FIG. 3).
+
+## PDF page 19
+
+                                      5,089,093                    11                                      12
+  The search can also be terminated (classed an unsuc    tance changes due to operations like setting, tapping
+cessful search) under the following circumstances:        and bath additions are removed by the filtered slope
+  Cancelled due to time limitation (max search time).      calculation. However, resistance changes due to metal
+  Cancelled due to anode setting, tapping, oreing-up,    pad instability are included in the filtered slope. Hence
+    bath additions.                                      the pre-set AEP slope  is increased if excessive low
+  Cancelled if cell is switched to MANUAL.            frequency noise is detected, as discussed further below,
+  The unique features of the SFS with respect to the     to reduce the likelihood that the system will trigger an
+present invention are:                       AEP feeding cycle due to low frequency noise. It will
+    1. the ability to monitor and interpret the resistance    be appreciated that low frequency, cyclic voltage varia
+     slope through all phases of the search.             10 tions (of less than one cycle per second) are sometimes   2, the ability to move the anodes freely through all    observed due to instability in the liquid aluminium pad.    phases of the search.                         The rates of resistance increase associated with these
+   3. the crit slope in the search  is a function of the    cycles can, in the case of severe instability, exceed the    voltage noise in the cell.                                                              resistance slope thresholds above, triggering alumina  The SFS technique has been applied to both breaker 15                                                         feeding when this is not warranted. To guard againstbar and point feed cells.                                                                   this occurrence the slope thresholds for both end of   ii) FDS                                               search and AEP are increased by a predetermined  This is a more complex search procedure but one                                                amount when low frequency voltage noise is detectedwhich has the potential for fine alumina concentration                                                     20 above a certain amplitude (in micro-ohms). The criticalcontrol on point feed cells. The strategy involves fol                                                          slope threshold for one pot under test was 0.035 u)/-lowing resistance slope before and during underfeeding                                                          min. and the voltage noise threshold was 0.25 u2/min.and overfeeding periods until a target alumina concentration is achieved.                           When the low frequency  noise exceeds the above                                                            threshold, the critical slope threshold is ramped by an  The stages of the searching routine are as follows:                                                        25 amount proportional to the amount by which the noise   (a) After commencement of searching, the filtered                                                               signal exceeds the predetermined threshold. The maxi     resistance slope is monitored for a short time per                                     mum increment of the ramp is 0.05u)/min. and occurs     iod and compared with a parameter, base search                                                               at a low frequency noise level of 0.50 u)/min. The     slope, near the minimum point on the resistance                                                                   filtered slope is again compared with the threshold and    time curve in FIG. 4A. The objective is to adjust    alumina concentration to this base level.          30  if it is found to be greater than the threshold, the alu
+                                                    mina inventory is then considered to determine whether   (b) As the alumina concentration of the cell de
+     creases, the resistance slope increases from a nega    or not the cell is overfed. If this determination is in the                                                            negative, the control system instructs an AEP alumina     tive value up to the value of the base search slope.    Thus slopes more negative than base search slope    feeding cycle to be effected. The operation of AEP can
+     indicate a higher than "base-level' alumina concen 35 also be stopped for a defined period after an AEP pre
+     tration and are actioned by changing to X% under     diction as further protection against excessive AEP
+     feed. Slopes more positive than base search slope    triggered feeds during periods of cell instability.
+     indicate a lower than base-level concentration and      Both high and low frequency noise calculations are
+     cause a y% overfeed cycle to begin.                performed continuously in this module. While the high
+   (c) When the  filtered  slope passes through base    frequency  calculation, is a simple    1  Hz, minimum
+     search  slope (or the under/overfeeding period    R/maximum R relationship, the low frequency charac
+     times out-whichever is first), a feedrate of X%      teristic needs further explanation and this is given be
+    underfeed  is selected  for the remainder of the    low.
+     search period.                                                      45  LOW FREQUENCY NOISE CALCULATION   (d) The filtered slope is then monitored until its value
+     increases positively to target search slope. At this     The main function of the low-frequency noise calcu
+     stage the alumina concentration has been adjusted     lation is to detect noise generated by metal pad instabil
+     to its target operating level. FDS is terminated and      ity. In this novel formulation, a group of consecutive
+     the previously selected (nominal or fixed) feedrate     resistances are summed, then averaged. A ring buffer
+      is resumed immediately.                          50 containing a time sequence of these averages are then
+  By gradually increasing base search slope towards    stored for some period of time (usually less than 2 AVC
+the target value (target search slope), it is possible to     periods). FIG. 4B is an example of the resulting data in
+minimize the absolute variation in alumina concentra    a computer; essentially it is a resistance vs time plot
+tion during FDS under point feeding of alumina. Addi    with the high-frequency noise removed. The low fre
+tionally,  if the percent under and overfeed are de 55 quency noise is the sum of absolute differences in adja
+creased to small values (such as 10%), the proportion of    cent resistance averages minus the absolute difference
+time spent on search will increase-allowing very close    between the newest and oldest averages, divided by thefeed control for most of the operation.                   time interval.
+ ANODE EFFECT PREVENTION MECHANISM                                                            60
+  Anode effect prediction (AEP)  is provided by a         i.e. NOISE =
+check on the filtered  resistance slope every second        k
+during normal feeding of the cell (FIG. 3). If it exceeds                     i. A Ri - AR-1 - A Ro - ARK   co - t)a pre-set AEP slope an AEP feed cycle is initiated im
+ mediately to avoid an anode effect.                     65
+  This high resistance slope results from the critical    where ARiis the average resistance at time ti Examples
+depletion of alumina concentration in the cell during    of idealized curves and their noise are shown in FIGS.
+periods when alumina searching is not occurring. Resis   4C to E.
+
+## PDF page 20
+
+                                      5,089,093                  13                                       14
+  The calculation of noise with the addition of each    diagram and then updated imbalance is integrated and
+new mean resistance (and the elimination of the oldest    converted directly into a AR and an RTARGET using the
+resistance) requires less calculation time than standard    average value of amperage and the previous target
+noise calculations. In the case of one test pot trial the     resistance respectively.
+mean resistances are calculated over 10 seconds, and 30     As mentioned earlier, resistance regulation maintains
+values (5 minutes history) are stored.                          cell resistance at or near the target value calculated in
+                                                          the heat balance program. Also, as will be discussed,
+ CONTROL STRING 2: SHORTRANGE HEAT     anode movements do not in any way affect the mechan
+         BALANCE CONTROL                       ics offeed control on the cell. Functionally, the implica
+  In the second control string the heat supplied and the 10 tions of these strategy requirements are as follows:
+heat required for aluminium production are calculated         i) resistance regulations is prohibited on three occa
+from the dynamic inputs described above (cell voltage         sions only:
+and current, alumina additions, bath chemistry addi        during beam raising
+tions, operations and anode movements) and the heat        during anode setting
+available (QAVAIL) for dissipation by the cell  is also  15     during tapping when TVC is operative.
+calculated. The difference between available heat and          ii) resistance regulation frequency is increased so that
+the previously determined target heat (QT) is integrated         the interval between resistance regulation  is re
+with respect to time and from this integral a running        duced to five minutes or less.
+heat inventory  is  calculated. The  target  resistance          iii) The proportionally constants for resistance regu
+(RTARGET), derived in the manner described above 20       lation buzz time (decisec/micro-ohm) are set as
+from QTARGET, is regularly updated on the pot com         close as possible to the reciprocal product of resis
+puter to adjust the heat balance of the cell to minimize        tance/cm of ACD and beam speed (up or down).
+the imbalance represented by the heat inventory inte        This ensures that one resistance regulation attempt
+gral. The target resistance must lie between the speci       moves the resistance to its target value-climinat
+fied minimum and maximum allowable limits. These 25      ing kilowatt errors from this source.
+limits are, for example, 32-40 u(), for a typical pot       iv) The dead band for resistance regulation is tight
+under test, i.e. a band of about 6 to 8 u). If the average        (-0.20 micro-ohm).
+actual resistance over the resistance regulation (AVC)period is significantly different (outside a specified dead   CONTROL STRING 3: MEDIUM-LONG RANGE
+band) from the new target resistance, the pot computer 30       HEAT BALANCE CONTROL
+then issues a beam raise or lower signal to move the cell      In the final control string, long term heat balance
+resistance back into the dead band. This instruction is    control is used to continually update the target power
+limited to a pre-set amount (AR max.).                      dissipation QTARGET through trends in bath resistivity
+   If the updated  resistance target consistently  falls     data. This prevents longer term changes in bath thermal
+above or below one of the allowable limits, disallowing 35 conditions and chemistry which occur through break
+the regulation of resistance as described above, the   down of ore cover, changes in current efficiency or
+operating amperage, ore cover level, or bath and metal    amperage, and variations in anode carbon quality with
+levels are reviewed so that a more flexible region of the     respect to reactivity, thermal conductivity and anode
+operating envelope can be chosen for the cell.             spike formation.
+  The set point, RTARGET, is updated at regular inter 40   Bath resistivity data is used to detect all chemistry
+vals on the basis of short range heat balance calcula    and thermal conditions in real time.
+tions. The short range calculations require the follow      Bath resistivity is calculated at approximately hourly
+ing information:                                                                                                                       w               intervals, using controlled beam movements, with beam
+  Real time clock-for scheduling and  distributing    movement measured in the usual manner by a shaft
+     intermittent power absorbed functions during op 45 COInter.
+     erations.                                          Using the average change in cell resistance before
+  V, I, R-one minute average voltage, current and    and after the bean movement sequence, bath resistivity
+     resistance.                                                         is calculated from the known relationship.
+  PCELL-Cell Power input (heat balance interval av
+     erage).                                           50                  peff ACD
+   Current efficiency-based on cumulative metal tap.          rror - -  - + XRFIXED  Software switches-indicating commencement of a
+      cell operation.                                                                                                                                                                              w            5R . A
+  Alumina dump counters-metering alumina actually          Thus bath resistivity peff = ScD
+     fed to the cell.                                      55
+  PABSORB-power absorbed calculation This informa     XRFLYED is the sum of the contribution of resistance
+     tion is used to calculate three parameters:             values due to ohmic effects and possible reaction de
+  QawaiiL-The available power dissipation over the    composition effects. This value is assumed to be con
+     previous period.                                         stant for changes in ACD.
+  R-The average actual cell resistance over the previ     A4 is the nominal area of the anode and is assumed to
+    ous period.                                     be constant
+  I-The average cell amperage over a longer time    6ACD is measured using the shaft counter
+     period (default period is one hour).               8AR is the difference between cell resistance before
+  The calculated value of the available power dissipa    and after the 20 decisecond buss-up.
+ tion is compared to the target value for the cell and the 65   The bath resistivity and its rate of change is a good
+ thermal imbalance AQ obtained. (The target value     indication of the concentration of AlF3. There is a lag(QTARGET) is initially determined from a steady-state    time between a rise in % XS AlF3 and a rise in bath
+computer thermal model prediction and cell operating     resistivity. This characteristic depends on liquid bath
+
+## PDF page 21
+
+                                      5,089,093                   15                                       16
+volume, anode and cathode condition, and other pot
+characteristics. Freezing in a cell occurs when the bath         QTARGET=225 kW
+super->heat drops below a certain level and is identi
+fiable by an increase in % XS AlF3. After taking the lag         RTARGET=35.65 us)
+time into consideration, if the bath resistivity is increas  5                                             However RTARGET will change every ten minutes by Ring to a level where electrolyte freezing and increases in                                                             as the PABSORB term is continuously recalculated ac% XS Alfs are occurring, the QTARGET is adjusted in                                                      cording to pot requirements (feeding, anode settingthe system so that more power is supplied to the cell.
+This causes a greater rate of heat dissipation through      etc.).                                                  FIGS. 5A and 5B show selected pot parameters overthe electrolyte and increases its superheat, reducing its 10                                                  2 months operation of a reduction cell, with constanttendency to freeze. The response must be tuned to the                                                QTARGET. The % XS A1F3 varied significantly overlag time of the resistivity measurement as well as to the                                                                   this period and p andQDISS/Superheat relationship, so that QTARGET does
+not overshoot its correct value.
+  The initial or starting value for the targetheat dissipa 15        dp
+tion QT is derived as follows.                                             dt
+  Thermal model calculations (Finite element prediction of isotherms and flows within the cell in question)    are seen to be good indicators of this. Twice during theare used to determine the steady-state level of heat loss    period shown, manual increases to the power input
+required from a particular cell design (e.g. the test pot 20 were made to increase the cell superheat and reduce the
+referred to above is a Type VI cell design and requires  % XS AlF3 (times 'B' and 'C'). In both cases high val
+220-230 kW depending on metal  level and alumina    ues of p and
+cover). This target or "design heat loss' is QCELL.
+  The process energy requirement for aluminium pro           dp
+duction can be calculated in a known manner for the 25          dt
+cell once the line amperage is known:
+
+     PABSORB = PooNTINUOUS + PINTERMITTENT
+                                                                   PAE                             I
+              ZF  (a + b    ... CE)  { PFEED + PSETTING + PADDITIONS +   o ideally
+
+   In Table  1 this is calculated to be 1.956 Volts»   at 35 were evident before manual intervention.
+95% current efficiency (CE) for a typical test cell at      Such observations resulted in the development and
+ Bell  Bay  (At 90%  efficiency  this  figure  is  1.841     testing of a closed-loop control system in which the
+Voltsx 1).                                                   target energy input to the cell (QTARGET) was changed
+  Adding to  this the power loss from the bus bar    based on p and/or
+around the cell:                                    40
+                                                                  dp
+     REXTERNALXI                                                             dt
+we have the total power input required for the cell:                                                 For the 1 month period in FIG. 5C control of QTARGET
+             TABLE  1                      45 was based on p only. (Both the manually set 'nominal'
+At 1 = 87 kA;    PTOTL =  70.2 kW -- 225 kW -- 18.2 kW      QTARGET and 'actual' QTARGET are shown in this Fig
+ and 95% CE          = 413.4 kW  REXT = 2.4               ure.) Note that the high 9% XS AlF3 on days 4, 11, 19
+ on Pot under test                   QCELL = 225 kW        and 29 correspond with high p values. The resultant                                                                     -                                V4BSORB = 1.956 V       increased power inputs controlled the high% XS AlF3       PTOTAL = PABSORB + QCELL +                                 PEXTERNAL          = VABsoRBI + QCELL + REYTERNAL.I’      50 excursions, making manual intervention unnecessary.
+                                               SYSTEM TESTING
+ This power input equates to a cell voltage of                                                        Frequent VAvC action maintains the actual resistance
+                                                           close to the continually updated target value, and the
+      VTOTAL    PTOTAL/                                55 magnitude of its allowable resistance changes are speci
+                     4.75 V                                        fied as a heat balance parameter-within absolute resis
+                                                        tance  limits as discussed  earlier. More importantly,
+                                 AVC will not be disallowed during operations unless itThis cell voltage equates to a target (initial) cell resis tance of                                                                 is physically unreasonable to perform bean movement.                                                  These occasions are during tapping, anode setting and
+                                              beam raising.
+     RTARGET =  (VTOTAL - 1.65)/I                   An extended  trial of the above described control
+                       35.65 u)                               system has been made on a group of cells at one of the
+                                                              applicant's smelters. For the trial the CE and "QT for
+ Typically this resistance will be used as a back-up or 65 each cell were selected based on long-term data com start-up value on the pot computer. It will also lie in the    puter modelling and cell condition. It should be noted
+ mid-range of the allowable target resistance band. Ini     that cell condition fluctuates due to factors such as cell tial Settings are therefore:                               ore cover, seasonal temperatures, alumina properties,
+
+## PDF page 22
+
+                                      5,089,093                  17                                       18
+bath composition and cell age. Hence the parameters     Typically, a bath temperature change of only +/-4C
+should be updated on a regular basis.                 was measured during SFS. While there is some fluctua
+  Calculation of the power absorbed for the control     tion in the dynamics of the resistance slope, the underly
+system used the following hardware inputs:               ing trend and threshold values were reliable. The SFS
+  voltage and amperage (1 Hz)                          technique achieved good feed  control, consistently,
+  a switch to indicate anode setting (at cell)             with (0.3 AEs/day.
+  keyboard input for bath additions in kg (adjacent to     The trial results demonstrate a number of inherent                                                      advantages in the control system. Since the energy      cell)
+  keyboard input for manual alumina addition and ore    requirements were calculated from basic information    ing-up                                             10  (e.g. line amperage, alumina dumps, thermodynamic
+  The results presented in FIGS. 7 and 8 show the     data), changes to the operating environment were ca
+behaviour of a cell under the control system over 24    tered for automatically. If a variation in potline amperhours.                                              age occurred, the control system automatically adjusted
+  FIG. 7 shows the calculated heat absorbed by the    the resistance targets of the cell. The mean resistance at
+cell, broken down into it's four operational components.  15 which the cell operated over longer periods were also
+Fluctuations in the power required for reaction (metal    varied if the long-term amperage was changed. Simi
+production) (FIG. 7a) were due to line amperage varia     larly, any decision to change the number of dumps for
+tions. The power absorbed by alumina feeding (FIG.    each feed, the timing of SFSs or the number/size of
+7b) had a strong cyclic pattern. This pattern is accentu    anodes set was catered for easily. Fundamentally, this
+ated because the alumina searches (SFS) included cessa 20 was due to the control system being based on the realtion of feeding (for the day shown). FIG. 7c shows the    operating target and component energy requirements of
+effect of replacing two anodes. For setting, the energy    the smelting process rather than the loss direct measures
+distribution was spread over 5 hours; this was based on    of target voltage or resistance. This same mechanistic
+trial data and computer modelling of the heat absorbed    approach can also reinforce the understanding of the
+by the new blocks. FIG. 7d includes the energy input 25 process for those operating it.
+for a 15 kg bag of A1F3. Note that 50% of feed power,      There are, of course, some practical constraints im
+50% of setting power, and 20% of the additions power    posed on the control system by the process. If the pot
+were supplied as constant background inputs, while the     line amperage is reduced significantly for a sufficient
+remainder in each case was triggered by the respective     period, each cell will experience a substantial energy events.                                              30  deficit. Thus all cells in the potline will attempt to oper
+  The calculation of the total absorbed energy is shown     ate at their maximum target resistance simultaneously.
+in FIG. 8a. FIG. 8b shows the power available for   The potline voltage may then exceed the rectifier limits.
+dissipation from the cell as heat (Eqn 1). Note the target    This problem can be overcome by including safety
+dissipation rate of 240 kW for this cell. The target and     factors in the control system which limit the closure of
+calculated actual heat dissipation clearly show the heat 35 energy balance attempted under extreme potline condi
+ deficit/excess in FIG. 8c. The cell had an energy imbal     tions. On an individual pot basis there may also be varia
+ance for periods up to 2 hours. This was primarily due     tions in heat dissipation, current efficiency and the in
+to the power input constraints imposed by the cell resis     tegrity of the top cover/crust, requiring individualiza
+ tance control band. FIG. 8d shows the control band of    tion of the QT targets for each cell.
+ 32.5 to 38 uOhm used over the 24 hour period. Anode 40   The control system embodying the invention main
+beam movements are clearly larger, and more frequent,     tains a target rate of heat loss from a reduction cell via
+ than for control systems previously reported  in the     calculation of the energy absorbed by the process. The
+ literature. This reflects the extent of thermal distur      trial results show that the system made regular anode
+bance which is imposed on most reduction cells in a    beam movements while maintaining good thermal bal
+ single day.                                            45 ance on the cell. The control system described here is a
+   FIG. 9 illustrates the behaviour of the alumina feed    building block for the optimization of reduction cell
+ control component of the system during a typical, suc     efficiency via understanding and reducing variations in
+ cessful stop feed search (SFS). (The search period is    the cell thermal balance.
+ marked in FIG. 8d.) One minute averages of anode     The overall configuration of a typical control system
+ cathode distance (ACD), cell resistance and slope of 50  is shown in FIG. 2. The physical location of each con
+ resistance are shown. The centre channel bath tempera     trol module on the system in this implementation has
+ ture, measured at ten minute intervals, is also presented.    been determined by the computing power available at
+ The change in ACD was transduced using the rotation    the pot computer and supervisory computer levels re
+ shaft counter (proximity switches) on the anode beam     spectively. Thus the more complex heat balance control
+ drive shaft. The resistance slope (FIG. 9d) was zeroed 55 module has been placed on a Microvax supervisory at the start and end of the SFS; the end of search slope    computer. This also has the advantage of providing an
+ was 0.025 uOhm/min. The search lasted approximately     interactive human interface to the control function for
+ 90 minutes, and there was substantial beam movement     diagnostics and further development. As a general strat
+ throughout. The high resistance/ACD at the start of    egy, however, all essential control functions in a distrib
+ searching was due to the energy requirement of a 23 kg 60 uted potline system should be located at the lowest
+ alumina feed immediately beforehand. Once this energy     intelligent level-the pot computer in this case-so that
+ was supplied, the control system reduced the power   maximum safety and redundancy can be built into the
+ input. The control approach allowed long SFSs to be    system.
+ scheduled without the bath temperature or superheat     The computer control functions detailed in FIG. 2
+ increasing substantially. This allowed back-feeding and 65 will be recognised by persons of skill in the art and since
+ depletion of alumina to the target level. The stable bath   many of the functions are not critical to the invention,
+ temperature is clearly shown in FIG.9c, although there    they will not be further described in this specification.
+ was a temperature fall caused by the feed before SFS.    We claim:
+
+## PDF page 23
+
+                                      5,089,093                  19                                     20
+   1. A process for controlling the operation of an alumi        6. The process of claim 4, wherein said low frequency
+num smelting cell, comprising the steps of:                noise has a frequency less than 0.1 Hz.
+   (i) continuously monitoring cell voltage and current,         7. A process for controlling the operation of an alu
+   (ii) calculating the resistance of the cell from the    minium smelting cell comprising the steps of:
+    monitored cell voltage and current,                5     (a) maintaining the mass balance of the cell at a prede
+   (iii) calculating the rate of change of cell resistance        termined level by calculating and monitoring a
+     (resistance slope) and a smoothed value of resis        smoothed rate of change of the resistance of the
+    tance slope, by calculating a raw resistance slope,          cell to detect a predetermined slope threshold in
+    checking to determine whether the raw slope value         dicative of low alumina concentration in the cell,
+      falls within predetermined  limits,  rejecting any 10     and
+    values falling outside such limits, and calculating a       (b) maintaining the heat balance of the cell by
+     filtered resistance slope;                                                   (i) calculating a target heat dissipation for the cell;
+   (iv) maintaining the mass balance in the cell by utiliz             (ii) calculating the heat available for dissipation by
+    ing the smoothed resistance slope values,                    the cell;  (v) monitoring cell process operations, including alu  15         (iii) calculating a running heat inventory from the
+    mina additions, electrolyte bath additions, anode            integral of the heat available minus the target
+    changes, tapping, beam raising and anode beam            heat, and
+    movement,                                                      (iv) modifying a target resistance value for the cell   (vi) delaying the calculation of resistance slope and           to achieve a substantially zero heat integral in    smoothed resistance slope for a predetermined time 20                                                                   step  (iii) by moving the anodes of the cell to   when any one of said monitored cell process opera                                                             achieve said new target resistance.
+     tions occurs, and                                               8. The process of claim 7, further comprising moni   (vii)  recalculating  said  cell  resistance  slope and                                                          toring cell operations including alumina dumps,  cell    smoothed resistance slope after said predetermined                                                        25 bath additions, process operations and anode move    time delay so that the smoothed slope is unaffected                                                  ments and delaying the calculation of the smoothed rate    by process changes with the exception of alumina                                                     of change of resistance in the cell for a predetermined     depletion.                                                       time when any one of said cell operations takes place,   2. The process of claim 1, wherein step (iv) includes                                                  and recalculating said smoothed resistance slope afterthe step of searching the smoothed resistance slope for                                                              said predetermined time delay so that said smoothedvalues exceeding a predetermined slope chosen to indi 30                                                         slope is unaffected by process changes with the excepcate alumina depletion.                                                              tion of alumina depletion.   3. The process of claim 1, wherein said raw resistance                                                                         9. The process of claim 7, wherein the voltage orslope is calculated at high frequency.
+   4. A process for controlling the operation of an alumi     resistance of the cell is monitored to detect the presence                                                  of low frequency noise in the voltage signal, and in thenum smelting cell, comprising the steps of:             35                                                       event that the low frequency noise in the voltage signal    (i) continuously monitoring cell voltage and current;                                                                               is above a predetermined threshold, the slope threshold    (ii) calculating the resistance of the cell from the                                                             for low alumina concentration detection is increased by    monitored cell voltage and current;                                                        a predetermined amount.    (iii) calculating the rate of change of cell resistance                                                                   10. The process of claim 9, wherein said low fre     (resistance slope) and a smoothed value of said                                                  quency noise has a frequency less than 0.1 Hz.     resistance slope;   (iv) maintaining the mass balance in the cell by utiliz        11. The process of claim 7, wherein the resistivity of
+     ing the smoothed resistance slope values;             the cell bath is calculated and the resistivity and rate of   (v) monitoring cell process operations including alu    change of resistivity with time are monitored to detect
+    mina additions, electrolyte bath additions, anode 45 values greater than predetermined limits indicative of
+     changes, tapping, beam raising and anode beam    the cell superheat being out of range, and adjusting the
+    movement;                                             target heat dissipation of the cell to return the cell su
+   (vi) delaying the calculation of resistance slope and    per-heat to within a predetermined range.    smoothed resistance slope for a predetermined time        12. The process of claim 9, further comprising the
+    when any one of said monitored cell process opera 50 step of determining whether the low frequency voltage
+     tions occurs,                                          noise in the cell is above a predetermined threshold, and
+   (vii)  recalculating  said  cell  resistance  slope and      if so increasing the target power dissipation in the con
+    smoothed resistance slope after said predetermined     trol of the heat balance of the cell to remove cathode
+     time delay so that the smoothed slope is unaffected    sludge deposits.
+    by process changes with the exception of alumina 55    13. The process of claim 7, wherein said raw resis
+     depletion, and                                       tance slope is calculated at a high frequency.
+    (viii) contiuously monitoring said cell voltage or re        14. A process for controlling the operation of an
+     sistance to determine the existence of low fre    aluminium smelting cell, comprising the steps of:
+    quency noise in the voltage signal, determining        (a) monitoring the cell voltage and current,
+    whether said low frequency voltage noise exists       (b) monitoring alumina additions to the cell, monitor
+    above a predetermined threshold, and increasing         ing other additions to the cell bath and monitoring
+     the smoothed  resistance slope threshold  in the         operational changes such as anode movements,
+     event that said low frequency noise is above said         tapping, anode setting and beam raising,
+     predetermined threshold.                                   (c) continuously calculating the resistance of the cell,
+   5. The process of claim 4, wherein said smoothed 65    (d) continuously calculating the rate of change of cell
+ resistance slope threshold  is increased along a ramp          resistance, and smoothing the rate of change values
+having a maximum increase in resistance slope thresh        so calculated to continuously provide smoothed
+old not exceeding a predetermined value.                       resistance slope values,
+
+## PDF page 24
+
+                                     5,089,093                 21                                     22
+  (e) continuously monitoring cell voltage or resistance       17. The process of claim 14, wherein said raw resis
+    to determine the existence of low frequency noise    tance slope is calculated at a high frequency.     in the voltage signal,                                        18. The process of claim 14, wherein said low fre
+  (f) continuously calculating the energy absorbed by    quency noise has a frequency less than 0.1 Hz.    the process from thermodynamics and the events  5     19. A system for controlling the operation of an alu
+    identified in item (b) above,                    minum smelting cell comprising:  (g) calculating the heat available for dissipation in the         (i) means for continuously monitoring cell voltage
+    cell from the cell voltage and current and from the        and current,    continuously calculated process energy require         (ii) means for calculating the resistance of the cell
+   ment determined in item (f) above,                  10     from the monitored cell voltage and current,  (h) establishing a base threshold and a critical thresh          (iii) means for calculating the rate of change of cell
+    old for said smoothed resistance slope value indi          resistance (resistance slope) and a smoothed value    cating target and low alumina concentrations re        of said resistance slope,    spectively,                                                   (iv) means for utilizing the smoothed resistance slope
+  (i) determining whether low frequency voltage noise  15      values to maintain mass balance in the cell,                                                                (v) means for monitoring cell process operations in    exists above a predetermined threshold and in                                                          cluding alumina additions, electrolyte bath addi    creasing the smoothed resistance slope threshold in                                                                       tions, anode changes, tapping, beam raising and    the event that said low frequency voltage noise is
+   above said threshold,                                anode beam movement,  (j) calculating the alumina inventory of the cell from 20    (vi) means for delaying the calculation of resistance                                                             slope and smoothed resistance slope for a predeter    the monitored alumina additions,  (k) determining whether the smoothed  resistance        mined time when any one of said monitored cell    slope is greater than the predetermined threshold         process operations occurs, and   and if so determining whether the cell has been        (vii) means for recalculating said cell resistance slope                                                         25     and smoothed resistance slope after said predeter    overfed from the calculated alumina inventory,   and if not causing an alumina feed to occur,            mined time delay so that the smoothed slope is                                                             unaffected by process changes with the exception   (l) calculating from the calculated heat available for    dissipation and from a selected target power dissi        of alumina depletion,    pation, the integral of the difference between the         (viii) said means for continuously monitoring said cell
+    heat available and the target power dissipation 30      voltage or resistance being utilized to determine    with respect to time,                                    the existence of low frequency noise in the cell  (m) calculating from this heat deficit or surplus in the         voltage signal, and     cell the change in power dissipation required in the        (ix) means for determining whether said low fre                                                     quency voltage noise exists above a predetermined     cell over a predetermined period to restore heat                                                         35      threshold, and increasing the smoothed resistance    balance (zero heat integral in item (1)),  (n) establishing an  initial target resistance and an         slope threshold in the event that said low fre                                                      quency voltage noise is above said threshold.    allowable band for said target resistance,   ... (o) Calculating the required change in target resis       20. The process of claim 19, wherein said low fre
+    tance from the required change in cell power dissi    quency noise has a frequency less than 0.1 Hz.                                                      40    21. A system for controlling the operation of an alu    pation (item (m) divided by the square of the mov                                                minium smelting cell comprising:    ing average of the cell current,  (p) altering the target resistance in accordance with        (a) means for maintaining the mass balance of the cell                                                                    at a predetermined level by calculating and moni    the calculated heat inventory (item (o)) and check    ing that the new target resistance  is within said         toring a smoothed rate of change of the resistance                                                      45     of the cell to detect a predetermined slope thresh    allowable band, and  (q) moving the anodes of the cell to achieve said new         old indicative of low alumina concentration in the
+     target resistance.                                                    cell, and
+   15. The process of claim 14, further comprising the       (b) means for maintaining the heat balance of the cell
+step of monitoring the resistivity of the cell bath and the         including                                                      50        (i) means for calculating a target heat dissipationrate of change of said resistivity with respect to time to
+detect values greater than predetermined limits indica           for the cell;tive of cell superheat being out of range, and adjusting             (ii) means for estimating the heat available for dissi
+the target heat dissipation of the cell to return the cell           pation by the cell;                                                                                             (iii) means for calculating a running heat inventorysuperheat to within a predetermined range.                                                        from the integral of the heat available minus the   16. The process of claim 11 or 15, wherein said bath 55
+resistivity is measured by measuring the resistance of           target heat, andthe cell over a predetermined period, adjusting the          (iv) means for modifying a target resistance value                                                                 for the cell to achieve a substantially zero heatanode to cathode distance by a predetermined amount,                                                                     integral in step (iii) by moving the anodes of themeasuring the resistance of the cell over a predetermined period, and calculating the resistivity of the bath 60         cell to achieve said new target resistance.from the formula:                                              22. A system for controlling the operation of an alu                                               minium smelting cell, comprising the steps of:
+                                                                     (a) means for monitoring the cell voltage and current,                 peff ACD
+     RTOT = -     - + XRFIXED                             (b) means for monitoring alumina additions to the                                                        65       cell, monitoring other additions to the cell bath and
+                                                                                                   a              6.R . A                     monitoring  operational changes such as anode
+     Thus wherein bath resistivity pe?t = -s.                     movements, tapping, anode setting and beam rais
+                                                                      ing,
+
+## PDF page 25
+
+                                      5,089,093                 23                                     24
+  (c) means for continuously calculating the resistance          predetermined limits indicative of the cell super
+    of the cell,                                                 heat being out of range, and
+  (d) means for continuously calculating the rate of          (iv) adjusting the target heat dissipation of the cell
+    change of cell resistance, and smoothing the rate of           to return the cell superheat to within a predeter
+    change values so calculated to continuously pro  5       mined range.
+    vide smoothed resistance slope values,                    24. The process of claim 23, wherein said bath resis
+  (e) means for continuously monitoring cell voltage or     tivity is measured by measuring the resistance of the cell
+     resistance to determine the existence of low fre    over a predetermined period, adjusting the anode to
+    quency noise in the voltage signal,                  cathode distance by a predetermined amount, measur
+   (f) means for continuously calculating the energy  O ing the resistance of the cell over a predetermined per
+    absorbed by the process from thermodynamics and     iod, and calculating the resistivity of the bath from the
+    the events identified in item (b) above,                formula:
+  (g) means for calculating the heat available for dissi
+    pation in the cell from the cell voltage and current                       peff ACD
+    and from the continuously calculated process en 15      RTOT = - - + XRFIXED
+    ergy requirement determined in item (f) above,
+  (h) means for establishing a base threshold and a           wherein bath resistivity
+     critical  threshold  for  said smoothed  resistance
+    slope value indicating target and low alumina con 20         peiif = -6R aAA -,    centrations respectively,
+   (i) means for determining whether low frequency          and SR = (RTOTFinai - (RTOT) Initial.
+    voltage noise exists above a predetermined thresh
+    old and increasing the smoothed resistance slope       25. A system for controlling the operation of an alu
+    threshold in the event that said low frequency 25 minum smelting cell comprising:                                                                                       (i) means for continuously monitoring cell voltage    voltage noise is above said threshold,
+   (j) means for calculating the alumina inventory of the        and current;
+     cell from the monitored alumina additions,                     (ii) means for calculating the resistance of the cell
+  (k) means for determining whether the smoothed        from the monitored cell voltage and current;
+     resistance slope is greater than the predetermined 30     (iii) means for calculating the rate of change of cell    threshold and if so determining whether the cell          resistance (resistance slope) and a smoothed value    has been overfed from the calculated alumina in        of said resistance slope, wherein the means for
+    ventory, and if not causing an alumina feed to oc         calculating a smoothed value of said  resistance      Cllr,                                                       slope calculates a raw resistance slope from the                                                                equation:  () means for calculating from the calculated heat 35
+     available for dissipation and from a selected target
+   power dissipation, the integral of the difference         So=(Ro-R)/(A(i+1/y))
+    between the heat available and the target power       where     dissipation with respect to time,                                              So= raw slope at time (t--At);  (m) means for calculating from this heat deficit or                                           R0= raw resistance at time (t-At);    surplus in the cell the change in power dissipation                                                 R=single stage filtered resistance at time t;    required in the cell over a predetermined period to                                                  At=time interval of resistance polling;     restore heat balance (zero heat integral in item (1)),                                                                y=filter constant for filtered resistance (R1);  (n) means for establishing an initial target resistance                                                                     (iv) means for checking to determine whether the    and an allowable band for said target resistance,   45                                                 raw slope falls within predetermined limits and  (o) means for Calculating the required change in                                                                  rejecting any value falling outside such limits;     target resistance from the required change in cell                                                                (v) means for calculating the filtered resistance from    power dissipation (item (m)) divided by the square                                                             the formula:    of the moving average of the cell current,
+  (p) means for altering the target resistance in accor 50
+    dance with the calculated heat inventory (item (o))
+    and checking that the new target  resistance  is        and for calculating a filtered resistance slope from
+    within said allowable band, and                          the formula:
+  (q) means for moving the anodes of the cell to achieve
+     said new target resistance.                         55
+  23. A process for controlling the operation of an
+aluminium smelting cell comprising the steps of:             where y1 is a predetermined filter constant of the
+   (a) maintaining the mass balance of the cell at a prede          lithstage;
+    termined level by calculating and monitoring a        (vi) means for utilizing the smoothed resistance slope
+    smoothed rate of change of the resistance of the         values to maintain mass balance in the cell;
+     cell to detect a predetermined slope threshold in        (vii) means for monitoring cell process operations
+     dicative of low alumina concentration in the cell,         including alumina additions, electrolyte bath addi
+    and                                                               tions, anode changes, tapping, beam raising and
+   (b) maintaining the heat balance of the cell by             anode beam movement;
+      (i) calculating a target heat dissipation for the cell, 65     (viii) means for delaying the calculation of resistance
+       (ii) calculating a resistivity of the cell bath,                slope and smoothed resistance slope for a predeter
+       (iii) monitoring the resistivity and rate of change of        mined time when any one of said monitored cell
+        resistivity with time to detect values greater than         process operations occurs, and
+
+## PDF page 26
+
+                                      5,089,093                  25                                     26
+   (ix) means for recalculating said cell resistance slope
+    and smoothed resistance slope after said predeter       where
+    mined time delay so that the smoothed slope  is       So= raw slope at time (t+At);
+    unaffected by process changes with the exception      R0= raw resistance at time (t+At);
+    of alumina depletion.                             R=single stage filtered resistance at time t;
+   26. A process for controlling the operation of an       At=time interval of resistance polling;
+aluminum smelting cell, comprising the steps of:                  y = filter constant for filtered resistance (R);
+   (i) continuously monitoring cell voltage and current,    checking to determine whether the raw slope  falls
+   (ii) calculating the resistance of the cell from the    within predetermined  limits, and rejecting any value
+    monitored cell voltage and current,                 10  falling outside such limits; calculating the filtered resis
+   (iii) calculating the rate of change of cell resistance    tance from the formula:
+     (resistance slope) and a smoothed value of said
+     resistance slope, wherein the step of calculating a
+    smoothed value of said resistance slope includes                                                         5 and calculating a filtered resistance slope from the for    the steps of calculating a raw resistance slope from    the equation:                                       mula:
+
+                                                where  y1 is a predetermined filter constant of the ith    where                                          20                                                                 stage;   So= raw slope at time (t--At);                                                                        (iv) maintaining the mass balance in the cell by utiliz   Ro= raw resistance at time (t-At);                                                             ing the smoothed resistance slope values,    R1 = single stage filtered resistance at time t;                                                                (v) monitoring cell process operations, including alu    At = time interval of resistance polling;                                                          25     mina additions, electrolyte bath additions, anode     y = filter constant for filtered resistance (R1);                                                            changes, tapping, beam raising and anode beamchecking to determine whether the raw slope  falls
+within predetermined limits and rejecting any value        movement,                                                                      (vi) delaying the calculation of resistance slope andfalling outside such limits, calculating the filtered resis                                                     smoothed resistance slope for a predetermined timetance from the formula:                                                     30    when any one of said monitored cell process opera
+                                                                  tions occurs, and
+                                                                            (vii)  recalculating  said  cell  resistance  slope and
+                                                     smoothed resistance slope after said predeterminedand calculating a filtered resistance slope from the formula:                                                      time delay so that the smoothed slope is unaffected                                                          35     by process changes with the exception of alumina                                                                  depletion.
+                                                                   29. The process of claim 28 wherein step (iv) includes
+where  y1 is a predetermined filter constant of the ith    the step of searching the smoothed resistance slope forstage, and                                                values exceeding a predetermined slope chosen to indi
+   (iv) maintaining the mass balance in the cell by utiliz    cate alumina depletion.
+     ing the smoothed resistance slope values.                 30. The process of claim 28, wherein said raw resis                                                        tance slope is calculated at a high frequency.   27. The process of claim 26, wherein said raw resis
+tance slope is calculated at a high frequency.                 31. A process for maintaining the heat balance in an   28. A process for controlling the operation of an    aluminum smelting cell within a predetermined range                                                         comprising:aluminum smelting cell, comprising the steps of:       45   (i) continuously monitoring cell voltage and current,        (a) operating the cell at a predefined power input;                                                                     (b) calculating the resistivity of the cell bath;    (ii) calculating the resistance of the cell from the                                                                       (c) monitoring changes in the resistivity and the rate    monitored cell voltage and current,    (iii) calculating the rate of change of cell resistance        of change of resistivity over time to detect any                                                              values indicating that the cell superheat is out of     (resistance slope) and a smoothed value of said 50     resistance slope, wherein the step of calculating a         range, and                                                                   (d) adjusting the power input to the cell to return the    smoothed value of said resistance slope includes                                                                        cell superheat to the predetermined range.     the steps of calculating a raw resistance slope from
+     the equation:                                             32. The process of claim 31, wherein said raw resis
+                                                        55 tance slope is calculatedsk at a frequencyx     k     of about  1 Hz.
+
+
+
+
+
+                                                      65

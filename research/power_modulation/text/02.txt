@@ -1,0 +1,617 @@
+Source: modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf
+
+## PDF page 1
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+ AL54 - Model Predictive Control of Maintaining the Superheat of an
+       Aluminium Smelting Cell during Power Modulation
+
+    Luning Ma1, Choon-Jie Wong2, Jie Bao3, Maria Skyllas-Kazacos4, Barry Welch5,
+                  Nadia Ahli6, Amal Aljasmi7 and Mohamed Mahmoud8
+                                            1. PhD student
+                                   2. Postdoctoral Research fellow
+                                             3. Professor
+                                             4. Professor
+                                             5. Professor
+   School of Chemical Engineering, The University of New South Wales, Sydney, Australia
+                            6. Manager, Technology Transfer Contracts
+                             7. Area Engineer, Reduction Engineering
+                                  8. Manager, Centre of Excellence
+                 Emirates Global Aluminium (EGA), United Arab Emirates
+                       Corresponding author: j.bao@unsw.edu.au
+
+Abstract
+
+Superheat is a crucial indicator of the thermal balance in the aluminium smelting process.
+Maintaining the superheat within a narrow range ensures the productivity and energy efficiency.
+Large fluctuations in superheat can result in undesirable effects such as increased back reactions,
+sludge formation and reduced current efficiency. Furthermore, during power modulation, the
+variable power input will affect cell thermal balance and increase the difficulty of cell operations.
+To reduce the variation of the superheat during power modulation, this paper develops a Model
+Predictive Control (MPC) approach to maintaining the superheat by manipulating the alumina
+feed and anode-cathode distance based on real-time temperature measurements or estimation.
+Through mathematical modelling and simulations, the mass and heat balance inside the cell is
+regulated during power modulation. This method provides an insight into superheat management
+for idle operation and power modulation.
+
+Keywords: Aluminium electrolysis, Process control, Model predictive control.
+
+1.    Introduction
+
+Controlling the aluminium smelting process is challenging due to its nonlinear characteristics,
+and coupled mass and thermal balance. Research in the literature mainly focuses on either the
+control of alumina concentration or the bath temperature and excess AlF3 concentration [1-4].
+Drengstig [2] mentioned the basic framework to control the bath temperature and excess AlF3,
+and Kolås et. al. [3] adopted a PI control to control the bath temperature and excess AlF3 by
+adjusting AlF3 feed and ACD, whereas Shi [4] improved the alumina feeding control and used a
+state observer to estimate the alumina concentration. However, to control the process effectively,
+both mass balance and thermal balance should be managed simultaneously due to their coupling
+nature.
+
+The superheat of an aluminium smelting cell is an important variable which can reflect the cell
+operation status. It is given by the difference between the bath temperature and the liquidus
+temperature. Controlling the superheat within a certain range is helpful for maintaining stable
+process conditions. If the superheat increases by 10 oC, the current efficiency will decrease by
+1.2–1.5 % [5, 6]. Superheat is commonly regarded as the thermal driving force in the cell. As it
+provides the energy to dissolve alumina feed in the bath, a low superheat makes it difficult for
+alumina to dissolve [7]. On the other hand, increasing the superheat can lead to ledge melting,
+
+
+                                     1787
+
+## PDF page 2
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+while decreasing the superheat can cause ledge freezing, both of which can affect the chemical
+composition of the bath. The liquidus temperature is related to the bath composition, primarily
+the alumina concentration and the aluminium fluoride concentration, as their concentrations
+typically change more rapidly over time than others. Kolås [3] used a PID controller with anti-
+windup to calculate aluminium fluoride feed with assuming the aluminium fluoride consumption
+can be estimated. Drengstig [8] adopted an almost constant AlF3 input to control the aluminium
+fluoride concentration. This input was determined through a simple mass balance calculation to
+ensure that the average addition matched the average consumption. However, controlling the
+aluminium fluoride concentration is still challenging as it is relatively easy to add but difficult to
+remove from the cell quickly. If an excessive amount of aluminium fluoride feed is introduced, it
+can have a long-term negative effect on the cell process. This may cause a significant decrease in
+the liquidus temperature, resulting in an increase of superheat and increasing the risk of the ledge
+completely melting. Regarding the alumina concentration, controlling the alumina feed is more
+convenient than controlling the aluminium fluoride feed since alumina is the primary material
+consumed in the production of aluminium. Additionally, an increase of 1 % alumina concentration
+can lead to a decrease in the liquidus temperature of approximately 5 °C [9]. Therefore, achieving
+effective control of the superheat requires proper management of both the bath temperature and
+the alumina concentration.
+
+On the other hand, maintaining the superheat by simultaneously managing the bath temperature
+and alumina concentration plays a crucial role in power modulation. When the line current
+undergoes changes, rapid adjustment of both thermal balance and mass balance is necessary.
+Otherwise, failing to do so can lead to excessive superheat, increasing the risk of complete ledge
+melting, or insufficient superheat, causing excessive freezing of cryolite. In reference [10], the
+thermal response of power modulation events was demonstrated using a "lump parameter+"
+model. Eisma et. Al. [11] presented the cell performance of a TRIMET EPT-14 cell during a 24-
+hour period of a 20 kA reduction line (from 167 kA to 147 kA), and outlined the corresponding
+challenges during this process. In order to address the challenge of maintaining a stable process
+during power modulation, advanced algorithms should be considered. Model predictive control
+is an algorithm that can provide a powerful framework for controlling dynamic systems. By
+incorporating model-based  predictions, optimization, and  real-time decision-making while
+considering system constraints, MPC can effectively achieve desired objectives. Therefore, to
+address this challenge and maintain a stable process during power modulation, this paper adopts
+the MPC method.
+
+The scope of this paper is to introduce a control scheme that maintains the superheat within a
+narrow range during power modulation in an aluminium smelting process by using MPC. Section
+2 provides a concise system description and modelling of the aluminium smelting process. Section
+3 outlines the controller design for MPC, while section 4 presents the simulation results.
+
+2.   System Description
+
+The Hall-Héroult process is the only industrial method for producing aluminium. In this process,
+alumina is dissolved in molten cryolite at high temperature. When current is passed through the
+bath, aluminium ions migrate to the cathode, where they are reduced to form aluminium metal.
+Simultaneously, carbon dioxide or carbon monoxide is generated and released at the anode. The
+fundamental structure of an aluminium smelting cell  is depicted in Figure 1. The overall
+electrochemical reaction, including reduction of alumina (forward reaction) and reoxidation of
+aluminium in the electrolyte is:
+
+                 2ηAl2O3 + 3C = 4ηAl + 3(2η-1)CO2 + 6(1-η)CO                         (1)
+
+where: η       Fractional current efficiency, typically = 0.92-0.96.
+
+
+                                     1788
+
+## PDF page 3
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+Typically, the ratio of CO2 to CO in the product gas is in the range of 5:1 to 10:1 [4]. This process
+model can be characterised by the following dynamics.
+
+
+
+
+
+              Figure 1. The basic structure of an aluminium smelting cell.
+
+In terms of mass balance, the dissolution of alumina powder in cryolite is a complex process that
+involves factors such as heat transfer, initial alumina concentration, stirring speed and superheat
+[9]. Some of the alumina will sink into the bath and dissolve quickly, while some of it will float
+on the surface of the bath and dissolve slowly. In this paper, a simplified first-order model with
+considering two dissolution mechanisms is adopted as follows [12, 13]
+
+                      ௗ஼ಲ೗మೀయ,೑ೌೞ೟(௧)                              ௠௔௦௦೑೐೐೏(௧)×௥                                                                                              (2)                  = − ݇௙௔௦௧× ܥ஺௟మைయ,௙௔௦௧(ݐ ) +                         ௗ௧                                                               ௠௔௦௦್ೌ೟೓
+                    ௗ஼ಲ೗మೀయ,ೞ೗೚ೢ(௧)                              ௠௔௦௦೑೐೐೏(௧)×(ଵି௥)                                                                                              (3)                 = − ݇ ௦௟௢௪× ܥ஺௟మைయ,௙௔௦௧(ݐ ) +                       ௗ௧                                                               ௠௔௦௦್ೌ೟೓
+
+where:
+ܥ ஺௟మைయ,௙௔௦௧  Concentration of undissolved alumina which can dissolve into the bath quickly, %wt
+ܥ ஺௟మைయ,௦௟௢௪  Concentration of undissolved alumina which can dissolve into the bath slowly, %wt
+݇௙௔௦௧       Fast dissolution rate constant of undissolved alumina, s-1
+݇ ௦௟௢௪     Slow dissolution rate constant of undissolved alumina, s-1
+݉ܽݏݏ௙௘௘ௗ  Mass of alumina being fed into the bath and, g/s
+݉ܽݏݏ௕௔௧௛  Mass of bath, g
+ݎ           Fraction of fast dissolving alumina in the alumina feed.
+
+With the dynamics of fast and slow dissolving alumina, the equation for the dissolved alumina
+can be expressed as follows:
+
+          ௗ஼ಲ೗మೀయ,೏(௧)                                                                  ி௔൫ூ೗೔೙೐(௧) ൯                                                                                                        (4)           = (݇௙௔௦௧× ܥ஺௟మைయ,௙௔௦௧(ݐ ) + ݇ ௦௟௢௪× ܥ஺௟మைయ,௦௟௢௪(ݐ )) −             ௗ௧                                                                          ௠௔௦௦್ೌ೟೓
+
+where:
+ܥ ஺௟మைయ,ௗ     Concentration of dissolved alumina, %wt
+
+
+
+                                     1789
+
+## PDF page 4
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+ܨܽ ൫ܫ௟௜௡௘(ݐ )൯ Alumina consumption rate based on the Faraday’s Law which can be calculated by
+              the following equation:
+
+                                                ூ೗೔೙೐(௧)×ெಲ೗మೀయ×஼ா(௧)
+                    ܨܽ ൫ܫ௟௜௡௘(ݐ )൯=                                                     (5)                                              ி×௭
+
+where:
+ܫ௟௜௡௘       Line current of the cell, A
+ܯ  ஺௟మைయ     Molar mass of alumina, g/mol
+ܥܧ         Current efficiency of the electrolysis process
+ܨ          Faraday constant, 96 485.3321 C/mol
+ݖ         Number of transferred electrons = 3 for aluminium.
+
+For the thermal balance modelling, line current flows through cells and provides energy for the
+process running. However, only the energy of 6.6 kWh/kg Al is utilised for aluminium production
+[14] and the rest is dissipated as heat. When calculating the heat in the bath, the external voltage
+drop does not contribute to heat generation. Taking into account heat transfer to the side, top and
+bottom, the bath temperature can be represented as follows:
+
+ௗ்್ೌ೟೓(௧)                                                   ி௔൫ூ೗೔೙೐(௧)൯
+     = ൫ܸ௖௘௟௟(ݐ ) − ܸ௘௫௧(ݐ )൯× ܫ௟௜௡௘(ݐ ) −6.6 ×      − ܳ௕௔௧௛௅௘ௗ௚௘௦௨௥௙(ݐ ) −   ௗ௧                                              ଷ଺଴଴
+ܳ௕௔௧௛஺௡௢ௗ௘(ݐ ) − ܳ௕௔௧௛஼௘௟௟௧௢௣(ݐ ) − ܳ௕௔௧௛ை௧௛௘௥஻௧௠(ݐ )                                       (6)
+
+where:
+ܶ௕௔௧௛:         Bath temperature of the cell, °C
+ܸ௖௘௟௟            Cell voltage, V
+ܸ௘௫௧            External voltage drop, V
+ܳ௕௔௧௛௅௘ௗ௚௘௦௨௥௙Heat transferred from bath to the interface between bath and ledge, W
+ܳ௕௔௧௛஺௡௢ௗ௘     Heat transferred from bath to the anode, W
+ܳ௕௔௧௛஼௘௟௟௧௢௣:   Heat transferred from bath to the cell top space, W
+ܳ௕௔௧௛ை௧௛௘௥஻௧௠: Heat transferred from bath to the bottom of the cell, W.
+
+The detailed calculating equations of these above heat related items can be found in [15] and the
+cell voltage equation proposed by Yao [16] is as follows:
+
+                ܸ௖௘௟௟(ݐ ) = ℎ൫ ܫ௟௜௡௘(ݐ ), ܣܥܦ (ݐ ), ܥ஺௟మைయ,ௗ(ݐ ), ߠ ൯                      (7)
+
+where:
+ܣܥܦ       Anode-cathode distance, cm
+ߠ           Cell design and operating parameters.
+
+In Equation (7), the function ℎ(∙) includes variable components that contribute to the cell voltage.
+These components include the reversible potential, the concentration overvoltage at anode, the
+surface overvoltage at anode, the concentration overvoltage at cathode, the ohmic resistance on
+anode, the ohmic resistance on bubble layer, the ohmic resistance on bath and the ohmic resistance
+on cathode. Each of these factors plays a role in determining the overall cell voltage.
+
+3.   Model Predictive Controller Design of the Aluminium Smelting Cell
+
+The aluminium smelting process is highly nonlinear, the MPC can perform well in handling such
+nonlinear systems by incorporating process models. Based on the model, MPC can capture the
+complex behaviour and provide predictions. It can optimise control actions to achieve desired
+
+
+                                     1790
+
+## PDF page 5
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+setpoints while minimising the deviations from the reference trajectory, considering the future
+behaviour over a finite time horizon. On the other hand, MPC can explicitly incorporate constrains
+on variables, such as input limits and output limits, into the optimisation problem, ensuring these
+constrains are satisfied throughout the control horizon. This capability of MPC enables optimised
+control of the aluminium smelting process and improving overall process performance.
+
+The discrete time form of the above system (Equations (2)-(6)) can be written as follows:
+
+                                                                 ௠௔௦௦೑೐೐೏×௥
+ܥ஺௟మைయ,௙௔௦௧(݇ + 1) = ܥ஺௟మைయ,௙௔௦௧(݇ ) + ݐݏ ቀ− ݇௙௔௦௧× ܥ஺௟మைయ,௙௔௦௧(݇ ) + ௠௔௦௦್ೌ೟೓ቁ
+                                                                    ௠௔௦௦೑೐೐೏×(ଵି௥)
+ܥ஺௟మைయ,௦௟௢௪(݇ + 1) = ܥ஺௟మைయ,௦௟௢௪(݇ ) + ݐ௦ቀ− ݇ ௦௟௢௪× ܥ஺௟మைయ,௙௔௦௧(݇ ) +            ቁ                                                                       ௠௔௦௦್ೌ೟೓
+ܥ஺௟మைయ,ௗ(݇ + 1) = ܥ஺௟మைయ,ௗ(݇ ) + ݐ௦ቀ ݇௙௔௦௧× ܥ஺௟మைయ,௙௔௦௧(݇ ) + ݇ ௦௟௢௪× ܥ஺௟మைయ,௦௟௢௪(݇ ) −
+                     ி௔൫ூ೗೔೙೐(௞)൯
+                ௠௔௦௦್ೌ೟೓ቁ                                                                (8)
+                                                                                 ி௔൫ூ೗೔೙೐(௞)൯
+ܶ௕௔௧௛(݇ + 1) = ܶ௕௔௧௛(݇ ) + ݐ௦ቆ൫ܸ௖௘௟௟(݇ ) − ܸ௘௫௧(݇ )൯× ܫ௟௜௡௘−6.6 ×      −                                                                     ଷ଺଴଴
+
+         ܳ௟௘ௗ௚௘௦௨௥௙஻௔௧௛(݇ ) − ܳ௕௔௧௛஺௡௢ௗ௘(݇ ) − ܳ௕௔௧௛஼௘௟௟௧௢௣(݇ ) − ܳ௕௔௧௛ை௧௛௘௥஻௧௠(݇ )ቇ
+
+
+where:
+݇    Index of discrete samples
+ݐ௦    Sampling time, s.
+
+To represent this model in a simple way, it can also be rewritten as follows:
+
+                             ݔ (݇ + 1) = ݂ (ݔ ( ݇ ), ݑ (݇ ))
+                                ݕ (݇ ) = ܥݔ (݇ )                                           (9)
+where:
+                                                                   ்
+system states ݔ (݇ ) = ൣ ܥ஺௟మைయ,௙௔௦௧(݇ ), ܥ஺௟మைయ,௦௟௢௪(݇ ), ܥ஺௟మைయ,ௗ(݇ ), ܶ௕௔௧௛(݇ )൧
+                                         ்
+system output ݕ (݇ ) = ൣ ܥ஺௟మைయ,ௗ(݇ ), ܶ௕௔௧௛(݇ )൧
+                                                      ்
+control input of this system ݑ (݇ ) = ൣ ݉ܽݏݏ௙௘௘ௗ(݇ ), ܣܥܦ (݇ )൧
+
+
+
+
+
+                       Figure 2. The control diagram for MPC.
+
+Before implementing the control, the following assumptions need to be made:
+      Assumption 1: With the use of soft sensors, it is assumed that the bath temperature and
+        the alumina concentration can be estimated in real-time, using methodologies previously
+        published in [4, 17].
+
+
+
+                                     1791
+
+## PDF page 6
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+      Assumption 2: It is assumed that the concentration of aluminium fluoride and other bath
+       compositions are well controlled and remain relatively constant.
+
+Under these assumptions, to achieve a stable superheat for the process, the control diagram is
+depicted in Figure 2, the control inputs are alumina feed and ACD and the controlled variables
+are alumina concentration and bath temperature.
+
+To maintain stable process conditions, the target reference values for the bath temperature and
+alumina concentration can be set to facilitate a smooth transition between operating points. These
+reference values can be calculated by considering the relationships between superheat, bath
+temperature, and liquidus temperature. Under the above assumptions, the liquidus temperature
+can be determined based on the alumina concentration. By considering these interrelated factors,
+it becomes feasible to optimise the control inputs (alumina feed and ACD) and ensure a stable
+thermal balance throughout the process. The use of an MPC controller further facilitates this goal
+by driving the process towards the target reference values. The fluctuations in superheat during
+power modulation can be finally minimised, leading to improved stability of the process.
+
+
+
+
+
+                         (a) The operation of MPC controller at the k time
+
+
+
+
+
+                      (b) The operation of MPC controller at the next time
+                     Figure 3. The running mechanism of MPC.
+
+To drive the alumina concentration and bath temperature towards the target reference values, this
+control problem can be described as follows:
+
+
+                                     1792
+
+## PDF page 7
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+
+
+                          ௡                  ்          min ܬ = min ∑ ௞ୀ଴ ቀ൫ݕ (݇ ) − ݕ௥௘௙൯ ܳ ൫ݕ (݇ ) − ݕ௥௘௙൯+ (∆ ݑ (݇ ))் ܴ ∆ ݑ (݇ )ቁ          (10)
+
+                     ݏ . ݐݔ (݇ + 1) = ݂ (ݔ (݇ ), ݑ (݇ )), ݕ (݇ ) = ܥݔ (݇ )
+                 ݉ܽݏݏ௙௘௘ௗ,௠௜௡≤ ݉ܽݏݏ௙௘௘ௗ(݇ ) ≤ ݉ܽݏݏ௙௘௘ௗ,௠௔௫
+                    ܣܥܦ௠௜௡≤ ܣܥܦ (݇ ) ≤ ܣܥܦ௠௔௫
+                     ܣܥܦ (݇ + 1) − ܣܥܦ (݇ ) ≤ ܾ
+
+where the cost function is composed of two terms: the output error and the change rate of input,
+with weighting matrices ܳ and ܴ . The second term, which is related to ∆ ݑ , is included to prevent
+large beam movements. The system output ݕ (alumina concentration and bath temperature), and
+state variables x, are subject to the system dynamics ݂ (∙) as defined in Equation (9). The alumina
+feed  is  constrained by  the lower bound ݉ܽݏݏ௙௘௘ௗ,௠௜௡ and  upper bound ݉ܽݏݏ௙௘௘ௗ,௠௔௫
+respectively. Similarly, the minimum and maximum anode-cathode distance are considered
+through ܣܥܦ௠௜௡ and ܣܥܦ௠௔௫. Furthermore, the maximum allowed movement of anode beam
+between two sampling times is also limited by ܾ .
+
+When using MPC to address this problem, the detailed steps are illustrated in Figure 3. Firstly,
+the target trajectory for the bath temperature and alumina concentration is set. Then the controller
+calculates the optimal process control input based on the cost function within the prediction
+horizon. These control inputs will drive the process variables to the target reference values, as
+shown in Figure 3 (a). Subsequently, only the first predicted control input is applied to the process,
+and at the next time step, the controller recalculates a new control input within the prediction
+horizon, as shown in Figure 3 (b). Then the controller constantly repeats these steps to achieve
+the control of the target variables.
+
+4.    Simulation Results
+
+To test the effectiveness of this method, two scenarios are considered in this section. The
+parameters  in  this  simulation  are  set  as: ݉ܽݏݏ௙௘௘ௗ,௠௜௡=50 g ， ݉ܽݏݏ௙௘௘ௗ,௠௔௫=200 g,
+ܣܥܦ௠௜௡=2.3 cm, ܣܥܦ௠௜௡=3.3 cm, ܳ = ݀݅ܽ݃ (1,1) and ܴ = ݀݅ܽ݃ (0,0.01).
+
+4.1   Case 1: Increase the Line Current
+
+In this case, the line current is increased by 5% from the 1st hour to the 3rd hour, as shown in
+Figure 4, and the system performance of other variables under MPC is also shown below.
+
+
+
+
+
+                Figure 4. Line current change of the process operation.
+
+
+                                     1793
+
+## PDF page 8
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+
+Figure 5 (a) illustrates the successful achievement of stable superheat throughout the entire
+simulation period, with the superheat maintained  at approximately 12 °C. Figure 5  (b)
+demonstrates the response of the ledge thickness under MPC, it shows that the variation in ledge
+thickness during the 5 % line current modulation, when compared to the situation without MPC,
+is less than 1 cm. In the scenario without MPC, only the line current is increased without any
+ACD change and alumina concentration alteration. The reason for the ledge thickness not
+returning to its original value is that the equilibrium point has shifted due to the increase in line
+current. This increase in energy input to the cell results in the ledge becoming thinner to maintain
+the new thermal balance. In Figure 6, the control inputs utilised during power modulation under
+the MPC control method are presented. The alumina feed and ACD are adjusted to meet the target
+value, ensuring that the desired alumina concentration is maintained. When the line current
+increases, the alumina feed rate is decreased to attain the desired reduced alumina concentration.
+Once this concentration is achieved, during the period of 1.6-3 hours, the alumina feed rate is
+subsequently increased to meet the rising alumina demand caused by the increase in line current.
+Figure 7 demonstrates that both the bath temperature and the alumina concentration can reach the
+target reference values under the application of MPC. Based on Figure 6 and Figure 7, there are
+observed overshoots in the alumina feed and ACD. These overshoots occur at the same time as
+the turning points of the alumina concentration and bath temperature. The reason for these
+overshoots can be attributed to the insufficient prediction horizon used in the MPC controller for
+computer performance reasons.
+
+
+
+                                       cm
+
+                   / oC
+
+ /
+                                                                                                                                                                              Thickness       Superheat
+                                                                                                 Ledge
+
+
+
+                  (a) Superheat                                  (b) Ledge thickness
+ Figure 5. Response of superheat and ledge thickness with and without MPC (line current
+                      increased by 5 % at 1 h and returned at 3 h).
+
+
+ Rate
+                                      cm
+
+                   / Feed
+                                                          ACD
+  Alumina
+
+
+
+
+              (a) Alumina feed under MPC                         (b) ACD under MPC
+
+
+
+                                     1794
+
+## PDF page 9
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+ Figure 6. Control inputs of the MPC controller (line current increased by 5 % at 1 h and
+                                 returned at 3 h).
+ %wt                                                                             Bath temperature
+
+/                              oC 971                        reference value
+                    /                      X 1.6
+                                                                                         Y 970.061
+                                              970
+
+                                              969     Concentration                                                                                                                                                                                                          temperature 968
+                                                                                                            X 3.62333
+                                                                                                            Y 967.928
+                                              967
+  Alumina                                                                         Bath 966
+                                                 0     1     2     3     4     5
+                                                           Hours
+        (a) Response of alumina concentration              (b) Response of bath temperature
+  Figure 7. System outputs under MPC control (line current increased by 5 % at 1 h and
+                                 returned at 3 h).
+
+4.2   Case 2: Decrease the Line Current
+
+In this case, the line current is decreased by 5 % from the 1st hour to the 3rd hour, as shown in
+Figure 8, and the system performance of other variables under MPC is shown below.
+
+
+
+
+
+                Figure 8. Line current change of the process operation.
+
+
+
+                                       cm
+
+                   / oC
+
+ /
+                                                                                                                                                                               Thickness      Superheat
+                                                                                                 Ledge
+
+
+
+                  (a) Superheat                                 (b) Ledge thickness
+
+
+                                     1795
+
+## PDF page 10
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+ Figure 9. Response of superheat and ledge thickness with and without MPC (line current
+                     decreased by 5 % at 1 h and returned at 3 h).
+
+
+  Rate
+                                       cm
+
+                   /  Feed
+                                                          ACD
+    Alumina
+
+
+
+
+             (a) Alumina feed under MPC                       (b) ACD under MPC
+Figure 10. Control inputs of the MPC controller (line current decreased by 5 % at 1 h and
+                                 returned at 3 h).
+
+Similar to the behaviour observed when the line current is increased, the superheat remains within
+a certain range as the line current drops, as depicted in Figure 9 (a). Figure 9 (b) illustrates that
+the variation of the ledge thickness during the 5 % line current decrease is less than 1 cm, in
+contrast to the situation without MPC. Similarly, in the absence of MPC, the scenario involves
+solely decreasing the line current without making any adjustments to the ACD and alumina
+concentration. The ledge thickness does not return to its original value due to the reduced energy
+input to the cell. This decrease in energy causes the ledge to become thicker, as it adjusts to
+maintain the new thermal balance. Figure 10 and Figure 11 present the control inputs employed
+and corresponding response of bath temperature and alumina concentration. Once the desired
+alumina concentration remains constant, the alumina feed can be maintained at a constant level.
+The overshoots (approximately 0.1 cm) observed in the ACD control can also be attributed to the
+insufficient prediction horizon employed in the MPC controller for computer performance
+reasons.
+
+ %wt
+/                            oC
+     Concentration                  /Temperature
+  Alumina                                                                         Bath
+
+
+         (a) Response of alumina concentration            (b) Response of bath temperature
+ Figure 11. System outputs under MPC control (line current decreased by 5 % at 1 h and
+                                 returned at 3 h).
+
+
+
+
+
+                                     1796
+
+## PDF page 11
+
+ TRAVAUX 52, Proceedings of the 41st International ICSOBA Conference, Dubai, 5 - 9 November 2023
+
+
+
+5.    Conclusions
+
+Superheat plays a  critical  role  in the aluminium smelting process as  it impacts energy
+consumption and cell lifespan. Maintaining stable superheat is vital for efficient operation. In this
+paper, the MPC method is employed to maintain a stable superheat by manipulating the alumina
+feed and ACD, driving the process variables of alumina concentration and bath temperature
+towards their reference values. By optimizing these variables while considering constraints with
+MPC, the paper demonstrates stable superheat performance during power modulation. This
+research lays a foundation for enhancing process performance during power modulation. In future
+research studies, it would be beneficial to improve the accuracy of the model and explore more
+advanced control strategies to overcome limitations and further advance the application of MPC.
+
+6.    References
+
+1.    Peter M. Entner. Control of bath temperature, Essential Readings in Light Metals: Volume
+     2 Aluminum Reduction Technology, 2016, 808-811, from Light Metals 1995, 227-232.
+2.   Tormod Drengstig, On process model representation and AIF3 dynamics of aluminium
+       electrolysis cells, Dr Ing Thesis, Department of Engineering Cybernetics, Norwegian
+      University of Science and Technology (NTNU), Trondheim, Norway, August 1997.
+3.     S, Kolås, and T. Støre, Bath temperature and AlF3 control of an aluminium electrolysis cell.
+      Control Engineering Practice 17 9 2009, 1035-1043.
+4.    Jing Shi, Advanced alumina feeding control of aluminium smelting cell, PhD Thesis,
+    UNSW, Sydney, 2021.
+5.    Shuiping Zeng, Shasha Wang and Yaxing Qu, Control of temperature and aluminum
+      fluoride concentration based on model prediction in aluminum electrolysis, Advances in
+      materials science and engineering 2014, https://doi.org/10.1155/2014/181905.
+6.    Y. X. Liu and Jie Li, Modern aluminum electrolysis, Metallurgy Industry Publication,
+      Beijing, China 90, 2008.
+7.    Yuchen Yao, Process monitoring, modelling and fault diagnosis in aluminium reduction
+       cells, PhD Thesis, UNSW, Sydney, 2017.
+8.   Tormod Drengstig, Dag Ljungquist and Bjarne A. Foss, On the AlF3 and temperature
+      control of an aluminium electrolysis cell, Modelling, Identification and Control 1998, vol
+      19, No 1, 31-59.
+9.    Richard G. Haverkamp and Barry J. Welch, Modelling the dissolution of alumina powder
+       in cryolite, Chemical Engineering and Processing: Process Intensification 37 2, 1998, 177-
+      187.
+10.  Marc Dupuis, Modeling power modulation, Light Metals 2002. 489-494.
+11.   David Eisma and Pretesh Patel, Challenges in power modulation." Essential Readings in
+      Light Metals: Volume 2 Aluminum Reduction Technology 2016, 683-688, original in Light
+      Metals 2009, 327-332.
+12.   Biedler Philip, Modeling of an aluminum reduction cell for the development of a state
+      estimator, PhD Thesis, West Virginia University, 2003.
+13.   Jing Shi, Advanced alumina feeding control of aluminium smelting cell, PhD Thesis,
+    UNSW, Sydney, 2021.
+14.   Barry J. Welch, Specific energy consumption and energy balance of aluminium reduction
+        cell,  Presentation  at 8th  international congress "Non-ferrous Metals & Minerals",
+      Krasnoyarsk, Russia, 2016.
+15.   Choon-Jie Wong et al, Discretized thermal model of Hall-Héroult cells for monitoring and
+       control, IFAC-Papers Online 54, 11 2021, 67-72.
+16.   Yuchen Yao et al, Estimation of spatial alumina concentration in an aluminum reduction
+       cell using a multilevel state observer, AIChE Journal 63 7, 2017, 2806-2818.
+Fabio Soares, Limao Roberto and Castro Marcos, Bath temperature inference through soft sensors
+      using neural networks, Light Metals 2010, 467-472.
+
+
+                                     1797

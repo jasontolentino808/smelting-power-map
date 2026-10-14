@@ -1,0 +1,710 @@
+Source: modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf
+
+## PDF page 1
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+        A Cell Simulator for optimizing the operation practices and the process
+                                             control
+
+                                      Jacques Antille1, René von Kaenel2, Louis Bugnion3
+                                                      1.  Senior consultant, KAN-NAK Ltd.
+                                                             2.  CEO, KAN-NAK Ltd.
+                                                       3.   Project manager, KAN-NAK Ltd.
+                                    Corresponding author: rene.vonkaenel@kannak.ch
+
+           Abstract
+
+          The Hall-Heroult process can be described by a wide range of complex chemical and physical
+           phenomena. Using MatLab-Simulink software, a mathematical model has been developed to solve the
+           dynamic status of an aluminium reduction cell. Simulink provides a very powerful graphical user interface
+              for building sub-models as block diagrams. The cell simulator determines various process interactions.
+          The key operating parameters such as alumina concentration, bath temperature, ledge thickness, cell
+             voltage and many others are computed as a function of time. Raw materials and process variations effects
+             are predicted. The model can be used for improving operating strategies, can be implemented in the
+            process control or can help at understanding the effect of various actions on the cell. Applications such as
+             the variation of ledge thickness, specific energy, bath level, AlF3 emissions are presented.
+
+          Keywords: Cell simulator; process control; process optimization; energy saving.
+
+              1.      Introduction
+
+            Despite the fact that the Hall-Heroult process is based on a simple theory, there is a wide range of
+           complex physical-chemical phenomena that must be taken into consideration when modeling the overall
+             process. Many of these are dynamic, either periodic or transient and the dynamics of the process has
+            important implications on process efficiency. Several dynamic cell simulators have been published with
+              different objectives from increasing the understanding of the process to development and analysis of
+            process control [1 – 6]. These simulators are using in-house programming. Contrary to this, the simulator
+            described in this paper is based on MatLab-Simulink software, which is an open modelling system.
+
+          The objective of this work is to develop a mathematical model of a Hall-Heroult reduction cell as well as
+            develop a better understanding of the reduction process itself. The effects of variations in operational
+            parameters on the dynamical behavior of an aluminum reduction cell are predicted. Various couplings
+              exist between  the complex physiochemical phenomena. Compromises have  to be made between
+             simplicity and accuracy of the model. The most relevant aspects of the Hall-Heroult process are
+             preserved. The cell simulator is structured in three main modules:
+
+               •   Material balance model,
+               •   Cell voltage model,
+               •  Thermal balance model.
+
+          The three modules are then combined into one overall cell model which can be used for improving control
+              strategies, cell operation as well as developing a predictive tool for the process itself. The model is not
+             limited in the period of prediction. Operations such as anode change, tapping, alumina and aluminum
+             fluoride feeding can be defined easily by the user. A period of 26 days can be simulated in less than 15
+            minutes. The simulation of one hour operation needs about 1 second computer time. The model can
+             therefore be used online to help in process control strategies.
+
+
+
+
+                                                                               Travaux 44 Page No. 635
+
+## PDF page 2
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+          The cell simulator uses MatLab-Simulink software capabilities which integrate:
+
+               •  Computation  visualization  programming  of  problems  which  are  expressed  in  familiar
+                   mathematical notation,
+               •  A graphical user interface (GUI) for building models as block diagrams, allowing you to draw
+                  models as you would with pencil and paper,
+               •  A tool for simulating dynamics systems,
+               •  Block diagram windows, in which models are created an edited by mouse driven command.
+               •   Interactive graphical environment simplifying the modeling process, eliminating the need to
+                    formulate differential equations,
+               •  Open modeling system to add new algorithms such as smoothing of cell resistance or anode effect
+                      detection.
+
+              2.     Material balance module
+
+          The properties of the bath depend on the chemical composition of the electrolyte, so the dynamic change
+              in the concentration of each chemical constituent involved is of great importance to the overall cell model.
+          The mass conservation law for a system with a chemical reaction is:
+
+                                   Input + Generation = Output + Accumulation
+
+              2.1.   Aluminum production rate
+
+          The aluminum electrolysis process is governed by Faraday's law of electrolysis and for aluminium can be
+            expressed as:
+
+                             dm Al                    −8                                    = 9.321472 ⋅ 10  Iη                                        (1)
+                                               dt
+
+            mAl    Mass of aluminium produced at the electrode [kg]
+                I       Current in the cell [A]
+           η      Current efficiency [fraction]
+                   t      Time [s]
+
+             2.2    Carbon consumption rate
+
+          The aluminum (1) oxide is decomposed into aluminum and oxygen. The oxygen formed then reacts
+            immediately with the carbon anode to carbon dioxide and carbon monoxide described by the two principle
+              electrolysis equations:
+
+                                             2Al2O3 + 3C = 4Al + 3CO2                               (2)
+
+                                              Al2O3 + 3C = 2Al + 3CO                                 (3)
+
+            Pearson and Waddington assumed  that the loss in current efficiency  is only due  to the  internal
+            recombination of aluminum and carbon dioxide. By modifying the two principal equations with this
+            assumption results in the modified electrolysis equation:
+
+                                      2ηAl2O3 + 3C = 4ηAl + 3(2η-1) CO2 + 6(1-η) CO                (4)
+
+
+
+
+
+                                                                               Travaux 44 Page No. 636
+
+## PDF page 3
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+          From the rate of aluminum produced and the electrolysis equation, the theoretical carbon consumption
+              rate can be expressed as:
+                             dmC                  −8                                    = 3.11213 ⋅ 10  I                                           (5)
+                                               dt
+
+            Correspondingly, the production rate of carbon monoxide and carbon dioxide can be expressed by:
+
+                             dmCO                  −7                                     = 1.45154 ⋅ 10  I (1 −η)                                    (6)
+                                                dt
+                             dmCO2                    −7                                     = 1.140324 ⋅ 10  I (2η− 1)                                (7)
+                                                dt
+
+           There are various additional loss mechanisms that contribute to the overall consumption, such as air and
+         CO2 burning of the anode as well as detachment of anode carbon  particles as  dust. The anode
+           consumption rate is thus considerably higher in practice than expressed by Equation (5).
+
+              2.3.   Alumina consumption rate
+
+          The alumina consumption is governed by the principal electrolysis equations. As for carbon, the alumina
+           consumption can be expressed from the rate of aluminum produced and the modified electrolysis
+             equations:
+
+                             dm Al2 O3                  −7                                      = 1.76126 ⋅ 10  Iη                                      (8)
+                                                dt
+
+              2.4.    Cell emissions
+
+       A prebake cell emits around 20 kg of hydrogen fluoride (HF), 20 kg of particulate fluorides (i.e., in
+           NaAlF4) and 10 kg of sulfur dioxide (SO2) per ton of aluminum. The fine particulate fluorides and
+            gaseous hydrogen fluoride are of greatest concern in relation to the material balance, since fluorides are
+               lost from the electrolyte. These are present in the anode gases as a result of gaseous fluoride evolution,
+              particulate emission and entrainment of particulate materials. The subsequent sections concentrate on
+              these.
+
+              2.4.1.  Hydrogen fluoride evolution
+
+          The sources of the hydrogen H can be from the anode carbon or from moisture present in the air or in the
+            alumina feed. Part of the hydrogen reacts with cryolite to produce hydrogen fluoride according to
+             equation:
+
+                               2Na3AlF6 (l) + 3H2 (g) → 2Al (l) + 6NaF (l) + 6HF (g)                   (9)
+
+          The most favored reaction that water may undergo with the electrolyte constituents is that it may react
+            with aluminum fluoride either in the electrolyte or in the emissions to produce fluoride. The reaction of
+             the dissolved water with the electrolyte may be described in simplified form by:
+
+                                       2AlF3 (s) + 3H2O (g) → Al2O3 (s) + 6HF (g)                    (10)
+
+           According to Haupin [7], the total rate of the gaseous fluoride evolution in kilograms per ton of
+           aluminum, can be estimated with the equation:
+
+
+
+                                                                               Travaux 44 Page No. 637
+
+## PDF page 4
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+
+
+           Rb            Bath ratio (CNaF /CAlF3)
+           Pb            Barometric pressure [kPa]
+        %CE          Current efficiency [%]
+            Tb            Bath temperature [K]
+              CAl2O3          Concentration of alumina [wt %]
+            Cmax Al2O3     Maximum solubility of alumina [wt %]
+           CH2O           Concentration of H2O in alumina feed mat. [wt %]
+         CH            Concentration of hydrogen in the anode [wt %]
+
+          The production of electrolyte constituents due to cell fluoride emissions can then be approximated as
+            follows in kilograms per ton of aluminum produced:
+
+                                    ∆mAl = 0.011552 FG                                  (12)
+
+                                    ∆mAl 2 O3 = 0.8726 FG                                  (13)
+
+                                    ∆mAlF3 = −1.473 FG                                    (14)
+
+              2.4.2.  Vaporization
+
+          The tetrafluoroaluminate (NaAlF4) is the most volatile species existing above cryolite-alumina melts. The
+            vapor exists both as the monomer NaAlF4 and as Na2Al2F8, from the reaction of sodium fluoride with
+          aluminum fluoride, according to:
+
+                                      NaF + AlF3 → NaAlF4                                 (15)
+
+            Vaporization is a significant factor when a driving force for removing the electrolyte vapors from the cell
+                is present. In an operating cell this is provided by the gases from the anodes, which are mostly carbon
+            dioxide and carbon monoxide. The rate of loss of vapors is thus dependent on the saturation vapor
+             pressure. The total vapor pressure PT in [kPa] which is equal to the sum of the partial pressures of the
+             individual gases can be expressed as a function of bath composition and temperature by equation [7]:
+
+
+
+
+
+          Assuming that the transpiring gases are saturated with vapor, the rate of fluoride evolution in kilograms
+            per ton of aluminum, due to particulate emissions resulting from volatilization given by Haupin [7], can
+           be approximated by:
+
+
+
+
+                                                                               Travaux 44 Page No. 638
+
+## PDF page 5
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+
+
+          Where Pb is the barometric pressure and Pm and Pd are the partial pressure of the monomer and dimer
+              respectively, given by:
+
+
+
+
+
+          Where (k) is the dimensionless equilibrium constant for dimerization, given by:
+
+
+
+
+             Finally one can express the consumption of electrolyte constituents due to particulate in kilograms per ton
+             of aluminum as:
+
+                                ∆mNaF = −0.5525 FVP                               (21)
+
+                                ∆mAlF3 = −0.105 FVP                                (22)
+
+              2.4.3.  Entrainment of particulate materials
+
+          The mechanism when liquid droplets or solid particulates are entrapped in a flowing gas is known as
+             entrainment. Haupin developed an empirical model for estimating the rate of fluoride evolution due to
+            entrainment [7]:
+
+
+                                                                                       (23)
+
+            where:
+
+          The total fluoride emission will thus become:
+
+                                  FT = FG + FVP + FE                                    (24)
+
+          From the fluoride loss and by assuming that the concentration of the slowly consumed constituents
+            remains constant as before, the consumption of electrolyte constituents due to entrainment can be
+            approximated by proportional calculations as follows, in kilograms per tonne of aluminum.
+
+                                    ∆mAlF3 = −1.473C AlF3 ⋅ FE ⋅ f F −1                        (25)
+
+                                    ∆mNaF = −2.210C NaF ⋅ FE ⋅ f F −1                        (26)
+
+
+
+
+                                                                               Travaux 44 Page No. 639
+
+## PDF page 6
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+                                    ∆mAl 2 O3 = −C Al 2 O 3 ⋅∆M ⋅ f F −1                                                                                                          (27)
+
+          Where fF is the fraction of the electrolyte that is made up of fluoride compound and ΔM is the total mass
+           change in the fluoride compound. Assuming that alumina is the only constituent that is not a fluoride
+           compound,
+
+                                                                               f F = (100 − C Al 2 O 3 )                                    (28)
+
+            Neutralization of sodium and calcium oxide in alumina
+
+          One of the key factors for obtaining optimal aluminium production efficiency is to maintain the bath
+            composition as stable as possible around specified target values. Usually the concentration of AlF3 is kept
+           from 10 % to 13 %. There are two basic oxides entering the cell together with alumina: Na2O and CaO.
+          They neutralize AlF3 in the bath according to equations:
+
+                                  3Na2O + 4AlF3 → 2Na3AlF6 + Al2O3                           (29)
+
+                               3CaO + 2AlF3 → 3CaF2 + Al2O3                              (30)
+
+          The first reaction produces cryolite and the second reaction forms CaF2. The aluminium fluoride must be
+             regularly added into the cell to readjust bath chemistry back to the targets. The AlF3 addition rate is well
+             predictable and depends on the alumina composition and scrubber efficiency. Another factor influencing
+             the AlF3 demand is the sodium content of the cathodes. Depending on the cathode status, the AlF3 feed
+              rate may be below the prediction because part of the sodium provided by the alumina is absorbed into the
+            cathode in the early months of the cathode life.
+
+              2.6.    Corrective fluoride additions
+
+          The amount of fluoride required for correcting the electrolyte composition is determined by the bath ratio
+           which is the mass ratio of NaF to AlF3. Another obvious reason for corrective additions is to maintain
+              sufficient electrolyte volume. To increase the ratio, sodium fluoride is added to the electrolyte in the form
+             of sodium carbonate (Na2CO3), which reacts with aluminum fluoride to form sodium fluoride (NaF),
+            according to the reaction:
+
+                                   3Na2CO3 + 2AlF3 → 6NaF + Al2O3 + 3CO2                     (31)
+
+          Sodium also enters the cell as impurity in alumina, sodium oxide Na2O, which reacts with aluminum
+             fluoride to form sodium fluoride:
+
+                                        3Na2O + 2AlF3 → 6NaF + Al2O3                       (32)
+
+           Adding aluminum fluoride also reduces sodium deposition, since excess AlF3 reacts with sodium to form
+              cryolite, according to the reaction:
+
+                                              AlF3 + 3NaF → Na3AlF6                               (33)
+
+              2.6.   Alumina feeding
+
+          The alumina feed algorithm is based on the process control algorithm and depends on the technology. It is
+            normally based on a demand feed strategy analyzing the voltage or calculated bath resistance curve from
+             the voltage. Figure 1 shows a typical dependence of the voltage as function of the alumina concentration.
+
+
+
+                                                                               Travaux 44 Page No. 640
+
+## PDF page 7
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+          The anode effect detection is also integrated in the alumina control model and takes place when the
+            alumina reaches a critical low value.
+
+
+                                                         4.6
+
+                                                         4.5
+
+                                                  (V) 4.4
+
+                                                         4.3                                                                                                                     voltage
+                                                                   Cell                                                         4.2
+
+                                                         4.1
+
+                                                         4.0
+                                                   0    1    2    3    4    5    6    7    8
+                                                          Alumina Concentration (%)
+                             Figure 1. Cell voltage as a function of alumina concentration.
+
+              2.7.   Alumina Dissolution
+
+          The alumina dissolution is a process by itself. Let us just mention that two specific time constant are used
+              in the model associated to a fast and slow dissolution both following the dissolution equations:
+
+                                      dC
+                                           = − k i ⋅ C                  i = 1, 2                         (34)                                                         dt
+
+              2.8.    Total Material consumption and production
+
+            Normally, the only additives used in the electrolyte are aluminum fluoride AlF3 and sodium carbonate
+           Na2CO3, thus neither MgF2 nor LiF are used. Calcium fluoride enters the bath as an impurity in the feed
+             material and its proportion is sufficient to maintain the CaF2 balance, thus no corrective additions are
+             required. There are two main considerations for the neutralization: AlF3 depends on the added mass of
+           Al2O3 and its quality.
+
+              3.      Properties of the Electrolyte
+
+          The physical properties of the electrolyte are strongly influenced by its composition and temperature. In
+             the following, expressions for various properties involved in modeling the aluminum reduction cell are
+             given.
+
+              3.1.    Density
+
+            Several empirical equations have been published for calculating the density of the molten electrolyte. The
+             empirical relationship given by Haupin is used in our simulator [8]:
+
+
+
+
+
+                                                                               Travaux 44 Page No. 641
+
+## PDF page 8
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+
+
+          Where Tb is bath temperature in kelvin. The density of the electrolyte must be below the density of liquid
+           aluminum, for it to float on top of the metal pad. To reduce the mixing between the electrolyte and the
+            metal pad, it is thus desirable to have a maximum difference in density. From the above equation the
+              theoretical density of the electrolyte at 960 °C was found to be 2 113 kg/m3. For comparison, the density
+             of molten aluminum is close to 2 305 kg/m3.
+
+              3.2.    Viscosity
+
+          The viscosity of the electrolyte influences several hydrodynamic processes in the cell: movement of metal
+             droplets in the electrolyte, dissolution and sedimentation of alumina particles, release of the gas bubbles
+           from the anode surface. A simplified equation for the viscosity of the electrolyte is given by Grjotheim
+           and Welch [9]:
+
+
+
+
+
+              3.3.   Alumina solubility
+
+          The maximum amount of alumina that can be dissolved in the electrolyte depends on both the electrolyte
+            composition and temperature. The maximum alumina solubility can be expressed by the following
+             equation, given by Skybakmoen [10]:
+
+
+                                                                                                             (37)
+
+
+
+
+
+         When the concentration of alumina reaches the maximum alumina solubility, the electrolyte becomes
+             saturated with alumina, and all excess alumina sinks to the bottom of the cavity, where it can form sludge.
+          From the above equation and typical values related to the bath composition, the theoretical maximum
+            alumina solubility of the electrolyte at 960 °C was found to be approximately 8 wt%.
+
+
+
+
+                                                                               Travaux 44 Page No. 642
+
+## PDF page 9
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+              3.4.   Aluminium solubility
+
+          The tendency for metal to dissolve in the electrolyte is the primary cause for the lowering cell current
+              efficiency. The lower the metal solubility, the higher resulting current efficiency. Hence the selection of
+             the electrolyte composition is influenced by the need to ensure the metal solubility minimization, while at
+             the same time ensuring that the melting point is low, since the metal solubility is strongly dependent on
+             temperature. Based on correlation of measurements, the aluminum solubility can be expressed by the
+            following equation [9]:
+
+
+
+
+
+          From the above equation and typical values related to the bath composition, the theoretical maximum
+          aluminum solubility of the electrolyte at 960 °C was found to be approximately 0.034 wt%.
+
+              4.     Current efficiency
+
+          The internal recombination of aluminum and carbon dioxide is the main cause of the difference between
+             the actual quantity of aluminum produced and the theoretical quantity stated by Faraday’s law of
+              electrolysis. The current efficiency can be estimated by Lillebuen model [11]:
+
+                                                                rm         3 Frm                      %CE = 100(1 −    ) = 100(1 −       )  (%)                        (39)
+                                                                rAl                I
+
+          Where rm, rAl is the ratio of the metal transfer through the bulk of the electrolyte and the theoretical rate of
+          aluminum production, F is the Faraday constant and I the cell current. In order to fit plant data with better
+             accuracy, our model is also using Solli’s model, based on experimental and theoretical studies. The details
+             of the work can be found in References [12 - 14]. The authors are considering the average of both
+              theories.
+
+              5.     Energy balance
+
+          The aluminum reduction process requires energy to keep the electrolyte at the reaction temperature and to
+            produce aluminum, which is furnished as electric energy. The authors cannot develop the equations in the
+           frame of this paper but would like to summarize the important elements imbedded in the model:
+            Enthalpy of reaction per mol of aluminum for the primary and re-oxidation reactions is [15]:
+
+                      1            3    1            3 1
+            ∆H react =  ∆H f ( Al 2 O3 ) −  (2 −   ) ∆H f (CO2 ) −   (  − 1) ∆H f (CO )          (40)                      2            4  η           2 η
+
+                                                                                                          (41)
+
+                                                                                                          (42)
+
+                                                                                                          (43)
+           where Tb is bath temperature in kelvin.
+
+
+
+                                                                               Travaux 44 Page No. 643
+
+## PDF page 10
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+            Enthalpy of heating the reactants and bath additives as well as enthalpy of alumina dissolution must be
+            taken into account [15]:
+
+                                                                    kJ
+                    H γ→=α   [ ∆H f (α) −∆H (γ)] ⋅ cγ (%)   [     ]                           (44)                                                           mol
+
+         ∆H f (α)   Heat of formation for alumina in alpha phase (- 1675.69 kJ/mol),
+         ∆H (γ)    Heat of formation for alumina in gamma phase (- 1656.86 kJ/mol),
+            cγ (%)     Concentration of gamma-phase alumina (wt%).
+
+             In steady state, the enthalpies of these reactions can be agglomerated, including the heating up of alumina
+           and carbon and alumina dissolution. The overall enthalpy to make aluminium can be expressed with
+             equivalent voltage to make aluminum. Calculated for the summary reaction which includes the primary
+             reduction reaction with alpha alumina and the metal re-oxidation, with raw materials entering at 25 °C and
+              reacting at electrolyte temperature Tb, the equivalent voltage to make aluminum as a function of temperature is
+              [16]:
+
+             V Al = 0.450 + 3.110 × 10 −5 Tb + 1.4316 − 0.03252(1 − ε) + 2.255 × 10 −4 Tb η          (45)
+
+            where: VAl      Voltage equivalent of enthalpy to make aluminum [V]
+                    Tb     Bath temperature [°C]
+        η     Current efficiency, fraction
+                    ε       Fraction of alpha-alumina in alumina.
+
+          The internal heat (net heat) in the cell is then:
+                        Qint = (Vcell − Vexternal − V Al ) I                                   (46)
+
+            where: Qint     Cell internal heat [kW],
+                            Vcell    Cell voltage [V],
+                             Vexternal External voltage drop (the one outside the cell boundary, chosen for heat balance) [V],
+                          I       Current [kA].
+
+            This heat has to be lost from the cell through the cell boundaries, comprising all surfaces and solid
+            connections to the outside of the cell by conduction, convection and radiation.
+
+            Auxiliary processes are also taken into account. The reaction enthalpies of these are [15]:
+
+
+
+
+
+           where Tb is bath temperature in kelvin.
+
+
+
+
+                                                                               Travaux 44 Page No. 644
+
+## PDF page 11
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+             In a dynamic simulator, such as the one presented here, the heat capacitance of the cell materials and the
+            ledge freezing and melting processes are included; they play key role on thermal state of the metal and
+              electrolyte as a function of time and of pot operation events. The bath chemistry changes, which impacts
+              electrical conductivity of the bath and cell voltage. Also the heating up of materials and alumina
+             dissolution are treated separately from enthalpies of reactions since the additions of these materials are
+             batch-wise, however frequent.
+
+             In the simulator, all types of events such as metal tapping, beam raising, current increase and feedings can
+           be scheduled. The alumina feeding is of course of prime importance as it is used to control the bath
+             voltage. It can be easily modified in the simulator to reflect the exact algorithms used for any particular
+             smelter. Same remarks apply for the aluminium fluoride, calcium fluoride or any desired addition.
+
+             In the simulator output, the total heat loss is divided into shell bottom, side metal level, side bath level,
+             side top, ends, collector bars, stubs and top heat losses.
+
+              6.      Cell voltage model
+
+          The cell voltage is one of the most important operating parameters in aluminum reduction cells, and is
+             often the only parameter measured in real time. Cell voltage is closely related to alumina concentration in
+             the electrolyte, bath temperature and anode-to-cathode distance (ACD), which is adjusted by anode beam
+           movements, and is thus generally, one of the bases for computer control of the Hall-Heroult process. The
+               total cell voltage is composed of two different parts:
+
+            •  Decomposition voltage or back electromotive force (back EMF), which consists of equilibrium
+                   potential and overvoltages, required for the decomposition of alumina.
+            •  Ohmic voltage drops due to the resistance of various sections in the cell.
+
+       A comprehensive analysis of cell voltage components is given in [17].
+
+              7.      Application
+
+          The cell is described by a set of over 300 parameters. This defines the cell geometry, the operating
+            procedures and materials properties. Each parameter can be modified to analyze its impact on the process.
+            Figure 2 shows a set of output from the model. After 8 hours one anode is changed, after 22 hours tapping
+                is imposed to the cell. The analysis can be performed over a full anode cycle and beyond (more than 30
+             days). The feeding cycles are based on a “demand feed” algorithm in which the fast feeding is triggered
+           by the slope (the rate of change) of the cell electrical resistance curve. A current fluctuation is imposed to
+             the model (not compulsory) to simulate the rectifier fluctuations. As all formulas are somehow impacted
+           by the current, it helps validating the smoothing algorithms needed to control the process fluctuations.
+
+            Figure 3 shows bath resistance, current efficiency and energy consumption for the analysed period. The
+            high frequency signals result from the noise level imposed on the current.
+
+
+
+
+
+                                                                               Travaux 44 Page No. 645
+
+## PDF page 12
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+
+
+             Figure 2. 24-hour plot of the beam displacements, feeding rate in % of nominal feed, cell voltage,
+                           bath and metal temperature and ledge at metal and bath level..
+
+
+
+
+
+                  Figure 3. 24-hour plot of the bath resistance, current efficiency and energy consumption.
+
+           There are many more plots analyzing the energy balance, the bath chemistry and any desired parameter as
+             function of time. Predictions were validated with measurements.
+
+              8.     Conclusions
+
+       A sophisticated cell simulator has been developed using MATLAB-SIMULINK software. The software is
+              fully open and can be easily modified to implement each plant alumina and aluminum fluoride feeding
+              strategies or other specificities. It highlights how heat losses, current efficiency and other key operating
+            parameters fluctuate during the day. It can be used to optimize the process.
+
+
+
+
+
+                                                                               Travaux 44 Page No. 646
+
+## PDF page 13
+
+Travaux 44, Proceedings of 33rd International ICSOBA Conference, Dubai, United Arab Emirates, 29 November - 1 December 2015
+
+
+
+              9.      References
+
+              1.   Vanderlei Gusberti et al., Modeling the mass and energy balance of different aluminium smelting cell
+                  technologies, Light Metals 2012, pp 929-934.
+              2.   Vanderlei Gusberti, Modelling the mass and energy balance of aluminium reduction cells, Dissertation
+                  (2014), University of New South Wales, Sydney, Australia.
+              3.  M Dupuis, Simulation of the Dynamic Response of Aluminum Reduction cells Light Metals 1997, pp
+                443-447.
+              4.   M.P. Taylor, W.D. Zhang, V. Wills, S. Schmid, A dynamic model for the energy balance of an
+                   electrolysis cell Trans IChemE, Vol. 74, Part A, November 1996, p. 913.
+              5.    P. Biedler, Modeling of an Aluminium Reduction Cell for the Development of a State Estimator,
+                  Dissertation (2003), Morgantown, West Virginia.
+              6.   S.W. Jessen, Mathematical Modeling of a Hall Héroult Aluminium Reduction Cell, Dissertation (2008),
+                 Technical University of Denmark.
+              7.   W.E. Haupin, Production of aluminum and Alumina, John Wiley & Sons, Chichester, 1987.
+              8.   W.E. Haupin, Chemical and Physical Properties of the Electrolyte, in Production of Aluminum and
+                Alumina, Critical Reports on Applied Chemistry, A.R. Burkin [Ed], John Wiley & Sons, Chichester,
+                 1987,Vol.20, pp 85-119.
+              9.   Kai Grjotheim and Barry J. Welch, Aluminium Smelter Technology, 2nd Edition, Aluminium-Verlag,
+                 Düsseldorf, 1988.
+             10.  Kai Grjotheim et al., Aluminium Electrolysis, 2nd Edition, Aluminium-Verlag, Düsseldorf, 1982.
+             11. W.E Haupin, Current Efficiency in Production of Aluminum and Alumina, Critical Reports on Applied
+                 Chemistry, A.R. Burkin [Ed], John Wiley & Sons, Chichester, 1987,Vol. 20, pp 134-149.
+             12.  A. Sternen, P.A. Solli, An electrochemical current efficiency model for aluminium electrolysis, Journal
+                  of Applied Electrochemistry, 26 (1996), pp 187-193.
+             13.  P.A. Solli, T. Eggen, E. Skybakmoen, Current efficiency in the Hall-Heroult process for aluminium
+                    electrolysis: experimental and modelling studies, Journal of Applied Electrochemistry, 27 (1997), pp
+                939-946.
+              14.  A. Sternten and P.A. Solli, Cathodic process and cyclic redox reactions in aluminium electrolysis cells,
+                 Journal of Applied Electrochemistry, 25(1995), pp 809-816.
+             15.  Jomar Thonstad et al., Aluminium Electrolysis, 3rd Edition, Aluminium-Verlag, 2001.
+             16.  Abdalla Al Zarouni et  al., Energy and mass balance of DX+ reduction cells, 31st International
+                Conference of ICSOBA, 19th Conference, Aluminium Siberia, Krasnoyarsk, Russia, September 4 – 6,
+                2013, pp 494-498.
+             17. W. E. Haupin, Interpreting the components of cell voltage, Light Metals 1998, pp 531-537.
+
+
+
+
+
+                                                                               Travaux 44 Page No. 647

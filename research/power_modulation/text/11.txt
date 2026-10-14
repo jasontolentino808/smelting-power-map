@@ -1,0 +1,1479 @@
+Source: modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf
+
+## PDF page 1
+
+Studies on Power Modulation of Aluminum Smelting Cells based
+     on a Discretized Mass and Thermal Dynamic Model
+
+         Choon-Jie Wong1, Jie Bao1, Maria Skyllas-Kazacos1, Barry Welch1,
+           Mohamed Mahmoud2, Alexander Arkhipov2, Nadia Ahli2
+
+        1 School of Chemical Engineering, University of New South Wales, Sydney NSW 2052, Australia
+       2 Emirates Global Aluminium, Jebel Ali Operations, P.O. Box 3627, Dubai, United Arab Emirates
+
+Published online 04 Jan 2023 in Metallurgical and Materials Transactions B. DOI: 10.1007/s11663-022-02709-w
+
+
+Abstract                             Keywords    Aluminum   smelting,   Hall-H´eroult
+                                                          process,  Power  modulation,  Discretized  dynamic
+                                                  mathematical  model,  Coupled  mass  and  energy
+With   increasing  penetration   of  intermittent  balance, Demand-side power management
+renewables,  flexible operation  of the aluminum
+smelting process under variable power supply will
+become critical for smelter operational feasibility 1  Introduction
+and for providing grid demand-side service. As a
+demand-side power management approach, power  Aluminum   plays   an   important    role   as
+modulation  dynamically  varies  the  aluminum  decarbonization  policies  and  the  shift  to  a
+production  rate  (thus  power  consumption)  in  more sustainable world drive a greater adoption
+response to power availability/price. While there  of renewable  energies and  electric  vehicles  [1].
+were power modulation  trials  in  the  industry,  The  reliability  of  low-cost  energy  supply   is
+many  resulted  in poor  plant performance due  crucial for the aluminum smelting industry, which
+to  the  operational  difficulties  caused  by  the  consumes 8% of global industrial electricity  [2],
+spatial  variations  of  process  conditions  and  with electricity costs representing more than 30%
+multi-timescale smelting cell dynamics. This paper  of the total production costs  [3].  However, the
+presents studies on the feasibility and cell behavior  increased penetration of intermittent renewables
+under power modulation based on a first-principles  also leads to a more variable supply and pricing
+spatially-discretized dynamic material and energy  of  electricity  [4].   This challenges the smelting
+balance model.  Various combinations of process  industry   to  compromise  between   increasing
+inputs (line current and interelectrode distance)  production costs and disrupting the delicate mass
+were  used  to  study  the  protective  side  ledge  and thermal balances of their smelting cells, which
+profile,  as  it should always be maintained  for  impacts cell stability, productivity, and lifespan [5].
+a well performing, long-lasting  cell.  Simulation   Aluminum  smelting   cells  are   traditionally
+studies of repeated modulation cycles show that  operated  at  fairly  constant  power.    As  a
+ledge does not solidify and dissolve in the same  demand-side   power   management   approach,
+timeframe  unless  energy  is  rebalanced,  while  power  modulation  of aluminum  smelting  cells
+having slow dynamics thus only stabilizing after  can  dynamically  vary  the  production   rate
+a few modulation cycles under a high frequency  (thus power consumption) in response to power
+modulation.  This work contributes to the power  availability/price. With this increased operational
+modulation modeling and analysis of aluminum   flexibility, smelters can be powered by renewable
+smelters,  allowing  for  operational and  control  energy  and  act  as  virtual  “grid-level  storage
+optimization.                                     battery” by overproducing during periods of low
+
+
+                                             1
+
+## PDF page 2
+
+grid electricity demand to offset lower production  spatial  variations  of  process  conditions  and
+during peak demand periods  [6–8].   This  also  multi-timescale smelting cell dynamics. Therefore,
+allows  smelters  to  offer  demand-side  response  this  warrants a study  of  the  operating  range
+services for the electricity grid, including energy  and the dynamics  of a  cell with the use  of a
+demand-supply  balancing  and  power  quality  mathematical dynamic model.  To the authors’
+control [9].                                         best  knowledge,  this  is  the  first  paper  that
+  Following  increasing  interests  in demand-side  studies  the  feasibility and  cell behavior under
+power management of energy-intensive industrial  power modulation, including that of a repeated
+processes [6, 7, 10, 11], a recent control study [12]  modulation scheme,  based on a  first-principles
+investigates the participation of aluminum smelter  spatially-discretized mass and thermal dynamic cell
+cells in power grid frequency modulation.  While  model.  While there are simulation studies based
+the results are promising, the authors ignored the  on CFD models (e.g., [31–33]), those models are
+freezing behavior of the electrolyte and instead  too complex to be used for process monitoring and
+opted for simplistic heat loss equations, due to  control.
+the lack of suitable thermal models.  This layer    Dynamic models  for aluminum smelting  cells
+of  electrolyte  freeze  (“ledge”)  lining  the  inner  have been proposed to describe the average cell
+cell walls  is a crucial aspect of cell design, and  conditions  [34–45], but the assumptions  of  cell
+plays a very important role in  cell performance  spatial homogeneity is becoming questionable due
+and longevity by shielding the wall construction  to the trends in large modern cell designs, which
+materials  from  the  corrosive  electrolyte  and  includes increasing anode  size per  line current,
+metal [13–15].  This ledge is sensitive to thermal  decreasing  electrolyte volume  per  line  current,
+imbalance and can grow/dissolve, which changes  decreasing interelectrode distance which impedes
+the mass and thermal conditions. The formation  electrolyte mixing, and increasing alumina feedrate
+of the ledge, and its structure, in response to shifts  per  feeder.  With mass and thermal gradients
+in thermal balance has been studied in detail in  in  the  electrolyte  becoming  more  significant,
+laboratory settings [15–20]. Other researchers focus  and new anodes  taking  longer  to heat up  to
+on controlling the heat loss from the sides of the  nominal temperature, lumped parameter models
+cell with the use of shell heat exchangers [21–26],  are  no  longer  representative  of  actual   cell
+such that operable heat balance and, consequently,  conditions. Spatially-distributed models have been
+an  ideal ledge  profile can be maintained while  proposed [46–50], but they unrealistically neglect
+power input changes  significantly.   While such  the spatial variations in the mass balance, and by
+an approach greatly improves the range of power  extension, the strong local coupling of mass and
+modulation, the cost of retrofitting and difficulty in  thermal balances.
+heat recovery (to maintain a good energy efficiency)    In  contrast,  the  model  presented  in  this
+could pose additional challenges.   Therefore, a   article  describes  the  spatially-distributed mass
+spatial dynamic model capable of computing mass  and  thermal  balances,  coupled  via  the anode
+and thermal balances, as well as the variations  currents and cell voltage. Without requiring prior
+in ledge  profile,  will be a valuable addition to  knowledge of individual anode currents and  cell
+our repertoire of tools for process monitoring and  voltage, unlike previous model developments, this
+control.                                     model can be used for power modulation studies,
+  Successful power modulation of smelting  cells  including numerical simulations for finding ways
+requires  process  engineers  to  identify  safe  cell  to maintain proper material and energy balances
+operating range, since most cells were not designed   for improved cell stability and, as an extension,
+to operate flexibly, especially not with variable line  lifespan.    It  also  enables  optimization  of  cell
+current. Although the industry has experimented  operations  during power modulation based on
+with  power  modulations,  many  studies  have  factors such as power prices and availability.
+been limited to trial-and-error experiments that    This paper  first  presents the  existing power
+come  at  the  expense  of  unstable  cells  and  modulation studies in the literature, followed by
+degraded cell life [27–30], due to the operational  a first-principles spatially-distributed dynamic cell
+difficulties  caused by  the  process  nonlinearity,  model. Steady-state and transient-state studies on
+
+
+                                             2
+
+## PDF page 3
+
+                      Alumina                       that the smelting cells are traditionally operated
+                           feeder  +                                                at a fairly constant power. However, when voltage
+                                              and/or current are being modulated,  it becomes                             Anode
+                                                    challenging to maintain cell balance due to process
+     Anode beam                                                                                                                         (Bath)   Ledge        nonlinearities, strong interactions between mass                       ACD                 Electrolyte
+                                           and thermal balances, and difficulties in measuring
+                                      Metal          and monitoring spatial cell conditions.
+                                          The above was the case for Brazillian smelters
+                                         when the government introduced a variable power
+                Anodes                                     tariff that rendered operation  infeasible during
+                                             peak  hours  due  to  high  energy  costs.    In
+                                              1987  and  1995,  Alcanbrasil  [27]  and  Valesul
+   –
+                                                    Alum´ınio  [28]  respectively reduced  their power
+                                                   inputs without compensating for the energy deficit.
+                                        As a result, they experienced electrolyte freezing
+     Figure 1: Schematic of Hall-H´eroult cell.                                           and unstable  cell operations;  they discontinued
+                                             power modulation upon  obtaining new  energy
+                                                    contracts [29]. Since then, other smelters reportedthe model are then presented, followed by studies
+                                                    to modulate their power supply include Albrasof power modulation scenarios.
+                                                       in  2001  following  Brazil’s  energy  crisis  [55],
+                                               Alcoa  in 2003  following  rectifier damages  [56],
+2  Smelting Cell Fundamentals  Hydro in 2002/2003 following reduced water power
+                                                 production [57], and TRIMET in 2008 due to high
+   and  Existing  Modulation                                             power prices [30]. Similarly, many of them reported
+   Studies                                   operational issues and difficulties in process control.
+                                               These  results  are  echoed  by  Biedler’s  [47]
+A modern Hall-H´eroult smelting cell is illustrated  simulation studies on current reduction with a
+in Fig. 1 in which alumina (Al2O3), fed by a row  finite-element thermal model.  Dupuis [58] noted
+of point feeders into a cryolitic melt (Na3AlF6 with  that this heat deficit can be compensated by raising
+additives including fluorides and alumina) [14, 51],  the ACD (and hence cell voltage); this maintains
+is reduced to aluminum in redox reactions with  the heat balance and allows the cell to operate
+consumable carbon anodes as follows [52, 53]        at steady-state, but the power usage  is lowered
+                                                       since metal production  rate has dropped.   In
+  2Al2O3(diss) + 3C(s) −→4Al(l) + 3CO2(g),  (1)  contrast, Stam and Schaafsma [59] took advantage
+   Al2O3(diss) + 3C(s) −→2Al(l) + 3CO(g).   (2)  of the cell thermal capacity and implemented a                                                  day-night rhythm where the current was lowered
+The produced molten aluminum accumulates at the  at daytime (peak) and raised at night (off-peak).
+bottom of the cell and replaces the carbon cathode  They observed that the electrolyte volume changes
+below as the true cathode  [14].  The distance  slower than  its temperature, which showed the
+from the anode to this metal layer, also called the  challenge in anticipating process dynamics due to
+anode-to-cathode distance (ACD), is an important   its nature of having multiple timescales. Eisma and
+variable  in  controlling  cell  heat  generation  to  Patel [60] explained that variations in electrolyte
+maintain an operating temperature of near 960 ◦C.  volume are related to the freezing/melting of the
+By vertically moving the beam which all the anodes  “ledge,” which is a layer of frozen electrolyte on
+are clamped to, the resistance through this gap  the walls of a cell (see Fig. 1).  Based on their
+can be varied, thus changing the cell voltage and  experimental results, they concluded that the ledge
+ohmic heat generation [54]. As the cell voltage is  can build up over repeated modulation  cycles,
+controlled within a band to ensure the stability of  leading to operational issues. This was, however,
+cell mass and heat balances [54], and the supplied  not corroborated by Reek’s [30] experiments, which
+line current is regulated (constant) [14], this means  showed that the ledge profile remained acceptable
+
+
+                                             3
+
+## PDF page 4
+
+after 2 months of day-night cycles.  In another  and heat loss are balanced. The reverse is true for
+work  [29], Reek found that the ledge thickness  low superheat.
+in the metal pad was growing over time, and
+suggested that the dynamics are time-dependent
+                                    Mass  balance  Mass  balance  governs  the
+with an  inverse  response.   Around  the same
+                                                 chemical composition  of the  electrolyte,  taking
+time, Gusberti [31] conducted simulation studies
+                                                       into  account  electrolyte  flow  and  feeding  of
+which subject aluminum smelter cells to oscillating
+                                                      materials.  While material feeding  is meant to
+power  input, and there were no  issues  in the
+                                                maintain mass balance, experiment shows that
+ledge profile over multiple power modulation cycles.
+                                                                     it impacts the thermal conditions by removing
+More recently, Ying [61] also performed a series
+                                                 heat  from  the  local  electrolyte  region   [66].
+of simulation studies which reduced the current
+                                                     Additionally, improper feeding rates  also  affect
+as low  as 50%  of nominal  values and  for  as
+                                                                cell thermal balance through changing electrolyte
+long as six hours.  Although the results indicate
+                                                composition and  liquidus temperature  [67,  68].
+successful flexible operation in which the cell can
+                                        The  electrolyte  composition  also  changes with
+return to its state before the current reduction,
+                                                  the ledge solidification/dissolution, thus affecting
+the model neglects the freezing behavior of the
+                                                thermal balance as explained above.
+electrolyte, which would have altered the heat
+transfer conditions.
+  These industrial experiments can be costly as  Electricity  The electric current and cell voltage
+poor operational decisions for the complex process  both  affect and are affected by the local mass
+affect the entire section of  cells via the shared  and  thermal  conditions.   The  regulated  line
+line  current.    Instead,  model-based  numerical  current  enters  a  cell  via  busbars and  risers,
+experiments  should  be  explored  for  low-cost  and  is  distributed among the  parallel network
+training and operational development purposes.     of  anodes.   As  the  voltage drop  along  each
+                                                         parallel anode-cathode path must be  identical,
+                                                  the magnitude  of an anode current must vary
+3  Process Modeling                  according  to  the  localized  reversible  potential,
+                                                      overpotentials, and ohmic voltage drops,  all  of
+Cell process variables are highly correlated through  which  arise due to the  local conditions  of the
+the line current and to one another [31, 47, 48,  anode-cathode path (e.g., electrolyte composition
+62], which leads to the coupling between thermal  and  temperature)  as  per  Kirchhoff’s  Voltage
+balance, mass balance, and electricity in the cell.   Law [62, 69, 70].  Kirchhoff’s Current Law also
+                                                needs  to be  satisfied,  with  all anode  currents
+Thermal  balance  Thermal  balance  governs  summing to line current [70].  Electricity affects
+the  generation,  loss,  and  transfer  of  heat  at  the  local  cell conditions in two ways.   Firstly,
+different locations in the  cell.  A “superheat,”  local material consumption rate depends on the
+which is the difference between the cell operating  anode current which  drives the electrochemical
+temperature and the liquidus temperature (the  reduction process via Faraday’s Law of Electrolysis.
+composition-dependent temperature at which the  Secondly, local ohmic heat generation is a function
+electrolyte starts to solidify), typically of around  of both anode current and cell voltage.
+10 ◦C [63] represents the thermal energy available    For smooth operation and high process efficiency,
+to drive ledge solidification/dissolution, side heat  proper  cell  balances must be maintained  [71].
+loss, and feed dissolution in a  cell [31, 62,  64].  Considering the inevitable disturbances on parts
+A  high  superheat  excessively  melts  the  ledge  of the cell caused by work practices, as well as
+and releases more cryolite (primary phase of the  the challenges of varying both line current and cell
+ledge) into the electrolyte [62, 65], changing the  voltage in power modulation, proper cell balances
+electrolyte composition. This further changes the  are harder to achieve as there  is greater spatial
+liquidus temperature and,  thus,  the superheat.  and temporal variability in process variables [66].
+This cycle ends when all the parameters in the cell  Hence,  spatially-discretized dynamic models are
+reach an equilibrium [31, 62], where heat generation  needed.
+
+
+                                             4
+
+## PDF page 5
+
+3.1  Spatially-Discretized   Thermal  3.1.1  Heat Generation
+    Model                                                     Virtually all present operating cells are supplied
+                                              13–16 kWh/kg Al of electricity, which are used as
+                                                         follows:
+
+                                                • Wasteful external heat dissipation, as voltage
+                                                    drops across external cell structures like the
+                                                    busbars and risers.
+
+                                                • Aluminum    metal    production,     using
+                                                        6.60 kWh/kg Al for a modern technology with
+                                                  a net and gross anode carbon consumption of
+                                                        0.40 kg/kg Al and 0.50 kg/kg Al respectively.
+                                                   This energy includes the heat for preheating
+                                                        materials at the feeding locations, and thus
+                                                      the  energy  used  for  the  process  at  the
+    Shell    Sidewall    Electrolyte   Ledge   Anode       anodes amounts to 5.474 kWh/kg Al (refer to
+                                                    Table III).
+Figure 2: Discretization of thermal balance model                                                • The remainder  is for ohmic heat generation
+according  to anode  locations  (illustration  of a                                                            in  the  cell  to  maintain  thermal  balance.
+simplified cell with 12 anodes).                                                   This happens mostly underneath an anode as
+                                                        current flows vertically down to the cathode
+                                                  below [62].
+  As cell heating occurs primarily via the ohmic
+effect, the distribution of anode currents in a cell    Thus,  the  local  heat  generation  at  each
+readily reflects the distribution of energy input.  anode-cathode path, Qgen, is given as
+Therefore,  to capture  local  cell dynamics,  the
+model is discretized according to anode positions   Qgen = Ian ·(Vcell −IRext)−5.474 ˙mAl(Ian), (12)
+and dimensions as demonstrated in Fig. 2, similar                                             where  Ian  is  the anode  current,  Vcell  is  the
+to  our  previous  work  [62].   The  electrolyte                                                                cell voltage,  I  is the  line current, Rext  is the
+region  is  not  further  vertically  discretized  in                                                       resistance external to the cell that dissipates energy
+this approach because each  current magnitude                                                        wastefully, and ˙mAl  is the hourly rate of metal
+already represents the total impedance at each                                                 production given by Faraday’s law of electrolysis
+anode-cathode path [62, 72]. This also eliminates                                                 (Eq. 11).
+the need to have empirical parameters and relations
+for  electrical  resistances  in the thermal model.
+                                                 3.1.2  Heat Transfers and Heat Losses
+Nevertheless,  the  lateral heat  transfers  in  the
+electrolyte and in the metal pad are calculated  Fig. 3 illustrates the heat transfers between various
+separately, due to the large difference in their heat   cell domains,  as summarized  in Table  I. The
+transfer coefficients. The anodes are still treated as  following  heat  transfers  are  considered  in  the
+separate vertical layers, while other vertical layers  model:
+such as top crust and bottom insulation are treated
+                                                             1. Heat  in  the  electrolyte  and  metal  areas thermal resistances and so vertical heat losses
+                                                          transferred  by  conduction  and  advectioncan still be computed.
+                                                     (induced by the bulk fluid movement). The
+  The equations governing the thermal transfer                                                         flow pattern was computed by our industrial
+in the  cell,  along with the domains  in which                                                      partner through computational fluid dynamics
+they  apply,  are summarized  in  Table  I. The                                                          studies (e.g., [76–78]).
+model parameters specific to the cell technology
+and design studied in this paper are provided in    2. Heat is transferred to the ledge surface and
+Table II.                                         anode surface by convection.
+
+
+                                             5
+
+## PDF page 6
+
+                    Table I: Basic governing equations in the thermal model.
+ Parameter          Domains                                            Governing equation
+                                         Thermal transfer
+                                                         −T2) Conduction         Anode, electrolyte, metal, ledge,       Q = kA(T1                                  (3)
+                                                   L                         sidewall, shell, ledge–sidewall,                                                                   or
+                         sidewall–shell, anode–crust,                   T1 −T2
+                     anode–assembly, bottom           Q =                                          (4)
+                                            R
+                         insulation–shell.                      L
+                                       R =                                          (5)
+                                                 kA
+
+ Convection           Anode-electrolyte, electrolyte–ledge,     Q = hA (Ts −T∞)                           (6)
+ (including            metal–ledge, shell–ambient,                 or
+ radiation)           crust–chamber air, assembly–chamber          T1 −T2
+                                      Q =                                          (7)
+                            air, rod–ambient.                     R
+                                                                 1
+                                       R =                                          (8)
+                                                hA
+
+ Advection             Electrolyte flow.                Q = ρAvc (T1 −T2)                          (9)
+
+                                                 Other
+                                                           d(ρV cT)
+ Temperature state    All subsystems.                      = Qin −Qout + Qgen            (10)
+                                                                    dt equation
+
+                                                    IanMη
+ Faraday’s law of     Anode consumption, alumina               ˙m =                                       (11)
+                                                     Fz electrolysis           consumption, metal production.
+
+
+                                                            3. Heat is conducted up the anodes through their
+                                                  yoke and rod. A portion of this heat is lost by
+       Table II: Key model parameters.               convection to the chamber air enclosed by the
+Material                      Parameter      Ref.            cell hoods, while the remaining is conducted
+        Thermal conductivity, K (W/(m K))                further upwards and lost via convection to the
+Anode                              4.9–6.6     Industry       potroom air [79].
+Electrolyte                       1000          [62]
+Metal                           1000          [62]        4. Heat is lost from the crust to the chamber air
+Ledge                              1–1.5      Industry
+Graphitized block (sidewall)       58–77     Industry        via convection [62].
+Silicon carbide block (sidewall)     22–31     Industry
+Steel shell (side)                  42–47     Industry      5. Heat is transferred down from the metal layer
+Cast steel (yoke)                    38.6      Industry        to the cell lining materials (such as vermiculite
+Rod                             210       Industry      and firebricks), and then to the shell.
+Crust                                 2.6       Industry
+Collector bar                      30       Industry
+                                                            6. Heat is conducted outwards from the ledge toFirebricks                           1.50          [62]
+High-density vermiculite             0.30      Industry       the sidewall, and then to the shell. Heat is also
+Low-density vermiculite             0.14          [62]         conducted between similar subsystems,  i.e.,
+Steel shell (bottom)                31           [62]          ledge-ledge, sidewall-sidewall, and shell-shell.
+       Heat transfer coefficient, h (W/(m2 K))
+Electrolyte – anode               1100          [62]        7. Finally, heat is lost from the outer shell on
+Electrolyte – ledge                 600       Industry       the bottom and the side to the ambient air
+Metal – ledge                     1250      Industry
+                                                        via convection.   Heat  loss by radiation  is
+Steel shell (side) – ambient          22       Industry
+Steel shell (bottom) – ambient      20-30      Industry        also accounted in the effective heat transfer
+Rod – ambient                     40      Assumed         coefficients for convection.
+Rod/yoke – chamber air            40      Assumed
+Crust – chamber air                20-40      Industry      Additionally,   materials  are   fed   into  the
+                                                       electrolyte  by  point  feeders   installed  along
+                                                 the cell center channel (between the two rows of
+
+
+                                            6
+
+## PDF page 7
+
+                         Table III: Breakdown of process energy required.
+               Energy Use                        kWh/kg Al      Ref.
+                 Local heat requirement at feeder locations      1.126
+                Preheating feed (alumina and impurities)      0.575          [73]
+                 Dissolution of feed                            0.551          [74]
+                 Local heat requirement at anode locations      5.474
+                Preheating anode (carbon and sulfur)          0.180        [73, 75]
+                Preheating other materials and impurities     0.100          [75]
+                Enabling and completion of reactions          5.194      Difference
+
+                 Total                                          6.60         [73, 75]
+
+
+                    Anode                          conduction (Qboundary→ledge):
+                        rod
+                                                    d(mledge)   Qboundary→ledge                                    =                −Qelect→boundary .
+                                                       dt                ∆Hfusion,cryolite
+                                                                                                  (13)
+                                           Cell hood
+                                            Changes   to   ledge   thickness  can  then  be
+                                                    volumetrically calculated using  its density.  As
+             Anode yoke
+                          4                         cryolite is added or removed from the electrolyte    Crust
+                                                    as ledge dissolves or  solidifies,  this changes the
+                3                            mass of the electrolyte, melect, with
+                         2
+                                  6     7
+   Bath                                                            d(melect)
+                                           =                   .         (14)                          1               Sidewall                   dt      −d(mledge)dt   Metal
+                               & Shell
+                5
+   Lining                                   3.2  Spatially-Discretized     Mass
+                                   Model   ShellShell                       Overall Control Volume
+                                        Our previous works [80, 81] have shown that the
+                                                        electrolyte composition of Hall-H´eroult cells exhibit
+                                                        spatial  variations.   This leads to varying heat
+Figure  3:   Illustration  of some important heat                                                       transfer conditions in different parts of the  cell,
+transfers considered in the model.                    since the local liquidus temperature (◦C) is related
+                                                    to electrolyte composition with [68]:
+
+                                                                                                3.45CCaF2                                                          −anodes).  The energy required to preheat these    Tliq = 1011 + 0.5CAlF3 −0.13C2.2AlF3                                                                                              1 +materials to the operating temperature of near                                          0.0173CCaF2
+960 ◦C and to dissolve them are provided by the   + 0.124CCaF2CAlF3 −0.00542 CCaF2CAlF3  1.5
+local superheat surrounding the feeding zone. This   −                     7.93CAl2O3
+                                                              1 + 0.0936CAl2O3 −0.0017C2Al2O3 −0.0023CAlF3CAl2O3energy requirement per unit mass of feed material
+can be calculated from the values in Table III.     −           8.9CLiF         −3.95 CMgF2 + CKF  ,
+                                                              1 + 0.0047CLiF + 0.001C2AlF3
+                                                                                                                           (15)
+
+3.1.3  Ledge Dynamics                        where   all  the C  concentration  terms  in
+                                                         this  equation  are  in  wt%.     In  a  typical
+The energy needed to change the ledge  profile  Al2O3–AlF3–CaF2–Na3AlF6 system, the liquidus
+is given by the difference between the heat flux  temperature can be accurately determined by just
+going into the ledge surface from the electrolyte  considering  the dynamics  of Al2O3 and AlF3
+by convection (Qelect→boundary) and the heat flux  concentrations, since CaF2 concentration typically
+going out from the surface to the ledge block by  remains relatively stable or slow-varying compared
+
+
+                                             7
+
+## PDF page 8
+
+       965                            965                            965
+
+
+  (°C)   960                            960                            960
+
+
+
+
+       955                            955                            955           Temperature
+        Liquidus   950                            950                            950
+
+
+
+
+
+       945                            945                            945
+          2     2.5    3     3.5    4      9      10      11      12      4.5    5     5.5    6     6.5
+                 Al2O3 wt%                        AlF3 wt%                    CaF2 wt%
+          ([AlF3]=10.5%, [CaF2]=5.5%)      ([Al2O3]=3.0%, [CaF2]=5.5%)      ([Al2O3]=3.0%, [AlF3]=10.5%)
+
+
+Figure 4:   Liquidus temperature as a function of alumina, aluminum fluoride, and calcium fluoride
+concentrations in ranges typically observed in an industrial cell.
+
+
+to other species, and it has the least impact on  subsystem, the concentrations of solid alumina that
+liquidus temperature.  This  is demonstrated by  dissolves quickly, Cf, and slowly, Cs, are given by
+Fig.   4, which shows the liquidus temperature
+                                                  dCf             r ˙mfed
+as a function of alumina, aluminum fluoride, and          =     +            ,           (16)                                                             dt   −kfCf    melectcalcium fluoride concentrations (calculated using
+Eq. ??) in the ranges typically observed in an          dCs             (1     ˙mfed                                      =    +  −r)        ,      (17)industrial cell.                                                dt   −ksCs      melect
+  In a cell, there are feeders that each deliver an  where ˙mfed  is the mass feeding rate of alumina
+isovolumetric shot of material when activated. The  in the subsystem and all the concentration terms
+shots are assumed to have distributed among the  are expressed as wt/wt.  The dissolved alumina
+electrolyte regions surrounding the feeding zone.  dynamics are composed of:
+This is because the solid materials can float and
+                                                             1. Feed dissolution (Eq. 16-17).disperse on the electrolyte surface as a ‘raft’ for
+short periods [82].                                                             2. Consumption   in   the   process   reactions
+                                                       (Eqs. 1-2) with a rate of ˙mconsum modeled
+                                                    with Faraday’s law of electrolysis (Eq. 11).3.2.1  Alumina Concentration
+                                                             3. Advective mass transfer due to flow of bulk
+The  dynamics  of  alumina  dissolution  can  be
+                                                             electrolyte (Eq. 9) with a rate of ˙mflow.
+expressed with two  first-order mechanisms  [47].
+The  first models the largest portion of alumina    4. Change  in  electrolyte  composition due  to
+power,  r  (0.75),  that  dissolves  quickly  in the      the solidification or dissolution of ledge (the
+bath with  rate constant kf  (0.099  s−1),  while      composition of which  is primarily cryolite).
+the second models the remainder of alumina that       Solidification  of  ledge  decreases  electrolyte
+forms agglomerates which dissolve slowly at a rate      mass and increases alumina concentration, and
+constant ks (0.005 s−1) [47].  Therefore, for each       vice versa.
+
+
+                                             8
+
+## PDF page 9
+
+Therefore, the dissolved alumina in each subsystem  3.3  Anode Current and Cell Voltage
+can be computed with
+                                        As a result of Kirchhoff’s Laws, the voltage drop
+                                                     across each anode-cathode path must be identical,
+   d(CAl2O3)
+        = kfCf + ksCs                       while  all anode currents must sum to the  line       dt                  −˙mconsum(Ian)melect                                                      current.  Therefore, the cell voltage and N anode
+                                         d(melect)
+                   ˙mflow                dt             currents can be simultaneously computed from         +                                        .   (18)                   melect −CAl2O3melect
+                              Vcell,1(Ian,1) = Vcell,2(Ian,2)
+
+                                                                      Vcell,1(Ian,1) = Vcell,3(Ian,3)
+3.2.2  Fluoride Concentrations                                                                                                                                                                                                                                                                                                                                                                                                  ...                           ,     (20)
+Aluminum fluoride  is only fed to alter liquidus
+                                           =                                                                      Vcell,1(Ian,1)                                                                                Vcell,N(Ian,N)temperature              of               the electrolyte                         and                                   to make                                   up                                                    for
+fluoride losses             from                    the cell.                               Therefore,                                         the                                                         cell                                        PN                                                                        I =                                                                                                   n=1 Ian,n
+studied in this paper only requires about 50 kg
+daily, in contrast to about 6 tonnes of alumina  where the cell voltage empirical relations, Vcell, are
+daily.  As the aluminum fluoride concentration  well-established and have been published elsewhere
+remains fairly constant due to periodic feeding,  in detail [70, 85]. In short, the cell voltage consists
+the model  is  simplified by assuming  that  the  of the reversible potential, overpotentials due to
+fed aluminum fluoride instantly distributes and  concentration gradients and surface reactions at
+dissolves in the electrolyte region surrounding the  the electrodes, as well as ohmic potential drops
+feeding zone. The mass balance components are  through the electrolyte, bubble, anodes, cathodes,
+then:                                       and external superstructures.
+
+  1. Mass of aluminum fluoride introduced to the  3.4  Simulation     and     Model
+     electrolyte, ˙mfed,AlF3.                                           Validation
+
+  2. Advective mass transfer due to flow of bulk  Due  to  the  strong  coupling  between  process
+     electrolyte (Eq. 9) with a rate of ˙mflow,AlF3.    variables, Eqs. 4–20 must be solved simultaneously,
+                                                   using  initial values in Table IV for each model
+  3. Change in electrolyte composition due to the  subsystem. The model was simulated for 50 hours
+     solidification or dissolution of ledge.            to let all the variables reach stable values, which
+                                                    are shown in Fig. 5.  To validate the discretized
+                                                model,  measurements were taken from  various  4. Fluoride  emissions  due  to  hydrolysis  of
+                                                      locations on an industrial cell as shown in Fig. 6,     electrolyte  and  vapor  ˙mG,F,   electrolyte
+                                                    including  electrolyte  temperatures (HERAEUS     volatilization    ˙mV,F,    and    electrolyte
+                                      FIBERLAB, bath temperature mode), steel shell    entrainment ˙mE,F. Complete details of these
+                                                temperatures (FLUKE Ti32 infrared thermometer,     relations have been published elsewhere [36,
+                                                      emissivity   1.0),  and   electrolyte  composition     83, 84].
+                                    (PANALYTICAL  CUBIX   X-ray   diffraction,
+Hence, the dissolved aluminum fluoride in each  Rietveld software).
+subsystem is given by                                   Figs. 7, 8, and 9 compare the cell measurements
+                                                    to the open-loop simulation results.  Fig. 7 shows
+                                                  d(melect)
+              ˙mfed,AlF3 d(CAlF3)                                                        dt       that the electrolyte temperatures predicted by the                           ˙mflow,AlF3 −CAlF3      =              +
+    dt         melect        melect          melect        discretized model  reflect well the measurements
+             Mr(AlF3)                                        CAlF3                                               ˙mE,F    from  various  locations  in  an  industrial   cell.              3Mr(F)   ˙mG,F + ˙mV,F + 1−CAl2O3
+      −                                                                         ,  The  differences  observed  are  probably due  to
+                               melect
+                                                       (19)  uncertainties in initial ACD values, which affects
+                                                  the  path  resistance  and  therefore  the  anode
+ where Mr(·) is the molar mass or atomic mass.     current and  local heat generation.   While the
+
+                                             9
+
+## PDF page 10
+
+   Bath
+949                      953.25                     957.5                     961.75                    966
+   Ledge
+555                      641.25                     727.5                     813.75                    900
+   Sidewall
+373                       482.5                    592                       701.5                    811
+   Shell
+352                     459                     566                     673                     780
+
+                Figure 5: Heat map of thermal balance variables in equilibrium (◦C).
+
+
+
+
+                    ⊙
+     1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18
+
+    ⊙⋄                                              ⊙  Tap-End                                                                                                                                                                                                                                                                                                              Duct-End
+    36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+
+                    ⊙
+       ↑       ↑       ↑       ↑       ↑       ↑       ↑       ↑       ↑     27-DS  24-DS  21-DS  18-DS  15-DS  12-DS   9-DS   6-DS   3-DS
+
+Figure  6:  Measurement locations  for model validation (⊙= electrolyte temperature, ↑=  shell
+temperature, ⋄= electrolyte sample).
+
+
+
+
+
+                                            10
+
+## PDF page 11
+
+                                                         of local  cell conditions, as  it was derived from
+     Table IV: Important initial values used.
+                                                  the first principles. As these local cell conditions
+           Parameter   Initial value
+                                                    are not conventionally measured or monitored, the
+            CAl2O3         3.0 wt%              model becomes a valuable tool for conducting and
+            CAlF3         11.9 wt%               studying power modulation schemes.
+           CCaF2         6.4 wt%
+          CMgF2         0 wt%
+           CLiF          0 wt%          4  Steady-State       Model
+         CKF          0 wt%            Response Studies
+               Telect         968 ◦C
+              Tledge         820 ◦C                                        As  explained  in  section  3.1.1,  only a  portion
+              Tsidewall       600 ◦C                                                         of  the  supplied  electrical  power   is  used  to
+             Lledge          5 cm                                                  generate heat.   This heating power should be
+                                                 kept constant  if the  cell thermal balance  is to
+                                             be maintained under different sets of controlled
+model assumes uniform ACDs as  initial values,  variables (ACD and line current in a typical modern
+the  actual ACDs  of  anodes  29  and  30,  for   cell).  Although aluminum fluoride concentration
+example,  could be higher than average, which   is another possible variable to be manipulated for
+decrease the anode currents and lower the heat  adjusting cell heat balance, it is not in the scope of
+generation in the areas, resulting in lower bath  these studies for two reasons:
+temperatures than expected.  This can also be
+                                                             1. Its induced thermal response is indirect andseen  in  Fig.  8, where the  location 18-DS has
+                                                      very slow,  since  it has to  first change theabnormally low shell temperature. This also causes
+                                                           liquidus temperature and superheat.neighboring  shell temperatures to deviate from
+expected values.  Additionally, the discrepancies                                                             2. Most smelting cells are built with aluminum
+in shell temperatures are also caused by their slow                                                             fluoride  feeders but not sodium oxide and
+dynamics, as heat from within the cell must pass                                                     calcium oxide feeders [88, 89]. This means that
+through multiple insulation layers before reaching                                                             fluoride concentration cannot be decreased by
+the  shell.   With  frequent  cell  operations,  the                                                          neutralization with the oxides via automatic
+measured shell temperature will not align with the                                                             control.
+quasi-steady state values (e.g., bath temperatures)
+inside the cell. Regardless, this model is still useful  To  illustrate how  line current and ACD  affect
+as uncertainties in model parameters and initial  the cell voltage and power usage, the steady-state
+conditions can be rejected by using such a model  model  response was  first  qualitatively  studied
+in an  online,  closed-loop  estimation  algorithm  by  considering  only  the  cell  voltage  equation
+that  continuously measures and minimizes  the  and  the  total  production  energy  requirement
+estimation  error,  provided  that  the system  is  of 6.60 kWh/kg Al, while assuming most other
+observable for the measurements, as explained in  variables remaining constant. This study excludes
+a previous work  [86].   Lastly,  Fig. 9 shows a  the impacts of the spatial distribution nature and
+good agreement between measured and simulated  the coupling between cell states.
+electrolyte composition at the tap-end region. The     Figs. 10(a) and (b) show the effects of varying
+samples were only taken from one location as it  ACD. As this effectively changes only the resistance
+is logistically challenging to capture all the data  of the electrolyte layer, it can be seen in Fig. 10(a)
+in the same time window. However, our previous  that the ohmic voltage component changes linearly
+works [70, 87] have confirmed that the mass balance  with ACD, while other voltage components remain
+equations [47] can accurately compute the changes  constant. This includes the reversible potential, as
+in alumina concentration.                          current efficiency is assumed to remain constant.
+  Although the discretized  cell model was only  As a result, the power used to produce heat also
+validated under nominal “steady-state” conditions,  increases linearly with ACD, as shown in Fig. 10(b).
+it can  still allow  for further behavioral studies  This  is expected as raising anode beam  is one
+
+
+                                            11
+
+## PDF page 12
+
+                                                         of the conventional procedures to raise electrolyte
+    965
+                                             Measurement         temperature.
+                                                     Simulation
+    (°C)                                                      Figs. 10(c) and (d) show the effects of varying
+    960                                                    line current.  Line current affects all the voltage
+                                               components.  From Ohm’s Law, the ohmic and
+                                                    external voltage drop components increase with
+    955           Temperature                                                   current.  The overpotentials are  also functions
+                                                         of current, but they increase only  slightly and
+    950                                              are not visible in Fig. 10(c).   Fig. 10(d) shows           Electrolyte                                               that  increasing  line  current  greatly  raises  the
+                                             power  consumption,  because  metal  production
+    945                                               rate increases linearly to line current while heat
+          Tap-End    Duct-End  Anode 29-30  Anode 7-8
+                                                   generation  increases quadratically (P =  I2R).
+Figure 7: Comparison of measured and simulated  Fig. 10 also shows that for the same variation
+electrolyte  temperature.   Error  bars  represent  (±40%)  in ACD  and  line  current,  power  ismeasurement uncertainties.                   much more effectively modulated with the latter.
+                                              However, more power is wasted through external
+                                             Measurement         voltage drops at a higher line current, while there
+    500                                            Simulation                                                                     is a diminishing power reduction at lower current.
+    (°C) 400                               On the other hand, raising ACD increases power
+                                              consumption for  cell heating without increasing
+                                               metal production.
+    300
+                                     When  either ACD or  line current  is  varied,           Temperature 200                                            the  cell thermal balance  is disrupted.   Inspired
+     Shell                                         by Dupuis’ work  [58],  Fig. 11 shows the ACD
+    100                                             required  for each  line current value such that
+                                                  the heat generation and cell thermal balance are
+      0                                            maintained, while the total power consumption
+      3-DS 6-DS 9-DS12-DS15-DS18-DS21-DS24-DS27-DS            is  still  varied.   Unfortunately,  this strategy  is
+Figure 8: Comparison of measured and simulated  limited  for  two  reasons.     Firstly,  by  always
+shell temperature.  Error bars represent standard  maintaining heat balance, the cell thermal capacity
+deviation.                                                        is not utilized, limiting the range of modulation.
+                                                   Secondly, this strategy is more suitable for finding
+                                              a new steady-state operating regime rather than
+                                             Measurement  (wt%)                                                 Simulation            for  automatic  control,  due  to  the  quadratic
+    CaF2                                                changes  in ACD. As modern  cells  have  high
+                                                      anodes-to-electrolyte  volume  ratios,  electrolyte
+                                                   height is sensitive to ACD changes.  Thus, large     Composition                                                      increases  in ACD can  pull the anodes out  of     AlF3
+                                                  the  electrolyte,  which has  to be remedied by
+                                               adding electrolyte into the cell. Alternatively, the     Electrolyte                                                  thickness of anode cover insulation can be increased
+   Al2O3                                                  for  greater  heat  retention.   Both  operations
+                                                    are manual,  limiting how  frequently and how   Tap-End
+         0.0    2.0    4.0    6.0    8.0   10.0   12.0   14.0      many cells can be worked on.  Additionally, low
+                               ACD can  lower  process  current  efficiency due
+Figure 9: Comparison of measured and simulated                                                    to anode-cathode short-circuiting, as well as the
+electrolyte composition at the tap-end. Error bars                                                      increase  in back  reaction due  to proximity  of
+represent standard error.                                               cathode metal and anode gases [29].
+
+
+                                            12
+
+## PDF page 13
+
+     60%      80%      100%     120%     140%     60%      80%      100%     120%     140%
+      6.0                                                              6.0
+                 Reversible V                                                          Reversible V
+               Over V                                                        Over V
+      5.0      Ohmic V                                                5.0      Ohmic V
+                 External V                                                              External V
+    (V) 4.0                                                                          (V) 4.0
+
+
+      3.0                                                              3.0          Voltage                                                                                                                                                                                       Voltage
+      Cell 2.0                                                                                                   Cell 2.0
+
+
+      1.0                                                              1.0
+
+
+      0.0                                                              0.0
+                2.0         2.5         3.0         3.5                 300   350   400   450   500   550   600   650
+                   ACD (cm)                                             Line Current (kA)
+                   (a)                                     (c)
+
+
+
+     60%      80%      100%     120%     140%     60%      80%      100%     120%     140%
+      3.5                                                              3.5
+               Produce metal                                                  Produce metal
+               Produce heat                                                   Produce heat
+      3.0                                                              3.0
+                 Lost externally                                                         Lost externally
+
+      2.5                                                              2.5
+      (MW) 2.0                                                                                                   (MW) 2.0
+
+      1.5                                                              1.5       Power                                                                                                                                   Power
+
+      1.0                                                              1.0
+
+
+      0.5                                                              0.5
+
+
+      0.0                                                              0.0
+              2          2.5        3          3.5                 300   350   400   450   500   550   600   650
+                   ACD (cm)                                             Line Current (kA)
+                  (b)                                  (d)
+
+
+Figure 10: Impact of varying (a) ACD on cell voltage components, (b) ACD on power usage components,
+(c) line current on cell voltage components, (d) line current on power usage components.
+
+
+
+
+
+                                            13
+
+## PDF page 14
+
+     60%      80%      100%     120%     140%    ACD] and [95% current, 3.0 cm ACD].
+      3.5                                             8
+                               Produce metal             A dynamic simulation with day-night rhythm,
+                               Produce heat
+      3.0                                                    7     where the ACD and line current were switched                                  Lost externally
+                       ACD                       between these two sets of values every 12 hours,
+      2.5                                             6
+                                                 confirmed  that  cell  variables  remain  constant
+      (MW) 2.0                                             5 (cm)    throughout the modulation period due to constant
+                                                  heating power, as shown in Fig. 13(a). Since it is
+       Power 1.5                                             4 ACD    very important for the ledge profile to stay within
+      1.0                                             3      bounds,  its maximum, minimum, and average
+                                                    values are plotted in the figure;  average values
+      0.5                                             2
+                                               were plotted for other variables for easier reference
+      0.0                                             1      although the distributed states and parameters
+        300   350   400   450   500   550   600   650        were accounted for in the model. The oscillating                        Line Current (kA)
+                                              alumina concentration and cell voltage were due
+                                                    to conventional feeding algorithm  [90], and theFigure  11:   Cell power usage by varying both
+                                                           slight difference in the alumina concentration level,ACD and line current while maintaining cell heat
+                                                    as power was modulated, was caused by feedingbalance.
+                                                      rate adjustments according to the  line current.
+                                        The modulation amplitude was limited as the heat
+5  Transient Model Response   deficit introduced by lowering current must be
+                                             compensated by raising ACD.
+   Studies                                A contrasting strategy  is to  fully  utilize the
+                                                       latent effect of the ledge and other heat capacities
+The  cell thermal capacity  arises from the  cell  of  the  cell,  without ACD  adjustments.   For
+construction  materials,   the   electrolytic  bath  example,  Fig.  13(b) shows  the modulation  of
+materials, as well as the ledge, which helps to  current between 100% and 115% (ACD unchanged
+maintain heat balance by absorbing or releasing  at 2.75 cm). This study uses a larger magnitude
+latent heat to the electrolyte.  Therefore, while  of current modulation to highlight the role of the
+ensuring that the ledge profile stays within physical  ledge in minimizing the thermal imbalance through
+bounds,  the heating power can be allowed  to  latent heat absorption/release. Without balancing
+fluctuate as power is modulated. These operational  the heating power,  the  cell mass and thermal
+limits can be determined by simulating the  cell  variables were observed to fluctuate throughout
+model [Eqs.(4)–(20)] under various combinations of  the modulation  cycles.   Fig. 13(b)  also shows
+line current and ACD.                             the different delays in thermal responses of the
+  The  final  steady  value  of  some  important  electrolytic  bath and  the  ledge.   The  ledge
+variables under different line currents and ACDs  thickness reached steady-state after about 12 hours,
+are shown in Fig. 12. For a given line current, there  which matches Gusberti’s studies [31], while the
+is an operationally acceptable range of ACD. Due  electrolyte temperature quickly approached its final
+to the nonlinearity in heat generation, ACD has  steady value only after about 5 hours, partially
+a wider range and gentler line gradient at lower  due to the latent heat regulation from the ledge.
+line current, to have the same change in heating  However, the electrolyte temperature continued to
+power. Conversely, variables are more sensitive to  evolve slowly after that as a response to the slow
+ACD changes at higher currents, which can make  variation in liquidus temperature caused by the
+control more challenging. For small changes in line  slowly evolving ledge profile.
+current, Fig. 12 is also a useful reference to find   The simulations shown in Fig. 13 represent two
+sets of ACD and line current which can maintain  extreme strategies in terms of cell thermal balance,
+the thermal variables.  For example, a horizontal  but the model allows studies of any combination of
+line can be drawn for any of the variables, and   line current and ACD as process inputs. With the
+the ACD values can be read from the intersection  model, it is also possible to compute the optimal
+points. Two such pairs are [100% current, 2.75 cm  control actions to maximize profit based on power
+
+
+                                            14
+
+## PDF page 15
+
+                  14
+                            Ledge     12                           (cm)
+                 Max     10
+                   8
+
+
+                   6
+                            Ledge      4                           (cm)
+                   2                 Min
+                   0
+                1000
+
+
+                 980                 (°C)                                                          Temperature
+                 960
+                  20
+
+
+                  15                 (°C)                                                Superheat
+                  10
+
+
+                  10
+                      [AlF3] (wt%)   8
+
+                   6
+
+                  10
+
+                   8                      Mass                                                       (tonnes)   6                      Bath
+                   4
+                       2.0       2.5       3.0       3.5       4.0       4.5       5.0       5.5
+                                 ACD (cm)
+
+                      115%     110%     105%     100%     95%     90%     85%
+
+
+Figure 12: Operating range for an industrial cell under different combinations of ACD and line current
+(expressed in % of nominal line current).
+
+
+
+
+
+                                            15
+
+## PDF page 16
+
+              (%) 120                                                                                                                                                               3.2 (cm)                                                                           3.2 (cm)                   (%) 120110           110
+                                                                           3.0                                                                                 3.0
+           100                                                                   100                                                                                                                                                               2.8 ACD                                                                           2.8 ACD                                            Current 90                                 Current 90
+              0        10       20       30       40       50                      0        10       20       30       40       50
+             (V)                                                                                                        (V) 4.50
+             4.15
+                               Voltage 4.10                                                                                                                                                                                                                                     Voltage 4.00
+              0        10       20       30       40       50                      0        10       20       30       40       50
+
+              3.0                                                                                 3.0
+                        Produce heat      Produce metal       Lost externally                                  Produce heat      Produce metal       Lost externally
+
+
+              2.0                                                                                 2.0                    (MW)                                                                                                                                          (MW)
+                         Power 1.0                                                                                                                                                                      Power 1.0
+
+
+              0.0                                                                                 0.0
+              0        10       20       30       40       50                      0        10       20       30       40       50
+
+                                                            12.0                                                                12.0
+            3.5                                                                    3.5                                                                                                                               10.0  (wt%)                  (wt%)                                                 10.0  (wt%)                    (wt%)
+                                                                                   3.0                                                                                                                                      8.0                                                               8.0                                                                                                                                                                                                                                                       [AlF3]                                                                                                                        [AlF3]                 [Al2O3]                  [Al2O3] 3.0                                                                                   2.5                                                                                                                                      6.0            2.5                                                               6.0
+             0      10      20      30      40      50                   0      10      20      30      40      50
+         (°C)                                           25 (°C)           (°C)                                           25 (°C)
+                                  T 980                                        20    T 960                                        20              and       and
+                                                    15                                                         15
+         Bath    Liquidus 940920                                        105          Superheat            Bath    Liquidus 960940                                        105          Superheat
+             0      10      20      30      40      50                   0      10      20      30      40      50
+
+           15                                                         15
+                 (cm) 10                                                                                                               (cm) 10
+
+            5                                                          5                     Ledge                                                                                                                                                 Ledge
+            0                                                          0
+             0      10      20      30      40      50                   0      10      20      30      40      50
+                            Hours                                                   Hours
+
+                     (a)                                      (b)
+
+
+Figure 13:  Behavior of  cell states and variables under power modulation with (a) ACD/voltage
+compensation for constant heat generation, (b) utilization of cell thermal capacity.
+
+
+
+
+
+                                            16
+
+## PDF page 17
+
+                                                               50     has a  fixed-price  electricity  contract,  with the
+     (MW) 0.4                                                                                               (°C)                                 T   same energy  cost during off-peak hours.  The
+                                                               45   ACD was also not manipulated to keep the study      0.2        Output                                                                                                                                                                                                                                       Ambient    simple. Other strategies are possible depending on   PV  0                                                        40
+    120                                                          cell design and smelter plant infrastructure.  For
+   (%)                                                                       3.2     example, if a plant generates power primarily with                                                                                                                                     (cm)
+                                                                                                    ACD   current at night when ambient temperature is low,       Current 100                                                                   3.02.8     gas turbines,  it would be better to increase line
+     80                                                 since gas turbines will have higher efficiency [93].
+      3.0       Produce heat      Produce metal       Lost externally              Additionally, resistance of external cell components
+     (MW) 2.0                                           such  as  busbars  also  decreases  with  ambient
+      1.0                                            temperature, and thus the portion of power wasted       Power
+      0.0                                                externally would reduce, and more power can be
+     15                                           used for metal production and for heat balance.
+      (cm) 10                                               Increasing power consumption late at night also
+      5                                                acts as a good industrial demand-side response        Ledge
+                                              which helps improve power grid stability. With the
+      0
+      5 AM     9 AM     1 PM     5 PM     9 PM     1 AM     5 AM     proposed model, more numerical experiments and
+                                         Jan 02, 2022-Jan 03, 2022
+                                                      studies like these are possible.
+
+Figure 14:  Behavior of cell states and variables
+with additional solar power supply during the day,
+and shorter period of heat release at night when 6  Repeated      Modulation
+ambient temperature is low.                 Cycles
+
+availability, power costs, utility green tariffs, cost  The  stability  of  ledge  profile  over  repeated
+of raw materials, aluminum selling price, energy  modulation cycles  is very important  for proper
+storage (battery) costs and cycle life, and so on.   cell operation.  However, although inconclusive,
+This is outside the scope of the present work, but an   it has been suggested in the literature that the
+example simulation study is provided in Fig. 14 to  ledge can grow unboundedly or deplete completely
+illustrate one possible operational strategy. In this  over cycles.  Due to the strong coupling effects
+study, the hourly Australian photovoltaic power  between variables and nonlinearity in the system,
+output  ([91], MERRA-2 dataset, averaged 2019   it is possible that the previous equilibrium point
+data) and ambient temperature profile ([92], 2-3  cannot be returned to after each modulation cycle.
+Jan 2022, summer) were considered.  The  line  For example, the melting of ledge may irreversibly
+current was increased during day-time as  solar   affect  the  liquidus  temperature and  superheat
+power becomes  available,  with  the  target  line  of the  cell.   Therefore, three case studies were
+current, I, computed implicitly from              performed to study ledge  reversibility, and the
+                                                         results are presented in Fig. 15.
+                                               Case 1 temporarily increases the line currentPbaseload+Psolar(t) = I(t)·Vcell  I(t), C(t), Telect(t)  ,
+                                              (21)  by 10% for 12 hours, comparable to Eisma and
+where   Pbaseload   is  the  nominal   cell  power  Patel’s experiment [60].  Similar to their findings,
+consumption and Psolar is the photovoltaic power  the ledge dissolved quickly as the power was raised,
+output. The excess accumulated heat was released  but upon restoration of the power level, the ledge
+at night, when the ambient temperature is lowest  grew slowly and did not return to  its  original
+and the  rate  of heat  release from the  cell  is  thickness  in the same timeframe  of 12  hours.
+highest. Therefore, the period of low current (and  However, this does not mean the ledge will deplete
+low metal production) was shortened to maximize  through modulation cycles;  it eventually reached
+production.                                       the original thickness about 30 hours after power
+  In this study, it was assumed that the smelter   level restoration. This difference in cell response is
+
+
+                                            17
+
+## PDF page 18
+
+                                              modulation periods relative to the response time of
+       15                                               140      the ledge. While the ledge needs about 12 hours
+   1                                       on average to reach its new equilibrium value, a
+       10                                         complete modulation was cycled every 6 hours.            Case                                                 120
+                                                        100     With the power being modulated between high
+        5                                     and nominal levels, there was an imbalance in net
+         0        10       20       30       40       50       energy over time. The ledge became thinner but
+       15                                               140 (%)    eventually stayed within some bounds. Conversely,
+     (cm) 2                                                        120         if power modulation  is cycled between low and            Case 10                                                                                                                                                                                   Current   nominal levels, the ledge will grow and may stay      Ledge                                                   100
+        5                                                                                                      Line    within bounds, depending on the magnitude and
+         0        10       20       30       40       50        period of low levels. This may not be immediately
+                                                 obvious   if  the  ledge was  only  experimentally
+       15                                               140
+                                             measured  for the  first few  cycles,  from which
+
+   3
+                                                        120     one would conclude the ledge will keep growing       10            Case                                                    or depleting.  While this case study investigates
+                                                        100
+        5                                           the  effect  of  net energy  imbalance,  it  is  also
+         0        10       20       30       40       50        relevant for experimental studies that introduce
+                           Hours (h)                      high and low power swings with the hope  of
+                                                  balancing the net energy input.  In reality,  it is
+                                                              difficult to balance the net energy with controlFigure 15: Study of ledge dynamics under various
+                                                     actions calculated offline, due to the lack of processline current  profiles.  Case  1:  Power increased
+                                                      observability as well as uncertainties in parametersfor 12 h.  Case 2: Power increased for 12 h and
+                                                         of this nonlinear system. Therefore, it is importantdecreased for 3 h for energy balance. Case 3: Power
+                                                  that a closed-loop feedback approach be consideredmodulated between high and nominal levels, each
+                                         when modulating the power, perhaps utilizing ‘softfor 3 h.
+                                                       sensors’ based on  state  estimation,  such  as a
+                                        Kalman Filter [86].
+due to the nonlinear nature of the system; with the
+momentary introduction of surplus energy, there is
+a net energy intake and therefore ledge dissolution
+happens quicker than re-solidification. The reverse    In  closing,  it  is also important to note that
+is also true: if the power is first decreased and then  the melt-freeze is a complex phase system and its
+restored, there is a net energy deficit in the system,  behavior can differ under transient state.  While
+and thus the rate of ledge solidification is quicker  previous experimental results [15] have shown that
+than the re-dissolution.                          a dense sealing primary phase cryolitic layer forms
+  Case 2 shows that by increasing and decreasing  at the electrolyte-ledge interface, which indicates
+the power  input,  such  that  there  is  zero  net  that  the  interface  temperature  is  at  liquidus
+change in energy, the ledge profile can be restored  temperature, this layer is not available during rapid
+much more quickly. To emphasize the distributed  freezing or melting.   Instead, porous dendritic
+nature of the process variables, the power was  structures are exposed to the electrolyte which can
+decreased for only 3 hours (85% line current) for net  alter local freezing or melting behavior [94, 95].
+energy balancing.  In this timeframe, the average  Additionally, ledge samples from industrial cells
+ledge  thickness has  reached  its  original  value.  and laboratory “cold-finger” experiments also show
+However, it is seen that thicker ledge, having higher  small amounts of other components, such as CaF2
+thermal mass, responded slower than the thinner  and carbon dusts [15, 19, 20].  All these can lead
+areas which exhibited an inverse response.  This  to discrepancies in the modelled dynamic response
+highlights the importance of having a discretized  under power modulation schemes, and thus should
+model to capture local cell dynamics.             be accounted for with appropriate equivalent heat
+  Finally, Case 3 shows the effect of short power  transfer coefficients.
+
+
+                                            18
+
+## PDF page 19
+
+7  Conclusion                                the  ledge does not  restore  to  its  original
+                                                           thickness,   confirming   past   experimental
+Proper cell balances are essential for low process       studies [60].  This is because the net energy
+faults  and  high  process  efficiency,  but  they      input is not balanced. However, differing from
+can be severely disrupted by power modulation       conclusions in the literature, the ledge does
+efforts, which are either motivated financially or       restore slowly over time.
+necessitated by power  shortages.   This paper
+presents a spatially-discretized first-principles mass    • Due to the lag in ledge response, a repeated
+and thermal model of an aluminum reduction cell,      modulation at a relatively high frequency can
+complete with cell voltage and individual anode      cause the ledge thickness to only approach its
+currents. It applies to a wide selection of prebaked        final value after several modulation cycles.
+smelting cells, as cell technology and design are
+                                                  Future improvements will focus on model-based
+accounted  for by  the model  parameters.   As
+                                                  optimization to derive the most profitable ACD
+this generalized model describes conditions under
+                                           and line current trajectory inputs based on energy
+normal operations, as well as power modulation,
+                                                    storage options, as well as electricity price and
+without  requiring  prior  knowledge  of  anode
+                                                            availability.   Due  to  the  serial  connection  in
+currents and cell voltage, model-based studies can
+                                                  smelting cells, the strategies to power modulation
+replace trial-and-error experimental studies, as well
+                                             would need to involve the entire cell section. One
+as allow future work on optimization and control
+                                                such strategy  is to vary the line current as the
+of the line current and ACD, which will reduce
+                                              primary goal, whilst ensuring that the ACD of
+training costs as well as risk of process faults and
+                                                     individual cells still stay within feasible operating
+cell damage.
+                                                    range. However, the proposed discretized model is
+  Both steady-state and transient-state analyses
+                                                       also ready for future cell designs with individual
+were conducted with the model.   Steady-state
+                               ACD control or with shell heat exchangers [21, 23],
+analysis   highlights   the   difference   between
+                                              which would allow for even more extreme power
+manipulating  the ACD and  the  line  current.
+                                              modulation strategies.
+Line current has a larger impact on  cell power
+consumption, since  it drives the electrochemical
+reaction and  is responsible for ohmic heating of Acknowledgment
+the entire electrical path.  On the other hand,
+transient-state analysis more completely shows the  This work was supported by the Emirates Global
+interactions between the different states as well  Aluminium  (EGA)  and  Australian  Research
+as between the same state distributed spatially,  Council (ARC)  Research Hub  for  Integrated
+including the following:                         Energy   Storage   Solutions   [Grant   number
+                                                 IH180100020].   The  authors  also acknowledge
+  • At higher  line current,  the range  of ACD                                                  the technical support from the EGA, Jebel Ali
+    which allows for the ledge thickness to stay                                                  Operations,  especially Dr.   Ali Jassim, Aslam
+    within bounds is smaller. This makes control                                           Khan,  along with other  staff from Technology
+    at higher  line current more challenging, so                                             Development and Transfer Department.
+    a model-based approach to control  will be
+     beneficial.
+                                 Conflict of Interest Statement
+  • When line current  is modulated, ACD can
+    be changed  to compensate  for changes  in On behalf of all authors, the corresponding author
+    heating power.  However, values of ACD are  states that there is no conflict of interest.
+    bounded by operational limits.  Instead, the
+    heat capacity of the cell can be utilized to allow
+    the thermal variables to swing.
+
+  • Studies  of repeated modulation show that,
+    with a temporary change in power supplied,
+
+
+                                            19
+
+## PDF page 20
+
+References                                              [8]  S. Ashok, “Peak-load management in steel
+                                                            plants,”  Appl.  Energy,  vol.  83,  no.  5,
+ [1] CRU   International   and   International        pp.  413–424,  2006.  doi: 10 . 1016 / j .
+     Aluminium  Institute,  “Opportunities  for       apenergy.2005.05.002 (cit. on p. 2).
+     aluminium   in  a  post-Covid  economy,”
+                                                                   [9]  M. P. Taylor and J. J. Chen, “Technique for
+     Report, 2022. [Online]. Available: https://
+                                                    low amperage potline operation for electricity
+     international-aluminium.org/resource/
+                                                           grid storage,” Metall. Mater. Trans. E, vol. 2,
+     opportunities - for - aluminium - in - a -                                                          no.  1, pp. 87–98, 2015. doi: 10 . 1007 /
+     post- covid- economy/ (visited on Apr. 6,
+                                                s40553-015-0046-9 (cit. on p. 2).
+     2022) (cit. on p. 1).
+                                                           [10]  S. Chen, F. Gong, M. Zhang, J. Yuan, S.
+ [2]  K. Kermeli, P.-H. ter Weer, W. Crijns-Graus,
+                                                           Liao, H. Chen, D.  Li,  S.  Tian, and X.
+     and   E.   Worrell,   “Energy    efficiency
+                                                 Hu, “Planning and scheduling for industrial
+     improvement and GHG abatement  in the
+                                                    demand-side  management:  State  of  the
+      global production  of primary aluminium,”
+                                                                  art,  opportunities  and  challenges  under
+     Energy Efficiency, vol. 8, no. 4, pp. 629–666,
+                                                           integration of energy internet and industrial      Jul. 2015, issn: 1570-6478. doi: 10 . 1007 /
+                                                             internet,”  Sustainability,  vol.  13,  no.  14,
+     s12053-014-9301-7 (cit. on p. 1).                                                              p. 7753, 2021. doi: 10 . 3390 / su13147753
+ [3]  C. A.  P. Braga and  J. V. da  Fonseca          (cit. on p. 2).
+      Netto,  “A  dynamic  state  observer  to
+                                                           [11]  H.      Golmohamadi,      “Demand-side
+      control the energy consumption in aluminium
+                                              management in industrial sector: A review
+     production cells,” Systems Science & Control
+                                                                of heavy industries,” Renewable Sustainable
+      Engineering, vol. 4, no. 1, pp. 307–319, 2016.                                                   Energy Rev., vol. 156, p. 111 963, 2022. doi:      doi: 10.1080/21642583.2016.1238325 (cit.
+                                                 10 . 1016 / j . rser . 2021 . 111963 (cit. on
+     on p. 1).
+                                                              p. 2).
+ [4]  D. P. Xenos, I. M. Noor, M. Matloubi, M.
+                                                           [12]  Q. Yu, J. Xu, S. Liao, and H. Liu, “Adaptive
+      Cicciotti, T. Haugen, and N. F. Thornhill,
+                                                        load  control  of  electrolytic aluminum  for
+     “Demand-side  management  and  optimal
+                                                  power system frequency regulation based on
+      operation of industrial electricity consumers:
+                                                       the aluminum production operation state,”
+    An example of an energy-intensive chemical
+                                                   Energy Reports, vol. 8, pp. 1259–1269, 2022.
+      plant,” Appl. Energy, vol. 182, pp. 418–433,                                                        doi: /10.1016/j.egyr.2022.02.203 (cit.      2016. doi: 10.1016/j.apenergy.2016.08.
+                                                 on p. 2).
+     084 (cit. on p. 1).
+                                                           [13]  M. P. Taylor and B. J. Welch, “Melt/freeze
+ [5]  H. A. Øye and M.  Sørlie, Power  failure,
+                                                      heat transfer measurements in cryolite-based
+      restart and repair, 2011. [Online]. Available:
+                                                               electrolytes,”  Metall.  Trans.  B,  vol.  18,
+     https://aluminiumtoday.com/content-                                                          no. 2, pp. 391–398, 1987. doi: 10 . 1007 /
+     images/news/Oyeweb.pdf (cit. on p. 1).
+                                                 BF02656158 (cit. on p. 2).
+ [6]   J.  I. Otashu and M. Baldea,  “Grid-level
+                                                           [14]  W.  E.  Haupin,  “Principles  of aluminum
+     “battery” operation  of chemical processes
+                                                                 electrolysis,”  in  Proceedings  of  the TMS
+     and demand-side participation in short-term
+                                                         Light Metals, Las Vegas, Nevada, USA, 1995,
+       electricity markets,” Appl. Energy, vol. 220,                                                       pp. 3–11. doi: 10.1007/978-3-319-48156-      pp.  562–575,  2018.  doi: 10 . 1016 / j .
+                                                 2_1 (cit. on pp. 2–3).
+     apenergy.2018.03.034 (cit. on p. 2).
+                                                           [15]  A. Fallah-Mehrjardi, P. C. Hayes, and E. Jak,
+ [7]   J.  I. Otashu and M. Baldea, “Scheduling
+                                                           “Investigation of freeze-linings in aluminum
+     chemical processes for frequency regulation,”
+                                                      production cells,” Metall. Mater. Trans. B,     Appl. Energy, vol. 260, p. 114 125, 2020. doi:                                                                  vol. 45, no. 4, pp. 1232–1247, 2014. doi: 10.
+     10.1016/j.apenergy.2019.114125 (cit. on
+                                              1007/s11663- 014- 0078- z (cit. on pp. 2,
+      p. 2).
+                                                              18).
+
+
+
+                                            20
+
+## PDF page 21
+
+[16]   J.  Liu,  M.  Taylor,  and  M.  Dorreen,   [23]  M. Dorreen, L. Wright, G. Matthews, P.
+     “Response of cryolite-based bath to a shift in        Patel,  and  D.  S.  Wong,  “Transforming
+     heat input/output balance,” Metall. Mater.        the way electricity is consumed during the
+     Trans. B, vol. 48, no. 2, pp. 1079–1091, 2017.       aluminium  smelting  process,”  in  Energy
+      doi: 10.1007/s11663-016-0893-5 (cit. on        Technology, 2017, pp. 15–25. doi: 10.1007/
+      p. 2).                                       978-3-319-52192-3_2 (cit. on pp. 2, 19).
+
+[17]   J.  Liu,  A.  Fallah-Mehrjardi, D.  Shishin,   [24]  R. F. Baxter, “Systems and methods  for
+     E.  Jak,  M.  Dorreen,  and  M.  Taylor,        controlling  heat  loss from an  electrolytic
+      “Investigation  of  the  influence  of  heat          cell,” 10662539B2, May 26, 2020 (cit. on p. 2).
+     balance shifts on the freeze microstructure                                                           [25]  N. B. Depree, D. P. Thomas, and D. S. Wong,
+     and  composition  in  aluminum  smelting                                              “The contribution and economics of demand
+     bath    system:    Cryolite-caf2-alf3-al2o3,”                                                             side  response  towards  decarbonizing  the
+      Metall. Mater. Trans. B,  vol.  48,  no.  6,                                                 aluminium smelting industry,” in Proceedings
+      pp. 3185–3195, 2017. doi: 10.1007/s11663-                                                               of   the  TMS   Light   Metals,  Anaheim,
+     017-1109-3 (cit. on p. 2).                                                              California, USA, 2022, pp. 560–570. doi:
+[18]   J.  Liu,  M.  Taylor,  and  M.  Dorreen,      10.1007/978-3-030-92529-1_74 (cit. on
+     “Responses  of lithium-modified bath to a         p. 2).
+       shift  in  heat  input/output  balance  and                                                           [26]  G. Aluminium, Throwing off the shackles:
+      observation of freeze-lining formation during                                        How  technology can transform aluminium
+      the heat balance shift,” Metall. Mater. Trans.                                                          smelters    into    flexible   power    users,
+     B, vol. 49, no. 1, pp. 238–251, 2018. doi: 10.                                                        2022.  [Online].  Available:  https : / /
+     1007/s11663-017-1128-0 (cit. on p. 2).                                                 energiapotior . com / assets / news -
+[19]   J. Liu, S. Wei, J. J. Chen, H. Wijayaratne,       pdf/EnPot-for-AIT.pdf (cit. on p. 2).
+      Z.  Wang,  B.  Gao,  and M.  P.  Taylor,                                                           [27]  A. Brant Filho, A. Queiroz, E. Macedo, J.
+      “Investigation  of  the  ledge  structure  in                                                     Pena, and M. Mol Santos, “The operation
+     aluminum  smelting  cells,” JOM,  vol.  72,                                                                of a smelter with power modulation,”  in
+      no. 1, pp. 253–262, 2020. doi: 10 . 1007 /                                                         Proceedings of the TMS Light Metals, 1992,
+     s11837-019-03863-4 (cit. on pp. 2, 18).                                                       pp. 357–362 (cit. on pp. 2–3).
+[20]  O. Tkacheva, P. Arkhipov, and Y. Zaykov,                                                           [28]  P. L. J. Nunes, A. V. da Silva, and L. G.
+      “Solid phase formation during aluminium                                                       Soutinho, “Power  modulation on  Valesul
+      electrolysis,”    Electrochem.   Commun.,                                                   P-19 pots,” in Proceedings of the TMS Light
+       vol. 110, p. 106 624, 2020. doi: 10.1016/j.                                                         Metals, 1998, pp. 1–267 (cit. on pp. 2–3).
+     elecom.2019.106624 (cit. on pp. 2, 18).
+                                                           [29]  T. Reek, “Power modulation of aluminium
+[21]  P. Lavoie, S. Namboothiri, M. Dorreen, J. J.                                                        reduction  cells  –  operational  constraints
+     Chen, D.  P.  Zeigler, and M.  P.  Taylor,                                                and  process  limits,”  Ph.D.  dissertation,
+      “Increasing the power modulation window                                                      School of Chemical Engineering, Faculty of
+      of aluminium smelter pots with shell heat                                                        Engineering, the University of New South
+     exchanger technology,” in Proceedings of the                                                      Wales, Australia, 2015 (cit. on pp. 2–4, 12).
+    TMS Light Metals, San Diego, California,
+                                                           [30]  T.  Reek,  “New  approaches  to  power    USA, 2011, pp. 369–374. doi: 10.1007/978-
+                                                    modulation  at TRIMET  Hamburg,”  in     3-319-48160-9_66 (cit. on pp. 2, 19).
+                                                         Proceedings of the TMS Light Metals, San
+[22]  N.  Depree, R.  D¨ussel,  P.  Patel, and T.                                                        Diego, California, USA, 2011, pp. 375–379.
+     Reek, “The  ‘virtual  battery’ –  operating        doi: 10.1002/9781118061992.ch67 (cit. on
+     an aluminium smelter with flexible energy                                                       pp. 2–3).
+      input,”  in  Proceedings  of  the TMS  Light
+      Metals,  Nashville,  Tennessee, USA,  2016,
+      pp. 571–576. doi: 10 . 1007 / 978 - 3 - 319 -
+     48251-4_96 (cit. on p. 2).
+
+
+                                            21
+
+## PDF page 22
+
+[31]  V. Gusberti, “Modelling the mass and energy   [38]  T. Hashimoto and H. Ikeuchi, “Computer
+     balance of aluminium reduction cells,” Ph.D.        simulation  of  dynamic  behaviour  of  an
+      dissertation, School of Chemical Engineering,       aluminium reduction cell,” in Proceedings of
+      Faculty of Engineering, the University of New        the TMS Light Metals, Las Vegas, Nevada,
+     South Wales, Australia, 2014 (cit. on pp. 2,      USA, 1981, pp. 273–283 (cit. on p. 2).
+       4, 14).                                                           [39]  T. Saksvikroenning, K. Vee, and E. Gran,
+[32]  A. Arkhipov, N. Ahli,  I. Necheporenko, A.       “Estimation of states in aluminum reduction
+     Mukhanov,  L.  Mishra, and V.  Potocnik,          cells  applying  extended Kalman  filtering
+     “Review of thermal and electrical modelling        algorithm together with a nonlinear dynamic
+     and validation approaches for anode design       model  and   discrete  measurements,”   in
+      in aluminium reduction cells,” in Proceedings        Proceedings of the TMS Light Metals, Las
+      of 36th International ICSOBA Conference,        Vegas, Nevada, USA, 1976, pp. 275–286 (cit.
+       vol. 29, Bel´em, Brazil, 2018 (cit. on p. 2).         on p. 2).
+
+[33]  F.  Allard,  M.   D´esilets,  and  A.  Blais,   [40]  E.  Gran,  “A  multivariable  control   in
+    “A modeling approach for time-dependent       aluminum   reduction    cells,”   Modeling,
+     geometry applied to transient heat transfer of         Identification and  Control,  vol.  1,  no.  4,
+     aluminum electrolysis cells,” Metall. Mater.        pp. 247–258, 1980 (cit. on p. 2).
+     Trans. B, vol. 50, no. 2, pp. 958–980, 2019.                                                           [41]  E. A. Sorheim and P. Borg, “Dynamic model
+      doi: 10.1007/s11663-019-01510-6 (cit. on                                                and estimator for online supervision of the
+      p. 2).                                                   alumina reduction cell,” in Proceedings of the
+[34]  A. Ek and G. Fladmark, “Simulation  of     TMS Light Metals, San Francisco, California,
+      thermal, electric and chemical behaviour of      USA, 1989, pp. 127–127 (cit. on p. 2).
+     an aluminum cell on a digital computer,” in                                                           [42]  H.  Tang,  N.  Urata,  C.  Read,  and  S.
+      Proceedings of the TMS Light Metals, 1973,                                                                Stejer,  “Response  of  a  Hall-H´eroult  cell
+      pp. 275–278. doi: 10 . 1007 / 978 - 3 - 319 -                                                          to  step-changes  in  operating  conditions:
+     48156-2_39 (cit. on p. 2).                                                 Measurements and “dynamic” simulations,”
+[35]  V. Yurkov and V. Mann, “A simple dynamic         in Proceedings of the TMS Light Metals, San
+      realtime model for aluminum reduction cell        Antonio, Texas, USA, 1998, pp. 349–358 (cit.
+      control system,” in Proceedings of the TMS       on p. 2).
+      Light Metals, San Francisco, California, USA,                                                           [43]  A. W. Wright, “The dynamic  simulation
+      2005, pp. 423–428 (cit. on p. 2).                                                and control  of aluminium smelting  cells,”
+[36]   J.   Antille,  R.  von   Kaenel,  and   L.       Ph.D. dissertation, Department of Chemical
+     Bugnion,   “Hall-H´eroult    cell   simulator:       and  Process  Engineering,  University  of
+   A  tool  for  the  operation  and  process       Newcastle-upon-Tyne, England, 1993 (cit. on
+      control,” in Proceedings of the TMS Light         p. 2).
+      Metals,  Nashville,  Tennessee, USA,  2016,                                                           [44]  L.  Tikasz,  R.  Bui,  and  V.  Potocnik,
+      pp. 617–622. doi: 10 . 1007 / 978 - 3 - 319 -                                               “Aluminium electrolytic  cells: A computer
+     48251-4_104 (cit. on pp. 2, 9).                                                        simulator  for  training  and  supervision,”
+[37]  G. Ospina-Aldana, M. I. H. Ali, S. Sgouridis,        Engineering with Computers, vol. 10, no. 1,
+     and  A.  Bouabid,  “Power  modulation        pp. 12–21, 1994. doi: 10.1007/BF01206536
+     modeling  of aluminum reduction  cells  for          (cit. on p. 2).
+     renewable energy integration,” in Proceedings                                                           [45]  M. Dupuis, “Excess AlF3 concentration in
+      of the International Conference on Applied                                                   bath control  logic,”  in Proceedings  of the
+     Energy, Paper 0827, V¨aster˚as, Sweden, 2019                                                       National Conference on Advancements  in
+       (cit. on p. 2).                                                Aluminium Electrolysis, Indian Institute of
+                                                         Metals, Angul, India, 2006, pp. 309–313 (cit.
+                                                 on p. 2).
+
+
+
+                                            22
+
+## PDF page 23
+
+[46]  M.  Taylor, W. Zhang, V.  Wills, and  S.        2020. doi: 10.1007/s11837-019-03918-6
+     Schmid, “A dynamic model for the energy          (cit. on p. 3).
+     balance of an electrolysis cell,” Chem. Eng.                                                           [54]  G. P. Bearne, “The development of aluminum
+      Res. Des., vol. 74, no. 8, pp. 913–933, 1996.                                                        reduction cell process control,” JOM, vol. 51,
+      doi: 10 . 1205 / 026387696523094  (cit. on                                                          no. 5, pp. 16–22, May 1999, issn: 1543-1851.
+      p. 2).                                             doi: 10.1007/s11837-999-0035-5 (cit. on
+[47]  P.  Biedler,  “Modeling  of  an  aluminum         p. 3).
+      reduction  cell  for  the  development  of  a                                                           [55]  H. P. Dias, “Brazil 2001 energy crisis – The
+      state  estimator,” M.S.  thesis,  College  of                                                      Albras approach,” in Proceedings of the TMS
+      Engineering, Mineral Resources, Department                                                         Light  Metals,  Charlotte,  North  Carolina,
+      of Mechanical, and Aerospace Engineering,                                            USA, 2004, pp. 707–711. doi: 10.1007/978-
+     West  Virginia  University, West  Virginia,                                                3-319-48156-2_105 (cit. on p. 3).
+    USA, 2003 (cit. on pp. 2–4, 8, 11).
+                                                           [56]   J.  Yamamoto,  L.  Paulino,  and  C.  E.
+[48]  S. W. Jessen, “Mathematical modeling of a                                                     Zangiacomi, “Experiences with long power
+      Hall H´eroult aluminium reduction cell,” M.S.                                                           interruption  periods and  lower amperage
+       thesis, Department of Electrical Engineering,                                                        operation in a VS Soderberg potline,” in
+      Technical University of Denmark, Denmark,                                                         Proceedings of the TMS Light Metals, San
+     2008 (cit. on pp. 2, 4).                                                      Antonio, Texas, USA, 2006, pp. 427–432 (cit.
+[49]  C.-Y.  Cheung,  C.  Menictas,   J.  Bao,       on p. 3).
+    M.  Skyllas-Kazacos,  and  B.  J.  Welch,                                                           [57]  W. K. Rolland, E. Furu, K. A. Paulsen,
+      “Characterization   of   individual   anode                                           M. Bugge, and O. Tratteberg, “Experience
+      current   signals   in  aluminum  reduction                                                     with power saving in the Soderberg lines at
+       cells,”  Ind.  Eng.  Chem.  Res.,  vol.  52,                                               Hydro Aluminium Karmøy,” in Proceedings
+      no. 28, pp. 9632–9644, 2013. doi: 10.1021/                                                               of the TMS Light Metals, Charlotte, North
+     ie400296u (cit. on p. 2).                                                          Carolina, USA, 2004, pp. 179–184  (cit. on
+[50]  C.-Y. Cheung, C.  Menictas,  J. Bao, M.         p. 3).
+      Skyllas-Kazacos, and B. J. Welch, “Spatial                                                           [58]  M. Dupuis, “Modeling power modulation,” in
+     thermal  condition  in aluminum  reduction                                                         Proceedings of the TMS Light Metals, Seattle,
+       cells under influences  of  electrolyte flow,”                                                    Washington, USA, 2002, pp. 489–494. doi:
+     Chem. Eng. Res. Des., vol. 100, pp. 1–14,                                             10.1007/978-3-319-48156-2_99 (cit. on
+      2015. doi: 10.1016/j.cherd.2015.04.034                                                       pp. 3, 12).
+       (cit. on p. 2).
+                                                           [59]  M. A. Stam and J. Schaafsma, “The impact
+[51]  G. P. Tarcy, H. Kvande, and A. Tabereaux,                                                                of power modulation on the cell dynamics,”
+     “Advancing the industrial aluminum process:                                                              in Proceedings of 9th Australasian Aluminium
+     20th century breakthrough inventions and                                                       Smelting Technology Conference, Paper 47,
+     developments,” JOM, vol. 63, no. 8, p. 101,                                                        2007, pp. 465–472 (cit. on p. 3).
+     Aug. 2011, issn: 1543–1851. doi: 10.1007/
+                                                           [60]  D. Eisma and P. Patel, “Challenges in power     s11837-011-0120-4 (cit. on p. 3).
+                                                      modulation,”  in  Proceedings  of  the TMS
+[52]  K. Grjotheim and B. J. Welch, Aluminium                                                         Light Metals, San Francisco, California, USA,
+     Smelting      Technology.       Dusseldorf:                                                        2009, pp. 683–688. doi: 10.1007/978- 3-
+     Aluminium-Verlag, 1980, isbn: 3870171324                                                319-48156-2_101 (cit. on pp. 3, 17, 19).
+       (cit. on p. 3).
+                                                           [61]   I.  Ying  Xuan,  “Flexible  operation   of
+[53]  G.  Saevarsdottir, H. Kvande, and  B.  J.                                                                electricity-intensive   industrial   processes,”
+     Welch, “Aluminum production in the times                                                  Ph.D. dissertation, Department of Chemical
+      of climate change: The global challenge to                                                        Engineering, Imperial College London, 2020
+     reduce  the carbon  footprint and  prevent                                                                        (cit. on p. 4).
+     carbon leakage,” JOM, vol. 72, pp. 296–308,
+
+
+
+                                            23
+
+## PDF page 24
+
+[62]  C.-Y.  Cheung,  “Anode  current   signals   [69]  H.  Vogt,  “On  the   various  types   of
+      analysis,   characterization  and  modeling        uncontrolled     potential     increase     in
+      of  aluminum   reduction   cells,”  Ph.D.        electrochemical  reactors -—  The  anode
+      dissertation, School of Chemical Engineering,         effect,”   Electrochim.   Acta,    vol.    87,
+      Faculty  of Engineering, the  University  of        pp.  611–618,  2013.  doi: 10 . 1016 / j .
+    New South Wales, Australia, 2013 (cit. on       electacta.2012.09.051 (cit. on p. 4).
+      pp. 4–6).                                                           [70]  Y.  Yao,  C.-Y.  Cheung,   J.  Bao,  M.
+[63]  M.    Hyland,    E.     Patterson,     F.        Skyllas-Kazacos,  B.   J.  Welch,  and  S.
+     Stevens-McFadden,  and  B.   J.  Welch,       Akhmetov, “Estimation of spatial alumina
+     “Aluminium   fluoride  consumption  and        concentration in an aluminum reduction cell
+      control in smelting cells,” Scand. J. Metall.,        using a multilevel state observer,” AIChE
+       vol.  30,  no.  6,  pp.  404–414,  2001.  doi:          J., vol. 63, no. 7, pp. 2806–2818, 2017. doi:
+     10 . 1034 / j . 1600 - 0692 . 2001 . 300609 . x       10.1002/aic.15656 (cit. on pp. 4, 9, 11).
+       (cit. on p. 4).                                                           [71]   J.   Thonstad,   Aluminium    electrolysis:
+[64]  W.  Haupin,  “The  liquidus  enigma,”  in       Fundamentals  of  the  Hall-H´eroult  process,
+      Proceedings of the TMS Light Metals, San       3rd ed. Dusseldorf: Aluminium-Verlag, 2003
+      Diego, California, USA, 1992, pp. 804–807.          (cit. on p. 4).
+      doi: 10.1002/9781118647851.ch119 (cit.                                                           [72]  C.-Y. Cheung, C.  Menictas,  J. Bao, M.
+     on p. 4).                                                         Skyllas-Kazacos, and B. J. Welch, “Impacts
+[65]  S. Kol˚as and S. O. Wasbø, “A nonlinear         of anode set on the energy re-distribution of
+     model  based  control  strategy   for  the     PB aluminum smelting cells,” in Proceedings
+     aluminium    electrolysis    process,”    in         of the TMS Light Metals, Orlando, Florida,
+      Proceedings of the TMS Light Metals, Seattle,      USA, 2012, pp. 943–947. doi: 10 . 1002 /
+     Washington, USA, 2010, pp. 825–829. doi:       9781118359259.ch164 (cit. on p. 5).
+     10.1007/978-3-319-48156-2_123 (cit. on                                                           [73]  B. J. Welch, Training the trainers part 1:
+      p. 4).                                                   Review of objectives constraints & changes,
+[66]  D.  S. Whitfield, “Aspects  of temperature       2021 (cit. on p. 7).
+      in   aluminium   smelting   cells,”   Ph.D.                                                           [74]  Outotec, HSC Chemistry 5, 2002. [Online].
+      dissertation, School of Chemical Engineering,                                                           Available: https : / / www . mogroup . com /
+      Faculty  of Engineering, the  University  of                                                 portfolio/hsc-chemistry/ (cit. on p. 7).
+    New South Wales, Australia, 2004 (cit. on
+                                                           [75]  B. J. Welch, Specific energy consumption and      p. 4).
+                                                       energy balance of aluminium reduction cell,
+[67]  D.   F.   Craig   and    J.    J.   Brown,                                                      Krasnoyarsk, Russia, 2016 (cit. on p. 7).
+     “Phase    equilibria    in    the    system
+                                                           [76]  D.  S.  Severo,  A.  F.  Schneider,  E.  C.     CaF2-AlF3-Na3AlF6 and part of the system
+                                                          Pinto,  V.  Gusberti,  and  V.  Potocnik,     CaF2-AlF3-Na3AlF6-Al2O3,” J. Am. Ceram.
+                                                   “Modeling    magnetohydrodynamics     of      Soc., vol. 63, no. 5, pp. 254–61, 1980. doi:
+                                               aluminum  electrolysis  cells  with ANSYS    10.1111/j.1151- 2916.1980.tb10714.x
+                                                and CFX,” in Proceedings of the TMS Light       (cit. on p. 4).
+                                                         Metals,  San  Francisco,  California,  USA,
+[68]  A. Solheim, S. Rolseth, E. Skybakmoen, L.                                                        2005, pp. 475–480 (cit. on p. 5).
+      Støen, ˚A. Sterten, and T. Støre, “Liquidus
+                                                           [77]  Y. Feng, W. Yang, M. Cooksey, and M.     temperature and alumina solubility in the
+                                                      Schwarz, “Development of bubble driven flow     system Na3AlF6-AlF3-LiF-CaF2-MgF2,”  in
+                                    CFD model applied for aluminium smelting      Proceedings of the TMS Light Metals, Las
+                                                                     cells,” J. Comput. Multiphase Flows, vol. 2,      Vegas, Nevada, USA, 1995, pp. 73–82. doi:
+                                                          no. 3, pp. 179–188, 2010. doi: 10 . 1260 /     10.1007/978-3-319-48156-2_10 (cit. on
+                                                 1757-482X.2.3.179 (cit. on p. 5).      pp. 4, 7).
+
+
+
+                                            24
+
+## PDF page 25
+
+[78]   J.  Zhu,  J.  Li,  and  H.  Zhang, “CFD        pp. 903–909. doi: 10 . 1007 / 978 - 3 - 319 -
+      investigation  of bath flow and  its related       48156-2_133 (cit. on p. 9).
+     alumina transmission in aluminum reduction   [85]  W. Haupin, “Interpreting the components
+       cells: Slotted anodes and busbar designs,”         of cell voltage,” in Proceedings of the TMS
+      Metals, vol. 10, no. 6, p. 805, 2020. doi: 10.        Light Metals, San Antonio, Texas, USA, 1998,
+     3390/met10060805 (cit. on p. 5).                  pp. 153–159. doi: 10.1002/9781118647851.
+[79]  C.-J.  Wong,  Y.   Yao,   J.   Bao,  M.       ch21 (cit. on p. 9).
+      Skyllas-Kazacos, B.  J. Welch, A. Jassim,   [86]  C.-J.  Wong,  Y.   Yao,   J.   Bao,  M.
+    M. Mahmoud, and A. Arkhipov, “Modelling        Skyllas-Kazacos, B.  J. Welch, A. Jassim,
+      of coupled mass and thermal balances  in       and M. Mahmoud,  “Discretized  thermal
+      Hall-H´eroult cells during anode change,” J.       model of Hall-H´eroult  cells for monitoring
+      Electrochem. Soc., vol. 168, no. 21, p. 123 506,       and control,” IFAC-PapersOnLine, vol. 54,
+      2021. doi: 10 . 1149 / 1945 - 7111 / ac41f6        no. 11, pp. 67–72, 2021. doi: 10.1016/j.
+       (cit. on p. 6).                                 ifacol.2021.10.052 (cit. on pp. 11, 18).
+[80]  Y.  Yao,  C.-Y.  Cheung,   J.  Bao,  M.   [87]  Y. Yao,  C.-Y. Cheung,  J. Bao, and M.
+      Skyllas-Kazacos,  B.   J.  Welch,  and  S.        Skyllas-Kazacos, “Monitoring local alumina
+     Akhmetov,   “Detection    of    local    cell        dissolution in aluminum reduction cells using
+      conditions  based  on   individual  anode        state estimation,” in Proceedings of the TMS
+      current  measurements,”   in   Proceedings        Light Metals, Orlando, Florida, USA, 2015,
+      of   the  TMS  Light  Metals,   Nashville,        pp. 577–581. doi: 10.1002/9781119093435.
+      Tennessee, USA, 2016, pp. 595–600. doi:       ch96 (cit. on p. 11).
+     10 . 1002 / 9781119274780 . ch100  (cit. on                                                           [88]  S. Kol˚as and T. Støre, “Bath temperature
+      p. 7).                                                and AlF3 control of an aluminium electrolysis
+[81]   J. Shi, Y. Yao, J. Bao, M. Skyllas-Kazacos,          cell,” Control Engineering Practice, vol. 17,
+     and  B.  J.  Welch,  “Multivariable  feeding        no. 9, pp. 1035–1043, 2009. doi: 10.1016/j.
+      control of aluminum reduction process using       conengprac.2009.03.008 (cit. on p. 11).
+      individual  anode  current  measurement,”   [89]  S. Zeng,  S. Wang, and Y. Qu, “Control
+     IFAC-PapersOnLine,   vol.   53,   no.   2,         of  temperature  and  aluminum   fluoride
+      pp. 11 907–11 912, 2020. doi: 10 . 1016 /        concentration  based on model  prediction
+     j.ifacol.2020.12.709 (cit. on p. 7).               in aluminum electrolysis,” Adv. Mater. Sci.
+[82]  S.  E.  Gylver,  N.  H.  Omdahl,  A.  K.        Eng., vol. 2014, pp. 1–5, 2014. doi: 10.1155/
+      Prytz, A.  J.  Meyer,  L.  P.  Lossius, and       2014/181905 (cit. on p. 11).
+     K.  E.  Einarsrud,  “Alumina  feeding and   [90]  K. R. Robilliard and B. Rolof, “A demand
+      raft formation: Raft collection and process        feed strategy for aluminum electrolysis cells,”
+     parameters,” in Proceedings of the TMS Light         in Proceedings of the TMS Light Metals, Las
+      Metals, San  Antonio,  Texas, USA,  2019,        Vegas, Nevada, USA, 1989, pp. 747–751. doi:
+      pp. 659–666. doi: 10 . 1007 / 978 - 3 - 030 -       10 . 1002 / 9781118647851 . ch111  (cit. on
+     05864-7_81 (cit. on p. 8).                            p. 14).
+[83]  W.  Haupin,  “Mathematical  model   of   [91]  S. Pfenninger and  I.  Staffell, “Long-term
+      fluoride    evolution   from    Hall-H´eroult        patterns  of  european PV  output  using
+       cells,”  in  Proceedings  of  the TMS  Light       30  years  of  validated  hourly  reanalysis
+      Metals, Los Angeles, California, USA, 1984,       and   satellite  data,”  Energy,   vol.  114,
+      pp. 1429–1439 (cit. on p. 9).                       pp. 1251–1265, 2016. doi: 10 . 1016 / j .
+[84]  W. Haupin and H. Kvande, “Mathematical       energy.2016.08.060 (cit. on p. 17).
+     model of fluoride evolution from Hall-H´eroult   [92]  Meteostat, Sydney Airport Weather History,
+       cells,”  in  Proceedings  of  the TMS  Light        2022.  [Online].  Available:  https : / /
+      Metals,  Denver,  Colorado,  USA,  2016,       meteostat . net / en / station / 94767 ? t =
+                                                2022-01-02/2022-01-03 (cit. on p. 17).
+
+
+                                            25
+
+## PDF page 26
+
+[93]  N. Farouk, L. Sheng, and Q. Hayat, “Effect of
+     ambient temperature on the performance of
+     gas turbines power plant,” Int. J. Computer
+      Science Issues, vol. 10, no. 1, p. 439, 2013
+       (cit. on p. 17).
+
+[94]   J.  Liu,  M.  Taylor,  and  M.  Dorreen,
+     “Observations  of  freeze  layer  formation
+     during heat balance shifts in cryolite-based
+      smelting bath,” Int. J. Mater. Res., vol. 108,
+      no. 6, pp. 507–514, 2017. doi: 10.3139/146.
+     111503 (cit. on p. 18).
+
+[95]   J. Liu, S. Wei, and M. Taylor, “The structure
+      of the smelting  cell  ledge under  variable
+      sidewall heat flow conditions,” JOM, vol. 71,
+      no. 2, pp. 514–521, 2019. doi: 10 . 1007 /
+     s11837-018-3247-8 (cit. on p. 18).
+
+
+
+
+
+                                            26

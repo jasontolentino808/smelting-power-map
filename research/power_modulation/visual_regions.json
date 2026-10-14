@@ -1,0 +1,4778 @@
+[
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      94.85997009277344,
+      55.8599853515625,
+      461.07891845703125,
+      162.84934997558594
+    ],
+    "image": "figures/01/p004_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      98.21000671386719,
+      524.7098388671875,
+      481.648193359375,
+      688.941650390625
+    ],
+    "image": "figures/01/p004_02.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      201.3099822998047,
+      55.8599853515625,
+      369.81927490234375,
+      133.824951171875
+    ],
+    "image": "figures/01/p005_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      207.65997314453125,
+      144.75994873046875,
+      405.92327880859375,
+      239.1916961669922
+    ],
+    "image": "figures/01/p005_02.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      197.20997619628906,
+      237.4099578857422,
+      372.1756591796875,
+      312.92730712890625
+    ],
+    "image": "figures/01/p005_03.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      123.05998229980469,
+      461.2098693847656,
+      490.51416015625,
+      557.873046875
+    ],
+    "image": "figures/01/p005_04.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      183.23011779785156,
+      0.0,
+      432.6417236328125,
+      327.4542541503906
+    ],
+    "image": "figures/01/p007_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      94.8599853515625,
+      55.8599853515625,
+      472.5753173828125,
+      189.264892578125
+    ],
+    "image": "figures/01/p008_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      58.85997009277344,
+      325.60992431640625,
+      458.39971923828125,
+      424.4340515136719
+    ],
+    "image": "figures/01/p008_02.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      121.00999450683594,
+      473.35992431640625,
+      492.2618408203125,
+      667.4258422851562
+    ],
+    "image": "figures/01/p008_03.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      94.85997009277344,
+      169.75994873046875,
+      434.2669677734375,
+      264.01287841796875
+    ],
+    "image": "figures/01/p009_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      94.85997009277344,
+      596.7098388671875,
+      454.50982666015625,
+      728.1653442382812
+    ],
+    "image": "figures/01/p009_02.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      58.97624206542969,
+      559.122314453125,
+      567.5261840820312,
+      707.122314453125
+    ],
+    "image": "figures/01/p010_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      58.94999694824219,
+      55.92375183105469,
+      567.153564453125,
+      351.4199523925781
+    ],
+    "image": "figures/01/p012_01.webp"
+  },
+  {
+    "document_id": "01",
+    "source": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      58.94999694824219,
+      349.31243896484375,
+      565.6998901367188,
+      555.8624267578125
+    ],
+    "image": "figures/01/p012_02.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      147.35899353027344,
+      107.64102172851562,
+      450.3590087890625,
+      373.96099853515625
+    ],
+    "image": "figures/02/p003_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      112.0780029296875,
+      507.48199462890625,
+      485.87799072265625,
+      690.281982421875
+    ],
+    "image": "figures/02/p005_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      101.03900146484375,
+      285.72003173828125,
+      496.9169921875,
+      512.2000122070312
+    ],
+    "image": "figures/02/p006_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      102.23799896240234,
+      484.4420166015625,
+      498.1159973144531,
+      708.52001953125
+    ],
+    "image": "figures/02/p006_02.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      208.19000244140625,
+      563.291015625,
+      403.32000732421875,
+      729.0399780273438
+    ],
+    "image": "figures/02/p007_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      106.80000305175781,
+      359.8810119628906,
+      294.6000061035156,
+      518.5599975585938
+    ],
+    "image": "figures/02/p008_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      321.1189880371094,
+      359.8810119628906,
+      504.3500061035156,
+      528.6500244140625
+    ],
+    "image": "figures/02/p008_02.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      96.0,
+      567.6099853515625,
+      302.3900146484375,
+      726.2899780273438
+    ],
+    "image": "figures/02/p008_03.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      314.8689880371094,
+      567.6099853515625,
+      503.02899169921875,
+      726.2899780273438
+    ],
+    "image": "figures/02/p008_04.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      105.12000274658203,
+      107.03997802734375,
+      293.27899169921875,
+      265.719970703125
+    ],
+    "image": "figures/02/p009_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      320.27899169921875,
+      104.39998626708984,
+      502.79901123046875,
+      265.969970703125
+    ],
+    "image": "figures/02/p009_02.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      202.5500030517578,
+      379.55999755859375,
+      409.79901123046875,
+      554.3299560546875
+    ],
+    "image": "figures/02/p009_03.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      105.4800033569336,
+      581.77099609375,
+      293.27899169921875,
+      740.4500122070312
+    ],
+    "image": "figures/02/p009_04.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      322.44000244140625,
+      581.77099609375,
+      505.79901123046875,
+      750.52001953125
+    ],
+    "image": "figures/02/p009_05.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      103.44000244140625,
+      119.52099609375,
+      306.9590148925781,
+      278.20098876953125
+    ],
+    "image": "figures/02/p010_01.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      317.6400146484375,
+      119.52099609375,
+      519.708984375,
+      278.20098876953125
+    ],
+    "image": "figures/02/p010_02.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      105.12000274658203,
+      504.3599853515625,
+      293.27899169921875,
+      663.0399780273438
+    ],
+    "image": "figures/02/p010_03.webp"
+  },
+  {
+    "document_id": "02",
+    "source": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      320.510009765625,
+      504.3599853515625,
+      503.6400146484375,
+      663.0399780273438
+    ],
+    "image": "figures/02/p010_04.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      297.0,
+      462.84002685546875,
+      585.47998046875,
+      639.760009765625
+    ],
+    "image": "figures/03/p001_01.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      306.0,
+      75.96002197265625,
+      570.9599609375,
+      341.8000183105469
+    ],
+    "image": "figures/03/p002_01.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      306.0,
+      343.20001220703125,
+      577.5599975585938,
+      523.9600219726562
+    ],
+    "image": "figures/03/p002_02.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      41.99951934814453,
+      231.239990234375,
+      295.31951904296875,
+      547.719970703125
+    ],
+    "image": "figures/03/p003_01.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      41.99951934814453,
+      552.6004638671875,
+      308.759521484375,
+      719.9204711914062
+    ],
+    "image": "figures/03/p004_01.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      34.79951858520508,
+      127.80001831054688,
+      599.8800048828125,
+      425.32000732421875
+    ],
+    "image": "figures/03/p004_02.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      306.0,
+      404.1600341796875,
+      600.0,
+      618.760009765625
+    ],
+    "image": "figures/03/p004_03.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      41.99951934814453,
+      399.48004150390625,
+      311.8795166015625,
+      583.9600219726562
+    ],
+    "image": "figures/03/p005_01.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      66.4795150756836,
+      60.1199951171875,
+      312.7200012207031,
+      224.91998291015625
+    ],
+    "image": "figures/03/p005_02.webp"
+  },
+  {
+    "document_id": "03",
+    "source": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      41.99951934814453,
+      345.1199951171875,
+      314.2795104980469,
+      583.719970703125
+    ],
+    "image": "figures/03/p006_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      88.08000183105469,
+      182.1199951171875,
+      467.6400146484375,
+      486.3599853515625
+    ],
+    "image": "figures/04/p002_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      107.27999877929688,
+      2.96002197265625,
+      463.0799865722656,
+      271.32000732421875
+    ],
+    "image": "figures/04/p003_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      115.08000183105469,
+      134.8399658203125,
+      454.20001220703125,
+      408.8399963378906
+    ],
+    "image": "figures/04/p004_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      171.60000610351562,
+      519.7999877929688,
+      440.760009765625,
+      727.9199829101562
+    ],
+    "image": "figures/04/p005_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      118.91999816894531,
+      455.7200012207031,
+      454.20001220703125,
+      726.719970703125
+    ],
+    "image": "figures/04/p006_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      99.23999786376953,
+      262.8800048828125,
+      482.03997802734375,
+      569.52001953125
+    ],
+    "image": "figures/04/p007_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      87.0,
+      334.1600036621094,
+      511.44000244140625,
+      526.5599975585938
+    ],
+    "image": "figures/04/p008_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      87.0,
+      555.5599975585938,
+      525.5999755859375,
+      725.52001953125
+    ],
+    "image": "figures/04/p008_02.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      88.80000305175781,
+      2.96002197265625,
+      432.5999755859375,
+      262.32000732421875
+    ],
+    "image": "figures/04/p010_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      87.23999786376953,
+      360.32000732421875,
+      466.79998779296875,
+      664.5599975585938
+    ],
+    "image": "figures/04/p010_02.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      160.8000030517578,
+      128.1199951171875,
+      528.3599853515625,
+      339.0
+    ],
+    "image": "figures/04/p011_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      97.80000305175781,
+      124.8800048828125,
+      514.5599975585938,
+      249.0
+    ],
+    "image": "figures/04/p012_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      81.5999984741211,
+      90.32000732421875,
+      530.6399536132812,
+      308.15997314453125
+    ],
+    "image": "figures/04/p013_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      103.31999969482422,
+      498.0799560546875,
+      508.9200134277344,
+      737.52001953125
+    ],
+    "image": "figures/04/p013_02.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      137.52000427246094,
+      251.96002197265625,
+      516.5999755859375,
+      506.0400085449219
+    ],
+    "image": "figures/04/p014_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      73.68000030517578,
+      2.9599609375,
+      439.79998779296875,
+      268.91998291015625
+    ],
+    "image": "figures/04/p015_01.webp"
+  },
+  {
+    "document_id": "04",
+    "source": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      101.04000091552734,
+      470.8399963378906,
+      410.52001953125,
+      669.8399658203125
+    ],
+    "image": "figures/04/p015_02.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      24.793701171875,
+      46.965087890625,
+      111.37800598144531,
+      152.1619873046875
+    ],
+    "image": "figures/05/p001_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      489.052001953125,
+      40.44550323486328,
+      572.688232421875,
+      151.99200439453125
+    ],
+    "image": "figures/05/p001_02.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      98.6050033569336,
+      46.85498046875,
+      501.9049987792969,
+      152.06097412109375
+    ],
+    "image": "figures/05/p001_04.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      330.1419982910156,
+      614.900390625,
+      537.1419677734375,
+      751.2363891601562
+    ],
+    "image": "figures/05/p002_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      61.13390350341797,
+      40.42499542236328,
+      268.1339111328125,
+      171.72100830078125
+    ],
+    "image": "figures/05/p003_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      25.612899780273438,
+      563.5469970703125,
+      572.6630249023438,
+      676.968994140625
+    ],
+    "image": "figures/05/p003_02.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      25.612899780273438,
+      229.031005859375,
+      572.6630249023438,
+      390.66998291015625
+    ],
+    "image": "figures/05/p004_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      330.1419982910156,
+      579.0443725585938,
+      537.1419677734375,
+      751.2363891601562
+    ],
+    "image": "figures/05/p005_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      30.973201751708984,
+      40.441986083984375,
+      298.3092041015625,
+      359.6579895019531
+    ],
+    "image": "figures/05/p006_01.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      300.093994140625,
+      40.44500732421875,
+      567.1419677734375,
+      255.11700439453125
+    ],
+    "image": "figures/05/p006_02.webp"
+  },
+  {
+    "document_id": "05",
+    "source": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      68.50389862060547,
+      40.4119873046875,
+      529.807861328125,
+      402.97198486328125
+    ],
+    "image": "figures/05/p007_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      252.60000610351562,
+      258.79998779296875,
+      402.5,
+      523.699951171875
+    ],
+    "image": "figures/06/p001_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p002_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p003_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p004_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p005_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 34,
+    "crop_pdf_points": [
+      101.80000305175781,
+      330.89996337890625,
+      550.2999877929688,
+      634.449951171875
+    ],
+    "image": "figures/06/p034_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 36,
+    "crop_pdf_points": [
+      102.27999877929688,
+      439.8999938964844,
+      553.0999755859375,
+      753.0499877929688
+    ],
+    "image": "figures/06/p036_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 37,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p037_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 39,
+    "crop_pdf_points": [
+      66.59259033203125,
+      69.39962768554688,
+      565.7891845703125,
+      392.4739685058594
+    ],
+    "image": "figures/06/p039_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 40,
+    "crop_pdf_points": [
+      139.6999969482422,
+      75.949951171875,
+      510.70001220703125,
+      378.39996337890625
+    ],
+    "image": "figures/06/p040_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 40,
+    "crop_pdf_points": [
+      144.85000610351562,
+      402.6999816894531,
+      505.5500183105469,
+      725.5499877929688
+    ],
+    "image": "figures/06/p040_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 41,
+    "crop_pdf_points": [
+      103.80000305175781,
+      138.32997131347656,
+      546.5999755859375,
+      397.0999755859375
+    ],
+    "image": "figures/06/p041_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 41,
+    "crop_pdf_points": [
+      102.3499984741211,
+      404.2999572753906,
+      547.8999633789062,
+      705.1499633789062
+    ],
+    "image": "figures/06/p041_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 42,
+    "crop_pdf_points": [
+      101.4000015258789,
+      194.99996948242188,
+      558.9500122070312,
+      521.449951171875
+    ],
+    "image": "figures/06/p042_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 43,
+    "crop_pdf_points": [
+      101.4000015258789,
+      247.699951171875,
+      559.2000122070312,
+      542.8999633789062
+    ],
+    "image": "figures/06/p043_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 44,
+    "crop_pdf_points": [
+      104.4000015258789,
+      206.99996948242188,
+      551.4000244140625,
+      516.75
+    ],
+    "image": "figures/06/p044_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 47,
+    "crop_pdf_points": [
+      191.64999389648438,
+      437.29998779296875,
+      458.75,
+      686.5499877929688
+    ],
+    "image": "figures/06/p047_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 48,
+    "crop_pdf_points": [
+      101.4000015258789,
+      200.29998779296875,
+      552.1000366210938,
+      538.0
+    ],
+    "image": "figures/06/p048_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 50,
+    "crop_pdf_points": [
+      47.08484649658203,
+      76.57266235351562,
+      548.18994140625,
+      404.2403869628906
+    ],
+    "image": "figures/06/p050_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 52,
+    "crop_pdf_points": [
+      101.4000015258789,
+      336.4999694824219,
+      551.2999877929688,
+      651.1499633789062
+    ],
+    "image": "figures/06/p052_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 54,
+    "crop_pdf_points": [
+      101.4000015258789,
+      76.09999084472656,
+      553.199951171875,
+      335.54998779296875
+    ],
+    "image": "figures/06/p054_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 55,
+    "crop_pdf_points": [
+      101.4000015258789,
+      76.09999084472656,
+      553.0999755859375,
+      330.75
+    ],
+    "image": "figures/06/p055_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 59,
+    "crop_pdf_points": [
+      122.48991394042969,
+      206.35025024414062,
+      511.62847900390625,
+      538.2870483398438
+    ],
+    "image": "figures/06/p059_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 62,
+    "crop_pdf_points": [
+      108.5999984741211,
+      283.0999450683594,
+      541.7999877929688,
+      638.699951171875
+    ],
+    "image": "figures/06/p062_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 63,
+    "crop_pdf_points": [
+      108.94999694824219,
+      76.0999755859375,
+      541.4500122070312,
+      425.79998779296875
+    ],
+    "image": "figures/06/p063_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 71,
+    "crop_pdf_points": [
+      147.0,
+      76.10000610351562,
+      503.3999938964844,
+      349.5
+    ],
+    "image": "figures/06/p071_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 72,
+    "crop_pdf_points": [
+      102.8499984741211,
+      76.0999755859375,
+      552.25,
+      429.4999694824219
+    ],
+    "image": "figures/06/p072_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 74,
+    "crop_pdf_points": [
+      132.6999969482422,
+      431.29998779296875,
+      517.5499877929688,
+      738.5
+    ],
+    "image": "figures/06/p074_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 75,
+    "crop_pdf_points": [
+      155.17999267578125,
+      282.16998291015625,
+      507.3399658203125,
+      574.18994140625
+    ],
+    "image": "figures/06/p075_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 79,
+    "crop_pdf_points": [
+      101.75,
+      200.14996337890625,
+      548.5,
+      551.449951171875
+    ],
+    "image": "figures/06/p079_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 86,
+    "crop_pdf_points": [
+      199.75999450683594,
+      76.10000610351562,
+      450.95001220703125,
+      292.25
+    ],
+    "image": "figures/06/p086_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 94,
+    "crop_pdf_points": [
+      101.4000015258789,
+      364.4499816894531,
+      549.7000122070312,
+      707.7999877929688
+    ],
+    "image": "figures/06/p094_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 95,
+    "crop_pdf_points": [
+      101.4000015258789,
+      480.0999755859375,
+      555.3500366210938,
+      730.8499755859375
+    ],
+    "image": "figures/06/p095_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 98,
+    "crop_pdf_points": [
+      101.4000015258789,
+      419.2999572753906,
+      555.0,
+      736.949951171875
+    ],
+    "image": "figures/06/p098_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 99,
+    "crop_pdf_points": [
+      132.10000610351562,
+      76.0999755859375,
+      519.0,
+      445.3499755859375
+    ],
+    "image": "figures/06/p099_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 101,
+    "crop_pdf_points": [
+      162.10000610351562,
+      220.89996337890625,
+      487.5500183105469,
+      471.89996337890625
+    ],
+    "image": "figures/06/p101_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 101,
+    "crop_pdf_points": [
+      157.10000610351562,
+      491.29998779296875,
+      492.5,
+      747.2999877929688
+    ],
+    "image": "figures/06/p101_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 103,
+    "crop_pdf_points": [
+      136.8000030517578,
+      420.8499755859375,
+      513.25,
+      640.8499755859375
+    ],
+    "image": "figures/06/p103_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 104,
+    "crop_pdf_points": [
+      101.4000015258789,
+      117.3499755859375,
+      550.2000122070312,
+      455.89996337890625
+    ],
+    "image": "figures/06/p104_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 104,
+    "crop_pdf_points": [
+      101.55000305175781,
+      451.2499694824219,
+      549.8499755859375,
+      660.8999633789062
+    ],
+    "image": "figures/06/p104_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 105,
+    "crop_pdf_points": [
+      101.4000015258789,
+      234.699951171875,
+      550.2999877929688,
+      536.8999633789062
+    ],
+    "image": "figures/06/p105_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 107,
+    "crop_pdf_points": [
+      114.77999877929688,
+      76.0999755859375,
+      537.8499755859375,
+      393.89996337890625
+    ],
+    "image": "figures/06/p107_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 107,
+    "crop_pdf_points": [
+      118.80000305175781,
+      459.6999816894531,
+      531.5,
+      736.0999755859375
+    ],
+    "image": "figures/06/p107_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 108,
+    "crop_pdf_points": [
+      129.0,
+      76.10000610351562,
+      521.2999877929688,
+      321.75
+    ],
+    "image": "figures/06/p108_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 108,
+    "crop_pdf_points": [
+      123.85000610351562,
+      483.1000061035156,
+      526.4500122070312,
+      703.25
+    ],
+    "image": "figures/06/p108_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 110,
+    "crop_pdf_points": [
+      112.36000061035156,
+      276.010009765625,
+      555.5,
+      562.5
+    ],
+    "image": "figures/06/p110_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 111,
+    "crop_pdf_points": [
+      121.69999694824219,
+      76.0999755859375,
+      539.5,
+      455.4499816894531
+    ],
+    "image": "figures/06/p111_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 115,
+    "crop_pdf_points": [
+      101.4000015258789,
+      70.0999755859375,
+      549.9500122070312,
+      387.89996337890625
+    ],
+    "image": "figures/06/p115_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 116,
+    "crop_pdf_points": [
+      101.4000015258789,
+      342.5,
+      555.1000366210938,
+      711.75
+    ],
+    "image": "figures/06/p116_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 118,
+    "crop_pdf_points": [
+      122.14999389648438,
+      111.3499755859375,
+      527.4000244140625,
+      391.5999755859375
+    ],
+    "image": "figures/06/p118_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 118,
+    "crop_pdf_points": [
+      118.19999694824219,
+      469.6999816894531,
+      531.3499755859375,
+      751.3499755859375
+    ],
+    "image": "figures/06/p118_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 119,
+    "crop_pdf_points": [
+      115.80000305175781,
+      69.94998168945312,
+      533.75,
+      387.7499694824219
+    ],
+    "image": "figures/06/p119_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 121,
+    "crop_pdf_points": [
+      107.4000015258789,
+      117.89996337890625,
+      549.9000244140625,
+      418.89996337890625
+    ],
+    "image": "figures/06/p121_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 122,
+    "crop_pdf_points": [
+      103.92626190185547,
+      76.15963745117188,
+      544.96826171875,
+      583.7236938476562
+    ],
+    "image": "figures/06/p122_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 124,
+    "crop_pdf_points": [
+      101.4000015258789,
+      76.09996032714844,
+      539.6500244140625,
+      357.64996337890625
+    ],
+    "image": "figures/06/p124_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 124,
+    "crop_pdf_points": [
+      98.4000015258789,
+      352.89996337890625,
+      545.1500244140625,
+      707.199951171875
+    ],
+    "image": "figures/06/p124_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 125,
+    "crop_pdf_points": [
+      101.6500015258789,
+      321.5999450683594,
+      547.9000244140625,
+      674.199951171875
+    ],
+    "image": "figures/06/p125_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 126,
+    "crop_pdf_points": [
+      113.4000015258789,
+      75.949951171875,
+      536.1500244140625,
+      501.64996337890625
+    ],
+    "image": "figures/06/p126_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 127,
+    "crop_pdf_points": [
+      102.94999694824219,
+      117.3499755859375,
+      546.7000122070312,
+      460.8499755859375
+    ],
+    "image": "figures/06/p127_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 128,
+    "crop_pdf_points": [
+      101.4000015258789,
+      117.49996948242188,
+      548.1500244140625,
+      470.6999816894531
+    ],
+    "image": "figures/06/p128_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 129,
+    "crop_pdf_points": [
+      121.10000610351562,
+      117.5,
+      528.5999755859375,
+      630.5
+    ],
+    "image": "figures/06/p129_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 130,
+    "crop_pdf_points": [
+      114.86000061035156,
+      197.53997802734375,
+      537.9400024414062,
+      799.5759887695312
+    ],
+    "image": "figures/06/p130_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 131,
+    "crop_pdf_points": [
+      114.86000061035156,
+      70.07598876953125,
+      537.9400024414062,
+      389.2499694824219
+    ],
+    "image": "figures/06/p131_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 132,
+    "crop_pdf_points": [
+      95.30000305175781,
+      110.53997802734375,
+      548.6199951171875,
+      734.0599975585938
+    ],
+    "image": "figures/06/p132_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 133,
+    "crop_pdf_points": [
+      95.30000305175781,
+      110.53997802734375,
+      546.7000122070312,
+      671.8699951171875
+    ],
+    "image": "figures/06/p133_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 135,
+    "crop_pdf_points": [
+      105.54595184326172,
+      72.34341430664062,
+      549.1885986328125,
+      385.851806640625
+    ],
+    "image": "figures/06/p135_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 136,
+    "crop_pdf_points": [
+      100.94000244140625,
+      110.53997802734375,
+      554.0199584960938,
+      523.3099365234375
+    ],
+    "image": "figures/06/p136_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 137,
+    "crop_pdf_points": [
+      100.94000244140625,
+      345.0499572753906,
+      554.0199584960938,
+      669.22998046875
+    ],
+    "image": "figures/06/p137_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 139,
+    "crop_pdf_points": [
+      104.08358764648438,
+      297.7033996582031,
+      551.9144287109375,
+      610.2737426757812
+    ],
+    "image": "figures/06/p139_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 140,
+    "crop_pdf_points": [
+      104.11043548583984,
+      398.6236572265625,
+      551.9993896484375,
+      685.1572265625
+    ],
+    "image": "figures/06/p140_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 142,
+    "crop_pdf_points": [
+      100.94000244140625,
+      93.260009765625,
+      548.7400512695312,
+      404.6099853515625
+    ],
+    "image": "figures/06/p142_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 143,
+    "crop_pdf_points": [
+      170.5370635986328,
+      73.09619140625,
+      484.5263977050781,
+      483.23199462890625
+    ],
+    "image": "figures/06/p143_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 144,
+    "crop_pdf_points": [
+      104.51930236816406,
+      194.57537841796875,
+      551.8512573242188,
+      516.34326171875
+    ],
+    "image": "figures/06/p144_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 146,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      595.3200073242188,
+      842.0399780273438
+    ],
+    "image": "figures/06/p146_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 148,
+    "crop_pdf_points": [
+      101.41999816894531,
+      460.6300048828125,
+      551.3800048828125,
+      733.0999755859375
+    ],
+    "image": "figures/06/p148_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 150,
+    "crop_pdf_points": [
+      105.69999694824219,
+      531.949951171875,
+      549.25,
+      685.0999755859375
+    ],
+    "image": "figures/06/p150_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 153,
+    "crop_pdf_points": [
+      108.8388442993164,
+      70.69308471679688,
+      545.9569091796875,
+      361.4621887207031
+    ],
+    "image": "figures/06/p153_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 153,
+    "crop_pdf_points": [
+      104.38539123535156,
+      431.88360595703125,
+      552.0565795898438,
+      707.6577758789062
+    ],
+    "image": "figures/06/p153_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 154,
+    "crop_pdf_points": [
+      101.98631286621094,
+      411.0948181152344,
+      554.5138549804688,
+      737.6632080078125
+    ],
+    "image": "figures/06/p154_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 155,
+    "crop_pdf_points": [
+      101.97460174560547,
+      212.869384765625,
+      544.0023803710938,
+      582.8942260742188
+    ],
+    "image": "figures/06/p155_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 156,
+    "crop_pdf_points": [
+      101.88423919677734,
+      212.78851318359375,
+      549.5183715820312,
+      560.1166381835938
+    ],
+    "image": "figures/06/p156_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 157,
+    "crop_pdf_points": [
+      101.9820556640625,
+      70.6905517578125,
+      559.4166259765625,
+      371.55731201171875
+    ],
+    "image": "figures/06/p157_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 158,
+    "crop_pdf_points": [
+      119.23587036132812,
+      70.63641357421875,
+      535.7450561523438,
+      345.94476318359375
+    ],
+    "image": "figures/06/p158_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 158,
+    "crop_pdf_points": [
+      116.51873779296875,
+      464.7670593261719,
+      538.267333984375,
+      744.930419921875
+    ],
+    "image": "figures/06/p158_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 159,
+    "crop_pdf_points": [
+      102.05548095703125,
+      227.55267333984375,
+      552.7392578125,
+      557.6672973632812
+    ],
+    "image": "figures/06/p159_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 160,
+    "crop_pdf_points": [
+      121.55525207519531,
+      70.70448303222656,
+      533.2325439453125,
+      340.9464416503906
+    ],
+    "image": "figures/06/p160_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 160,
+    "crop_pdf_points": [
+      102.18550109863281,
+      433.3869934082031,
+      552.5180053710938,
+      756.4658813476562
+    ],
+    "image": "figures/06/p160_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 161,
+    "crop_pdf_points": [
+      121.80000305175781,
+      233.49053955078125,
+      533.0205078125,
+      534.357421875
+    ],
+    "image": "figures/06/p161_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 162,
+    "crop_pdf_points": [
+      102.06965637207031,
+      70.76235961914062,
+      559.7911376953125,
+      407.6575622558594
+    ],
+    "image": "figures/06/p162_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 164,
+    "crop_pdf_points": [
+      131.97161865234375,
+      70.67155456542969,
+      522.9815063476562,
+      361.4882507324219
+    ],
+    "image": "figures/06/p164_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 164,
+    "crop_pdf_points": [
+      124.04240417480469,
+      429.4422302246094,
+      530.9427490234375,
+      740.2379150390625
+    ],
+    "image": "figures/06/p164_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 165,
+    "crop_pdf_points": [
+      103.85540008544922,
+      384.5572814941406,
+      550.90966796875,
+      700.7088012695312
+    ],
+    "image": "figures/06/p165_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 166,
+    "crop_pdf_points": [
+      103.95609283447266,
+      118.154541015625,
+      550.9022216796875,
+      418.9622802734375
+    ],
+    "image": "figures/06/p166_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 167,
+    "crop_pdf_points": [
+      102.32565307617188,
+      70.77684020996094,
+      552.585205078125,
+      354.04315185546875
+    ],
+    "image": "figures/06/p167_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 167,
+    "crop_pdf_points": [
+      116.669921875,
+      422.175048828125,
+      538.1334228515625,
+      707.6087646484375
+    ],
+    "image": "figures/06/p167_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 168,
+    "crop_pdf_points": [
+      101.97613525390625,
+      138.67221069335938,
+      554.5296630859375,
+      429.3885498046875
+    ],
+    "image": "figures/06/p168_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 169,
+    "crop_pdf_points": [
+      101.97908782958984,
+      70.68220520019531,
+      552.81201171875,
+      358.4815979003906
+    ],
+    "image": "figures/06/p169_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 171,
+    "crop_pdf_points": [
+      101.75525665283203,
+      76.4566650390625,
+      336.46832275390625,
+      264.2643127441406
+    ],
+    "image": "figures/06/p171_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 171,
+    "crop_pdf_points": [
+      321.9557800292969,
+      76.46308898925781,
+      558.2167358398438,
+      266.3986511230469
+    ],
+    "image": "figures/06/p171_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 171,
+    "crop_pdf_points": [
+      101.75403594970703,
+      266.7513732910156,
+      556.1814575195312,
+      455.9056701660156
+    ],
+    "image": "figures/06/p171_03.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 172,
+    "crop_pdf_points": [
+      101.97540283203125,
+      70.67221069335938,
+      553.9259643554688,
+      361.3885498046875
+    ],
+    "image": "figures/06/p172_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 172,
+    "crop_pdf_points": [
+      103.87210845947266,
+      364.77001953125,
+      551.0568237304688,
+      654.64111328125
+    ],
+    "image": "figures/06/p172_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 173,
+    "crop_pdf_points": [
+      101.96871948242188,
+      70.66925048828125,
+      552.984375,
+      366.6458740234375
+    ],
+    "image": "figures/06/p173_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 173,
+    "crop_pdf_points": [
+      101.9736328125,
+      370.07232666015625,
+      552.9788818359375,
+      664.48828125
+    ],
+    "image": "figures/06/p173_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 174,
+    "crop_pdf_points": [
+      119.85292053222656,
+      70.654052734375,
+      535.021484375,
+      386.47454833984375
+    ],
+    "image": "figures/06/p174_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 174,
+    "crop_pdf_points": [
+      120.20216369628906,
+      389.8518981933594,
+      534.7750244140625,
+      706.0236206054688
+    ],
+    "image": "figures/06/p174_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 175,
+    "crop_pdf_points": [
+      121.99758911132812,
+      70.64990234375,
+      532.9818115234375,
+      384.8288879394531
+    ],
+    "image": "figures/06/p175_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 175,
+    "crop_pdf_points": [
+      121.99758911132812,
+      388.1458435058594,
+      532.9818115234375,
+      701.8302612304688
+    ],
+    "image": "figures/06/p175_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 176,
+    "crop_pdf_points": [
+      111.3075942993164,
+      159.4561767578125,
+      543.6010131835938,
+      447.9108581542969
+    ],
+    "image": "figures/06/p176_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 176,
+    "crop_pdf_points": [
+      111.30399322509766,
+      451.250244140625,
+      543.6295166015625,
+      732.4179077148438
+    ],
+    "image": "figures/06/p176_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 177,
+    "crop_pdf_points": [
+      105.65912628173828,
+      70.66067504882812,
+      549.1795043945312,
+      362.1094055175781
+    ],
+    "image": "figures/06/p177_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 177,
+    "crop_pdf_points": [
+      106.7618637084961,
+      365.4647216796875,
+      548.0479736328125,
+      653.9561767578125
+    ],
+    "image": "figures/06/p177_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 178,
+    "crop_pdf_points": [
+      133.77210998535156,
+      138.67236328125,
+      521.0467529296875,
+      433.99017333984375
+    ],
+    "image": "figures/06/p178_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 178,
+    "crop_pdf_points": [
+      133.7692108154297,
+      437.4711608886719,
+      521.0407104492188,
+      725.9454345703125
+    ],
+    "image": "figures/06/p178_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 179,
+    "crop_pdf_points": [
+      135.65548706054688,
+      70.64932250976562,
+      519.1524047851562,
+      359.96429443359375
+    ],
+    "image": "figures/06/p179_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 179,
+    "crop_pdf_points": [
+      134.26516723632812,
+      363.31475830078125,
+      520.6904296875,
+      654.1989135742188
+    ],
+    "image": "figures/06/p179_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 180,
+    "crop_pdf_points": [
+      101.91033935546875,
+      117.90887451171875,
+      587.5305786132812,
+      357.4410705566406
+    ],
+    "image": "figures/06/p180_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 180,
+    "crop_pdf_points": [
+      101.81111145019531,
+      346.60528564453125,
+      587.5305786132812,
+      585.6041870117188
+    ],
+    "image": "figures/06/p180_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 181,
+    "crop_pdf_points": [
+      117.29222106933594,
+      280.8424072265625,
+      537.5406494140625,
+      562.0327758789062
+    ],
+    "image": "figures/06/p181_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 182,
+    "crop_pdf_points": [
+      127.365478515625,
+      70.61003112792969,
+      527.6321411132812,
+      332.0785217285156
+    ],
+    "image": "figures/06/p182_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 182,
+    "crop_pdf_points": [
+      124.7139892578125,
+      462.00811767578125,
+      530.11865234375,
+      729.629150390625
+    ],
+    "image": "figures/06/p182_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 183,
+    "crop_pdf_points": [
+      119.93016052246094,
+      159.4319305419922,
+      535.0447387695312,
+      433.05126953125
+    ],
+    "image": "figures/06/p183_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 184,
+    "crop_pdf_points": [
+      100.94000244140625,
+      418.3699951171875,
+      554.0199584960938,
+      683.0299682617188
+    ],
+    "image": "figures/06/p184_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 185,
+    "crop_pdf_points": [
+      104.5393295288086,
+      73.22279357910156,
+      595.3200073242188,
+      588.5747680664062
+    ],
+    "image": "figures/06/p185_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 186,
+    "crop_pdf_points": [
+      102.273193359375,
+      70.7442626953125,
+      552.5108642578125,
+      628.1597900390625
+    ],
+    "image": "figures/06/p186_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 187,
+    "crop_pdf_points": [
+      104.77825927734375,
+      313.08245849609375,
+      552.515625,
+      612.640869140625
+    ],
+    "image": "figures/06/p187_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 188,
+    "crop_pdf_points": [
+      104.48455047607422,
+      73.04917907714844,
+      595.3200073242188,
+      261.5250244140625
+    ],
+    "image": "figures/06/p188_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 188,
+    "crop_pdf_points": [
+      104.50485229492188,
+      233.5991973876953,
+      595.3200073242188,
+      583.3372192382812
+    ],
+    "image": "figures/06/p188_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 189,
+    "crop_pdf_points": [
+      100.94000244140625,
+      395.0899963378906,
+      554.7400512695312,
+      591.1099853515625
+    ],
+    "image": "figures/06/p189_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 190,
+    "crop_pdf_points": [
+      119.01959228515625,
+      72.95098876953125,
+      595.3200073242188,
+      386.4368896484375
+    ],
+    "image": "figures/06/p190_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 190,
+    "crop_pdf_points": [
+      115.37340545654297,
+      451.8245849609375,
+      534.40869140625,
+      701.9677124023438
+    ],
+    "image": "figures/06/p190_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 191,
+    "crop_pdf_points": [
+      104.59894561767578,
+      182.58822631835938,
+      595.3200073242188,
+      518.3536376953125
+    ],
+    "image": "figures/06/p191_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 192,
+    "crop_pdf_points": [
+      104.90770721435547,
+      73.92446899414062,
+      553.1988525390625,
+      380.9491882324219
+    ],
+    "image": "figures/06/p192_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 193,
+    "crop_pdf_points": [
+      102.08544921875,
+      70.65628051757812,
+      552.8292236328125,
+      600.127685546875
+    ],
+    "image": "figures/06/p193_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 195,
+    "crop_pdf_points": [
+      102.93193054199219,
+      71.64064025878906,
+      595.3200073242188,
+      254.4691925048828
+    ],
+    "image": "figures/06/p195_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 195,
+    "crop_pdf_points": [
+      104.76730346679688,
+      310.2080383300781,
+      550.02587890625,
+      620.024658203125
+    ],
+    "image": "figures/06/p195_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 196,
+    "crop_pdf_points": [
+      102.75296020507812,
+      112.7243881225586,
+      595.3200073242188,
+      278.3981628417969
+    ],
+    "image": "figures/06/p196_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 197,
+    "crop_pdf_points": [
+      104.90145111083984,
+      243.9234619140625,
+      549.706787109375,
+      494.00146484375
+    ],
+    "image": "figures/06/p197_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 197,
+    "crop_pdf_points": [
+      103.70648193359375,
+      493.70257568359375,
+      549.4511108398438,
+      746.4224853515625
+    ],
+    "image": "figures/06/p197_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 198,
+    "crop_pdf_points": [
+      103.76138305664062,
+      72.39950561523438,
+      548.6928100585938,
+      340.7435607910156
+    ],
+    "image": "figures/06/p198_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 199,
+    "crop_pdf_points": [
+      101.89984130859375,
+      283.43121337890625,
+      552.248046875,
+      557.8292846679688
+    ],
+    "image": "figures/06/p199_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 200,
+    "crop_pdf_points": [
+      103.71682739257812,
+      72.50254821777344,
+      551.389892578125,
+      325.22247314453125
+    ],
+    "image": "figures/06/p200_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 200,
+    "crop_pdf_points": [
+      101.927490234375,
+      322.97320556640625,
+      553.178466796875,
+      595.2025146484375
+    ],
+    "image": "figures/06/p200_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 201,
+    "crop_pdf_points": [
+      101.92684936523438,
+      262.80181884765625,
+      553.0615844726562,
+      518.3088989257812
+    ],
+    "image": "figures/06/p201_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 201,
+    "crop_pdf_points": [
+      103.80121612548828,
+      510.2113037109375,
+      550.81591796875,
+      760.7346801757812
+    ],
+    "image": "figures/06/p201_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 202,
+    "crop_pdf_points": [
+      30.073654174804688,
+      387.01446533203125,
+      547.262451171875,
+      732.9609375
+    ],
+    "image": "figures/06/p202_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 203,
+    "crop_pdf_points": [
+      32.79792785644531,
+      357.5228271484375,
+      550.1633911132812,
+      702.8668212890625
+    ],
+    "image": "figures/06/p203_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 205,
+    "crop_pdf_points": [
+      101.92538452148438,
+      324.87493896484375,
+      552.1962890625,
+      597.0100708007812
+    ],
+    "image": "figures/06/p205_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 206,
+    "crop_pdf_points": [
+      102.01871490478516,
+      159.50970458984375,
+      550.0106201171875,
+      480.22900390625
+    ],
+    "image": "figures/06/p206_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 207,
+    "crop_pdf_points": [
+      103.71792602539062,
+      412.5857238769531,
+      551.1446533203125,
+      655.4345703125
+    ],
+    "image": "figures/06/p207_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 208,
+    "crop_pdf_points": [
+      103.70648193359375,
+      72.51969909667969,
+      549.4511108398438,
+      338.0460205078125
+    ],
+    "image": "figures/06/p208_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 208,
+    "crop_pdf_points": [
+      103.70672607421875,
+      337.79473876953125,
+      549.933837890625,
+      601.6962890625
+    ],
+    "image": "figures/06/p208_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 209,
+    "crop_pdf_points": [
+      101.9109878540039,
+      70.4765625,
+      553.0687866210938,
+      337.4572448730469
+    ],
+    "image": "figures/06/p209_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 210,
+    "crop_pdf_points": [
+      103.68476104736328,
+      161.03616333007812,
+      544.9348754882812,
+      435.8891906738281
+    ],
+    "image": "figures/06/p210_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 211,
+    "crop_pdf_points": [
+      101.89448547363281,
+      70.61079406738281,
+      549.2599487304688,
+      330.6288146972656
+    ],
+    "image": "figures/06/p211_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 211,
+    "crop_pdf_points": [
+      101.90612030029297,
+      326.67657470703125,
+      548.482666015625,
+      593.6572265625
+    ],
+    "image": "figures/06/p211_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 212,
+    "crop_pdf_points": [
+      103.71137237548828,
+      243.94552612304688,
+      551.26806640625,
+      507.5262145996094
+    ],
+    "image": "figures/06/p212_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 213,
+    "crop_pdf_points": [
+      103.70672607421875,
+      72.33720397949219,
+      549.933837890625,
+      334.96240234375
+    ],
+    "image": "figures/06/p213_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 213,
+    "crop_pdf_points": [
+      103.70634460449219,
+      351.8699951171875,
+      550.3236694335938,
+      617.3126220703125
+    ],
+    "image": "figures/06/p213_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 214,
+    "crop_pdf_points": [
+      53.506324768066406,
+      174.11859130859375,
+      547.2922973632812,
+      526.3340454101562
+    ],
+    "image": "figures/06/p214_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 215,
+    "crop_pdf_points": [
+      101.90994262695312,
+      227.32711791992188,
+      551.6312255859375,
+      494.2559814453125
+    ],
+    "image": "figures/06/p215_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 216,
+    "crop_pdf_points": [
+      101.90994262695312,
+      70.476806640625,
+      551.6312255859375,
+      337.455810546875
+    ],
+    "image": "figures/06/p216_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 216,
+    "crop_pdf_points": [
+      103.71026611328125,
+      352.6582946777344,
+      549.2481079101562,
+      601.1452026367188
+    ],
+    "image": "figures/06/p216_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 217,
+    "crop_pdf_points": [
+      75.841552734375,
+      70.51583862304688,
+      550.1395874023438,
+      401.6917724609375
+    ],
+    "image": "figures/06/p217_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 218,
+    "crop_pdf_points": [
+      103.71366119384766,
+      72.52973937988281,
+      550.796142578125,
+      332.64398193359375
+    ],
+    "image": "figures/06/p218_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 218,
+    "crop_pdf_points": [
+      101.9119644165039,
+      330.531494140625,
+      553.08251953125,
+      591.35595703125
+    ],
+    "image": "figures/06/p218_02.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 219,
+    "crop_pdf_points": [
+      101.4000015258789,
+      76.0999755859375,
+      553.9000244140625,
+      591.3999633789062
+    ],
+    "image": "figures/06/p219_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 220,
+    "crop_pdf_points": [
+      98.69498443603516,
+      258.11505126953125,
+      548.8734130859375,
+      548.6170654296875
+    ],
+    "image": "figures/06/p220_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 221,
+    "crop_pdf_points": [
+      49.44841003417969,
+      76.84945678710938,
+      595.3200073242188,
+      525.1454467773438
+    ],
+    "image": "figures/06/p221_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 222,
+    "crop_pdf_points": [
+      51.436100006103516,
+      76.86117553710938,
+      595.3200073242188,
+      526.606689453125
+    ],
+    "image": "figures/06/p222_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 247,
+    "crop_pdf_points": [
+      95.77999877929688,
+      198.5,
+      554.7400512695312,
+      783.135986328125
+    ],
+    "image": "figures/06/p247_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 248,
+    "crop_pdf_points": [
+      95.77999877929688,
+      70.08001708984375,
+      554.7400512695312,
+      793.3359985351562
+    ],
+    "image": "figures/06/p248_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 249,
+    "crop_pdf_points": [
+      95.77999877929688,
+      70.08001708984375,
+      554.7400512695312,
+      793.3359985351562
+    ],
+    "image": "figures/06/p249_01.webp"
+  },
+  {
+    "document_id": "06",
+    "source": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pdf_page": 250,
+    "crop_pdf_points": [
+      95.77999877929688,
+      70.08001708984375,
+      554.7400512695312,
+      220.739990234375
+    ],
+    "image": "figures/06/p250_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      405.8117980957031,
+      52.930511474609375,
+      564.9072265625,
+      123.92891693115234
+    ],
+    "image": "figures/07/p001_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      33.35430145263672,
+      293.7850036621094,
+      564.9210205078125,
+      530.95703125
+    ],
+    "image": "figures/07/p001_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      39.02360534667969,
+      504.9661865234375,
+      559.2515869140625,
+      737.1310424804688
+    ],
+    "image": "figures/07/p002_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      317.3338928222656,
+      544.7228393554688,
+      541.857666015625,
+      729.9892578125
+    ],
+    "image": "figures/07/p003_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      33.35430145263672,
+      495.13800048828125,
+      564.9210205078125,
+      752.8463745117188
+    ],
+    "image": "figures/07/p004_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      38.68349838256836,
+      19.502960205078125,
+      298.843505859375,
+      233.74298095703125
+    ],
+    "image": "figures/07/p005_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      36.188899993896484,
+      608.70947265625,
+      301.29901123046875,
+      737.19482421875
+    ],
+    "image": "figures/07/p006_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      296.97601318359375,
+      559.92138671875,
+      562.0859985351562,
+      726.234375
+    ],
+    "image": "figures/07/p007_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      51.21310043334961,
+      19.495101928710938,
+      286.0093078613281,
+      207.66439819335938
+    ],
+    "image": "figures/07/p008_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      296.97601318359375,
+      362.27642822265625,
+      562.0859985351562,
+      714.7254638671875
+    ],
+    "image": "figures/07/p009_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      296.9756164550781,
+      333.3710021972656,
+      562.08642578125,
+      458.5310974121094
+    ],
+    "image": "figures/07/p011_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      44.06949996948242,
+      333.3509826660156,
+      293.42730712890625,
+      460.8417053222656
+    ],
+    "image": "figures/07/p011_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      36.86949920654297,
+      464.8621520996094,
+      300.6243896484375,
+      629.11083984375
+    ],
+    "image": "figures/07/p011_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      36.1885986328125,
+      19.51959228515625,
+      301.29901123046875,
+      192.58338928222656
+    ],
+    "image": "figures/07/p012_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      306.25201416015625,
+      19.60999298095703,
+      550.8851318359375,
+      176.3774871826172
+    ],
+    "image": "figures/07/p012_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      307.939208984375,
+      190.8706817626953,
+      562.031005859375,
+      293.1394958496094
+    ],
+    "image": "figures/07/p012_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      36.18949890136719,
+      188.0290069580078,
+      301.29901123046875,
+      317.5919189453125
+    ],
+    "image": "figures/07/p012_04.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      309.4490051269531,
+      297.4789123535156,
+      549.6069946289062,
+      397.7933044433594
+    ],
+    "image": "figures/07/p012_05.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      46.44459915161133,
+      313.57098388671875,
+      268.0556945800781,
+      480.583984375
+    ],
+    "image": "figures/07/p012_06.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      47.08769989013672,
+      487.7870788574219,
+      301.2423095703125,
+      585.3912353515625
+    ],
+    "image": "figures/07/p012_07.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      307.92742919921875,
+      19.488086700439453,
+      562.0300903320312,
+      116.40708923339844
+    ],
+    "image": "figures/07/p013_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      49.45490264892578,
+      19.494781494140625,
+      288.05010986328125,
+      117.53498077392578
+    ],
+    "image": "figures/07/p013_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      309.3916931152344,
+      151.4049072265625,
+      549.7059936523438,
+      249.54080200195312
+    ],
+    "image": "figures/07/p013_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      48.654998779296875,
+      132.79901123046875,
+      290.3027038574219,
+      297.2388000488281
+    ],
+    "image": "figures/07/p013_04.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      310.1296081542969,
+      276.72161865234375,
+      548.9749755859375,
+      374.9670104980469
+    ],
+    "image": "figures/07/p013_05.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      46.911800384521484,
+      311.8302917480469,
+      301.2424011230469,
+      459.7207946777344
+    ],
+    "image": "figures/07/p013_06.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      306.0940246582031,
+      149.11599731445312,
+      535.9650268554688,
+      309.7826843261719
+    ],
+    "image": "figures/07/p014_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      309.335693359375,
+      337.0097961425781,
+      549.7509765625,
+      435.5321960449219
+    ],
+    "image": "figures/07/p014_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      310.2425231933594,
+      449.3115539550781,
+      548.8380126953125,
+      547.4605102539062
+    ],
+    "image": "figures/07/p014_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      307.88031005859375,
+      577.3773803710938,
+      562.031005859375,
+      718.8739013671875
+    ],
+    "image": "figures/07/p014_04.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      45.44099807739258,
+      19.606979370117188,
+      275.2380065917969,
+      180.06747436523438
+    ],
+    "image": "figures/07/p015_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      306.239013671875,
+      19.281982421875,
+      535.9910278320312,
+      180.06887817382812
+    ],
+    "image": "figures/07/p015_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      309.335693359375,
+      207.3709259033203,
+      549.7509765625,
+      306.0460205078125
+    ],
+    "image": "figures/07/p015_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      48.605594635009766,
+      208.6824951171875,
+      288.84271240234375,
+      306.9961853027344
+    ],
+    "image": "figures/07/p015_04.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      310.242919921875,
+      321.7237243652344,
+      548.875,
+      419.2881774902344
+    ],
+    "image": "figures/07/p015_05.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      49.340904235839844,
+      323.2835998535156,
+      288.1156921386719,
+      421.4325256347656
+    ],
+    "image": "figures/07/p015_06.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      47.130401611328125,
+      441.64739990234375,
+      301.2427062988281,
+      583.495849609375
+    ],
+    "image": "figures/07/p015_07.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      307.8912048339844,
+      434.7334899902344,
+      562.030029296875,
+      583.6524658203125
+    ],
+    "image": "figures/07/p015_08.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      45.43899917602539,
+      158.44699096679688,
+      275.2070007324219,
+      318.8656921386719
+    ],
+    "image": "figures/07/p016_01.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      48.54890060424805,
+      348.7300109863281,
+      288.9639892578125,
+      447.35040283203125
+    ],
+    "image": "figures/07/p016_02.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      49.22869873046875,
+      463.9996337890625,
+      288.2532958984375,
+      562.32080078125
+    ],
+    "image": "figures/07/p016_03.webp"
+  },
+  {
+    "document_id": "07",
+    "source": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      47.1322021484375,
+      576.9430541992188,
+      301.24261474609375,
+      718.7757568359375
+    ],
+    "image": "figures/07/p016_04.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      24.793701171875,
+      46.965087890625,
+      111.37800598144531,
+      152.1619873046875
+    ],
+    "image": "figures/08/p001_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      489.052001953125,
+      40.44550323486328,
+      572.744873046875,
+      151.99200439453125
+    ],
+    "image": "figures/08/p001_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      98.6050033569336,
+      46.85498046875,
+      501.9049987792969,
+      152.06097412109375
+    ],
+    "image": "figures/08/p001_04.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      115.19200134277344,
+      525.8893432617188,
+      482.29998779296875,
+      751.2063598632812
+    ],
+    "image": "figures/08/p002_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      58.669395446777344,
+      41.019989013671875,
+      539.2354125976562,
+      346.3919982910156
+    ],
+    "image": "figures/08/p003_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      37.692996978759766,
+      354.9249267578125,
+      291.4729919433594,
+      541.2159423828125
+    ],
+    "image": "figures/08/p003_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      129.61900329589844,
+      607.576416015625,
+      468.31903076171875,
+      751.2364501953125
+    ],
+    "image": "figures/08/p004_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      25.612899780273438,
+      282.63800048828125,
+      572.6630249023438,
+      416.1809997558594
+    ],
+    "image": "figures/08/p005_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      58.669395446777344,
+      41.04095458984375,
+      539.2694091796875,
+      410.36895751953125
+    ],
+    "image": "figures/08/p006_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      115.19200134277344,
+      539.6856689453125,
+      482.29998779296875,
+      751.1796875
+    ],
+    "image": "figures/08/p008_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      129.61900329589844,
+      40.76200866699219,
+      468.3790283203125,
+      287.4020080566406
+    ],
+    "image": "figures/08/p009_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      37.692996978759766,
+      533.8443603515625,
+      291.4729919433594,
+      751.236328125
+    ],
+    "image": "figures/08/p010_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      306.6440124511719,
+      41.2509765625,
+      560.4169921875,
+      247.406982421875
+    ],
+    "image": "figures/08/p010_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      37.692996978759766,
+      41.012969970703125,
+      291.4729919433594,
+      258.40496826171875
+    ],
+    "image": "figures/08/p011_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      58.669395446777344,
+      496.187255859375,
+      539.2254028320312,
+      741.6552734375
+    ],
+    "image": "figures/08/p011_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      306.6440124511719,
+      281.8710021972656,
+      560.4180297851562,
+      497.8190002441406
+    ],
+    "image": "figures/08/p011_03.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      37.692996978759766,
+      524.2633056640625,
+      291.4729919433594,
+      741.6552734375
+    ],
+    "image": "figures/08/p012_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      306.6440124511719,
+      40.66998291015625,
+      560.4240112304688,
+      245.39198303222656
+    ],
+    "image": "figures/08/p012_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      306.6440124511719,
+      256.719970703125,
+      560.4240112304688,
+      474.68798828125
+    ],
+    "image": "figures/08/p012_03.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      306.6440124511719,
+      477.4580078125,
+      560.4240112304688,
+      682.468017578125
+    ],
+    "image": "figures/08/p012_04.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      58.669395446777344,
+      41.28996276855469,
+      539.2694091796875,
+      272.3779602050781
+    ],
+    "image": "figures/08/p013_01.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      306.6440124511719,
+      280.6319885253906,
+      560.4240112304688,
+      506.5199890136719
+    ],
+    "image": "figures/08/p013_02.webp"
+  },
+  {
+    "document_id": "08",
+    "source": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      58.669395446777344,
+      40.42497253417969,
+      539.223388671875,
+      277.39697265625
+    ],
+    "image": "figures/08/p014_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      80.67500305175781,
+      70.04997253417969,
+      517.6749877929688,
+      301.28997802734375
+    ],
+    "image": "figures/09/p002_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      94.35000610351562,
+      402.0799560546875,
+      503.95001220703125,
+      682.0799560546875
+    ],
+    "image": "figures/09/p004_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      168.64999389648438,
+      158.65997314453125,
+      429.82000732421875,
+      353.6099853515625
+    ],
+    "image": "figures/09/p004_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      94.35000610351562,
+      196.5399932861328,
+      504.0,
+      470.7799987792969
+    ],
+    "image": "figures/09/p005_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      96.73999786376953,
+      481.5099792480469,
+      501.70001220703125,
+      581.1500244140625
+    ],
+    "image": "figures/09/p005_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      70.2239990234375,
+      566.469970703125,
+      528.239990234375,
+      724.3399658203125
+    ],
+    "image": "figures/09/p005_03.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      94.35000610351562,
+      70.04997253417969,
+      504.0,
+      324.8399658203125
+    ],
+    "image": "figures/09/p006_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      135.74000549316406,
+      460.26995849609375,
+      462.82000732421875,
+      553.3099975585938
+    ],
+    "image": "figures/09/p008_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      112.94000244140625,
+      604.1799926757812,
+      485.6200256347656,
+      775.6959838867188
+    ],
+    "image": "figures/09/p008_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      73.05000305175781,
+      182.1699981689453,
+      525.260009765625,
+      453.8699951171875
+    ],
+    "image": "figures/09/p010_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      73.05000305175781,
+      439.15997314453125,
+      525.25,
+      737.6599731445312
+    ],
+    "image": "figures/09/p010_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      73.05000305175781,
+      360.97998046875,
+      525.2999877929688,
+      622.4299926757812
+    ],
+    "image": "figures/09/p011_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      92.30000305175781,
+      343.719970703125,
+      480.8399658203125,
+      466.76995849609375
+    ],
+    "image": "figures/09/p012_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      73.05000305175781,
+      171.24002075195312,
+      525.2999877929688,
+      484.19000244140625
+    ],
+    "image": "figures/09/p013_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      146.60000610351562,
+      469.53997802734375,
+      451.75,
+      751.8499755859375
+    ],
+    "image": "figures/09/p013_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      73.27499389648438,
+      183.88998413085938,
+      525.074951171875,
+      497.489990234375
+    ],
+    "image": "figures/09/p014_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      181.8800048828125,
+      508.0799560546875,
+      416.4800109863281,
+      752.469970703125
+    ],
+    "image": "figures/09/p014_02.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      73.42500305175781,
+      592.3199462890625,
+      524.875,
+      738.669921875
+    ],
+    "image": "figures/09/p015_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      149.92999267578125,
+      500.8299560546875,
+      448.17999267578125,
+      687.679931640625
+    ],
+    "image": "figures/09/p016_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 17,
+    "crop_pdf_points": [
+      73.25,
+      70.05000305175781,
+      525.0999755859375,
+      352.0
+    ],
+    "image": "figures/09/p017_01.webp"
+  },
+  {
+    "document_id": "09",
+    "source": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pdf_page": 17,
+    "crop_pdf_points": [
+      73.25,
+      438.489990234375,
+      525.0999755859375,
+      622.489990234375
+    ],
+    "image": "figures/09/p017_02.webp"
+  },
+  {
+    "document_id": "10",
+    "source": "modeling_power_modulation/POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE ENERGY INTEGRATION.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      24.0,
+      505.02996826171875,
+      303.0500183105469,
+      650.780029296875
+    ],
+    "image": "figures/10/p001_01.webp"
+  },
+  {
+    "document_id": "10",
+    "source": "modeling_power_modulation/POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE ENERGY INTEGRATION.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      329.1099853515625,
+      327.7699890136719,
+      574.06005859375,
+      481.54998779296875
+    ],
+    "image": "figures/10/p002_01.webp"
+  },
+  {
+    "document_id": "10",
+    "source": "modeling_power_modulation/POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE ENERGY INTEGRATION.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      24.0,
+      106.5,
+      303.0,
+      340.1499938964844
+    ],
+    "image": "figures/10/p006_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      70.875,
+      116.09954833984375,
+      295.47222900390625,
+      314.26300048828125
+    ],
+    "image": "figures/11/p003_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      64.01417541503906,
+      164.16685485839844,
+      302.7139892578125,
+      336.9505920410156
+    ],
+    "image": "figures/11/p005_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      63.65898895263672,
+      268.039306640625,
+      294.46844482421875,
+      511.2550048828125
+    ],
+    "image": "figures/11/p007_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      60.0,
+      110.79911804199219,
+      537.30517578125,
+      387.23101806640625
+    ],
+    "image": "figures/11/p008_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      0.0,
+      81.75103759765625,
+      582.346435546875,
+      441.97503662109375
+    ],
+    "image": "figures/11/p010_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      75.03084564208984,
+      489.7196044921875,
+      522.7723388671875,
+      647.2095947265625
+    ],
+    "image": "figures/11/p010_02.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      62.12799835205078,
+      112.74223327636719,
+      301.7264099121094,
+      312.1910400390625
+    ],
+    "image": "figures/11/p012_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      62.12799835205078,
+      310.43621826171875,
+      301.7264099121094,
+      509.885009765625
+    ],
+    "image": "figures/11/p012_02.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      62.12799835205078,
+      510.27423095703125,
+      301.7264099121094,
+      709.7230224609375
+    ],
+    "image": "figures/11/p012_03.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      64.38603210449219,
+      193.77944946289062,
+      531.8458251953125,
+      402.2402038574219
+    ],
+    "image": "figures/11/p013_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      64.38603210449219,
+      397.7662353515625,
+      531.8458251953125,
+      606.2269287109375
+    ],
+    "image": "figures/11/p013_02.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      63.788002014160156,
+      110.79722595214844,
+      303.38641357421875,
+      310.24603271484375
+    ],
+    "image": "figures/11/p014_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      105.02999877929688,
+      161.61431884765625,
+      492.2821960449219,
+      659.3870239257812
+    ],
+    "image": "figures/11/p015_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      71.2861557006836,
+      198.06558227539062,
+      525.6866455078125,
+      600.4017333984375
+    ],
+    "image": "figures/11/p016_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 17,
+    "crop_pdf_points": [
+      63.788002014160156,
+      110.79679870605469,
+      303.38641357421875,
+      370.9880065917969
+    ],
+    "image": "figures/11/p017_01.webp"
+  },
+  {
+    "document_id": "11",
+    "source": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pdf_page": 18,
+    "crop_pdf_points": [
+      63.788002014160156,
+      110.79753112792969,
+      303.38641357421875,
+      381.239013671875
+    ],
+    "image": "figures/11/p018_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      26.268001556396484,
+      51.897979736328125,
+      555.39697265625,
+      471.7969970703125
+    ],
+    "image": "figures/12/p003_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      41.858001708984375,
+      51.881988525390625,
+      570.9869995117188,
+      453.82501220703125
+    ],
+    "image": "figures/12/p004_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      26.268001556396484,
+      222.260009765625,
+      292.39898681640625,
+      458.9280090332031
+    ],
+    "image": "figures/12/p005_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      41.858001708984375,
+      51.89801025390625,
+      570.9869995117188,
+      408.2440185546875
+    ],
+    "image": "figures/12/p006_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      41.858001708984375,
+      390.9219970703125,
+      307.989013671875,
+      638.531005859375
+    ],
+    "image": "figures/12/p006_02.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      289.2659912109375,
+      51.89794921875,
+      555.39697265625,
+      302.34197998046875
+    ],
+    "image": "figures/12/p007_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      26.268001556396484,
+      51.89697265625,
+      292.39898681640625,
+      330.2909851074219
+    ],
+    "image": "figures/12/p007_02.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      41.858001708984375,
+      51.89801025390625,
+      570.9869995117188,
+      213.7880096435547
+    ],
+    "image": "figures/12/p008_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      41.858001708984375,
+      433.44097900390625,
+      307.989013671875,
+      667.614013671875
+    ],
+    "image": "figures/12/p008_02.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      304.85699462890625,
+      51.89801025390625,
+      570.9879760742188,
+      308.0679931640625
+    ],
+    "image": "figures/12/p010_01.webp"
+  },
+  {
+    "document_id": "12",
+    "source": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      26.268001556396484,
+      51.89794921875,
+      292.39898681640625,
+      295.198974609375
+    ],
+    "image": "figures/12/p011_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      280.010009765625,
+      706.0599975585938,
+      525.4500122070312,
+      771.3759765625
+    ],
+    "image": "figures/13/p001_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      73.10399627685547,
+      323.0899658203125,
+      525.4599609375,
+      401.0099792480469
+    ],
+    "image": "figures/13/p002_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      73.10399627685547,
+      373.72998046875,
+      525.4539794921875,
+      540.22998046875
+    ],
+    "image": "figures/13/p002_02.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      73.10399627685547,
+      512.8299560546875,
+      525.4539794921875,
+      666.7099609375
+    ],
+    "image": "figures/13/p002_03.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      104.6500015258789,
+      70.04997253417969,
+      493.7699890136719,
+      311.1300048828125
+    ],
+    "image": "figures/13/p003_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      73.05000305175781,
+      390.8899841308594,
+      525.2999877929688,
+      712.5399780273438
+    ],
+    "image": "figures/13/p003_02.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      112.18000030517578,
+      108.00003051757812,
+      485.7699890136719,
+      560.9000244140625
+    ],
+    "image": "figures/13/p005_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      151.77999877929688,
+      70.04998779296875,
+      457.17999267578125,
+      358.29998779296875
+    ],
+    "image": "figures/13/p006_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      72.98400115966797,
+      234.5,
+      526.6600341796875,
+      452.6099853515625
+    ],
+    "image": "figures/13/p007_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      80.125,
+      234.47998046875,
+      518.2249755859375,
+      628.97998046875
+    ],
+    "image": "figures/13/p008_01.webp"
+  },
+  {
+    "document_id": "13",
+    "source": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      73.05000305175781,
+      133.28997802734375,
+      525.6400146484375,
+      489.8399963378906
+    ],
+    "image": "figures/13/p009_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 1,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p001_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 2,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p002_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 3,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p003_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 4,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p004_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 5,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p005_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 6,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p006_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 7,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p007_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 8,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p008_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 9,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p009_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 10,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p010_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 11,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p011_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 12,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p012_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 13,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p013_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 14,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p014_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 15,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p015_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 16,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p016_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 17,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p017_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 18,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p018_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 19,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p019_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 20,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p020_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 21,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p021_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 22,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p022_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 23,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p023_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 24,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p024_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 25,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p025_01.webp"
+  },
+  {
+    "document_id": "14",
+    "source": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pdf_page": 26,
+    "crop_pdf_points": [
+      0.0,
+      0.0,
+      556.7999877929688,
+      817.9199829101562
+    ],
+    "image": "figures/14/p026_01.webp"
+  }
+]

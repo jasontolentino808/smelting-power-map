@@ -1,0 +1,930 @@
+Source: modeling_power_modulation/Optimisation of power modulation for Hall-H´eroult cells.pdf
+
+## PDF page 1
+
+                                                      Journal of Energy Storage 178 (2026) 123594
+
+                                                 Contents lists available at ScienceDirect
+                           Journal of Energy Storage
+
+
+                                             journal homepage: www.elsevier.com/locate/est
+
+Research Papers
+Optimisation of power modulation for Hall-H´eroult cells: Process
+operability and constraints as virtual energy storage
+Choon-Jie Wong a, Adam A. Larkin a, Jie Bao a,*, Maria Skyllas-Kazacos a, Barry J. Welch a,
+Nadia Ahli b, Maitha Faraj b, Mohamed Mahmoud b
+a School of Chemical Engineering, University of New South Wales, Sydney, Australia
+b Emirates Global Aluminium, Jebel Ali Operations, P.O. Box 3627, Dubai, United Arab Emirates
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                  Aluminium is manufactured through the Hall-H´eroult process, which is very energy intensive. Power modula­
+Virtual energy storage                                   tion, as an industrial-scale demand-side power management approach, allows aluminium smelters to operate
+Demand-side power management                   with variable power consumption rates and, as such, be powered by renewable energy sources. In this way,
+Hall-h´eroult process                                           aluminium smelting cells can be used as a large virtual energy storage system to balance power demand andOptimisation                                                  supply, and stabilise electrical grids. This paper studies the potential optimal power modulation operatingPower modulation
+                                                    conditions, including time-varying line current and anode-cathode distance (ACD) profiles, to maximise the
+                                                        profitability of the aluminium reduction cell, subject to constraints on the cell thermal balance. To deal with the
+                                           complex cell dynamics which are spatially distributed and multi-timescale, a novel optimisation approach that
+                                                           utilises both reduced-order and detailed models is developed. The results yield insights into the optimal line
+                                                  current and ACD profiles for different power modulation scenarios, including the time of use electricity tariff and
+                                                  spot price. These results can form the foundation for further studies into online control policies of aluminium
+                                                 reduction cells.
+
+
+1. Introduction                                              modern shapes, aluminium is currently among metals that have the
+                                                                                    fastest growing demands [6]. This is mainly driven by the transport
+   The world is currently pushing for a greener, low-carbon, and more     sector that requires lighter cars, trains, and planes to help improve fuel
+sustainable future. The introduction of alternative/renewable energy     efficiency. As such, aluminium production (primarily with the Hall-
+sources, in general, has posed challenges for electrical grid operators     H´eroult process) has been increasing over the years. However, this
+who must also ensure network stability. With greater penetration of     process is highly energy intensive, constituting a global energy con­
+variable renewable energy, such as solar or wind energy, the instanta­    sumption of nearly one million gigawatt-hours annually [7]. In addition,
+neous generation capacity has become subjected to seasonal and diurnal     the aluminium smelting industry constitutes a large proportion of na­
+variations. In addition, the shift from traditionally stable fossil fuels     tional power consumption. For example, the Australian aluminium in­
+baseload in large interconnected urban areas has widen the gap between     dustry consumes around 14% of its energy generation capacity [8].
+power generation and instantaneous demand, leading to increased fre­     Therefore, there is a strong incentive to produce low-carbon “green”
+quency of large-scale brownouts or blackouts and high variability in spot    aluminium with renewable energy sources.
+market electrical prices [1–5].  It  is imperative that electrical grids      An opportunity to address both challenges described above is pro­
+remain stable and reliable during the transition towards greener and     vided by the massive power requirements of the Hall-H´eroult process,
+more sustainable sources of energy to meet net emission targets and     coupled with the large thermal capacity of each aluminium reduction
+maintain stable electricity prices.                                                    cell. These cells can function as “virtual energy storage” by modulating
+   Aluminium is an important material that plays an important role in     their power consumption [9,10]. By enabling flexible power consump­
+these decarbonisation efforts. Due to its properties such as high strength-     tion of aluminium smelters, these large energy consumers can also
+to-weight ratio, infinite recyclability, and its formability into complex     provide significant demand-side response services to electrical grids to
+
+
+ * Corresponding author.
+    E-mail address: j.bao@unsw.edu.au (J. Bao).
+https://doi.org/10.1016/j.est.2026.123594
+Received 14 August 2025; Received in revised form 22 January 2026; Accepted 7 July 2026
+Available online 13 July 2026
+2352-152X/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-
+nc/4.0/ ).
+
+## PDF page 2
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+balance the demand-supply mismatch of the grid [11,12]. At the same     smelting   industry  and   electrical   grids  through  demand-side
+time, this allows for a direct response to the energy market, hence helps    management.
+the smelters to avoid the high electricity cost associated with times of
+peak demand on the grid and potentially provides them an additional     2. Power modulation of aluminium smelter cells
+income stream through demand-side response services and making an
+arbitrage profit [5]. Power modulation of aluminium smelter cells can         Fig. 1 shows the structural design of a typical modern aluminium
+be achieved by adjusting either the line current or voltage at which the     reduction cell. Modern cells typically use 16–56 prebaked carbon anodes
+cells are operated. This enables an industrial scale demand-side power    suspended in an electrolyte (molten cryolite with other additives) at
+management approach that provides flexibility in using and accommo­     temperatures typically between 955 and 970 ◦C [34,35]. The highly
+dating the variations in renewable energy sources. This allows for the     corrosive nature of molten electrolyte requires a layer of frozen cryolite
+manufacturing of low-carbon aluminium with cleaner energy sources.     (known as ledge) at the boundary of the cell cavity, preventing the
+   Virtual energy storage achieved via demand-side management is a     electrolyte from damaging the sidewall interior and shortening the cell
+widely recognised strategy in other energy-intense industries, including     lifespan [36]. Hence, any power modulation performed on the cells must
+the production of steel [13–16], chlorine [17–19], and cement [20,21],     carefully balance the aluminium metal production for economic benefit
+as well as in seawater desalination [22–24], pulp and paper industry    and cell thermal balance such that there is sufficient molten electrolyte
+[25,26], air separation plant [27], and job scheduling in data centres     without melting away the protective cell frozen ledge [36].
+[28]. Power modulation of aluminium reduction cells  is inherently       Power modulation is achieved by adjusting the regulated line current
+complex, as the delicate mass and thermal balances within the cell are       (i.e., the electrical current sent through multiple cells connected in se­
+tightly coupled to the operating current, voltage, and material feed      ries) and the ACD, which influences the ohmic heat generation by
+rates. Variations in the cell voltage primarily affect the rate of heat     varying electrical resistance. As the ACD determines the volume of
+generation, while changes in the current directly govern electrochemical     electrolyte through which the current flows, it directly affects the cell's
+reactions, feed consumption, and aluminium production. Consequently,      electrical resistance and, consequently, the cell voltage. Fig. 2 shows
+power must be dynamically apportioned between heat generation to    extreme operational strategies for power modulation. In the first strat­
+maintain thermal stability and sustain metal production to meet pro­    egy (Fig. 2a), both line current and ACD are varied concurrently to
+duction targets. As such, this challenge motivates a deeper focus on the     maintain  cell thermal balance, ensuring that the heat generation
+smelting process, where buffering arises from the electrochemical and    component remains constant despite fluctuations in power input; Fig. 3
+thermal inertia of the cell subject to operational limits, distinguishing it    shows a calculation of how ACD may be manipulated at different line
+from approaches that abstract flexible assets as storage-state variables     currents to achieve constant heat generation. In contrast, the second
+[29–32]. Thus, this paper develops a model-based economic optimiser     strategy (Fig. 2b) involves modulating only the line current, thereby
+that determines the optimal current and cell voltage (achieved by the     exploiting the cell's thermal capacity to absorb thermal imbalances. This
+manipulation of anode-cathode distance, or ACD) trajectories, which      latter approach allows for maximum flexibility in power modulation but
+maximises smelter operation profitability while maintaining cell mass     increases reliance on the cell's ability to tolerate transient thermal de­
+and thermal balance for operational feasibility.                               viations. In practice, viable operating strategies lie between these two
+   The process variables in the aluminium reduction process exhibit     extremes, where the operability of power deviation depends on both its
+multi-timescale spatial and temporal variations [33], which signifi­    magnitude and duration, as well as the cell design and condition.
+cantly complicates modelling and increases computational complexity.       While the trend to build larger cells with increasing line current
+Additionally, the optimiser requires a large time horizon that aligns with     (exceeding 400 kA [9,37,38]) and decreasing feeder-number-to-current
+the cycles of renewable energy production or energy cost. This work     ratio has worsened the spatial non-homogeneity in the cell electrolyte
+proposes a novel approach to managing the computational complexity     [39], the size increase however imparts substantially large thermal ca­
+by employing a feedback-update philosophy. In  this approach, a      pacities. This presents an opportunity for the industrial process to act as
+spatially distributed cell model is combined with a reduced-order model     “virtual energy storage” and participate in demand-side response; i.e.,
+in a feedback loop to compute optimal regimes efficiently, using a     the process can accommodate significant dynamical changes in power
+shrinking time horizon for optimisation. This method can be integrated    consumption without threatening the  cell thermal balance under
+with current advances in power modulation, such as the shell-heat-     appropriately determined line current and ACD trajectories.
+exchanger, to further enhance economic benefits for the aluminium        Certain forms of power modulation have been trialled on industrial
+
+
+
+
+
+                                        Fig. 1. Cross-sectional representation of a prebake anode aluminium reduction cell.
+
+                                                                        2
+
+## PDF page 3
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+
+
+
+
+Fig. 2. Two limiting operational strategies for power modulation. (a) Full compensation of cell thermal balance,
+(b) Full utilisation of cell thermal capacity.
+
+                                                                economic benefit during operation and consequences to energy effi­
+                                                                        ciency through wasted additional heat drawn from the cells [37].
+                                                                          Whilst the literature presents pragmatic solutions leading to feasible
+                                                                           operation, there are opportunities for attaining tighter cell control while
+                                                                  maximising economic benefits during power modulation by dynamically
+                                                                        optimising the operational regimes. This involves developing a model-
+                                                                   based optimiser to determine the economically optimal power modu­
+                                                                               lation regimes, subject to thermal balance constraints (such as main­
+                                                                            taining ledge thickness) to ensure operational feasibility. This work
+                                                                          includes the use of a feedback-update philosophy to address the
+                                                                     computational complexity of optimisation, since very large models are
+                                                                needed to deal with the spatial distribution of thermal and material
+                                                                            properties of aluminium reduction cells, as well as to deal with the
+                                                                         multiple timescales of the process.
+
+                                                                           3. Model-based optimisation frameworkFig. 3. ACD adjustment required to ensure constant heat generation rate at
+different line currents.                                                                           This paper is scoped to the analysis of economic feasibility and
+                                                                         process operability under power modulation conditions. Hence, dy­
+aluminium reduction cells, as early as in the 1970s following the oil                                                               namic models were developed to predict the thermal behaviours of an
+crisis. Valesul Alumínio (1985) and Alcanbrasil (1987) reported imple­                                                                                industrial cell, which is representative of all cells in the potline with the
+mentations of power modulation, while other correspondences revealed                                                            same design and technology. Based on these thermal constraints asso­
+that poor thermal balance control had led to cryolite freezing in the cell                                                                            ciated with the cell technology, an optimiser is developed to calculate
+bottom, which disturbed the electrolyte and metal flows and led to                                                                        the optimum line current and ACD trajectories (power consumption
+instability of cell operation and losses in process efficiency [40]. Simi­                                                                                  profile) that maximise economic benefits. However,  it is noted that
+larly, power price increases in Germany since the energy market's lib­                                                                     while line current affects all the cells in the potline, the impact of ACD
+eralisation and replacement of nuclear generation with renewable                                                                   changes is limited to each cell. Therefore, for extensions to optimal real-
+power has motivated the implementation of power modulation strate­                                                                    time control implementation, ACD control should be delegated to a
+gies in German aluminium smelters, such as TRIMET Aluminium                                                                           lower-level controller that considers the stability and conditions of each
+[9,41,42]. TRIMET used simple power modulation regimes involving set                                                                                            cell; this is outside the scope of the current feasibility study.
+percentage increases or decreases in line current inputs to the cell, with                                                                  As the dynamics of the smelting process are spatially distributed, a
+some experiments being subject to a compensatory cell voltage, through                                                                                 spatially distributed dynamic model is required to accurately compute
+ACD adjustment, to meet thermal balance requirements [9]. Shell-heat-                                                                        the spatial and temporal process variables. In terms of control degree of
+exchanger technologies [2,43,44] were also introduced in other smelters                                                                     freedom, the manipulated variables are line current and ACD, which
+primarily to accommodate greater magnitudes of fixed power increases/                                                                                  affect the entire cell since they cannot be controlled for each anode.
+decreases (load shifting). However, dynamically optimised trajectories                                                                          Therefore, a reduced-order model with appropriate complexity was
+of line current and ACD were not employed to maximise potential
+
+                                                                        3
+
+## PDF page 4
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+developed to compute temporal process dynamics, so large optimisation    between the electrolyte and frozen ledge, with interfacial area Aldg−bath.
+windows of several days in length can be computed efficiently. To     Qgen is the heat generation rate within the cell, and Tliq is the liquidus
+maintain overall optimisation accuracy, we introduce a novel feedback-     temperature, representing the temperature above which the electrolyte
+update technique where accurate states from the spatially distributed      is completely liquid.
+model are iteratively used to update those in the reduced-order model as      Ohmic heat generation Qgen is the product between line current ILine
+the optimisation proceeds.                                        and cell voltage Vcell. However, voltage drop external to the cell Vext and
+                                                                             that due to reagent dissolution, reactions and necessary preheating (6.6
+                                                        kWh/kg Al [39]) do not contribute towards heat generation and should
+3.1. Dynamic cell models                                                                 be subtracted:
+                                               = (Vcell −Vext) × ILine −6600 ˙mAl(ILine),                           (2)3.1.1.  Spatially distributed mass and thermal model                           Qgen
+  A distributed dynamic model of modern aluminium smelter cells
+with coupled material and thermal balance derived from the first prin­    where ˙mAl is the production rate of aluminium metal given by Faraday's
+ciples was published in our previous works [45,46]. It can compute the    law of electrolysis:
+local cell dynamics, such as those of the electrolyte composition and                   ηILineMAl                                                                                       3600,                                         (3)temperature, based on the consumption of materials and the generation      ˙mAl(ILine)                                                 =   zF  ×
+of heat at various spatial locations. As a dynamic model based on inte­
+grated material and energy balances, it is suitable for various operating     with η representing the current efficiency, MAl is the molecular weight of
+conditions, including power modulations, as it also calculates the cell    aluminium, z is the number of electrons transferred and F is the Faraday
+voltage and distribution of anode currents based on the changing line     constant.
+current and local cell conditions – the latter of which governs the local       Ledge thickness. With the protective layer of frozen cryolite ledge at
+rate of the electrowinning process (including the rates of heat generation     the boundary of the cell cavity, the ledge is assumed to dissolve or form
+and material consumption).                                                   at the liquidus temperature. The formation or dissolution is driven by
+   The spatial discretisation in this spatially distributed dynamic model     the difference of heat transferred from the bath to the ledge surface (at
+is conducted according to the cell design, including the anode geometry     liquidus temperature) Qbath−ldgb, and that from the ledge surface to the
+and locations. For a 36-anodes industrial cell studied in this work (see     ledge Qldgb−ldg:
+Fig. 4), the cell cavity, ledge, silicon carbide sidewall, and the steel shell           (    )
+                                                            d mldg     Qldgb−ldg −Qbath−ldgbare discretised into an 11-by-43 grid, where the subsystems may not       =                                                           (4)
+share the same grid dimensions, i.e., the volume and mass in each grid        dt           ΔHf
+varies. This spatially distributed model captures the spatial and tem­                                  (                  )                                                                                                             kldg Aldg−bath + Aldg−met   (         )poral dynamics of the tightly coupled material and thermal properties. It      Qldgb−ldg =                                  Tliq −Tldg                        (5)                                                                                                                   0.5lldgaccounts for local electrolyte mass concentrations, local temperatures,
+local ledge thickness, and electrolyte height – amounting to more than                  [                                          ](          )
+                                                                                          Qbath−ldgb =  hldg−bathAldg−bath + hldg−metAldg−met   Tbath −Tliq  ,          (6)800 state variables.
+                                                              where mldg is the mass of the ledge, with temperature Tldg and thermal3.1.2. Reduced-order thermal model
+                                                                         conductivity coefficient kldg. hldg−met is the heat convection coefficient   The optimiser requires a dynamic  cell model with appropriate
+computational complexity to optimise their power consumption, subject    between ledge and aluminium, with interfacial area Aldg−met. ΔHf is the
+to the thermal constraints of the cell design and technology. As line     enthalpy of fusion for the ledge material. Thus, the ledge thickness lldg
+current and ACD variations affect the entire cell, a reduced-order lum­    (assumed to be uniform in this lumped parameter model) can be
+ped parameter thermal model can be used to predict the temporal     calculated:
+thermal behaviour of cells in response to power variations. The dy­                                                                                                 mldg                                                                                                                               ),                                       (7)                                                                                                                    lldg =       (namics of individual alumina dumps can also be simplified by assuming                                                                                                       ρldg Aldg−bath + Aldg−met
+perfect alumina feeding at the base feed rate, which subsequently dis­
+solves completely. This is because on the longer timescale that thermal    where ρldg is density of the ledge. The interfacial areas also vary ac­
+balance dynamics exist, the dynamics of mass balance disappears.                                                                      cording to ledge thickness, e.g.:
+   Electrolyte temperature. The thermal balance for the electrolyte                              ( (        )    (         ) )
+(bath) can be represented as follows:                                               Aldg−bath = 2  L −2lldg + W −2lldg  H,                             (8)
+    d(mbathTbath)                                            (          )cbath       = Qgen −hldg−bathAldg−bath Tbath −Tliq  ,               (1)    where L and W are the length and width of the cell cavity respectively,         dt                                                              and H is the ledge height.
+                                                                                Electrolyte mass. Given that formation and dissolution of ledgewhere Tbath is the temperature of the electrolyte with mass mbath and
+                                                                                transfers mass to or from the electrolyte, the change in electrolyte massspecific heat capacity cbath. hldg−bath is the convective transfer coefficient
+
+
+
+
+
+                                             Fig. 4. Thermal components in the spatially distributed dynamic model.
+
+                                                                        4
+
+## PDF page 5
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+is:                                                                      (D                                                                   −db)                   )                          (                                                                                          (                                                                                                                                                      ,                                                (16)                                                     )                        Rbath =                mldg                                                    (                 ) d                                                                               lldg                                                                                              κbathAand(mbath)     = −d    = −ρldg Aldg−bath + Aldg−met             .            (9)   dt           dt                                  dt
+                                                              where κbath is the electrolyte conductivity. D is the anode cathode dis­   Ledge temperature. The ledge temperature dynamics is driven by the                                                                            tance; it is emphasised that ACD is a manipulated variable to be opti­difference in heat transfer from ledge surface (at liquidus temperature to                                                                      mised, and its direct impact on cell voltage is observed here. All thesethe ledge, and from the ledge to the sidewall materials:                                                                    terms are also directly or indirectly impacted by line current.            )                       (        (                                    )                                Model  state equations and output equation. Summarising the  d      mldgTldg                                 Tldg −Tswcldg                    Qldgb−ldg −                                                               (10)     equations above, the state equations for spatially averaged electrolyte        dt   =                                 Rldg−sw    ,
+                                                                       temperature, ledge temperature, sidewall temperature, ledge mass, and
+where cldg is the specific heat capacity of the ledge. The sidewall has     ledge thickness are given by:
+temperature Tsw, thermal conductivity ksw and thickness lsw. Rldg−sw is          d(mbathTbath)                                            (          )                                                      = Qgen −hldg−bathAldg−bath Tbath −Tliq              (17)the thermal resistance from frozen ledge to sidewall:                              cbath     dt
+          1   (0.5 lldg   0.5 lsw )                                                                                 (        )                       (          )    (          )Rldg−sw =         +              .                              (11)      d mldgTldg     kldgAldg−sw  Tliq −Tldg      Tldg −Tsw          Aldg−sw     kldg      ksw                                                           cldg       =                                        −                          (18)                                                                                      dt              0.5 lldg              Rldg−sw
+   The liquidus temperature depends on the chemical composition of                                     (          )
+the cell electrolyte. Its value in degree Celsius is modelled based upon           d(Tsw)     Tldg −Tsw       −Tamb)                                                                        mswcsw    =          −(Tsw                               (19)the empirical relation to wt/wt concentrations of alumina (Al2O3),              dt        Rldg−sw       Rsw−amb
+aluminium fluoride (AlF3), calcium fluoride (CaF2), lithium fluoride
+(LiF), magnesium fluoride (MgF2) and potassium fluoride (KF) [47]:
+
+
+                                      3.45%CaF2 Tliq =1011 + 0.5%AlF3 −0.13 (%AlF3)2.2 −           + 0.124(%CaF2)(%AlF3) −0.00542((%CaF2)(%AlF3) )1.5                                  1 + 0.0173%CaF2
+                               7.93(%Al2O3)                                      8.90(%LiF)           −                                                                                                                           −                              −3.95(%MgF2) −3.95(%KF).       1 + 0.0936(%Al2O3) −0.0017(%Al2O3)2 −0.0023(%AlF3)(%Al2O3)  1 + 0.0047(%LiF) + 0.0010(%AlF3)2
+                                                                                                                                       (12)
+
+
+
+
+
+                                                                                                                                         (    )     [                                           ](          )
+                                                            d mldg       −   hldg−bathAldg−bath + hldg−metAldg−met   Tbath −Tliq
+   Sidewall temperature. The dynamics of the sidewall temperature can       =                                                      (20)                                                                                 dt                      ΔHf
+be represented as follows:
+                                                                                                                                                      (   )        (    )
+                            (          )                                            d  lldg   d mldg      d(Tsw)                                                                                             −d(mbath)                                                                                                                                       (21)        =mswcsw                    Tldg −Tsw −(Tsw −Tamb),                       (13)      ρldgAldg  dt                                                    =   dt  =                                                                                                               dt     .         dt        Rldg−sw       Rsw−amb
+                                                                The model output is the power usage of a single, representative
+where Tsw is the temperature of the sidewall, with mass msw and specific     smelter cell in the potline:
+heat capacity csw. Tamb is the ambient surroundings temperature. Rsw−amb                                                            P = ILineVcell.                                                   (22)represents the lumped-parameter thermal resistance from the centre of
+the sidewall layer to the surroundings:
+                       )                                      3.1.3. Discussions and comparisons of models         1  (0.5lsw                                        lshell                           1                                                              To illustrate the similarity and differences between both the spatially             +                 +Rsw−amb =                                                                   ,                        (14)            Aext    ksw      kshell   hshell−amb                                      distributed and the reduced-order cell models, they are initialised with
+                                                                        the same initial conditions and subjected to the same control actions and
+where Aext  is the external area of the cell in contact with the sur­    power modulation condition: a 10% increase in line current from hours
+roundings, kshell is the conductivity of the surrounding steel shell, and    8 to 12. The dynamics in key process variables from both models are
+hshell−amb is the convective coefficient of transfer between the cell exte­    compared in Fig. 5.
+rior and ambient air.                                                                The spatially distributed model was simulated with conventional
+    Cell voltage. The cell voltage equation has been published in the                                                                  alumina feeding control and cell resistance control. This model calcu­
+literature [45,46,48]. The following voltage components are included in                                                                                   lates the state trajectories of each spatial location, but only the bounds
+the model:                                                              and weighted mean are plotted for clearer visualisation. This simulation
+Vcell = Vrev + ηsa + ηca + ηcc + ILine(Rbath + Rbub + Ran + Rca + Rext),    (15)     also illustrates the multi-timescale nature of the process; for example,
+                                                                                  Fig. 5(a) shows that the bath temperature takes more than 6 h to reach
+where Vrev is the reversible potential, ηsa is the surface overvoltage at the     steady values, while Fig. 5(b) and (c) show that the ledge dynamics take
+anode, ηca  is the concentration overvoltage at the anode, ηcc  is the     longer than 12 h. This also demonstrates the large thermal capacity and
+concentration overvoltage at the cathode. IRbath, IRbub, IRan, IRca, and     the long-lasting impact of power modulation, with the transient-state
+IRext are the voltage drops across the electrolyte, bubble layer, anode,     period being similar in length to the power modulation periods. This
+cathode, and external cell superstructures respectively.                   emphasises the need to optimise line current and ACD trajectories
+   The electrolyte resistance Rbath  is dependent on the electrolyte     throughout the entire period, so the cell thermal constraints are always
+composition as well as the thickness of electrolyte layer (i.e., ACD):        maintained.
+                                                                The  reduced-order  model,  despite  significant  simplifications,
+
+
+                                                                        5
+
+## PDF page 6
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+
+
+
+
+Fig. 5. Simulations comparing spatially distributed and reduced-order models subject to a 4-h 10% increase in line current. Results for (a) electrolyte/bath tem­
+perature, (b) ledge temperature, (c) ledge thickness, (d) sidewall temperature.
+
+predicts trends similar to those of the spatially distributed model, and    imposed on the intermediate time points (collocation points) with little
+the magnitudes of key process variables remain well within the bounds.     discretisation error. The second solution involves a feedback-update
+A small difference in response speed is noted between the two models,     strategy, where the reduced-order model is used in optimisation to
+although its impact is minimal. This arises as the spatially distributed    keep computational complexity low while being periodically updated
+model has spatially discretised subsystems of varying mass, and so its     with feedback from the outputs of the spatially distributed model. This
+thermal inertia varies spatially. In comparison, the reduced-order model     keeps the optimisation model aligned with the full physics and reduces
+has only one lumped mass parameter for each material, and so its     the errors in the reduced-order representation.
+thermal inertia represents the average. The oscillations for electrolyte
+and ledge temperatures are also absent from the reduced-order model     3.2.1. Optimisation problem formulation
+output. This is because the alumina ‘demand-feed’ pattern has little       The aluminium reduction cell possesses multi-timescale dynamics.
+impact on the cell for the purpose of power modulation which occurs on     For example, Fig. 5 shows changes in power input cause mass variables
+a much longer timescale. The alumina feeding dynamic was thus      like alumina concentration to respond in minutes, while thermal vari­
+omitted from the reduced-order model to reduce state dimension and     ables respond slowly over 12 h. This multi-timescale nature of the pro­
+computational complexity.                                                  cess dynamics makes discrete-time models unsuitable for use in dynamic
+                                                                           optimisation: fast dynamics require small sampling time periods, which
+                                                                            increases the number of decision variables in a time horizon and thus the3.2. Nonlinear program optimisation with feedback-update                                                                    numerical complexity; slow dynamics require large sampling time,
+                                                               which can cause fast dynamics to be misrepresented (i.e., aliasing). A   The scope of this work is to analyse the economic feasibility and                                                                            discrete-time representation may be ill-conditioned, which leads toprocess operability under power modulation. This  is conducted by                                                                    numerical instability. Any discretisation error introduced may alsooptimising the trajectories of line current and ACD that maximise the                                                                   accumulate to unacceptable levels over the long modulation period.economic benefits while ensuring the cell remains within an acceptable                                                                   Hence, we use continuous-time system model to formulate the optimi­operating window  (e.g.,  maintaining  the  ledge  thickness  within                                                                            sation problem to determine the optimal operating condition as a vectoracceptable bounds). The multi-timescale and spatially distributed nature                                                                         function of time, u(t).of material and energy in a cell must be considered. To address these                                                                The reduced-order model (Eq. 17–21) can be expressed succinctly as:issues, two solutions are proposed to be used together. The first solution
+involves formulating the optimisation problem with a continuous-time    dx                                              = f(x, u),                                                    (23)reduced-order model to capture both fast and slow dynamics, avoiding     dt
+numerical errors and difficulties that arise in discrete-time models due to
+                                                              where x(t) is a vector of the state variables: spatial-mean temperatures ofthe multi-timescale dynamics. This problem is then transcribed into a
+                                                                               electrolyte (Telec), ledge (Tldg), and sidewall (Tsw) and spatial-mean ofnonlinear program with orthogonal collation, so the constraints can be
+
+                                                                        6
+
+## PDF page 7
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+ledge thickness (Lldg), while u(t) is a vector of the input variables: line        to maintain the physical interpretation of the cost function J, which
+current and spatial-mean of ACD.                                                          is an economic cost function.
+   There are several important objectives and requirements to which      • Eq. 24g, when included in the optimisation problem, enforces that
+the optimised power modulation profile must adhere. They can be          cell power usage P(t) (Eq. 22) matches a target power profile
+formulated as:                                                                                   Ptarget(t), while allowing a small deviation of α. This is useful for
+               ∫tf                                                          Scenario I of optimisation studies, where we vary the power by
+  min   J(t) =     (Expensescell(x, u) −Revenuecell(x, u) ) dt       (24a)u(t),   t0≤tf                t0                                             ±20%.
+     s.t.                                                                The above formulation is set up so that the trajectories of line current
+Eq. 23                                                      (24b)    and ACD can be optimised to maximise economic benefits over long-
+                                                                 term modulation cycles while ensuring the cell remains stable. This
+xlb ≤x(t) ≤xub                                                (24c)     optimisation problem  is transcribed into a nonlinear programming
+                                                                problem in the next section, so that it can be solved numerically more
+ulb ≤u(t) ≤uub                                              (24d)      efficiently.
+
+                                                                                 3.2.2. Nonlinear programming problem formulation(du)  ≤du(t) ≤ (du)                                       (24e)  dt   lb     dt       dt  ub                                           The optimisation problem in the previous section is to be solved with
+              (  )                                                            long optimisation period of days. Combined with nonlinear cell dy­
+−ϵ ≤x  tf −x(0) ≤ϵ                                             (24f)    namics which imposes constraint on the solution, there can be a sub­
+                                                                                   stantial increase in computational complexity. Inspired by pseudo-
+−α ≤P(t) −Ptarget(t) ≤α.                                     (24g)     spectral optimal control methods [50,51], we transcribe the optimisa­
+                                                                             tion problem into nonlinear program using Lobatto collocation, which
+                                                                    approximates the system differential equation as algebraic constraints • Eq. 24a represents the economic cost function to be minimised. It is
+                                                              and integral cost function as weighted sum. The state (e.g., electrolyte   the net revenue per cell from time t0 to tf (tf = 48-th hour, after two                                                                      temperature) trajectories are approximated as piecewise polynomial   daily modulation cycles), to capture the long-term cell behaviours                                                                             functions, and the input  (line current and ACD)  trajectories are   during power modulation. The expenses are related to time-varying                                                                  approximated as piecewise linear functions. The constraint of system   costs of raw materials and electricity; the revenue is the market value                                                                dynamics is exactly imposed on sets of interior collocation points as   of aluminium metal produced. It is noted that fixed capital, main­                                                                           algebraic constraints and thus, unlike a discrete-time model, does not   tenance, and labour costs are not included in this cost function. There
+                                                                         lead to accumulation of errors.     [    ]    is no additional cost associated with storage of metal production over
+                                                                                              First, partition the time horizon  t0, tf  into M segments, as   the 48-h period, as liquid aluminium is accumulated within indi­
+   vidual cells until scheduled routine tapping, independent of power       t0 = 0 ≤t1 ≤t2 ≤… ≤tk ≤tk+1 ≤… ≤tM = tf.                   (25)
+   modulation. Due to other constraints implemented, the impact on
+   pot life [49] is assumed to be negligible. Solving this economic cost        For each time segment [tk, tk+1], each of length h, map the global time
+                                                                                                  τ ∈[0, 1]:   function produces optimal trajectory u(t) (consisting of line current       t to local time
+   and ACD profiles) that lowers the expenses incurred in operating the                                                                                                                 t ≡tk + (tk+1 −tk)τ = tk + hτ.                                     (26)
+    cell and raises the revenue (metal production), thereby maximising
+   the net profit over the period t0 to tf. Computed with a model of the       Choose N Lobatto collocation nodes, at {τz}N−1z=0 . Each state trajectory
+   process, this optimal operation profile u(t) balances the total power     for the segment xk(τz) can then be approximated as
+   consumption between metal production and heat generation while                                                                                  xk(τz) = ak,0 + ak,1τz + ak,2τ2z + … + ak,N−1τN−1z    ,                     (27)   ensuring the cell remains within desirable operating window.
+ • Eq. 24b represents the thermal balance of the smelter cell that must                                                              where  ak,0, ak,1, …, ak,N−1  are  the  coefficients  of  the  polynomial   be obeyed. It is a continuous-time system model which reduces nu­                                                                    approximation in the [tk, tk+1] interval. Noting that xk(τz = 0) = ak,0, the   merical errors associated with sampling of a multi-timescale system.                                                                              discrete values at the collocation nodes of each state in the [tk, tk+1] are • Eq. 24c represents the acceptable bounds within which the process                                                                              thus:
+   variables must remain. For the industrial cell in this study, the                    ⎡                  ⎤
+   average ledge thickness must be between 2 cm (to ensure adequate
+                                                      ⋯   τz1  ⋯τn−11   ⎡     ⎤   sidewall protection) and 15 cm (the spacing available between anode   ⎡      ⎤  ⎡    ⎤     τ1    τ21                                                                                  xk(τ1)       xk(0)                                                ak,1
+   and sidewall).                                                                                                                          τ22 ⋯   τz2  ⋯τn−12         ak,2                                                                                  xk(τ2)       xk(0)        τ2
+ • Eq. 24d represents the acceptable bounds within which the line         ⋮          ⋮        ⋮   ⋮ ⋱  ⋮       ⋮       ⋮
+   current and ACD must remain. The line current (nominal 425 kA)        xk(τz)  =  xk(0) +    τz    τ2z ⋯   τzz  ⋯τn−1z          ak,z      ,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ⎢⎢⎢⎢⎢⎢⎣  ⋮              ⎥⎥⎥⎥⎥⎥⎦                                                                                                                                                                                                                                                                                                                                                                   ⎢⎢⎢⎢⎢⎢⎣   ⋮                 ⎥⎥⎥⎥⎥⎥⎦            ⎢⎢⎢⎢⎢⎢⎣  ⋮           ⎥⎥⎥⎥⎥⎥⎦   must remain above 200 kA (to meet the production requirement),                                                                                          ⋮   ⋮      ⋮ ⋱  ⋮   and the ACD (nominal 2.8 cm) must remain between 2.5 and 5 cm (to       xk(τn−1)      xk(0)                                    ⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎣                                                                                                                                                                                                                                          ⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎦  ak,(n−1)                                                                                                               τn−1  τ2n−1 ⋯τzn−1 ⋯τn−1n−1    limit the risk of process faults such as shorting and anodes lifted from
+   bath).                                                                                                                                       (28) • Eq. 24e represents the acceptable bounds for the rate of change of
+   control actions. The line current may not change faster than 360 kA/     Xk = Xk0 + CAk,                                                 (29)
+   h (for process stability), and the ACD may not be adjusted more
+   quickly than 0.36 cm/h (to maintain crust integrity).                where Xk = [xk(τ1) , xk(τ2) , ⋯, xk(τn−1) ]⊤, Xk0 = [xk(0) , xk(0) , ⋯]⊤, ⊤is
+ • Eq. 24f enforces that the ledge thickness at t = tf (end of two mod­     the transpose operator, Ak is a vector of polynomial coefficients, and C is
+   ulation cycles) return to its initial value, to ensure that the cell    a Vandermonde matrix for the collocation nodes τ1, τ2, …, τN−1 without
+   possesses the thermal capacity for the next power modulation cycles.     the zeroth-order terms. Its state derivative can be expressed as
+   This requirement is not expressed as a soft constraint (terminal cost)
+
+
+
+                                                                        7
+
+## PDF page 8
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+            ⎡                          ⎤                 3.2.3. Feedback-update strategy
+  ⎡      ⎤    1   2τ1  ⋯   zτz−11  ⋯  (n −1)τn−21   ⎡     ⎤        As larger reduction cells are built, the process becomes increasingly      xk(τ1)                                                                  ak,1
+               1   2τ1  ⋯   zτz−12  ⋯  (n −1)τn−22           ak,2        uneven in terms of material and energy distribution throughout the cell.      xk(τ2)
+d     ⋮         ⋮    ⋮  ⋱    ⋮            ⋮          ⋮         The spatially distributed model captures the coupled material and
+dτ    xk(τz)  =  1   2τz  ⋯   zτz−1z  ⋯  (n −1)τn−2z           ak,z       ,     thermal dynamics with high spatial resolution, but this also results in the            ⎢⎢⎢⎢⎢⎢⎣   ⋮                   ⎥⎥⎥⎥⎥⎥⎦                                                                                                                                                                                                                   ⎢⎢⎢⎢⎢⎢⎣   ⋮               ⎥⎥⎥⎥⎥⎥⎦     number of nonlinear programming constraints growing proportionally                 ⋮    ⋮         ⋮  ⋱      ⋮                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎦  ak,(n−1)        to the product of the number of states and collocation points, leading to     xk(τn−1)                                             ⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎣               1  2τn−1 ⋯  zτz−1n−1 ⋯  (n −1)τn−2n−1                                                                                  scalability challenges. While the reduced-order model significantly re­
+                                                                    duces computational requirements, it introduces errors due to variations                                                               (30)                                                                              in spatial system properties, such as the thermal inertia illustrated in
+                                                                                  Fig. 5. To address this, we introduce a novel feedback-update optimi­dXk          dXk  = DAk = h   = h⋅f(Xk, Uk).                                (31)     sation strategy with shrinking time horizons to compute the optimal line dτ             dt
+                                                                          current and ACD trajectories (i.e., power consumption control profile). It
+   From Eqs. 29 and 31, the constraint in differential equation Eq. 24b is                                                                                                is emphasised that the scope of this study is to perform an offline
+transcribed into the following algebraic equation:                                                                             analysis of the economic feasibility and process operability over a period
+Xk −xk(0) = hCD−1f(Xk, Uk).                                     (32)     of two modulation cycles (48 h).
+                                                                                      Fig. 7 illustrates the proposed optimisation framework based on
+    Finally, the optimisation problem can be rewritten as follows:          shrinking optimising horizons. The nonlinear programming problem
+   ∑M−1                                                          defined in Eq. 33, constructed using a reduced-order model of the cell, is
+min Jnlp =     (Expensescell(Xk, Uk) −Revenuecell(Xk, Uk) )         (33a)      initially solved over the entire 48-h horizon. Leveraging this model that Uk            k=0                                                               predicts  cell  dynamics,  this  yields an  optimal  trajectory  u*  (t),
+     s.t.:                                                               comprising the line current and ACD, which satisfies all operational
+                                                                               constraints. To mitigate the impact of model-reduction error, the power
+Eq. 32                                                      (33b)    consumption control profile of the first θ time (θ=10 min for the studies
+                                                                              in Section 4),
+Xlb ≤Xk ≤Xub                                                 (33c)
+                                                                            u*(0)(t)∶= u*(t),  t ∈[0,  θ],                                      (34)
+Ulb ≤Uk ≤Uub                                              (33d)
+                                                                                                is applied to the spatially distributed model in an open-loop simulation,
+ΔUlb ≤ΔUk ≤ΔUub                                           (33e)     providing a more accurate prediction of the system's state trajectory. The
+                                                                        terminal state from the spatially distributed model x (θ) is then spatially
+−ϵ ≤XM−1 −X0 ≤ϵ                                              (33f)    averaged using mass-based weighting, ensuring consistency with the
+                                                                      reduced-order model representation. This terminal state is used to ini­
+−α ≤Pk −Ptarget,k ≤α                                        (33g)      tialise the optimiser at time θ and the optimisation is re-solved over the
+                                                                   remaining time horizon, t ϵ [θ tf]. This process is repeated, with the
+where Eqs. 33b–g are the equivalent constraints for the optimisation     optimal trajectory
+problem, Eqs. 24b–g. The constraints are imposed only on the colloca­
+                                                                      ∈[ jθ,   (j + 1)θ ]                              (35)tion points, while the cost function can be integrated numerically due to     u*(j)(t)∶= u*(t),  t
+the Lobatto quadrature implemented. The optimal solution only needs to
+                                                                          retained and implemented in the spatially distributed model with each j-satisfy the conditions of optimality at the collocation points, and this can
+                                                                          th iteration. The optimisation horizon shrinks at each iteration until thebe efficiently computed with a large scale interior point optimiser,
+                                                                                           full 48-h period has been traversed.IPOPT [52].
+                                                                           This approach retains the planning benefits of long-horizon optimi­   In this work, the optimised power profile over 48 h (two modulation
+                                                                            sation while utilising a spatially distributed model to provide statecycles) are considered. Hence, the time is partitioned into 48 segments
+                                                                     feedback to increase the robustness of the offline model prediction. By(M = 48), each having 7 collocation nodes (N = 7), which consistently
+                                                                             periodically updating the process variables in the reduced-order modelallows the solver to produce a feasible solution. The segmentation and
+                                                                    with more accurate  state information obtained from the  spatiallycollocation nodes are illustrated in Fig. 6.
+
+
+
+
+
+                                    Fig. 6. Optimisation window partitioned into 24 segments, each with 7 collocation nodes.
+
+                                                                        8
+
+## PDF page 9
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+
+
+
+
+                      Fig. 7. Feedback-update optimisation approach with shrinking optimisation horizons and fixed simulation horizons θ.
+
+distributed simulation, the optimisation solution more accurately re­     efficiency during power modulation. For instance, the authors have
+flects the spatially distributed, coupled mass and thermal dynamics of     recently developed real-time estimation [54–57] and control strategies
+the full-order system.                                               [58–61] for both the average and spatial distribution of alumina con­
+   Optimisation, in tandem with the feedback-update framework, forms     centration  dissolved  in the  electrolyte. These approaches can be
+the basis of an application that can yield feasible line current and ACD    extended to support improved cell operation under dynamic power
+profiles based on technology specific models to improve smelter prof­    modulation schemes.
+itability whilst ensuring the process remains within strict operating
+constraints. This tool enables the specification of set power profiles as     3.3.2. ACD and thermal balance
+optimisation constraints or may alternatively take inputs of power price        In the industry, the control of ACD (which governs heat generation)
+profiles to determine near optimal operational responses, yielding      is performed as a proxy for thermal balance control due to the challenges
+dynamically optimised strategies to extract maximum economic benefit     in measuring ACD and thermal variables (e.g., electrolyte temperature)
+whilst adhering to the  strict operational constraints of aluminium     in real-time in the harsh cell environment. ACD can be implemented for
+reduction technology.                                               each cell by the individual cell controller to the neighbourhood of the
+                                                                      optimised ACD trajectory, considering the stability and noise level of
+3.3. Real-time control implementation                                  each cell. This is implemented by adjusting the vertical position of the
+                                                               anode beam, using cell voltage (or equivalently, cell pseudo-resistance)
+   While this work focuses on the economic feasibility and process     as immediate feedback. Under current industry practices, electrolyte
+operability under power modulation, the proposed approach produces a     temperature and composition are also taken manually and periodically
+reference profile for smelter operation: The optimiser determines the     to finetune the ACD level and feedrate of fluoride additives.
+optimum operating trajectories (line current and ACD profiles) which       There are recent developments of advanced thermal balance moni­
+can then be implemented on a cell. While the detailed real-time control     toring and control methodologies for power modulation. In particular,
+design for power modulation is outside the scope of this paper, the key     the ACD and electrolyte temperature can be estimated using state esti­
+control implementation issues are discussed in this section.               mation algorithms (e.g., [62–64]), providing key variables for closed-
+                                                                     loop feedback control. More recently, the authors developed a control
+3.3.1. Line current and mass balance                                     algorithm that directly manipulates the ACD [65] to regulate cell su­
+   Line current is regulated by the smelter rectifier and power conver­     perheat (the difference between electrolyte and liquidus temperatures).
+sion system. While it is typically controlled to a constant value, it can be    By maintaining the superheat within a desired range, the controller
+increased or decreased dynamically to follow the optimal current tra­     preserves the available thermal energy in the system and stabilises the
+jectory, up to the range permissible by the rectifier systems. This may      cell thermal balance under dynamic operating conditions.
+affect all the cells in a potline or just a section, depending on the pres­
+ence of boosters which electrically section a potline.                       4. Optimisation studies
+   In this electrochemical process, the consumption rate of materials is
+proportional to the current. Alumina concentration is an important       The models described in Section 3.1 were simulated with the
+variable to be controlled to avoid cell abnormalities such as anode ef­     feedback-update optimisation described in Section 3.2 to study the po­
+fects and sludge formation. In the industry, alumina concentration      tential benefits of three different power modulation scenarios, while
+cannot be measured in real-time due to harsh operating conditions. The     ensuring the cells are working within acceptable operating region. In
+alumina concentration is regulated indirectly by feeding at a factor     these scenarios, the cells are subjected to the varying power input, and
+above and below the nominal ‘base feed’ rate determined from the line     the cell dynamics are evaluated to yield insight into potential opera­
+current  [53]. Therefore,  for the feeding  control algorithm  to be     tional issues and to assess the feasibility of the power modulation re­
+compatible with power modulation schemes, this ‘base feed’ rate must     gimes. In each scenario, we consider an optimisation time horizon of 48
+be adjusted accordingly as line current changes.                      h to capture the long-term cell behaviour during power modulation
+   Advanced monitoring and control algorithms can be implemented to     whilst also limiting the computational costs arising from a long horizon
+further  tighten mass balance regulation and enhance  cell energy    window.
+
+                                                                        9
+
+## PDF page 10
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+   The first scenario considers a changing power consumption rate of
+every 12 h in a diurnal load shifting pattern [66]. This benefits smelters
+by honouring contractual obligations with the grid to provide demand-
+side response services to the energy grid in times of peak demand and
+minimum demand events, with financial incentives being rewarded
+through these agreements [5,66]. For example, smelters in Australia can
+participate in the Wholesale Demand Response Mechanism (WDRM)
+and Reliability and Emergency Reserve Trader (RERT) schemes, where
+large electrical users are paid for reducing their consumption when the
+grid is under stress. The former would allow smelters to submit bids to
+the central market operator specifying the magnitude of demand
+response and the price at which they are willing to curtail load [67,68],
+while the latter compensates smelters for providing demand response
+during emergency conditions when available energy reserves fall below
+critical thresholds [69]. This scenario analyses the loss of metal pro­
+duction and the minimum financial benefit required to participate in
+demand-side response schemes.
+   The second and third modulation scenarios consider a time-varying      Fig. 9. Optimal Line Current and ACD profiles with ledge thickness evolution
+power pricing and investigates how power modulation (flexible opera­     over time, 20% diurnal load shifting.
+tion) can be employed to minimise energy cost, therefore allowing the
+input power to respond freely to power price signal. The second scenario     periodic power consumption repeated every 24 h. The cell technology of
+considers a time-of-use tariff profile typical in NSW, Australia, while the      this study operates with a line current of 425 kA and an average ACD of
+third scenario considers power spot prices published by the Australian     2.8 cm under nominal conditions. A ± 20% power variation is intro­
+Energy Market Operators (AEMO) [70]. Spot pricing can fluctuate    duced during the day and night, to demonstrate the need for drastic ACD
+drastically, representing the need for more extreme cases of power    changes to cope with the more prominent heat fluctuations and the
+modulation. This evaluates the potential economic benefits of permit­     associated threat to cell thermal balance. The power profiles were first-
+ting fast smelter load response to highly variable spot prices.              order filtered using a time constant of 0.2 h to ensure the system dy­
+                                                                 namics are well-behaved with finite derivatives at the power transitions.
+                                                                The optimiser solved the problem, computing the optimal operating
+4.1. Scenario I: 20% diurnal load shifting power variation                     trajectories (line current and ACD profiles) that achieve this flexible
+                                                                        operation (±20% power variation) while maintaining the cell within
+   Diurnal load shifting [66] exploits the daily variations in power     safe mass and thermal operating envelopes. Fig. 8 shows the power
+demand in the grid by decreasing smelter power demand to save on     profile achieved and Fig. 9 shows the optimised line current and ACD
+smelter power costs and then increasing aluminium production in times     trajectories that achieve this target. One of the key process states, ledge
+of low grid demand. These services are becoming increasingly important     thickness, is also included in the figure to illustrate the thermal capacity
+in the Australian National Energy Market, which  is experiencing a     of the cell.
+growing divergence between rising peak demand and falling minimum       During the set period of increased power, the optimiser ramped the
+demand. Peak demand continues to increase due to the electrification of     line current up and the ACD down to the lower bound. From the cost
+industrial processes to decarbonise and reduce reliance on fuels, while     function formulation, the optimisation algorithm seeks to maximise cell
+minimum demand is falling due to the high penetration of rooftop solar      profits by maximising aluminium metal production, and this can be
+generation. This widening envelope presents operational challenges for     achieved with higher line current, as explained via Faraday's law of
+grid stability, which can be alleviated with load shifting of large elec­     electrolysis (Eq. 3). At the same time, ACD was decreased to lower
+tricity consumers such as smelters, thus positioning smelter cells as     electrolyte voltage drop, limiting the heat generation to adhere to
+‘virtual batteries’ that help stabilise the grid.                            thermal balance constraints. This also permits greater line currents to
+    It can be implemented as a percentage decrease in power during the    maximise profits for a given power profile.
+day and percentage increase of the same magnitude during the night; a        Increasing line current while squeezing ACD is already a common
+                                                                                industrial practice when determining a new steady-state operation at
+                                                                       higher power input levels. However, our optimisation approach con­
+                                                                                siders and anticipates the process dynamics, and thus can produce time-
+                                                                                  series line current and ACD profiles that meet the power variation
+                                                                            objective while maximising profits and remaining within safe operating
+                                                                        regimes. For example, apart from ACD, line current variations also lead
+                                                                            to changes in cell voltage due to linear ohmic and nonlinear over­
+                                                                             potential components of the cell voltage. Yet, the optimiser can deter­
+                                                             mine  profiles  for both ACD and  line current  variations  that are
+                                                                       compatible. We note that in the final 3 h of the simulation, an increased
+                                                   ACD also ensures the ledge returns to the same value as its initial con­
+                                                                             dition by remelting the ledge; hence, the effects of power modulation are
+                                                                              reversible with an arbitrary periodicity of 48-h.
+                                                                                                         It is apparent that the minimal ledge thickness is close to the allowed
+                                                                   lower bound of 2 cm, specifically between the hours of 30 and 40. Due to
+                                                                  a reduced flexibility in operation during periods of increased power (due
+                                                                            to reductions in ACD below the minimum contributing to voltage noise
+                                                              and pot  instability), given the set power consumption  it becomes
+                                                                     apparent that a ± 20% diurnal load shifting approaches the physical
+  Fig. 8. 20% diurnal load shifting profile for the aluminium reduction cell.       limit for the modelled cell technology. This is further supported by the
+
+                                                                        10
+
+## PDF page 11
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+                                                                   changes in electrolyte temperature, in turn causing fluctuations in su­
+                                                                      perheat throughout the load shifting period. This can be explained by
+                                                                            liquidus  temperature  being  solely dependent upon  the  chemical
+                                                                     composition of the electrolyte, with the relatively slower variations in
+                                                                               electrolyte total mass (as evidenced by slow ledge dynamics in Fig. 9)
+                                                                           creating this lag effect.
+                                                                  As governed by Faraday's law of electrolysis, aluminium production
+                                                                                                is directly proportional to the current. The line current profile in Fig. 9
+                                                                                  results in an estimated reduction of approximately 157 kg of aluminium
+                                                                     over the 48-h period compared with nominal operation at a constant
+                                                                          current of 425 kA. At an aluminium price of USD 3130 per tonne
+                                                                     (January 2026), and assuming fixed electricity pricing, this production
+                                                                                  loss corresponds to a revenue impact of approximately USD 490 per cell.
+                                                                      Consequently, any demand response service enabled by this operating
+                                                                             strategy must generate compensation exceeding  this value  to be
+                                                                     economically attractive for smelter participation.
+                                                                          Whilst the regime presented is feasible with adherence to constraints
+                                                             on ledge thickness, larger superheats are reported in literature to
+               Fig. 10. Cell Voltage, 20% diurnal load shifting.                  contribute towards a more significant reduction in current efficiency,
+                                                              and hence increase energy requirements whilst reducing aluminium
+consistent infeasibility of solution in the optimisation problems when     production [72]. As such, an ideal control philosophy in a power
+the load shifting percentages were raised to ±25% and higher for this
+cell technology.
+   Despite the requirement for ACD changes and the consideration of
+changing species concentrations with varying electrolyte mass due to
+ledge  formation/melting,  the  simulation  portrays  reasonable  cell
+voltage trends, confined between approximately 3.8 V to 4.8 V as seen in
+Fig. 10.
+    Fig. 11(a) shows that the electrolyte temperature varies between
+approximately 945 ◦C and 995 ◦C. The liquidus temperature, which
+defines  the  temperature  at  which  the  cell  electrolyte  becomes
+completely liquid, also varies due to the changes in electrolyte compo­
+sition brought about by ledge formation/melting. Meanwhile, Fig. 11(b)
+presents the changes in superheat (the difference between electrolyte
+and liquidus temperatures) with a maximum of approximately 24 ◦C and
+a minimum of approximately 4 ◦C. The magnitude of superheat repre­
+sents two key aspects in aluminium smelting: firstly, it is a representa­
+tion of the availability of energy to dissolve feed materials, such as
+alumina fed to the cell, and secondly, the superheat provides an indi­
+cation of the heat transfer through the sides of the reduction cell,
+determining the degree of cryolitic ledge melting/freezing [71]. Fig. 11
+(b) demonstrates dynamic changes in liquidus temperature lagging the                          Fig. 12. Time-of-use tariff over 48 h.
+
+
+
+
+
+Fig. 11. Variation in (a) average electrolyte/bath temperature (◦C) and liquidus temperature,
+(b) cell superheat with time, 20% diurnal load shifting.
+
+                                                                        11
+
+## PDF page 12
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+modulation context would require consideration of both thermal prop­
+erties and electrolyte composition together to effectively regulate su­
+perheat. The extent of these current efficiency reductions is based on
+empirical relations specific to cell technologies, and since the relation
+has yet to be obtained for the specific technology of this study, variations
+in current efficiency have been excluded from the formulation of the
+optimisation problem.
+   Of concern is the high magnitude of superheat during the second
+increased power period between 24-th to 36-th hour. As previously
+mentioned, increased superheats correspond to decreased current effi­
+ciency hence decreased aluminium production [72]. Under the current
+formulation of the optimal control problem, there is a clear exchange
+between current efficiency and ensuring that thermal balance con­
+straints of the aluminium reduction cell are met. Hence, these results
+emphasise the importance of considering variable current efficiencies in
+the aluminium reduction cell model, motivating further studies to attain
+the empirical model for current efficiency for the specific cell technol­
+ogy, incorporate this relation into the dynamic model and reformulate      Fig. 14. Optimised line current and ACD profiles with evolution of ledge
+                                                                                   thickness with time in response to time-of-use tariff between ±0.36 cm/h forthe optimal control problem under this consideration.                                                        ACD and between ±360 kA/h for line current.
+4.2. Scenario II: time-of-use tariff scenario
+
+   Optimal regimes in response to more general, time-of-use tariff sce­
+narios were studied with the feedback-updated method using the
+spatially distributed model (see Fig. 12. A typical time-of-use tariff
+profile as used by NSW energy providers in Australia was input to the
+optimisation problem to assess feasibility and profitability of operating a
+smelter cell with variable electricity pricing contracts. Note in the
+following simulation, power is permitted to float freely given deter­
+mined changes in ACD and line current.
+   Optimisations were conducted using two sets of constraints for the
+line current rate of change, to assess the impact of fast current changes
+(±360 kA/h) and slower changes (±36 kA/h). Under the ±360 kA/h
+constraint, Fig. 12, Fig. 13, and Fig. 14 show how the optimiser takes
+advantage of periods with low power prices to generate sufficient heat,
+ensuring that the average ledge thickness remains below the specified
+upper bound of 15 cm. During these periods of low power cost, the line
+current can be rapidly increased while the anode-cathode distance
+(ACD) is relatively large (around 4.5 cm), allowing significant heat                                                                                     Fig. 15. Optimised power demand profile in response to time-of-use tariff be­generation within the cell electrolyte. The profiles are optimised for                                                                      tween ±0.36 cm/h for ACD and between ±36 kA/h for line current.economic cost, with the line current being used to quickly modulate
+power and heat generation, while the ACD changes more gradually, as
+illustrated in Fig. 14.
+    Fig. 15.and Fig. 16 show the same scenario under stricter rate of
+change constraints for the line current (±36 kA/h) still presents an
+
+
+
+
+
+                                                                                     Fig. 16. Comparison of (a)  cell profits for nominal operation and power
+                                                                          modulation (normal and slow response cases) in a 48-h period and (b) net profit
+                                                                            gained for power modulation vs nominal operation.
+
+                                                                     economically optimal regime, however economic benefit suffers when
+                                                              compared with the previous case. In this scenario, the ledge is confined
+Fig. 13. Optimised power demand profile in response to time-of-use tariff be­     within a tighter range associated with the limitation of line current rate
+tween ±0.36 cm/h for ACD and between ±360 kA/h for line current.
+
+                                                                        12
+
+## PDF page 13
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+
+
+
+
+Fig. 17. Comparison of (a) cell profits for nominal operation and power modulation (normal and slow response cases) in a 48-h period and (b) net profit gained for
+power modulation vs nominal operation.
+
+of change. Whilst the constraints are held, there is reduced opportunity
+for economic benefit due to slower transitions in power consumption,
+challenging the ability to respond to changes in the power prices. This
+demonstrates the impact of physical limitations on the potential smelter
+economic benefit, i.e., permitting sharper changes in power consump­
+tion allows for longer operation near the constraint boundaries where
+economic benefit is most significant.
+    Fig. 16. Optimised line current and ACD profiles with evolution of
+ledge thickness with time in response to time-of-use tariff between
+±0.36 cm/h for ACD and between ±36 kA/h for line current.
+   The net revenue of operating a cell is calculated using the cost
+function defined in Eq. 24, which accounts for raw materials and elec­
+tricity costs and the market value of aluminium produced, while
+excluding capital, maintenance, labour, and storage costs. Fig. 17(a)
+shows the net profit over the 48-h period of both line current rate of
+change constraints (±360 kA/h and ± 36 kA/h), relative to nominal
+operation. The corresponding gain in net profit is illustrated in Fig. 17
+(b), demonstrating a consistent improvement in profitability under
+power modulation, with higher permissible rate of change in current
+yielding greater economic benefit. This reflects the ability of power      Fig. 18. NSW Australia power spot price profile starting at midnight for 18th to
+modulation to flexibly adjust the aluminium production rate in response     19th of August 2021.
+to electricity prices. Profitability can be further enhanced if the smelter
+participates in demand response schemes that provide financial in­                                                                        or equal to 15 cm) and constraints on the line current and ACD rates ofcentives for load flexibility.                                                                 change (bounds of ±360 kA/h and ± 0.36 cm/h respectively). Using the
+                                                                     feedback-update optimisation, power modulation was optimised on a
+                                                                monthly frequency of 48-h spot price profiles from August 2021 to4.3. Scenario III: power spot price profile
+                                                                  January 2022, producing the overall cell profits for these periods and
+                                                              compared with the profits under nominal operation of 425 kA line   As an extension to Scenario II (time-of-use tariff studies), optimisa­
+                                                                          current and an average ACD of 2.8 cm. A sample spot price profile fortions were performed under consideration of NSW Australia spot market
+                                                                  August 2021 is given in Fig. 18, showing the typical spot price fluctu­prices, permitting the cell power load to respond freely to maximise cell
+                                                                            ations observed in NSW.profits in a 48-h period. Typically, the aluminium smelting industry
+                                                                The net profit per cell over the 48-h period is calculated using Eq. 24relies upon agreements with the grid such that power prices are
+                                                                                for several 48-h periods chosen for the large fluctuations observed inconsistent and manufacture remains economically viable for constant
+                                                                         spot pricing. As before, the capital, maintenance, labour, and storagesmelter power loads. Whilst these studies represent an extreme power
+                                                                               costs are not included. Fig. 19(a) shows the net profit of cells undergoingmodulation scenario, they provide insight into efficacy of power mod­
+                                                             power modulation relative to nominal operation, and Fig. 19(b) dem­ulation for economic benefit and reduction of costs associated with spot
+                                                                            onstrates consistent improvements across all months with power mod­price pricing scheme. Evaluation of such pricing schemes yield valuable
+                                                                               ulation, averaging an improvement of A$1232.insights, particularly when considering the uncertain future of power
+pricing for aluminium smelters as the present agreements come to an
+                                                                           5. Conclusions and future workend.
+   Optimisation was performed considering a 48-h window subject to
+                                                                               In this paper, the operability and economic benefits of Hall-H´eroultthe previous constraints detailed for ledge thickness (minimum ledge
+                                                                                       cells under power modulation was studied as an optimisation problemthickness greater than or equal to 2 cm, average ledge thickness less than
+
+                                                                        13
+
+## PDF page 14
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+
+
+
+
+Fig. 19. Comparison of (a) single cell profits during nominal operation and power modulation under power spot prices for various months and (b) net profit gained
+for power modulation vs nominal operation.
+
+with an economic cost function. The multi-timescale nature of the pro­    each cell sharing the same line current with any changes in line current
+cess was addressed by using continuous-time model with orthogonal     affecting all the connected cells. This warrants further studies to deter­
+collocation methods applied to efficiently solve the optimisation prob­    mine optimal line current and ACD trajectories with respect to a mul­
+lem with nonlinear programming solver. Errors arising from the use of      tiple cell distributed system. Further work should also investigate the
+reduced-order model to predict process dynamics of a spatially distrib­     cooperative scheduling of the smelter operation with multiple flexibility
+uted nature is addressed by incorporating a high spatial fidelity model in     resources, such as other industrial loads and energy storage systems, to
+a feedback loop. Overall, this strategy allows the power profiles (line     evaluate their aggregated impact on power system operation and market
+current and ACD  trajectories) to be determined which maximises    outcomes [29,32,73,74].
+smelter profits while ensuring the cell remains within strict operating        This work forms the preliminary structure for further studies into
+constraints of the process.                                                online control policies of aluminium reduction cells, with an intention to
+   The studies identified an approach towards the maximum feasible     extend  the  optimisation  for  application  in  an  economic-model-
+±20% diurnal load shifting for the cell technology studied, primarily     predictive-control (EMPC) framework.  Prior  to the online control
+due to the ACD lower bound of 2.5 cm paired with extended periods of     application, further studies must be conducted into potential measure­
+minimum ledge thickness at the lower boundary of 2 cm. Since ACD    ments attainable from smelter cell technology using a combination of
+below this limit is considered unfavourable due to potential issues with    manual and automatic measurements, as well as the application of state
+cell voltage noise and pot instability, this implies strict power con­     observers such that full-state feedback may be utilised. In essence,
+straints will contribute a minimum ohmic heat generation in the cell.     observation of the cell states, particularly the ledge thickness, presents
+This may in turn render operation infeasible at higher power inputs due     as one of the next major challenges in improving the autonomy of the
+to complete melting of the ledge at points in the cell, damaging the re­     Hall-H´eroult process.
+fractory cell wall and shortening cell lifespan.
+   Optimal regimes in response to a time-of-use tariff were also studied    CRediT authorship contribution statement
+to assess the operational flexibility of aluminium smelter cells, where
+power consumption was permitted to float freely. The results demon­       Choon-Jie Wong: Writing – review & editing, Writing – original
+strate how ACD can be raised slowly and pre-emptively in preparation      draft, Visualization, Validation, Software, Methodology, Investigation,
+for a substantial decrease in power, hence ensuring the conservation of    Formal analysis, Data curation, Conceptualization. Adam A. Larkin:
+thermal balance. Further, comparisons between power modulation and     Writing – original draft, Validation, Methodology, Investigation, Formal
+nominal operation for spot market power prices demonstrate the po­     analysis, Data curation, Conceptualization. Jie Bao: Writing – review &
+tential economic benefits of power modulation under spot price power     editing, Validation, Supervision, Resources, Project administration,
+pricing structure, with an average increase in profits of A$1232 per 48 h    Methodology,  Investigation, Funding  acquisition, Formal  analysis,
+per cell for the studied cell technology. This figure may vary in practice     Conceptualization. Maria Skyllas-Kazacos: Writing – review & editing,
+when implemented as an online control, since power price may vary in     Validation, Supervision, Resources, Project administration, Methodol­
+real-time. Participation in grid power balancing services also offers an     ogy, Investigation, Funding acquisition, Formal analysis, Conceptuali­
+additional stream of financial incentives.                                    zation. Barry J. Welch: Supervision, Resources, Methodology, Funding
+   To further improve the optimiser results, future works include ac­     acquisition, Conceptualization. Nadia Ahli: Resources, Project admin­
+counting for variable current efficiency and incorporating renewable      istration. Maitha Faraj: Resources, Project administration. Mohamed
+energy storage into the considerations, permitting insights into feasible    Mahmoud: Resources, Project administration.
+operating regimes of aluminium reductions cells in conjunction with
+appropriate  sizing  of battery farms to improve process economic    Declaration of competing interest
+viability and the reduction smelter carbon footprints. The use of heat
+exchangers with variable heat transfer rate can also be considered in       The authors declare the following financial interests/personal re­
+conjunction with dynamically changing ACD and line current to achieve     lationships which may be considered as potential competing interests:
+a larger modulation range. Additionally, whilst studies were performed         Jie Bao, Maria Skyllas-Kazacos and Barry Welch report that financial
+for a single cell, in industry multiple cells are connected in series, with     support was provided by Australian Research Council. Jie Bao, Maria
+
+                                                                        14
+
+## PDF page 15
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+Skyllas-Kazacos and Barry Welch report that financial support was      [21] R. Vujanic, S. Mari´ethoz, P. Goulart, M. Morari, Robust integer optimization and
+provided by Emirates Global Aluminium P.J.S.C. If there are other au­           scheduling problems for large electricity consumers, . in 2012 American Control                                                                                          Conference (ACC)., 2012.
+thors, they declare that they have no known competing financial in­      [22] A. Jiang, J. Wang, L.T. Biegler, W. Cheng, C. Xing, Z. Jiang, Operational cost
+terests or personal relationships that could have appeared to influence            optimization of a full-scale SWRO system under multi-parameter variable
+the work reported in this paper.                                                             conditions, Desalination 355 (2015) 124–140.                                                                                      [23] C.M. Williams, A. Ghobeity, A.J. Pak, A. Mitsos, Simultaneous optimization of size
+                                                                                  and short-term operation for an RO plant, Desalination 301 (2012) 42–52.
+Acknowledgements                                                              [24] A. Ghobeity, A. Mitsos, Optimal time-dependent operation of seawater reverse
+                                                                                                osmosis, Desalination 263 (1–3) (2010) 76–88.
+                                                                                      [25]  S. Puschnigg, S. Kn¨ottner, J. Lindorfer, T. Kienberger, Development of the virtual
+   The authors acknowledge the financial support from Australian            battery concept in the paper industry: applying a dynamic life cycle assessment
+Research Council (ARC) Research Hub for Integrated Energy Storage           approach, Sustainable Prod. Consumption 40 (2023) 438–457.
+Solutions (IH180100020), and Emirates Global Aluminium (EGA). The      [26] H. Hadera, P. Wide, I. Harjunkoski, J. M¨antysaari, J. Ekstr¨om, G. Sand, S. Engell,
+technical support from EGA Jebel Ali Operations, especially the Tech­        Apulpingmean process,value crossComputerdecompositionAided ChemicalstrategyEngineering,for demand-side2015. management of a
+nology Development and Transfer Team and Operations Team, is greatly      [27] D.P. Xenos, I.M. Noor, M. Matloubi, M. Cicciotti, T. Haugen, N.F. Thornhill,
+appreciated. The authors also wish to thank Michel Reverdy and Vinko          Demand-side management and optimal operation of industrial electricity
+Potocnik for their useful comments.                                                  consumers: an example of an energy-intensive chemical plant, Appl. Energy 182                                                                                         (2016) 418–433.
+                                                                                      [28] W. Zhang, V.M. Zavala, Remunerating space-time, load-shifting flexibility from
+Data availability                                                                        data centers in electricity markets, Appl. Energy 326 (2022) 119930.
+                                                                                      [29]  J. Wang, P. Zeng, J. Liu, Y. Li, Coordinated planning of multi-energy systems
+                                                                                                considering demand side response, Energy Rep. 6 (2020) 745–751.
+   The data that has been used is confidential.                                 [30]  J. Wang, P. Zeng, L. Yin, Y. Dong, X. Liu, R. Yang, A two-stage distributed
+                                                                                                       stochastic planning method for source-grid-load-storage flexibility resources
+References                                                                                  considering flexible ramp capacity, Int. J. Electr. Power Energy Syst. 160 (2024).                                                                                      [31] H. Yang, Y. Yue, Y. Gao, Y. Liu, D. Zhang, Y. Shen, A two-stage operation reliability
+                                                                                                evaluation method of distribution system considering dynamic scheduling of
+ [1] M.P. Taylor, J.J.J. Chen, Technique for low amperage potline operation for                     flexible resources, Sustain. Energy Grids Netw. 44 (2025).
+      electricity grid storage, Metallurgical and Materials Transactions E 2 (1) (2015)        [32] H. Yang, Q. Chen, K. Tang, D. Zhang, Y. Shen, Flexibility aggregation and
+     87–98.                                                                                   cooperative scheduling for distributed resources using a virtual battery equivalence
+ [2] N. Depree, R. Düssel, P. Patel, T. Reek, The ‘virtual battery’ — Operating an                 technique, Energy 334 (2025).
+     Aluminium smelter with flexible energy input, in: E. Williams (Ed.), Light Metals       [33] S.R. Jakobsen, K. Hestetun, M. Hovd, I. Solberg, Estimating alumina concentration
+     2016, Springer International Publishing, Cham, 2016, pp. 571–576.                            distribution in aluminium electrolysis cells, IFAC Proceedings Volumes 34 (18)
+ [3] A. Lützerath, High frequency power modulation - TRIMET smelters provide                 (2001) 303–308.
+     primary control power for stabilizing the frequency in the electricity grid, in: B.        [34] T. Reek, New approaches to power modulation at TRIMET Hamburg, in: S.
+     A. Sadler (Ed.), Light Metals 2013, Springer International Publishing, Cham, 2016,               J. Lindsay (Ed.), Light Metals 2011, Springer International Publishing, Cham,
+      pp. 659–662.                                                                        2016, pp. 375–379.
+ [4] T. Reek, New Approaches to Power Modulation at TRIMET Hamburg. Light Metals         [35] W.E. Haupin, Principles of aluminum electrolysis, in: G. Bearne, M. Dupuis,
+     2011, 2011, pp. 375–379.                                                               G. Tarcy (Eds.), Essential Readings in Light Metals: Volume 2 Aluminum Reduction
+ [5] D.S. Wong, G. Matthews, A.T. Tabereaux, T. Buckley, M.M. Dorreen, The                   Technology, Springer International Publishing, Cham, 2016, pp. 3–11.
+      Australian Energy Crisis, its Impact on Domestic Aluminium Smelting and Potential      [36] H. Kvande, P.A. Drabløs, The aluminum smelting process and innovative
+      Solutions, Springer International Publishing, Cham, 2020.                                      alternative technologies, J. Occup. Environ. Med. 56 (5 Suppl) (2014) S23–S32.
+ [6] G. Saevarsdottir, H. Kvande, B.J. Welch, Aluminum production in the times of         [37]  P.L.J. Nunes, A.V. da Silva, L.F.G. Soutinho, Power modulation on Valesul P-19
+      climate change: the global challenge to reduce the carbon footprint and prevent               pots, . in Proceedings of the TMS Light Metals., San Antonio, Texas, USA, 1998.
+     carbon leakage, JOM 72 (2020) 296–308.                                          [38] A.C. Brant-Filho, A.A.B. Queiroz, E. Macedo, J.E. Pena, M.A. Mol Santos, A. Gomes,
+ [7]  Institute, I.A, Primary Aluminium Smelting Energy Intensity, 10/08/2021. cited,             G. Silva, The Operation of a Smelter with Power Modulation, in: E.R. Cutshall
+     2022, 10/02/2022. Available from: https://international-aluminium.org/statistics              (Ed.), Light Metals 1992, The minerals, Metals & Materials Society, 1992,
+      /primary-aluminium-smelting-energy-intensity/.                                            pp. 357–362.
+ [8] C. Hamilton, H. Turton, Subsidies to the Aluminium Industry and Climate Change,      [39]  C.-J. Wong, Y. Yao, J. Bao, M. Skyllas-Kazacos, B.J. Welch, A. Jassim,
+     The Australia Institute, 1999.                                                  M. Mahmoud, Discretized thermal Model of hall-Heroult cells for monitoring and
+ [9] D. Eisma, P. Patel, Challenges in power modulation, in: Essential Readings in Light             control, IFAC-PapersOnLine 54 (11) (2021) 67–72.
+      Metals, Springer, 2016, pp. 683–688.                                               [40] T.C. Reek, Power modulation of Aluminium reduction cells - operational
+[10] A. Beaulieu, D. Salomone, D. Munoz, B. Allano, M. Ismail, Real-time estimation of              constraints and process limits, , in School of Chemical Engineering., The University
+     Bath temperature in Aluminium electrolysis cells using temporal neural networks. In                of New South Wales, 2014. . p. 242.
+      proceedings of the 42nd international ICSOBA conference, Lyon, France, 2024.            [41] E. Finhold, C. G¨artner, R. Grindel, T. Heller, N. Leith¨auser, E. R¨oger, F. Schirra,
+[11]  S. Fardeau, A. Resch, F. Breidenbach, K. Kessel, V. Olbricht, R. Düssel, W. Toebes,            Optimizing the marketing of flexibility for a virtual battery in day-ahead and
+      T. Bertram, D. Matthias, Development, testing and deployment of the METRICS pot              balancing markets: a rolling horizon case study, Appl. Energy 352 (2023) 121667.
+      control system. In Proceedings of the 42nd international ICSOBA conference, Lyon,         [42] P. Sch¨afer, H.G. Westerholt, A.M. Schweidtmann, S. Ilieva, A. Mitsos, Model-based
+      France, 2024.                                                                           bidding strategies on the primary balancing market for energy-intense processes,
+[12] M. Ismail, B. Allano, D. Munoz, C. Desages, E. Poutougnigni, Modelling study of the           Comput. Chem. Eng. 120 (2019) 4–14.
+      impact of daily power modulation on cell thermal balance. In proceedings of the 42nd       [43] M. Dorreen, L. Wright, G. Matthews, P. Patel, D.S. Wong, Transforming the way
+      international ICSOBA conference, Lyon, France, 2024.                                               electricity is consumed during the aluminium smelting process, Proceedings of
+[13]  S. Zhao, I.E. Grossmann, L. Tang, Integrated scheduling of rolling sector in steel             Energy Technology, 2017.
+     production with consideration of energy consumption under time-of-use electricity      [44] P. Lavoie, S. Namboothiri, M. Dorreen, J.J.J. Chen, D.P. Zeigler, M.P. Taylor,
+      prices, Comput. Chem. Eng. 111 (2018) 55–65.                                              Increasing the power modulation window of aluminium smelter pots with shell
+[14] H. Hadera, I. Harjunkoski, G. Sand, I.E. Grossmann, S. Engell, Optimization of steel            heat exchanger technology, Proceedings of the Light Metals, 2011.
+     production scheduling with complex time-sensitive electricity cost, Comput. Chem.      [45]  C.-J. Wong, Dynamic Mass and Heat Balance Model of Hall-Heroult Cells: A
+     Eng. 76 (2015) 117–136.                                                                      Discretised Approach, in: School of Chemical Engineering, Faculty of Engineering,
+[15] X. Zhang, G. Hug, Z. Kolter, I. Harjunkoski, Industrial demand response by steel              University of New South Wales, Australia, 2022.
+      plants with spinning reserve provision, in: 2015 North American Power Symposium      [46]  C.-J. Wong, Y. Yao, J. Bao, M. Skyllas-Kazacos, B.J. Welch, A. Jassim,
+     (NAPS), 2015.                                                              M. Mahmoud, A. Arkhipov, Modelling of coupled mass and thermal balances in
+[16] P.M. Castro, L. Sun, I. Harjunkoski, Resource-task network formulations for                   hall-Heroult cells during anode change, J. Electrochem. Soc. 168 (12) (2021)
+      industrial demand side management of a steel plant, Ind. Eng. Chem. Res. 52 (36)           123506.
+     (2013) 13046–13058.                                                             [47] A. Solheim, S. Rolseth, E. Skybakmoen, L. Støen, Å. Sterten, T. Støre, in: G. Bearne,
+[17] L.C. Br´ee, K. Perrey, A. Bulan, A. Mitsos, Demand side management and                 M. Dupuis, G. Tarcy (Eds.), Liquidus temperature and alumina solubility in the
+      operational mode switching in chlorine production, AICHE J. 65 (7) (2019) 1–14.           system Na3AlF6-AlF3-LiF-CaF2-MgF2, in Essential Readings in Light Metals:
+[18] X. Wang, N.H. El-Farra, A. Palazoglu, Optimal scheduling of demand responsive           Volume 2 Aluminum Reduction Technology, Springer International Publishing,
+      industrial production with hybrid renewable energy systems, Renew. Energy 100          Cham, 2016, pp. 73–82.
+     (2017) 53–64.                                                                   [48] W. Haupin, Interpreting the components of cell voltage, in: G. Bearne, M. Dupuis,
+[19] C.A. Babu, S. Ashok, Peak load management in electrolytic process industries, IEEE            G. Tarcy (Eds.), Essential Readings in Light Metals: Volume 2 Aluminum Reduction
+      Trans. Power Syst. 23 (2) (2008) 399–405.                                               Technology, Springer International Publishing, Cham, 2016, pp. 153–159.
+[20]  S. Mitra, I.E. Grossmann, J.M. Pinto, N. Arora, Optimal production planning under      [49] H.A. Øye, M. Sørlie, Power failure, restart and repair, Alum. Int. Today (2011) 4–7.
+      time-sensitive electricity prices for continuous power-intensive processes, Comput.      [50] M.A. Patterson, A.V. Rao, GPOPS-II: a MATLAB software for solving multiple-phase
+     Chem. Eng. 38 (2012) 171–184.                                                         optimal control problems using hp-adaptive Gaussian quadrature collocation
+
+                                                                        15
+
+## PDF page 16
+
+C.-J. Wong et al.                                                                                                                        Journal of Energy Storage 178 (2026) 123594
+
+     methods and sparse nonlinear programming, ACM Trans. Math. Softw. 41 (1)             Aluminium Smelting Cells for Power Modulation Using Dynamic Model,
+     (2014) 1.                                                                                      Proceedings of the TMS Light Metals, Springer, Orlando, Florida, USA, 2024.
+[51] J.D. Hedengren, R.A. Shishavan, K.M. Powell, T.F. Edgar, Nonlinear modeling,         [63]  C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, J. Shi, N. Ahli, A. Aljasmi,
+      estimation and predictive control in APMonitor, Comput. Chem. Eng. 70 (2014)           M. Mahmoud, M. Mustafa, A study on predicting electrolyte temperature of Aluminium
+     133–148.                                                                                          smelting cells for power modulation. In proceedings of the 41st international ICSOBA
+[52] A. W¨achter, L.T. Biegler, On the implementation of an interior-point filter line-                conference, Dubai, UAE, 2023.
+      search algorithm for large-scale nonlinear programming, Math. Program. 106 (1)       [64]  C.-J. Wong, J. Bao, M. Skyllas-Kazacos, A. Jassim, M. Mahmoud, A. Arkhipov,
+     (2006) 25–57.                                                                        Monitoring Cell Conditions and Anode Freeze Dissolution with Model-Based Soft
+[53] K.R. Robilliard, B. Rolof, A Demand Feed Strategy for Aluminum Electrolysis Cells,            Sensor After Anode Change, Proceedings of the TMS Light Metals, San Diego,
+      Proceedings of the TMS Light Metals, Las Vegas, Nevada, USA, 1989.                             California, USA, 2023.
+[54]  L. Ma, W. Li, C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, N. Ahli, M. Faraj,      [65]  L. Ma, C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, N. Ahli, A. Aljasmi,
+    M. Mahmoud, H∞-extended Kalman filter for the aluminium smelting process with          M. Mahmoud, Model predictive control of maintaining the superheat of an
+     boundness analysis of the estimation error matrix, Control. Eng. Pract. 164                Aluminium smelting cell during power modulation, . In proceedings of the 41st
+     (106500) (2025) 1–9.                                                                          international ICSOBA conference., Dubai, UAE, 2023.
+[55]  L. Ma, C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, W. Li, J. Shi, N. Ahli,         [66] M.A. Stam, J. Schaafsma, in: M. Skyllas-Kazacos, B.J. Welch (Eds.), The impact of
+     A. Aljasmi, M. Mahmoud, H∞ filter-based alumina concentration estimation for an          power modulation on the cell dynamics, in Proceedings, 9th Australasian
+     Aluminium smelting process, IFAC-PapersOnLine 58 (22) (2024) 36–41.                  Aluminium Smelting Technology Conference, Terrigal, Australia, 2007,
+[56]  L. Ma, C.-J. Wong, J. Bao, M. Skyllas-Kazacos, J. Shi, N. Ahli, A. Aljasmi,                    pp. 493–500.
+    M. Mahmoud, Estimation of the spatial alumina concentration of an aluminium        [67] E. Action, Key Wholesale Electricity Market Changes: Wholesale Demand Response
+      smelting cell using a huber function-based kalman filter, Proceedings of the TMS            Mechanism, 2020, 2020–06-03T00:19:21+00:00.
+      Light Metals, Springer, Orlando, Florida, USA, 2024.                                 [68] Ministers for the Department of Industry, S.a.R, Wholesale demand response to
+[57]  L. Ma, C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, J. Shi, M. Mahmoud,               help lower costs and strengthen energy grid, 2020, 2020-06-11.
+      Multilevel robust state observer for spatial alumina concentration estimation, . In      [69] A.E.M. Operator, Reliability and Emergency Reserve Trader (RERT) Quarterly
+     proceedings of the 42nd international ICSOBA conference., Lyon, France, 2024.             Report Q4 2024, 2025.
+[58]  J. Shi, C.J. Wong, J. Bao, M. Skyllas-Kazacos, B.J. Welch, A. Jassim, M. Mustafa,       [70] AEMO, Data (NEM) - Data Dashboard, cited, 2022, 11/04/2022. Available from:
+      K. Nikandrov, M. Mahmoud, Advanced monitoring and control of alumina                   https://aemo.com.au/en/energy-systems/electricity/national-electricity-market-
+      concentration in aluminum smelting cells, IFAC-PapersOnLine 56 (2) (2023)                nem/data-nem/data-dashboard-nem.
+     6194–6199.                                                                      [71]  J. Zhu, Influence of alumina feeding dose distribution on superheat based on
+[59]  J. Shi, Y. Yao, J. Bao, M. Skyllas-Kazacos, B.J. Welch, A. Jassim, M. Mahmoud,              computational simulation, Int. J. Simul. Process. Model. 15 (5) (2020) 475–483.
+     Advanced Model-based estimation and control of alumina concentration in an         [72] E.W. Dewing, Loss of current efficiency in aluminum electrolysis cells, Metall.
+     aluminum reduction cell, JOM 74 (2) (2022) 706–717.                                      Trans. B 22 (2) (1991) 177–182.
+[60]  J. Shi, Y. Yao, J. Bao, M. Skyllas-Kazacos, B.J. Welch, A. Jassim, M. Mahmoud,        [73] R. Wang, X. Zhang, J. Bao, A self-interested distributed economic model predictive
+    A new control strategy for the aluminum reduction process using economic Model             control approach to battery energy storage networks, J. Process Control 73 (2019)
+      predictive control, IFAC-PapersOnLine 54 (11) (2021) 49–54.                              9–18.
+[61]  J. Shi, Y. Yao, J. Bao, M. Skyllas-Kazacos, B.J. Welch, Multivariable feeding control      [74] X. Zhang, J. Bao, R. Wang, C. Zheng, M. Skyllas-Kazacos, Dissipativity based
+      of aluminum reduction process using individual anode current measurement, IFAC-             distributed economic model predictive control for residential microgrids with
+     PapersOnLine 53 (2) (2020) 11907–11912.                                             renewable energy generation and battery energy storage, Renew. Energy 100
+[62]  C.-J. Wong, J. Bao, M. Skyllas-Kazacos, B. Welch, J. Shi, N. Ahli, A. Aljasmi,                (2017) 18–34.
+    M. Mahmoud, M. Mustafa, Predicting Electrolyte and Liquidus Temperatures of
+
+
+
+
+
+                                                                        16

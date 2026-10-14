@@ -1,0 +1,1054 @@
+Source: modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf
+
+## PDF page 1
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+          Paradigm Shift in the Indication of a Stable Cell during Power
+                                 Modulation
+
+                                  Roman Düssel
+                                            Reduction Manager
+                         TRIMET Aluminium SE, Essen, Germany
+                                        Roman.Duessel@trimet.de
+
+          Abstract
+
+      A megatrend of the next decades is the energy transition from conventional power to renewable.
+          Adapting the aluminium smelting process to a flexible power supply needs the rethinking of a
+         number of aspects  in the smelting process. Manipulating thermal and magnetic impacts
+           associated with amperage changes are just a few of these aspects.
+
+         The core element of our Virtual Battery is our newly developed control system. Conventional
+           pot control systems are designed for conventional operations and static process targets. This
+         becomes obsolete or even contradictory when operating with power modulation. Hence we need
+           a different approach.
+
+         The approach that is outlined here is divided into three areas. The first step is to reduce the
+          energy input as far as possible and to compensate in a subsequent step the heat loss by heat
+           exchangers. Each cell is subject to thermal and process engineering limits, which were intended
+            for the cell at TRIMET Essen. If the minimum cell resistance and the min/max limits of the heat
+            losses are well known, the regulation of the heat balance can be done by changing the
+            resistance. According to Ohm’s law the resistance can be adjusted to its minimum inversely
+           proportionally to the current. After reaching the resistance minimum, the heat loss through the
+           heat exchanger is increased in proportion to further current increases. Finally control systems of
+          an existing process control must be adjusted so that it does not counteract the energy flexibility,
+           but promote it. The limits and values, such as temperatures and their deviations, of operating a
+             cell have to be modified and the meaning of a stable cell rethought.
+
+         Keywords: Aluminium  reduction  cell  process  control,  virtual  battery,  energy demand
+          management, renewable energy, real-time heat balance control, energy counter.
+
+            1.  History of Power Modulation
+
+         The idea of current modulation using aluminum electrolysis cells is not new; as early as in the
+           1990s, experiments were carried out in electrolysis cells in Brazil [1, 2]. Load management was
+            also already an issue in 1974 in the electrolysis in Essen. Alusuisse engineers [3, 4] made
+           various calculations for power reduction. Their ideas, however, mainly involved turning off pots
+            rather than modulating them with the help of amperage. The innovation of load management
+         nowadays is that over a certain period of time production volume and thus performance are kept
+            constant. The modulation takes place for only a short time and above all with a faster change.
+          This development was accelerated by the addition of renewable energies to the grid and
+            therefore changed the time of the generation of electricity tremendously. Figure 1 shows the
+           production and consumption profile predicted for the year 2050, showing the deficit in red and
+           the surplus in green.
+
+
+
+
+
+                                               851
+
+## PDF page 2
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+                    Figure 1. Production and consumption profile for the year 2050 [5].
+
+         The novel mode of modulation has negative effects on the process efficiency, which is designed
+            for a stable energy balance. The essential point is to find out when the efficiency drops sharply
+          and to optimize the process to further delay this point in time. The core of the new mode of
+           production is to interpret the old philosophy correctly. The cell needs a consistent energy
+           balance and not a constant energy input. Ultimately, economic consideration is once again a
+           decision maker between gaining modulation revenue and losing process efficiency.
+
+            2.  Theory of Side Ledge Changes
+
+         The change of the heat loss during the modulation over the period t corresponds to the changed
+           enthalpy of the cell. This can be stated at time t as follows [6]:
+
+                                                                                                            (1)
+          where:
+      Heat flow rate, W
+                 Mass, kg
+                   Specific heat capacity, J kg-1 K-1
+                  Temperature, K
+                 t      Time, s
+
+                It is advantageous that the predominant heat generation takes place mainly in the electrolyte
+               itself, so that the enthalpy change is mainly noticeable here. Responsible for this are the massive
+         movements of the electrolyte due to gas bubbles and magnetic field, as well as the very good
+           thermal conductivity of aluminum (k = 100 W/mK) and electrolyte (k = 0.8 W/mK) [7]. The
+          changed heat generation at anode and cathode contributes to this by the direct contact to
+            electrolyte and aluminum. Thus, the enthalpy change of the liquid electrolyte is equivalent to the
+           enthalpy change of the pot [8].
+
+                                                                                                            (2)
+
+
+          This approach is only valid until the adjacent areas respond to the heat loss change. Above all,
+           the anodes and the edge crust, over which the majority of the heat is lost and which are the
+             fastest to respond to the change. Due to its very good insulation, the heat loss across the bottom
+
+
+
+
+                                               852
+
+## PDF page 3
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+          and the cathode collector bars should be assumed to be constant (15 % TRIMET Cell). The heat
+            loss across the sides can be considered as a simple heat transfer through a wall:
+
+   (3)
+          where:
+     Heat loss rate, W
+                 Heat transfer coefficient, W m-2 K-1
+        A      Area, m²
+
+              If the change of heat loss through the sidewall is represented as a fraction τ of the total heat loss,
+           then the remaining heat to be lost is:
+
+   (3a)
+
+         The time it takes for a changed heat loss through the sidewall to influence the heat transfer can
+          be determined as follows [9]:
+
+
+                                                                                                            (4)
+
+          where:
+               Time till influence on heat loss, s
+                 Length of the heat flow path, m
+                  Density and heat capacity of lining material, kg m-3
+                    Fractional change of heat loss through the sidewalls
+                Thermal conductivity of lining material, W m-1 K-1
+
+              If the amount of heat through the side walls is reduced by a factor τ = 0.6, the Equation (4) is
+            simplified to:
+
+                                                                                                       (4a)
+
+          For a 20 cm thick sidewall, a reaction time of about two hours was calculated by [6] with an
+           inaccuracy of one hour. Thus, a calculation of the heat balance with equation (1) will lead to
+            larger deviations after two hours only. A similar behavior can be assumed by changes in the
+           heat transfer of the anode. Already [10] has shown that the temperature of the anode changes
+            visibly when the thickness of the covering material changes. The EPT14 pot has a side wall
+           thickness of about 25 – 30 cm [11], so a new thermal equilibrium should set after about three
+           hours. This can be seen in the experiments (Figure 2). However, the strongly changing heat
+           generation will change the temperature of the cell further on.
+
+                 2.1. Changes in Bath Chemical Composition
+
+         The decrease of liquidus temperature due to the increase in AlF3 concentration was determined
+           by:
+                                                                                                            (5)
+          where:
+             ΔTliq   Change in liquidus temperature, °C
+          AlF3   Excess AlF3 concentration, %
+           Δ(AlF3) Change in excess aluminum fluoride concentration in electrolyte.
+
+
+
+
+
+                                               853
+
+## PDF page 4
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+         The values for dTliq/dAlF3, derived from the liquidus temperature in [12], are given in Table 1
+            for a cell with 2.5 % Al2O3 and 5.5 % CaF2. While the CaF2 content of the pot changes only
+           over a long period of time, the continuous change in the Al2O3 content has a direct influence on
+           the liquidus temperature. Within the experiments, it is simply assumed that the alumina control
+          compensates for the Al2O3 changes.
+
+                   Table 1. Rate of change of the liquidus temperature with excess AlF3.
+
+                              Excess AlF3 (mass %)
+
+                                     4                      -0.57
+                                     6                      -1.56
+                                     8                      -2.62
+                                     10                      -3.72
+                                     12                      -4.86
+                                     14                      -6.03
+                                     16                      -7.24
+                                     18                      -8.48
+                                     20                      -9.74
+
+            3.  Electrolyte Temperature, Electrolyte Mass and Electrolyte Chemistry
+
+        Due to the influence of the modulation on the temperature, the amount and the chemistry of the
+             electrolyte, four cells were investigated further, especially with regard to the change of the
+           parameters under modulation influence.
+
+
+
+
+
+                                Figure 2. Temperature change at + 12 kA.
+
+        As shown in Figure 2 and Figure 3, immediately after raising the current to 180 kA at 8 o'clock,
+           the temperatures increase. While the superheat returns to a normal range at 14 h with the end of
+           modulation, the liquidus and electrolyte temperatures require another 4 – 8 h to cool down. The
+           rapid increase in the liquidus temperature indicates a change in the electrolyte chemistry, which
+              is also reflected in the excess AlF3 measurements with a 1 % decrease. This chemical change is
+
+
+
+
+                                               854
+
+## PDF page 5
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+          due to a loss of the side ledge or cover crust. The fact that the mass of excess AlF3 decreases
+         shows that this is due to a loss of side ledge, which consists mainly of cryolite [13]. The anode
+           cover crust generally has a higher AlF3 content [14] due to the absorption of gaseous fluorides
+          from the electrolyte. For this reason, if the cover is lost, the AlF3 content tends to increase.
+          Although both reactions can occur, the results show that the loss of side ledge is the determining
+            factor (see also Table 2). The phenomenon of melting is largely confirmed by the increase in
+            liquid electrolyte mass. Furthermore, the rate of change from [12] is confirmed. As shown in
+          Table 1 (Chapter 2), the liquidus temperature increases by about 5 ° C, with a 1 % decrease of
+           excess AlF3 at 12 % of excess AlF3.
+
+
+
+
+
+                                 Figure 3. Chemistry change at + 12 kA.
+
+          Table 2. Mass % of AlF3 and composition of solid electrolyte-containing materials in a cell
+                                    operating at 10 % excess AlF3 [15].
+                Material        exAlF3, %  CaF2, %   Al2O3, %   Na3AlF6 ,%   TLiq , °C
+                Side ledge        0.5 - 6      3 – 5      1 - 3       87 - 95       980 - 990
+               Bottom sludge   1 - 5         1.6 - 3.5   35 - 60     40 - 60       950 - 964
+               Cover crust     6 - 12      2 – 4      30 - 50     30 - 48       730 - 950
+
+                         Table 3. Thermal reactions of a 170 kA electrolytic pot.
+                                           Mass          cp              Heat distri-          Event                                       kWh
+                                                        (kg)      (J/kg°C)             bution (%)
+           Raise bath temperature by 20 °C            4500       1700        42,5       9
+           Raise liquid Al temperature by 20 °C        10000       900        50        11
+           Raise anode bottom temperature by 20 °C    5272       1878        55        12
+                                                           Latent heat
+                                                                  (kJ/kg)
+          Melt one ton of side ledge                 1000       520        144       31
+          Melt one ton of lower crust cover           1000       648        180       38
+
+
+
+
+
+                                               855
+
+## PDF page 6
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+                              Figure 4. Relation of cover and side ledge loss.
+
+         At the start of the modulation during amperage increase to 180 kA, the liquid electrolyte
+           quantity increased by 900 kg on average, while the excess AlF3 decreased from 12.6 to 11.3 %.
+         The mass fraction of AlF3 in the lower cover material is approximately 15 – 19 % [14]. The side
+           ledge is pure cryolite or some cases it may have very low excess AlF3 [13]. Assuming that the
+            side ledge has a surplus of 3 % excess AlF3, the distribution of molten side ledge to molten
+           cover is calculated to be nine to one (see Figure 4). The amount of heat needed to melt the side
+           ledge and raise the temperature in the cell is given in Table 3Table 3. Thermal reactions of a
+         170 kA electrolytic pot. The table was supplemented with the ratio of the heat distribution,
+          which results from the measured values (Figure 2), and a heat addition of 212 kWh.  It is
+            interesting that in all cells after a short time a temperature plateau is reached, which shows that a
+        new equilibrium has set in. Previous studies [15], [16] have shown that equilibrium without heat
+          exchangers occurs much later. It can be concluded that the reason for the rapid change is the
+          massive cooling reaction by the heat exchangers. With an amperage increase of 18 kA a new
+           operating condition can be achieved after less than 4 h. The significantly lower decrease of the
+            electrolyte and liquidus temperature is due to a slower cooling process. The entire experiment
+           has shown that with the start of the modulation, the cells should be operated with a much higher
+           cooling to get a quicker equilibrium, while after about 3 hours normal cooling can be continued.
+
+                 3.1. Conclusion
+
+           In summary, the results show that regulation of the heat balance with the heat exchanger is
+            possible, but a complete change of the side ledge thickness cannot be avoided. Due to the
+           temperature changes on both sides, inside by the power change and outside by the heat
+           exchangers, the isothermal lines move parallel to each other or away from each other (the
+           temperature change  per cm  wall  thickness  increases  or  decreases). However,  the  heat
+          exchangers reduce the risk of furnace failure shortly after the power changes and help achieving
+           a steady state in a timely manner.
+
+            4.  Energy Counter
+
+         The previous chapter showed that a new equilibrium occurs within a modulation period. For
+          example, a cell at 960 °C cell may be considered hot after a low-energy phase and cold after a
+           high-energy phase [17]. For this reason, it is extremely important for process control to know
+
+
+
+
+                                               856
+
+## PDF page 7
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+           the history of the energy balance. For  this, an "Energy Counter” was developed, which
+           determines heat loss and heat input of the cell.
+
+                 4.1. Equation Determination
+
+         The change in heat balance is divided into five sub-points:
+                  •   Heat input (cell voltage and current)
+                  •   Heat loss (convection, radiation and conduction)
+                  •   Heat absorption for making aluminum
+                  •   Heat absorption for phase change of the electrolyte
+                  •   Sensible heat content (pot temperature changes and working operations such as anode
+                   change).
+         From this, the following basic equation can be determined.
+
+         ̇ ̇ ̇                               (6)
+          where:
+     Heat input, W
+     Heat loss, W
+     Heat absorption to make aluminum, W
+     Heat absorption by bath melting, W
+       Sensible heat content due to temperature change content, W
+
+                 4.2. Heat input
+
+         The heat input can be determined by the product of cell voltage (Vcell) and current (Icell). The cell
+           voltage is measured from cell to cell. For this reason, the external voltage drop (Vext) must be
+           subtracted for the calculation. The external voltage drop was recorded at 162 kA and the
+           following equation was established:
+
+    (                )                                 (7)
+          where:
+                     current, A
+      V      voltage, V
+
+                 4.3. Heat loss
+
+        To determine the heat loss, more than 50 thermocouples and heat flux sensors were installed at
+            several pots and the readings were used in the following equations:
+
+     [18]                               (8)
+     [19]                               (9)
+
+          which can be represented also with the same equation as convection, using an equivalent
+            radiation heat transfer coefficient
+
+  (9a)
+
+         The conduction heat loss is axially from the collector bars and anode rods.
+
+                                                                   [20]                            (10)
+
+
+
+
+                                               857
+
+## PDF page 8
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+          where:
+                 Heat transfer coefficient, W/m2K1
+           TS     Surface temperature, °C
+           T0     Ambient temperature, °C
+        A     Area of the heat loss surface, m2
+                   Emissivity,  = Stefan-Boltzmann constant, W/m2K4
+                  Equivalent radiation heat transfer coefficient, W/m2K1
+                Thermal conductivity, W/mK
+                   Cross-section of the conductor, m2
+           T2     Conductor temperature at point 2, °C
+           T1     Conductor temperature at point 1, °C
+         d      Distance between point 2 and point 1, m
+
+           In heat transfer from solid to gas phase, the conductive heat transfer (Equation 10) is absent.
+         The radiation heat loss (Equation 9) is comparable to natural convection heat loss at low surface
+           temperatures and is dominant at high surface temperatures (> 200 °C). As an example, for a
+             steel (emissivity = 0.85) surface temperature of 110 °C and an ambient temperature of 15 °C,
+           the surface heat flux for radiation is 702 W/m² and for natural (      6,5 W/m2 K1) convection
+         618 W/m². Forced convection heat loss by blowing parallel to the surface at 10 – 30 m/s is 1435
+         – 3686 W/m². Forced convection by perpendicular flow is more effective as shown by heat
+            transfer coefficients in Table 4. With strong blowing the heat loss could be 27 550 W/m² (heat
+            transfer coefficient of 290 W/m²K in Table 4).
+
+        As a basis for the calculation, the outside wall temperatures are measured with thermocouples.
+          These are attached to the bottom, front and long sides of the cell and also above the cell at the
+            superstructure. For the sake of simplicity, all surfaces are treated as smooth surfaces and,
+          depending on the position of the surface, values are chosen for the heat transfer coefficient
+          between 10 and 24 W/m²K [21]. The different values are due to the different air conditions at
+           the cell bottom, side and the hoods.
+
+                        Table 4. Forced convection heat transfer coefficients [22]
+                       Air movement                    Intensity   hc [W/m²K]
+                         Perpendicular to the metal wall     Light       3.5 - 35
+                         Perpendicular to the metal wall    Moderate   23 - 70
+                         Perpendicular to the metal wall    Strong     58 - 290
+
+          For the heat conduction via the cathode collector bars and anode rods, a dynamic value of 6 %
+           of the heat input was assumed [6], [23].
+
+         The heat losses calculated by the above formulas are shown in Table 5. The values are
+          comparable to measured values of a heat flow calorimeter [24].
+
+                         Table 5. Heat losses at 162 kA, cell in normal operation.
+                                 Power    Distribution              Distribution
+                    Position                                 Area
+                                 (kW)       (%)                 (%)
+                     Total heat loss        325         100
+                   Exhaust gas flow      104         32        Top
+                                                                        50
+                     Superstructure        59          18        Top
+                   Heat exchanger        65          20          Side
+                End                 32          10          Side
+                                                                        42
+                    Longitudinal side      20          6          Side
+                     Collector bars         19          6          Side
+                  Bottom              26          8        Bottom       8
+
+
+
+
+                                               858
+
+## PDF page 9
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+                 4.4. Heat of Reaction, Bath Phase Change and Sensible Heat
+
+            4.4.1.  Steady State Heat of Reaction
+
+         The heat of reaction for production of aluminum is a function of current efficiency. The current
+            efficiency varies typically between 90 and 95 % and is determined by the long term mass of
+           tapped aluminum. Due to energy balance variations and cell erosion, the volume of the liquid
+           metal is variable and the mass of the metal is known only approximately. Furthermore, the mass
+           of aluminum varies because it is tapped only once every 48 hours. On the average, the heat of
+            reaction to make aluminum is [25]:
+                                                                                                 (11)
+
+                                                                                                (11a)
+
+          where:
+            VAl     Voltage equivalent of enthalpy of reaction to make aluminium, V
+              I       Pot current, kA
+        T      Bath temperature, °C
+          Current efficiency, fraction
+           ε       Fraction of -alumina in alumina.
+
+            4.4.2. Transient: Bath Phase Change
+
+          For the melting of the crust no direct measuring device could be installed. An approximate mass
+           of liquid electrolyte can be determined from bath chemical composition. How much energy is
+           required for different thermal changes in the electrolysis cell, is shown in Table 3. Due to the
+            fact that the chemical composition is determined only every 48 hours and with the simplification
+            that melting and solidification in this period remain in balance, this change in energy was
+           neglected in the scheme for the time being. In a second approach, based on the results from
+          Chapter 3 and the basics in Chapter 2, the following equation was integrated into the heat
+           balance.
+
+   (12)
+          where:
+                Change of excess
+
+                     4.4.3. Transient: Sensible Heat Content (Enthalpy)
+
+          Changes to the cell usually cause a change in temperature and thus change of the enthalpy of the
+              cell. The three biggest influences are the heating / cooling of the cell, an anode change and the
+           addition of alumina and AlF3. While AlF3, alumina and anodes need to be brought up to
+           process temperature and are integrated into the voltage for making aluminum, changing the cell
+           temperature can be either energy loss or gain. The formula used for this is shown below:
+
+   (13)
+          where:
+                Change of bath temperature, °C
+
+
+
+
+
+                                               859
+
+## PDF page 10
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+                 4.5. Conclusion on Energy Counter
+
+         The energy counter can be used to display the current status (Figure 5) as well as the heat
+           quantity difference (Figure 6). If the energy input and the loss are not congruent, the heat loss
+          can be changed by adjusting the volume flow of the heat exchanger via the frequency inverters.
+           Figure 5 shows that the heat input (blue) is lower than the heat loss (green). By lowering the
+           cooling capacity through the heat exchangers (dark green) heat input and loss can be rebalanced.
+
+
+
+
+
+                            Figure 5. Heat losses in the data acquisition system.
+
+
+
+
+
+            Figure 6. Heat difference over 48 h (blue = heat plus in cell 1114, red = heat plus in cell
+                                                     1115).
+
+
+
+
+
+                                               860
+
+## PDF page 11
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+         The continuous recording of the heat losses of an electrolysis cell is a novelty and the first step
+            to a concept for a controllable heat loss of an aluminum electrolysis cell. The integration into
+           the process system as well as the extension of the current process system with regard to the
+          chemical changes and possible different process equilibria (Section 3) are described in Section
+            5.
+
+            5.  Real-Time Energy Balance Control
+
+          Since the invention of the Hall-Héroult process in 1886, an absolutely constant energy supply is
+           the most important guarantee for a stable and energy-efficient production process. Thus, since
+            then, the control concepts are designed for a consistent energy balance. The two control
+            variables for the current system are the bath temperature and the liquidus temperature or bath
+           chemistry. They are controlled by the two control variables: cell voltage and AlF3 additions.
+          Together with the energy counter, another variable was introduced into the control system - the
+           heat balance.
+             •   Controlled variable thermal state: temperature of the electrolyte
+             •   Controlled variable chemical state: solidification temperature of the electrolyte or excess
+            AlF3
+             •   Controlled heat balance: ΔQ from the Energy counter.
+
+            5.1.   Approach
+
+
+
+
+
+                         Figure 7. Approach control loop (Patent by TRIMET) [5].
+
+         The solution approach is the energy counter itself. Emerging disturbances such as noise and also
+           the old control system itself can be minimized or eliminated. Various control experiments were
+            tested virtually and on the real system with proportional controller (proportionality of current
+            intensity to cooling power) and PI controller. However, due to the complexity of the system, the
+            large number of heat exchangers (528 pieces) to be controlled with only one fan, and the fact
+            that the existing process control system (9-Box) cannot currently be replaced, it has been found
+            that an approximately linear control of the heat balance is the most appropriate.
+
+
+
+
+
+                                               861
+
+## PDF page 12
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+            5.2.    Cooling by Heat Balance Difference (PI)
+
+          For the control of the cooling, a P and an I component were developed together with the
+          Department  of Automation  [26]. To  realize ΔQ =  0,  the energy counter determines a
+          manipulated variable (frequency in Hz) calculated for the fans of the heat exchangers.
+
+      ̇ ̇  ̇
+
+    ̇ ̇ ̇
+
+      ̇
+
+
+                                                                                                   (14)
+
+          where:
+                  Frequency, Hz
+    Flow rate, m3 s-1
+
+         The I component is calculated using the heat energy difference, Figure 8. If the difference
+          exceeds a fixed positive or negative limit, the frequency is changed by +/- 3Hz.
+
+
+
+
+
+          Figure 8. Simplified representation of the PI controller using Shell Heat Exchanger (SHE)
+                                     and energy counter.
+
+            5.2.1.  Conclusion
+
+         The  I component was  installed in order to continuously minimize any system deviation
+           occurring. Unfortunately, the previously expressed concerns that the heat balance control and
+           the control concept of the cell (9Box) stimulate each other were confirmed in the test phase. The
+         9Box system is already parallel working to the alumina control in a multi-size system. By
+            integrating this further control system, its reference variables become interference variables of
+           the existing systems and make the overall system unstable. Furthermore,  it is much more
+            effective to counteract the cause of the heat change directly where  it develops. The heat is
+           generated mainly in the area of the anode-cathode distance (ACD), thus, a reduction of the ACD
+           during amperage increase and an increase of the ACD during amperage reductions make sense.
+            Finally, with the large number of cells, 120 units with 5280 heat exchangers in one control loop,
+                 it is difficult to control with a mean value. Should individual groups heat up and others cool
+         down, then the average over all cells may be within the target range, or if that is not the case, the
+            controller will move some cells out of the range while others will be brought into the range. For
+           the reasons mentioned, a linear control with a simple P element is presented below. By adapting
+           the ACD, the desired result can be achieved in combination with the heat exchangers and the
+          energy counter. On top of that, the proven 9Box control system is used to control individual
+           groups. A combination of both is being developed at the moment in a totally new process
+            control system.
+
+
+
+
+
+                                               862
+
+## PDF page 13
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+            5.3.    Proportional Voltage Adjustment
+
+         The greatest lever for maintaining the heat balance is adjusting the heat balance by changing the
+            voltage. However, this is only possible to a limited extent because the limits are the minimum
+             cell resistance and an energy-efficient process. Figure 9 shows schematically the process
+         window. The minimum cell resistance with magnetic field compensation is 12.9 µΩ.  It is
+            calculated from the minimum cell voltage of 3.85 V (at 162 kA, Figure 10).
+
+
+
+
+
+                               Figure 9. Process window of the EPT14 cell.
+
+
+
+
+
+                   Figure 10. ACD reduction in Cell 1097 without magnetic compensation.
+
+
+
+
+                                               863
+
+## PDF page 14
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+         The control of voltage adjustment and heat exchanger control is shown in simplified form in
+           Figure 11Figure 11, where the difference in heat loss between nominal and actual (actual = 302
+        kW) is shaded. By lowering the cell resistance (green line) to its minimum (green dotted line),
+           the heat loss can be kept approximately constant up to 180 kA (blue line). In addition, with the
+           increase in the cooling capacity of the heat exchanger (red line), the heat loss is kept constant up
+            to about 200 kA (blue dotted line). Above 200 kA, the cell will definitely heat up (red area).
+          Thus, values above 200 kA can only be approached for a short time if no other option for
+           reducing heat, such as raising the exhaust gas flow, is installed.
+
+
+
+
+
+                    Figure 11: Heat loss control using heat exchangers and ACD changes
+
+            5.4.   Adjustment of the 9Box
+
+
+
+
+
+                             Figure 12. Offset of the 9Box during modulation.
+
+
+
+
+                                               864
+
+## PDF page 15
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+        As already described in Section 3, extensive modulation results in a shift of the chemical and
+           thermal equilibrium. If temperature measurements take place during this time, these values
+          produce a manipulated variable change, which in turn itself causes a control difference for the
+           period after the modulation. In addition, heating or cooling causes a further superimposed
+           temperature offset. An offset for the temperature and the liquidus temperature is determined and
+           included into the control, so that the 9-Box control continues to function stable. This disturbance
+            variable connection to the controlled variable is schematically shown in Figure 12.
+
+            5.5.   Temperature Offset
+
+         The ΔQ calculated with the energy counter over a period of 12 h, determines the size of the
+           temperature offset. The limit of ± 8 °C is a quantity investigated by the experiments described in
+           Section 3, which on the one hand represents the maximum loss of SH, and on the other hand
+           guarantees that the system is not changed to a size where it becomes unstable. A more complex
+            calculation has also been made for the chemical part or the liquidus temperature.
+
+                             ∫
+
+                                                                    {                                  (15)
+
+          where:
+                  temperature offset, °C
+
+            5.6.    The New Algorithm
+
+            Finally, the 9Box algorithm is not changed in this step. However, disturbances such as noise are
+           eliminated and occurring calculable (systematic) measurement errors are converted. The energy
+           counter plays an important role in determining the energy balance or the current state of the cell.
+           In order to ensure the process, the concept of minimizing the impact on the system continues to
+          be pursued. The term stability takes on a new meaning. A constant electrolyte temperature is no
+           longer exclusively a guarantee of stability, but an electrolyte temperature that is within a certain
+           temperature range.
+
+         The control is described by means of a PT1 element. To compensate for the time offset of the
+           thermal behavior of the side ledge (see Section 2), the PT1 element is shown negatively, so that
+           the step response exceeds the target value and approaches from the opposite side. In Figure 13,
+           the simplified flowchart and its step response are shown schematically. This control behavior is
+            solely for heat loss via the SHE, while the control is done by ACD with a simple P-element with
+            delay.
+
+
+
+
+
+                     Figure 13. Overshoot of the cooling for faster heat loss adjustment.
+
+           Transfer function ACD part:
+
+
+
+
+                                               865
+
+## PDF page 16
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+                                                                                {     }                                        (16)
+          where:
+                   {     }         Transfer function
+                           Proportional amplification
+
+           Transfer function heat exchanger part:
+                                                                     {     }                                                (17)
+
+          where:
+                     reset time, s
+
+         The step response of the present PT1 system can be described as follows:
+
+
+                                                  +1                                  (18)
+          where:
+                   Error value
+
+        To compensate for the reaction time of approx. 2 h (Section 2), the heat loss is changed more
+           strongly over a defined period of time. The heat loss change  is doubled  first and then
+           asymptotically approaches the calculated value. The time constant should be chosen so that the
+           area of the elapsed time (lost heat loss) is equal to the intentionally overcompensated time.
+          Equation (19) shows the calculation and Figure 14 the two areas. For the compensation, a value
+           of T = 7200 s is set for the time constant.
+
+                          ∫                          ∫
+
+                          ∫                           ∫
+
+                                                  (               )
+
+                                                                                                   (19)
+
+
+
+
+
+                                   Figure 14. Behavior of the system.
+
+      A general virtual system was designed in Matlab and Simulink together with KANNAK [27]. In
+             this system, the 9Box system and the real-time energy balance control with the mentioned
+            control elements were integrated to prove theory before implementing it.
+
+
+
+
+
+                                               866
+
+## PDF page 17
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+
+                            Figure 15. Results from the virtual control system.
+
+         The transient calculations showed, that with reduction of the ACD and additional cooling with
+           the heat exchangers  it was possible to keep the side ledge (Figure 15). While in a second
+            calculation without cooling and reduction of the voltage, the side ledge was lost quickly (Figure
+            16). The calculated value of about 3 h cooling reaction time (equation 4a) was confirmed by the
+         model and furthermore verified with thermocouples in tests at the cells. However, a range of 1.5
+         – 4 h was registered by thermocouples here, which could be related to the wall thickness that
+         was hard to measure accurately.
+
+
+
+
+
+            Figure 16. Results from the virtual control system without SHE and ACD adjustment
+
+            6.  Conclusions
+
+      A Megatrend of the next decades is the energy transition from conventional power to renewable.
+          This huge task for our society is comparable to the first moon expedition. It can be a despair
+           challenge for our industry or a winning opportunity. If we want to capture the opportunity, we
+          need a revolution of the aluminium production process. We gave this revolution a name. “The
+            Virtual Battery”. This concept is a landmark project in the German Energy Transition.
+
+          Adapting the aluminium smelting process to a flexible power supply needs the rethinking of a
+         number of aspects  in the smelting process. Manipulating thermal and magnetic impacts
+
+
+
+
+                                               867
+
+## PDF page 18
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+           associated with alternations of amperages are just a few of these aspects. The core element of
+           our Virtual Battery is our new developed control system. Conventional pot control systems are
+           designed for conventional operations and static process targets. This becomes obsolete or even
+           contradictory when operating with power modulation. Hence we need a different approach.
+
+         The approach that is outlined here is divided into three areas. The first step is to reduce the
+          energy input as far as possible and to compensate in a subsequent step the heat loss by heat
+           exchangers. Each cell is subject to thermal and process engineering limits, which were intended
+            for the cell at TRIMET Essen. If the minimum cell resistance and the min/max limits of the heat
+            losses are well known, the regulation of the heat balance can be done by changing the
+            resistance. According to Ohm’s law the resistance can be adjusted to its minimum inversely
+           proportional to the current. By reaching the resistance minimum the heat loss through the heat
+          exchanger is increased in proportion to further current increases. However, a change in heat loss
+            via the heat exchangers does not occur immediately, but is subject to a reaction time, which was
+           presented in Section 2 and in Section 3. By means of a specifically overcompensating PT1
+           element, the lagging heat loss change is counteracted, so that a new thermal equilibrium is set
+         up more quickly.
+
+            Finally, control system of an existing process control must be adjusted so that  it does not
+           counteract the energy flexibility, but promote it. The limits and values, like temperatures and
+             their deviations, of an operating cell have to be modified and the meaning of a stable cell
+           rethought.
+
+            7.  Prospect
+
+         The previous, but also further approaches to the volatile energy input and output show that the
+             flexibilization is associated with loss of efficiency. To minimize this and increase the equivalent
+           storage efficiency of the virtual battery, much more data has to be collected, analyzed and
+           processed than in the case of the current process. For this purpose, appropriate measurement and
+           data transmission techniques are to be developed, as well as further flexibility measures for the
+              cell. The control of the heat loss through the side walls comprises only about 20 – 30 % of the
+           heat loss of an electrolytic cell. To increase the efficiency, the exhaust gas flow over the top can
+          be considered in the next step. The changes mentioned must be sensibly integrated into the
+            existing control and monitoring systems. A high degree of automation is required here in order
+            to analyze and meaningfully use the resulting data volumes. In particular, long-term effects,
+          such as the impact on the age of an electrolysis cell, have not yet been explored. The question to
+          be answered is to what extent the flexibilization involves shortening the service life and how
+             this reduction in service life can be counteracted by suitable measures and materials.
+
+         So far, the main focus has been on the recording of heat balances, temperatures and voltages. In
+           the age of BigData, it would be possible to more accurately record input controls on alumina
+          and aluminum fluoride levels to account for the chemical equilibrium. Furthermore, with the aid
+           of (mass) data-based recording, monitoring and control of as many relevant process parameters
+           as possible, the operation of an aluminum electrolysis under conditions of flexibilization with
+           regard to wear and energy consumption could be improved. These data have been collected for
+            years, but some have neither been evaluated nor stored nor used for regulation or simple control.
+        To reduce the complexity, the influence of the interacting processes, which should also be
+           included in a novel process regulation, has not been taken into account. Finally, in a novel
+           process control, the energy counter, the real-time energy balance control and the cell control can
+          be interconnected in a multi-size system. This way, the behavior of the cell can be predicted
+          with the help of the virtual system and react to it at an early stage. This very extensive project
+          must include all three levels, from the measurement acquisition (hardware), through the control
+
+
+
+
+                                               868
+
+## PDF page 19
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+          (hardware + software), to visualization (software). The foundation for this project has been laid
+          and TRIMET is ready to embark on this paradigm shift in aluminum production.
+
+            8.  References
+
+                 1.  L.J. Pinheiro Leal Nunes, A. Vianna da Silva, and G. Soutinho, Power modulation on
+                  Valesul P-19 pots, Light Metals 1998, 1267–1271
+                 2.  A.C. Brant Filho, A.A.B. Queiroz, E. Macedo, J.E. Pena, and M.A. Mol Santos, The
+                   operation of a smelter with power modulation, Light Metals 1992, 357–362.
+                 3.  Wolfgang Schmidt-Hatting, Theoretische Zusammenhänge zwischen Ofenstrom und
+                Ofenspannung bei Energiespannen, Alusuisse Hüttenlaboratorium, 1974.
+                 4.  Wolfgang Schmidt-Hatting, Hans O. Bohner, and T. Tschopp, Anleitung für die
+                Überwindung von Energiespannen, Alusuisse Zürich, 1975.
+                 5.  Roman Düssel, Entwicklung eines Regelungskonzepts für Aluminium-Elektrolysezellen
+                   unter   Berücksichtigung   einer   variablen   Stromstärke  und   eines   regelbaren
+                  Wärmeverlusts,  Dissertation, TRIMET Aluminium SE &  Bergische  Universität
+                  Wuppertal, Lehrstuhl für Mess-, Steuerungs-, Regelungstechnik, 2017.
+                 6.  M.P. Taylor, W.D. Zhang, V. Wills, and S. Schmid, A dynamic model for the energy
+                  balance of an electrolysis cell, Chemical Engineering Research and Design, Vol. 74,
+                   Issue 8 November 1996, 913-933.
+                 7.  Vladimir A. Khokhlov et al., Vladimir A. Khokhlov et al., Thermal conductivity in
+                     cryolitic melts - new data and its influence on heat transfer in aluminium cells, Light
+                 Metals 1998, 501-506.
+                 8.  Mark P. Taylor and John J. Chen, Technique for low amperage potline operation for
+                      electricity grid storage, Metallurgical and Materials Transactions E, March 2015, 87-
+                   98.
+                 9.  David B. Stewart, Time-domain transient thermal response of structural elements,
+                   Elsevier Ltd. Building and Environment, Volume 16, Issue 2, 1993, 87–91.
+               10. Evan W. Andrews, Marc P. Taylor, Greg L. Johnson and Ian Coad, The Impact of
+               Anode Cover Control and Anode Assembly Design on Reduction Cell Performance,
+                   Light Metals 2005, 357–362.
+               11. Thomas Pursche, Messdatenerfassung und Korrelationsauswertung von Temperaturen
+                und Wandstärken  in Aluminiumöfen,  Masterthesis, TRIMET Aluminium SE &
+                  Bergische Universität Wuppertal, Lehrstuhl für Automatisierungstechnik / Informatik,
+                  2014.
+               12. Asbjørn Solheim et  al., Liquidus temperature and alumina solubility in the system
+                 Na3AlF6 - AlF3 – LiF – CaF2 – MgF2, Light Metals 1995, 451-460.
+               13. Asbjørn Solheim and Lisbet I.R. Stoen, On the composition of solid deposits frozen out
+                   of cryolite melts, Light Metals 1997, 325-332.
+               14. Qinsong Zhang, Mark Taylor, John Chen, David Cotton, Tania Groutzo, and Xiaodong
+                 Yang, Composition and thermal analysis of crust formed from industrial anode cover,
+                   Light Metals 2013, 675-680.
+               15. M.A. Stam and J. F. Schaafsma, the impact of power modulation on the cell dynamics,
+                 Proceedings of Ninth Australasian Aluminium Smelting Conference and Workshops,
+                     Terrigal, Australia, 4 – 9 November 2007.
+               16. David Eisma and Pretesh Patel, Challenges of Power Modulation, Light Metals 2009,
+                  327-332.
+               17. Till  C. Reek, Power Modulation  of Aluminium Reduction  Cells  -  Operational
+                   Constraints and Process Limits, PhD thesis, 2015, The University of New South Wales,
+                 Sydney, Australia.
+               18. I. Kretzschmar, H.-J. und Kraft, Kleine Formelsammlung Technische Thermodynamik,
+                     4. Auflage. Fachbuchverlag Leipzig im Carl Hanser Verlag München, 2011.
+
+
+
+
+                                               869
+
+## PDF page 20
+
+Travaux 47, Proceedings of the 36th International ICSOBA Conference, Belem, Brazil, 29 October - 1 November, 2018
+
+
+
+
+               19. K.-H. Grote and J. Feldhusen, Taschenbuch für den Maschinenbau. Springer Verlag,
+                  2014.
+               20. Jean Baptiste Joseph Fourier, Théorie analytique de la chaleur, Mémoires de l’Academie
+                   royal des Sciences de l’Institut de France, 1822, Paris.
+               21. Pascal Lavoie, Sankar Namboothiri, Mark Dorreen, John JJ Chen, Donald P Zeigler,
+                and Mark P Taylor, Increasing the power modulation window of aluminium smelter
+                   pots with shell heat exchanger technology, Light Metals 2011, 369-374.
+               22. Günter Cerbe and Hans-Joachim Hoffmann, Einführung in die Wärmelehre, 1987
+               23. Jay N. Bruggeman, Pot Heat Balance Fundamentals, 6th Australasian Aluminium
+                  Smelting Conference and Workshop, Queenstown, New Zealand 22 – 27 November
+                  1998, 167-190.
+               24. Sercan  Koyuncuoglu,  Analytische  und  messtechnische  Wärmebilanz  an  einer
+                    Elektrolysezelle,  Bachelorthesis,  2014, TRIMET  Aluminium SE &  Bergische
+                    Universität Wuppertal, Lehrstuhl für Mess-, Steuerungs-, Regelungstechnik.
+               25. Abdalla Al Zarouni et  al., Energy and mass balance of DX+ reduction cells, 31st
+                    International  Conference  of ICSOBA and  19th  Conference  Aluminium  Siberia,
+                  Krasnoyarsk, Russia, 4 – 6 September, 2013, TRAVAUX 42, 494-498.
+               26. Dietmar Tutsch, Experimentelle Untersuchungen zur Regelung der Kühlung eines
+                 Ofens mithilfe von Wärmetauschern, Abschlussbericht Ziel 2 Projekt, Virtuelle Batterie,
+                  2016, TRIMET Aluminium SE & Bergische Universität Wuppertal.
+               27. Jacques Antille, Rene von Kaenel, Louis Bugnion, A Cell Simulator for optimizing
+                   operation practices and process control, 33rd International Conference of ICSOBA,
+                  Dubai, UAE, 29 November – 1 December 2015, TRAVAUX 44, 635-647.
+
+
+
+
+
+                                               870

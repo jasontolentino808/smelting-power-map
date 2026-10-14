@@ -1,0 +1,388 @@
+Source: modeling_power_modulation/POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE ENERGY INTEGRATION.pdf
+
+## PDF page 1
+
+                                                                                International Conference on Applied Energy 2019
+                                                                          Aug 12-15, 2019, Västerås, Sweden
+                                                                                                   Paper ID: 0827
+
+
+
+  POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE
+                        ENERGY INTEGRATION
+
+                       Gustavo Ospina-Aldana1, Mohamed I. Hassan Ali2, Sgouris Sgouridis1, Ali Bouabid1
+
+                                     1 Khalifa University of Science and Technology
+
+                           2 Khalifa University of Science and Technology (Corresponding Author)
+
+
+  ABSTRACT
+                                                                   1. INTRODUCTION
+    This  paper  presents  the  development  of  a
+                                                     Aluminum  is an important metal for the energythermodynamic model  to  determine  the extended
+                                                                     transition. It’s the most abundant metal on the earth’soperating window of an aluminum cell to enable power
+                                                                 crust and its lightweight, corrosion resistance, and highmodulation. The integration of renewable energy to
+                                                         thermal and electrical conductivity makes aluminumaluminum production needs to overcome the challenge
+                                                        range of application very wide. Aluminum is widely usedof narrow operating windows of aluminum cells. The
+                                                                     in construction, aerospace, marine, rail and primarily theproposed model takes an industrial aluminum cell as a
+                                                        automotive industry. Aluminum use will likely increase,case study to demonstrate how to build the operating
+                                                            as tighter emissions regulations push its wider adoptionwindow,  constrained  by  the  cell  design  technical
+                                                                 into  lighter  vehicles.  However,  the  production  oflimitations. The extended operating window can also be
+                                                   aluminum is highly energy intensive.used  to  estimate  the  heat  exchanger  heat  rate
+requirements to enable an aluminum cell to operate          The total primary aluminum energy consumption in
+under a wide power modulation.                         2017 was 863.3 TWh, 3.38% of global electricity demand
+                                                                            [1]. The aluminum energy intensity production varies by   Keywords: Aluminum production, energy transition,
+                                                          the state of technology used and can be a significantpower modulation, renewable energy.
+                                                  component of the country’s demand. In the UAE, the
+  NOMENCLATURE                               aluminum industry requires 20% of the total installed
+                                                                        electricity generation capacity of the country.
+     Abbreviations
+                                                     Aluminum cells are operated within a narrow power    ACD              Anode-to-cathode distance
+                                                             input  operating window  to  achieve a  target bath
+    CD                Current density
+                                                            operating temperature between 955 °C and 970 °C, this
+    CE                Current efficiency
+                                                       temperature  range  provides  the  best  operating
+    SEC                  Specific energy consumption
+                                                              conditions for an aluminum cell [2]. To keep aluminum
+    UAE              United Arab Emirates
+                                                                          cells within this narrow operating range, operations
+                                                              prefer constant power.
+
+
+
+    Selection and peer-review under responsibility of the scientific committee of the 11th Int. Conf. on Applied Energy
+(ICAE2019).
+
+    Copyright © 2019 ICAE
+
+## PDF page 2
+
+   One of the first technologies to enable aluminum cell       production with a production of 2.6 million tonnes of
+power modulation  is Enpot  [3]. Using a  shell heat      aluminum in 2017. EGA’s energy supply is provided by its
+exchanger, an aluminum cell can reject a larger excess      own gas power plants with a total installed capacity of
+heat  staying  within  the  target  bath  temperature,       5.45 GW which  is approximately 20% of the  total
+allowing higher energy inputs. On the other hand, if a         installed capacity of the UAE. Currently, EGA produces
+lower power input is to be given to the cell, the shell wall      aluminum using constant power input.
+heat  exchanger  provides  an  additional  insulation
+                                                       The  latest aluminum  reduction  cell  technology
+enabling the use of lower power inputs while staying
+                                                     implemented by EGA is called DX+ Ultra. This cell was
+above the minimum target cell temperature.
+                                                      used as the case study to illustrate the development of a
+   The  first component that  is needed on a power       thermodynamic  model  to  determine  the  power
+modulation study is a model of the aluminum cell to       modulation boundaries for an aluminum cell.
+simulate the performance of the  cell under several
+                                                       The following are the main operating parameters of
+power modulation schemes. Such a model can be used
+                                                          the EGA DX+ Ultra cell. The full set of input parameters
+to optimize the power modulation curves constrained by
+                                                 was collected from [4]. Each reduction cell requires a
+technical parameters of the cell in addition to costs
+                                                       nominal power of 1855.58 kW. There are currently 444
+constraints. The model also needs to provide the input
+                                                                          cells  with  this  technology  at  EGA’s  plants, which
+data to size a heat exchanger for the aluminum cell. This
+                                                  consume a total combined power of 823.9 MW.
+paper develops an aluminum cell model that is able to
+investigate  its thermal properties and transient heat            Table 1 EGA DX+ Ultra main operating parameters [4].
+behavior during modulation. Specifically the cell model                     Parameter              Value
+provides at steady state and for a given power input:                       Current [kA]              454.8
+aluminum production, SEC, and total heat loss at steady                       Voltage [V]               4.08
+state. These allow to estimate:                                                                      Current efficiency [%]          95.0
+
+1.  Minimum  and maximum  power  input  for  an                   SEC [kWh/kg Al]             12.8
+   aluminum cell corresponding to the minimum and
+                                                      Aluminum production [kg/cell-day]   3479
+   maximum target bath temperatures without any
+    modification to an existing design (basic case).                 2.2 Thermodynamic model
+2.  Heat  extraction  rate  required  to  increase  the                                                A thermodynamic energy balance  is required to
+   aluminum cell power input by a prescribed amount                                                       determine the heat loss from the  cell. The voltage
+   beyond the basic case maintaining the temperature                                                  component on the energy balance is decomposed in
+    at the maximum target.                                                             voltage drops across the cell: from entry to anode, from
+3.  Additional insulation required to reduce the power                                                          the electrolyte and the cathode to exit voltage drop.
+   by   a   prescribed  amount   maintaining   the                                                      These voltage drops occur in solid materials, which are
+   temperature at the minimum target.                                                          the structural materials of the cell conducting electricity
+4.  Suitable  ACD   variations  through  the  power                                                   and the anode and cathode. Voltage drops are also
+   modulation cycle to reduce the heat exchanger load.                                                               calculated on liquid and gas substances. Gas bubbles are
+                                                    formed under the anode  introducing an  additional
+    2. MATERIALS AND METHODS
+                                                                      electric   resistance.  Depending  on  the  chemical
+    2.1 Case study                                                         composition  of  the  electrolyte  molten  bath,  the
+    Emirates Global Aluminum (EGA)  is the world’s                                                                          resistivity of the bath varies. All the necessary equations
+largest ‘premium aluminum’ producer and the 5th largest                                                             to calculate the different voltage drops across the cell
+aluminum producer in the world by total aluminum                                                   were collected from  literature, and the  full set of
+
+
+                                                   2                              Copyright © 2019 ICAE
+
+## PDF page 3
+
+equations was coded in Matlab. The model used EGA’s        for current efficiency loss (0.7 A/cm2) was estimated with
+DX+ Ultra aluminum cell [4] as a case study.                   data from [5].
+
+   The basic input data for the thermodynamic model is            2.3 Thermal energy storage calculation
+the current, anode-to-cathode distance (ACD), current
+                                                                Following the approach and assumptions presented
+efficiency number of anodes and anode geometry, bath
+                                                      by [2], calculating the energy stored in the aluminum cell
+temperature and chemical composition, entry to anode
+                                                                at the two limit target temperatures, 955 °C and 970 °C,
+components  electric  resistance  (i.e.  riser,  flexibles,
+                                                                gives an estimate of the power input  limits on an
+clamp, anode rod, anode block), and cathode to exit
+                                                   aluminum cell without heat exchangers. This requires the
+components  electric  resistance  (i.e. cathode  block,
+                                                       temperature distribution in the cell at the two states, the
+flexibles, busbar, riser) and anode gas bubble fraction.
+                                                   mass of all materials in the cell and their corresponding
+The model key outputs are the cell voltage, aluminum
+                                                       temperature dependent heat capacities must be known,
+production, specific energy consumption and total heat
+                                                             to  calculate the thermal energy stored  in the  cell
+loss. The main result expected from the model is the
+                                                             applying equation 1, with the ambient temperature 25°C
+aluminum cell extended power modulation window.
+                                                      used as reference for the temperature change:
+   The power modulation operating window will be
+                                      𝑄= Σ𝑚𝑐𝑝Δ𝑇                       (1)
+defined by the following parameter values:
+                                                       The temperature distribution on the aluminum cell
+         Minimum and maximum target ACD
+                                                 was calculated using a validated steady  state heat
+   The model estimates the ACD that generates the        transfer FEM model presented by [6] .
+voltage drop reported at the nominal operating point.
+                                                        The temperature dependent heat capacities of all
+The minimum ACD is a hard constraint that represents
+                                                          the materials in the aluminum cell were calculated using
+the minimum possible distance that can be achieved in
+                                                          the corresponding Shomate equations and the schematic
+the current cell design. The maximum target ACD  is
+                                                                            cell cross section and its constitutive materials [6]. The
+chosen from the electrolyte bath height and anode
+                                                                   coefficients  of  the Shomate  equation  for  all  the
+height to ensure there is sufficient anode immersion
+                                                   aluminum cell materials can be found in [7-9]. Industrial
+depth.
+                                                                  testing has been conducted by previous authors to
+         Minimum and maximum heat loss                  validate this approach, modulating the power by 30% of
+                                                          the calculated energy difference with overall good cell
+   The maximum and minimum heat loss beyond the
+                                                      performance [10].
+nominal  heat  loss  were  defined  reviewing  the
+performance of an industrial tested shell heat exchanger                                                                   3. THEORY
+(SHE) for an aluminum cell that can remove excess heat
+                                                                  3.1 Thermodynamic model equationsand provide  additional  insulation. The performance
+limits of the SHE allow an operation with a heat loss ±12%          The  thermodynamic model  uses  the  following
+from the nominal point [2].                             aluminum production reaction, which considers a loss in
+         Minimum cathode current density                 current efficiency due to back reaction, or reoxidation of
+                                                      a fraction  (1 −𝜂) of the produced aluminum. For
+    In aluminum cells, there is a sharp drop in current                                                 modern cells, the fractional current efficiency 𝜂= 0.95:
+efficiency at low current densities. The curve of current                                                                       1                                                                                 3                                                                                               3                                                                                                              3                                                                                                                      (1                                                                                         →𝐴𝑙(𝑙) +                                                                                                      (2 −1
+                                                                       2                                                                                     𝐴𝑙2𝑂3(𝑠) + 4𝜂𝐶(𝑠)                                                                                               4                                                                                                          𝜂) 𝐶𝑂2(𝑔) +                                                                                                              2                                                                                          𝜂−1) 𝐶𝑂(𝑔)   (2)efficiency loss as function of cathode current density
+(CD)    is   cell   design   specific  and   determined
+                                                       The first law analysis of an aluminum cell yields:
+experimentally. However for this study, the onset value
+
+
+
+                                                   3                              Copyright © 2019 ICAE
+
+## PDF page 4
+
+             Ẇel + ΣṅAlhr̅ = Q̇ + ΣṅAlhp̅̅̅                (3)          The bubbles voltage drop 𝑉bub occurs due to the
+   Where Ẇel  is the electric power input  (I ∙Vcell),        configuration of the aluminum cell, where the anode is
+                                                          placed horizontally with its biggest surface facing down,ṅAl  is the molar rate of aluminum,  h̅r and h̅p are the
+                                                          causes the carbon oxide gases produced during the
+specific enthalpy per mole of reactants and products
+                                                                     electrolysis to accumulate on the anode surface creating
+respectively, from the aluminum production reaction
+(equation 2) and  Q̇  is the heat loss. For the enthalpy       a bubbles layer. The bubbles layer acts as an insulator for
+                                                          the electric current flowing through the anode to the
+calculation, it was considered that the reactants are first
+                                                        bath producing the bubbles voltage drop. To calculate
+heated  to  the  bath  temperature  from  ambient
+                                                          the bubble voltage drop, the necessary inputs are the
+temperature.  The  bath  temperature  in  aluminum
+                                                         bubbles layer thickness, bubble fraction coverage and
+electrolysis is typically between 955 °C and 970 °C.
+                                                          the anode side current fraction, to get the actual current
+   The first law energy balance can be rearranged to        flowing vertically.
+obtain the SEC term in kWh/kg Al which is commonly
+                                                         As a reference, the steady state gas layer thickness
+used in the aluminum industry:
+                                                              of a 300 kA cell with slotted anodes described on [13] is
+         Ẇel    10                        Q̇
+        −      (Σhp̅̅̅ −Σhr̅ ) =                    (4)       approximately 16 mm. The bubble fraction of the EGA
+          ṁ Al  36MAl                ṁ Al                                                DX+  Ultra  cell   is  reportedly  0.5,  from  industrial
+   Where  MAl   is  the aluminum  molar mass  in       experience [14]. The equations to obtain the anode side
+(kg/kmol),     h̅r  and  h̅p  are specific enthalpies for        current fraction and the total bubbles voltage drop 𝑉𝑏𝑢𝑏
+                                                          Ẇ elreactants and products respectively in kJ/mol and           can be found in [15].
+                                                                ṁAl
+          Q̇
+and       are the  specific energy consumption and          The electrolyte voltage drop VACD is caused by the
+       ṁ Al
+                                                             current flow between anode and cathode against the
+specific heat loss respectively, in kWh/kg Al.
+                                                                      electric resistance of the bath electrolyte. The electric
+    3.2 Aluminum cell voltage drop equations                  resistance of the bath electrolyte is a function of the cell
+                                                       temperature and the chemical composition. To calculate   To calculate the voltage drop between the entry and
+the anode  Ventry−anode on equation 5, the electric       the bath electric resistance, the equation in [16] was
+                                                            used. The necessary bath composition inputs wereresistance of each component of the anode assembly
+                                                                collected from [4].was estimated from corresponding published voltage
+drop at a known operating current [11].                                                                  3
+                                                              RT    aAl 4aCO2                   (7)                                                                     Ee = Eo +     ln
+    Vcell = Ventry−anode + Vcath−exit + Vbath         (5)                        12F   aAl2O3 4aC3
+
+    Similarly to the entry to anode voltage drops, the           Equation 7 represents the equilibrium potential, Ee,
+electric resistance of the components was estimated        at    cell   operating   temperature   and   species
+from literature data of voltage drops and operating        concentrations,  aAl ,  aCO2 ,  aAl2O3 and aC . Eo  is the
+current. The cathode to exit components considered for       standard potential at 25 °C and 1M. Previous authors
+resistance calculation were the cathode block, flexibles,       have noted that the  activities of  Al, CO2 and C in
+busbar and riser with data from [12].                      aluminum cells are close enough to their standard states
+                                                              that they can be assumed to be unit value. However the
+   The bath voltage Vbath  is composed of the voltage
+                                                same assumption cannot be made for alumina. This value
+drops across the anode to cathode distance shown in
+                                                   must be measured. A fitting equation can be found in
+equation 6.
+                                                                    literature to calculate the alumina activity [17].
+  Vbath = Vbub + VACD + Ee + Vra + Vsa + Vcc        (6)                                                       The reversible decomposition voltage or standard
+                                                                potential equivalent to Eo  is the minimum voltage that
+
+
+                                                   4                              Copyright © 2019 ICAE
+
+## PDF page 5
+
+needs to be provided to an  ideal  electrolysis  cell,       49.89 MWh while the energy stored in the cell at 970 °C
+according to the ideal aluminum electrolysis reaction           is approximately 54.18 MWh.
+(Eq. 2) with (𝜂= 1). Using the Gibbs Free energy change
+                                                           There is an energy difference of 4.29 MWh between
+of the ideal electrolysis reaction (Eq. 2), and combining
+                                                          the  target  temperatures.  This  value  is needed  to
+the  Faraday's Law, the standard  potential can be
+                                                           estimate the maximum duration of a given power input
+calculated with the following equation:
+                                                        modulation cycle without adding heat exchangers. Using
+                                                      a conservative approach from previous industrial tests
+                   ∆G
+                  Eo =                           (8)           presented in [10], only 30% of the calculated energy                     nF
+                                                               difference will be considered
+   Where F is the Faraday's constant, n is the number of
+free electrons and ∆G  is the Gibbs free energy change           Using the thermal energy storage calculation, it was
+of Eq. 2 reaction with η=1.                                  estimated that the power input to the  cell can be
+                                                            increased by 8% from the nominal value (up to 477.2 kA,
+    In order for the electrolysis reaction to occur at an
+                                                              4.2 V, at ACD 3.4cm) for approximately 8.5 hours,
+appropriate  speed, an  additional  voltage must be
+                                                           followed by a 8% power reduction (down to 432.1 kA, 3.9
+supplied. The anodic reaction overvoltage (Vra), anodic
+                                                                V, at ACD 3.4cm) for approximately 4.3 hours.
+concentration   overvoltage    (Vsa)   and   cathodic
+concentration overvoltage (Vcc) equations can be found            4.2 Thermodynamic model
+in [18].                                                       The  specific energy consumption and aluminum
+    3.2.1  Aluminum production and SEC                    production of the cell at the rated point of 454.8 kA and
+                                                           4.08 V[4] were calculated with the model within 2% error
+   The equation to calculate aluminum production by
+                                                     from the published industrial data. The thermodynamic
+electrolysis is derived from the Al3+ to Al (s) half-reaction.
+                                                   model was used  to  build the steady  state power
+The Faraday’s constant (F=96485.33 s A/mol) allows to
+                                                        modulation window of EGA’s aluminum cell. The usage
+calculate the number of moles of electrons that will pass
+                                                              of a  shell heat exchanger can allow the aluminum
+through the cell for a given charge. The electric charge is
+                                                          production to be modulated between -16.9% and +5.2%
+simply the product of current and time (1 C=1 A*s). Using
+                                                     from the nominal production rate (3481 kg Al/day). This
+the aluminum molar weight, the  specific aluminum
+                                                          production  range  can be  achieved  with  a power
+production per day ṁ Alcan be obtained. The fractional                                                        modulation between  -14.5% and  +8.6%  from  the
+current efficiency term η  is introduced to account for
+                                                       nominal power (1855.2 kW).
+the aluminum back-reaction.
+                                                                    This modulation scheme can be performed at a
+     ṁ Al = 8.0537 ∙I ∙η kg/kA-day                 (9)                                                              nearly constant SEC of 13.2 kWh/kg Al, within region I,
+   The aluminum specific energy consumption (SEC) is      bounded by an ACD between 3.4 cm and 5 cm (Figure 1).
+calculated as the ratio of the energy input  (I ∙Vcell)      A further production modulation can be achieved getting
+over the specific aluminum production rate ṁ Al.               into region II reaching the lower limit of current density,
+                                                       however, reducing the current below this limit will start
+    4. RESULTS
+                                                             to reduce the current efficiency of the process.
+    4.1 Thermal energy storage calculation
+                                                                   5. CONCLUSION
+   The thermal energy storage calculation sheet was
+                                                       The power and production of an aluminum cell can
+validated using the data presented in [10]. The error was
+                                                   be controlled over a wide range by controlling the heat
+less than 1%. Analyzing the EGA DX+ Ultra cell, which
+                                                                losses from the side walls. Controlling the heat losses of
+operates at a nominal point of 454.8 kA and 4.08 V, it was
+                                                    an aluminum cell enables the adaptation of aluminum
+found that the energy stored at 955 °C is approximately
+
+
+                                                   5                              Copyright © 2019 ICAE
+
+## PDF page 6
+
+production to fluctuations in energy supply and also it        evaluation," Applied Thermal Engineering, 73(1), pp. 116-
+                                                              127.
+can give aluminum smelters the capacity to adjust
+                                                                         [7] Chase Jr, M., 1998, "NIST-JANAF thermochemical tables
+production. The definition of the power modulation                                                                fourth edition," J. Phys. Chem. Ref. Data, Monograph, 9.
+boundaries  was  illustrated  considering  the  latest         [8] Anovitz, L. M., Hemingway, B. S., Westrum Jr, E. F., Metz,
+aluminum cell design in the UAE.                              G. W., and Essene, E. J., 1987, "Heat capacity measurements
+                                                                     for cryolite (Na3AlF6) and reactions in the system Na-Fe-Al-
+                                                                       Si-O-F," Geochimica et Cosmochimica Acta, 51(12), pp.
+                                                           3087-3103.
+                                                                         [9] Don, W. G., and Robert, H. P., 2008, "Specific heats of
+                                                          pure compounds," Perry's Chemical Engineers' Handbook,
+                                                                Eighth   Edition,  McGraw   Hill   Professional,   Access
+                                                                 Engineering.
+                                                                   [10] Reek, T., 2016, "New approaches to power modulation
+                                                                   at TRIMET Hamburg," Light Metals 2011, S. J. Lindsay, ed.,
+                                                                Springer International Publishing, Cham, pp. 375-379.
+                                                                   [11]  Arkhipov,  A., "Review  of Thermal and  Electrical
+                                                            Modelling and Validation Approaches for Anode Design in
+                                                       Aluminium Reduction Cells," Proc. Proceedings of 36th
+             Fig 1 Power modulation operating window                International ICSOBA Conference, Travaux No. 47, Belem,
+                                                                             Brazil.
+                                                                   [12] Mishra, L. K., Anwar, M., Arkhipov, A., Aljasmi, A., Ahli,
+                                                                       N., Alzarooni, A., and Al Jaziri, A., "New connections for
+  ACKNOWLEDGEMENT                              cathode flexibles in aluminium electrolysis  cells," Proc.
+                                                             Proceedings of 35th  International ICSOBA Conference,
+    This publication is based upon work supported by the                                                            Travaux No.
+Khalifa University of Science and Technology under        [13] Sun, M., Li, B., Li, L., Wang, Q., Peng, J., Wang, Y., and
+Award No. CIRA-2018-97.                                   Cheung, S. C. P., 2017, "Effect of Slotted Anode on Gas
+                                                          Bubble   Behaviors   in  Aluminum   Reduction   Cell,"
+REFERENCES                                                                   Metallurgical and Materials Transactions B, 48(6), p. 3161.
+[1] Dudley, B., 2018, "BP statistical review of world energy        [14] Peng, C.-Y., Lan, C.-H., Lin, P.-C., and Kuo, Y.-C., 2017,
+2018," British Petroleum BP, London, UK.                           "Effects of cooking method, cooking oil, and food type on
+[2]  Carsten  Reek,  T.,  2015,  "Power  Modulation  of       aldehyde emissions  in cooking  oil fumes,"  Journal of
+Aluminium Reduction Cells – Operational Constraints and       Hazardous Materials, 324, Part B, pp. 160-167.
+Process Limits," University of New South Wales, Sydney,        [15]  Zoric,   J.,  Roušar,   I.,  and  Thonstad,   J.,  1997,
+Australia.                                                  "Mathematical modelling of industrial aluminium cells with
+[3] Depree, N., Düssel, R., Patel, P., and Reek, T., 2016, "The       prebaked anodes: Part  I: Current distribution and anode
+‘Virtual Battery’ — Operating an Aluminium Smelter with        shape," Journal of Applied Electrochemistry, 27(8), p. 916.
+Flexible Energy Input," Light Metals 2016, E. Williams, ed.,        [16] Hiveš, J., Thonstad, J., Sterten, Å., and Fellner, P., 1996,
+Springer International Publishing, Cham, pp. 571-576.               "Electrical conductivity of molten cryolite-based mixtures
+[4] Alzarouni, A., Alzarooni, A., Ahli, N., Akhmetov, S., and        obtained with a tube-type cell made of pyrolytic boron
+Arkhipov,  A., "DX+ Ultra—EGA High  Productivity, Low         nitride," Metallurgical and Materials Transactions B, 27(2),
+Energy Cell Technology," Springer International Publishing,        pp. 255-261.
+pp. 769-774.                                                       [17] Skybakmoen, E., Solheim, A., and Sterten, Å., 1997,
+[5] Solli, P. A., Eggen, T., Skybakmoen, E., and Sterten, Å.,       "Alumina solubility in molten salt systems of interest for
+1997, "Current efficiency in the Hall–He´roult process for       aluminum electrolysis and related phase diagram data,"
+aluminium   electrolysis:  experimental  and  modelling        Metallurgical and Materials Transactions B, 28(1), p. 81-86.
+studies," Journal of Applied Electrochemistry, 27(8), pp.        [18] Haupin, W., 2016, "Interpreting the Components of Cell
+939-946.                                                         Voltage," Essential Readings in Light Metals: Volume 2
+[6] Brimmo, A. T., Hassan, M.  I., and Shatilla, Y., 2014,       Aluminum Reduction Technology, G. Bearne, M. Dupuis,
+"Transient heat  transfer computational model  for the       and G. Tarcy, eds., Springer International Publishing, Cham,
+stopped aluminium reduction pot – Cooling techniques        pp. 153-159.
+
+
+
+                                                   6                              Copyright © 2019 ICAE

@@ -1,0 +1,505 @@
+Source: modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf
+
+## PDF page 1
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+  AL17 - The Structure of the Aluminium Smelting Cell Ledge
+
+           Jingjing Liu1, Shanghai Wei2, John J.J. Chen3 and Mark P. Taylor4
+                                       1. Postdoctoral Fellow
+                                             2. Professor
+                                             3. Professor
+                       4. Department of Chemical & Materials Engineering,
+                                         5. Research Fellow
+                                              6. Director
+               NZ Product Accelerator, Faculty of Engineering
+                   All at: University of Auckland, Auckland, New Zealand
+                    Corresponding author: jingjing.liu@auckland.ac.nz
+
+Abstract
+
+In aluminium smelting cells, ledges form on the cell walls. Modern cell design and control cause
+a suitable ledge profile to form and maintained in order to protect the cell walls from the corrosive
+liquids, and ensure efficient current distribution and cell heat balance. During cell operation,
+significant ledge freezing and melting does occur following heat balance changes due to batch
+operations. In the laboratory scale, a ledge formation mechanism has been studied. It shows a
+linkage between the rate and directional nature of ledge growth, and its structure, as affected
+through a superheat change. An open ledge structure can dominate the ledge material growth or
+melt it out quickly when the superheat either decreases or increases, respectively. This paper
+begins the investigation of industrial ledge samples, in terms of structure and composition
+primarily, to identify if this  ledge formation mechanism exists in the industrial cell.
+
+Keywords: Aluminium smelting, industrial ledge, structure.
+
+1.     Background
+
+Cell wall integrity is critical for maintaining the cell heat balance and a safe operation of an
+aluminium reduction cell. In terms of integrity, we include the lining materials, such as SiC and
+refractory bricks etc., and the side ledge that is frozen on the walls. The ledge should be
+maintained in a profile which allows sufficient heat transfer through side wall (not too thick), and
+also protect the lining materials from the corrosive liquids (not too thin). Although the side ledge
+is submerged in molten liquids and is therefore not visible during the daily operation, the ledge
+profile can be measured as required to ensure the sufficient protection of the walls and good
+thermal balance of the cell. Not only the ledge and its profile that is formed on the walls is critical,
+the part of the ledge that extends on the cathode surface (ledge toe) has a significant impact on the
+current distribution if the ledge toe extends beneath the anode shadow, making the current flow
+path from the anode to cathode to be non-vertical since the frozen ledge is an insulating material.
+
+Studies on ledges date from 1980s and the industrial ledge dynamic behaviours have been studied
+(ledge thickness and ledge profile) and discussed by many researchers in terms of heat transfer
+and ledge composition [1-3]. In principle, the ledge material has been traditionally considered as
+pure cryolite precipitating from the molten bath as the primary phase and is frozen to the walls as
+the temperature there drops below the bath liquidus temperature. A thin dynamic boundary layer
+should be formed at the ledge/bath interface in theory, where the temperature is close to bath
+liquidus point.
+
+Of course in the industrial ledge, bath components such as AlF3, CaF2 and alumina are present in
+the boundary layer, and have also been found [2, 3] in the ledge itself. And recent research has
+
+
+
+
+                                     877
+
+## PDF page 2
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+shown that ledge formation and the bath components within the ledge material have a strong
+impact on the ledge structure and thermal properties[4-6]. Laboratory ledge materials were used
+in most of these studies to shed light on its structure.
+
+It is likely that the ledge from industrial cells is more complex in terms of composition and
+micro-structure, especially it is formed during transient events such as anode effect and normal
+cell operations such as anode setting etc. Hence, ledge formation is likely to be more complex as
+well. The key issue therefore is whether the structure of industrial ledge contains regions of open
+crystalline layers where the residual liquid is high in chiolite and alumina phases, which are
+inherently low melting.
+
+In this paper, cold ledge materials sampled from a cut-out cell has been studied with a view to
+understand the variance of its composition and microstructure, where are compared with results
+from ledge formed under laboratory conditions.
+
+2.     Methodology
+
+2.1.    Investigation of the Laboratory Ledge Material
+
+In our previous study, laboratory ledge materials were studied to understand the ledge structure
+and growth mechanism [6-9]. The ledge investigated in the laboratory scale showed that the bath
+modifiers (AlF3, CaF2 and alumina etc.) form different phases and morphologies when observed
+in the ledge among the usually dominant cryolite phase.
+
+FigureFigure 1 show typical structures observed in the laboratory ledge. At a slow cooling rate,
+the first phase precipitated is the cryolite solid solution, forming a thin layer of columnar crystals
+at the wall surface and insulating the wall due to its much lower thermal conductivity compared
+with the graphite. Ca-cryolite (less than 1 %, and undetectable by XRD) precipitates out of the
+cryolite solid solution at a temperature below 700 °C. When new crystals continue to grow on this
+initial ledge layer, the lower thermal driving force for solidification causes a slower growth rate of
+the cryolite solid solution; thus, liquid (molten bath in the lab cell) gets a chance to be trapped
+among these dendritic crystals. The entrapped liquid becomes more concentrated in modifiers as
+the cryolitic crystals surrounding  it grow in size, leaving very high ex-AlF3 content in the
+entrapped liquid, whose liquidus point decreases and is much lower than the bath liquidus point.
+
+In the portion of ledge where the actual temperature is above the liquidus point of the entrapped
+liquid, the entrapped liquid will stay molten and an open structure is formed, as shown in Figure 1
+(c) and (c-1). In the previous work, this open structure actually has resulted in a low dimensional
+stability of the ledge layer when thermal balance is disturbed, i.e. a small superheat increase
+causes very rapid disintegration of the bulk of the ledge layer. These observations and mechanism
+have been investigated using the laboratory ledge. But considering the simplified thermal
+conditions and short-term aging of the ledge (about 1.5 hours) in the lab furnace, the industrial
+ledge is expected to behave differently, and some preliminary results will be reported in this
+paper.
+
+
+
+
+
+                                     878
+
+## PDF page 3
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+
+
+                       Figure 1. Structure of laboratory ledge.
+
+2.2.    Industrial Ledge-Sampling Method
+
+The inconsistency of the ledge in an industrial cell poses a serious challenge for the ledge
+sampling. As we had expected and also observed during the sampling, the ledge structure varies
+with locations since different thermal events are occurring at different places within one cell, as
+indicated in the top view of a cell in Figure 2.
+
+
+
+
+
+     Figure 2. Ledge sampling locations in the cell, Location 3 is at the DUCT END.
+
+The duct end wall ledge is observed to be more stable than the rest of the cell because no crust
+breaking occurs there (e.g. sampling, tapping and carbon dust removal all occur at the tap end).
+The Duct End ledge is therefore chosen as being representative of more matured, stable ledge
+
+
+
+                                     879
+
+## PDF page 4
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+material. One large ledge section was taken from the duct end of a shut-down cell (scheduled
+cutout, cell life 1555 days), i.e. location 3 as shown in Figure 2.
+
+Figure 3 shows the cross-section of the ledge profile from the wall to the interface with the liquids
+and the back view against the wall surface, 34 cm high and 15 cm thick. The ledge shows a great
+diversity in color and visual appearance. At the liquid-side surface, a thin layer of frozen
+electrolyte (2 mm) forms here and appears white and fine grained, while on the wall side a layer of
+large columnar crystals is clearly visible (about 5 mm thick, see Figure 3 (b)). The top part of the
+ledge appears yellow and porous which is similar to the top crust. The middle part of the ledge is
+a mixture of white crystals and grey (or black) colored materials. The lower part of the ledge
+(about 20 cm from the bottom) appears more homogeneous with no carbon inclusions.
+
+A vertical slice of this ledge sample was cut for further study in this project, as shown in Figure 3
+(d). This  slice showed significant variation vertically (from  cell bottom to the top) and
+horizontally (from side wall to the liquid-side interface). The ledge slice was further cut into 13
+horizontal strips, each at a different height from bottom to the top. In this paper, the ledge slices
+#4, #8 and #9 are selected for the study in this paper, to provide an understanding of ledge
+composition and structure and comparison of the variation.
+
+It should be pointed out that some peripheral edges of the ledge can crumble and fall off during
+cutting, especially at the interfaces and where it is porous. So that in slice #4, #8 and #9, some
+parts such as the clear crystals might have full off during the cutting. However, care was exercised
+to ensure minimum cross-contamination.
+
+Another observation is that the ledge profile from the cut-out cell shows one key difference from
+the typical ledge profile measured in an operating cell. As shown in Figure 3 (a), a thick layer of
+end-wall ledge is measured at both the bath and metal level. However, the ledge is actually
+measured much thinner at the bath level in an operating cell, as shown in Figure 4. The
+explanation for this apparently thick lower ledge is revealed by the compositional analysis later
+but is connected with the tapping of all the aluminium from the cell prior to its removal from the
+potline circuit.
+
+2.3.    Analysis
+
+Three parts of the ledge vertical section are selected for the further analysis: slice #4, slice #8,
+slice #9, see Figure 3 (c). Each ledge slice was split into small specimens spanning the ledge
+thickness. The specimens were demarcated according to their representative structure and visual
+appearance. For the analysis by X-ray diffraction (XRD) and Scanning Electron Microscope
+(SEM), the same sample was not reusable for both measurements, thus each specimen was
+separated into two portion and analysed by XRD and SEM respectively.
+
+XRD for compositional analysis: XRD analysis is a commonly used method to analyze bath
+composition in the aluminium smelting industry by quantifying the phases formed at room
+temperature. The ledge specimen was ground into a fine powder to ensure its homogeneity. As
+developed for the bath material [10], XRD scan was conducted in the 2θ range of 10 – 80o, with a
+step of 0.02o for the phase quantitative analysis, Rietveld refined using PANalytical’s HighScore
+Plus software [11]. In this paper, the phases detected by the XRD are compared directly to show
+the compositional variation, which will eliminate the error of the deduction from phases to bath
+compounds.
+
+SEM for microstructural analysis: The ledge specimen was mounted in epoxy resin, then
+polished for metallographic examination and microanalysis. SEM (FEI Quanta 200 F model) and
+Energy Dispersive X-ray Spectroscopy (EDS) were used for the microstructure morphology and
+
+
+
+                                     880
+
+## PDF page 5
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+phase identification respectively, and further confirmed by combining the compositional analysis.
+The analysis method details can be found in previous work [6, 9].
+
+
+
+
+
+   Figure 3. Ledge sample from the DUCT END (a) Cross-section of the Ledge block; (b)
+Back view of the Ledge block, against the wall surface; (c) Ledge vertical section cut from
+               the ledge block; (d) Ledge specimens studied in this paper.
+
+
+
+
+
+                                     881
+
+## PDF page 6
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+
+
+    Figure 4. Typical end-wall ledge profile measured in an operating cell in a smelter,
+                              indicated by the orange dots.
+
+3.      Results and Discussion
+
+3.1.    Compositional analysis
+
+Table 10 gives the composition of the phases in the ledge specimens determined by XRD. Each
+ledge specimen, i.e. slice #4, slice #8 and slice #9 are split into pieces as shown in Figure 3 (d) As
+observed in the table there is a wide variation over the full range of specimens. Slice 4 exhibits
+relatively minimum variation in composition from the sidewall to the liquid-side surface, but with
+higher chiolite content up to 52 % compared to the conventional bath composition. In slice 8, the
+chiolite content increases from the wall side (13 %) to the liquid-side interface (44.3 %), and a
+similar composition to Slice 4 is found when the ledge is close to the liquid side, i.e. specimen #
+8_3 (39.3 % chiolite) and specimen # 8_4 (44.3 % chiolite). In slice 9, near the side wall the ledge
+(specimen 9_1) contains an undetectable amount of chiolite: 0 % chiolite next to the wall surface,
+with the highest amount of CaF2 in specimen 9_1. There is a measurable amount of chiolite in this
+slice - ledge specimen # 9_2 (3.7 %). Also, in slice 9, towards the liquid side a higher chiolite
+content is measured, very similar to column 4.
+
+It should be pointed out that despite the dark colour of several specimens, the graphite content
+measured by XRD was quite low. Amorphous carbon phases could increase the amount of carbon
+assayed however.
+
+Considering the unexpected frozen sample thickness at the metal level and the very high chiolite
+content apparently concentrated into the metal level parts of the sample, it became clear that a
+substantial proportion of the specimens in Table 1, including all of slice 4 and the liquid facing
+specimens of slices 8 and 9,  is bath frozen onto the original ledge, mostly at the metal level and
+with a thinner layer at the bath level. This cooling bath was displaced downward by the removal
+of all aluminium at cutout, and would have been the last bath to freeze in the cutout cell as it is in
+the proximity of the cathode. The original ledge profile has been estimated in this sample and is
+outlined in red, As shown in Figure 3 (b), based on the composition of chiolite in each specimen.
+
+
+
+
+
+                                     882
+
+## PDF page 7
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+The visual appearance of this frozen bath is fine grained compared with the larger, crystalline
+appearance of the actual ledge.
+
+More detailed examination was then conducted on the original ledge specimens identified in red
+in Table 1, using specimen 8_1, specimen 9_1 and specimen 9_2. Some variations are observed
+between these three specimens, with specimen 9_1 being the purest in cryolite and with no
+Ca-cryolite detected by XRD. Cryolite is the dominant phase in all three original ledge samples,
+with chiolite and Ca-cryolite content varying among the samples, but with relative consistency of
+CaF2 and corundum. In specimen #8_1, the highest chiolite content is found to be 13 % although
+this is still part of the original ledge. This ledge is similar to the open crystalline structure
+composition of the laboratory ledge [7].
+
+                  Table 15. Compositional phase analysis by XRD.
+ Sample#                             Phase content
+                Cryolite   Chiolite  Na2Ca3Al2F14  CaF2  Corundum  Gamma-Al2O3   Graphite
+    9 1        96.2       0          0          2.2       1.6           0           0
+    9 2        88.7        3.7         4          0.1       2.7           0             0.8
+    9 3        51.2       39.6         8.6        0        0.6           0           0
+    9 4        43.3       46.3         8.6         0.1       0.9            0.8           0
+    9 5        48.9       39.2         8.8         0.5       1.1            1.4           0
+    8 1        80.4       13          3.3         0.1       1.7           0             1.6
+    8 2        59.5       29.8         9.6        0        1.1           0           0
+    8 3        49.7       39.3         8.7         0.2       1.2            0.9           0
+    8 4        45.6       44.3         6.5         0.9       1.3            1.4           0
+    4 1        52.4       37.9         7.6         0.5       1.5           0           0
+    4 2        39       52.4         7.7         0.1       0.8           0           0
+    4 3        55.8       34.9         8.9        0        0.3           0           0
+    4 4        49.1       40.3         9.4         0.1       1.1           0           0
+
+3.2.    Microstructural Analysis
+
+The industrial ledge samples exhibit more diversity in their microstructures compared to the
+laboratory ledge microstructures. Figure 5 and Figure 6 show representative microstructures for
+specimens 9_1 and 8_1 respectively. Carbon dust inclusions are found in most of the industrial
+ledge as also measured by EDS, and the grain size of cryolite and chiolite in the industrial ledge
+appear larger than in the laboratory ledge.
+
+Both the industrial ledge and the laboratory ledge have a thin layer of clear columnar crystals
+forming at the (cold) wall surface, about 5 mm thick in the industrial ledge shown in Figure 5 and
+2 mm in the laboratory ledge shown in Figure 1. In the industrial cell, the total thermal gradient
+across the side wall ranges from approximately 400 °C at the silicon carbide brick to 960 °C at the
+molten bath, i.e. the bath liquidus point. In comparison, the temperature drop across the laboratory
+ledge is only from 929 °C at the graphite cold finger to 958 °C at the molten bath. Therefore, the
+greater thermal gradient in the industrial cells can cause initial cryolitic crystal to grow into a
+thicker layer and with bigger grains in the industrial ledge. Another difference is that in the
+laboratory ledge, the clear columnar crystals are composed of cryolite and Ca-cryolite. However,
+in the industrial cell, the Calcium phase has mainly precipitated as pure CaF2, due to the lower
+ledge temperature there (below 700 °C). In the laboratory cell the whole ledge remains above 929
+°C and only very small amount of Ca-cryolite phase precipitate from the cryolite solid solution
+(outside of the XRD detection limit).
+
+After the columnar crystalline layer ends, crystals continue to grow but are not aligned in the
+solidification direction and are observed to have inclusions of carbon dust (C+S) and alumina in
+the industrial ledge, as shown in Figure 5. The main phases in the crystals are Cryolite with fine
+
+
+
+                                     883
+
+## PDF page 8
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+Ca-cryolite and CaF2 precipitates dispersed all over the crystalline area (see Figure 5 (a)).
+Alumina appears as corundum  platelets,  usually mixed with Carbon  dust, Cryolite and
+Ca-cryolite, in regions between the cryolite crystals which contain a higher porosity.
+
+With crystals growing towards the direction of the bath side, more carbon dust inclusions
+dispersed in the whole sample, as shown in Figure 6 (a). The carbon dust is embedded in the ledge
+material, as a mixture of Cryolitic crystals, chiolite crystals, alumina platelets and carbon particles.
+Figure 6 (b)/(c)/(e) show typical mixture zones observed in the ledge. This mixture has high
+porosity, and the crystals grow into smaller grain sizes. Also, some crystals are rounded,
+possibility due to partial dissolution by surrounding liquid during solidification. The larger
+crystals are Cryolite and Ca-cryolite as found in the crystalline layer. However, in the porous
+mixture zone, chiolite appears along with the Cryolite phases. No difference can be observed
+between these two phases under SEM, but the EDS detection clearly shows the phase difference.
+
+
+
+
+
+                  Figure 5. Typical structure of ledge specimen 9_1.
+
+The appearance in Figure 5 of many chiolite crystals in these ‘mixed’ zones between the larger
+cryolite grains corresponds with the 13 % chiolite in this sample detected by XRD. However, the
+porous structure in the mixture zone has a different morphology from the simpler open structure
+layer in the laboratory ledge even though chiolite and alumina have both appeared. The difference
+in the morphology could be due to the presence of significant amounts of carbon dust particles,
+but equally it could be influenced by the greater temperature gradient between the wall and the
+molten bath in the industrial cell and also the much greater aging period of the industrial ledge.
+
+
+
+
+
+                                     884
+
+## PDF page 9
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+Despite the difference in morphology observed here, it is certain that the presence of chiolite and
+alumina in the ‘mixed’ zones in specimen 8_1 bears a striking similarity to the open crystalline
+layer composition in the laboratory samples. The effect of the high modifier composition of the
+mixed zones on the local liquidus point within these sections of ledge will also be similar.
+
+
+
+
+
+                  Figure 6. Typical structure of ledge specimen 8_1.
+
+4.     Conclusions
+
+Several industrial ledge specimens obtained from a scheduled cut-out cell have been analysed and
+compared with laboratory formed ledge in terms of composition and micro-structure. The
+following findings are evident at this early stage in the investigation:
+•     As expected, industrial ledge shows more complexity, such as the inclusions of carbon
+        dusts through the ledge.
+•       Industrial ledge grains grow into a bigger size and with a slightly thicker ‘cold face’
+       columnar layer. The thermal gradient across industrial ledge  is much greater than
+        lab-scale ledge, which could drive both of these effects.
+•       In one sample studied here, the interaction with the carbon dust has changed the open
+       porous structure in the industrial ledge. Alumina phase forms as corundum platelets in the
+       porous mixture zone together with chiolite.
+•     No obvious liquid channels have been observed between the larger cryolite crystals as
+       were observed in the laboratory ledge open crystalline layer. However, it must be noted
+         that the laboratory ledge was only maintained at temperature for about 1.5 hrs, and is
+        therefore far away from its final chemical balance. The industrial ledge, by comparison
+       has been aging at cell temperature for many operating days. This is probably long enough
+        for the ledge to reach chemical balance to a greater extent. Liquid channels would then be
+       taken up by the cryolite and chiolite crystal growth into the mixed zones, creating a
+        different apparent morphology for the open structure layer.
+
+
+
+                                     885
+
+## PDF page 10
+
+         TRAVAUX 48, Proceedings of the 37th International ICSOBA Conference and
+      XXV Conference «Aluminium of Siberia», Krasnoyarsk, Russia, 16 – 20 September, 2019
+
+
+
+5.     Future plan:
+
+This work has provided us with a first insight into industrial ledge structure. The next step is to
+develop a systematic method to investigate industrial ledge more thoroughly at different locations
+and under different cell conditions.
+
+Based on the compositional and structural findings, future work will involve examining the
+thermochemical properties of the ledge materials as well as the structure, and their impacts on the
+cell wall heat balance.
+
+6.     Acknowledgement
+
+MBIE funding is gratefully acknowledged for this work, under Grant UOAX1308. Support from
+NZAS smelter and Dr Hasini Wijayaratne at LMRC are much appreciated.
+
+7.     References
+
+1.     Mark P. Taylor, Barry J. Welch and Jeffrey T. Keniry. Influence of changing process
+        conditions on the heat transfer during the early life of an operating cell, Light Metals
+       1983, 437-447.
+2.     Jomar Thonstad and Sverre Rolseth. Equilibrium between bath and side ledge, Light
+       Metals 1983, 415-424.
+3.     X. Liu: 'Thermochemistry of electrolyte, sludge/ridge, ledge and cell cover', Fifth
+        Australasian Aluminium Smelter Technology Workshop, Sydney, Australia, Oct 1995.
+4.     Ata  Fallah-Mehrjardi, P.C. Hayes, and E.  Jak.  Investigation  of  freeze-linings  in
+      aluminum production cells, Metallurgical and Materials Transactions B, 2014. Vol. 45
+         (4), 2014, 1232-1247.
+5.     Asbjørn Solheim and L. I. R. Stoen, On the composition of solid deposits frozen
+       out from cryolitic melts, Light Metals 1997, 325-332.
+6.      Jingjing Liu, Ata Fallah-Mehrjardi, Denis Shishin, Evgueni Jak, Mark Dorreen, Mark
+        Taylor,  Investigation  of  the  Influence  of  Heat  Balance  Shifts on  the  Freeze
+        Microstructure   and   Composition   in  Aluminum   Smelting   Bath   System:
+        Cryolite-CaF2-AlF3-Al2O3, Metallurgical and Materials Transactions B, Vol. 48 No. 6
+        (2017), 3185-3195.
+7.      Jingjing Liu, Mark Taylor and Mark Dorreen, Observations of freeze layer formation
+        during heat balance shifts in cryolite-based smelting bath, International Journal of
+        Materials Research, Vol. 108 No.6 (2017), 507-514.
+8.       Jingjing Liu, Mark Taylor and Mark Dorreen, Response of Cryolite-Based Bath to a Shift
+         in Heat Input/output Balance, Metallurgical and Materials Transactions B, Vol. 48(2)
+        (2017), 1079-1091.
+9.       Jingjing Liu, Mark Taylor and Mark Dorreen, Responses of Lithium-Modified Bath to a
+         Shift in Heat Input/Output Balance and Observation of Freeze-Lining Formation During
+       the Heat Balance Shift, Metallurgical and Materials Transactions B, 49(1) (2018),
+       238-251.
+10.     Nursiani Indah Tjahyono, Tania Groutso, David S. Wong, Pascal Lavoie, Mark P Taylor.
+       Improving XRD analysis for complex bath chemistries–investigations and challenges
+        faced, Light Metals 2014, 573-578.
+11.     PANalytical, B., ’Pert HighScore Plus software, version 3.0 e. Almelo: Netherlands, 2012.
+
+
+
+
+
+                                     886

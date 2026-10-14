@@ -1,0 +1,462 @@
+Source: modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf
+
+## PDF page 1
+
+                                                        Energy Reports 16 (2026) 109536
+
+                                                 Contents lists available at ScienceDirect
+                              Energy Reports
+
+
+                                            journal homepage: www.elsevier.com/locate/egyr
+
+Research paper
+Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism
+for Equivalent Thermal Parameters and Its Application in
+Demand Response
+He Huang a, Shu Zhang a,*   , Xianyong Xiao a, Zixuan Zheng a, Yongjun Zhou a,b, Qinghua Zhao c
+a College of Electrical Engineering, Sichuan University, Sichuan, China
+b Economic and Technology Research Institute, State Grid Tibet Electric Power Company, Lhasa, China
+c Electric Power Research Institute, State Grid Heilongjiang Electric Power Company, Harbin, China
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                    As a typical electrothermic industrial load (EIL), the adjustable potential of aluminum smelter load has not been
+Electrothermic industrial load                           fully utilized. The reason is the lack of a precise model to describe the conversion between electricity and thermal
+Equivalent thermal parameters model                 energy, and the ignorance of energy consumption related to yield. To address these issues, this paper proposes a
+Power adjustment characteristics                                                  price-based demand response (DR) strategy for EIL using an equivalent thermal parameters (ETP) model thatTemperature-power iteration                                                  considers electro-thermal coupling characteristics and energy consumption changes in the electrolytic process.
+                                                             First, a dynamic thermal balance equation is employed to mathematically depict the energy conversion from
+                                                         electricity to thermal in reduction cells. Second, the ETP model for EIL is derived from the dynamic thermal
+                                               balance equation based on Taylor expansion, which accurately characterizes the time‑variant relationship be­
+                                           tween power regulation and electrolysis temperature changes. Finally, an iterative temperature‑power mecha­
+                                           nism is embedded into the DR optimization algorithm under TOU tariff to cope with the significant variation of
+                                                 equivalent thermal resistance during regulation. The simulation results demonstrate that the proposed ETP
+                                          model combined with the iterative algorithm can shift more peak load and reduce more electricity costs for
+                                         aluminum smelters, especially during an electrolytic aluminum production cycle.
+
+
+1. Introduction                                                          reserve  capacity  for power system (Paulus and  Borggrefe, 2011;
+                                                                           Molina-Garci´a et al., 2011). A smelter plant with a twelve-pulse rectifier
+   The power system is facing increasing supply pressure from high    system and variable direct current (DC) load has been modelled in
+penetration of intermediate renewable energy resource especially in    PSCAD/ EMTDC based on electrical topology (Agalgaonkar et al., 2009).
+extreme weather (Liu et al., 2025; Tan et al., 2025; Choubineh et al.,     Literatures (Jiang et al., 2013) and (Jiang et al., 2014) provide the
+2025; Huang et al., 2025). To mitigate this supply pressure, the demand    mathematical representation of power consumption by a typical modern
+side is regarded as an important resource to improve the power grid     EIL with a 6-branch-parallel rectifier system, and point out that the DC
+adjustment ability. Among various types energy-intensive loads in de­     voltage can be controlled by self-saturable reactors. However, the
+mand side, the electrothermic industrial load (EIL), such as aluminum     electrolysis of aluminum is a complex production process involving
+smelter, is particularly ideal demand response (DR) resource due to large      electricity and thermodynamics. None of the above EIL models consider
+capacity, which is up to hundreds or thousands megawatt class (Zhang     the electro-thermal coupling characteristics in electrolytic aluminum
+et al., 2018, 2019; Sagar and Kumar, 2024), and advanced control sys­     production, which indirectly affects the power consumption by EIL and
+tem, which is easy to integrate various control modules (Li et al., 2023,     determines the feasibility of the consequent interaction strategy be­
+2024).                                                          tween EIL and power system. Literature (Liao et al., 2018) proposes a
+   In the early stage, exploratory statistics are analyzed to model EIL by     simplified linear algebraic equation by the law of conservation of energy
+engineer experience and data fitting, and the conclusion is that the     to describe the relationship between the power and reduction cell
+allowed power demand variation of EIL is around ±1.5% to provide     temperature. The  feasibility of EIL participating in power system
+
+
+ * Corresponding author.
+    E-mail address: ZS20061621@163.com (S. Zhang).
+https://doi.org/10.1016/j.egyr.2026.109536
+Received 21 December 2025; Received in revised form 20 May 2026; Accepted 5 July 2026
+Available online 17 July 2026
+2352-4847/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-
+nc-nd/4.0/).
+
+## PDF page 2
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+frequency regulation in time scale of millisecond level is demonstrated     2. Equivalent Thermal Parameters Model of EIL
+by simulation results. But the simplified linear algebraic equation ig­
+nores time dimension, it cannot describe the dynamic conversion be­        In this section, the profile of EIL is described briefly. The reduction
+tween electricity energy and thermal energy.                                    cell dynamic thermal balance is also analyzed. Based on the reduction
+   At present, EIL participates in the interaction with the power grid can      cell thermal balance equation, the ETP model of EIL is proposed from
+be summarized into two kinds: direct load control and indirect load     energy perspective.
+control (Lu, 2012). In direct load control, the power consumption of EIL
+is controlled by a utility or a system operator, regardless of the cus­                                                                                 2.1.  Profile of EILtomers’ willing. It adjusts the EIL in different applications such as power
+imbalance elimination caused by wind power fluctuation (Xu et al.,                                                                The electrical diagram of the EIL is shown in Fig. 1. A DC current of2015), frequency recovery after a large disturbance (Jiang et  al.,                                                                  hundreds kA is supplied to electrolysis. Due to the capacity limitation of2015), emergency frequency regulation based on a generator excita­                                                             on load tap changing transformer (OLTC), multiple sets of rectifiers aretion voltage control scheme (Cui et al., 2016; Liao et al., 2016). Based on                                                                    connected in parallel to provide much more current. Each branch usu­the simplified algebraic model of EILs, a field verification scheme is                                                                                   ally consists of a OLTC transformer, two rectification transformers anddeveloped to participate in primary frequency control considering the                                                             two diode full-bridge with saturable reactors. All serially connectedlimited response capability caused by reduction cell temperature (Bao                                                                    conduction cells are equivalent to back electromotive force EEIL andet al., 2018; Liao et al., 2025). But it is hard to gain acceptance if the                                                                              resistance REIL. For any EIL, EEIL and REIL are the constants, and can beproposed load control strategy has obvious impact on the production,                                                                               identified by field test data (Xu et al., 2015). Thus, the EIL active powerbecause the control cost is great and the customers are not willing to                                                                  can be expressed as Eq.(1).participate the load control strategy. In indirect load control, the power
+consumption of EILs is controlled manually by the smelter owners or      PEIL = VdcIdc = (IdcREIL + EEIL)Idc                                      (1)
+automatically by the advanced appliances with consideration of infor­
+mation such as the time of use (TOU) tariff and real time electricity tariff    where PEIL is the EIL active power, Vdc and Idc are reduction cell series
+in power system. Literature (Babu and Ashok, 2008) uses mixed integer   DC voltage and DC current respectively.
+nonlinear programming technique for minimizing the electricity cost         Actually, constant DC control including coarse and fine-tuning
+and reducing the peak demand. The variation of power factor and effi­     regulation is utilized to regulate active power. The coarse regulation
+ciency of electrical equipment under each subprocess has been modeled     of Idc is realized by adjusting the OLTC tap changer with over 80 posi­
+using quadratic fit using manufacturers’ data. Literature (Yue et al.,     tions in total, which covers the whole EIL capacity discretely. However,
+2024) applies the simplified algebraic model of EIL to realize renew­     the regulation time is about 7–10 s per tap position. Other than that, the
+able energy accommodation. But the strategies all ignore the variation of     saturable reactor is applied for continuous fine-tuning of Idc within every
+power regulation strategy on energy consumption related to yield,    two adjacent tap positions. By using the above-mentioned regulation
+which extremely reduces the adjustable potential of EIL.                 methods, DR of EIL can be effectively realized.
+   Motivated by these above problems, an equivalent thermal param­
+eters (ETP) model is proposed for EIL based on electro-thermal coupling                                                                                 2.2. Reduction Cell Thermal Balance Analysischaracteristics to depict the power adjustment features in this paper. The
+model establishes the time-variant dynamic energy conversion rela­                                                                The diagram of energy balance in a Pre-baked Anode Reduction Celltionship between electricity and thermal, and characterizes the changes                                                                                                is shown in Fig. 2, which is widely utilized in modern aluminum elec­of production energy consumption caused by the power regulation. The                                                                                    trolysis factories. The electrical energy generated by DC is the only en­sensitivity of the equivalent thermal parameters is also discussed. Then,                                                                      ergy source for reduction  cell, and the energy expenditure mainlyconsidering the power ramp rate and yield constraints, a DR strategy for                                                                          includes energy absorption during electrochemical reaction, energyEIL is presented based on the proposed ETP model in case of TOU tariff.                                                                 consumption heating to temperature conditions, and heat dissipation toUnder the premise of daily yield, this DR strategy aims to reduce the load                                                                                           air. The reduction cell thermal balance equation can be expressed as Eq.in peak period for power system, meanwhile reduce the electricity cost                                                                                     (2).for EIL. The main contributions of this paper are summarized as follows:
+                                                                           dDae                                                        cm                                                                                                      Pin −Ploss −Pcons                                          (2) • The ETP model is developed for EIL to exactly describe the power                                                                                   dt =
+   regulation characteristic. The model can dynamically capture the
+   variation of electrolysis temperature and production energy con­    where c and m are molten electrolyte specific heat capacity and mass
+   sumption induced by the power regulation.                              respectively; Dae is electrolysis temperature; Pin, Ploss and Pcons are the
+ • A temperature-power iteration mechanism based on the proposed     energy  inject,  dissipation,  and  consumption  in  per  unit  time
+   ETP model is proposed, and embedded into the optimization algo­     respectively.
+   rithm to deal with the significant variation of equivalent thermal       The energy income in per unit time can be calculated by multiplying
+    resistance.                                                           the voltage and current in the reduction cell, which is expressed as Eq.
+ • Compared with existing simplified algebraic models, the proposed      (3).
+   ETP model under TOU tariff can achieve greater peak load shifting
+   and reduce the electricity cost of EILs.
+
+   The remainder of this paper is organized as follows. Section 2 de­
+scribes the reduction cell thermal model from energy perspective, and
+the ETP model of EIL is derived by aggregated reduction cells. In Section
+3, the price-based DR strategy is proposed to evaluate viability of DR for
+EIL. In Section 4, the simulation results conducted based on the actual
+EIL and TOU tariff of Sichuan Province prove the effectiveness of the
+proposed ETP model and price-based DR strategy. Concluding remarks
+are given in Section 5.
+                                                                                         Fig. 1. Electrical diagram of the typical electrothermic industrial load.
+
+                                                                        2
+
+## PDF page 3
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+                                                                           surface blackness, which is generally 0.82. Damb is ambient air temper­
+                                                                               ature, which has a limited effect on the heat dissipation and can be taken
+                                                                          as a constant.
+                                                                The reduction cell heat dissipation through ledge crusts and carbon
+                                                                      block lining in unit time can be expressed as Eq.(8).
+                                      ⎧
+                                                                                                           Ploss sh = Ash(Dae −Damb)hsh                                      ⎪⎪⎪⎨
+                                                                         1                                                                                                                                                  (8)                                                                                           hsh =                                                                                                                                  δsl                                                                                                      δsw                                                                   1                                                                               1                                                  +                                                     +                                                        +                                      ⎪⎪⎪⎩
+                                                                                    hb    λsl   λsw    hair
+   Fig. 2. Diagram of energy balance in a Pre-baked Anode Reduction Cell.
+                                                              where Ash is reduction cell sidewall area, hsh is compositeness coefficient
+                                                                         charactering convective and radiative heat transfer between molten
+                                                                               electrolyte and air; hb is the heat transfer coefficient between molten
+Pin = VcellIdc                                                         (3)     electrolyte and ledge crusts, and hair is the heat dissipation coefficient
+                                                                from reduction cell shell surface to ambient air; δsl and δsw are ledge
+where Vcell is the single reduction cell voltage.                               crusts and carbon block lining thickness respectively; λsl and λsw are
+  A reduction cell aluminum production in unit time can be expressed                                                                       ledge crusts and carbon block lining thermal transfer rate, respectively.
+as Eq.(4).
+M = 0.3356Idcη                                                     (4)     2.3. Equivalent Thermal Parameters Model of EIL
+where  0.3356  is  the  electrochemical  equivalent  of  electrolytic                                                                        For energy consumption optimization and DR potential quantifica­
+aluminum, and η is the current efficiency, which is usually less than                                                                             tion of an aluminum smelter, it is unrealistic to consider every thermal
+100% due to the secondary reaction. The theoretical energy consump­                                                                 zone of each reduction cell because hundreds of reduction cells will
+tion of the entire reduction process can be calculated by Eq.(5).                                                                       generate thousands of thermal zones, which would produce a highly
+Pcons = 0.3356Idc(5.63 + 0.7 −4.32(1 −η))                           (5)     intractable computational problem. Hence, at aluminum smelter local
+                                                                                     level, a first-order differential equation in the form of Eq.(2) is applied to
+where 5.63 kWh/kg-Al is aluminum reduction enthalpy, 0.7 kWh/kg-Al     describe the amount of energy needed to electrolysis, which is the active
+is raw material heating enthalpy, and 4.32 kWh/kg-Al is secondary re­    power PEIL. Then the regulation modes including the power supply
+action energy. Relevant studies have confirmed that the current effi­    system (tap position for on load tap changing transformer, setpoints for
+ciency increases 1~1.5% with the electrolysis temperature decreases     saturable reactor) and advanced reduction cell control system (pole
+10℃ (Morishige et al., 2017), so η can be expressed as Eq.(6).             spacing setpoints) can be optimized to maintain the preferred active
+                                                             power PEIL, while distributing PEIL to each reduction cell equally. The EIL                 −Dae,N)η = ηN −1.5%(Dae                                                   (6)    dynamics model can be expressed by aggregated reduction cells based             10                                                             on Eq.(2).
+where the subscript N represents the rated value.                            dDae    PEIL                                                 =     −Ploss −Pcons                                         (9)   The aluminum liquor and molten electrolyte flow violently in    cm                                                                                   dt     Ncell
+reduction cell, and the consequent temperature difference between them
+is extreme small. Thus, it is considered that their temperature is uniform,    where, Ncell is the total number of aggregated reduction cells.
+that is Dae. Besides, the entire reduction cell bottom is covered with       Assuming that the EIL is in rated operating condition before regu­
+insulation and refractory materials, which has almost no thermal loss      lation, the rated electrolysis temperature Dae,N, the rated active power
+compared to aluminum oxide coating and carbon block lining. Conse­      PEIL,N, the rated energy consumption Pcons,N and the rated thermal
+quently, the reduction cell energy dissipation is summed by two parts:     dissipation Ploss,N can be obtained by setting Eq.(9) be zero. When the
+Ploss_sa is to dissipate through aluminum oxide coating, and Ploss_sh is to     active power changes ΔPEIL, it is inevitable that the electrolysis tem­
+conduct through carbon block liner (Feng, 2020). They are all variables     perature will change ΔDae, the energy consumption and the thermal
+related to Dae, and inevitably change during power regulation.              dissipation will also vary ΔPcons and ΔPloss consequently.
+   The reduction cell heat dissipation through aluminum oxide coating        Substitute Eqs.(5)-(8) into Eq.(9), and perform a first-order Taylor
+in unit time can be calculated by Eq.(7).                                expansion on the variables, including PEIL, Pcons, Ploss, and Dae. The
+                                                                               linearization result is derived by deleting the stable-state value, which is
+
+
+
+⎧
+     = Asa(Dae −Damb)hsa⎪⎨ Ploss sa
+                                  [(Dae + 273.15)4                                                  (Damb + 273.15 )4]                                                                 (7)                                                                                                       −⎪⎩ hsa = K(Dae −Damb)0.25 +   σ0εw                             Dae −Damb      100             100
+
+
+where Asa is aluminum oxide overburden area, hsa is compositeness    shown as Eq.(10).
+coefficient charactering convective and radiative heat transfer between   (       )                     )
+aluminum oxide coating and air; K is a correction constant, which is                                                              1  −∂Pcons  ΔPEIL = cm dΔDae + (dPloss + ∂Pcons  ΔDae          (10)                                                                                                    Ncell    ∂PEIL               dt      dDae    ∂Daegenerally 0.6807, σ0 is the Stefan-Boltzmann constant, and εw is solid
+
+
+
+
+
+                                                                        3
+
+## PDF page 4
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+Table 1                                                      become common due to TOU tariff, whose electricity rate are based not
+Iteration flow of Dae-PEIL for EIL.                                           only on the amount of electricity consumption but also on the time of
+  Dae-PEIL iteration mechanism for EIL                                              use. The target of TOU tariff is to voluntarily decrease the peak load and
+                                                                           increase the off-peak load, which is driven by significant price differ­  Input: Parameters related to EIL, the max number of iterations T, and the power
+    vector PEIL                                                               ences. From the Chinese State Grid, the four periods including critical
+  Calculate initial Dae(0) by Eq.(9)                                         peak (15:00 −17:00), peak (10:00 −12:00 and 17:00 −21:00), shoulder
+  For t = 1 to T do                                                         (7:00 −10:00,  12:00 −15:00,  and  21:00 −23:00),  and  off-peak
+  update dPloss/dDae by Eq.(11a)                                              (23:00 −7:00) are taken to be utilized in developing price-based DR
+  update ∂Pprod/∂PEIL by Eq.(11b)                                                 strategy for EIL in this paper.  update ∂Pprod/∂Dae by Eq.(11c)
+                                                                                         } and J = {jcp, jp, js, jo, } denote the sets of TOU    calculate ΔDae(t) by Eq.(12)                                                     Let ℐ= {tcp, tp, ts, to,
+    calculate Dae(t) = Dae(t −1) + ΔDae(t)                                                   tariff four periods and corresponding tariff. Based on the constraints of
+   End                                                                EIL participated to DR and the TOU tariff policy, the price-based DR
+  Output: The temperature vector Dae                                             strategy for EIL could be described by the following Eq.(13).
+                          ∑T
+                                                           min J =       j × PEIL(t),    t ∈T  , j ∈J                             (13)where Δ represents the variation value, ∂ represents partial derivative.
+Each derivative is expressed as Eq.(11).                                                                                                          t
+
+
+
+⎧                                             )3                            +   dPloss                                   Asaσ0εw                                      (Dae                                            273.15          1.25AsaC(Dae                         −Dair)0.25 +                                   + Ashhsh                                                                                           (a)                                       100   dDae =                              25
+                                                                                                          (                                                                     ))                             (⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎨                                                             Dae                                                          −Dae,N   ∂Pcons              0.675                                1.450     = √̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ + √̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅⋅  ηN −1.5%                       (b)                                                                                                                                       (11)                                                 10   ∂PEIL                                E2            E2EIL + 4REILPEIL                                                EIL + 4REILPEIL
+           √̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+                                      −EEIL                                    4REILPEIL                          E2EIL +⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎪⎩ ∂Pcons             ×     = −0.001087                                                                                                         (c)   ∂Dae                               REIL
+
+
+                                                              where J is the EIL total cost in scheduling period, and j is the TOU tariff.
+.
+   Eq. (10) is obviously an integrable differential equation, and the
+                                                                                 3.2. Constraintsoriginal function can be integrated by the variable separation method
+with an initial value of 0. Therefore, the electrothermal coupling char­
+                                                                                 3.2.1.  Electrolysis Temperature Constraintsacteristic of EIL can be expressed as Eq.(12).
+     ⎛      ⎞⎛          ⎞                             In order to meet the requirements of EIL production, the oxidation⎧                                                                        reduction                                                                                     reaction of                                                                                                          electrolytic                                                                                       aluminum                                                                                                         can                                                                                                                    only occur within a                        1   Δt ⎟                                                                                  specific temperature                                                                                              range,                                                                                     which is                                                                                                         expressed                                                                                                                         as Eq.(14).            ⎠  ΔDae = ⎜⎝1 −e− CeqReq             ⎜⎝1/Ncell −∂Pcons/∂PEIL ⎟⎠ReqΔPEIL⎪⎪⎪⎪⎪⎪⎪⎨
+                                                               (12)     Dminae −Dae,N ≤ΔDae(t) ≤Dmaxae  −Dae,N                              (14)
+    = cm
+                                                              where Dminae and Dmaxae  are min and max limits of electrolysis temperature⎪⎪⎪⎪⎪⎪⎪⎩ Ceq                1  Req =                                                                               respectively.         dPloss/dDae + ∂Pcons/∂Dae
+where Ceq is the equivalent thermal capacity, which is determined by the     3.2.2. Voltage Constraints
+specification of reduction cell, and Req is the equivalent thermal resis­        According to Fig. 1, the power voltage coupling constraints are
+tance, which is affected by the operation status of aluminum smelter. Eq.     expressed as Eq.(15).
+(12) describes the relationship between aluminum smelter regulation   ⎧⎪⎨ Vmindc  ≤Vdc(t) ≤Vmaxdcpower and electrolysis temperature variation quantitatively. It is indi­                                                                                               (Vdc(t) −EEIL)Vdc(t)                                  (15)cated clearly that the mutated electrical power could be buffered in the   ⎪⎩ PEIL(t) =
+form of thermal energy. The inertia difference between the two forms of                           REIL
+energy is the critical reason why EIL can participate in DR projects.                                                              where Vmindc  and Vmaxdc  are permitted min and max limits of DC voltage
+                                                                               respectively. Eq. (15) restricts the EIL active power through DC voltage.
+3. Price-based DR Strategy for EIL Embedded with Dae-PEIL
+iteration mechanism                                                                                 3.2.3. Climbing Constraints
+                                                                  As mentioned in Section 2, EIL  is regulated through OLTC and
+   In this section, the constraints for EIL participation in DR are pre­                                                                           saturable reactor within a certain period time, meanwhile the interval
+sented, and the main variables involved in the DR strategy are defined.                                                                between two adjustments should be 5 min in accordance with the
+Furthermore, the Dae‑PEIL iteration mechanism is integrated into the DR                                                                        operation manual. This constraint can be described by ramp rate as Eq.
+strategy under TOU tariff.                                                                              (16).
+                                                                            RDEIL⋅Δt ≤PEIL(t) −PEIL(t −Δt) ≤RUEIL⋅Δt                        (16)
+3.1. Objective Function
+                                                              where RDEIL and RUEIL are downward and upward adjustment rate of
+   Optimal energy consumption of energy intensive industries has     EIL respectively, and Δt is adjustment step size, which is 15 min to be
+
+                                                                        4
+
+## PDF page 5
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+Table 2                                                                 Table 3
+The parameters related to the EIL.                                        The TOU Tariff during August in Sichuan Province.
+  Module               Parameter                              Value                   Period           Time                                             Price (¥/kWh)
+  Electricity            Back electromotive force EEIL             326.4448 V                Critical Peak       15:00 −17:00                               0.91291
+                         Resistance REIL                      1.1519mΩ             Peak             10:00 −12:00, 17:00 −21:00                  0.76745
+                       Rated DC current IdcN                  300 kA                 Shoulder          7:00 −10:00, 12:00 −15:00, 21:00 −23:00      0.49472
+  Thermo-dynamics      Constant K                             0.6807                  Off-Peak          23:00 −7:00                                0.22199
+                        Stefan-Boltzmann constant σ0             5.667 × 10−8
+                          Solid surface blackness εw                 0.82
+                      Ledge crusts thermal transfer rate λsl      7 W/(m2⋅◦C)
+                      Carbon block thermal transfer rate λsw      0.95 W/(m2⋅◦C)       iteration mechanism is applied to investigate the adjustment charac­                       Bath heat transfer coefficient hb          150 W/(m2⋅◦C)
+                          Air heat transfer coefficient hair          5 W/(m2⋅◦C)           teristics of a certain aluminum smelter, and the viability of EIL partici­
+  Reduction Cell       Number Ncell                         168               pated to DR is also evaluated by the proposed price-based DR strategy.
+                           Cell length l                          11000 mm         The optimization strategy in this paper is encoded in MATLAB 2021b,
+                           Cell width w                         4500 mm           solved by GUROBI 12.0 solver, implemented in an environment with                      Ledge crusts thickness δsl               280 mm                                             AMD Ryzen 5 5600 H and 16 GB of RAM.                      Carbon block thickness δsw              120 mm
+                      Molten electrolyte mass m              2500 kg
+                       Rated Current efficiency ηN              87.5%               4.1. Case Setup and Parameters  Others                  Specific heat capacity c                 880 J/(kg⋅◦C)
+                          Air temperature Damb                   30◦C
+                                                                The case studies are performed on an aluminum smelter located in
+                                                                   Sichuan Province in China. This aluminum smelter has a rated active
+                                                             power of 201.6 MW supplied from two 220 kV feeders, and a rated DC
+                                                                          current of 300 kA provided by ten sets paralleled rectifiers. All reductionconsistent with the power system in this paper.                                                                                       cells are divided into two groups, and each one is formed by 84 cells.
+                                                                  These two reduction cell groups are internally connected in series, and3.2.4. Production Constraints                                                                    then in parallel, where the DC current passes through the solution of   Aluminum smelters operate normally at rated power, and the current                                                                  alumina dissolved in each cell. The cell voltage drop is set approximatelyefficiency is generally around 90%. However, the power adjustment will                                                            4 V, which is a typical value in a Pre-baked anode reduction cell. Alllead to electrolysis temperature change if EIL is regarded as an adjust­                                                                     parameters of this EIL are summarized in Table 2. In addition, the TOUable load, which will directly affect the current efficiency and then affect                                                                                            tariff during August in Sichuan Province is shown in Table 3.the yield. It is necessary to keep yield invariant in a dispatching period to                                                                The parameters for constraints of EIL participated to DR are obtainedensure the benefits of aluminum smelters. The yield constraints are                                                                              carefully by survey, and chosen as follows (Huang et al., 2026, 2024).derived based on Eq.(4) and they can be expressed as Eq.(17).
+⎧     =   PEIL(t)             (Idc(t)REIL + EEIL)Idc(t)                                        • The                                                                                           electrolysis                                                                                       temperature                                                                                                               limitation                                                                                                          changes                                                                                                                  with management
+⎪⎪⎨                                                                             concepts,                                                                                         technical                                                                                                          levels and                                                                                                        engineering                                                                                                                    experience                                                                                                                                          in different  M(t) =           0.3356NcellIdc(t)η(t)Δt
+                                                               (17)                                                              aluminum                                                                                            smelters. Generally, the recognized standard is 940℃⎪⎪⎩ MN = ∑T M(t)                                                       ~960℃.                      t                                                                     • Considering capacity and reliability of power supply equipment, the
+where ηN and MN are rated current efficiency and yield of EIL respec­        permitted range of DC voltage variation is 0.9p.u.~1.1p.u.
+tively, and T is the scheduling period. Eqs. (9) and (17) indicate that      • The OLTC designed for EIL has 80 taps in total, and each one could
+both MN and PEIL are linearly related to Ncell. Consequently, PEIL varies        adjust 0.0125p.u. of DC voltage. Based on (15), the downward and
+linearly with MN.                                                 upward adjustment rate of EIL could be calculated, which varies with
+                                                     DC voltage.
+3.2.5. Adjustment Number Constraints                                    • The max adjustment number is limited to be 15 in a day because of
+   Additionally, it is necessary to set the continuous adjustment con­      OLTC service life.
+straints to maintain production stability as much as possible. The
+continuous adjustment constraints can be expressed based on Boolean     4.2. Adjustment Characteristics Investigation
+variables as Eq.(18).
+∑T                                                                           Substitute the parameters in Table 2 into Eq.(12), the adjustment
+    α(t) ≤Nad                                                  (18)     characteristics surface can be shown in Fig. 3. Besides, the rated
+   t
+
+where α is the Boolean variable, α = 1 indicates EIL is adjusted, while α
+= 0 indicates no adjustment. Nad is the max adjustment number.
+
+3.3.  Dae-PEIL iteration mechanism
+
+   Eq. (11) indicates that the electrolysis temperature variation  is
+affected by EIL operation state. The parameters in Eq.(11) should be
+iterated when the EIL ETP model is applied in optimization algorithm.
+The pseudocode of Dae-PEIL iteration mechanism for EIL is given in
+Table 1.
+
+4. Case Study
+
+   In this section, the proposed EIL ETP model combined with Dae-PEIL                    Fig. 3. Adjustment characteristics surface of EIL.
+
+                                                                        5
+
+## PDF page 6
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+
+
+
+
+                                                                                                    Fig. 5. Sensitivity surface of Req to PEIL and Dae.
+                                                               which is the common industrial load sampling step size in power system.
+
+                                                                                 4.3.  Sensitivity Analysis of the Equivalent Thermal Resistance
+
+                                                                       According to Eq.(12), the equivalent thermal capacity Ceq is only
+                                                                   determined by the specification of reduction cell, while the equivalent
+                                                                    thermal resistance Req is affected by the active power of aluminum
+                                                                         smelter PEIL and the electrolysis temperature Dae. Notably, PEIL and Dae
+Fig.  4. Adjustment power comparison between the ETP model and the     are decoupled for Req. As shown in Fig. 5, the Req decreases mono­
+simplified algebraic model.                                                     tonically with Dae, and the max variation range of Req is 0.29℃/MW
+                                                        when PEIL is 265 MW. The Req increases monotonically with PEIL, and the
+                                                      max variation range of Req is 1.52℃/MW when Dae is 940℃. The rela­electrolysis temperature is also calculated to be 952℃, so the range                                                                                 tive variation ranges are within 8.73% and 45.78% respectively. It isof adjustable temperature is −12℃~8℃. It can be seen from Fig. 3                                                                          indicated that the Req is more sensitive to PEIL, and it is necessary tothat the theoretical adjustment power can be  infinite when the                                                                                   iterate the equivalent thermal resistance based on Table 1.adjustment time approaches zero, but  it  is limited by EIL rated
+active power and the position of OLTC taps actually. What’s more,
+the time constant of EIL is almost 30 min. It is indicated that the     4.4.  Effectiveness Validation of the ETP model with Dae-PEIL iteration
+mutated electrical power can be buffered in the form of thermal    mechanism
+energy on minute time scale. Except for the above transient char­
+acteristics, the electrolysis temperature will eventually approach a        Considering TOU tariff in Sichuan Province, the proposed ETP model
+stable value, which is only decided by adjustment power and the    combined with Dae-PEIL iteration mechanism is applied in to price-based DR
+equivalent  thermal  resistance,  while  is  independent  with  the      strategy. The mixed integer nonlinear programming (MINLP) model min­
+equivalent thermal capacity. That is because the heat loss into the     imizes the total electricity cost by shifting the loads during critical peak/
+ambience is only determined by thermal resistance.                   peak periods to off-peak/shoulder periods in electrolytic aluminum pro­
+   The adjustable power calculated by the proposed ETP model and the     duction cycle. Three comparison scenarios are set in this subsection.
+simplified model in (Liao et al., 2018) is compared in Fig. 4. As illus­        Scenario 1: EIL participates in DR strategy based on the simplified
+trated in Fig. 4, the adjustable power calculated by the ETP model is     algebraic model.
+more than simplified algebraic model under the same conditions. The        Scenario 2: EIL participates in DR strategy based on the proposed
+detailed adjustable power differences can be calculated by Eq.(19) and    ETP model with fixed Req.
+shown in Table 4.                                                          Scenario 3: EIL participates in DR strategy based on the proposed
+                                                         ETP model with Dae-PEIL iteration mechanism described in Table 1.     ΔPEIL−ETP −ΔPEIL−SLer =                                                           (19)       The numerical results are shown in Fig. 6. In all three scenarios, peak          ΔPEIL−ETP                                                                       load is transferred to off-peak periods and shoulder periods as much as
+                                                                               possible. During off-peak period from 0:00–7:00 on Day 1, compared towhere er is the adjustable power relative difference, ΔPEIL-ETP and ΔPEIL-                                                                          scenario 1, the EIL gradually increases to 264.87 MW with drasticSL are adjustable power calculated based on the ETP model and simpli­                                                                     temperature variations from 952.13℃ to 959.09℃ in scenario 2, whilefied algebraic model respectively.                                                                    keeps constant at 264.87 MW with smaller temperature fluctuation from    It is indicated that the relative difference between these two models                                                         952.13℃  to 956.37℃  in  scenario  3.  During peak  period fromis only related to adjustable time, and increases with adjustable time.                                                                   17:00–21:00 on Day 4, compared to scenario 1, the EIL achieves anThe relative difference is 23.48% when the adjustment time is 15 min,                                                                           additional reduction of about 12 MW with same temperature variation
+
+Table 4
+The adjustable power difference between the ETP model and the simplified algebraic model.
+  Adjustable Time (min)                  15            30            45            60            75            90            105           120
+  Adjustable Power Difference (%)           23.48           39.91           51.64           60.18           66.53           71.33           75.05           77.98
+
+                                                                        6
+
+## PDF page 7
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+
+
+
+
+                                 Fig. 6. Comparison results in three scenarios during an electrolytic aluminum production cycle.
+
+                                                                        necessary and effective when the proposed ETP model of EIL is applied
+Table 5                                                                              in optimization.The electricity regulated in three scenarios during an electrolytic aluminum
+production cycle.                                                                           5. Conclusion
+  Scenario    Regulated Electricity (MWh)
+            Day 1     Day 2     Day 3     Day 4     Day 5      Total          The ETP model of EIL is first derived from a thermal balance equa­
+  1          1105.22     534.16     676.81     789.70    724.74    3830.63       tion of reduction cells in this paper, and the time-variant characteristics
+  2          1146.81     845.67     865.73     820.06    733.22    4411.49      between the power regulation and the temperature variation is also
+  3          1141.21    1116.30    1105.37    1070.19    975.58    5408.65      analyzed. Based on the proposed ETP model, the Dae-PEIL iteration
+                                                             mechanism is embedded into the price‑based DR strategy under TOU
+                                                                                            tariff to deal with the significant variation of equivalent thermal resis­
+                                                                       tance during regulation. The main conclusions are as follows:
+of about 2.8℃ in scenario 2, while the additional reduction is approxi­
+mately 30.25 MW with smaller temperature fluctuation of about 1.8℃        (1) The proposed ETP model can exactly depict the time-variant
+in scenario 3. The results indicate that the proposed ETP model with the            relationship between the power regulation and the temperature
+Dae-PEIL iteration mechanism can release more adjustable power both in            variation. The equivalent thermal capacity Ceq is only determined
+load increase and decrease.                                             by the specification of reduction cell. The equivalent thermal
+   The  total  electricity  costs  of  the  EIL  in  three  scenarios  are            resistance Req is affected by both the active power of aluminum
+¥10,966,390.17, ¥10,852,669.06 and ¥10,586,046.47, decreasing by           smelter PEIL and the electrolysis temperature Dae. Req varies by
+1.04% and 3.47% respectively in scenario 2 and scenario 3. It is because        0.29℃/MW with Dae, while by 1.52℃/MW with PEIL. The rela­
+that the ETP model considering Dae-PEIL iteration mechanism can             tive variation ranges are 8.73% and 45.78% respectively. It is
+transfer more electricity, which is shown in Table 5. The total electricity          confirmed that Req is far more sensitive to PEIL, and the proposed
+regulated  in three scenarios are 3830.63MWh, 4411.49MWh and             iterative update of Req is necessary.
+5408.65MWh, increasing by 15.16% and 48.19% respectively in sce­        (2) Compared to the simplified algebraic model, the proposed ETP
+nario 2 and scenario 3.                                                model combined with Dae-PEIL iteration mechanism can address
+   Additionally, the total solution times are 46 s in scenario 1, 46 s in           the significant variation of Req caused by changes in energy
+scenario 2, and 116 s in scenario 3, respectively. It is indicated that the          consumption related to heat dissipation and yields during power
+proposed ETP model combined with Dae-PEIL iteration mechanism will            regulation. Consequently, it can release more adjustable potential
+reduce computational efficiency. However, the total solution time is still          by 48.19% in terms of regulated electricity, and reduce the cost of
+acceptable. All results indicate that the Dae-PEIL iteration mechanism is
+
+
+
+                                                                        7
+
+## PDF page 8
+
+H. Huang et al.                                                                                                                                Energy Reports 16 (2026) 109536
+
+       electricity consumption by 3.47% in an electrolytic aluminum     H. Huang, X. Xiao, S. Zhang, H. He, P. He and D. Liu, A Novel Method for the Adjustable
+      production cycle.                                                                      Potential Quantification of Aluminum Smelter Load, in 2024 3rd Asian Conference on                                                                                                            Frontiers of Power and Energy (ACFPE), Chengdu, China, 2024, pp. 91-96.
+                                                                               Huang, H., Zhao, Q., Zhang, S., Xiao, X., Wang, T., 2026. Unlocking the regulation
+   Future work should focus on the operational feasible region of           potential of aluminium smelter loads: A novel elasticity model and its application in
+aggregated EIL based on the ETP model proposed in this paper, aiming          source-load cooperative operation (Jan). IET Gener. Transm. Distrib. 20 (1). https://                                                                                          doi.org/10.1049/gtd2.70269.
+to interact with the power system as a virtual power plant. Specifically,     Huang, J., Du, Z., Yu, Y., et al., 2025. A two-layer optimal dispatch model for thermal
+at least three key issues must be addressed: (1) parameter uncertainty of           unit deep peaking shaving and dynamic line rating. Int. J. Electr. Power Energy Syst.
+EIL; (2) aggregation model of multiple EILs; (3) joint optimization of          172, 111098.                                                                                  H. Jiang et al., Frequency control by aluminum smelter load response in an isolated wind
+heterogeneous industrial loads with different time scale attributes.             power system: A study for an industrial case, in 2013 IEEE Power & Energy Society
+                                                                                               General Meeting, Vancouver, BC, 2013, pp. 1-5.
+Funding information                                                                   Jiang, H., et al., 2014. Demand side frequency control scheme in an isolated wind power                                                                                        system for industrial aluminum smelting production (Mar). IEEE Trans. Power Syst.
+                                                                              29 (2), 844–853 (Mar).
+   This work was supported by the Nation Natural Science Foundation      Jiang, H., Lin, J., Song, Y., Hill, D.J., 2015. MPC-based frequency control with demand-
+of China (U2166209) and Sichuan Provincial Natural Science Founda­           side participation: A case study in an isolated wind-aluminum power system (Nov).
+tion (2024NSFSC0864).                                                           IEEE Trans. Power Syst. 30 (6), 3327–3337 (Nov).                                                                                                                  Li, J., et al., 2023. A novel method for seamless closed-loop load transfer in radial
+                                                                                                      distribution networks (March-April). IEEE Trans. Ind. Appl. 59 (2), 2254–2265
+CRediT authorship contribution statement                                         (March-April).
+                                                                                                                  Li, Y., Sun, P., Li, H., Qu, L., Gong, J., Huang, S., 2024. Coordinated control of intentional
+                                                                                                  islanding and phase sequence exchange for enhancing transient stability of isolated
+   Yongjun Zhou: Investigation, Funding acquisition. Zixuan Zheng:        power grid (May). IEEE Trans. Ind. Electron. 71 (5), 5205–5214 (May).
+Writing – review & editing, Methodology, Investigation, Conceptuali­      Liao, S., et al., 2016. Load-damping characteristic control method in an isolated power
+zation. Xianyong Xiao: Writing – review & editing, Project adminis­         system with industrial voltage-sensitive load (Mar). IEEE Trans. Power Syst. 31 (2),                                                                               1118–1128 (Mar).
+tration, Methodology, Funding  acquisition, Conceptualization. Shu      Liao, S., Xu, J., Sun, Y., Bao, Y., Tang, B., 2018. Control of energy-intensive load for
+Zhang:  Writing – review &  editing, Methodology,  Investigation,        power smoothing in wind power plants (Nov). IEEE Trans. Power Syst. 33 (6),
+Conceptualization. He Huang: Writing – review & editing, Writing –        6142–6154 (Nov).                                                                                                 Liao, S., Pi, S., Xu, J., Li, L., Ke, D., Sun, Y., 2025. Emergency control strategy for
+original  draft, Visualization, Validation, Supervision, Software, Re­           electrolytic aluminum load considering the load's transient overcurrent
+sources, Methodology, Investigation, Data curation, Conceptualization.           characteristics and transient voltage stability constraints (Mar). IEEE Trans. Power
+Qinghua Zhao: Visualization, Methodology.                                               Syst. 40 (2), 1699–1711 (Mar).                                                                                                    Liu, Y., Liu, W., et al., 2025. Optimal operation strategy for multi-energy systems
+                                                                                               considering renewable energy fluctuation and carbon emission. Int. J. Electr. Power
+Declaration of Competing Interest                                              Energy Syst. 169, 110794.
+                                                                                            Lu, N., 2012. An evaluation of the HVAC load potential for providing load balancing
+   The authors declare that they have no known competing financial           service (Sept). IEEE Trans. Smart Grid 3 (3), 1263–1270 (Sept).                                                                                                Molina-Garci´a, A., Kessler, M., Bueso, M.C., Fuentes, J.A., G´omez-L´azaro, E., Faura, F.,
+interests or personal relationships that could have appeared to influence         2011. Modeling aluminum smelter plants using sliced inverse regression with a view
+the work reported in this paper.                                                    towards load flexibility (Feb). IEEE Trans. Power Syst. 26 (1), 282–293 (Feb).
+                                                                                          Morishige, T., et al., 2017. Effect of composition and temperature on current efficiency
+                                                                                                         for aluminium electrolysis from cryolite-based molten alumina electrolytes. ECS
+Data availability                                                                           Trans. 77 (11), 997–1002.
+                                                                                            Paulus, M., Borggrefe, F., 2011. The potential of demand-side management in energy-
+   Data will be made available on request.                                              intensive industries for electricity markets in Germany (Feb). Appl. Energy 88 (2),                                                                                432–441 (Feb).
+                                                                                             Sagar, C., Kumar, A., 2024. Investigations of large-scale voltage-dependent loads for
+References                                                                    damping low-frequency oscillations: decentralized control (Mar). IEEE Syst. J. 18
+                                                                                                               (1), 234–243 (Mar).
+Agalgaonkar, A.P., Muttaqi, K.M., Perera, S., 2009. Response analysis of saturable           Tan, Y., Xu, W., Xu, Z., et al., 2025. A two-layer nested game for an active energy
+    reactors and tap changer in an aluminium smelting plant. Proc. Int. Conf. Power           community including shared energy storage and multiple prosumers under
+     Syst. 1–6.                                                                           renewable portfolio standards. Int. J. Electr. Power Energy Syst. 169, 110748.
+Babu, C.A., Ashok, S., 2008. Peak load management in electrolytic process industries        Xu, J., et al., 2015. An isolated industrial power system driven by wind-coal power for
+    (May). IEEE Trans. Power Syst. 23 (2), 399–405 (May).                               aluminum productions: A case study of frequency control (Jan). IEEE Trans. Power
+Bao, Y., et al., 2018. Field verification of frequency control by energy-intensive loads for            Syst. 30 (1), 471–483 (Jan).
+    isolated power systems with high penetration of wind power (Nov). IEEE Trans.         Yue, X., et al., 2024. Collaborative optimization of renewable energy power systems
+   Power Syst. 33 (6), 6098–6108 (Nov).                                                         integrating electrolytic aluminum load regulation and thermal power deep peak
+Choubineh, K., Yousefi, H., Aghtaie, M., 2025. Expansion planning studies of generation          shaving (Nov). Appl. Energy 373 (Nov).
+    sector in highly renewable energy systems considering flexibility requirements. Int.      Zhang, C., Ke, D., Sun, Y., Chung, C.Y., Xu, J., 2018. Investigations of large-scale voltage-
+     J. Electr. Power Energy Syst. 170, 110922.                                             dependent loads for damping inter-area oscillations: mechanism and robust
+Cui, T., Lin, W., Sun, Y., Xu, J., Zhang, H., 2016. Excitation voltage control for emergency           decentralized control (Nov). IEEE Trans. Power Syst. 33 (6), 6037–6048 (Nov).
+    frequency regulation of island power systems with voltage-dependent loads (Mar).       Zhang, C., Lin, W., Ke, D., Sun, Y., 2019. Smoothing tie-line power fluctuations for
+    IEEE Trans. Power Syst. 31 (2), 1204–1217 (Mar).                                              industrial microgrids by demand side control: an output regulation approach (Sept).
+Feng, N., 2020. Modern Aluminum Electrolysis: Theory and Technology. Chemical              IEEE Trans. Power Syst. 34 (5), 3716–3728 (Sept).
+    Industry Press, Beijing.
+
+
+
+
+
+                                                                        8

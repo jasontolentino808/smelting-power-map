@@ -1,0 +1,1014 @@
+Source: modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf
+
+## PDF page 1
+
+                ALUMINIUM FLUORIDE CONSUMPTION AND
+                  CONTROL IN SMELTING CELLS
+
+     Invited lecture for presentation by Barry Welch at 6th Molten Slags, Fluxes and Salts
+                                    Conference,
+                             Stockholm, 12-16 June 2000
+                                  Co-authored by
+           M.M. Hyland, E.C. Patterson, F. Stevens-McFadden & B.J. Welch
+
+                  High Temperature Materials and Processing Group
+                         The University of Auckland
+                          New Zealand
+
+
+ABSTRACT
+For optimum operation and performance of aluminium smelting cells, each technology has
+an optimum aluminium fluoride concentration for the solvent electrolyte. The actual value
+used  is influenced by the alumina dissolution and differs because of different alumina
+feeding technologies.
+
+The aluminium fluoride  is consumed within the cell and therefore, chemical analysis  is
+performed as part of the process to determine the amount required for replenishment of the
+consumption.   However  the  cell has a dynamic  energy  balance and  that causes
+simultaneous  variations  in the  distribution  of  solid and  liquid  electrolyte components,
+complicating the overall situation.  Ultimately,  it results in the chemical analysis varying.
+Thus it becomes a major challenge to determine the amount of aluminium fluoride that needs
+to be added to replenish the consumption, whilst maintaining the cell at close to its optimum
+range.
+
+In the first part of this paper, the consumption mechanisms are reviewed with respect to the
+process variability.  In the second part the approach used to control the aluminium fluoride
+concentration is reviewed, and the impact of the energy dynamics is also analysed.
+
+
+PART I: Consumption
+
+INTRODUCTION to BATH CHEMISTRY and CONSUMPTION
+
+                                                 3 −It is well established that the cryolitic anion (Al F6   ) arising on melting cryolite (Na3AlF6) is
+essential for dissolving alumina for the electrolytic production of aluminium.  In practice the
+cryolite also dissociates on melting to give an equilibrium concentration of the cryolitic
+species, sodium fluoride and sodium tetrafluoroaluminate according to equation 1:
+
+Na3AlF6     2NaF + NaAlF4                                                                   - (1)
+
+Since this melt also dissolves metal, leading to a lowering in current efficiency, it has been
+shown that  it  is desirable to not only lower  its melting point, but also to increase the
+concentration of the sodium tetrafluoroaluminate.  Essentially the dissolving reaction on
+adding aluminium fluoride can be given by the following reaction:
+
+Na3AlF6 + 2AlF3 ¡ 3NaAlF4                                                                     - (2)
+
+This also lowers the melting point. The other additive commonly used is calcium fluoride.  Its
+presence has  little impact on the concentration of the dissolving cryolitic anions, whilst
+lowering the melting point significantly.
+
+
+
+
+                                                                   1
+
+## PDF page 2
+
+The addition of any species has an impact on both the saturation solubility of alumina added
+to the cells, and the speed with which undissolved alumina can dissolve in the liquid melt.
+While having good alumina feeding systems can minimize  this impact,  inevitably the
+occasional undissolved alumina slurry is formed.  Here some of the undissolved alumina
+settles beneath the metal pad encompassed in a fluoride electrolyte phase that is of different
+composition and melting point from the bulk electrolyte. This composition difference results
+from phase segregation and sodium transport through the slurry.
+
+Practically, severe alumina solubility problems are encountered with all feeding systems  if
+the superheat of the electrolyte is below 5oC. Conversely, whilst above 15oC superheat the
+
+
+
+        1000
+ )    990
+ C             LOW                  CURRENT             Operating Region (                 EFFICIENCY         980
+         970
+                          5°C                          15°C
+         960            Superheat                      Superheat
+         950          Temperature         940
+                              SLUDGE
+         930                        SOLIDIFICATION
+         920
+         910          Electrolyte
+        900
+           0         5         10        15        20
+               Excess AlF3 concentration (wt%)
+
+Figure1: Restrictions on Electrolyte Operating Conditions ( Taylor, 1997)
+
+protective side ledge melts.  Accordingly there are operating restraints on the range of
+electrolyte solvent compositions and temperatures that can be used (as illustrated in figure
+1).  Note that Figure 1 is for a 3 wt% alumina concentration.  Since the control system
+necessitates cycling of dissolved alumina concentration - typically varying between 2 and 3%
+- this cycling has a second impact on the cell temperature at fixed superheat, but not on the
+sludge freezing point.
+
+Aluminium fluoride concentrations in the electrolyte can vary from two main sources:
+
+•   Variations in distribution of the fluoride materials in the cell (see Figure 2).
+•   Losses of the aluminium fluoride that do not balance the addition rate.
+
+There are a number of causes for the change in heat balance that leads to the change in
+distribution of the fluoride components in the cell. The primary driver in this change is the
+superheat of the electrolyte, which  will cause a melting or freezing of the side ledge.
+Accumulation of sludge is another cause.
+
+
+
+
+
+                                                                   2
+
+## PDF page 3
+
+        ~ 12 tonnes of hot                        ~ 8 tonnes of frozen “crust”
+        (~770oC ) carbon                        (~50% Al2O3 +10 to 20% AlF3 )
+
+       3.5 to 4.5 tonnes                                      3.5 to 5 tonnes of frozen
+      molten electrolyte                                            cryolite rich electrolyte at
+      7 to 14% AlF3 at                                       ~900oC
+      950 to 975oC and
+         2 to 20oC                                     7 to 10 tonnes of Metal
+                                                                                 at ~960oC          superheat
+
+                                       ALUMINIUM (CATHODE)
+
+
+                                                             0 to 2 tonnes of
+                                                                    Alumina
+                                                                Sludge or ‘Ridge’
+
+         Figure 2: Materials distribution in a 150 to 200 kA cell (Welch, 1998).
+
+
+THE CONSUMPTION OF ALUMINIUM FLUORIDE
+
+There are six processes that contribute to the consumption of the aluminium fluoride added
+to the cells. These are:
+•   Reacting with the sodium oxide content of the alumina fed to the cell (which typically
+    ranges between 0.25 and 0.5 wt%).
+•   Reacting with the calcium oxide component of the smelter grade alumina (which typically
+    ranges from 0.015 to 0.04 wt%).
+•   Transpiration losses through vaporisation of the volatile sodium tetra fluoraluminate.
+•   Electrochemical oxidation from the anode hydrogen (which typically has a concentration
+    of about 0.05 wt%) to form gaseous hydrogen fluoride.
+•   Hydrolysis of the electrolyte by water introduced through either
+          -   Humid air passing over the electrolyte surface,
+          -   Water adsorbed on the surface of the alumina during storage or dry scrubbing,
+          -   Crystalline water that has not been previously decomposed.
+
+The aluminium fluoride balance is also impacted by sodium uptake in the cathode.  In this
+case it results in it being a source of aluminium fluoride.
+
+Another input source for AlF3 is recycled materials when dry scrubbing systems are used in
+the overall smelting process.  Most commonly smelters use dry scrubbers which adsorb
+gaseous hydrogen  fluoride on  the surface  of primary  (unreacted) alumina.   This  is
+subsequently recycled back to the cell as aluminium fluoride (and some bath particulate,
+combined in the form of secondary alumina), according to the following two reactions:
+
+HF Uptake in the dry-scrubber
+Al2O3 + HF(gas) ¡ Al2O3.xHF                                                                     - (3)
+
+Aluminium fluoride formation
+6Al2O3.xHF ¡ 2xAlF3 + 3H2O + (6-2x)Al2O3                                               - (4)
+
+Besides the recycled aluminium fluoride, the condensed vapours are usually entrapped and
+recycled with them. However, since the vapours often have impurities associated with them,
+the same material is not necessarily always returned to all cells.  Thus an overall plant
+balance  will result  in more than 99% of the vapours and gaseous components being
+recycled, although this is not the case for individual cells or potlines that are managed
+differently. The problem is aggravated by segregation.
+
+
+
+
+
+                                                                   3
+
+## PDF page 4
+
+The Impact of Cathode Sodium Uptake
+This is greatest in the early operating life of the cell, but continues throughout its operating
+life due to the temperature gradient down the cathode block.  In some failed cells of very
+high age, liquid sodium is sometimes found condensed on the collector bar underneath the
+cathode blocks.
+
+
+               25
+
+
+               20
+             day
+             per   15                                  Soda of alumina
+               AlF3                                AlF3 needs
+        kg   10                Actual
+                               AlF3
+
+                5
+
+
+                0
+                  0    500   1000   1500   2000   2500   3000   3500
+                              Age of Cell ( days)
+
+Figure 3: History of AlF3 added to a cell (30 day averages).
+
+For mature cells (greater than 1200 days) the aluminium fluoride consumption approximates
+that predicted from the sodium oxide and calcium oxide contents when the cells are fitted
+with dry scrubbers and completely recycled.  The difference indicates that the continuing
+sodium uptake is of small value and less than 1% of the overall consumption.  This is
+illustrated in figure 3, where each data point represents 30-day averages.
+The reduced AlF3 demand in the first 1000 days is a consequence of the cathode uptake of
+Na, since all other losses are accounted for. The data shows that in the first months  it is
+necessary to add Na2CO3 to compensate for the large amount of Na entering the cathode,
+according to the following overall reaction:
+
+4Na3AlF6+3C(anode)+Al2O3+6xC(cathode)→6NaAlF4+3CO2+6NaCx                          - (5)
+
+3Na2CO3+6NaAlF4→4Na3AlF6+Al2O3+3CO2                                                   - (6)
+
+Aluminium Fluoride required for the Oxide Impurities of Alumina
+Metals oxides that are reduced by the aluminium do not contribute to the net aluminium
+fluoride consumption, even though their dissolution reaction may involve forming a fluoride.
+The amount required for reaction can be predicted from the concentration of the impurities in
+the oxides, according to the following reactions (equations 7 to 9).   It should be noted that
+since smelters work to a chemical analysis, one needs to add an excess amount of
+aluminium fluoride in order to adjust the concentration of the newly formed cryolite to that of
+the bulk melt.
+
+3Na2O + 4AlF3 ¡ 2Na3AlF6 + Al2O3                                                         - (7)
+3CaO + 2AlF3 ¡ 3CaF2 + Al2O3                                                               - (8)
+Na3AlF6 + yAlF3 ¡ Na3AlF6.yAlF3                                                              - (9)
+
+                 where y is the proportion of excess AlF3 based on its target concentration.
+
+
+
+
+                                                                   4
+
+## PDF page 5
+
+Simply based on a material balance of the raw material - since 1.9 tonnes of alumina are
+required per tonne of aluminium - the aluminium fluoride required for these reactions can be
+given by the following relationships:
+
+kg AlF3/tonne Al = 34.3 [%Na2O] + 19 [%CaO]+ 0.49 [%Na2O][ X AlF 3 ]                         - (10)
+
+where % Na2O and % CaO are the weight percentages of the oxides in the primary alumina and X is the target AlF3
+                                         concentration in the electrolyte.
+
+In the long term, this  is actually obeyed, as  is seen from the leveling out of the data
+presented in Figure 3. The only other contribution to aluminium fluoride consumption for the
+mature cells is fugitive emissions, and these are typically less than 1%.
+
+Vaporisation Losses of Aluminium Fluoride
+This can be predicted by assuming the anode gases formed leave the electrolyte saturated
+in the vapour. Accurate vapour pressure equations have been published by Kvande (1993)
+and co-workers, enabling predictions. However, such a prediction only gives the maximum
+amount since it assumes that all this material leaves the cell. In reality, a high proportion can
+permeates through the crust and cover. The fraction that is retained in the crust is therefore
+technology-dependent and generally unknown.    It can, however, be predicted from the
+sodium and fluorine analysis of the secondary alumina.  This prediction is useful, but is
+complicated by the difficulty in sampling from the dry scrubber product due to extensive
+segregation.  For a centre break technology system, a typical increase in sodium content
+(over the base amount from the refinery) is 0.4 to 0.6 wt%. However, the net loss is less
+since the particulates contribute to the above figure. This corresponds to a gross aluminium
+fluoride loss of 4 to 6 kg/tonne Al which compares to predicted values from complete
+vaporization of 5 to 7 kg/tonne Al via vapourisation for an electrolyte containing 10 wt%
+excess AlF3. The vapourisation values were calculated using components of Haupin and
+Kvandes’ (1993) mathematical model for bath vaporisation. Variation in the value result from
+differences in bath coverage, which with better integrity increasingly scrubs the emissions.
+The vaporization prediction is a maximum as discussed earlier.
+
+It  is established  that the vapours tend  to disproportionate  to  chiolite (Na5Al3F14) and
+aluminium fluoride.  It has also been suggested these species undergo hydrolysis reactions
+forming more hydrogen fluoride. The extent to which this reaction occurs is questionable
+since the hydrolyzing water would come from the air sucked over the cell by the fumes
+capture system. That air does not exceed 150oC, whereas the hydrolysis reaction requires
+temperatures in excess of 600oC according to thermodynamic data presented in figure 4.
+Whether or not this reaction occurs is irrelevant to the aluminium fluoride loss, since the
+hydrolysis product would be adsorbed on the alumina and recycled.
+
+                          100   AlF3
+                                                                                             Al2O3
+                           90
+                Mol   80                                                                        HF(g)
+                  (%)                           70
+                                                                        H2O(g)
+                           60
+
+                           50
+
+                           40
+
+                           30
+
+                           20
+                           10                  AlO*OH                                     FH(g)
+                                        Al2O3*H2O
+                            0
+                              0        20        40        60        80       100
+                                        Temperature (OC)
+
+Figure 4: Thermodynamic prediction of the temperature region for hydrolysis of AlF3 .
+
+
+
+
+                                                                   5
+
+## PDF page 6
+
+Losses due to the Hydrogen of the Anode
+In a comprehensive early study, which involved  electrolyte containing less aluminium
+fluoride, Henry (1968) suggested that a high proportion of the hydrogen of the anode was
+converted to gaseous hydrogen fluoride.  The typical hydrogen contents of anodes range
+between 0.04 and 0.08wt%.   If one takes into account only the carbon consumed being
+electrolytically (approximately 360 kg per tonne of aluminium) the consumption of aluminium
+fluoride would be given by the relationship:
+
+AlF3 Consumed/tonne Al = 98 x [wt% H2 in anode].                                         - (11)
+
+Thus for a typical cell this would contribute approximately 5 kg of aluminium fluoride per
+tonne of aluminium produced.  However, this has been an area of study that has been
+overlooked until recently and confirmation of the amount in the open literature is still awaited.
+
+Measurement of Aluminium Fluoride Lost through Hydrolysis of Bath
+With the recent development of sensitive infrared instrumentation, measuring the hydrogen
+fluoride content in the duct has become feasible. This enables the total gaseous hydrogen
+fluoride at any point in the system to be measured. The total gaseous hydrogen fluoride
+includes the contributions from the anode and any hydrolysis of the vapours, as discussed
+above.  Thus  it is not a direct measure.  However, the measure does give a limit to the
+amount.  In Figure 5, we see that the hydrolysis reaction tends to increase with the excess
+aluminium fluoride concentration in the electrolyte.  This data represents potline or plant
+average for a bar-break operating cell that was only fed with primary alumina, but had
+secondary dust  filters  that recycled the  particulate (vaporization)  fluorides  to the  cell.
+Accordingly,  it gives a direct measure of the increase in hydrogen fluoride emissions with
+excess aluminium fluoride. (The data has not been compensated for the consumption
+through the sodium oxide content of the alumina, but this was fairly constant in the range
+0.25 to 0.3 wt% in this instance).
+This suggests that the hydrolysis proceeds via the following reaction,
+
+3NaAlF4 + 3H2O(g or diss) ¥ Na3AlF6 + Al2O3 + 6HF(g)                                    - (12)
+
+and the rate of the reaction is dependent on the dissolved concentration of the aluminium
+fluoride.
+
+
+                 12
+
+
+                 10
+
+
+                  8        in
+     )
+     %
+           wt     (    6                                 Fluoride
+        Al
+                         Excess  Electrolyte    4
+                  2
+
+
+                  0
+                   0.016   0.018   0.02    0.022   0.024   0.026   0.028   0.03
+
+                   A l Fluorid e Consumption  ( kg/ kg A l)
+
+ Figure 5: Actual AlF3 consumption for a given Excess AlF3 wt %
+
+
+
+
+
+                                                                   6
+
+## PDF page 7
+
+It does not, however, differentiate through the various forms of the hydrolysing water that is
+introduced with the alumina. The forms of the hydrolyzing water have already been noted
+(Hyland et al (2000)) and include:
+
+•   Water adsorbed on the alumina, but introduced to the cell through inadequate pre-
+    heating.  (This is likely to be a gaseous reactant as  it evolves, with a finite residence
+    time.)
+•   Crystalline water from the incomplete calcination of the alumina.   It is known that water
+   has a finite solubility in the electrolyte, and this probably arises from the crystalline
+    water. (The solubility has been well established because of the production of hydrogen
+     in the metal – a quality control concern for metal fabrication.)  Whilst no data exists on
+    the solubility of the water, it is reasonable to expect that this will be proportional or linked
+    to the alumina concentration, and also the amount of crystalline water in the alumina.
+•  The vapours evolved from the cells (as discussed above) can also undergo hydrolysis
+    with the water evolved in the zone immediately above the electrolyte.  However, as
+    Figure 4 demonstrates, there is only a finite temperature window for this hydrolysis
+    reaction to occur.
+
+
+               45.0
+        day)                                    Point fed
+  /
+    kg      37.5
+
+  (
+
+               30.0        used
+
+               22.5       AlF3
+                                      Half break feeding
+               15.0             Average
+                7.5
+                 00       500500    1000    1500    2000    2500    3000
+                              Cell Age (days)
+
+
+
+
+Figure 6: Comparing AlF3 usage for a given feeder type on a potline.
+
+The data of Figure 5 demonstrates that the amount of hydrolysis from the three potential
+contributors  is  fairly  uniform  over  the  long  term  but does  not  enable  the  relative
+concentrations to be determined.
+
+Plant data also suggests that the hydrolysis reaction is also strongly influenced by the
+feeding methodology. Figure 6 compares daily aluminium fluoride consumption for a potline
+that had both point-feed and half centre bar-break feed technologies. The feeding was with
+primary alumina.     It  is seen  that the  point-fed technology has a much greater AlF3
+consumption than bar break technology.
+
+For bar break technology a large amount of alumina is dumped from the hoppers along the
+centre channel at any one time. The thermal heat demand of this ensures electrolyte with
+which it comes into contact freezes on its under surface. Consequently, most of the alumina
+dumped from the hopper forms a new crust. The feed interval for bar break technologies is
+usually at least 15 minutes and, typically up to one hour.  Accordingly, in that time the
+alumina is pre-heated much more than in the hopper and will lose some adsorbed water.
+
+                                                                   7
+
+## PDF page 8
+
+This alumina is added to the electrolyte at the next break time, and will predominantly have
+water of a crystalline nature rather than the adsorbed water.
+
+For point fed cells the alumina has not been pre-heated as much and, therefore,  will
+introduce adsorbed water as well as crystalline water to the electrolyte on a feeding action.
+Furthermore, because it is a small addition (typically one to three kg, as compared to 30 -100
+kg for bar break),  it will disperse more readily and have greater interfacial area for the
+hydrolysis reaction.  This gives a higher rate of release of hydrogen fluoride from the cells.
+However, it must be emphasized again that it is technology-dependent, being linked with not
+only the mass of the feed, but the ability to disperse, and whether or not the point feed hole
+remains open.
+
+Taking the data of Figure 6 (which is associated with a daily production of approximately 1.3
+tonnes of aluminium), and applying Equation 10, gives an indication that, for this technology,
+the amount of aluminium fluoride consumed by the overall hydrolysis reaction (including
+vapourisation) is 13 kg / tonne of aluminium for bar break and 24 kg / tonne of aluminium for
+the point fed technology.
+
+Summary of Contributions to the Consumption
+
+The total consumption can be summarized by the contributions from the various individual
+causes. These are as follows:
+
+Table 1: Summary of AlF3 (kg/tonne Al) consumption at the cell.
+   Source             Contribution     Explanation
+                     Min    Max
+ B A  Na2O              10      20            Variationsbased on 14%dependandon7%theexcesssourcedAlF3alumina.respectivelyMax andand theminextremevalues
+ T                                                                    oxide compositions noted previously in the text. Affected by feeding
+ H   CaO                 0.3     1               rate.
+ H Y  H(Anode)          3       9           Dependant0.03% to 0.1%.on theGivenhydrogenas a contentrough estimatein the anodes.as thereRangesis currentlytakenlittleas
+ D                                                                  data in open literature.
+ R
+ O  H2O(Crystalline)     3       6           Dependentmethod, andonaluminathe crystallinefeeding rate.water content of the alumina, feeding
+ L
+ Y  H2O(Adsorbed)       0.2     2           Dependantalumina feedingon therate.preheatingLimited effectof theonaluminaemissions.(feeding method), and
+ S
+   I
+ S
+ D U  Vapourisation       5       10        MaximumMinimum takentakenforforananexcessexcessAlF3AlF3contentcontentof 7wt%of 14wt%with goodwith limitedcover.
+ S                                                                       cover.  Values are dependent on bath chemistry, cell setpoints and
+ T                                                                   bath cover integrity.
+
+
+Dynamic variations in these contents however give an indication of expected changes in a
+set time period. Table 2 presents these per tonne of Al produced:
+
+Table 2: Expected Dynamic Variations (kg/tonne Al) of consumption contributors.
+ Source                  Variation     Explanation
+                      Min   Max
+ Oxides (Na2O, CaO)     0     3         Longaluminatermshipments.variations±15%mainlydailyduevariationsto compositionaldue to changesdifferencesin aluminain thefeedingfeed
+                                                                    composition from sludge back feeding, cover dissolution and different feeding
+                                                                              rates.
+ H(Anode)              0       0.5        Dailythe totalvariationsanodes duein a cell,to anodevariationschange.will beForminimal.similarly baked anodes and over
+ H2O(Crystalline)         1     3           Variationsscheme, onlydependentshort termonchangesfeeding duescheme.to aluminasIn anfeedingunder rate.and overLongerfeedingterm
+                                                                             variations dependant on shipment alumina composition
+ H2O(Adsorbed)         0       0.5       Dependantfeeding rate.on theLonger-termpreheatingchangesof the aluminaarise from(feedingchangesmethod),in environmentaland alumina
+                                                                         humidity.
+ Vapourisation           0     2         Dependantseen from heaton cellbalancecondition,changes.chemistry and crust integrity.  Sharp changes
+
+
+Ultimately most of the emissions (hydrolysis and dust) component is recycled back to the cell
+via the scrubbing system.  Total losses to the mass balance result from the oxide reactions
+and fugitive emissions. Fugitive emissions which can vary from 0.5 to 1.2 kg AlF3 / tonne Al
+depending on cell technologies and smelter practices.
+
+                                                                   8
+
+## PDF page 9
+
+CONCLUSIONS ON AlF3 CONSUMPTION.
+
+By considering all the possible consumption contributors, several broad generalizations can
+be made about the loss processes affecting the AlF3 content of an aluminium smelting cell.
+Most importantly is that for the overall process (a cell and dry scrubbing unit), the major loss
+of aluminium fluoride can be attributed to reactions with the oxide impurities (Na2O and CaO)
+introduced with the feed alumina. The hydrogen fluoride emission losses contribute to the
+dynamic variability of the content. But in the long term 99% of these losses are recycled back
+to the cell via the secondary alumina feed. Moreover, variations from these material sources
+are  relatively  small.   Most  fluctuations stem from changes  in  the alumina  feeding
+methodology (as well as sludge and crust dissolution), as this affects both hydrogen fluoride
+generation and the instantaneous amount  of oxide  impurities entering the  cell.  The
+hydrogen content of the anodes is a constant consumer of AlF3, in the form of fluoride
+emissions.  However this content also causes only minor dynamic variability in the AlF3
+content and  is recycled as part of the secondary alumina feed.  Therefore any large
+variations in the aluminium fluoride content is likely to be attributed to changes in the heat
+balance of the cell.
+
+
+
+PART 2: Variability and Control
+
+BACKGROUND TO VARIABILITY AND CONTROL
+
+The analysis of the consumption of aluminium fluoride in smelting cells demonstrates that
+the changes in aluminium fluoride demand would normally be small, unless there is a major
+shift in one or more of:
+
+•   the sodium and impurity analysis of the primary alumina,
+•   the adsorbed or crystalline water of the alumina
+•   or the amount of alumina fed to a cell,
+or the cover of the cell also changes dramatically.
+
+Based on the normal daily production and the large liquid volume of electrolyte, one would
+not expect to see a major change in the aluminium fluoride material balance and hence
+concentration at constant bath volume.  Practically however, as demonstrated in Figure 7,
+the change that occurs in a smelter is much more dramatic. While it is commonly assumed
+that the liquid bath volume is constant,  it is known to change with heat balance.  Process
+operators are  in a dilemma – should they attempt to maintain constant concentration
+(because of its impact on current efficiency), or should they attempt to maintain the material
+balance, so that the concentration is correct when the cell is within its design mass and
+energy balance?]
+
+ Aluminium smelting cells are designed for a specific heat balance, and the resultant outputs
+for a cell operating within its design specifications are the superheat of the electrolyte(which
+is typically about 10oC) and side ledge thickness. These design outputs are based on the
+average energy demand of the inputs and outputs, coupled with the design heat losses.
+
+Because the process has several batch operations superimposed on the continuous
+electrolysis, there is often a mismatch between the process energy requirements and the
+average energy balance for the process design. As seen in Figure 8, the process energy
+demand exceeds the design criteria whenever a new anode is introduced. The additions of
+alumina also increase the process energy demand, although there is a compensating energy
+flow as the alumina is electrolytically removed. Extra energy may be made available by:
+ •  applying extra voltage (including noisy cell voltage),
+ •  a significant transient surplus whenever the cell gets depleted of alumina and has an
+    anode effect.
+Further complications to the energy balance situation includes
+•   non-scheduled anode changes, which adds further to the process demand, and
+•   the changed heat flow as a consequence of metal tapping.
+
+                                                                   9
+
+## PDF page 10
+
+         14
+     (wt%)         12
+
+
+         10             concentration           8
+     AlF3
+           6
+      excess
+           4
+            0     10     20     30     40     50     60
+                         Days
+          Figure 7: Variability over time in %excess AlF3 in a Smelting Cell
+
+The time scale over which some of the process energy demands and their consequences
+occur varies, in some instances being of the order of less than an hour but in other instances
+they can exceed a day. Whenever there is an energy imbalance within the electrolyte zone,
+there is invariably a shift in temperature as the energy surplus/deficit is accumulated initially
+as sensible heat. The more important consequence of the shift in bath temperature is a
+similar shift in the process superheat.  Change in superheat is the driving force for the
+change in energy flow from the cell through the sidewall; hence the ledge covered sidewall is
+the main heat valve in an operating smelting cell and the consequence of changes in heat
+flow is melting or freezing of ledge.
+
+
+          Anode Change   Alumina feeding       Non-scheduled
+                                             anode change
+       Requirements
+
+
+                                                      Design    Energy              Anode Effect
+    Process
+       0.0         0.1         0.2         0.3         0.4         0.5
+                  Fraction of Operating Cycle
+
+
+
+  Figure 8: Change in energy balance over time (assuming constant setpoint voltage
+                             and amperage)
+
+
+Figure 9 gives a measure of the range of superheats that have been observed in a potroom
+of operating cells.  Low values result in very poor dissolution of the alumina.  This poor
+dissolution can lead to an over-feeding and sludge formation and accumulation.  These
+changes not only have consequential effects on the aluminium fluoride requirements, but
+also help maintain the superheat low, thus accentuating a bad condition. In addition, a
+reduction in superheat causes freezing in of the side ledge, impacting on the mass of liquid
+bath.  In contrast, when the superheat is higher than the design value, melting of the side
+ledge occurs.  This can, in extreme situations, lead to a total melting of the side freeze,
+
+                                                                  10
+
+## PDF page 11
+
+almost doubling the volume and mass of liquid electrolyte.  These changes in bath mass
+have a consequential impact on the analysed aluminium fluoride concentration.  Thus,
+process operations and transient cell conditions as a consequence of these dynamic effects
+impact both the true and apparent demand for aluminium fluoride and the control analysis
+measures
+
+                35
+                                                      N = 257
+                30
+                      cells 25
+         of
+                20
+
+                15                          Number
+
+                10
+
+                 5
+
+                 0
+                   0 1  2 3 4 5  6 7 8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+                                             Superheat ° C
+
+                     Figure 9: Superheat Variation in a Smelter
+
+
+Aluminium Fluoride Control in Smelting Cells
+
+The most common approach in determining the amount of aluminium fluoride to be added to
+a cell, is to modify a base amount in proportion to the deviations in analysed or measured
+process conditions – particularly the analysed aluminium fluoride concentration and/or the
+measured electrolyte temperature.  Temperature  is becoming a more common feature
+because   it  is more  easily measured and  can,  therefore, have a  quicker response
+characteristic.  A typical general equation for aluminium fluoride control additions is as
+follows:
+
+     m AlF3 = A + B (Tbath _ actual − Tbath _ t arg et ) + C ( X AlF3 _ actual − X AlF3 _ t arg et )
+
+This equation can take into account some of the base requirements within its cell constant
+(A). Usually either B or C equals zero, however some smelters incorporate both.
+
+For smelters where C is zero, additions are adjusted on the basis of temperature alone. The
+temperature is used because, whilst frozen ledge exists, the temperature tends to track the
+phase diagram by the difference associated with the superheat.  This however is based on
+the assumption  that deviation from the target temperature  is mainly due  to changed
+aluminium fluoride concentration. In addition, the assumption often is made that the deviation
+in aluminium fluoride concentration is due to a deficit in the mass of aluminium fluoride in the
+bath. These assumptions can have limitations through reasons associated with variations in
+heat balance and process operations. For example, a change in temperature may only be
+partly due  to a  change  in  aluminium  fluoride  concentration. Changes  in  alumina
+concentration (impacting on liquidus temperature) or changes in superheat of the bath may
+be part of the cause, as illustrated by data in Table  I. In addition, a change in aluminium
+fluoride concentration can be caused by a change in bath mass rather than changes in
+aluminium fluoride mass.
+
+
+
+
+                                                                  11
+
+## PDF page 12
+
+ Table III: Percentage variation in temperature explained by variation in chemistry and
+                     superheat in a number of different cells
+                            (Stevens McFadden 1998)
+
+  % variation in        Group X    Group Y      Group Z     Group Z
+   temperature                                 Time Period  Time
+   explained by                                  1             Period 2
+    variation in:
+    AlF3                 79          42           63           1
+   Al2O3                7           22             -23          30
+   Superheat            10          35           77           72
+
+
+The limitations in this control approach is reflected by the process swings that are achieved
+in operating smelters (refer Figure 7) and the variability that inevitably result for different
+operations (refer Figures 9).
+
+
+
+Causes for Variation in Temperature
+
+Bath Temperature  is equal to the liquidus temperature plus the superheat of the bath.
+Changes  in  the bath superheat  or  liquidus temperature  will  directly impact on bath
+temperature. Dynamic variation in liquidus temperature in industrial cells is predominantly
+due to changes in aluminium fluoride and alumina concentrations. Dynamic variation in
+superheat  is caused by variation  in the energy balance or by changes  in parameters
+affecting heat loss from the cell, while this directly affects the bath temperature the more
+important effect comes indirectly, via the impact of variation in superheat on variation in bath
+mass via the ledge dynamics.
+
+The transient changes in energy demand, associated with anode changing and alumina
+dissolution and changes in energy input due to anode effects, give rise to short term
+variation in superheat and freezing of electrolyte
+
+The thermal impact of a new anode is concentrated in a localised zone in a cell. While the
+impact is technology and cell size dependent, some generalities can be drawn, as shown in
+Table IV. A new anode not only places a thermal demand on the electrolyte and metal pad,
+but  it also leads to a redistribution of current with consequentially higher heat generation
+rates elsewhere. These impact last from 12 to 30 hours.
+
+In contrast, the energy impact of an anode effect is more uniformly distributed.  In some
+technologies anode effects last for only 30 seconds, others 200 seconds, and occasionally
+they may last several minutes. The intense heat generation rate results in a rapid increase
+in superheat, and thus a rapid melting of the side ledge. For prolonged AE’s the side ledge
+has been shown to totally disappear (Taylor,1984 : Taylor and Welch, 1985).
+
+Another transient and unpredictable thermal effect is the shorting (“spiking”) of an anode to
+the metal pad.  This typically results in a higher non-Faradic current through that anode
+generating the heat locally. While the impact of this can be accounted for in terms of current
+efficiency (see Table V), it will have the reverse impacts on superheat and electrolyte to that
+of a new anode within a cell.
+
+Over-feeding and sludge formation occurs more slowly. While sludge build-up is occurring it
+is absorbing the pre-heat energy for the material, Whereas when sludge back-feeding is
+occurring, energy for dissolution is being absorbed. This tends to maintain the superheat at
+a low level during both the formation and dissolution of sludge.
+
+
+                                                                  12
+
+## PDF page 13
+
+                Table IV: Approximate changes (from steady state)
+              in cell superheat and ledge mass with process disturbances
+
+EVENT                 LOCAL ZONE IN CELL      ELSEWHERE IN CELL
+
+                          Superheat    Ledge Mass   Superheat  Ledge Mass
+                                      (oC)            (%)             (oC)          (%)
+(a) Short Term* Impact*
+New Anode                  -10 to -12      +50 to +90       -2 to 4      +20 to 40
+Anode Spike              +3 to 6          -20 to -30        -1 to +2       -5 to +5
+Anode Effect              +10 to +20      -50 to –100     +10 to +20   -50 to –100
+
+(b) Long Term Impact*****
+New Anode                   -2 to –5        +20 to +50       -2 to –4     +20 to+40
+Anode Spike              +3 to +6         -30 to –100     +1 to +3      -15 to -35
+Anode Effect              +3 to +5         -30 to –90      +3 to +5      -30 to –90
+                                      * Short term approximately 0 to 2 hour time period
+                                       ** Long term approximately greater than 6 hours
+
+In addition, medium term (day to day) changes in process parameters also impact on
+superheat, the freezing/melting of ledge and hence change bath mass. Predicted changes in
+superheat and ledge mass for given changes in process variables are detailed in Table IV.
+The changes considered are the largest change in process variables from their target levels
+that typically occur from one day to the next. This data is from steady state thermal modelling
+of a typical cell, note that changes in only one parameter is considered, in isolation of the
+secondary effects due to the resulting changes in other parameters that also affect the
+energy balance outcomes. For example, addition of voltage which causes the decrease in
+ledge mass and hence increase in bath mass,  will also cause as a consequence, an
+increase in bath height, reduction in metal height and aluminium fluoride concentration and
+probably current efficiency. Some of these secondary changes have a reinforcing effect and
+others a balancing effect on the impact of the voltage on superheat and ledge mass. To
+determine the overall effect, significantly more sophisticated modelling would need to be
+performed, however the results do show that the impact of changes in process variables on
+superheat and ledge mass is significant.
+
+ Table V: Predicted changes (steady state) in cell superheat and ledge mass with the
+   changes in process variables that can possibly occur from one day to the next.
+
+   Process Variable           Change               Impact On:
+                                             Superheat    Ledge Mass (%
+                                                           (ºC)          change)
+
+    Cell Voltage                +250/-20mV        +2.9/-0.2           -30/+4
+
+   Amperage                     +0.1/-2kA          +0/-0.3             -0/+6
+
+   Excess AlF3                  +2/-3%          +0.3/-0.6           -4/+13
+
+    Alumina                      +/-2%           +0.3/-0.6           -3/+12
+
+    Metal height                +/-20mm           -/+0.7             +/-10
+
+    Bath height                 +/-30mm           -/+0.5             +/-17
+
+    Current efficiency              +/-4%             -/+0.8             +/-12
+
+
+Given that the mass of ledge in a cell is typically the same as that of the bath (or in some
+instances more), these predicted changes in ledge mass will cause a similar or even greater
+percentage change in bath mass. A change of +/-20% in bath mass would cause a change
+in excess AlF3 of +/-2wt% for cells with typical cell chemistries. Changes in excess AlF3 of
+                                                                  13
+
+## PDF page 14
+
+this order (or +/-15ºC of liquidus/bath temperature) can be observed from one day to the
+next. The data presented above suggests energy balance related changes in bath mass
+might be a likely explanation, rather than changes in the mass of AlF3 in the bath due to
+changes in cell aluminium fluoride demand.
+
+
+Accuracy of Measurements within the Cell and Reliability of Data
+
+When  the  cell  is sampled  (for  electrolyte  composition),  or  conditions measured  (for
+temperature), this is done at a fixed location in a cell. Often it is done at a fixed time in the
+work practice cycle.  Thereafter  it is assumed to be representative of the cell condition.
+However, Purdie (1992) has shown that not only is mixing within the cell a slow process, but
+also the temperature varies within the cell. The latter, illustrated in Figure 10, can vary by
+more than 10oC.
+At least part of the spatial temperature variation is likely to be associated with the work
+practices discussed in the preceding sections of this manuscript.
+
+                                 C                                           u/s
+      25                      t.e.                              d.e.
+                    A                 B
+
+      20                                  d/sC
+
+           FEED
+      15     ACTIONS                            Bchange,
+                           A      10
+
+                         C
+       5 temperature                NON-FEED PERIOD
+       0
+        0              0.5            1.0            1.5            2.0            2.5
+                                    time, h
+
+           Figure 10: Variation in temperature at various locations in a cell
+
+Spatial Variation in Temperature
+
+Because of the potential impact of work practices on the local variation in temperature, a
+study has been made for several technologies on the impact of work practices on the
+measured temperature. Temperatures were measured at a fixed location on the cell and at
+a fixed time with respect to the work practices (that  is, a prescribed time before metal
+tapping).  If the variation in temperature observed was due to the anode change pattern and
+heat transfer, the magnitude of both the thermal effect and its resultant pattern would be
+dependent on the technology.
+
+In order to determine this but eliminate local variations due to special conditions in the cell,
+the measured values  of both aluminium  fluoride concentration and temperature were
+analysed for ten randomly selected cells over three full anode change cycles. The data was
+averaged and compared against the average overall process conditions.
+
+
+
+
+
+                                                                  14
+
+## PDF page 15
+
+         5
+
+         4
+
+         3
+
+         2
+
+         1
+
+         0         Deviation
+           -1
+
+           -2
+
+           -3           Temperature  -4
+             0   2   4   6    8   10   12  14  16  18  20  22  24
+                     Day of Operating Cycle
+
+        Figure 11: Average Temperature Deviation from target
+Figure 11 presents the data obtained for one technology and it is seen that, depending on
+the day, there was a significant difference in the average temperature. The maximum
+differences occurred when anodes were changed most remotely from the measurement
+point in the cell. The resulting redistribution of the cell current, leads to a higher current
+density in the anodes near the measurement point, and hence a greater heating rate.
+Conversely, the lowest temperatures were recorded when the most recent anode changes
+occurred very near the measuring points. This trend was consistent for the two quite different
+anode setting patterns analysed.
+
+Figure 12 illustrates the average aluminium fluoride additions associated with the same work
+cycle. As the smelter operates with a dry scrubber, the overall average should equate to that
+required for the sodium oxide content of the alumina, and this was the case.  There is a
+similar cyclical behaviour of aluminium fluoride additions over the work cycle as that for
+temperature, which  is expected given the control strategy in operation at this smelter.
+However, in this instance the data also shows that the addition rate is below that theoretically
+required when the cell is actually near its target condition early in the work cycle (eg on day
+zero).  This under addition early in the work cycle is likely to accentuate the temperature
+behaviour associated with the work cycle and  in addition mean  that over-addition  of
+aluminium fluoride is required in the later part of the work so that the average demand is
+satisfied
+
+    15
+             Average demand
+
+added
+AlF3 10
+kg
+
+
+
+
+      5
+
+       0   2   4   6   8   10  12  14  16  18  20  22  24
+                    Day of Operating Cycle
+
+            Figure 12: Aluminium Fluoride additions over the work cycle
+
+Summary and Conclusions
+The analysis of the aluminium fluoride demand has shown that from a materials balance
+viewpoint there is unlikely to be a significant change in the amount of aluminium fluoride
+required per day on the average. The concentration however, can vary dramatically on a
+daily basis through deviations in the energy balance from the target.  This imbalance is
+
+
+                                                                  15
+
+## PDF page 16
+
+accentuated by spatial variation and hence measurement errors due to the condition being
+sensed in only one location in the cell. In summary:
+
+1.  Measured values of aluminium fluoride concentration and temperature are influenced
+    spatially because of work practices.
+2.  The spatial variations can be characterised and understood from the anode setting
+    practice.
+3. Some process abnormalities (such as anode effects and extra cell voltage) lead to cell
+    wide shifts in measurements whilst others (such as anode change and anode spike
+    formation) lead to a more localised effect.
+4.  Because the average temperature and aluminium fluoride concentrations over the full
+   work cycle tend to be on target, using the theoretical requirements is a good basis for
+   maintenance of aluminium fluoride mass in the cell.
+5.  Apparent time constants and time lags encountered by some smelters after fluoride
+    additions may in fact be explained due to the dynamic variability and pattern of work
+    practices.
+6. A weighted balance between the desire to maintain aluminium fluoride concentration and
+    the need to have a global aluminium fluoride material balance may reduce the dynamics
+    observed in the cell.
+7.   All aluminium fluoride maintenance programs should benefit by making allowance for the
+    spatial variation in process measurements.
+
+Whilst the energy imbalances of the cell are the root cause of variation in temperature, these
+imbalances usually arise from either work practices or cell abnormalities.  The dynamic
+variations will account for work practices, but not the abnormalities.  Thus, the long-term
+future control can best be addressed by better detection systems for cell abnormalities.
+
+References
+Haupin, W. and Kvande, H. (1993).  “Mathematical Model of fluoride evolution from Hall
+Heroult cells”. Light Metals 1993, pp 257 – 263.
+
+Henry, J.L. (1963).  “A study affecting fluoride emission from 10,000 ampere experimental
+Aluminium reduction cells”.  Extractive Metallurgy of Aluminium. Volume 2 – Aluminium.
+John Wiley and Sons. pp 67 – 81.
+
+Hyland, M.M., Welch, B.J. and Metson, J.B. (2000).  “Changing knowledge and practices
+towards minimising fluoride and sulphur emissions from aluminium reduction cells”.  Light
+Metals 2000, pp 333-338.
+
+Stevens McFadden, F. J. (1998). “Energy Balance and Cell Dynamics: Considerations for
+Cell Design, Operations and Process Control”. in Proc 6th Australasian Aluminium Smelting
+Conference and Workshop, (Eds M Skyllas-Kazacos & B J Welch) Queenstown, New
+Zealand, pp 289-320.
+
+Taylor M.P. “The Influence of Process Dynamics on the Heat Balance and Cell Operation in
+the Electrowinning of Aluminium” PhD Thesis , University of Auckland (1984).
+
+Taylor, MP and Welch, B.J., (1985) "Process Dynamics and Heat Balance - Implications for
+Operating Strategy, Control and Future Design”. Incal-85 (Ind.Inst.Met.), pp 85-98.
+
+Taylor, MP, (1997) “Challenges in Optimising and Controlling the Electrolyte in Aluminium
+Smelters”  in Proc  5th International Conference on Molten Slags, Fluxes and Salts (ISS)
+Sydney, January 1997, pp 659-674.
+
+Welch, B.J. (1998)  “Impact of Changes in Cell Heat Balance and Operations on the
+Electrolyte Composition”  in Proc  6th Australasian Aluminium Smelting Conference and
+Workshop, (Eds M Skyllas-Kazacos & B J Welch) Queenstown, New Zealand, pp. 191-204,
+November 1998.
+
+Purdie J.M.  “ Alumina behaviour and related process variations in aluminium smelting “ PhD
+Thesis , University of Auckland (1993).
+
+                                                                  16

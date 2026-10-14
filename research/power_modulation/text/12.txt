@@ -1,0 +1,681 @@
+Source: modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf
+
+## PDF page 1
+
+JOM, Vol. 67, No. 9, 2015
+DOI: 10.1007/s11837-015-1525-2
+  2015 The Minerals, Metals & Materials Society
+
+
+
+The Formation and Dissolution of Crust Upon Alumina Addition
+into Cryolite Electrolyte
+
+
+           YOUJIAN YANG,1,2 BINGLIANG GAO,1,3 ZHAOWEN WANG,1
+          ZHONGNING SHI,1 and XIANWEI HU1
+
+
+                 1.—School of Materials and Metallurgy, Northeastern University, Mail Box 117, Shenyang, China.
+                  2.—e-mail: yangyou100@163.com. 3.—e-mail: blgao@mail.neu.edu.cn
+
+            The properties of the alumina agglomerate/crust formed upon smelting grade
+             alumina feeding and the corresponding dissolution rates in cryolite electrolyte
+             were studied using a suspended weighing device. A series of experiments was
+              designed to investigate the dissolution rate of the crust at various tempera-
+               tures and the effects of initial alumina concentration in the electrolyte on the
+              formation process and properties of the crust. Initial results showed that
+             under experimental non-stirring conditions, a large proportion as high as 54–
+           64% of the fed alumina participated in the formation of the crust upon feeding
+               at 1233–1238 K (960–965 C). The dissolution rate of the crust decreased
+               greatly with the increase of initial alumina concentration and the decrease of
+               operating temperature. The mass of the crust increased signiﬁcantly at high
+                  initial alumina concentrations and decreased temperature, while the alumina
+               content of the crust showed a slight decreasing trend. Other parameters of the
+               crust such as volume density and gas-ﬁlling fraction were also measured. The
+              inﬂuence of physical stirring on alumina dissolution rate was also discussed.
+
+
+
+
+                                                  path in the cell and then causes the unstable ﬂow of
+          INTRODUCTION
+                                                     the metal pad as well as other consequences. With a
+  Smelting grade alumina (SG alumina) is used as     poor dissolution capacity, the formation of the crust/
+the raw material in the aluminum electrolysis pro-     sludge induces problem in maintaining the alumina
+cess, where it acts as a solute in the molten cryolite     concentration in the bath.
+electrolyte. In industrial practice, it has been difﬁ-      Most of the earlier research on the dissolution of
+cult to control the process of alumina dissolution.    alumina crust was established with the purpose to
+The alumina is fed periodically to the cell and the     obtain a fast dissolution rate, in which physical
+batch size depends on the feeding strategy. Once the     stirring was introduced and the crust was artiﬁ-
+cold alumina  is added into the molten bath,  it      cially broken into small pieces. The crust behavior,
+spreads out quickly on the liquid surface and a piece     including the formation, composition and dissolu-
+of agglomerate could be observed. The normal size of     tion rate, has not been well investigated.
+each feeding (about 1–2 kg) is still too large to ob-       Rolseth et al.1 tested the dissolution rate of SG
+tain immediate dispersion of all the alumina powder    alumina  powder  under  similar  gas-stirring  as
+in the relative small surface area and volume of the     industrial  conditions. A  two-stage  dissolution
+bath between neighboring anodes in the feeding     behavior was observed when a batch of alumina
+zone, though the central point feeding system used    powder was added. The ﬁrst stage was the fast dis-
+in modern cells facilitates the dispersion and the     persion of alumina powder upon feeding where 30–
+dissolution rate  of alumina beneﬁting from the    50% of the batch dissolved in seconds, and the second
+physical stirring caused by the release of anode gas.     stage was the relative slow dissolution of the crust.
+  The alumina crust has a slow dissolution rate in    Walker et al.2 retrieved the alumina agglomerate
+contrast to the fast-dispersed alumina powder upon    from an industrial cell with a stainless steel mesh
+feeding. Undissolved alumina tends to accumulate     basket at different time durations after the alumina
+on the bottom of the cells to form sludge. The bottom     feeding. It was found that the density of the crust
+sludge is undesirable because it disturbs the current    would  approach  2.4 g cm 3  and  the  porosity
+
+
+2170                                                                                             (Published online July 8, 2015)
+
+## PDF page 2
+
+The Formation and Dissolution of Crust Upon Alumina Addition into Cryolite Electrolyte                      2171
+
+decreased with immersion time. Keller3 has observed     adsorption  method   (PS2-0001A   Workstation;
+the alumina agglomerate through a quartz tube and     Beishide Instrument Technology, China). The mor-
+estimated the crust density with assumed alumina     phology of the alumina particles was observed using
+content of the crust. The results showed that the    a scanning electronic microscopy (SEM; Zeiss EVO
+densities of the crust varied from 2.26 g cm 3 to     18, Germany). True density of the alumina sample
+2.53 g cm 3 when the alumina content of the crust    was determined with Archimedes’ principle of gas
+increased from 23.9% to 43.3% at 1223 K (950 C).       displacement  method  (3H-2000TD1;   Beishide
+  The mass, properties and dissolution rate of the     Instrument Technology, China). The attrition index
+alumina crust due to SG alumina feeding were    was tested with a powder abrasion tester (ALF-1;
+investigated through a series of experiments. The     BeiJing ZhongYiLiLang Technology, China) and
+formation and dissolution  of the crust and the     calculated with Eq. 1.
+inﬂuencing factors including temperature and ini-
+tial alumina concentration in the electrolyte were                      ðX  YÞ
+                                                           AI ¼          100%              (1)discussed in the present paper.                                                                      ð100  YÞ
+
+          EXPERIMENTAL                 where AI is the attrition index, %, X is the mass
+                                                           fraction for particles with grain sizes less thanChemicals
+                                                45 lm after the abrasion test, %, and Y is the mass
+  The chemicals used in the trials and correspond-     fraction for particles less than 45 lm before test, %.
+ing treatments are listed in Table I. Tests were       Rietveld reﬁnement using FullProf Suite Program
+conducted in cryolite melts with a molar ratio of      (2.05) was employed to analyze the phase composi-
+NaF to AlF3 equal to 2.9 containing 5 wt.% CaF2     tion of alumina from x-ray diffraction (XRD) pat-
+and 5 wt.% LiF. The electrolyte has a liquidus point     terns.5 Diffraction data were collected with Cu-Ka
+of 1225.8 K (952.8 C), which allows the operating     radiation equipped on PANalytical PW3040/60 X’
+temperatures of the tests in the range of 1233–     Pert Pro MPD diffractometer (PANalytical, Almelo,
+1238 K (960–965 C). The SG alumina sample used     Netherlands). The total scan time was about 1020 s
+in  the experiments was  primary/fresh alumina     with the angular range (2h) from 5  to 90 .
+sampled from the commercial smelter. Sodium and
+silicon were found to be the major impurities in the    Apparatus for Sampling and Weighing of the
+sampled industrial alumina according to the x-ray    Crust
+ﬂuorescence (XRF) analysis.
+                                              The experimental apparatus for observing, sam-
+                                                        pling and weighing of the alumina crust was aMeasurements of the Alumina Speciﬁcations
+                                                    quartz crucible, as shown schematically in Fig. 1.
+  The  particle  size  distribution  of the alumina     A high purity a-quartz crucible with a dimension
+samples was tested with a laser diffraction particle      of 65 mm 9 70 mm 9 90 mm with a wall thick-
+size analyzer (Mastersizer 2000; Malvern Instru-     ness of 3 mm was placed in the center of the fur-
+ments, UK). Absorbed water (MOI or LOI 25–300)     nace. The crucible had no volume change caused by
+was measured by heating samples at 573 K (300 C)    phase transition at below 1273 K (1000 C), which
+for 2 h. Structural hydroxyl content (LOI or LOI     prevented  it being damaged. The weight of elec-
+300–1000) was calculated through the mass differ-     trolyte in each run was 500 g, with a molten bath
+ence of sample calcined at 573 K (300 C) for 2 h and     height of approximately 55 mm. When the quartz
+1373 K (1100 C) for 2 h. Brunauer–Emmett–Teller     crucible was heated to a certain temperature above
+(BET) surface area was measured with the static     the liquidus point  of the  electrolyte, the melts
+
+
+
+
+Table I. Chemical treatments and preparation
+
+Chemicals            Purity                                 Treatment
+
+Cryolite             SG, >99.0%              Dried at 673 K (400 C) for 2 h and kept in a dry box before use
+CaF2               AP, >99.7%
+MgF2               AP, >99.7%
+LiF                 AP, >99.7%
+KF                 AP, >99.7%
+AlF3                CP, >99.7%         Mixed with NH4HF2 (CP) with a mass ratio of 7:3, was dried at 423 K
+                                          (150 C) for 2 h, 523 K (250 C) for 2 h, and then 773 K (500 C) for 3 h at least.
+                                                            Kept in a dry box before use4
+Pri-alumina/%      Al2O3     Na     K          Li       Ca      Mg        Fe         Si       S
+                    99.10       0.27       0.01     <0.001       0.03     <0.001       0.02       0.10       0.02
+
+## PDF page 3
+
+2172                                                                         Yang, Gao, Wang, Shi, and Hu
+
+
+
+
+
+Fig. 1. Experimental apparatus to measure the dissolution rate of alumina crust.
+
+
+became  transparent. Then, 5 g alumina,  corre-     as well as the crust could be withdrawn from the
+sponding to 1 wt.% of the bath, was added into the     molten electrolyte simply by raising the balance at
+melts through a corundum tube positioned 20 mm    40 s after the boat-like crust was sunk under the ac-
+above the bath surface. A stainless steel rod was used     tion of the external force. Several snapshots corre-
+to dredge the feeding tube in case of blockage. After     sponding to these operations are shown in Fig. 2.
+alumina addition, the alumina powder spread out     After the crust was dissolved or withdrawn and the
+quickly on the liquid surface, a large proportion of     bath temperature became stable, another 5 g of alu-
+alumina particles dissolved rapidly upon feeding,    mina sample was then added. The  dissolution
+while the rest formed a large piece of agglomerate/     experiments conducted are listed in Table II.
+crust which was clearly visible and took longer time
+to be dissolved. A balance (with maximum sensitivity         RESULTS AND DISCUSSION
+of 0.0001 g) was used to measure the mass change of
+                                               Speciﬁcations of a Typical SG Alumina
+the agglomerate. A platinum plate (U47 mm) was
+suspended from the balance using U0.2-mm plat-      The speciﬁcations of the SG alumina sample used
+inum wires and used to capture the agglomerate. The     in the experiments were tested and the results are
+balance was installed to a lifting arm which enabled      listed in Table III. The particle size distribution of
+the platinum plate to move up and down. Before each     the sample is presented in Fig. 3. As is shown in
+addition, the platinum plate was positioned 15 mm     Table III and Fig. 3, a typical SG alumina should
+below the liquid level. Then, 80 s after addition, the    have a narrow range of particle size distribution and
+plate was lowered by 10 mm to force the boat-like    a small amount of ﬁne particles, which facilitates
+ﬂoating crust to sink in the melts. A computer con-     the hyper-dense phase conveying of alumina and
+nected to the balance was used to record the mass     reduces the dust emissions during feeding. A large
+data at a frequency of 4 Hz until the crust was com-   BET surface area indicates good adsorption capacity
+pletely dissolved. Alternatively, the platinum plate      of the alumina when it is used as the absorbent in
+
+## PDF page 4
+
+The Formation and Dissolution of Crust Upon Alumina Addition into Cryolite Electrolyte                      2173
+
+
+
+
+
+                        (a) Before feeding                 (b) The moment of feeding
+
+
+
+
+
+                (c) Re-melt of the frozen layer, 10 s after   (d) Lowering the platinum plate, 80 s
+                  feeding                                              after feeding
+
+Fig. 2. Snapshots of the feeding and plate moving operations, 1238 K (965 C). (a) Before feeding. (b) The moment of feeding. (c) Re-melt of the
+frozen layer, 10 s after feeding d Lowering the platinum plate, 80 s after feeding.
+
+
+
+
+
+Table II. Experiments designed to investigate the properties and dissolution rates of the alumina crust
+
+No.     Electrolyte       T/K               Purpose                            Details
+
+1     2.9NaFÆAlF3-5%   1238 (965 C)   To investigate the dissolution rate   Measuring the weight loss of the crust at
+       LiF-5%CaF2                        of the alumina agglomerate/crust,    the first 5 times of addition, withdraw-
+                                   and the properties of the crust.     ing the crust formed after the 6th addi-
+                                                                                                             tion.
+2                     1233 (960 C)   To investigate the effect of oper-    Measuring the weight loss of the crust at
+                                          ating temperature on the forma-    the first 4 times of addition, withdraw-
+                                             tion and dissolution rate of the     ing the crust formed after the 5th addi-
+                                                            crust.                                       tion.
+3                     1238 (965 C)   To investigate the effect of existing    Withdrawing the crust formed when
+                                    alumina concentration on the for-   alumina concentration in the electrolyte
+                                     mation and properties of the crust.    was 0%, 3.0% and 4.5%, respectively.
+4                     1233 (960 C)   To investigate the effect of existing    Withdrawing the crust formed when
+                                    alumina concentration on the for-   alumina concentration in the electrolyte
+                                     mation and properties of the crust.   was 0%, 1.75%, 3.0% and 4.5%, respec-
+                                                                                                              tively.
+
+
+
+the dry-scrubbers, and a low attrition index guar-     adsorb air moisture,6 probably to form a relative
+antees  that  the alumina  particles  will  not be     large adsorbed water content (LOI 25–300) which
+severely crushed after scrubbing. With a large sur-    would add to the emission of harmful hydrogen
+face  area,  the  alumina  particles  subsequently     ﬂuoride (HF) by hydrolyzing with bath vapors
+
+## PDF page 5
+
+2174                                                                         Yang, Gao, Wang, Shi, and Hu
+
+
+
+Table III. Speciﬁcations of the SG alumina sample
+
+Average grain size (lm)                     69.95                 Bulk density (g cm  3)                    1.03
+Fine particles<28 lm/%                      3.28                 True density (g cm  3)                    3.33
+Fine particles<45 lm/%                    18.53                   Angle of repose (o)                    32.01
+After abrasion<45 lm/%                    20.24                    a phase content (%)                     1.12
+Attrition index (%)                            2.10                       c phase content (%)                    25.79
+BET surface area (m2 g  1)                   84.63                             c¢ phase content (%)                    47.33
+LOI (25–300) (%)                             3.95                    h phase content (%)                    25.75
+LOI (300–1000) (%)                           0.97                           Chi2a                            0.434
+
+aChi2 (=Rwp/Rexpected) represents the ﬁt of the calculated pattern (presents as Rwp, weighted-proﬁle R value) to the observed data (presents
+as Rexpected, reﬂects the quality of the data).7 Chi2<2 was deemed acceptable for SG alumina.
+
+
+
+    12                                               area of 84.63 m2 g 1 in which the internal surface
+                                                    area was included. For this reason, the SG alumina
+                                            was used as the absorbent in the dry scrubbers to
+    10
+                                                          recycle ﬂuoride vapors from the cell fume for eco-
+ %
+                                                nomic and environmental reasons. The huge inter-
+  vol     8                                                 nal surface area acts as ﬁlters for the physical
+ /
+                                                      absorption of the ﬁne particles and provide large
+     6                                                   reaction area for the chemisorption of gaseous HF.    fraction
+   Volume 4                                            DissolutionAs  is introducedRate ofintheFig.Alumina1, the platinumCrust   plate
+     2                                             suspended from the electronic balance was used to
+                                                    capture and measure the mass change of the alu-
+     0                                         mina crust. The weight loss of the crust after 5 g of
+      0.01         0.1        1         10        100       1000     alumina addition is shown in Fig. 5. Before addi-
+                         Grain size / um                          tion, the reading of the balance was constant at
+Fig. 3. Particle size distribution of the SG alumina sample.           0.0000 g. Addition was made at 175 s, a large piece
+                                                               of boat-like crust was formed immediately after the
+                                                          cold powder touched the molten melts. The shock of
+(NaAlF4, AlF3, Na5Al3F14).8 The hydroxyl content     the feeding operation caused a sudden increase of
+(LOI 300–1000) of alumina depends on the calcina-     the balance reading as peak ‘a’ marked in Fig. 5. A
+tion temperature of gibbsite, suggesting the overall    few seconds later, some pieces of the frozen elec-
+degree  of the alumina phase transition. A high     trolyte broke away from the crust and fell off onto
+value of LOI (300–1000) generally indicates a rela-     the platinum  plate, which caused a temporary
+tively high surface area and low a phase content of     ﬂuctuation of the balance readings at the time per-
+the alumina, and, consequently, contributes to the     iod between ‘a’ and ‘b’ (175–216 s) before it returned
+amount of HF emission due to the electrochemical     to 0 g (from ‘b’ to ‘c’), suggesting that the crust was
+hydrolysis of hydroxyl with molten cryolite.9 Bulk     ﬂoating on the liquid surface by itself. At time  ‘c’
+density   of  SG  alumina  commonly  approach     (247 s), the plate-balance system was lowered to
+1 g cm  3, with which the volumetric feeders on     force the ﬂoating crust sinking in the electrolyte,
+commercial cells were designed. The true density    from then on the mass change of the alumina crust
+varies slightly with the phase composition of the     could be detected. It is interesting to ﬁnd an initia-
+alumina, where the pure a alumina powder has the     tion time of approximately 39 ss at time period from
+largest value of 3.89 g cm  3. The angle of repose is        ‘c’ to ‘d’ (247–286 s) before the crust started to loss
+an intuitive evaluation of the ﬂow ability of the      its weight. This is probably because the tempera-
+alumina powder, the range of which is generally     ture of the crust was  still lower than the elec-
+30 –35  and a lower value indicates better ﬂow      trolyte’s liquid point and the dissolution of the crust
+ability. Smelters expect alumina with low a content    has not begun. At such condition, heat transfer
+and high c content for the poor performance of a    between the crust and molten electrolyte inhibited
+phase alumina, such as low chemical activity, poor     the  dissolution  process.  Starting from  time  ‘d’
+adsorption capacity and slow dissolution rate.          (286 s), a long and linear-decreased period for the
+  Figure 4 shows the Micrographs of two SG alu-     dissolution of the crust was observed. Taking into
+mina particles. The cracked surface and the layer     consideration the buoyant force on the crust, the
+structure demonstrated the very porous nature of     dissolution rate of the crust could be derived from
+the alumina, corresponding to a high BET surface     the slope of the curve. After 600 s (time  ‘e’), the
+
+## PDF page 6
+
+The Formation and Dissolution of Crust Upon Alumina Addition into Cryolite Electrolyte                      2175
+
+
+
+
+
+Fig. 4. Micrograph of the SG alumina particles. (a) Alumina particle, magniﬁed 92000. (b) Gaps on the alumina particle, magniﬁed 95000. (c)
+Another alumina particle, magniﬁed 93000. (d) Gaps in the alumina particle, magniﬁed 95000.
+
+
+      1.25                                                                                 mcrust  qmelts
+             Lower the platinum plate                                                        qcrust ¼                                (2)
+ g      1.00                 c                                                                mcrust  m0crust
+ /
+      0.75       Feeding      d
+  bath                                            where  qcrust  is the volume density  of the crust      0.50             a
+                                                   Crust fall off the plate         (g cm  3), mcrust is the mass of the sampled crust (g),  the      0.25                            Slope
+ in                  b                       e                   qmelts is the density of the electrolyte, set as a con-
+      0.00                                                stant 2.13 g cm  3, and m¢crust is the weight of the
+                                  Linear dissolution rate   crust -0.25                                                 crust in the melts just before sampling (g).
+  the -0.50      Crust floating   Initiation time                     From Eq. 2, the volume density  of the crust
+ of                                              formed for the 6th addition at 1238 K (965 C) was
+      -0.75
+                                                        calculated to be 2.3123 g cm  3. This value was then
+      -1.00                                        assumed to be constant and then used to calculate   Weight
+      -1.25                                                   Initial alumina concentration 0%        the dissolution rate of the crust at constant tem-
+      -1.50                                              perature using Eq. 3.
+          0     100    200    300    400    500    600    700    800
+                           Time / s
+                                                                                                               qcrust
+Fig. 5. Weight loss of the crust after 1% alumina addition (5 g alu-                   Kcrust ¼ Kslope                            (3)
+mina into 500 g melts), point feeding, no physical stirring, 1238 K                                      ðqcrust   qmelts Þ
+(965 C).
+                                              where Kcrust  is the dissolution rate of the crust
+                                                            (g s  1), Kslope is the slope of the measured weight
+smaller crust fell off the platinum plate and the      loss curve of the crust (g s  1), qcrust is the density of
+balance reading returned to 0.0000 g.                  the   crust,   is  assumed   to  be  a  constant
+  Continuous feeding (6 additions in total, 5 g each     2.3123 g cm  3, and qmelts is the density of the elec-
+time) was carried when the crust formed in previous      trolyte, set as a constant 2.13 g cm  3.
+additions was completely dissolved. The alumina      The dissolution rates of the crust at 1235 K (960 C)
+crust for the 6th time of addition was withdrawn    and 1238 K (965 C) with different initial alumina
+120 s after the previous addition (40 s after the     concentrations in the electrolyte as well as the cor-
+platinum plate was lowered), and the density of the     responding superheats are shown in Fig. 6. The dis-
+crust was calculated by Archimedes law:                solution rate of the crust decreased signiﬁcantly with
+
+## PDF page 7
+
+2176                                                                         Yang, Gao, Wang, Shi, and Hu
+
+
+                            Superheat / °C                                                                   1 α-Al2O3
+         12.2 (965 oC)  19.5         25.7         31.2         36.0                               1
+                                                                                             2           2 Na3AlF6          7.2 (960oC)   14.5         20.7         26.2         31.0                          1             1
+     1.6                                                                        2        23                 3 CaF2
+  -1                                                                                                       4 LiF
+                                                                         2  min     1.5                                                                   1 g
+ /                                                                    2                           3
+     1.4                                                                                                   2   crust                                             965 oC                                                960 oC                                Intensity                                                                                2                                                                                                   1                                                                                 4       1                                                                      2                                                                                 1  the
+ of 1.3                                                                                        2                                                                           3 2
+   rate                                                                           2 2 2 2              1
+                                                                                          2                                                                                                         1                                                                                               1     1.2                                                                               4
+                                                                                       2 2 23     4   2   2      1                                                                                                        3 4  4  3
+     1.1       Dissolution
+                                                                   10     20     30     40     50     60     70     80     90
+                                                                                   2θ / o     1.0
+          0           1           2           3           4
+                                                                               Fig. 7. XRD patterns of the crust sample withdrawn at 1238 K
+                          Initial alumina concentration / %                                                           13                                                                  (965 C), a-Al2O3,11 Na3AlF6,12 CaF2  and LiF13.
+Fig. 6. Dissolution rate of the alumina crust with various initial alu-
+mina concentrations in 2.9NaFÆAlF3-5%LiF-5%CaF2-x%Al2O3 melts
+at 1235 K (960 C) and 1238 K (965 C), respectively.
+                                                      according to the diffusion-controlling equation pro-
+                                                   posed by Haverkamp and Welch:10
+
+                                                  dC
+Table IV. Properties of the crust samples                R ¼   V ¼ k2 A  ðCsat  CÞ          (4)                                                                      dt
+
+                              1233       1238     where R is the dissolution rate, C is the alumina
+Temperature (K)               (960 C)      (965 C)     concentration in the bulk at time  t, t is the time
+                                                            after addition, V is the volume of the electrolyte,
+Initial Al2O3 in the melts (%)       4.0           5.0
+Mass of the crust (g)              10.2421       9.4621     k2   D/d is the rate constant, D is the diffusion
+Volume density (g cm 3)a          2.2758       2.3123     coefﬁcient, d is the thickness of the boundary layer,
+a-alumina content (%)             30.02        29.79     A is the effective surface area of the alumina at time
+Frozen bath content (%)           69.98        70.21           t, and Csat is the concentration of dissolved alumina
+Gas-ﬁlling fraction (%)              7.60         6.00       at the surface  of the alumina, which  similarly
+BET surface area (m2 g  1)         –            0.6468     equals to the alumina solubility for the particular
+BET SA after coarse              –            1.4544     electrolyte composition.
+grinding (m2 g  1)                                                      In contrast to the well-stirred electrolyte, the
+aDerived from Eq. 2.                                       giant crusts formed in the experiments could be
+                                                        attributed to the low heat transfer efﬁciency when
+                                                     the cold powder was added. But the heat transfer
+the increase of existing alumina concentration and      lost its dominance when the crust reached the liq-
+the decrease of the temperature. For the addition     uidus temperature of the electrolyte. Alternatively,
+made at the initial alumina concentration of 3%, the     according to the heat-controlling equation, the dis-
+dissolution rate of the crust was reduced by 30% and     solution rate will increase with increasing super-
+27% compared with the addition at initial alumina     heat (which contradicts the experimental results in
+0%, respectively, at 1235 K (960 C) and 1238 K     Fig. 6):10
+(965 C). As the increasing of the initial alumina
+                                                                  hE Aconcentration, a plateau was likely to be approached              R ¼       DT                 (5)
+for both 1235 K (960 C) and 1238 K (965 C) condi-                 DH Mo
+tions. Superheat is the difference between the oper-
+                                              where hE is the heat transfer coefﬁcient between theating temperature and the liquidus temperature of
+                                                            electrolyte and the alumina, DT is the superheat,
+the electrolyte. Larger superheat is supposed to favor
+                                   DH is the enthalpy change for the dissolution reac-
+the heat transfer during the dissolution process.
+                                                          tion plus the phase change, and Mo is the mass ofHowever, in Fig. 6, the effect of superheat seems not
+                                                alumina added.
+to be dominating in contrast to the inﬂuence of the
+initial alumina concentration.
+                                           Formation and Properties of the Alumina
+  The dissolution of the agglomerate was appar-
+                                             Crust
+ently a  diffusion-controlled process because the
+dissolution  rate  decreased  signiﬁcantly  with      As stated in Table II (experiments no. 1 and 2),
+increasing alumina concentration in the electrolyte,     the alumina crust was withdrawn 120 s after 5 g of
+
+## PDF page 8
+
+The Formation and Dissolution of Crust Upon Alumina Addition into Cryolite Electrolyte                      2177
+
+
+
+
+
+Fig. 8. Comparison of the old (model 13) and new (model 2) models for the components of the alumina agglomerate.
+
+
+
+
+
+Table V. The properties of the crust versus initial alumina concentration in the electrolyte
+
+                                                                                   Percentage
+Initial Al2O3%   Temperature  Mass of the  a-alumina  Volume density   Gas-filling      of alumina
+in the melts (%)       (K)        crust (g)   content (%)      (g cm23)      fraction (%)  to form crust (%)
+
+0.0               1238 (965 C)      8.5678        31.64          2.3254            6.38             54.22
+1.0a              1238 (965 C)      8.7500        31.48          2.2965            7.47             55.09
+2.0a              1238 (965 C)      8.9300        31.35          2.2735            8.33             55.99
+3.0               1238 (965 C)      9.1372        31.17          2.2982            7.25             56.96
+4.5               1238 (965 C)      9.4300        31.08          2.3078            6.82             58.62
+5.0               1238 (965 C)      9.4621        29.79          2.3123            6.00             56.38
+0.0               1233 (960 C)      9.5438a       30.84          2.2361            9.60             58.87
+1.0a              1233 (960 C)      9.7369        30.65          2.2431            9.23             59.69
+1.75              1233 (960 C)      9.8836        30.53          2.2576            8.58             60.35
+3.0               1233 (960 C)     10.2004        30.30          2.2584            8.44             61.81
+4.0               1233 (960 C)     10.2421        30.02          2.2758            7.60             61.49
+4.5               1233 (960 C)     10.7262        30.05          2.2650            8.05             64.46
+
+aExtrapolated values.
+
+
+
+                                                                          34.0     XRD patterns of the crust show that the alumina
+    11.2       965 oC, mass of the crust                          component in the crust has completely transferred
+ -3  10.8               960 oC, mass of the crust                             33.5 %
+ cm 10.4                        /      to the a phase (Fig. 7).
+                                                                    33.0g                                                                     It is                                                              generally                                                                      recognized                                                                                  that alumina                                                                                         agglom-/ 10.0                                                                                                                                          crust      9.6                                                       erate                                                                consists                                                                                of alumina                                                                                       particles                                                                          and frozen                                                                                                                   elec-                                                                    32.5
+  crust  9.2                                                                         the       trolyte, and the density value can be derived from
+ the  8.8                                                           32.0 of     the percentage of alumina and frozen electrolyte in
+      8.4
+ of      8.0                                                           31.5       the crust:      7.6                                                                                                                                                                           content                                                                    31.0                                    qAl2O3  qfrozen   density  7.2                                                                          q0crust ¼                                       (6)
+      6.8                                                           30.5                         CAl2O3  qfrozen þ Cfrozen  qAl2O3
+      6.4                                                                                                                                                                                                 Alumina               965                      oC,                       alumina                                 content                              30.0      6.0                                              where qAl2O3 is the true density of a phase alumina,   Volume               960 oC,                       alumina                                 content
+      5.6                                                       3.89 g cm  3, CAl2O3  is the alumina content of the                                                                    29.5
+            0       1       2       3       4       5               crust, Cfrozen is the frozen bath content in the crust,
+                           Initial alumina concentration / %                equal to 1   CAl2O3, and qfrozen is the density of the
+Fig. 9. The mass and alumina content of the crust versus  initial     frozen electrolyte, assumed to be the same as that of
+alumina concentration, 1235 K (960 C) and 1238 K (965 C).          the molten melts, 2.13 g cm  3; thus, the equation is
+                                                  supposed to give a relatively low value of crust
+                                                          density.
+alumina was added. (40 s after the platinum plate      However, under the condition that the alumina
+was lowered.) The physicochemical properties of the     content of the crust is 30%, the crust density calcu-
+crust are listed in Table IV. The volume density of     lated from Eq. 6 is 2.46 g cm 3  (q¢crust), which is
+the crust was derived from Eq. 2. The alumina    much higher than the measured values in Table IV.
+content was determined by dissolving the frozen    Because of the high alumina content (about 30%) and
+electrolyte with aluminum chloride (AlCl3) solution.     relative low volume density (about 2.3 g cm  3) of the
+
+## PDF page 9
+
+2178                                                                         Yang, Gao, Wang, Shi, and Hu
+
+
+crust, another possible explanation is that there are     supporting data. The crust was sampled 120 s after
+still many gas-ﬁlled gaps/pores existing in the crust    5 g of alumina was added (40 s after the platinum
+even though it has sunk into the melts. In this way,     plate was lowered) at various initial alumina con-
+Eq. 6 actually gives a theoretical value closer to the     centrations. The mass of the crust and the alumina
+true density instead of the volume density which at-     concentration of the crust were measured and the
+tracts more attention. The gas-ﬁlling fraction of the     results are listed in Table V as well as calculated
+crust was then calculated with Eq. 7 and the results    volume density and gas-ﬁlling fraction. These show
+are also listed in Table IV. Since the density of the     that the mass of the crust increased with increasing
+frozen electrolyte in the crust (qfrozen) was assumed to      initial alumina concentration  in the  electrolyte,
+be 2.13 g cm  3, which is probably smaller than the     while the alumina content of the crust stayed rela-
+real value, Eq. 7 might give a lower result.                tively constant, though a slight decreasing trend
+                                                  with the increase of initial alumina concentration
+                                                      could be observed, as shown in Fig. 9.
+      Vo  Va   Vf                              From Fig. 9, it can be seen that the mass of the
+  D ¼
+           Vo                                          crust formed at the lower temperature (1235 K,
+                                                960 C) was larger than that formed at the higher                qcrust  CAl2O3    qcrust  Cfrozen
+   ¼  1                         100%       temperature (1238 K, 965 C). And the alumina
+                  qAl2O3            qfrozen                    content of the crust showed a reverse trend: the
+                                                        (7)    alumina content of the crust formed at the lower
+                                                  temperature was also lower. It is understandable
+where D is the gas-ﬁlling fraction of the crust (%).                                                      that at low temperature (also behaving as low initial
+Vo is the apparent volume of the crust, Va is the                                                       superheat), the fed cold alumina particles would
+volume of the alumina particles, and Vf is the vol-                                                     bring a greater amount of electrolyte to its melting
+ume of the frozen electrolyte.                                                       point below which the melts turned to the frozen
+  As seen from Table IV, the alumina crust formed                                               component in the crust. It is interesting that the
+at 1235 K (960 C, 10.2421 g) was larger than that                                                    percentage of fed alumina that formed a crust did
+formed at 1238 K (965 C, 9.4621 g), which should be                                                     not show a sharp increase at low temperature.
+attributed to the poor heat transfer between the cold                                                  Thus, it is predictable that the percentage of alu-
+alumina powder and the molten melts. The volume
+                                                     3       mina forming a crust might depend on the initial
+density  of the crust varies from 2.28 g cm    to                                                        dispersion of the alumina powder upon feeding,
+2.31 g cm  3, which means that the crust will sink to                                                which varies with the ﬂow ability of the alumina
+the bottom of the electrolyte layer (with a density of                                              and the surface area/volume of the molten melts. As
+2.1 g cm  3) and possibly break the surface tension                                                     the mass of the crust increased greatly at 1235 K
+of the metal pad (with a density of 2.3 g cm  3) to                                                     (960 C) compared with 1238 K (965 C), and the
+form the bottom sludge. The alumina content of the                                                    percentage of alumina forming a crust stayed rela-
+crust is relatively stable at around 30% for both                                                             tive stable (not as signiﬁcant as the changing trend
+1235 K (960 C) and 1238 K (965 C)  conditions.                                                               of crust mass when the temperature changed), thus
+Considering the mass of the crust and the amount of                                                     the alumina content of the crust is expected to be
+feeding (5 g), 61.5% and 56.4% of the fed alumina                                                    lower at 1235 K (960 C) compared with 1238 K
+appeared in the form of crust for 1235 K (960 C) and                                                     (965 C).
+1238 K (965 C) condition, respectively.                                                  At the same temperature, with the increase of
+  When alumina particles are added to the molten                                                                  initial alumina concentration in the electrolyte, the
+electrolyte, with ﬂuoride as the  catalyst, phase                                             mass of the crust increased despite the decrease of
+transitions to a phase alumina progress rapidly,                                                alumina content in the crust (Fig. 9), which means
+accompanied by a rapid release of the structural                                                      that the increased amount of the frozen electrolyte
+hydroxyl and absorbed moisture in the form  of                                                         in the crust was responsible for the changes of the
+steam. Some of the gas escapes instantly, while the                                                        crust weight. There are several possible explana-
+rest is surrounded by frozen electrolyte and exists                                                          tions for this phenomenon:
+as a part of the crust. The BET surface area of a
+slice  of  crust  sample  was  measured  to  be     a.  With the formation of a large piece of agglomerate,
+0.6468 m2 g  1, which is signiﬁcantly large enough        the heat transfer becomes dominant to the disso-
+to indicate a porous structure of the crust. Fur-         lution of alumina. The main dissolution reactions
+thermore, the surface area increased greatly to          will proceed at the liquidus temperature of the
+1.4544 m2 g 1 when the crust was ground to an          electrolyte at the surface of the alumina particles.
+average grain size of approximately 50 lm, which       The starting point of the dissolution will depend
+suggests that there were a large number of closed-       on the time when the liquid phase occurred at the
+cells distributed in the crust. A new model for the         interface of the frozen electrolyte and the alumina
+alumina agglomerate has been proposed to help          particles. With a higher initial alumina concen-
+understanding this and is shown in Fig. 8.                  tration in the bath, the frozen electrolyte simul-
+  Parallel experiments were carried out (experi-        taneously obtains a lower liquidus point. Under
+ments no. 3 and 4 in Table II) to provide more        the same operating temperature and heat trans-
+
+## PDF page 10
+
+The Formation and Dissolution of Crust Upon Alumina Addition into Cryolite Electrolyte                      2179
+
+
+    fer coefﬁcient of the frozen electrolyte layer, the            2.45
+    starting point of the dissolution of the alumina          -3                                                                               2.40                                            965oC    particles is likely to be earlier in the electrolyte       cm                              g       Density of the metal pad                       960oC
+    with the higher  initial alumina concentration   / 2.35
+   which also corresponds to a greater superheat.
+                                                                               2.30   Once the endothermic dissolution reaction occurs,                crust
+   more heat is needed to be transferred and a          the 2.25
+    thicker electrolyte layer is formed.                      of
+                                                                               2.20
+b.  The increase of crust weight with increasing
+   alumina concentration could be explained by the            2.15                                                                                                                                                                                                                    density              Reasonable range of the electrolyte density
+    dissolution process  of the alumina  particles.
+                                                                               2.10
+   When particles are added to the molten elec-    trolyte, they are soon surrounded by a layer of                    Volume 2.05
+    frozen electrolyte. With a continuous heat sup-
+                                                                               2.00
+    ply from the bulk melts, the alumina particles                  0       1       2       3       4       5
+    begin to react and dissolve in this layer of frozen                                                                                                                   Initial alumina concentration / %
+    electrolyte until the alumina concentration in
+    the layer reaches saturation. Since the liquidus       Fig. 10. The volume density of the crust versus initial alumina con-
+                                                                              centration, 1235 K (960 C) and 1238 K (965 C); the density of cry-
+    point of the cryolite electrolyte decreases greatly                                                                                           olite electrolyte is from Ref. [14].
+    with the increase of alumina concentration, this
+    alumina-saturated electrolyte layer will proba-
+    bly liquefy again and detach from the surfaces of
+    the alumina particles. As it is known that the                                                     the metal pad and electrolyte layer as shown in
+    dissolution rate of alumina decreases with the                                                           Fig. 10, from which it can be seen that the density of
+    increase of existing alumina concentration in                                                     the crust seemed not to change with the initial
+    the electrolyte, it is easy to connect in the mind                                                alumina concentration. But the disadvantage is that
+    that the frozen electrolyte (with a higher initial                                                     the density of the crust is very close to, sometimes
+   alumina  concentration) around  the alumina                                                 even larger than, that of the metal pad. The prob-
+    particles might spend a longer time to reach                                                       able result in practice is that the alumina crusts
+    alumina-saturation or at least reach an alumina                                                    ﬂoat on the interface between the liquid electrolyte
+    concentration which is high enough to re-melt                                              and the metal pad due to the surface tension of the
+     itself.                                            aluminum layer. When the crusts accumulate to a
+c.  As has been introduced in Fig. 5, an initiation                                                         certain weight, or under external forces, the crusts
+    time period of approximately 39 s before the                                                 can break the surface tension and sink to the bottom
+    crust began to lose its weight was observed even                                                                of the  cell, where the bottom sludge  is formed.
+    after  the  crust sank  into  the  melts under                                                However,  the  crust formed  at 1235 K  (960 C)
+    external force. The appearance of this initiation                                              showed a lower density value probably because of
+    time period suggests that the formation of the                                                     the decrease of alumina content in the crust formed
+    crust  occurred  long  before  the temperature                                                         at low temperature, as a-alumina has a high true
+    equilibrium between the solid crust and bulk                                                       density of 3.89 g cm  3.
+    electrolyte was reached. In this way, the amount                                               As listed in Table V, the percentage of alumina to
+   and composition of the crust should be deter-                                                 form a crust after feeding is also derived to give an
+   mined by the initial heating of the cold alumina                                                            intuitive knowledge about the crust formation. After
+   upon feeding. The thickness of the frozen elec-                                                       feeding 5 g of the alumina sample into the melts
+    trolyte layer is therefore determined by the heat                                                under   the  experimental   conditions,  54–58%
+    capacity of the molten electrolyte and the heat                                                    (1238 K, 965 C) of the fed alumina participated in
+    transfer  coefﬁcient  of the frozen  electrolyte.                                                     the formation of the crust, while the rest rapidly
+   These  physical  properties  of  the  electrolyte                                                        dissolved into the electrolyte. The percentage of
+   might vary with changing initial alumina con-                                                alumina involved in the crust also showed a slight
+    centration and temperature, which has not yet                                                       increasing trend with the increase of initial alumina
+   been discovered due to measurement difﬁculty.                                                        concentration. However, the crust withdrawn at
+                                                1235 K (960 C) displayed a relatively high per-
+                                                    centage of 59–64%, which could be attributed to the
+  In an aluminum reduction cell, the liquid elec-     poor heat transfer between the alumina particles
+trolyte layer and aluminum metal pad are sepa-    and the molten electrolyte at low temperature.
+rated due to the difference in density. The density of      However, the  gas-ﬁlling  fraction  of the crust
+the metal pad is relative stable at 2.3 g cm  3, while     varied from 6.00% to 9.60%, and was not likely to
+the density of the molten electrolyte depends on the     follow the change of initial alumina concentration.
+bath chemistry and temperature. The volume den-    The release of the structural hydroxyl and adsorbed
+sity of the alumina crust is drawn by the densities of     moisture occurred immediately after the alumina
+
+## PDF page 11
+
+2180                                                                         Yang, Gao, Wang, Shi, and Hu
+
+
+                                                                 cells running under poor conditions, the inappro-
+                                                         priate feeding leads to the increased amount of
+%/                                                agglomerate and subsequent increase of the bottom
+                                                        sludge.
+
+                                         Dissolution of the crust                 CONCLUSION
+
+  %                                              The formation of the alumina crust tended to be      concentration  1
+                           Transient initiation time before               accelerated in low temperature, high initial alumina
+                              crust dissolution                        concentration and poorly agitated electrolyte. The
+                                                          dissolution rate of the crust decreased signiﬁcantly   Alumina                Fast dissolution of the alumina particles
+                                                  with increasing initial alumina concentration and
+                 upon feeding
+                                       Without stirring, this work        decreasing operating temperature. Compared to the
+                                    With stirring, Welch            non-stirring conditions, the alumina particles were
+                                                       well dispersed when added to the well-stirred elec-
+     0     100    200    300    400    500    600    700    800       trolyte. The heat transfer and diffusion at the alu-
+                        Time / s
+                                                      mina–electrolyte  boundary  layer  was  greatly
+Fig. 11. Comparison of the dissolution rate of 1% alumina under     stimulated, and behaved with a much faster disso-
+stirring10 and non-stirring conditions.                                                          lution rate of the alumina. Due to the density rea-
+                                                         sons, in commercial cells the crust would probably
+                                                  break the surface tension of the metal pad and form
+                                                a bottom sludge.
+particles reached the surface of the melts, which
+indicates that the formation of the pores is a phys-          ACKNOWLEDGEMENTS
+ical process possibly related to the properties of the      The authors would like to express their gratitude
+alumina and temperature.                                 for the ﬁnancial support provided by the National
+                                           Key Technology Research and Development Pro-
+Effect of Physical Stirring on Alumina Disso-     gram of the Ministry of Science and Technology of
+lution                                         China (Grant No. 2012BAE08B01), the National
+                                                  Natural Science Foundation of China (Grant Nos.  Under the experimental conditions of the present
+                                                  51074045,   51074046,   51228401,   51322406,paper, no physical stirring was injected during the
+                                                  51434005, 51474060), the NEU foundation (No.dissolution of the fed alumina. Consequently, the
+                                                 N130402011).heat transfer process became very important espe-
+cially for the formation of the agglomerate. A large              REFERENCES
+proportion of the fed alumina (50–60%) formed a
+                                                                                1.  S. Rolseth, R. Hovland, and O. Kobbeltvedt, Light metals
+giant crust and ﬂoated on the liquid surface. After a                                                                      (Warrendale: TMS, 1994), p. 351.
+transient initiation time, the crust began to dissolve        2.  D.I. Walker and T.A. Utigard, Light metals (Warrendale:
+at a very slow rate. An estimated dissolution curve        TMS, 1995), p. 425.
+of the alumina under no stirring condition is drawn        3.  R. Keller, Light metals (Warrendale: TMS, 2005), p. 147.
+with a reference curve10 where stirring was intro-        4.  J. Tie, Z. Qiu, and G. Lu, Non-ferrous Met. 46, 49 (1994).
+                                                                                5.  Y. Yang, B. Gao, Z. Wang, Z. Shi, and X. Hu, Metall. Mater.
+duced in Fig. 11. When the electrolyte is well stir-          Trans. B 44, 1296 (2013).
+red, the heat transfer and diffusion rate between        6.  M. Hyland, A. Gillespie, and J. Metson, Light metals (War-
+the alumina particles and bulk electrolyte will be           rendale: TMS, 1997), p. 113.
+greatly enhanced. Most of the alumina particles        7.  L.B. McCusker, R.B. Von Dreele, D.E. Cox, D. Louer, and
+                                                                           P. Scardi, J. Appl. Cryst. 32, 36 (1999).
+were well dispersed and dissolved rapidly into the                                                                                8.  W. Haupin and H. Kvande, Essent. Read. Light Met. Alum.
+melts, while only a few small pieces or even no crust           Reduct. Technol. 2, 903 (1993).
+was formed. The dissolution process was then con-        9.  M. Hyland, E. Patterson, and B. Welch, Light metals
+trolled by the diffusion of the free ﬂuoride solute at           (Warrendale: TMS, 2004), p. 361.
+the alumina–electrolyte interface.                             10.  R.G. Haverkamp and B. Welch, Chem. Eng. Process. 37, 177
+                                                                               (1998).
+  Under industrial conditions, the molten bath was       11.  T. Huang, W. Parrish, N. Masciocchi, and P. Wang, Adv.
+agitated by the release of anode gas. The dissolution         X-Ray Anal. 33, 295 (1990).
+behavior of the alumina will be closer to the condi-       12.  H.X. Yang, S. Ghose, and D.M. Hatch, Phys. Chem. Miner.
+tion where physical stirring is employed. However,            19, 528 (1993).
+                                                                        13.  V.A.  Streltsov, V.G.  Tsirelson,  R.P.  Ozerov, and O.A.
+with a large amount of addition (1–2 kg each time)                                                                     Golovanov, Kristallograﬁya 33, 90 (1987).
+to a small area (interval between anodes), large       14.  L. Cassayre, P. Palau, P. Chamelot, and L. Massot, J. Chem.
+pieces of alumina crust were still observed. For the          Eng. Data 55, 4549 (2010).

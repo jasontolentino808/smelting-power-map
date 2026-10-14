@@ -1,0 +1,146 @@
+[
+  {
+    "id": "01",
+    "source_filename": "modeling_power_modulation/A Cell Simulator for optimizing the operation practices and the process.pdf",
+    "pages": 13,
+    "source_sha256": "bee5ad6433bf0d4392463e4eb58e6633efd9a8885a4d89c77b610c83df5a088a",
+    "text": "text/01.txt",
+    "digest": "digests/01.md",
+    "low_text_pages": [],
+    "visual_index": "figures/01/index.html"
+  },
+  {
+    "id": "02",
+    "source_filename": "modeling_power_modulation/AL54 - Model Predictive Control of Maintaining the Superheat of an Aluminium Smelting Cell during Power Modulation.pdf",
+    "pages": 11,
+    "source_sha256": "efdf71624ff08d46b68358311eb163e6fc21a0168dca763015f6b1715841e750",
+    "text": "text/02.txt",
+    "digest": "digests/02.md",
+    "low_text_pages": [],
+    "visual_index": "figures/02/index.html"
+  },
+  {
+    "id": "03",
+    "source_filename": "modeling_power_modulation/Alumina_Dissolution_and_Current_Efficiency_in_Hall_Herault.pdf",
+    "pages": 6,
+    "source_sha256": "b9223bd1e3f8180e3a11b15cc3e496d84b94ca80fe1cb5cae6be4529de3929dc",
+    "text": "text/03.txt",
+    "digest": "digests/03.md",
+    "low_text_pages": [],
+    "visual_index": "figures/03/index.html"
+  },
+  {
+    "id": "04",
+    "source_filename": "modeling_power_modulation/ALUMINIUM FLUORIDE CONSUMPTION AND CONTROL IN SMELTING CELLS.pdf",
+    "pages": 16,
+    "source_sha256": "f012adca8dcc22859ac426d999930ac715055a4161e98666003dc9303970d305",
+    "text": "text/04.txt",
+    "digest": "digests/04.md",
+    "low_text_pages": [],
+    "visual_index": "figures/04/index.html"
+  },
+  {
+    "id": "05",
+    "source_filename": "modeling_power_modulation/Electrothermic Industrial Load Model with a Dynamic Iterative Mechanism.pdf",
+    "pages": 8,
+    "source_sha256": "f31549a9a3c908eb9afe659e888a901a4dd1f9801c159da455bcb84334c1ee0a",
+    "text": "text/05.txt",
+    "digest": "digests/05.md",
+    "low_text_pages": [],
+    "visual_index": "figures/05/index.html"
+  },
+  {
+    "id": "06",
+    "source_filename": "modeling_power_modulation/MODELLING THE MASS AND ENERGY BALANCE OF ALUMINUM REDUCTION CELLS.pdf",
+    "pages": 250,
+    "source_sha256": "ac9f719965fc80740ef83ac1a1bd8a868de654495538e47e8add9ba006671cc5",
+    "text": "text/06.txt",
+    "digest": "digests/06.md",
+    "low_text_pages": [
+      3
+    ],
+    "visual_index": "figures/06/index.html"
+  },
+  {
+    "id": "07",
+    "source_filename": "modeling_power_modulation/Multilevel Coordinated Strategy for Electrolytic Aluminum System.pdf",
+    "pages": 19,
+    "source_sha256": "c33a5c773329cb918e68715036aba9c8d2cfd015d1019c55b5f2f7db5d985d46",
+    "text": "text/07.txt",
+    "digest": "digests/07.md",
+    "low_text_pages": [],
+    "visual_index": "figures/07/index.html"
+  },
+  {
+    "id": "08",
+    "source_filename": "modeling_power_modulation/Optimisation of power modulation for Hall-H\u00b4eroult cells.pdf",
+    "pages": 16,
+    "source_sha256": "b8a4837c937bfb316784b86e386025d481c259caf23c5b2abcb40d77234cbcd5",
+    "text": "text/08.txt",
+    "digest": "digests/08.md",
+    "low_text_pages": [],
+    "visual_index": "figures/08/index.html"
+  },
+  {
+    "id": "09",
+    "source_filename": "modeling_power_modulation/ParadigmShiftInIndicationOfStableCellDuringPowerModulation.pdf",
+    "pages": 20,
+    "source_sha256": "e1bc14b42f13148e377d9114fd4bb79acaf4aa4d6fee0fab4fd7bc277adc617c",
+    "text": "text/09.txt",
+    "digest": "digests/09.md",
+    "low_text_pages": [],
+    "visual_index": "figures/09/index.html"
+  },
+  {
+    "id": "10",
+    "source_filename": "modeling_power_modulation/POWER MODULATION MODELING OF ALUMINUM REDUCTION CELLS FOR RENEWABLE ENERGY INTEGRATION.pdf",
+    "pages": 6,
+    "source_sha256": "f09ca40cda06875bd6d2be5288d812eba530273b6ce4e2048af97583680e013c",
+    "text": "text/10.txt",
+    "digest": "digests/10.md",
+    "low_text_pages": [],
+    "visual_index": "figures/10/index.html"
+  },
+  {
+    "id": "11",
+    "source_filename": "modeling_power_modulation/Studies on Power Modulation of Aluminum Smelting Cells based.pdf",
+    "pages": 26,
+    "source_sha256": "99313505b5acdc663d88b44078372714738ddae86d20ff1bcd01fb82ba43cd2a",
+    "text": "text/11.txt",
+    "digest": "digests/11.md",
+    "low_text_pages": [],
+    "visual_index": "figures/11/index.html"
+  },
+  {
+    "id": "12",
+    "source_filename": "modeling_power_modulation/The Formation and Dissolution of Crust Upon Alumina Addition into Cryoltie Electrolyte.pdf",
+    "pages": 11,
+    "source_sha256": "a8cfad41a011d0142beff81f50a17f8fdc809e3ef643118d3858997501ef5dd3",
+    "text": "text/12.txt",
+    "digest": "digests/12.md",
+    "low_text_pages": [],
+    "visual_index": "figures/12/index.html"
+  },
+  {
+    "id": "13",
+    "source_filename": "modeling_power_modulation/The Structure of the Aluminium Smelting Cell Ledge.pdf",
+    "pages": 10,
+    "source_sha256": "8e789f2e558b58e6166c8e11af9bc6e810663710a9ba9cf51bd708eba581636b",
+    "text": "text/13.txt",
+    "digest": "digests/13.md",
+    "low_text_pages": [],
+    "visual_index": "figures/13/index.html"
+  },
+  {
+    "id": "14",
+    "source_filename": "modeling_power_modulation/US5089093_PROCESS_FOR_CONTROLLING_ALUMINUM_SMELTING_CELLS.pdf",
+    "pages": 26,
+    "source_sha256": "d4118807ddd642bf46262d7a166f84a2b4fbd119beffc131c24674fa256de44a",
+    "text": "text/14.txt",
+    "digest": "digests/14.md",
+    "low_text_pages": [
+      3
+    ],
+    "visual_index": "figures/14/index.html"
+  }
+]
