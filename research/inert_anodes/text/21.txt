@@ -1,0 +1,281 @@
+Source: literature/Solubility of Chromium(III) Oxide in the Molten Cryolite System.pdf
+
+## PDF page 1
+
+Solubility of Chromium(III) Oxide in the Molten Cryolite System
+
+         DA´ Sˇ A SˇULEKOVA´ , VLADIMIR DANIELIK, PAVEL FELLNER,
+         and JOMAR THONSTAD
+
+         The solubility of Cr(III) species originating from dissolution of Cr2O3 in cryolite-based melts
+         was studied in the temperature range 1173 K to 1293 K (900 C to 1020  C). The molar ratio
+          n(NaF)/n(AlF3) was in the range of 1.4 to 2.6. It was found that the solubility depends markedly
+         on the molar ratio n(NaF)/n(AlF3), high ratios resulting in higher solubility. A semi-empirical
+         model describing the solubility of Cr2O3 was developed. The standard deviation between cal-
+           culated and experimental data is 10 pm (ca 2.4 pct).
+
+         DOI: 10.1007/s11663-012-9788-2
+           The Minerals, Metals & Materials Society and ASM International 2013
+
+
+
+                     I. INTRODUCTION                 aluminum and Na3FeF6. The solubility of Fe2O3 has a
+                                           maximum at the cryolite composition (CR = 3) with
+ CHROMIUM (III) oxide can be a component of                                                           strong decrease with decreasing cryolite ratio (from ca
+high temperature refractories. In so-called low temper-                                                     480 pm of Fe at CR = 3 to ca 3100 ppm of Fe at
+ature aluminum  electrolysis,  refractories  containing                                   CR = 2 at 1293 K (1020  C)[3,4]).
+chromium oxide could be considered as a lining mate-                                                          In this paper, we will report results obtained in an
+rial, and the behavior of dissolved chromium oxide in                                                               investigation of the solubility of chromium(III) oxide in
+the electrolyte would then be of interest. For a possible                                                            the molten system 58.33 to 72.22 mole pct NaF and
+use in electrolytic cells, the mechanism and the rate of                                                          41.67–27.78 mole pct AlF3; CR = 1.4–2.6 in the tem-
+corrosion can be studied by determining the content of                                                           perature range 1173 K to 1293 K (900 C to 1020  C).
+chromium species in the molten electrolyte.                                                     These concentration and temperature intervals are lying
+  The chemical and electrochemical behaviors of Cr(III)                                                     between the data published in the literature.[1,2] Statis-
+species have already been discussed  in a paper by                                                                         tical treatment of all these data based on a physical
+Danielik et  al.[1] In the cited paper, the solubility of                                                  model suggests that the data are consistent.
+Cr2O3 in the molten system 58.3 mol pct NaF + 41.67
+mol pct AlF3 (CR = 1.4   molar  ratio of NaF and
+AlF3) at 1173 K (900 C) was investigated.[1] The phase                           II. EXPERIMENTAL
+diagrams of the system Na3AlF6-Cr2O3 can be found in
+the  literature.[2] The  published data show  that  the      Aluminum ﬂuoride was prepared by sublimation of
+solubility of chromium oxide in cryolite-based melts is      technical grade AlF3 in a tall platinum crucible (diam-
+of the order of hundreds of ppm.[1,2]                            eter: 8 cm; height: 25 cm) at 1423 K (1150 C) under
+  Recently, solubilities of several oxides (ZnO, CeO2,     argon atmosphere, where AlF3 condensate was collected
+Fe2O3, SnO2, Co3O4, NiO, Cu2O, TiO2, ZrO2, V2O5) in      at the cool top of the crucible. Sodium ﬂuoride and
+the molten system NaF-AlF3 were published.[3] When     chromium(III) oxide of grade ‘‘pro analysis’’ (Merck)
+the structure of the melts was discussed, the formation     were used. Metallic chromium (Sigma-Aldrich) was of
+of ﬂuoride or oxide complexes was proposed. The      purity 99.999 pct. The composition of the melt was
+system containing Fe2O3 is most similar to the system     determined from the weighed-in amounts of the salts
+studied  in  this paper. The  solubility of Fe2O3 was     used.  After  the  experiments,  the  composition was
+investigated  at 1293 K  (1020 C) by  Diep.[3,4] The     checked by chemical analysis.
+cryoscopic and solubility measurements were performed      The  experiments  were  carried  out  in corundum
+in oxygen atmosphere. Based on cryoscopic measure-      crucibles (height 7 m, outer diameter 50 mm, inner
+ments, 5 new  particles were assumed to be formed     diameter 45 mm). In cases with controlled content of
+during dissolution of Fe2O3: oxoﬂuoride complexes of     alumina, boron nitride (BN) crucibles were used (height
+                                                     50 mm, outer diameter 50 mm, inner diameter 40 mm).
+                                                        Alumina-saturated melts were prepared in corundum
+  DA´Sˇ A  Sˇ ULEKOVA´, Ph.D. Student, VLADIMIR DANIELIK,      crucibles  prior  to  the  experiments. Chromium was
+Associate Professor, and PAVEL FELLNER, Professor, are with the     added as Cr2O3 powder. The system was kept at the
+Faculty of Chemical and Food Technology, Institute of Inorganic
+                                                      chosen temperature under argon atmosphere. AgitationChemistry, Technology and Materials, Slovak University of Technol-
+ogy in Bratislava, Radlinske´ho 9, 81237, Bratislava, Slovakia. Contact    was achieved by bubbling a CO/CO2 mixture (16.7 mol
+e-mail id: vladimir.danielik@stuba.sk JOMAR THONSTAD, Emer-     pct CO2) through a BN capillary (outer diameter 6 mm,
+itus Professor,  is with the Department of Materials Science and     inner diameter 4 mm). From thermodynamic data,[5] it
+Engineering, Norwegian University of Science and Technology, 7491,     follows that this gas mixture is suitable for stabilizing
+Trondheim, Norway.
+   Manuscript submitted September 11, 2012.                         Cr(III) species. The electrochemical measurements con-
+   Article published online January 17, 2013.                    ﬁrmed  the  presence  of  chromium(III)  as  the  only
+
+
+328—VOLUME 44B, APRIL 2013                                       METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 2
+
+oxidation   state.[1]  Agitation  was  maintained  for      considerations, but  its parameters were obtained by
+20 hours  (the  saturation  level  is  achieved  after  ca      ﬁtting of the experimental data.
+17 hours[1]), and  it was stopped 30 minutes prior to       In  our  previous  work,[1] we  found  that  during
+quenching the sample. This was suﬃcient for settling of      dissolution of chromium(III) oxide in the melt, oxoﬂu-
+undissolved particles. After that, the crucible with the     oride complexes of chromium are formed. The compo-
+melt was taken out of the furnace and quickly cooled in      sition of the complexes is not known. The model used
+a stream of argon. The cooling took approximately     assumes that dissolution of Cr2O3 can be described in
+1 minute. The cooling time was suﬃcient in order to     the following way:
+avoid settling of the precipitated Cr2O3 on the bottom of
+the crucible.                                              Cr2O3 sð Þ þ maAlF3 ð melt Þ þ mbNaF ðmelt Þ                                                                                                                                 ½1
+  To determine the total amount of chromium in the         þ mcAl2O3 ð melt Þ ¼ md ð Cr complex Þ
+samples, solidiﬁed electrolyte (without undissolved Cr2O3
+layer) was melted with a mixture of Na2CO3 + KNO3
+                                                        Thus, the equilibrium constant of Eq.  [1] can be(1:1). The use of this mixture showed the best reproduc-
+                                                          expressed asibility among other possible ways of transferring the
+sample into solution.[1] The samples treated were dis-                                  amd ð complex Þ
+solved in distilled water and analyzed by AAS in a ﬂame of     K ¼                                                    ½2
+                                                           a ð Cr2O3 Þ  ama ð AlF3 Þ  amb ð NaF Þ  amc ð Al2O3 Þacetylene–air. Chemical analysis of the total content of
+chromium is described in more detail in Reference 1.
+                                           When  the melt  is  saturated with chromium,  the
+                                                                   activity of solid chromium(III) oxide equals  1. The
+                                                          concentration of the chromium (III) complex is low and          III.  RESULTS AND DISCUSSION
+                                                          thus we can assume that the activity coeﬃcient of this
+  The experimental results are listed in Table I.          compound is constant (Henry’s law). The temperature
+  The experimental data were treated with a semi-     dependence of the equilibrium constant can be described
+empirical model. The model is based on thermodynamical     as follows:
+
+
+
+                        Table I.  Experimental and Calculated Contents of Cr(III) Species in the Melt
+
+                                                                                      w(Cr(III))/ppm
+
+CR            T/K ( C)                 x(Al2O3)               Exp.                 Calc.               D(exp.    calc.)
+
+1.4               1173 (900)               0.0291*                 176               171                     5
+1.4               1173 (900)               0.0291*                 172               171                     1
+1.4               1173 (900)               0.0291*                 181               171                    10
+1.4               1173 (900)               0.0291*                 182               171                    11
+1.4               1173 (900)               0.0291*                 181               171                    10
+1.4               1173 (900)               0.0291*                 174               171                     3
+1.4               1173 (900)               0.0291*                 176               171                     5
+1.4               1173 (900)               0.0017                   83                87                     4
+1.4               1173 (900)               0.0017                   89                87                     2
+1.4               1173 (900)               0.0150                  143               146                     3
+1.4               1173 (900)               0.0150                  150               146                     4
+1.8               1203 (930)               0.0404*                 656               659                     3
+1.8               1203 (930)               0.0404*                 643               659                    16
+1.8               1233 (960)               0.0457*                 737               729                     8
+1.8               1233 (960)               0.0457*                 721               729                     8
+1.8              1273 (1000)               0.0537*                 829               830                     1
+1.8              1273 (1000)               0.0537*                 812               830                    18
+2.2              1273 (1000)               0.0603*                2400              2396                     4
+2.2              1273 (1000)               0.0603*                2411              2396                    15
+2.2              1293 (1020)               0.0658*                2562              2554                     8
+2.2              1293 (1020)               0.0658*                2547              2554                     7
+2.6              1293 (1020)               0.0699*                6450              6446                     4
+2.6              1293 (1020)               0.0699*                6440              6446                     6
+3                1296 (1023)               0.0010               5320**              5296                    24
+3                1295 (1022)               0.0010               5300**              5284                    16
+3                1287 (1014)               0.0010               5180**              5195                    15
+3                1285 (1012)               0.0010               5160**              5173                    13
+3                1281 (1008)               0.0010               5120**              5129                     9
+
+   *Alumina-saturated melt.
+   **Data published in Reference 2.
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                     VOLUME 44B, APRIL 2013—329
+
+## PDF page 3
+
+                                                    where the concentration of dissolved Cr(III) is expressed
+      K2  DrH   1    1            B             in mass ppm and the thermodynamic temperature is in      ln  ¼            K ¼ exp A          ½3
+      K1   R   T1  T2            T           K. x(Al2O3)  is the mole fraction of alumina in the
+                                                            saturated melt, as deﬁned above. Equation (7) is valid in
+where Dr H  is the standard enthalpy of Reaction [1].     the range 58.33 to 72.22 mole pct NaF (the composition
+In this approximation, we assume that the activities of                                                                                 is deﬁned in the system NaF-AlF3), representing the
+AlF3, NaF, and Al2O3 are proportional to their mole      cryolite ratio range CR = 1.4–3.0. The overheat above
+fractions. The mole fractions of AlF3 and NaF are      liquidus temperature  is up  to 30 C. The alumina
+related to the cryolite ratio, CR:                                                          content ranges from alumina-free melt  to alumina-
+                                                            saturated melt.
+                     xðNaFÞ
+            CR ¼              ;                    ½4       The calculated contents of Cr(III) species are com-
+                       xðAlF3Þ                        pared  with  the  experimental  data  in  Table I and
+                                                          Figures 1, 2, 3, and 4. It can be seen that the model
+                                                              describes the experimental data well. As can be seen  When we assume  that x(NaF) + x(AlF3) = 1,  it
+                                                  from Figures 1, 2, 3, and 4, the solubility of Cr2O3follows
+                                                               increases with increasing cryolite ratio (CR), tempera-
+                   1           CR                 ture,  and/or  alumina  content. The same  eﬀect  of
+      xð AlF3 Þ ¼              ;  x ð NaF Þ ¼               ½5      composition of the basic melt was observed for disso-                1 þ CR             1 þ CR
+                                                               lution of Fe2O3.[3,4]As can be seen from Table I, the
+
+  By using the above-mentioned assumptions (Eqs. [1]
+to [5]), the concentration of Cr(III) species in the melt
+can be described by the following equation:
+
+               B                 1    D
+w ðCr ð III Þ Þ ¼ exp A      xC ðAl2O3 Þ
+               T               1 þ CR
+           CR   E
+                    F                          ½6
+               1 þ CR
+
+
+  These assumptions are a great simpliﬁcation of the
+thermodynamics of the system. But, they gave us an
+equation which, as we shall see, is suitable for statistical
+treatment of the experimental data.
+  Data obtained in this work together with the data
+published in paper[2] were treated using this model by a
+non-linear regression. The content of alumina in satu-
+rated melts was calculated using the equation published       Fig. 1—Comparison  of  calculated and  experimental data  of  the
+in Reference 6. The composition was recalculated to the       Cr(III) content at 1293 K (1020 C) and diﬀerent contents of alu-
+mole fraction of Al2O3 as deﬁned in the system NaF-      mina. The ﬁgure illustrates the dependence of the solubility of Cr2O3
+                                                            on the cryolite ratio (n(NaF)/n(AlF3)) and on the content of alumina
+AlF3-Al2O3. The data in Reference 2 were presented for       in the melt.
+alumina-free melt. Based on our experience, we assumed
+that the melt contained a small amount of alumina
+(0.1 mol pct). This estimate is based on the content of
+alumina  in  sublimed  aluminum  ﬂuoride,  viz.  0.5
+mass pct. From the statistical treatment of the experi-
+mental data, it follows that the AlF3 concentration had
+a powerful eﬀect, while the inﬂuence of NaF concen-
+tration was insigniﬁcant. It is still useful to use the CR
+values as this is generally used in the industry. After
+these simpliﬁcations, Eq. (6) can be written as
+               B                 1    D
+w ð Cr ð III Þ Þ ¼ exp A      xC ðAl2O3 Þ          F
+               T               1 þ CR
+                                                           ½7
+
+
+ A ¼ 5:293; B ¼ 3543 K; C ¼ 0:2396; D ¼  7:734;
+ F ¼ 0:0473
+                                                                             Fig. 2—Temperature dependence of the Cr(III) content in a melt sat-
+                                                                        urated with Cr2O3 for two values of the cryolite ratio. The melt was
+                 r ¼ 10:1 ppm                                 saturated with alumina.
+
+
+
+330—VOLUME 44B, APRIL 2013                                       METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 4
+
+                                           When using the relationships
+
+                                                   DrG ¼  RT ln K  DrG ¼ DrH  T DrS ;    ½8
+
+                                              we ﬁnd that the standard entropy of Reaction [1]  is
+                                                            44.5 J/(K mol), which  is a  reasonable  value  for a
+                                                         chemical reaction in liquid systems when no gases are
+                                                               present. This supports the  validity of the proposed
+                                                       model.
+
+
+
+                                                                         IV. CONCLUSIONS
+
+                                                  The  solubility of  Cr(III)  species originating from
+                                                              dissolution of Cr2O3 in cryolite-based melts was studied
+                                                                in the temperature range 1173 K to 1293 K (900 C to
+                                                     1020  C). The molar ratio n(NaF)/n(AlF3) was in the
+Fig. 3—The content of  Cr(III)  species  in a melt saturated with     range 1.4 to 2.6. It was conﬁrmed that the dissolution of
+Cr2O3 as a function of the alumina content CR = 1.4 and tempera-     Cr2O3  is accompanied by a chemical  reaction. Weture of 1173 K (900  C).
+                                                   assume that as a result of this reaction, oxoﬂuoride
+                                                                species of chromium and aluminum are formed.
+                                    A semiempirical model having a thermodynamic basis
+                                                 was  developed. The model  describes  well  all  three
+                                                        parameters aﬀecting the solubility of Cr2O3, namely
+                                                            the composition of the melt expressed as cryolite ratio
+                                                      (CR), the temperature, and the alumina content. The
+                                                  model can be used to estimate the corrosion of Cr2O3-
+                                                          containing materials in cryolite melts.
+
+
+
+
+
+                                           ACKNOWLEDGMENTS
+
+                                                          This work was supported, courtesy of the Slovak
+                                                   Grant Agency (VEGA 1/0588/11). Financial support
+                                                  from ALCOA INC. is gratefully acknowledged.
+
+Fig. 4—The content of Cr(III) species in the melt saturated with
+Cr2O3 as a function of the alumina content for two temperatures
+and two cryolite ratios.
+                                                   REFERENCES
+solubility of Cr2O3 is of the same order as the solubility        1. V. Danielik, P. Fellner, D. Sˇulekova´, and J. Thonstad: J. Electro-
+of Fe2O3 at CR = 3[3,4] [1293 K (1200  C)].                     chem. Soc., 2012, vol. 159 (2), p. C86.
+                                                                                      2. A˚. Sterten and O. Skar: Aluminium, 1988, vol. 64, p. 1051.  The ﬁrst term in Eq. [7] represents the temperature
+                                                                                      3. J. Thonstad, P. Fellner, G.M. Haarberg, J. Hı´vesˇ, H. Kvande, and
+dependence of the equilibrium constant of Eq. [3]. It           A˚. Sterten: Aluminium Electrolysis, 3rd ed., Aluminium, Du¨sseldorf,
+follows that the standard enthalpy of Reaction [1]  is         2001.
+approximately 30 kJ/mol. This value is too high for a        4. Q.B. Diep: Thesis, NTNU, Trondheim, Norway, 1998.
+purely physical process. We may assume that the disso-        5. H.H. Landolt and R. Bo¨rnstein: Thermodynamic Properties of
+                                                                              Inorganic Material Part 1, Scientiﬁc Group Thermodata Europe
+lution of Cr2O3 is accompanied by a chemical reaction.        (SGTE), Springer, Berlin, 1999.
+The equilibrium constant K of Reaction [1] equals 9.7 at        6. A. Solheim, S. Rolseth, E. Skybakmoen, L. Støen, A˚. Sterten and T.
+1173 K (900 C) and 12.3 at 1273 K (1000  C).                      Støre: TMS Light Met., 1995, p. 451.
+
+
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                     VOLUME 44B, APRIL 2013—331

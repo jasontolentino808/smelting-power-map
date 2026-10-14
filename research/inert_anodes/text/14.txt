@@ -1,0 +1,437 @@
+Source: literature/MetalAnodePerformanceInLowTemperatureElectrolytesForAluminumProduction.pdf
+
+## PDF page 1
+
+Metal Anode Performance in Low-Temperature Electrolytes
+for Aluminum Production
+
+
+          T.R. BECK, C.M. MacRAE, and N.C. WILSON
+
+       An investigation has been undertaken into the performance of metal alloy anodes used to
+          produce aluminum via an electrochemical method. Alumina was electrolyzed in NaF/AlF3 and
+         KF/AlF3 electrolytes and mixtures thereof with copper-nickel-iron (Cu:Ni:Fe) alloy anodes and
+           titanium diboride (TiB2) cathodes. The operating temperatures of the electrochemical cells
+          ranged from 973 K to 1123 K (700 C to 850  C), with an anode current density of 5000 A/m2.
+            Cells ranged in current capacity from 10 to 300 amperes, with oxygen gas formed at the anode
+         and molten aluminum collected from the cathode. Posttest anodes were sectioned, and elemental
+         maps were performed to characterize the distribution of the chemical phases, including the
+          metal electrodes, bath phases, and aluminum metal production, which were used to determine
+           the reaction mechanisms of the cell. The metal alloy slowly corroded and formed an adherent,
+            electronically conducting nickel ferrite plus copper scale during the operation of the cell. The
+          proposed mechanisms of the anode performance are described herein.
+
+         DOI: 10.1007/s11663-011-9511-8
+           The Minerals, Metals & Materials Society and ASM International 2011
+
+
+
+                     I. INTRODUCTION                    Heroult cell. The cell construction is similar to that of
+                                                modern chlor-alkali  cells and aqueous metal reﬁning
+ TO reduce energy consumption by lowering  the                                                                             cells. In subsequent work,[6–8] it was found that anodes
+operating temperature of aluminum production cells, a                                                            of the Cu:Ni:Fe alloy could be used instead of cermet,
+series of tests were carried out in the late 1970s using                                                 and an extensive test program followed from 1998 to
+composite anodes containing stoichiometric alumina in                                                     2003 employing a range of Cu-Ni-Fe anode composi-
+carbon  anodes,[1–3] which allowed  for a  variety  of                                                               tions as well as NaF/AlF3 and KF/AlF3 electrolyte
+electrolytes and  operating  temperatures  as  low  as      compositions.[9–11] Current eﬃciencies of up to 95 pct
+973 K (700  C). In these test  cells, alumina was fed                                                 and aluminum purities of up to 99.5 pct were achieved
+directly to the site of consumption on the active anode                                                                in 200-ampere cells. The high metal purity[9] shows that
+surface, which meant the electrolyte did not require high                                                                                   little corrosion of the alloy anode occurred. Elemental
+alumina solubility. However, this technology did not                                               maps of cross sections of anode/electrolyte surfaces were
+gain acceptance in the industry because the anodes                                                         undertaken, the results of which are presented here.
+required  larger baking  furnaces and had a  higher
+electrical  resistance. Continued development resulted
+in an inert cermet anode consisting of nickel ferrite and
+copper[4] being developed by Alcoa (Pittsburgh, PA) in                           II. EXPERIMENTAL
+the early 1980s to replace the consumable carbon anodes                                                   A. Experimental Cell Tests
+in the Hall–Heroult process.
+ A  concept  that combined  both  ideas  from  the     An extensive test program of test cells was made with
+previous work was patented[5] in 1989. This process     Cu:Ni:Fe alloy anodes and titanium diboride cathodes
+involves the inert anodes being used in a low-tempera-      in a laboratory in Seattle, WA and in laboratories at
+ture ﬂuoride electrolyte containing a slurry of alumina,    aluminum plants at Goldendale, WA and The Dalles,
+which brings alumina particles in direct contact with the      OR.[9] A  range  of anode  alloy  compositions and
+anode surface from the electrolyte side. The primary      structures including sintered, two-phase as cast, and
+reaction on the anode surface is the formation of oxygen     homogenized were employed. Electrolyte compositions
+gas and aluminum ions in the  electrolyte. One key     were eutectic NaF:AlF3 and KF:AlF3 as well as mix-
+advantage of this concept is that a battery of vertical      tures thereof. The cathode material employed in the cells
+cermet anodes and titanium diboride cathodes would    was  titanium  diboride, and  operating  temperatures
+result in a compact cell in comparison with the Hall–     ranged from 973 K to 1123 K (700 C to 850 C) with
+                                                                           cell sizes varying from 10 ampere to 300 amperes and
+                                                                       test durations varying from 6 to 300 hours.
+   T.R. BECK, President, is with ETCI LLC, Seattle, WA 98125.
+C.M. MacRAE, Director Microbeam Laboratory, and N.C. WILSON,
+Electron Microscopist/Microanalyst, are with CSIRO Process Science
+and Engineering/CSIRO Light Metals Flagship, Clayton, Victoria 3168,     B. Electron Probe Mapping
+Australia. Contact e-mail: colin.macrae@csiro.au
+   Manuscript submitted October 5, 2010.                              Selected posttest anodes with some electrolyte still in
+   Article published online April 13, 2011.                           intimate  contact were examined by  electron probe
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                   VOLUME 42B, AUGUST 2011—807
+
+## PDF page 2
+
+microanalysis and were prepared into polished cross     of the matrix on the X-ray signal. By far, the largest
+sections. At the conclusion of a test cell run, the voltage     eﬀect on observed X-ray intensity is caused by absorp-
+was switched oﬀand the anode was removed with a ﬁlm      tion. A single pass correction for absorption was applied
+of some adhering electrolyte. Previously, an experiment     to the k-ratio’s measured at each pixel based on the
+was reported in which a whole frozen cell was exam-     Bence–Albee correction procedure.[12] In interpretation
+ined.[11] At the conclusion of that test, the heater was     of results, the accuracy for Cu, Ni, and Fe  is about
+turned oﬀand the cell switched to a constant voltage     2 pct, but the accuracy for Ti, Na, P, K, Al, F, and O is
+mode to freeze the bath and retrain the approximate     only 20 pct or higher.
+distribution of chemical phases in the cell. These cells
+were then back ﬁlled with epoxy to encapsulate the
+                                                                       2. Manual phase selection
+reactive phases. The whole cell samples had the advan-
+                                                            Electron microprobe maps were manipulated using
+tage that the chemistry across the entire cell could be                                                            the CSIRO Chimage[13] software package. This software
+examined and an understanding of the chemical proﬁles
+                                                           enables complete processing and interpretation of the
+could be imaged.
+                                                        data  set oﬄine. Elemental data can be displayed as
+  Metal alloy anode samples were sectioned across the
+                                                           elemental scatter plots, and clusters corresponding to
+interfacial region with a low-speed diamond saw using
+                                                              individual chemical phases can be identiﬁed from a
+an oil lubricant. The sections were then ground back on
+                                                                   built-in mineral database. Data points comprising each
+diamond  impregnated  grinding  disks,  with  a  ﬁnal
+                                                                  cluster were manually selected, and the chemical phase
+diamond  size  of 6 lm. Then ground  sections were
+                                                           represented by the cluster was deﬁned and saved before
+polished on pads with diamonds in suspension, with the
+                                                             displaying the complete set of data as a phase-patched
+ﬁnal size being 1 lm. The advantage of this technique
+                                                 map.
+over preparation with sandpaper was that the surface
+                                                   For a complex assembly of compounds,  it can be
+was optically ﬂat over large distances. Typically, the
+                                                         diﬃcult to assign  all points manually to chemically
+dissimilar hardness materials like titanium diboride and
+                                                                   distinct phases. Several detrimental processes can occur
+electrolyte usually grind at diﬀerent rates resulting in
+                                                             that lead to increased scatter in elemental plots; they are
+signiﬁcant topography, which is undesirable for electron
+                                                            the beam straddling two or more phases, and the beam
+microprobe mapping. Prior to analysis in the electron
+                                                           stepping across the edge of a particle or surface into the
+microprobe, the samples were coated with 15 to 20 nm
+                                                   mounting epoxy. Voids or holes in the sample also lead
+of carbon.
+                                                            to changes in X-ray-to-detector path length, which can
+  Elemental maps were acquired on a JEOL 8900R
+                                                            lead to enhanced or reduced signals from rims, which
+Superprobe (JEOL, Tokyo) electron microprobe ana-
+                                                              also scatters the results. However, assignment of phases
+lyzer equipped with one energy  dispersive and ﬁve
+                                                                                 is still possible and one key advantage of the mapping
+wavelength dispersive spectrometers (WDS). Large area
+                                                        data  is  that, where  scatter occurs,  it  is possible to
+maps were obtained using a grid of analysis points for
+                                                conﬁrm its origin by relocating the points on the sample.
+the elements Fe, O, Ti, Mg, Al, Cu, Na, K, Si, Ca, P,
+and F, which were all measured by WDS. Two passes
+were performed, and the light elements, Na, F, O, Al,         3. Automatic phase selection
+and P were measured on the ﬁrst pass to minimize       Phases containing minor elements and those with
+migration eﬀects from the electron beam. Standards    many elements require several elemental scatter plots to
+used  to  calibrate  the  spectrometers  were  hematite     be examined simultaneously, which increases the diﬃ-
+(Fe2O3), rutile (TiO2), Mg-Al spinel (MgAl2O4), copper      culty of the manual phase assignment. One approach to
+and  nickel metal, sodium chloride (NaCl), adularia      this problem  is implementing auto  cluster  selection
+(KAlSi3O8), wollastonite (CaSiO3), apatite (Ca5(PO4)3F),      algorithms.[14] Such algorithms allow for the selection of
+and cryolite (Na3AlF6). Elements marked in bold were      clusters  in multidimensional space, which minimizes
+collected from the standards. Mosaic maps comprising     operator bias and aids in the interpretation and char-
+three or four individual maps were collected across each      acterization of the various chemical phases. One can
+anode sample, which were then combined, giving a      select the required number of clusters and allow the
+typical coverage of ~6 9 9 mm. Maps were collected     computer to do the clustering. With this approach, all
+with an accelerating voltage of 15 kV, a regulated beam     points in the map are associated with one phase, no
+current of 100 nA, a step size of 2 lm (in both x and y     points are missed, and no multiple assignments of points
+directions), and a dwell time of 15 ms per step. Each     occur.
+~6.0 9 9.0 mm map took a minimum of 12 hours to
+acquire.
+                                                                                     III. RESULTS AND DISCUSSION
+   1. Bence–Albee matrix correction procedure
+  The mapping procedure used in this study involved        Results are presented for a typical run with a 40:30:30
+collecting the X-rays on the element peaks only and     weight  ratio  Cu:Ni:Fe  anode  in  55:45 mol  ratio
+scaling these for counting time and beam current and    KF:AlF3 eutectic electrolyte (Figure 1). The cell oper-
+then dividing them by the count rates collected on      ating temperature was 973 K (700  C), and the eutectic
+standards of known composition. These scaled values     melting point was approximately 833 K (560  C). Ver-
+are referred to as  ‘‘k-ratio’’  levels. When  collecting       tical sheet electrodes were used in a 300-ampere cell for a
+X-rays in this fashion, one needs to consider the eﬀects     100-hour run.
+
+
+808—VOLUME 42B, AUGUST 2011                                      METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 3
+
+Fig. 1—Three color elemental maps of an anode cross section after
+electrolysis. (a) Plot of Cu, Ni, and Fe, and (b) shows K, Al, and F
+from the same region. Base alloy, corrosion, and scale regions are
+labeled 1, 2, and 3, respectively. Several reaction layers are clearly
+visible, illustrating the complexity of the anode-bath electrolysis.
+
+                                                                             Fig. 2—Chemical phase patched image of the mapped region. Phases
+                                                                  have been identiﬁed based on their chemical composition.
+  Element maps are plotted as three-color maps for Cu,
+Ni, and Fe and for K, Al, and F and are shown in
+Figures 1(a) and (b). The three-color maps reﬂect the        Table I.  Compositions of the Three Metals in the Alloy,
+concentration of the individual elements, and when a         Porous Metal, and Scale Taken from Cluster Centroids
+combination of elements occurs at a pixel, the colors are                           in Elemental Scatter Plots
+mixed. For example, when elements labeled as green and
+red both present, the resulting color is yellow, whereas                   Alloy Phases   Porous Metal        Scale
+                                                                   Alloyred and green with some blue will lead to a brown color.
+                                                              Average Yellow Blue Green Blue Red Blue Orange
+Compositions in three regions are examined and labeled
+as  the base  alloy  (1),  the porous  iron and  nickel    Cu    40      24    75    20    69    7   80    10
+corrosion region (2), and the scale (3) in Figure 1(a).     Ni    30      37    14    52    23    2   13    29
+The base alloy anode consisted of two main phases—an     Fe    30      39    11    28     8   91    7    61
+iron-nickel-copper phase (yellow–brown) and a high
+copper, low iron-nickel phase (blue). Iron is corroded
+preferentially from the iron-rich phase in the  alloy,     base alloy through the porous metal layer into the scale.
+initially leaving an enriched nickel phase behind. The    The Ni-rich zone at the boundary of the base layer in the
+copper-rich phase (blue) is not corroded in this zone.     porous metal is depleted in iron and thus is enriched in
+The corroded  iron forms a  ﬂuoride,  as shown by      nickel. The  electrolyte  layers  (Figure 2) have been
+coexisting F in Figure 1(b), which is more clearly shown     grouped into two compositions, and predominately,
+in the phase map (Figure 2) where the iron ﬂuoride     the higher iron-containing electrolyte phase  is farther
+phase  is indicated in red. The iron ﬂuoride regions     out in the scale-corrosion region, indicating an eﬀective
+(Figure 2  [red]) seem  to be corrosion pathways or     transportation  of  the  iron ﬂuoride away from  the
+tunnels. This tunnel corrosion mechanism of the iron-      tunnels.
+rich phase was observed in other similar tests with two-       Corrosion  tunnels  did  not form  in a  thermally
+phase Cu-Ni-Fe alloys. The orange-red layer (Figure 1a,     homogenized 40:30:30 Cu:Ni:Fe  alloy  for the same
+region 3) in the inner part of the scale and the orange      electrolysis  conditions. The iron-nickel-copper phase
+layer in the outer part of the scale are enriched in nickel     (brown) in Figure 1(a) may have defects that enabled
+and somewhat depleted in iron compared with the red     the nucleation of tunnels resulting in corrosion. An
+phase, an iron ﬂuoride, in the porous metal.                  alternative explanation is that a threshold composition
+  The compositions of the three metals in the alloy,      exists between 40:30:30 Cu:Ni:Fe and the composition
+porous metal, and scale are given in Table I. Calibration      in the Figure 1(a) iron-nickel-copper phase, 24:37:39
+was based on the average 40:30:30 composition in the     (Table I) for tunnel corrosion to occur.
+alloy metal. A modal analysis of the phase patched       Figure 3, shows an elemental scatter plot of nickel vs
+image (Figure 2) shows that the base alloy metal has an     oxygen and a O, Ni, Fe three-color map. The nickel-iron
+area percentage of 15 pct copper-rich phase and 85 pct     oxide phase has been highlighted in the scatter plot and
+iron-rich phase, resulting in the distribution of Cu, Ni,      these same pixels are colored in the three-color map,
+and Fe shown in the two phases. It was noted that the     with the remaining pixels in grey. This illustrates that
+copper-rich phase remains nearly unchanged from the     the outer scale layer is mainly an oxide in nature rather
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                   VOLUME 42B, AUGUST 2011—809
+
+## PDF page 4
+
+                                                                Table II.  Electromotive Series for Aluminum Electrolysis
+                                                                        at 1000 K (727 C) Based on Free Energies of Formation of
+                                                       Compounds in JANAF Tables[16] F2 and O2 Are Ideal Gases
+                                                                          at One Atmosphere. All Other Compounds Are in Pure
+                                                                Standard Crystalline State Except Al, Which Is in Liquid
+                                                                                            State*
+
+                                                                                Electrons     DG0f       E0        E0
+                                                Compound       (n)       (kcal/mol)    (V)    (V, Al = 0)
+
+                                                                  Basis E0
+                                                          AlF3           3        –298.767    4.319       4.319
+                                                           Al2O3          6        –325.301    2.351       2.351
+                                                            Derived E0 (V, Al = 0)
+                                              CuF           1         –30.881    1.339       2.980
+Fig. 3—Elemental scatter plot of Ni vs O with the nickel-iron oxide      CuF2          2         –93.140    2.020       2.300
+pixels selected in blue. The selected pixels projected on the O, Ni,     CuO           2         –15.923    0.345       2.006
+and Fe map are highlighted. This shows that the scale layer has an      Cu2O          2         –23.094    0.501       1.850
+oxide nature.                                               NiF2           2        –120.047    2.603       1.716
+                                                NiO           2         –35.657    0.733       1.578
+                                                         Fe2O3          6        –134.363    0.971       1.380
+than a ﬂuoride. The highlighted cluster in Figure 3 has a      FeF2           2        –135.796    2.944       1.375
+composition  of Cu  7.2 wt pct, Fe  41.3 wt pct, Ni     FeO           2         –49.495    1.073       1.278
+23.9 wt pct, and O 26.5 wt pct, giving a formula of       SiO2           4        –174.561    1.893       0.458
+                                                          Al                                               0.000Ni(Cu, Fe)2O4, which is conﬁrmed by X-ray diﬀraction
+                                        KF            1        –110.843    4.806      –0.487
+on scrapings of the scale that showed the presence of a
+                                             NaF           1        –112.636    4.885      –0.566
+nickel ferrite (NiFe2O4). The free energy of nickel ferrite                                                     CaF2          2        –248.851    5.396      –1.077
+formation at 973 K (700 C) from NiF2, FeF3, and
+Al2O3 from the bath is expressed as follows:                    E0 (Al = 0) = 4.319 – E0 for ﬂuoride compounds.
+                                                                  E0 (Al = 0) = 2.351 – E0 for oxide compounds.
+NiF2 þ 2FeF3 þ 1:333 Al2O3 ¼ NiO Fe2O3 þ 2:667 AlF3          Potentials at other than unit activity of products and reactants.
+                                                    E = E0 – [2.303 RT/nF] log (aP/ar).
+                                                           ½1     @ T = 1000 K (727  C).
+                                                    E = E0 – [0.198/n] log (aP/ar).
+and is –27.928 kcal,[15] making nickel ferrite NiFe2O4 a         *E0 = –DG0f /23.060 n.
+thermodynamically likely product. The scale seems to be        From HSC Chemistry.[15]
+a cermet of nickel ferrite with metallic copper particles
+on a ductile metal substrate. The ragged outer surface in      three-color map. The iron ﬂuoride phase has been
+Figure 1a suggests that oxygen bubble evolution may      highlighted in the scatter plot and these same pixels are
+pluck out bits of scale, which leads to a wear mecha-     colored in the three-color map, with the remaining pixels
+nism. This mechanism plus the dissolution of the metal      in grey. This ﬁgure shows that the main phase in the
+ions may limit the thickness of the scale.                   corrosion region is an iron ﬂuoride compound.
+ A calculated electromotive series for the compounds      The proposed mechanism  in  the  tunnels  is  that
+of interest in the interpretation of reactions occurring on     ﬂuoride ions are brought in by electrolytic migration
+the surface of a Cu:Ni:Fe anode is shown in Table II.     through solid FeF2 to the ends of the tunnels. The
+The free energies of formation are from HSC Chemis-     standard potential at the ends of the tunnels to form
+try[15] and the JANAF Tables[16] for a temperature of    FeF2 is 1.375 V according to Table II. At the porous
+1000 K (727  C). Molten aluminum  is the reference     metal–scale interface, Fe2+ in FeF2 is oxidized to Fe3+
+electrode, which is preferred because it is the cathode of      in FeF3 at 1.745 V, and nickel is oxidized to Ni2+ in
+a cell and it has a small overpotential during electrolysis.     NiF2 at 1.716 V. The outer surface of the scale is at a
+  The observed sequence of corrosion of the metals in      potential of 2.351 V for the oxidation of Al2O3 to O2
+the anode is consistent with the electromotive series in    and Al3+, plus an overpotential g of perhaps a few
+Table II.  Iron  corrodes  ﬁrst  within  the  base  alloy      tenths of a volt. Copper particles, which break out of the
+surface, then nickel, and then copper. A summary of     porous metal layer, are oxidized to Cu2+ at a potential
+the proposed reactions in and on the anode surface that     of 2.300 V near the outer part of the scale. The scale is
+are consistent with the electromotive series is presented      electronically conducting but apparently porous enough
+in Figure 4. The standard potentials in Figure 4 are      for ﬂuoride ions and alumina or for aluminum oxy-
+based on EAl = 0 as well as unit activities of reactants     ﬂuoride to diﬀuse in.
+and products. The actual potentials would be slightly      The  nickel  ferrite and  copper  in  the  scale  are
+diﬀerent but not known exactly because the activities of      electronic conductors, allowing the alumina to discharge
+reactants and products may diﬀer somewhat from unity.      at the  scale–electrolyte  interface to form oxygen as
+  Corrosion tunnels are ﬁlled with solid FeF2 (melting    shown in Figure 4. This is the dominant reaction as the
+point >1273 K [1000  C]) that bore into the iron-rich     corrosion reactions of Fe, Ni, and Cu have accounted
+phase of the alloy anode. Figure 5 shows an elemental      for as little as 0.5 pct of the impurities in the aluminum
+scatter plot of iron vs ﬂuorine as well as a Cu, Ni, and Fe     produced  during  300-hour  runs.[9]  If  oxygen  were
+
+
+
+810—VOLUME 42B, AUGUST 2011                                      METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 5
+
+                                                                             Fig. 6—Corrosion penetration depth into an alloy as a function of
+                                                                             time.
+
+
+                                                 160-lm thick, with a conductivity between 1000 and
+                                                         10,000 X–1 m–1 and no porosity, would give a potential
+                                                    drop of less than 0.0008 V, which is desirable for a high-
+                                                      eﬃciency anode.
+                                                  The rate-limiting step for growth of the scale on the
+                                                             surface of the anode is not known for certain, but the
+                                                    growth of the tunnels in Figure 1 seems to be a likely
+                                                            candidate. The initial penetration depth of the corrosion
+                                                            tunnels into the anode alloy, for runs at 973 K (700  C),
+                                                            follows the subsequent empirical half power law with
+                                                         time t, as shown in Figure 6:
+
+                                                                                                                                      l ¼ ð kt Þ1=2                       ½2
+
+                                                          This  relation  is  consistent  with  one-dimensional,
+                                                                   solid-state diﬀusion of a species in a growing tunnel.
+Fig. 4—Summary of proposed reactions in and on an anode surface      Crank[17] gives the following relation:
+consistent with elemental maps in Fig. 1 and electromotive series in
+Table II.                                                                    x=ð4DtÞ1=2 ¼ constant                ½3
+
+                                                              for one-dimensional diﬀusion in a semiinﬁnite solid
+                                                    where x is distance (cm), D is the diﬀusion coeﬃcient
+                                                                (cm2/s), and t is time (s). An examination of values of
+                                                            the error function in Crank indicate that the constant
+                                                       has a value near unity. Fitting Eq. [3] to Figure 6 results
+                                                                in a value of D equal to 3 9 10–10 cm2/s. The actual
+                                                          value  is larger than this because the fractional cross
+                                                              section for the diﬀusion of Fe2+ or F– in FeF2 in the
+                                                            tunnels is less than unity. For example, the value of D
+                                           may be as large as 1 9 10–9 cm2/s. It is expected that,
+                                                          given enough time, the rate of penetration would slow to
+                                                            the corrosion rate of the nickel component at the metal–
+                                                                 scale interface and the tunnel length would become
+                                                             constant; however, tests were not long enough to verify
+                                                                     this expectation.
+Fig. 5—Elemental scatter plot of Fe vs F with the iron ﬂuoride pix-       Values of k for four tests in which conditions were the
+els selected in blue. The selected pixels projected on the Cu, Ni, and
+Fe map are highlighted. This shows that the corrosion region is rich    same except for temperature are linear on semilogarith-
+in an iron ﬂuoride.                                       mic coordinates in Figure 7. The extrapolated value of k
+                                                            to 1223 K (950 C) is about 104 greater compared with
+                                                     973 K  (700  C),  illustrating  the advantage  of  low-
+formed within the scale, then the scale would be ‘‘blasted     temperature electrolysis for metal anodes. One test with
+oﬀ.’’  Stoichiometric NiFe2O4 may  not  be a good     a  thermally homogenized  alloy  at  973 K  (700 C)
+electronic conductor at 973 K (700  C), but the nonsto-      resulted in a value of k reduced by a factor of ten. No
+ichiometric forms  deﬁcient  in Fe  are  conductive.[4]     corrosion  tunnels  were  found,  only  a  gradient  in
+The  conduction  of 5000 A/m2 through a  scale  of     concentration of iron within the surface of the alloy.
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                   VOLUME 42B, AUGUST 2011—811
+
+## PDF page 6
+
+                                                  inﬂow of electrolyte,[20] and by impinging small alumina
+                                                                          particles.[7] The latter may indeed not be necessary for a
+                                                        suﬃcient mass-transfer rate in KF-AlF3 eutectic elec-
+                                                                     trolyte. Nevertheless, the supersaturation of electrolyte
+                                                  by alumina particles would be necessary to prevent the
+                                                     alumina sleeves from dissolving, if used.
+
+
+
+                                                                         IV. CONCLUSIONS
+
+                                                          In this study, laboratory experiments with metal alloy
+                                                     anodes have been used to produce aluminum. Alumina
+                                                 was electrolyzed in NaF/AlF3 and KF/AlF3 electrolytes
+                                                 and mixtures thereof with copper-nickel-iron (Cu:Ni:Fe)
+                                                               alloy anodes and titanium diboride cathodes. Operating
+                                                         temperatures of the cells ranged from 973 K to 1123 K
+                                                          (700 C to 850  C), with anode current densities of up to
+                                                     5000 A/m2, and  cells  ranged  in  size  from  10  to
+                                                     300 amperes. Oxygen gas formed at the anode and
+                                                     molten aluminum and was collected from the cathode.
+                                        An electron microprobe of the anode sections revealed
+                                                             that the base alloy slowly corroded through the forma-
+                                                              tion  of a  solid  iron ﬂuoride FeF2 compound  that
+                                                                    selectively corroded the iron by forming tunnels in the
+Fig. 7—Corrosion rate constant as a function of temperature.           base alloy. The nickel corroded next, leaving a copper-
+                                                                rich composition. The iron and nickel ﬂuorides were
+The rate-limiting step apparently changed to solid-state     converted to oxides outside of the metal phase. This
+diﬀusion of iron  in the homogeneous  alloy to the     then formed an  adherent,  electronically  conducting
+interface  with  electrolyte  in  the  scale  rather  than      nickel ferrite (NiFe2O4) with copper inclusions being
+through  solid FeF2  in  tunnels. The  value  of  this     the last to corrode. The series of layers are clearly shown
+diﬀusion coeﬃcient calculated by Eq.  [3] was about      in the chemical phase patched map. In this test cell, the
+4 9 10–12 cm2/s. This value is consistent with the order     measured current eﬃciencies were above 90 pct for this
+of magnitude values of D for diﬀusion of Fe in each of     type of cell design.
+Cu, Ni, and Fe at a temperature of 973 K (700 C)       These observed reactions are consistent with a derived
+calculated from Smithells,[18] who found the self-diﬀu-     electromotive  series  for  these  metals  in aluminum
+sion of a-Fe to be 2 9 10–13 cm2/s; Fe in Cu to be     ﬂuoride  melts  containing  alumina. The  penetration
+4 9 10–12 cm2/s; and Fe in Ni to be 6 9 10–15 cm2/s.       depth of the altered surface of the alloys initially varied
+ A  practical  result  determined  during  the  study     following a power law with time to ½ power. The
+reported here is that molten aluminum crept above the     corrosion rate constant of the Cu:Ni:Fe alloy is about
+electrolyte level on cylindrical titanium diboride (TiB2)     104 smaller in NaF, KF, and AlF3 eutectic electrolytes at
+cathodes in the 10-ampere  cells. This aluminum was     973 K (700 C) than at the 1223 K (950 C) operating
+exposed to oxygen and air and was reoxidized, decreas-     temperature of the Hall–Heroult process.
+ing the current eﬃciency. A tight-ﬁtting alumina sleeve
+placed over the top of the cathode above the electrolyte
+prevented this reoxidation and measured current eﬃ-
+                                           ACKNOWLEDGMENT
+ciencies were above 90 pct. The low current eﬃciencies of
+20 to 80 pct reported in earlier work[7] were attributed to     We thank Golden Northwest Aluminum Holding
+aluminum falling oﬀthe cathodes and resting on the    Company for permission to publish this work.
+bottom anode. It  is now realized that the interfacial
+tensions among aluminum, TiB2, and electrolyte held the
+ball of aluminum on the bottom of the cathode during
+the 7-hour tests and that aluminum crept up the cathodes                REFERENCES
+to the gas above caused the low current eﬃciencies.               1. J.C. Withers and G.V. Upperman: Patent US 4 342 637, 1982.
+  Frazer and Thonstad[19] recently showed that alumina         2. J.C. Withers and G.V. Upperman: Patent US 4 338 177, 1982.
+solubility is 2 pct higher in KF-AlF3 eutectic than in         3. T.R. Beck, J.C. Withers, and R.O. Loutfy: in Light Metals 1984,                                                                                                  J. P. McGeer, ed., TMS, 1984, pp. 261–66.
+NaF-AlF3  eutectic  at about 1023 K (750  C). They         4. J.D. Weyand, S.P. Ray, F.W. Baker, D.H. DeYoung, and G.P.
+suggest that an alumina slurry may not be needed in          Tarcy: ‘‘DOE (US Department of Energy),’’ Final Report, Alcoa
+KF-AlF3  eutectic  to  avoid  the  anode  eﬀect. The           Laboratories, Pittsburgh, PA, 1986.
+following three modes of mass transfer of alumina to         5. T.R. Beck and R.J. Brooks: Patent US 4 865 701, 1989.
+                                                                                       6. T.R. Beck: ‘‘NSF (US National Science Foundation),’’ Final
+the metal alloy anode are available: by well-known                                                                          Report, Electrochemical Technology Corp., Seattle, WA, 1993.
+convection of electrolyte past the anode caused by rising         7. T.R. Beck: in Light Metals 1994, U. Mannweiler, ed., TMS, 1994,
+oxygen bubbles, by detachment of oxygen bubbles and          pp. 417–23.
+
+
+812—VOLUME 42B, AUGUST 2011                                      METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 7
+
+ 8. T.R. Beck: in Light Metals 1995, J.W. Evans, ed., TMS, 1995,       14. N. Wilson, C. MacRae, and A. Torpy: Microscop. Microanal.,
+    pp. 355–60.                                                              2008, vol. 14, pp. 764–65.
+ 9. D.R. Bradford: ‘‘DOE, Northwest Aluminum  Technologies,’’       15. HSC Chemistry for Windows, Version 3.0, 1997.
+    Final Technical Report, The Dalles, OR, 2005.                          16. JANAF Thermochemical Tables, 2nd ed., U.S. National Bureau
+10. C.W. Brown: in Light Metals 2000, R.D. Peterson, ed., TMS,           of Standards, Washington, DC, 1971.
+    2000, pp 391–96.                                                         17. J. Crank: The Mathematics of Diﬀusion, 2nd ed., Clarendon Press,
+11. C.W. Brown: in Light Metals 2003, P. Crepeau, ed., TMS, 2003,          Oxford, U.K., 1975.
+    pp. 293–98.                                                              18. E.A. Brandes,  ed.: Smithells Metals Reference Book, 6th  ed.,
+12. A.E. Bence and A.L. Albee: J. Geol., 1968, vol. 76, pp. 382–403.           Butterworths, London, U.K., 1983.
+13. I.R. Harrowﬁeld, C. MacRae, and N.C. Wilson: Proc. 27th Annual       19. J. Frazer and J. Thonstad: unpublished research.
+    Microbeam, Analysis Society (MAS) Meeting, 1993, pp. 547–48.        20. N. Ibl and J. Venczel: Metalloberﬂache, 1970, vol. 24, pp. 365–74.
+
+
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                   VOLUME 42B, AUGUST 2011—813

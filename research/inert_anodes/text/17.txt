@@ -1,0 +1,943 @@
+Source: literature/Padamata_2023_J._Electrochem._Soc._170_073501_Review-PrimaryProductionOfAluminumWithOxygenEvolvingAnodes.pdf
+
+## PDF page 1
+
+Journal of The
+Electrochemical Society
+
+
+
+OPEN ACCESS                                          You may also like
+
+                                                                                                                                                                   - Electrochemical corrosion and aluminum
+Review—Primary Production of Aluminium with                 electrolysis performance of pre-oxidized
+                                                                                                                Fe-Ni alloys in NaF-AlF3-NaCl-CaF2-Al2O3
+Oxygen Evolving Anodes                                                           moltenShixing saltWang, Zhengduo Xue, Zhen-Kun
+                                                                                      He et al.
+To cite this article: Sai Krishna Padamata et al 2023 J. Electrochem. Soc. 170 073501                                 - Anodic Behaviour of Ni42Fe38Cu20
+                                                                                                                     Electrode in Molten Fluoride Salts
+                                                                                                   Gudrun Saevarsdottir, Geir Martin
+                                                                                                               Haarberg, Milane Bourmaud et al.
+
+                                                                                                                                                                   - Corrosion Electrochemistry of Chromium
+View the article online for updates and enhancements.                                                                      in Molten FLiNaK Salt at 600 °C
+                                                                                      Ho Lun Chan, Elena Romanovskaia,
+                                                                                                                         Valentin Romanovski et al.
+
+
+
+
+
+                            This content was downloaded from IP address 50.175.156.58 on 21/07/2026 at 00:12
+
+## PDF page 2
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+            Review—Primary Production of Aluminium with Oxygen Evolving
+            Anodes
+                    Sai Krishna Padamata,1,*,z  Kamaljeet Singh,1,2 Geir Martin Haarberg,2,* and
+                Gudrun Saevarsdottir1,2,*,z
+
+                        1Department of Engineering, Reykjavik University, 102 Reykjavik, Iceland
+                        2Department of Materials Science and Engineering, NTNU, 7491 Trondheim, Norway
+
+           Due to environmental and economic concerns, carbon-free aluminium production has been an ultimate goal for aluminium
+                industries. For the past few decades, a considerable amount of research has been conducted to ﬁnd an inert anode material that
+              could replace the consumable carbon anodes for aluminium electrolysis. Anodic materials such as metals, ceramics and cermets
+             have been studied extensively. All these anode materials have their advantages and disadvantages. However, metal alloys have
+             proven effective due to their resistance to high-temperature corrosion and ability to produce a protective oxide layer. For a
+               successful adaptation of metallic anodes into the aluminium electrolysis cell, an electrolyte with a low-operating temperature and
+              high alumina solubility with good electrical conductivity is required. Another signiﬁcant component of the carbon-free aluminium
+                electrolysis cell is a wettable cathode to reduce the anode-cathode distance. This review discusses the research progress on inert
+              anodes, wettable cathodes and electrolytes.
+        © 2023 The Author(s). Published on behalf of The Electrochemical Society by IOP Publishing Limited. This is an open access
+                 article distributed under the terms of the Creative Commons Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/
+                by/4.0/), which permits unrestricted reuse of the work in any medium, provided the original work is properly cited. [DOI: 10.1149/
+             1945-7111/ace332]
+
+
+             Manuscript submitted January 5, 2023; revised manuscript received May 16, 2023. Published July 10, 2023. This paper is part of
+               the JES Focus Issue on Molten Salts and Ionic Liquids III.
+
+
+   Rapid industrialisation over a century has led to the increasing    800 °C, having an Eo of 2.31 V, which is 1.15 V higher than the
+consumption of aluminium.1 Hall-Heroult’s process produces alu-     conventional process. One of the essential requirements for inert
+minium using a consumable carbon anode and liquid aluminium     anodes system is to have a new cell design to maintain cell voltage
+cathode. Alumina is dissolved in Na3AlF6 cryolite molten salt with      similar to the existing process. The signiﬁcant advantages of using
+AlF3 additive to obtain active Al3+ ions to be reduced at the cathode.     an inert anode system would be zero greenhouse gas emissions
+A signiﬁcant amount of greenhouse gases (GHG) are emitted from     during the electrolysis process, easy maintenance, economical and
+Hall-Heroult’s process. Pre-baked carbon anodes are consumed with     longer anode life expectancy.
+time, having a lifespan of 30 days, requiring constant adjustment of       About 400 kg of carbon anode is consumed per ton of aluminium
+the anode-cathode distance (ACD). The following is the primary     produced during the traditional aluminium process.5 Considering
+reaction taking place in the conventional electrolysis cell:              67.24 million tons of aluminium produced in 2021, about 26.89
+                                                                        million tons of carbon blocks were consumed. Thus, with the
+    1.5C(s ) + Al 2 O 3 (sol ) = 1.5CO 2 (g ) + 2Al (l ) , E o = 1.19 V              successful adaptation of inert anodes into the alumina reduction
+     and EΔ0H (CE = 6%) = 2.037 V at 960 °C                            [ 1 ]      cells, the consumption of signiﬁcant amounts of carbon materials
+                                                                can be avoided and reduce greenhouse gas emissions. Inert anodes
+   The Eo mentioned above is the decomposition potential needed     are required  to possess the following  properties  to work with
+                                                                                    stability:6for dissociating Al2O3 to Al3+ and O2−active species at a particular
+temperature (Eo = ‒ΔG0/nF), ΔG0 is the standard Gibbs energy of
+                                                                                      a.  High electrical conductivityreaction, n is the number of electrons transferred in the reaction and
+F is Faraday constant. E0 ΔH is the aluminium producing voltage      b.  High resistance toward thermal shock
+(E0ΔH = ΔH0(CE)/nF,2 ΔH0 is the standard enthalpy of the cell       c.  Overvoltage  (oxygen  evolution)  of  less  than  0.5 V   at
+                                                                            0.8 A.cm−2reaction for reactants entering at ambient temperature and products
+                                                                                d.  Easy to fabricate and low-costleaving at electrolyte temperature, and CE is the current efﬁciency
+                                                                                      e.  Ability to form a protective oxide layer(in fractions).
+                                                                                                       f.  Resistance to ﬂuorination of anode surface (formation of MexFy,   The above reaction (1) shows that the main anodic product is
+                                               Me = Cu, Fe or Ni etc.)CO2. About 1.5  t CO2/t of Al  is emitted during the aluminium
+                                                                                g.  High chemical stabilityelectrolysis process,3 while 0.6 t CO2/t of Al perﬂuorocarbon gases
+                                                                                h.  Low dissolution rate in the molten salt electrolysisare emitted simultaneously during the electrolysis.4
+    It is believed that replacing carbon anodes with inert anodes
+                                                            The cell’s operating temperature should be about 800 °C or lowercould  substantially reduce  the carbon  footprint caused by  the
+                                                                             for the inert anodes to have a longer lifespan. Low-temperaturealuminium  industry. The following  reaction occurs when  inert
+                                                                              electrolytes  are  an  essential  part  of  an  inert  anode   cell.anodes are used for aluminium electrowinning:
+                                                               NaF-AlF3-based electrolytes are used in Hall–Heroult’s process as
+      Al 2 O 3 (sol ) = 1.5 O 2 (g ) + 2 Al (l ) ,                                    the acidic sodium cryolite can dissociate Al2O3 to active ions. Inert
+          o                  0                                         anodes  have  been  investigated  in  NaF-AlF3,  KF-AlF3,  and     E = 2.20 Vand EΔ H (CE = 95%) = 2.924 V at 960 °C         [ 2 ]                                                           NaF-KF-AlF3 molten  salts under varying conditions, such as at
+                                                                              different operating temperatures, alumina concentration and cryolite
+   Alumina decomposition potential in inert anodes is 1 V more
+                                                                           molar fraction of MF
+than in conventional electrolysis. Moreover, it is better to have an      ratios ⎛⎜CR =                    ⎞⎟ , where M = Na or K.
+operating temperature of inert anode cells should be as low as          ⎝      molar fraction of AlF3 ⎠
+                                                                                                      It is vital to ﬁnd a suitable cathode material if the inert anodes are
+                                                                             to be introduced. Using inert anodes would require reducing the
+   *Electrochemical Society Member.                                       anode-cathode distance, and a vertical electrode cell (VEC) should
+   zE-mail: saip@ru.is; gudrunsa@ru.is                                    be used (Fig. 1). As the voltage required to supply the energy for the
+
+## PDF page 3
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+
+
+
+Figure 1. Vertical electrode cell with inert anodes and wettable cathode.
+
+oxygen-evolving reaction is 50% higher than the Hall-Heroult’s cell,     materials has  its advantages and disadvantages. An ideal anode
+energy loss from the process must be reduced to compensate for and     material should have high electrical conductivity and low corrosion
+prevent increased energy consumption. This involves reducing the      resistance.
+anode-cathode  distance, which can be  achieved  using  vertical
+electrodes. For acceptable current efﬁciency (>90%) and to beneﬁt        Metallic anodes.—Most of the research related to inert anodes
+from the rapid kinetics of a molten metal cathode, the cathode     has been conducted on metallic anode materials. Metallic anodes
+material must be wetted by aluminium in the molten salt electrolyte.     could be pure metal or an alloy. Metallic anodes possess advantages
+TiB2 has been considered the most promising material that could be     such as high electrical conductivity, high thermal shock resistivity,
+used as a cathode in inert anode cells. As TiB2 is deemed highly     easy  fabrication and easy  electric  connection, while  the main
+expensive, trials have been made to use TiB2 coatings on various     disadvantage is low corrosion resistance. The stability of the metallic
+substrates to examine the adhesiveness of the TiB2 layer.7 This paper     anodes is in question in sodium cryolite melts above 800 °C. Most of
+summarises the developments in inert anodes technology and will     the research on metallic anodes, for example, Cu-Fe-Ni, Cu-Al, Cu-
+discuss anode materials such as metals, ceramics and cermets. A    Ni and Ni-Fe was between 700 and 800 °C. The oxide layer formed
+brief discussion will be provided on low–temperature electrolytes    on  the anode  surface should be  self-repairing, and  the oxide
+potentially used in aluminium electrolysis and their properties, such      dissolution rate (<10 mm year−1) must equal the oxide formation
+as  electrical conductivity and alumina  solubility. TiB2 wettable      rate and be low enough to prevent contamination of the aluminium
+cathodes and their properties will be discussed, followed by a brief      deposit. The oxide layer should be thick enough (100 to 150 μm) to
+introduction to VEC.                                                     protect the anode from the corrosive electrolyte yet have the ability
+                                                                             to allow the ﬂow of electric current (optimal range of electrical
+                                                                       conductivity >200 S cm‒1.8). The reaction on the anodes is depen-
+                     Inert Anode Materials
+                                                                     dent on electrochemical potential. For instance, reaction (3) takes
+   The three types of inert anode materials: metallic, ceramic and     place when the electrochemical potential is less than the oxygen
+cermets, have been  investigated  to date  (Fig.  2). Each of the     evolution potential (2.31 V at 800 °C) and reaction (4) takes place
+
+
+
+
+
+Figure 2. Different types of inert anode materials investigated to date.
+
+## PDF page 4
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+when the electrochemical potential is over the oxygen evolution    by water quenching.13 The homogenised (heat treatment) Cu-Fe-Ni
+potential.                                                        anodes  possess  better  corrosion  resistance  than  coarse  as-cast
+                                                             inhomogenous Cu-Fe-Ni, as the inhomogenous anodes microstruc-
+         aM(s ) + bO(2diss− ) = Ma O b + 2 be −,                          ture leaves large matrices (containing Cu) exposed to a highly
+          E o < 2.31 V at 800 °C                                 [ 3]     corrosive electrolyte.14 Ying et al. also presented results where the
+                                                                 performance of homogenised Cu52Ni30Fe18 alloy is better compared
+                                                                             to  as-cast alloy during the  electrolysis  in NaF-KF-AlF3−8wt%
+                       b                                                            Al2O3 (CR=1.4 and KR = 0.8) at 850 °C for 24 h.15 During the            aM(s ) +                 O 2 = Ma O b (s ) ,
+                       2                                                electrolysis,  the  cell voltage increased continuously and varied
+             E o > 2.31 V at 800 °C                            [ 4 ]     between 3.4 V and 3.8 V while using an as-cast Cu-Ni-Fe anode.
+                                                 On the other hand, cell voltage during electrolysis using homo-
+                                                                    genised Cu-Ni-Fe alloys was much more stable and was between 3.2
+   Cu-Fe-Ni based.—Cu-Fe-Ni based alloys have demonstrated     and 3.3 V. The inconsistency in the cell voltage while using as-cast
+promising properties as inert anodes for the aluminium electrolysis      alloy could be attributed to a thick but porous oxide scale (250 to
+process. Electrically conductive, corrosion resistance and adhesive    300 μm) and the outermost oxide layer was aluminate. In the case of
+NiFe2O4 oxide scales are formed on this alloy during the electro-     homogenised alloy, the oxide layer thickness was only between 80
+chemical process.9,10 In homogenised Cu-Fe-Ni anodes, a CuO layer     and 100 μm, with the outermost layer being NiFe2O4. However,
+formed on the anode’s outer surface is dissolved into the electrolyte,    FeF2 and NiF2 internal scales were present on homogenised anodes.
+letting the formation of the NiFe2O4  layer and improving the    The presence of metallic ﬂuorides would generally increase the cell
+corrosion resistance.11 Homogenisation plays a  vital role in the      voltage.
+corrosion mechanism of anode material. For instance, iron-rich        Jucken  et  al. performed  electrolysis using  the homogenised
+corrosion tunnels are formed on the surface of the as-cast Cu-Fe-Ni     Cu65Ni20Fe15 and Ni65Fe20Cu15 alloys as anodes (current density =
+alloy, consisting of Fe-Ni-rich and Cu-rich phases.12 On the other     0.5 A cm−2) in KF(45 wt%)-AlF3(50 wt%)-Al2O3(5 wt%) at 700 °C
+hand, corrosion tunnels were not formed on homogenised Cu-Fe-Ni      for 20 h.16 During the electrolysis, the voltage dropped after 8 h and
+alloys. The dendritic microstructure (two-phase structure) acts as a    12 h while using Cu-rich anodes. The SEM images of the anodes
+galvanic couple and promotes the corrosion of the anode during      after electrolysis suggest the voltage drop could have occurred due to
+electrolysis. The two-phase Cu-Fe-Ni alloy can be transformed into     the delamination of the oxide scales from the anode surface. In the
+a one-phase alloy by heating treatment at 1100 °C for 12 h, followed     case of Ni-rich anodes, the cell voltage rapidly increased after 6 h of
+
+
+
+
+
+Figure 3. (a) Cell voltage vs electrolysis time at an anode current density = 0.5 A cm−2 for (A) Cu14Ni71Fe15, (B) Cu52Ni33Fe15 and (C) Cu65Ni20Fe15 b)
+Schematic representation of the composition of the oxide layers formed after 20 h electrolysis of (A) Cu14Ni71Fe15, (B) Cu52Ni33Fe15, and (C) Cu65Ni20Fe15
+From18 Reproduced with permission. Elsevier 2010.
+
+## PDF page 5
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+electrolysis and reached 9 V only after 10 h of electrolysis. The SEM     and CuAl2O4 are formed during the electrolysis process. These
+image shows that the oxide layer formed on the Ni-rich anode is     oxides are highly electrically conductive. Moreover, CuO and Cu2O
+porous. This leads to the penetration of electrolyte into the oxide      solubility  is low  in alumina-saturated melts, and the  solubility
+layer and the formation of metallic ﬂuorides  at the oxide/alloy     decreases with an increase in alumina concentration.23 In a saturated
+interface, decreasing the electrical conductivity. However, homo-     sodium cryolite melt (CR =  3), the  solubility of CuO can be
+genisation does not prevent the NiF2 and FeF3 scale formation,     estimated by log(wt% Cu) = −9664/T + 7.0128 and the solubility
+which acts as an interface between the anode and electrolyte.16 The     of Cu2O by log(wt% Cu) = −8677/T + 6.173.
+ﬂuoridation of the anode surface can be avoided, and dense oxide         In preheated Cu-Al anodes, an adherent Al2O3 porous layer is
+ﬁlms (stopping electrolyte penetration) with more adherence towards     formed that does not act as a barrier between the anode and the
+the anode surface can be obtained on Cu-Ni-Fe anodes if they are      electrolyte.24 These porous sites are usually ﬁlled with electrolytes
+pre-oxidised before the electrolysis.17                              which become the localised  electrolysis  sites within the anode
+   Helle et al. investigated the anodic behaviour of CuxNi85−xFe15      region. Padamata et al. investigated the effect of alumina volume
+(x = 20, 33, 71) prepared by high-energy ball milling in KF-AlF3      fraction in KF-AlF3-Al2O3 (CR = 1.3) melt on the electrochemical
+melt at 700 °C.18 As shown in Fig. 3a, while using the Cu14Ni71Fe15     behaviour and oxides layers formed on the Cu90Al10 anodes.25 The
+anode, the cell voltage was inconsistent and rapidly increased with     anodic potential ranged between 2.5 and 3.5 V (vs Al/Al3+) for a
+electrolysis  time. The  anode was damaged  entirely  after  the    volume  fraction between 0 and 15%  for a  current  density of
+electrolysis process. The  cell voltage while using Cu52Ni33Fe15     0.4 A cm−2 at 750 °C. XRD results suggest the CuO and Cu2O
+anodes remained constant for the ﬁrst 5 h of electrolysis, and then a     phase concentration in the oxide layer with an increase in alumina
+rapid  increase  in  the  voltage can be  seen. Out  of  the  three    volume fraction while the limiting current decreased. Interestingly,
+compositions, the Cu65Ni20Fe15 anode performed better during the    no traces of Al2O3 were found, while the other phases in the anode
+electrolysis, and it can be seen that the cell voltage remained almost     oxide layer were CuAlO2 and CuAl2O4.
+constant throughout the  electrolysis  tests. The  stability and  in-       Padamata et al. performed electrolysis in VEC using Cu90Al10
+stability of cell voltage can be understood from the oxide scales     anode and tungsten cathode in alumina-saturated KF-AlF3 melt
+formed on the anodes and their compositions (Fig. 3b). In the case of     (with CR 1.4) at 800 °C.26 The cell voltage was stable for the ﬁrst
+Cu14Ni71Fe15, the thickness of the total oxide layer was 170 μm, of    4 h, however, the voltage increased from 4.2 to 5.8 V in the next
+which the outer layer comprises NiO and FeAl2O4 phases. The inner    14 h. The increase in the cell voltage could be due to an increase in
+layer is NiO and Fe3O4 and was porous, ﬁlled with KAlF4. The     oxide scale thickness during the electrolysis (oxide scale thickness ≈
+electrolyte  inﬁltrating  the  porous  compromise  the  mechanical    140 μm) or the presence of CuF2 scale between the anode and the
+stability of the oxide layer and promotes the rapid dissolution of     oxide scale. The current efﬁciency of the process was 84.1%, and the
+anodes. Authors suggest that the instability in cell voltage could be     aluminium purity was 99.4%, where the main impurities were Si
+due to the FeAl2O4 phase present on the anode surface acting as an     (0.157 wt%), Fe (0.253 wt%) and Cu (0.0984 wt%).26 The authors
+insulator. Moreover, the formation of a NiF2 thin layer due to the     believe that the Si and Fe impurities in the reduced aluminium were
+ﬂuoridation of Ni (when the electrolyte inﬁltrates the porous oxide     from the alumina fed to the system and current leads, respectively.
+layer and is in contact with the metallic anode) could also be one of    One  of  the problems during  this  electrolysis process was  the
+the causes of cell voltage instability. The oxide layer formed on     formation of metallic ﬂuoride. In their further study, they report
+Cu52Ni33Fe15 was also porous and had low electrolyte concentra-      that the pre-oxidised Cu90Al10 anodes do not form a metallic ﬂuoride
+tions. Contrary to the ﬁrst two anodes, an oxide layer formed on the      after the electrolysis at 800 ˚C when the anode is doped with 2 wt%
+Cu65Ni20Fe15 anodes was dense, resulting in stable cell voltage.        Mn.27
+   The corrosion resistance and oxidation resistance of Cu-Fe-Ni        Helle    et    al.   investigated   the   mechanically   alloyed
+anodes can be enhanced by coating the anodes with CoxNi1-xO     Cu92-xAlxNi5Fe3 anodes in potassium cryolite melt (45 wt% KF-
+protective  layers. Mohammadkhani  et  al.  deposited (Co, Ni)O    50 wt% AlF3−5 wt%  Al2O3)  at 700  °C.28  Electrolysis was
+protective layer using suspension plasma spray (SPS)19 and high-     performed on three different anode compositions (x = 6, 10 and
+velocity oxygen fuel (HVOF)20 methods. An adherent and dense    14 wt%) with an applied current density of 0.5 A.cm−2. The cell
+(Co, Ni)O layer was obtained using the SPS method; however, an     voltage was less stable for anodes with compositions x = 6 (3.9 to
+undesirable reduction of NiO to Ni took place.19 The coatings     4.3 V) and x = 14 (3.5 to 4 V), while the cell voltage was stable
+obtained from the HVOF method were coherent, non-porous and     (ranging from 3.9 to 4.1 V) for the anode with x = 10. In the case of
+single-phased. During the heat treatment in the air atmosphere at     anodes with x = 6 and x = 14, the oxide layer thickness was 600 μm
+1000 °C, the (Co, Ni)O layer slowed down the inward diffusion of     and 125 μm, respectively. Thus explaining the instability in cell
+oxygen from the atmosphere to the substrate and the diffusion of      voltage. SEM images reveal that the oxide layer formed on the anode
+copper from  the  substrate towards  the  outer  layer  in Cu-rich     (with x = 6) comprises two layers and the outer layer is delaminated
+substrates.20 However, the protective oxide layer delaminated from     from an internal layer. The outer layer contains electrolyte in its
+the substrate after 20 h of oxidation.                                  composition, while the inner layer is porous and contains metallic
+   (Co, Ni)O layer has low solubility in alumina-saturated cryolite     copper. Thus  the  oxide  scale formed on  this  composition  is
+melt. The protective layer acts as a ﬂuoridation  barrier, and a     inefﬁcient in saving the anode from corrosion by the electrolyte.
+coherent NiFe2O4 layer is formed underneath the protective layer     For anode with x = 10, stability was attributed to the thin oxide layer
+during the electrolysis performed in NaF-AlF3 (CR=2.3) −8 wt%     (18 μm) comprising two layers. The outer layer in contact with the
+Al2O3 at 1000 °C (Fig. 4).21 The outward diffusion of Cu takes place      electrolyte is Cu2O, and the intermediate layer between the anode
+and CuOx is formed on the (Co,Ni)O coatings. At the same time, O2     surface and the outer layer is CuAl2O4. CuAl2O4 is formed when
+inward diffusion takes place and, Fe and Ni oxides are formed. (Co,    Cu2O reacts with Al2O3. The anode showed superior corrosion
+Ni)O coatings act as a ﬂuorination barrier until the formation of      resistance as the CuAl2O4 layer prevents electrolyte penetration and
+nickel ferrite phase. In comparison, a thick and non-homogeneous      retards the outward diffusion of Cu into the bulk electrolyte and
+layer containing NiO, Fe2O3 and CuOx was formed on an uncoated     inward diffusion of oxygen. For anode with x = 14, the oxide scale
+Cu-Fe-Ni alloy substrate.                                        formed was irregular, and this phenomenon is due to the porosity of
+                                                                         the alloy (9%) and lower microstructural homogeneity (due to the
+   Cu-Al based.—Cu-Al  based  alloys  are  hypothesised  to be     presence of α-Cu solid solution and β-Cu3Al and γ-Cu9Al4 phases)
+possible anode material for aluminium electrolysis as the Al in the     which  is unfavourable to form dense and continuous CuAl2O4
+anode segregates to the surface to form a continuous Al2O3 ﬁlm that      protect  layer. The Cu impurities  in aluminium produced using
+self-heals and protects from  cryolite and  is thin enough to be     anodes x = 6, 10 and 14 were 1.3, 0.8 and 1.4 wt%, respectively.
+electrically conductive.22 Oxide layers such as CuO, Cu2O, CuAlO2     This makes it clear that the Cu82Al10Ni5Fe3 anode has better stability
+
+## PDF page 6
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+
+
+
+Figure 4. Schematic representation of oxidation stages during the electrolysis at 1000 °C of Cu-20Ni-15Fe anodes coated by (Co, Ni)O protective layer.
+(Redrawn from21).
+
+compared  to  the  other two  anode  compositions  and  can  be       Adding Cr  to Ni-Fe  alloy  similarly  suppresses FexO  scale
+considered for further research. Khramov et al. reported that the     formation. When 10 wt% Cr is added to Ni-Fe alloy, a tri-layer
+electrical conductivity of NaF-KF-LiF-AlF3 electrolyte decreases     oxide scale is formed that includes an outer (Ni, Fe)3O4 spinel, a
+during Cu82Al8Ni5Fe5 anode polarisation as the NaF, KF and LiF     middle (Ni, Fe, Cr)3O4 spinel, and a Cr2O3 inner layer formed when
+salts settle in porous oxide layers formed on the anode, resulting in     oxidation test was performed in air at 960 °C.38 However, a small
+the decrease of the cryolite  ratio.29 Moreover, such phenomena     portion of Fe2O3 was present in the oxide scale. Ni-Fe-Cr alloy
+would block the current passage, increasing the cell voltage. It is     containing 15 wt% of Cr shows excellent high-temperature oxidation
+essential to have an anode composition which can form a dense      resistance as there is a continuous growth of the Cr2O3 layer, as the
+protective oxide layer.                                                  inner Cr2O3 layer stops the inward diffusion of oxygen. Moreover,
+                                                               an increase in Cr content in the alloy not only accelerates the growth
+   Ni-Fe based.—Ni-Fe based anodes have been widely investi-     of inner Cr2O3 but simultaneously decreases the Fe2O3 content in the
+gated in NaF-AlF3 and KF-AlF3 melts, which are considered to have     oxide layer.39 Nguyen and de Nora reported that the (Co, Ni)O solid
+high corrosion resistance due to their ability to form spinel nickel      solution coatings could work as a protective layer on Ni-Fe anodes.40
+ferrite. Anode composition plays a crucial role for the oxide scale    One of the signiﬁcant challenges is producing a crack-free oxide
+composition. For  instance, a  preferential FexO  scale formation      layer as a substantial change of densities occurs during the oxidation
+occurs when Fe composition is more than 50 wt% of the total anode     of (Co, Ni)O coating. CoO acts as an excellent ﬂuorination barrier as
+composition. Oxide scales comprising NiO and NiFe2O4 are formed     the transformation of CoO to CoF2  is not possible during the
+when the anode composition is Ni-rich.30 NiO and NiFe2O4 have     aluminium electrolysis process. Ni combined with CoO, prevents the
+low solubility in cryolite melts, while FeO has a higher dissolution     transformation of CoO to Co2O3. It is pointed out that at 960 °C
+rate.31,32 The increased Fe content in Ni-Fe alloys would increase the     under 1 bar O2, CoO is transformed into Co2O3.41 The Co2O3 scale
+alloy’s oxidation rate, and oxidation follows parabolic kinetics.33 In       is undesirable as it has a higher oxygen evolution overpotential than
+Fe-rich Ni-Fe alloy, the Fe ions in the near-surface region reach a     the CoO.40
+critical concentration, leading to FeO formation.34 The oxygen ions
+diffusing into the anode surface oxidises FeO to Fe2O3 outer layer. It       Ceramic anodes.—Ceramic anodes are metallic oxides with high
+was observed that the oxide layer  is peeled off during oxygen     corrosion  resistance and low dissolution  rate but lacking good
+evolution.                                                                      electrical  conductivity.  Typical ceramic-based  inert anodes  are
+  Chapman et al. investgated the oxidation behaviour of NixFeyCox     SnO2, Sb2O3, NiO, NiFe2O4, CuO, CeO2 etc.42 However, most of
+alloys (where x/y (wt%) = 1 and 1.85; and z = 0, 10, 30 and 50 wt%)     the research was performed on NiFe2O4-based and SnO2-based
+in air at 800 °C.35 One of the major disadvantage of binary Ni-Fe     anodes. NiFe2O4 and SnO2 have a poor electrical conductivity of
+alloys would be the preferential oxidation of Fe to Fe2O3 phase     3.36 S cm−1 and 4.81 S cm−1 at 960 °C, respectively. Furthermore,
+during the  electrolysis process. Fe2O3 has a high  solubility  in     ceramic anodes are prone to severe thermal shock and are difﬁcult to
+cryolite melt compared to NiO or the much-desired NiFe2O4 oxide     machine.6 These features make ceramic materials less reliable in
+layer. Moreover, FeO and Fe2O3 have a high apparent degree of     performing as anodes in the aluminium electrolysis process.
+porosity compared to NiO and NiFe2O4.36 Figure 5 shows the mass
+gained by different alloy compositions with oxidation time. The       NiFe2O4 based.—NiFe2O4 is a polycrystalline spinel ferrite with
+curves indicate that the oxidation rate depends on both Ni/Fe ratio     semiconductor properties, a low thermal expansion coefﬁcient and
+and Co content. The highest oxidation rate was observed in an alloy     high chemical stability in molten cryolites.43,44 However, it has also
+having 50 wt% Co with Ni/Fe = 1. While the oxidation rate of alloys     been found that when the NiFe2O4 is exposed to sodium cryolite
+with 10 wt% and 30% wt% Co (Ni/Fe = 1) was lower compared to     melt (CR ≈2.3), Al ions from the electrolyte reacts with the spinel
+binary Ni-Fe alloy. In the case of alloys with Ni/Fe = 1.85, the      to from FeAl2O4, while electrolyte samples tested after the corrosion
+difference between the alloy with Co 10 wt% and 30 wt% was      test contained Ni and Fe metal.45 The solid substance in the ceramic
+indistinguishable and was similar to the binary alloy (Ni/Fe = 1.85).     matrix has low reactivity leading to slower reaction rates, resulting
+A higher oxidation rate of alloy with 50 wt% Co can be associated      in the formation of a low-density NiFe2O4 specimen after sintering.
+with the formation of multi-layer Co-rich oxide scales such as     Including additives into the materials can signiﬁcantly modify the
+NixCo3-xO4, CoxFe3-xO4, CoO and Co3O4 on the alloy and oxide     nature and concentration of defects by inﬂuencing the pore mobility
+scales were porous. Whereas, in the case of alloys with 10 wt% and     and grain growth kinetics.46 For instance, by adding small amounts
+30 wt% Co suppress the formation of FexO and promotes the growth     of MnO2, V2O5 and TiO2 to NiFe2O4 ceramic anodes, smaller
+of (Ni, Co)xFe3-xO4 phase. Ni-Fe-Co alloys should have Co wt%     bubbles were formed on the surface of the ceramic anode, which was
+more than 10% and less than 30% and should be Ni-rich to have a      easily detached from the anode surface.47 Wang et al. investigated
+lower oxidation rate. Wu et al. reported that the coherence of the     the anodic behaviour of TiO2-doped NiFe2O4 ceramic electrode in
+oxide scale on Ni-Fe-Co could signiﬁcantly improve by doping the    NaF-AlF3−3 wt%CaF2−5 wt%Al2O3 (CR = 2.1) at 980 °C.48 The
+alloy with 0.08 wt% yttrium.37                                       anodic overvoltage of NiFe2O4−1 wt% TiO2 was in the range of
+
+## PDF page 7
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+
+
+
+Figure 5. Mass gain vs oxidation time for Ni-Fe and Ni-Fe-Co alloys for isothermal oxidation time of 16 h. From Ref. 35 Reproduced with permission. Elsevier
+2011.
+
+0.17−0.34 V at current densities 0.6−1.2 A cm−2 while for the same
+electrochemical condition and current densities the overvoltage of
+graphite anode was from 0.31 to 0.42 V. The low overpotential of
+TiO2-doped NiFe2O4 was attributed to the good wettability between
+anode surface and electrolyte, causing faster detactment of bubbles
+from anode surface without coalescence phenomenon to form big
+bubbles.
+   Xi et al.49 investiagted the corrosion behaviour of V2O5-doped
+NiFe2O4 anodes by immersing the anode in NaF-AlF3 (CR = 2.2)—
+5 wt% CaF2–5 wt% Al2O3 for 10 h at 960 °C. It was found that the
+corrosion rate of NiFe2O4 material doped with 1.5 wt%V2O5 is 46
+times lower than undoped NiFe2O4 material. Adding V2O5 promotes
+complete grain growth and evenly distributes Ni2FeVO6 along the
+grain boundary, thus improving corrosion resistance. Tian et  al.
+reported that the sintering atmosphere signiﬁcantly inﬂuences the
+corrosion rate of the NiFe2O4 ceramic anode.50 The anodes prepared
+in vacuum and oxygen atmosphere were subjected to 10 h electro-
+lysis  in NaF-AlF3−2.5 wt%CaF2−5 wt%Al2O3 (CR =  2.3)  at
+960 °C, while  the applied  current  density was 1 A cm‒2. The
+                                                                       Figure  6. Electrical  conductivity  of NiFe2O4–7 wt% TiN prepared  at
+corrosion rate of NiFe2O4 anodes prepared in a vacuum in the
+                                                                                        different sintering temperatures as a function of temperature From Ref. 52conventional  electrolyte  is  60.8 mm  year−1,  while  the  anode                                                                     Reproduced with permission. The American Ceramic Society 2023.
+prepared in an oxygen atmosphere has a corrosion rate of 25.9 mm
+year−1. The concentration of Fe2+ and NiO decreases with an
+increase in O2 content during the sintering process, thus increasing     combined more tightly with increased sintering temperature as the
+the corrosion resistance.                                         gap between the grains get smaller. When the sintering temperature
+    It  is well-known  that  the  electric  conductivity  of  ceramic       is more than 1300 °C, the grains grow abnormally into larger grains
+NiFe2O4 material can be improved by adding a metallic dopant.     and the gap between the large grains become bigger resulting in the
+However, the corrosion rate would also increase simultaneously.     decrease of electrical conductivity.
+Adding TiN ceramic nanoparticles to NiFe2O4 can improve the
+electric conductivity and decrease the corrosion rate.51 Zhang and      SnO2 based.—SnO2 has a very low solubility (0.08 wt%) of Sn4+
+Xu also reported that addition of TiN to NiFe2O4 could improve the     cations in sodium cryolite at 1035 °C.42,53 The solubility of Sn2+ and
+electrical conductivity of the ceramic.52 The maximum  relative    Sn4+  cations  in  cryolite increases with CR and temperature.53
+density and bending strength were achieved when TiN content was     However, pure SnO2 has low sintering ability and low electrical
+7 wt% in the NiFe2O4-TiN composite. The electric conductivity of      conductivity. Various dopants are added to SnO2 to improve  its
+NiFe2O4-(7 wt%) TiN composite below 960 °C was 31.68 S cm−1,      electrical  conductivity  and  relative  density. The  inﬂuence  of
+which  is nearly 10 times larger than that of undoped NiFe2O4      additives such as Sb2O3, ZnO, La2O3, CuO, Fe2O3, TiO2 and
+material (3.36 S cm−1). The increased electric conductivity was due    MoO3 on electrical conductivity and density of SnO2 composite
+to the smaller band gap caused by the enhanced concentration of     were investigated, and only Sb2O3 and CuO doping has a positive
+defects in the crystals due to the formation of  interstitial solid     impact on the properties of SnO2.54 Adding Sb2O3 (up to 2 wt%) to
+solution with increased TiN concentrations. The temperature  at    SnO2 would increase the electrical conductivity (by 5 orders of
+which the sintering is performed to prepare this ceramic composite     magnitude). Sb2O3 partially oxidises and forms a substitutional solid
+also plays a crucial role in enhancing the electrical conductivity (see      solution with SnO2. The concentration of Sb5+ charge carrier ions
+Fig. 6). The electrical conductivity of the composite initially increase      increases, leading to a drastic increase in electrical conductivity.55
+with the sintering temperature and then decreases and the optimal    Adding CuO up to 1.5–2.0 wt% would improve the relative density
+sintering temperature  is 1300 °C. The increase in the electrical     and ensure the homogeneity of SnO2 grains.56 Popescu examined the
+conductivity  of  the composite when  the  sintering  temperature      electrolysis behaviour of SnO2 (96 wt%) - Sb2O3 (2 wt%) - CuO
+increased from 1250 to 1300 °C is due the increase in the grain     (2 wt%) in Na3AlF6 melt (CR 2.7) −5 wt% Al2O3 −5 wt% CaF2
+size from 9.83 ± .87 to 12.48 ± 1.24 μm. Thus, the grains are     melt between 940 and 960 °C.57 The current efﬁciency was around
+
+## PDF page 8
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+91%, and the corrosion rate was 1 −5 mm year−1, while the Sn     oxide layer comprised metallic aluminates; no metal phases were
+contamination  in aluminium produced was  less  than  0.2 wt%,     found, meaning no preferential dissolution of metallic elements. The
+considered a high impurity level. The molar ratio between CuO and      electrical conductivity of NiF2O4-based cermets increases with an
+Sb2O3 plays a key role in corrosion process of the anode material.58     increase in NiO content and can reach up to 90 S cm−1 at NiO
+When CuO: Sb2O3 〉〉1, complex compounds such as Cu9Sb4O19 are     around 23 wt%. Lai et al. investigated the electrolysis behaviour of
+formed which is responsible for corrosion of anode.                 17Ni/(NiFe2O4−10NiO) cermet anodes in conventional electrolytes
+                                                                                  at 960 °C for 100 h.67 The anode corrosion rate was less than 9 mm
+                   Cermet Anodes                               year−1, and  the  current  efﬁciency was 60.31%. The  primary
+                                                                   contaminants in produced aluminium were Fe 1.0074 wt% and Ni
+   Cermets are a combination of metals and ceramics, and they
+                                                                 0.1288 wt%. The Fe contamination can be limited by increasing the
+possess the combined properties of metals and ceramics, such as
+                                                    NiO content in the cermet, as NiO has relatively very low solubility
+good electrical conductivity, high thermal resistivity and excellent
+                                                                             in cryolite melts at high temperatures compared to Fe. Tian et al.
+corrosion resistance. The most commonly investigated cermets are
+                                                             examined the corrosion behaviour of (Cu, Ni)-(NiFe2O4−10NiO)CuO-M and  spinel-type oxides-M anodes  (here, M  is  metal).                                                                   cermets in low-temperature Na3AlF6-K3AlF6-AlF3 electrolyte.68 The
+NiFe2O4-M anodes have performed better in cryolite melts and
+                                                   Cu and Ni metallic phases were transformed into CuAl2O4 andhave been considered potential anodes for aluminium electrolysis.
+                                                            NiAl2O4 phases rather than preferential dissolution of these metals,
+  CuO-Cu based.—CuO-Cu cermet  is considered a “partially”     thus improving the corrosion resistance with an anode corrosion rate                                                                   being 5.4 mm year−1. Tao et al. reported that the pre-oxidation of
+inert anode due to the dissolution of the metallic phase during
+                                                                (Cu)-NiFe2O4-NiO-based cermet does not improve the material’selectrolysis.59 During the  electrolysis, a CuAlO2 oxide scale  is                                                                       corrosion resistance.69 The Cu is preferentially corroded with an
+formed, which protects both CuO and Cu from oxidation. At least                                                                       increased anode current density (0.2–0.8 A cm−2). In general, the
+Cu 20 wt% should be added to CuO ceramics to have good electrical
+                                                                major problem with the metal phase in cermet anodes is that they
+conductivity. Xie et al. reported that the electrical conductivity of
+                                                                             preferentially dissolve in cryolite melt.CuO-based cermet could be inﬂuenced by Cu particle size.60 The
+electrical conductivity can be improved by lowering the Cu particle
+                                                                      Low-Temperature Electrolytes
+size, but that would increase the porosity of the CuO-based cermet.
+CuO-Cu cermets behave like a conductor when the Cu content       Sodium cryolite-based electrolytes are currently used in alumi-
+exceeds the percolation threshold. Feng et al. performed electrolysis    nium electrolysis cells worldwide at an operating temperature of
+using CuO-Cu (25 wt%) in Na3AlF6-CaF2-Al2O3 electrolyte at 960 °     around 960 °C. Inert anodes generally cannot function properly at
+C with anode current density of 0.8 A cm−2.61 The corrosion rate     such high temperatures as they get corroded in highly corrosive
+was 18 mm year−1, and the Cu content in produced aluminium was      electrolytes and physically damaged due  to thermal shocks. A
+over 6 wt%. The CuAlO2 formed during the electrolysis and Cu2O      realistic operating temperature of an inert anode cell as around
+dissolve continuously during the electrolysis process. Moreover,    800 °C as the electrolyte used in the inert anode cell would be
+some of the Cu particles from the anode are dislogded or oxidised    NaF-KF-AlF3 melt. For instance, the melt with CR 1.3 and KR 0.8
+during the electrolysis, compromising the geometrical stability of the     has a liquidus temperature is around 750 °C,70 it is better to have a
+anode. Therefore, the chemical composition of the Cu2O/Cu anode     superheat of around 30 °C, so the melt would not freeze during the
+surface  in contact with the  electrolyte constantly changes with     alumina feeding. Moreover, the corrsion rate of inert anodes is less
+electrolysis time. This would make  it impossible to use CuO-Cu      at lower temperatures. The CR value of Na3AlF6-AlF3 industrial
+anodes to produce industrial-grade aluminium. Nonetheless, the     melt is around 2.2 to 2.3. At 800°C, the melt with CR 2.2 will be
+anodes can still be used to synthesise Al-Cu alloys.                    frozen as the higher liquidus temperature for this particular CR is
+                                                          more elevated than 800 °C.71,72 KF-AlF3 melts have higher alumina
+  NiFe2O4-M based.—NiFe2O4 ceramics possess low solubility in      solubility than NaF-AlF3 at an equivalent melt temperature and
+cryolite melts  at high  temperatures. However, they have poor      cryolite ratio. NaF-KF-AlF3 are considered the most realistic low-
+electrical conductivity and thermal shock resistance. The electrical     temperature electrolytes for inert anode systems as the KF-AlF3
+conductivity and thermal shock resistance can be enhanced by     system  is changed to the NaF-KF-AlF3 system during alumina
+adding metallic dopants such as Cu, Ni or Fe. During the preparation     feeding. The Na accumulates in the melts, leading to a substantial
+of NiFe2O4-based cermets, an excess of NiO (⩾10 wt%) results in     concentration of NaF  in the system. Most of the research on
+the formation of NiFe2O4-NiO with  better  relative density. An      electrolytes  for  inert  anode  systems  focused  on  NaF-AlF3,
+excess of 18 wt% NiO addition would make the activity coefﬁcient    KF-AlF3 and NaF-KF-AlF3. Different kinds of phases are found in
+of NiO 1, reducing the solubility of NiFe2O4-NiO as the NiO phase     the melt with a slight change in the composition of  salts. The
+has very low solubility compared to the Fe2O3 phase.62 DeYoung      liquidus temperature of the mixture is highly dependent on the melt
+reported  that  the  solubility  of NiO  in NaF-AlF3 (CR =  2.2)     composition. Temperature plays a vital role in the stability of the
+electrolyte  at 960 °C  depends on  the Al2O3  content  in  the     phases formed in the melt. Figure 7 represents the ternary phase
+electrolyte.63 Ni content in the electrolyte was 1000 ppm when the     diagram of NaF-KF-AlF3 melt. The liquidus temperatures of Na-
+Al2O3 content was 2.5 wt%. When Al2O3 content increased to 6.5 wt      cryolite and K-cryolite are 1009 °C and 995 °C, respectively, not a
+%, the Ni content in the electrolyte was reduced to 200 ppm. Thus it     big difference between the liquidus temperature. However, at low
+is necessary to maintain electrolytes saturated with Al2O3. Ni, Cu,   CR =  1.3,  the  liquidus  temperature  of  Na-cryolite-AlF3 and
+and Fe are the most common metallic elements added to NiFe2O4     K-cryolite-AlF3 are 727 °C and 620 °C, respectively.73 The most
+ceramics. The composition of the protective oxide scale formed on      volatile phases  in  the melt NaAlF4 and KAlF4 have  liquidus
+the NiFe2O4-based cermets depends on factors such as the oxidation     temperatures of just over 710 °C and 575 °C, respectively.
+of metallic phases in cermets, phase transformation of additive and      An electrolyte should perform the following functions for an
+sedimentation  of  alumina  on  the  anode  surface  during  the     efﬁcient electrolysis process:76
+electrolysis.64
+   Olsen  and  Thonstad  performed  electrolysis  in VEC  using       a.  Anodic and cathodic product separation
+(20 wt% Cu)-NiF2O4-based cermets (with different compositions,      b.  Alumina dissociation and transfer
+NiO: 0 wt%, 17 wt%, 23 wt%) using conventional electrolyte (CR =       c.  Charge transfer
+2.1) for 4 h at 960 °C. The produced aluminium had only 0.116 wt%      d.  Compensate  the  heat  loss  in  the  environment by ohmic
+contaminants.65 They also performed electrolysis for 50 h and found          heating and transfer of heat to alumina and carbon anodes
+that the oxide scale formed on the cermet anode was 50 μm.66 The          (or inert anodes).
+
+## PDF page 9
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+
+
+
+Figure 7. Phase diagram of the NaF-KF-AlF3 system (based on74,75).
+
+
+e.  Maintain enthalpy of alumina at high temperatures so that they     maintains the cell’s temperature, but the majority of the energy is
+    can be disassociated.                                                      lost and dissipated. The maximum electrical conductivity is there-
+                                                                          fore required. The electrical conductivity of an industrial electrolyte
+  An electrolyte with low  resistivity  is desirable to have low       is about 2.13 S cm−1.77 The most comprehensive regression model
+speciﬁc energy consumption. KF-AlF3 melts have lower electrical      (5) to mathematically estimate the electrical conductivity of the
+conductivity than NaF-AlF3, and introducing NaF to KF-AlF3 can    NaF-AlF3 system with additives like CaF2, MgF2, KF, and Li3AlF6
+improve the melt’s electrical conductivity. This section discusses       is given by Hives as follows:77
+properties such as electrical conductivity, alumina solubility and
+dissolution, vapour pressure and density of low-temperature electro-               κ = 7.22 e − 1204.3T  − 2.53 ( x Al2 O 3 )
+lytes.
+                                                  − 1.66 ( x AlF3 ) − 0.76 ( x CaF2 ) − 0.26 ( xKF )
+   Electrical conductivity.—Electrical conductivity is vital in the          + 0.97 ( xLi3 AlF6 ) − 1.07 ( xMgF2 )
+energetic balance of the process as it inﬂuences the ohmic voltage          − 1.80 ( x Al2 O 3 )( x CaF2 ) − 2.59 ( x Al2 O 3 )( xMgF2 )
+drop of the electrolytic cell. Due to this ohmic drop, the Joule effect
+                                                  − 0.942 ( x AlF3 )( xLi3 AlF6 )                                       [ 5]
+
+                                                        Where x is the mole fraction of the salts and T is the temperature in
+                                                                 K. Valid concentration of additives for the above equation: Al2O3
+                                                                   (0–11) wt%, AlF3 (0–28) wt%, CaF2 (0–14) wt%, MgF2 (0–14) wt
+                                                       %, KF (0–15) wt%, Li3AlF6 (0–34) wt%.
+                                                                Kubinakova et al.78 investigated the inﬂuence of CR values and
+                                                                     temperature on the electrical conductivity of the NaF-AlF3-based
+                                                                                electrolyte. Mobile Na+ cations are the main charge carriers in the
+                                                                system and control ionic conductivity due to their small size.79 The
+                                                                       concentration  of  F-  anions  decreases by  adding AlF3  to  the
+                                                               NaF-AlF3. Meanwhile, the concentration of complex ions such as
+                                                              AlF4 −, AlF6 3−, AlF5 2−and Al2F7 2−increases  in  the  system,
+                                                                       negatively   affecting   ion   mobility   and   decreasing   ionic
+                                                                          conductivity.71 Additionally, according to the thermodynamic cal-
+                                                                             culations, Al2F9 3−, Al2F104−, and Al3F145−complex ions are also
+                                                                        present in the cryolite system, and they inﬂuence the conductivity to
+                                                        some extent.80 The electrical conductivity of the NaF-AlF3 decreases
+                                                                   with a decrease in CR and the melt’s operating temperature (in
+                                                                           Fig.  8). Adding Al2O3 to NaF-AlF3 also reduces the  electrical
+                                                                       conductivity by 0.04 to 0.06 S.cm−1 per addition of 1 wt% Al2O3.
+                                                                   This is due to the formation of large anions (Al2OF6 −and Al2OF8 4-
+Figure 8. The electrical conductivity of NaF-AlF3 and NaF-AlF3-Al2O3       etc.) that reduce the ionic mobility of the electrolyte.76 The electrical
+(2 wt%) melts as a function of CR and temperature for compositions.78         conductivity  of NaF-AlF3 does  not change much when CaF2
+
+## PDF page 10
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+                                                                       of the K-cryolite decreases with temperature.84 Kubinakova et al.85
+                                                                          investigated the electrical conductivity of KF-AlF3 melt (also with
+                                                                          additives like Al2O3, CaF2, MgF2 and LiF). The addition of Al2O3,
+                                                                 CaF2, and MgF2  to KF-AlF3 melt would reduce the  electrical
+                                                                       conductivity of the mixture, a similar effect was reported for the
+                                                                sodium-based mixture. The addition of LiF would improve the
+                                                                                 electrical  conductivity  of  the KF-AlF3  melt.  Contrary  to  the
+                                                                          expectation, adding AlF3 (i.e. decreasing the CR) would increase
+                                                                         the electrical conductivity at the same temperature when the AlF3
+                                                         was between 40 and 45 mol%85 (see Fig. 9). The regression model
+                                                                               that could be used to predict the electrical conductivity of potassium
+                                                                              cryolite mixture (including additives) is as below:
+
+
+                                                                                                     ⎡
+                                                                                                     ⎣                                                                                       κ = A e                                                                                                  B . ( 13001 − T1 ) ⎤⎦                           [ 6]
+
+                                                             Here
+
+Figure 9. Electrical conductivity of KF-AlF3 melt as a function of CR             A = 0.9415 + 1.179 ( AlF3) − 2.323x Al2 O 3
+values and temperature (based on81).                                + x CaF2 (− 0.3481 − 5.201x AlF3 )
+                                                    + xMgF2 ( 0.9258 − 7.764x AlF3 )
+                                                    + xLiF ( 25.82 − 55.36x AlF3 )
+
+                                                       B = 937.0 + 1706x AlF3 + 2445x Al2 O 3 − 1350x CaF2
+                                                 + 2790xMgF2 + xLiF ( 55789 − 132235x AlF3 )
+
+                                                         Where x is the mole fraction of the salts and T is the temperature in °C,
+                                                                           the equation is valid for (40–45) mol% of AlF3 and concentrations of
+                                                                               additives: (0–1.4) mol % of Al2O3, (0–4.5) mol % of CaF2, (0–2.3)
+                                                           mol % of MgF2 and (0–2.7) mol % of LiF.
+                                                             NaF-KF-AlF3 melts have  electrical conductivity higher than
+                                                           KF-AlF3 melts and lower than NaF-AlF3 melts  (i.e. κNa − cryolite
+                                                 >κNa − cryolite + K − cryolite > κK − cryolite). The  electrical conductivity of
+                                                           NaF-KF-AlF3 melts decreases with KR value.86 This phenomenon is
+                                                                  because the transport number ratio between Na+ and K+ in the
+                                                           NaF-KF-AlF3 system is approximately inversely proportional to the
+                                                                    square of the ionic radius (ionic radius of K+ is greater than Na+),
+                                                                             resulting in a decrease in conductivity with KR.87 Adding LiF would
+                                                                         increase the electrical conductivity of the mixture while adding
+                                                            Al2O3 would reduce the conductivity.88 Dedyukhin et al.89 investi-
+                                                                     gated the effect of CaF2 addition on the electrical conductivity of
+                                                           NaF-KF-AlF3 melts. The  electrical conductivity of the mixture
+                                                                      decreases with CaF2 content. This  is due to the increase in the
+                                                             complex ions containing Ca2+ ions. The XRD analysis revealed that
+Figure 10. Alumina solubility in KF-AlF3 melt 1: CR 1.3,95 2: CR 1.3,96 3:     complex ions such as K2NaAlF6, NaCaAl2F9 and KCaAl2F9 are
+CR 1.5,95 4: CR 1.5.96                                                                        present in the melt, reducing ion mobility.89
+
+(up to 5 wt%) is added to electrolytes with CR (⩾1.6). As the CaF2       Alumina solubility.—Alumina solubility  is an essential para-
+does not interact with the melt at high temperatures. However, the     meter of an electrolyte during the aluminium electrolysis process.
+electrical conductivity of NaF-AlF3 decreases by adding CaF2 if CR    The electrolyte should be saturated with alumina to avoid the anode
+⩽1.4. MgF2 addition to the melt has a negative impact on the      effect, leading to greenhouse gas evolution in industrial cell.90 The
+electrical conductivity due to the formation of MgF3 −and MgF42−     alumina solubility of industrial electrolyte (NaF-AlF3 melt CR—2.1
+complex ions. Meanwhile, adding LiF would increase the electrical     and temperature 985 °C)  is around 10.15 wt%.91 Industries are
+conductivity of the mixture. However, the positive inﬂuence of LiF     working towards reducing the CR value so that current efﬁciency
+on the electrical conductivity is low, as adding 1 wt% of LiF to the     increases (reduction in aluminium solubility in the melt) and liquidus
+electrolyte mixture increases the conductivity by 1.88% on an     temperatures decrease.71 However, a decrease in the CR value
+average.81                                                  means acidiﬁcation of the melt and a reduction in alumina solubility.
+   The electrical conductivity of KF-AlF3 melt is low compared to     For instance, when the CR value of NaF-AlF3 melt decreases from
+NaF-AlF3 melt. At a similar CR (1.22) and melt temperatures (750 °C),     2.1 to 1.50, the alumina solubility drops from 10.15 to 3.37 wt% (at
+the electrical conductivity of K-cryolite was 18% less compared to      liquidus temperature +10 °C).91 Alumina solubility in melts is in the
+that of Na-cryolite melt.82 This is due to the ionic radius of K+ ions     order NaF-AlF3 < NaF-KF-AlF3 < KF-AlF3. For instance, alumina
+(in K-cryolite) being slightly larger than the Na+ ions (in Na-      solubility in eutectic NaF-AlF3 melt at 750 °C is 3.2 ± 0.2 wt% while
+cryolite). Thus, the ionic mobility in K-cryolite is lower than the Na-      in eutectic KF-AlF3 at 730 °C is 5.2 ± 0.5 wt%.92
+cryolite. Like in NaF-AlF3 melts, the complex ions such as AlF52−       Skybakkmoen et al.93 investigated the alumina solubility in Na-
+and AlF4 −are formed with a decrease  in  cryolite  ratio,  thus      cryolite containing various additives like AlF3, CaF2 and LiF at
+decreasing the electrical conductivity.83 The electrical conductivity     temperatures ranging from 1050 °C up to 850 °C. The regression
+
+## PDF page 11
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+model was proposed to estimate the alumina solubility based on the      cryolite type, the vapour pressure of the melt increases with AlF3
+concentration of the additive and temperature of the mixture:           content  in  the  melt.  In  the NaF-AlF3  melts, NaAlF4  species
+                                                                 predominantly contribute to the vapour pressure of the melt in
+                            T   B                            the absence of aluminium.105 When the melt is in contact with                         [ Al 2 O 3 ] sat = A ⎛     ⎞                          [ 7]
+                              ⎝ 1000 ⎠                          aluminium, chemical  reactions produce AlF and Na  species,
+                                                                       increasing the vapour pressure. However, these species do not
+Where                                                                      exist in vapour as they react with anode product (CO2) or other
+                                                                   gases in the cell during the electrolysis.106 Haupin derived the
+     A = 11.9 − 0.062wAlF3 − 0.0031wAlF2  3 − 0.50wLiF               following equation that could estimate the vapour pressure of
+                                     42wLiF wAlF3             NaF-AlF3 melt:
+        − 0.20wCaF2 − 0.30wMgF2 +
+                                  2000 + wLiF wAlF3                                   log P = B − A / T                            [ 12]
+
+                                                                 1.5                  Where
+                                          2.2 wLiF
+      B = 4.8 − 0.048wAlF3 +                         3                                                                         2
+                            10 + wLiF + 0.001wAlF3                  A = 7101.6 + 3069.7R − 635.77R
+                                                  + 51.22 ( xLiF ) − 24.638R ( xLiF ) + 13.2 ( x CaF2 )
+All w is the wt% of the salts, and T is the temperature in °C.
+   The solubility of alumina in NaF-AlF3 melt decreases when                                                     3                                                    B = 7.0184 + 0.6844 R − 0.08464 R + 0.010805 ( xLiF )additives such as LiF, MgF2 and AlF3 are added to the mixture.93
+When the melt is acidic (i.e. at low CR), the most dominant solute is                             0.047124 ( x Al2 O 3 )
+                                              − 0.005489 R ( xLiF ) +             + 0.0068 ( x CaF2 )
+mono-oxygen  Na2Al2OF6.   In   less   acidic   melts,  dioxygen                           1 + 0.1893 ( x Al2 O 3 )
+Na2Al2O2F4  is the predominant solute which promotes alumina
+solubility.94 The dependency of alumina solubility in KF-AlF3 melt    P is the pressure in kPa, R is CR/2, T is the temperature in K, and all
+on melt temperature and CR is shown in Fig. 10. It can be seen that      salt compositions are in wt%.
+the solubility increases with temperature and CR values.95,96             Qiu et al. reported that when a melt overheated by 10 °C, the
+   KF-NaF-AlF3−based  melts  have  advantages  such  as good      volatility for melts (CR 2.35 to 1.6) decreases with AlF3 content.107
+alumina solubility of potassium cryolite and better electrical con-    The mass loss of melt drops with increased LiF and Al2O3 contents.
+ductivity of sodium cryolite. The solubility of alumina decreases        Similar to sodium cryolite melts, the vapour pressure of K-
+when the Na+ cations replace K+ in the KF-NaF-AlF3 system.95      cryolite increases with AlF3 content. At a constant temperature,
+This phenomenon can be explained by the ionic potential difference    KAlF4 (g) activity increases with a decrease in the cryolite ratio.108
+between the alkali cations. Na+ cations form a strong bond with F−     K-cryolite melts are more  volatile compared to N-cryolite. For
+in AlF3, which would create complications in forming aluminium      instance, at CR = 2.0 and superheat of 10 °C, the vapour pressure of
+oxyﬂuorides during the Al2O3 dissolution in the electrolyte system.     potassium cryolite is 14.2 mbar compared to 8.5 mbar for sodium
+   The addition of LiF and CaF2 to the NaF-KF-AlF3 system has a      cryolite.101,106
+negative effect on alumina solubility.97 While adding or increasing       The vapour pressure of NaF-KF-AlF3 melts increases with the
+the KF into the mixture would increase the alumina solubility in the      concentration of AlF3 in the system, similar to that of NaF-AlF3 and
+melt. The alumina solubility decrease with LiF because Li+ forms a     KF-AlF3 melts. When the molten salts are more acidic, stable AlF4−ions
+stronger bond with F−in AlF3 containing ions compared to Na+ and      are formed, enhancing the formation of NaAlF4 and KAlF4 species. One
+K+. In some special cases, adding KF would reduce the alumina      of the other signiﬁcantly affecting parameters would be the potassium
+solubility in melt when the chemical reaction occurs between KF and                                                                                     molar fraction of KF
+electrolyte (Na5Al3F14).98 Alumina solubility drops from 4.38 wt%      ratio ⎛⎜KR =                                          ⎞⎟. At
+to 0.69 wt% when 5 wt% of CaF2 was added to NaF-KF-AlF3 melt         ⎝      molar fraction of KF + molar fraction of NaF ⎠
+(CR = 1.3 and NaF = 30 mol%). Gilbert et al.99 reported that the     high KR values, the vapour pressure would be higher as the activity of
+dissolution of CaF2 in MF-AlF3 would  result in the following      the most volatile KAlF4 (g) would increase.
+reaction (8), where CaFn (AlF5 )(34−−)−nn  complex ions are formed and
+ −                                                                                         DensityF  anions will be released. This will shift the equilibrium of the
+typical reactions (9–11), which are associated with the dissolution of         In general, the density of conventional electrolytes  is around
+alumina,100,101 thus resulting in the reduction of alumina solubility.     2.1 g cm−3 at 960 °C.71 Factors inﬂuencing the melt’s density are
+                                                                              cryolite ratio, operating temperature and additives. Chernikova et
+   CaF2 +  ( 3 − n ) AlF52 − = CaFn ( AlF5 ) (34−−)−nn  + ( 2 − n ) F −      [ 8]      al.109 proposed an analytical formula that estimates the density of
+                                                            NaF-AlF3 for CR 1.45 to 3.0 and temperatures ranging from 850 to
+                                2 −     −              4 −                  1000 °C. From the proposed equation, it can be stated that the melt            Al 2 O 3 + 4AlF5 + 4F  = 3Al 2 OF8                  [ 9]                                                                        density decreases with a decrease in the CR value at temperatures 50
+                                                        °C higher than the liquidus temperature. The density of the melt
+            Al 2 O 3 + AlF52 − + F − = 1.5 Al 2 OF44 −                [ 10 ]     decreases with an increase in the melt temperature.110 It should be
+                                                                   noted that the melt density should be lower than the aluminium
+                                2 −              4 −     −                      density (2.3 g cm−3), so aluminium deposits at the bottom of the cell,            Al 2 O 3 + 4AlF5  = 3 Al 2 OF6 + 2 F                 [ 11]
+                                                            making it easy to tap from the cell.
+    It should be noted that even thought addition of CaF2 and MgF2       KF-AlF3 melts have a lower density than NaF-AlF3 melts. For
+to the melt have negative effect on the melt’s electrical conductivity     example, at CR 1.5 and melt temperature 800 °C, the density of
+and alumina solubility in the melt, they are used as an additives in    KF-AlF3 melt and NaF-AlF3 melt is 1.77 g cm−3 and 2.02 g cm−3,
+industry to improve the current efﬁciency.102 Moreover, they even      respectively.111 Dedyukhin et al.112 report that the density of the
+reduce the liquidus temperature of the electrolyte.103,104                melts is in the following order at similar CR and melt temperature:
+                                                           ρNa − cryolite >ρNa − cryolite + K − cryolite > ρK − cryolite .  It was also reported
+   Vapour pressure.—The vapour pressure is a vital property of a      that the addition of CaF2 increases the density of the mixture. The
+melt  as  it  indicates  the evaporation  rate  of melt  during  the     increase in KR would reduce the density of the NaF-KF-AlF3
+electrolysis process. At a constant temperature, irrespective of     mixture.
+
+## PDF page 12
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+                                                               TiB2-SiC composite with different SiC compositions between 15 to
+                                                            30 wt%. The relative density of the TiB2-SiC composite increased
+                                                                   with SiC concentration, while the porosity of the specimen was zero
+                                                       when SiC concentration in the cathode was 30 wt%. Wang et al.122
+                                                            compared the creep behaviour on pristine graphite and composite
+                                                                      TiB2-graphite (30 wt% TiB2, 50 wt% graphite, and 20 wt% binding
+                                                                        agents) composite cathodes after the cathodes were used in the
+                                                                              electrolysis     process      in    Na3AlF6-KF     (5 wt%)-LiF
+                                                                       (5 wt%)-Al2O3(8 wt%) with cathode current density of 0.5 A cm−2
+                                                                                  at 960  °C.  TiB2/C  composite showed  lower  porosity,  better
+                                                              aluminium wettability and excellent creep resistance compared to
+                                                                            graphite. TiB2/C cathodes with 70 wt% TiB2 show superior wett-
+                                                                                  ability compared to other concentrations. The cathode is thoroughly
+                                                                   wetted (with a contact angle of 0°), and Na penetrations into the
+                                                                   cathode are prevented.123
+                                                            The wetting of TiB2 by Al liquid depends on the relative density
+                                                              and purity of TiB2 material and interaction temperature.7 Heidari
+                                                                                  et al. reported that the aluminium wettability of TiB2 is proportional
+                                                                             to the interaction temperature.124 At 870 °C under vacuum, no
+                                                                              visible wetting of TiB2 by Al was observed. However, with an
+                                                                         increase in the temperature to 940 °C (interaction for 50 min), the
+                                                              TiB2 was thoroughly wetted, and the contact angle was 6°. TiB2/C
+Figure 11. Schematic of VEC where the anodes and cathodes are placed in     composite wetting by molten Al is a time-dependent process, as with
+parallel.                                                         an increase in interaction time, the impurities on the composite are
+                                                            removed and entirely wetted by Al. The contact angle was 0°
+                  TiB2 Based Cathodes                        between  TiB2/C  and  liquidus  Al  after  90 min  interaction  at
+                                                            1000 °C.125 Liang et al. synthesised Ni-TiB2/Al2O3 by subjecting
+   TiB2 cathodes show a high aluminium wettability in molten salts                                                                   a mixture of TiB2(85 wt%), Ni (5 wt%), and alumina sol (10 wt%) to
+and possess excellent properties such as a low wear rate of 0.25 mm                                                                             sintering at 1500 °C for 3 h.126 Electrolysis was performed using this
+year−1 in aluminium, a superior electrical conductivity of 9−15 ×
+                                                                Ni-TiB2/Al2O3  cathode  and  graphite  anode (VEC  setup)  in105 S.cm−1, high resistance towards corrosion in cryolite melts and                                                        NaF-KF-AlF3−5 wt%Al2O3 (CR = 1.42, KR not speciﬁed)  athigh oxidation resistance at elevated temperatures.113 Three types of                                                                     temperature (800 °C–820 °C) for 24 h. The cell voltage was stable
+TiB2  materials  have  been  investigated, namely TiB2  ceramic                                                                    throughout the electrolysis process, and the current efﬁciency of the
+material, TiB2 coatings and TiB2 composites. Using TiB2 coatings                                                                      process was 92%. The produced aluminium had a purity of 99.58%,
+as cathode materials is economically advantageous as  it requires                                                              and the main impurities are Fe, Si and Ni. Fe and Si impurities are
+lower quantities of TiB2 and desired cathode geometries can be                                                             from the cell setup, while the Ni impurities are from the cathode. It
+fabricated. Properties such as wettability, corrosion resistance, the                                                         was pointed out that when Al passes inward into the voids of the
+solubility of TiB2 in aluminium and coating adhesion with substrate                                                                       cathode, Ni particles ﬂow to the liquid metal, thus causing the Ni
+need to be studied to characterise the TiB2 cathodes. Relative density                                                                     impurity in the produced Al. After the electrolysis, the cathode was
+also plays a part in TiB2 performance, as liquid Al readily penetrates                                                                                                   still  completely  wet, and  the  author  claims  that  the  cathode
+the TiB2 composite with 90% relative density. In comparison, the Al                                                                 composite is an ideal wettable cathode. However, the issue related
+penetration slows down by ten times when the relative density of the                                                                             to Ni loss from the cathode should be addressed. Ban et al. reported
+TiB2 composite is 96%.114                                                                     using TiB2/C cathode in a 300 kA cell and found that the current
+   Devyatkin and Kaptay studied the wettability and solubility of                                                                    efﬁciency of the cell increased by 0.81%.127 Tabereaux et al. tested
+TiB2 coatings on nickel substrates. They reported that the contact                                                            mushroom-shaped (30–40 wt%)TiB2-graphite in 70 kA prebaked
+angle between the liquid aluminium and the material was 0°, which                                                              aluminium  reduction  cells  for  4–5  months  in  Kaiser Mead
+means the TiB2 coating was wetted entirely by aluminium. The     Smelter.128 The energy consumption of the cell was 8% compared
+dissolution of TiB2 was 6 × 10−3 wt% after 10 h of exposure to                                                                             to conventional cells. However, the cathode breakage was observed
+molten metal.115 Kontrik et al. observed pitting corrosion on sintered                                                                   only after 12 days of the experiment, and the main reason for the
+TiB2  (with  2 wt%  Ni,  used  as  a  sintering  aid)  tested  in                                                                   cathode failure was attributed to manufacturing defects. Comalco
+KF-AlF3-Al2O3 (CR 1.3 and alumina 3.1 wt%).116 The specimen                                                          Aluminium limited used TiB2/C cathodes in a 92 kA drained cathode
+was held in the melt at 680 °C at various durations, and pitting                                                                       reduction cell and reported the energy consumption of 12.8 kWh/kg
+corrosion was observed. A corrosion test of TiB2 coatings (on Mo                                                            Al consumption, which is lower than a conventional cell.129
+substrate) was performed in the FLiNaK electrolyte, and no sign of
+corrosion was observed, and the coating was thoroughly wetted by
+                                                                                          Vertical Electrode Cellmolten aluminium.117 Raj and Skyllas-Kazacos found that the TiB2
+cathodes were completely wetted by molten aluminium in unsatu-      As mentioned in the introduction, VEC consists of a single inert
+rated sodium cryolite melt.118 However, in saturated melts, the     anode and a single wettable cathode placed vertically (Fig. 1). Many
+cathode was not wetted properly due to the formation of TiO2 and     electrodes are stacked in parallel, as shown in Fig. 11. Inert anodes
+B2O3 phases. Understanding the cathode’s wettability at various     should have the ability to quickly release the oxygen bubbles formed
+alumina concentrations in melts would be of great interest. TiB2    on its surface, so it won´t increase the ohmic drop (related to bubble
+cathodes have performed well in industrial trials, and details have     coverage) and the anode should have higher surface area so that they
+been reported by Li et al.119 Norgate and Jahanshahi reported that     can operate at lower current densities even at higher cell amperages.6
+the speciﬁc energy consumption required for aluminium production     According to Solheim,130 the minimum energy consumption for the
+could be reduced by 17%  if the conventional Hall-Heroult’s cell     aluminium produced using the inert anides is around 9.16 kWh/kg of
+could be modiﬁed with drained wettable cathodes.120                   Al,  while  the  energy  required  to  produce  the  aluminium  in
+   Other than pure TiB2 material and TiB2 coatings, TiB2-based     conventional cell is only 6.25 kWh/kg of Al. To compensate that
+composites have been studied extensively at the laboratory and pilot      extra energy consumption, we should target to reduce the voltage
+scale. Namini et al.121 investigated the mechanical properties of     associated with electrode assembly and ACD. The heat generated
+
+## PDF page 13
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+per unit volume in VEC is higher compared to conventional cell or      alloy surface. In experiment 2, the cell voltage was around 5.1 V, the
+retroﬁtted cell with inert anodes.131 Thus, VEC would have good     oxide scale was porous and electrolyte penetration was observed. In
+energy balance if the VEC is has better refractory lining materials     experiment 3, the oxide scale was similar to that of the oxide scale
+and has no cell design issues.                                       observed in experiment 2. However, a rapid increase in the cell
+    It is essential to reduce the ACD to around 10 to 15 mm, but the     voltage was observed after 3.5 h of electrolysis and changed from
+main obstacle would be a signiﬁcant drop in the current efﬁciency     5.15 to 5.65 within 2.5 h. In all three experiments, the aluminium
+caused by the back reaction. Moreover, the dissolved anodic material     produced has cathode impurities less than 0.035 wt%, indicating the
+in the melt could end up at the cathode surface, hindering the      stability of TiB2 cathodes. The current efﬁciency in all three cases
+production of high-purity Al. One of the ways to reduce the transfer    was below 73%; authors suggest that the current efﬁciency can be
+of anodic products to the cathode is to use suspension electrolytes.     improved by optimising two parameters: increasing anode-cathode
+Suspension electrolyte or slurry (in the slurry cell) consists of high     distance (which reduces back-reaction) and changing electrodes
+volumes of alumina in the melt that acts as an interface between the     alignment (anode-cathode-anode).
+anode product and the cathode.132 For  this alumina suspension       Bao  et  al. performed  electrolysis with anode-cathode-anode
+electrolyte to be effective, the alumina particle size should be low     alignment in VEC using ceramic anode (composition unspeciﬁed),
+enough to ﬁt into the thickness of the diffusion layer on the anode (δ     TiB2/C composite (composition unknown) and NaF-KF-AlF3−4 wt
+= D/k, where D is the diffusion coefﬁcient in m2 s−1 and k is mass   % Al2O3 (CR = 1.4 to 1.5 and KF = 20 wt%) between 800 and 830
+transfer  coefﬁcient   in m   s−1).  At  a  current  density  of     °C.136 The studies were mainly focused on cathode behaviour and
+0.2–1.0 A cm−2, the diffusion layer thickness is 6 to 28 μm at 800     revealed that the cathode current density plays a crucial role in
+°C.133 Solheim suggested that the alumina particle size should be     determining the current efﬁciency of the process. At a cathode
+about 5 to 10 μm to promote the anode consumption of alumina. A     current density of less than 0.13 A cm−2, the current efﬁciency was
+similar conclusion was drawn by Yasinskiy et al.134 and Padamata et    0%. The current efﬁciency was above 90% when the current density
+al.,25 where the alumina particle size should be around 5 μm.     ranged from 0.27–0.47 A cm−2. The efﬁciency dropped when the
+Moreover, they suggest that the alumina volume fraction in the     current density was over 0.54 A cm−2. The reasons attributing to the
+electrolyte  should be  not more  than 12 vol%  for  the  proper     drop in efﬁcieny are the destruction of cathode wettability, the
+functioning of the anode.                                         enhancement of  electrolyte ﬂow and backreaction. Hryn  et  al.
+   Padamata et al.25 studied the anodic behaviour of aluminium     performed electrolysis in 1000 A VEC cell with three aluminium
+bronze anodes during  galvanostatic  polarisation (anode  current     bronze anodes and  three wetted cathodes (anode and cathode
+density = 0.4 A cm−2 ) in KF-AlF3-Al2O3 saturated and suspension     chemical composition not speciﬁed and placed simultaneously) at
+melts. The anodic potential constantly changes with time in saturated    750 °C in KF-AlF3-alumina saturated (CR=1.3) for 24 h.137 The Cu
+melts, and a constant ﬂuctuation in potential can be observed, which     impurities were 2.8 wt% in produced aluminium, while no trace of
+is associated with oxygen evolution and a sudden drop in the    Cu was  found  in  the  electrolyte. The  leading  cause  of Cu
+potential could do due to the delamination of oxide layer (Fig. 12).     contamination in Al is the reaction Cu2O →2Cu2+ + O2−, which
+On the other hand, the anodic voltage remained constant for the     occurs when the concentration of oxygen ions decreases in the melt.
+entire time, suggesting an  intact oxide  layer. Anode subject to     Thus, it is essential to have a saturated melt to avoid the dissolution
+galvanostatic polarisation in electrolyte with φ = 15 vol% did not     of the oxide layer formed present on the anode surface. Arctus
+have stable cell potential and the anodic potential reached to over    Aluminum  Iceland,  in  collaboration  with TRIMET Aluminum
+5 V in the ﬁrst 5 min (not shown in the ﬁgure). No CuF2 phase was    Germany, is working on a pilot VEC (10 kA) containing Ni-Fe-
+observed in XRD analysis of the oxide scale, which is indeed good     Cu-based inert anodes and TiB2 wettable cathodes and is planning to
+for the anode´s electrical conductivity.                                 convert  it into an industrial cell by 2028.138 ELYSIS technology,
+   Here we discuss few of the works where VEC was used to      jointly funded by ALCOA, Apple, and RTA,  is expected to be
+perform  electrolysis  with  inert anodes and  wettable  cathodes.     commercialised by 2024.139 ELYSIS claims to reduce operating
+Gunnarsson   et   al.  performed   electrolysis   in  VEC  using      costs by 15% and increase aluminium productivity using  inert
+Ni42Fe38Cu20 anodes, TiB2 cathodes and NaF-KF-AlF3−5.8 wt%     anodes and wettable cathodes.
+Al2O3 (CR = 1.3 and KR = 0.8) at 800 °C.135 The setup contains
+two cathodes and one anod,e with the anode between the cathodes
+                                                                                       Conclusions
+(ACD =  2.1 cm). The  electrolysis was performed  with  three
+different parameters:  a) anodic current density 0.5 A cm−2 and        This review summarises the research conducted on inert anodes,
+homogenised anode, b) anodic  current  density 1.0 A cm−2 and      electrolytes and cathodes. The  inert anode system, along with
+homogenised  anode,  c)  anodic  current  density  1.0 A cm−2     wettable cathodes using low-temperature electrolytes, could signiﬁ-
+and non-homogenised anode. In experiment 1, the cell voltage was     cantly lower the carbon footprint of conventional Hall-Heroult cells.
+in the 3.5 and 3.7 V range, with an oxide scale that will adhere to the     Metals are attractive anode material candidates due to their high
+
+
+
+
+
+Figure 12. Galvanostatic polarisation curves of Cu90Al10 anodes in KF-AlF3-Al2O3 electrolyte with volume fraction (φ) = 0 and 12% From Ref. 25
+Reproduced with permission. Elsevier 2020.
+
+## PDF page 14
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+electrical conductivity, high thermal strength and ability to form a        29. A. P. Khramov, V. Kovrov, Y. P. Zaikov, and V. M. Chumarev, Corros. Sci., 70,
+protective oxide  layer, preventing anodes from ﬂuorination and          194 (2013).
+corrosion. The wettable cathode is essential in an inert anode system        30. V. Chapman, B. J. Welch, and M. Skyllas-Kazacosa, Electrochimi. Acta., 56, 1227
+                                                                                                  (2011).
+as it is necessary to reduce the inter-electrode distance to maintain        31. T.  E.  Jentoftsen, O. A.  Lorentsen,  E. W. Dewing, and G. M. Haarberg,
+lower speciﬁc energy consumption. TiB2/C composite would have               J. Thonstad, Metall. Mater. Trans. B, 33, 901 (2002).
+an extended lifespan due to their superior wettability characteristics        32. P. Chin, P. J. Sides, and R. Keller, Can. Metall. Quart., 35, 61 (1996).
+and ability to stop electrolyte penetration into the cathode. A low-        33. R. T. Foley, J. Electrochem. Soc., 109, 1202 (1962).
+                                                                                             34. D. Cao, Z. Shi, D. Shi, J. Xu, X. Hu, and Z. Wang, J. Electrochem. Soc., 166, E87
+temperature  electrolyte  with  high alumina  solubility and  high            (2019).
+electrical conductivity is required for reliable operation with inert        35. V. Chapman, B. J. Welch, and M. Skyllas-Kazacos, Corro. Sci., 53, 2815 (2011).
+anodes. NaF-AlF3 melts  at low temperatures have low alumina        36. A. D. Dalvi and W. W. Smeltzer, J. Electrochem. Soc., 118, 1978 (1971).
+solubility, while KF-AlF3 melts have poor electrical conductivity.        37.38.  J.W.Wu,Wei,L.S.Zhang,Geng,J.D.Zhou,Xie, andand Y.F. Wang,Xu, J. Corro.Mater. Sci.,Sci. Tech.,157, 38216, (2019).509 (2000).
+NaF-KF-AlF3 melts have acceptable  electrical conductivity and        39. W. Wei, S. Geng, and F. Wang, J. Mater. Sci. Technol., 107, 216 (2022).
+moderate alumina  solubility. An  inert anode  cell powered by        40. T. Nguyen and V. De Nora, TMS Light Metals, 2006, 385 (2006).
+hydroelectric power plants would emit 70% less CO2 than the        41. M. Chen, B. Hallstedt, and L. J. Gauckler, J. Phase Equilibria, 24, 212 (2003).
+present aluminium electrolysis process. VEC with inert anodes and        42. R. P. Pawlek, TMS Light Metals, 2002, 449 (2002).
+                                                                                             43. S. P. Ray, TMS, 1986, 287 (1986).
+wettable cathodes  will only  require about 70%  of  the energy        44. X. H. Cao, J. H. Meng, F. Mi, Z. H. Zhang, and J. Sun, Solid State Commun., 151,
+consumed by the conventional process to produce the same amount          678 (2011).
+of aluminium. Inert anode technology innovators claimed to have        45. S. A. Nightingale, R. J. Longbottom, and B. J. Monaghan, J. Euro. Cera. Soc., 33,
+50% less space (ARCTUS) and 15% less operating cost (ELYSIS)          2761 (2013).                                                                                             46. D. W. Readey, J. Am. Ceram. Soc., 49, 366 (1966).
+than the present technology.                                                          47.  J. Du, B. Wang, Y. Liu, G. Yao, Z. Fang, and P. Hu, TMS Light Metals, 2015,
+                                                                                 1193 (2015).
+                  Acknowledgments                                        48. B. Wang, J. Du, Y. Liu, Z. Fang, and P. Hu, J. Mater. Eng. and Perform., 26, 5610
+                                                                                                  (2017).
+   This work has been funded by the Alcoa Foundation (2019:223136).        49.  J. Xi, Y. Xie, G. Yao, and Y. Liu, Trans. Nonferrous Met. Soc. China, 18, 356
+                                                                                                  (2008).
+                                                                                             50. Z. Tian, K. Yang, Y. Lai, K. Zhang, and J. Li, J. Cent. South Univ., 24, 1929
+                  ORCID                                                  (2017).
+                                                                                             51. Z. G. Zhang, Y. K. Wang, G. Y. Zu, Z. K. Cao, J. L. Liu, and C. Wang, Int. J.
+Sai Krishna Padamata   https://orcid.org/0000-0001-6592-6531                Appl. Ceram. Technol., 18, 1114 (2021).
+Gudrun Saevarsdottir   https://orcid.org/0000-0002-3884-4351             52. Z. Zhang and J. Xu, Int. J. Appl. Ceram. Technol., 20, 329 (2023).
+                                                                                             53. H. Xiao, J. Thonstad, and S. Rolseth, Acta Chem. Scand., 49, 96 (1995).
+                         References                                           54. S. Zuca, M. Terzi, M. Zaharescu, and K. Matiasovsky, J. Mater. Sci., 26, 1673
+                                                                                                  (1991).
+   1. R. Yokoi, T. Watari, and M. Motoshita, Energy Environ. Sci., 15, 146 (2022).          55. S. Y. Vassiliev, V. K. Laurinavichute, A. M. Abakumov, V. A. Govorov,
+   2. W. Haupin and H. Kvande, Essential Readings in Light Metals, 2016, 160 (2016).            E. B. Bendovskii, S. Turner, A. Y. Filatov, V. P. Tarasovskii, A. G. Borzenko,
+   3. G. Saevarsdottir, H. Kvande, and B. J. Welch, TMS Light Metals, 2020, 726           and A. M. Alekseeva, J. Electrochem. Soc., 157, C178 (2010).
+      (2020).                                                                                56. V. A. Govorov et al., Chem. Mater., 17, 3004 (2005).
+   4. G. Saevarsdottir, S. K. Padamata, B. Velasquez, and H. Kvande, TMS Light        57. A. M. Popescu, Chem. Res. Chin. Univ., 30, 800 (2014).
+      Metals, 2023, 637 (2023).                                                              58. A. M. Popescu and V. Constantin, Chin. J. Chem. Phy., 27, 368 (2014).
+   5. H. Kvande and W. Haupin, JOM, 53, 29 (2001).                                       59. L. Feng, W. Shao, L. Zhen, and N. Xie, Int. J. Appl. Ceram. Technol., 4, 453
+   6. S. K. Padamata, A. Yasinskiy, and P. V. Polyakov, J. Sib. Fed. Univ., Chem., 11,            (2007).
+     18 (2018).                                                                             60. N. Xie, W. Z. Shao, L. Zhen, and L. C. Feng, J. Am. Ceram. Soc., 88, 2589 (2005).
+   7. S. K. Padamata, K. Singh, G. M. Haarberg, and G. Saevarsdottir, J. Sustain.        61. L. Feng, N. Xie, W. Shao, L. Zhen, and V. V. Ivanov, J. Alloys Compd., 610, 214
+      Metall., 8, 613 (2022).                                                                      (2014).
+   8. Y. He, K. Zhou, Y. Zhang, H. Xiong, and L. Zhang, J. Mater. Chem. A, 9, 25272        62.  J. D. Weyand, D. H. DeYoung, S. P. Ray, G. P. Tarcy, and F. W. Baker, “Inert
+      (2021).                                                                     Anodes  for Aluminium  Smelting:  Final  Report.” (Aluminium Company  of
+   9. T. R. Beck and R. J. Brooks, US patent, 5, 562 (1994).                                  America, AlcoaLaboratories, Alcoa Center, 1986) DOE No. DOE/CS/40158-20,
+ 10. T. R. Beck, Light Metals, 1995, 355 (1995).                                           Department of Energy Idaho Operations Ofﬁce, Idaho Falls (1986), link: https://
+ 11. Y. Liu, Y. Zhang, W. Wang, D. Li, J. Ma, and J. Du, Arabian J. Sci. Eng., 43,             osti.gov/biblio/6734134.
+     6285 (2018).                                                                           63.  J. D. DeYoung, TMS Light Metals, 1986, 209 (1986).
+ 12. T. R. Beck, C. M. MacRae, and N. C. Wilson, Metall. Mat. Trans. B, 42, 807        64.  J. Liu, Z. Li, Y. Tao, D. Zhang, and K. Zhou, Trans. Nonferr. Met. Soc. China, 21,
+      (2011).                                                                       566 (2011).
+ 13.  I. Gallino, S. Curiotto, M. Baricco, M. E. Kassner, and R. Busch, J. Phase Equilib.        65. E. Olsen and J. Thonstad, J. Appl. Electrochem., 29, 293 (1999).
+       Diff., 29, 131 (2008).                                                                   66. E. Olsen and J. Thonstad, J. Appl. Electrochem., 29, 301 (1999).
+ 14.  I. Gallino, M. E. Kassner, and R. Busch, Corro. Sci., 63, 293 (2012).                   67. Y. Lai, Z. Tian, J. Li, S. Ye, X. Li, and Y. Liu, Trans. Nonferr. Met. Soc. China,
+ 15. L. Ying, C. Dengpeng, W. Wei, L. Dongsheng, W. Junwei, L. Yudong, and             16, 970 (2006).
+      S. Zhirong, J. Alloy & Comp., 832, 154848 (2020).                                     68. Z. Tian, Y. Lai, S. Yang, J. Li, J. Y. Hwang, and Y. Liu, Metall. Mater. Trans. B,
+ 16. S. Jucken, B. Tougas, B. Davis, D. Guay, and L. Roue, Metall. Mat. Trans. B, 50,            46, 1257 (2015).
+     3103 (2019).                                                                           69. Y. Tao, Z. Li, H. Shao, and Y. Chen, Int. J. Electrochem. Sci., 15, 7833 (2020).
+ 17. G. Goupil, E. Gavrilova, B. Davis, D. Guay, and L. Roué, TMS Light Metals,        70. H. Yan, Z. Liu, W. Ma, L. Huang, C. Wang, and Y. Liu, JOM, 72, 247 (2020).
+     2014, 1305 (2014).                                                                     71.  J. Thonstad, P. Fellner, G. M. Haarberg, J. Hives, H. Kvande, and A. Sterten,
+ 18. S. Helle, M. Pedron, B. Assouli, B. Davis, D. Guay, and L. Roué, Corro. Sci., 52,          Aluminum Electrolysis—Fundamentals of the Hall-Heroult Process (Aluminium-
+     3348 (2010).                                                                              Verlag, Dusseldorf, Germany) 3rd ed. (2001).
+ 19. S. Mohammadkhani, V. Jalilvand, B. Davis, F. B. Ettouil, A. Dolatabadi, L. Roue,        72.  I. Galasiu, R. Galasiu, and J. Thonstad, Inert Anodes for Aluminium Electrolysis
+     C. Moreau, and D. Guay, Surf. Coatings Technol., 399, 126168 (2020).                  2007 (Aluminium-Verlag, Dusseldorf, Germany) (2007).
+ 20. S. Mohammadkhani, V. Jalilvand, B. Davis, G. H. Gauthier, A. Dolatabadi,        73. A. Apisarov, A. Dedyukhin, E. Nikolaeva, P. Tinghaev, O. Tkacheva, A. Redkin,
+     C. Moreau, L. Roue, and D. Guay, Corros. Sci., 189, 109563 (2021).                    and Y. Zaikov, Metall. Mater. Trans. B, 42, 236 (2011).
+ 21. S. Mohammadkhani, V. Jalilvand, A. Dolatabadi, C. Moreau, D. Guay, and        74. V. Danielik and J. Gabcova, J. Therm. Anal. Calorim., 76, 763 (2004).
+     L. Roué, Metall. Mater. Trans. B, 53B, 3543 (2022).                                   75. S. D. Kirik, Y. N. Zaitseva, D. Y. Leshok, A. S. Samoilo, P. S. Dubinin,
+ 22.  J. N. Hryn and M. J. Pellin, Light Metals, 1999, 377 (1999).                                              I. S. Yakimov, D. A. Simakov, and A. O. Gusev, Inorg. Chem., 54, 5960 (2015).
+ 23. O. A. Lorentsen, T. E. Jentoftsen, E. W. Dewing, and J. Thonstad, Metall. Mater.        76. S. K. Padamata, A. Yasinskiy, and P. V. Polyakov, Metall. Res. Technol., 116, 410
+     Trans. B, 38, 833 (2007).                                                                   (2019).
+ 24. M. Glucina and M. Hyland, Corro. Sci., 48, 2457 (2006).                               77.  J. Hives, J. Thonstad, Å. Sterten, and P. Fellner, Metall. Mater.Trans. B, 27, 255
+ 25. S. K. Padamata, A. S. Yasinskiy, and P. V. Polyakov, Trans. Nonferrous Met. Soc.            (1996).
+     China, 30, 1419 (2020).                                                                78. E. Kubinakova, V. Danielik, and J. Hives, J. Electrochem. Soc., 164, E265 (2017).
+ 26. S. K. Padamata, A. S. Yasinskiy, and P. V. Polyakov, New J. Chem., 44, 5152        79.  J. Hives, P. Fellner, and J. Thonstad, Ionics, 19, 315 (2013).
+      (2020).                                                                                 80. M. Tan, T. Li, J. Yan, and Z. Shang, J. Electrochim. Soc., 167, 023503 (2020).
+ 27. S. K. Padamata, A. Yasinskiy, A. Shabanov, T. Bermeshev, Y. Yang, Z. Wang,        81. E. Kubinakova, V. Danielik, and J. Hives, Electrochim. Acta, 265, 474 (2018).
+     D. Cao, and P. Polyakov, Trans. Nonferrous Met. Soc. China, 32, 354 (2022).          82.  J. Hives and J. Thonstad, Electrochim. Acta, 49, 5111 (2004).
+ 28. S. Helle, B. Davis, D. Guay, and L. Roue, J. Electrochem. Soc., 157, E173 (2010).        83. P. Palimąka and S. Pietrzyk, Key Eng. Mat., 641, 169 (2015).
+
+## PDF page 15
+
+                                      Journal of The Electrochemical Society, 2023 170 073501
+
+
+
+ 84. F. Simko, J. Priscak, E. Kubinakova, and M. Korenko, J. Chem. Eng. Data, 65,       112. A. E. Dedyukhin, A. A. Kataev, A. A. Redkin, and Y. P. Zaikov, ECS Trans., 64,
+     2642 (2020).                                                                  151 (2014).
+ 85. E. Kubinakova, V. Danielik, and J. Hives, J. Electrochem. Soc., 167, E274 (2018).       113. M. Sørlie and H. A. Øye, Cathodes in Aluminium Electrolysis (Aluminium-Verlag
+ 86.  J. Yang, W. Li, H. Yan, and D. Liu, TMS Light Metals, 2013, 689 (2013).                Marketing & Kommunikation GmbH, bro Düsseldorf, Germany) 3rd ed.
+ 87. P. Fellner, J. Hives, and J. Thonstad, TMS Light Metals, 2011, 513 (2011).                   (2010).
+ 88. A. Dedyukhin, A. Apisarov, O. Tkacheva, A. Redkin, Y. Zaikov, A. Frolov, and       114. R. C. Dorward, J. Amer. Ceram. Soc., 65, C6 (1982).
+     A. Gusev, ECS Trans., 16, 317 (2009).                                             115. S. V. Devyatkin and G. Kaptay G, J. Solid State Chem., 154, 107 (2000).
+ 89. A. Dedyukhin, A. Apisarov, P. Tinghaev, A. Redkin, and Y. Zaikov, Light Metals,       116. M. Kontrik,  F. Simko, D. Galuskova, M. Nosko, V. Bizovska, M. Hičak,
+     2011, 563 (2011).                                                                D. Galusek, A. Rakhmatullin, and M. Korenko,  J. Eur. Ceram.  Soc., 170,
+ 90. A. T. Tabereaux, JOM, 46, 30 (1994).                                             108646 (2020).
+ 91. N. V. Vasyunina, I. P. Vasyunina, Y. G. Mikhalev, and A. M. Vinogradov, Russ.       117. N. Rybakova, M. Souto, H. P. Martinz, Y. Andriyko, W. Artner, J. Godinho, and
+       J. Non-ferrous Metals, 50, 338 (2009).                                              G. E. Nauer, Corros. Sci., 51, 1315 (2009).
+ 92. E. J. Frazer and J. Thonstad, Metall. Mater. Trans. B, 41B, 543 (2010).               118. S. C. Raja and M. Skyllas-Kazacos, Electrochimi. Acta, 37, 1395 (1992).
+ 93. E. Skybakmoen, A. Solheim, and A. Sterten, Metall. Mater. Trans. B, 28, 81       119.  J. Li, X. Lu, Y. Lai, Q. Li, and Y. Liu, JOM, 60, 32 (2008).
+      (1997).                                                                            120. T. Norgate and S. Jahanshahi, Miner. Eng., 24, 1563 (2011).
+ 94. Y. Zhang, S. Gupta, Y. Sahai, and R. A. Rapp, Metall. Mater. Trans. B, 33B, 315       121. A. S. Namini, S. N. S. Gogani, M. S. Asl, K. Farhadi, M. G. Kakroudi, and
+      (2002).                                                                         A. Mohammadzadeh, Int. J. Refract. Met. Hard Mater., 51, 169 (2015).
+ 95. A.  P.  Apisarov, A.  E. Dedyukhin, A. A.  Redkin, O. Y. Tkacheva, and       122. Z. Wang, H. Li, C. Zhang, J. Xue, X. Liu, X. Li, and D. He, Ceram. Int., 47, 12096
+     Y. P. Zaikov, Rus. J. Electrochem, 46, 633 (2010).                                          (2021).
+ 96. A. Dedyukhin, A. Apisarov, O. Tkacheva, Y. Zaikov, and A. Redkin, Molten Salts       123.  J. Fei, W. Wang, A. Ren, Y. Ji, J. Zhou, and M. Zhu, J. Alloys Compd., 584, 87 (2014).
+     and Ionic Liquids: Never the Twain?, ed. M. Gaune-Escard and K. Seddon (John       124. H. Heidari, H. Alamdari, D. Dubé, and R. Schulz, J. Eur. Ceram. Soc., 32, 937
+     Wiley & Sons, France, United States of America) Vol. 75 (2010).                           (2012).
+ 97. H. Yan, L. Huang, W. Ma, Z. Liu, and B. Qin, Metall. Mater. Trans. B, 52, 3490       125. K. D. Watson and J. M. Toguri, Metall. Trans. B, 22, 617 (1991).
+      (2021).                                                                            126. Y. D. Liang, L. J. Wang, D. P. Chai, S. Z. Bao, T. T. Niu, J. W. Wang, and Y. Liu,
+ 98.  J. Peng, Z. Wei, Y. Di, Y. Wang, and T. Sun, JOM, 72, 239 (2020).                     Rare Met., 40, 57 (2021).
+ 99. B. Gilbert, E. Robert, E. Tixhon, J. E. Olsen, and T. Østvold, Inorg. Chem., 35,       127. Y. Ban, Z. Shi, Z. Wang, H. Kan, S. Yang, X. Cao, and Z. Qiu, TMS Light metals,
+     4198 (1996).                                                                         2007, 1051 (2007).
+100. B. Gilbert and T. Materne, Appl. Spectrosc., 44, 299 (1990).                         128. A. Tabereaux et al., TMS Light metals, 1998, 257 (1998).
+101. E. Robert, J. E. Olsen, V. Danek, E. Tixhon, T. Østvold, and B. Gilbert, J. Phys.       129. H. Kvande, Light Met. Age, 2, 68 (1999).
+    Chem. B, 101, 9447 (1997).                                                        130. A. Solheim, TMS Light Metals, 2018, 1253 (2018).
+102. P. Cui, A. Solheim, and G. M. Haarberg, Light Metals, 2015, 661 (2015).             131. A. Gupta and B. Basu, Trans. Indian Inst. Met., 72, 2135 (2019).
+103. A. Solheim, S. Rolseth, E. Skybakmoen, L. Stoen, A. Sterten, and T. Store, Metall.       132. T. R. Beck, US Patent, 865, 701 (1989).
+     Mater. Trans. B, 27, 739 (1996).                                                   133. A. Solheim, TMS Light Metals, 2021, 511 (2021).
+104. A. Solheim, S. Rolseth, E. Skybakmoen, L. Stoen, Å. Sterten, and T. Store,       134. A. S. Yasinskiy, S. K. Padamata, P. V. Polyakov, A. S. Samoilo, A. V. Suzdaltsev,
+      Essential Readings in Light Metals, 2016, 73 (2016).                                  and A. Y. Nikolaev, TMS Light Metals, 2020, 591 (2020).
+105. E. H. Howard, J.Am.Chem.Soc., 76, 2041 (1954).                                    135. G. Gunnarsson, G. Oskarsdottir, S. Frostason, and J. H. Magnusson, TMS Light
+106. W. E. Haupin, NATO ASI Ser., A, 202, 447 (1987).                                        Metals, 2019, 803 (2019).
+107. Z. X. Qiu, M. H. He, Q. Li, and Z. Zhang, Aluminium, 76, 186 (2000).               136. S. Bao, D. Chai, Z. Shi, J. Wong, G. Liang, and Y. Zhang, TMS Light Metals,
+108. V. Danielik, Chem. Pap., 59, 81 (2005).                                                2018, 611 (2018).
+109. M. Chrenkova, V. Danek, A. Silny, and T. A. Utigard, Light Metals, 1996, 227       137.  J. Hryn, O. Tkacheva, and  J. Spangenberger, TMS Light Metals, 2013, 1289
+      (1996).                                                                                     (2013).
+110. A. Silny, M. Chrenkova, V. Danek, R. Vasiljev, D. K. Nguyen, and J. Thonstad,       138. Trimet,  [Online].  website  www.trimet.eu/de/trimet/nachhaltigkeit/umwelt-und-
+       J. Chem. Eng. Data, 49, 1542 (2004).                                                       klimaschutz/herstellung-von-inerten-metallischen-anoden.
+111. A. V. Suzdaltsev, A. Y. Nikolaev, and Y. P. Zaikov, J. Electrochem. Soc., 168,       139. Elysis, “A new era for the aluminium industry - carbon free smelting.” Elysis
+     046521 (2021).                                                                             (2018), [Online]. website https://elysis.com.

@@ -1,0 +1,641 @@
+Source: literature/SolubilityOfFeOAndFeAl2O4InCryoliteAluminaMelts.pdf
+
+## PDF page 1
+
+ECS Proceedings
+Volumes
+
+
+
+                                                   You may also like
+
+                                                                                                                                                                   - First-principles study of electronic
+                                                                                                                             structures                                                                                                           and                                                                                                                                                                elasticity                                                                                                                                                             of Al2Fe3Si3Solubility of FeO and FeAl2O4 in Cryolite-Alumina                                                                                                         Zhufeng Hou,                                                                                                                                     Yoshiki                                                                                                                                Takagiwa,
+Melts                                                                                                Yoshikazu Shinohara et al.
+                                                                                                                                                                   - The resistance of an aluminide coating on
+                                                                                                   a high-strength ASTM A29 steel subjected
+To cite this article: T. E. Jentoftsen et al 1999 Proc. Vol. 1999-41 473                                                to a temperature of 850 °C
+                                                                                   Mohammad Badaruddin, Sugiyanto and
+                                                                                                   Dwi Asmi
+                                                                                                                                                                   - Physical properties investigation of Fe1xAlx
+                                                                                                                                    (x 50%-at) alloys using DFT and Wagner-
+View the article online for updates and enhancements.                                                         Schottky model
+                                                                                                                                                                                                     I Berrached, M Gallouze, L Rouaiguia et
+                                                                                                                                                            al.
+
+
+
+
+
+                            This content was downloaded from IP address 172.59.130.214 on 30/08/2026 at 00:05
+
+## PDF page 2
+
+           Proceedings of The Electrochemical Society, PV 1999-41, 473-484 (1999)
+             DOI: 10.1149/199941.0473PV © The Electrochemical Society
+
+
+
+
+
+                             T.                E. Jentoftsen and J. Thonstad
+             Department of Materials Technology and Electrochemistry
+                Norwegian University of Science and Technology
+                         N-7491 Trondheim, Norway
+
+
+                                      E.     W. Dewing
+                            648 Pimlico PL, Kingston
+                    ON K7M 5T8, Canada
+
+                                 G.       M. Haarberg
+                     SINTEF Materials Technology
+                         N-7465 Trondheim, Norway
+
+
+
+        The solubility of FeO and FeAl20 4 in cryolite-alumina melts at 1020
+      °C was measured. The experiments were performed under an  argon
+       atmosphere and in an iron crucible. Both analytical and electrochemical
+       experiments were conducted. FeO was found to be the stable solid phase
+         at low  alumina concentrations, while FeAl20 4 was found to be stable at
+       high concentrations. The alumina activity corresponding to equilibrium
+      between the two solid phases was determined as 0.195 or 5.03 wt% ALO3.
+      The results are discussed in terms of dissolution mechanisms. The Gibbs
+       energy of formation for FeAl20 4 at 1020 °C was determined as - 17.6 kJ
+    m o l . The solubility of FeAl20 4 in alumina-saturated melts was measured
+        in the temperature range from 980 - 1050 °C. The solubility increased with
+       increasing temperature. The apparent partial molar enthalpy of dissolution
+        for FeAl20 4 was found to be 64.8 kJ mol'1.
+
+
+
+                       INTRODUCTION
+
+
+
+  A study of iron oxide solubility in cryolite-alumina melts is interesting for at least two
+reasons. Firstly, iron is one of the most predominant impurities present in the commercial
+production of aluminium, the Hall-Heroult process. According to Solli et a l (1) dissolved
+iron compounds may influence the current efficiency and the metal quality, since they
+have  a lower  decomposition  potential  than  alumina.  Secondly,  to  understand  the
+corrosion mechanism  of  inert anodes,  for example NiFe20 4, one has  to know  the
+solubility of the corrosion products in the electrolyte.
+
+
+   The main component of the electrolyte used in commercial aluminium electrolysis
+cells is cryolite, due to its high alumina solubility. Cryolite has a melting point of 1011
+°C according to Solheim et al.  (2). The binary system cryolite-alumina has a eutectic
+point located  at 10.0 wt% alumina and 965 °C. In addition to cryolite, conventional
+electrolytes contain 5 - 1 3 wt% AIF3, 3 - 7 wt% CaF2, and 1 - 5 wt% ALO3. An industrial
+cell with conventional electrolyte usually operates in the temperature range 950 - 980 °C,
+
+## PDF page 3
+
+  which  is about 5  - 15 °C above the corresponding liquidus temperature for primary
+  crystallisation of cryolite-alumina melts.
+
+
+    There are numerous studies in the literature on the solubility of iron oxides in cryolite.
+  However, according to Dewing and Thonstad (3), only a few are interesting since there
+  was no control of the oxygen potential in the experiments. Iron has two oxidation states,
+  Fe(II) and Fe(III), and even though the material being dissolved is either Fe(II) or Fe(III),
+  the solution can contain both. Diep (4) investigated the solubility of Fe(III) in cryolite
+  melts under 1 atm of oxygen, using ferric oxide, Fe203, as additive. DeYoung (5) did
+  similar experiments using  air. A comparison  of the  results, Diep’s  (4)  data being
+  substantially lower than those of DeYoung (5), confirm the importance of a controlled
+  oxygen potential. Johansen  (6) investigated the solubility of Fe(II)  in molten cryolite
+  under argon and in an iron crucible. We interpolated his data to 1020 °C and obtained a
+  solubility of 4.54 wt% Fe(II). Calculations (3) show that at alumina saturation under 1
+  atm of oxygen, 6 % of the total iron in solution  is present as Fe(II), while in an iron
+  crucible under 1 atm of argon only 0.1 % of the total is present as Fe(III).
+
+
+    The  standard Gibbs  energy  (AG°/)  for  the  reaction  given  in Eq.  [1]  has been
+  determined from the electromotive force (emf) of solid-state  cells with oxygen-ion­
+  conducting electrolytes.
+
+
+                          FeO(s) + A120 3(a) = FeAl20 4 (s)                            [1]
+
+
+
+  Rezukhina et al. (7) and Chan et al. (8) give it as AG°/= - 23 088 J mol'1 and AG°/ = - 23
+  620 J mol'1 at 1020 °C, respectively. The mean value AG°/= - 23 354 J mol'1 is adopted.
+ The corresponding equilibrium constant is 8.35. This implies that ferrous oxide, FeO, is
+  stable at alumina activities lower than 0.114, while at higher alumina activities ferrous
+  aluminate, FeA^C^, is stable. As suggested by Dewing and Thonstad (3), ferrous oxide,
+  FeO, dissolves in molten cryolite as ferrous fluoride, FeF2.
+
+
+
+                       FeO(s) + |  AlFj (1) = FeF2 (1) + ± A120 3(1)                        [2]
+
+
+
+
+                    FeAl20 4(s) + |A 1F3(1) = FeF2 (1) + 1A120 3(1)                       [3]
+
+
+
+    There are several ways of investigating the solubility of Fe(II) in cryolite melts. In the
+  present work both an electrochemical and an analytical method were tried out.
+
+
+
+
+
+474                   Electrochemical Society Proceedings Volume 99-41
+
+## PDF page 4
+
+                              E X PER IM EN TA L
+
+
+
+  Electrochemical Measurements
+
+
+
+     Cryolite-alumina melts (—150 g) were made up by weight from handpicked Greenland
+  cryolite and contained in an iron crucible. The experiments were performed in a standard
+  closed furnace (4). A thermocouple (Pt-PtlO%Rh) sealed in a platinum tube was used to
+  monitor the experimental temperature, which was set at 1020 °C. Argon was purged
+  through the closed furnace during the experiment. Ferrous fluoride (Fluka, +95%) was
+  added through a quartz tube. The solution was mixed by using a platinum stirrer (15 to 45
+  minutes).
+
+
+   A three-electrode system was employed for the chronopotentiometry measurements. A
+  copper wire (0=0.5 mm) served as working  electrode, the  iron crucible  as counter
+  electrode and an iron wire as reference electrode. Measurements were carried out by
+  depositing iron on a new copper wire after each addition of ferrous fluoride. The active
+  area of the working electrode was determined after the experiment by visual inspection
+  using a microscope. To avoid the influence of convection, the current applied was of such
+  an order that the transition time was less than 100 ms.
+
+
+
+  Conventional Solubility Measurements
+
+
+
+     Cryolite-alumina melts (—150 g) with excess ferrous oxide were made up by weight
+  from handpicked Greenland cryolite and were contained in an iron crucible. Ferrous
+  oxide was prepared in the laboratory by heating ferric oxide with excess iron powder at
+  1050 - 1100 °C for 48 hours. The experiments were run at 1020 °C, using argon, and the
+  temperature was recorded using a thermocouple (Pt-Ptl0%Rh). After the solution had
+  melted and the temperature was stabilized at 1020 °C, it was agitated for at least one hour
+  using an iron  stirrer. The solution was then allowed to  settle for minimum one hour
+  before a sample was taken, using a quartz tube, and subsequently quenched. The samples
+  were analysed by ICP (iron content) and LECO (oxygen content). Preparation for the ICP
+  analysis was done by  dissolving  1 - 3  grams of a crushed sample  in 50 ml 30%
+  AICI3 6H2O. The solutions were kept in teflon vessels at 80 °C for approximately 20 h
+  before 5 ml 30% HC1 was added.  Finally,  the solutions were contained  in  100 ml
+  polypropylene graduated flasks and filled with deionised water.
+
+
+
+
+
+Electrochemical Society Proceedings Volume 99-41                 475
+
+## PDF page 5
+
+                               R ESU LTS
+
+
+
+  Electrochemical Measurements
+
+
+
+    The Sand equation (9) is
+
+
+
+
+
+                                                                                                            [4]
+                                          2
+
+
+
+  where  i is the current density, T is the transition time, n is the number of electrons, D is
+  the diffusion coefficient, and c0°° is the bulk concentration of the species taking part in the
+  reaction. According to Eq.  [4] the product  i-T1/2 is independent of the applied current
+  density and proportional to the bulk concentration. This is used as a diagnostic test for a
+  process that is diffusion controlled. Typical transients, resulting from different current
+  densities, and calculated  /• T1/2 values are shown in Fig. 1 for a given melt composition.
+ From the resulting values one sees that the agreement  is satisfactory. From the same
+  figure it can be seen that the Fe(III) concentration in the melt is close to zero, since there
+   is no plateau for the reduction of Fe(III) to Fe(II) at short times. This is in agreement with
+  the calculations by Dewing and Thonstad (3).
+
+
+   A typical plot of ferrous fluoride concentration versus i-TI/2 is given in Fig. 2 for an
+  experiment below alumina saturation. The experimental points are given as open circles.
+ The  solid  line  consists  of two  parts  separated by  a breakpoint, which  defines  the
+  solubility of ferrous fluoride. The first part, which is a straight line starting at zero, is
+  obtained by regression analysis of the experimental points. In this concentration range the
+  additive  is completely dissolved  in the electrolyte, and the alumina concentration  is
+  considered to be unchanged. After the breakpoint, the experimental points show a slight
+  upward trend. This is due to the decrease in alumina concentration, corresponding to Eq.
+  [2] or Eq.  [3]. The reduced alumina concentration enhances the solubility of ferrous
+  fluoride, leading to an increase of the product i-Tm .
+
+
+    To estimate the location of the breakpoint a model had to be made, taking into account
+  the effect of changes in alumina concentrations beyond the breakpoint,
+
+
+                                          r                                                  \
+
+                                                                                                        [5]
+
+
+
+
+                               c,'FdissolvedeF2       C breakpointFpF,                                                [6]
+
+
+
+
+
+476                   Electrochemical Society Proceedings Volume 99-41
+
+## PDF page 6
+
+                                                          precipitated _ -tr      /  added  _    breakpoint
+                                        C F e(II)         “   ^ 'v C F e F  j     C FeF2                                     [7]
+
+
+
+  where M\ is the atomic weight and x\ is  1/3 or 4/3, according to Eq.  [2] and Eq.  [3],
+  respectively. AT is a constant which represents the fraction of Fe(II) that precipitates. K
+  was determined by manual iterations, until Eq. [8] was balanced.
+
+
+
+
+
+                                                      added  _     dissolved      .    precipitated
+                                            C FeF2 — C FeF2         ’1" C F e(II)                                      [8]
+
+
+
+  This procedure was repeated until the resulting line corresponded with the experimental
+  points. The first points, beyond the breakpoint, were emphasised when the experimental
+  points deviated from the model. The alumina activities used were based on the following
+  equation, given by Dewing and Thonstad (10),
+
+
+                    N A120 3         + /3 a A1202/3  3                                  [9]
+
+
+
+  for the relation between molar fraction of alumina and alumina activity. The coefficients
+  a and   are 0.0772 ± 0.0025 and 0.159 ± 0.0048, respectively.
+
+
+    The diffusion coefficient of Fe(II) was determined from the slope of the experimental
+  points at the low ferrous fluoride concentrations in Fig. 2, made by regression analysis,
+  and Eq.  [4]. These data are given as a function of alumina concentration in Table  I,
+  together  with  the  solubility  of  ferrous  fluoride  and  the  corresponding  Fe(II)
+  concentrations. Density data for the cryolite-alumina system used to calculate the bulk
+  concentrations are taken from Solheim (11). Analysis of the Greenland cryolite showed
+  that it contained 0.3 wt% alumina. This concentration is included in the tabulated alumina
+  concentrations.
+
+
+
+            Table  I. Diffusion coefficient, solubility of ferrous fluoride and
+            _______ Fe(II) as a function of alumina concentration at 1020 °C.
+
+             AI2O3 / wt%   DFe(II)'105 / cm2 s 1  FeF2 / wt%   Fe(II) / wt%
+
+                   7.68              3.34              1.95          1.16
+
+                   8.56              3.41              1.55          0.92
+
+                   9.29              3.34              1.27          0.76
+                   10.34             3.38             0.97          0.58
+                   11.28             2.79             0.85          0.51
+
+                   12.29             2.90             0.80          0.48
+
+
+
+
+
+Electrochemical Society Proceedings Volume 99-41                 477
+
+## PDF page 7
+
+    From Table  I one sees that results were obtained only for alumina concentrations
+  greater than 7.68 wt%. The reason was that chronopotentiometry failed at lower alumina
+  concentrations, due to lack of diffusion control.
+
+
+    According  to Dewing and Thonstad  (12), a logarithmic  plot of  solubility versus
+  alumina  activity makes   it possible  to  derive  the  stoichiometric  relationship  for  the
+  dissolution mechanism, i.e.t between alumina and dissolved Fe(II). This is shown in Fig.
+  3, where the alumina activities are calculated from Eq. [9]. The solubility of Fe(II), given
+  as the regression line for the experimental points in Fig. 3, is represented by
+
+
+
+               log(wt%Fe) = -1.22 (±0.08) log(aAl2Oi)-0 .4 0 (±0.02)               [10]
+
+
+
+  for the given alumina activity range, i.e., 0.41 - 0.91.
+
+
+     In one case two samples were taken from the frozen material left in the crucible, at the
+  bottom and in the middle, crushed and submitted to X-ray diffraction (XRD) analysis.
+  This showed  that ferrous aluminate was present  in the  solidified  melt, with higher
+  concentrations of ferrous aluminate close to the bottom of the crucible.
+
+
+
+  Conventional Solubility Measurements
+
+
+
+     In  this part of the work ferrous oxide was used as additive instead of the more
+  expensive  ferrous  fluoride,  due  to  the  high  iron  solubility   at  lower  alumina
+  concentrations. Ferrous oxide is a nonstoichiometric compound, and known as wustite,
+  Fe0.947O. To check the quality of the wustite produced in the laboratory an XRD analysis
+  was performed. The  analysis was only  able  to  state  qualitatively  that  the product
+  contained wustite. The reason for this was that the sample was not completely crystalline.
+  Complete saturation of Fe(II) in the melt was reached within half an hour.
+
+
+    The experimental results are given as a function of alumina activity in a logarithmic
+  plot in Fig. 4. Oxygen from iron oxide dissolved in the melt is included in the alumina
+  concentration. From the figure one sees that the experimental points represent two lines
+  with different slopes, indicating different reaction mechanisms. Applying the method
+  described by Lorentsen et al (13), the intercept is found at an alumina activity equal to
+  0.195 ± 0.009. The solubility of Fe(II) when alumina activities are lower and greater than
+  0.195, is given by Eq. [11] andEq. [12], respectively.
+
+
+
+               log(wt% Fe) = -0.40 (±0.06) log(aAl20j) + 0.11 (±0.06)              [11]
+
+
+
+               log(wt% Fe) = -1.26 (±0.04) log(aAl2O^)-0.49 (±0.02)              [12]
+
+
+
+
+
+478                   Electrochemical Society Proceedings Volume 99-41
+
+## PDF page 8
+
+    To investigate the effect of temperature on the Fe(II) solubility, several experiments
+  were performed in the range from 980 - 1050 °C. The system under study was cryolite
+  saturated  with  alumina.  The  results  are  given  as  the  natural  logarithm  of  iron
+  concentration  versus  the  inverse temperature  in  Fig.  5. The  results show  that  the
+  solubility of ferrous aluminate increases with increasing temperature. The solubility of
+  Fe(II) is given by
+
+
+
+                                 7789 (±301)
+                    ln(wt% Fe)              + 4.87 (±0.23)                     [13]
+                                 T
+
+
+
+  where the temperature is given in Kelvin.
+
+
+
+                           DISCUSSION
+
+
+
+    The electrochemical measurements, Eq.  [10], give  the stoichiometric  relationship
+  between the activity of alumina and the concentration of Fe(II) as 1.22. This  is within
+  10% of 4/3, and is in accordance with the reaction mechanism given by Eq. [3] which
+  states that ferrous aluminate  is the stable solid compound  at high alumina  activities.
+  Additional support is given by the XRD analysis, which showed higher concentrations of
+  ferrous aluminate in the lower part of the slowly solidified melt.
+
+
+    From  the  conventional  solubility  measurements,  Eq.  [11]  and  Eq.  [12],  the
+  stoichiometric relations are found to be 0.40 and 1.26. This is  close to 1/3 and 4/3, and
+  correspond  to the reaction mechanisms given by Eq.  [2] and Eq.  [3]. The  intercept
+  between the two lines is found at an alumina activity of 0.195.
+
+
+    The results obtained from both the electrochemical and the conventional solubility
+  measurements, together with the result of Johansen  (6), are given in Fig. 6. From the
+  figure one  sees  that  the  agreement between  his  results  and  the  present work  is
+  satisfactory. The results from the electrochemical measurements are somewhat higher
+  than the conventional solubility measurements. There are several possible reasons for
+  this.  All  calculations concerning  the  electrochemical  part  are performed under  the
+  assumption that the ferrous fluoride added  is completely pure.  If this  is not the case,
+  which is likely, the value of the experimental points should be lower. Another source of
+  error may be the dissolution of the samples when preparing them for ICP analysis. If the
+  samples did not dissolve completely, the experimental points from  the conventional
+  solubility measurements are too low. Samples from the same experiments were also
+  analysed by LECO. Calibration errors connected to the LECO apparatus would influence
+  the determination of the oxygen content and thereby the calculated alumina activity.
+
+
+    By using the alumina activity at the intercept, the Gibbs energy of formation of ferrous
+  aluminate can be calculated for the reaction given by Eq. [1] according to:
+
+
+
+
+
+Electrochemical Society Proceedings Volume 99-41                 479
+
+## PDF page 9
+
+                                                                                        f
+                          a g ; = -R T • In                                        [14]
+
+
+
+
+    The result at 1020 °C is given as
+
+
+
+
+                             AG°f =-17.6 (±0.5) kJmol"1                            [15]
+
+
+
+   A discrepancy is observed between the obtained intercept at alumina activity of 0.195
+  and 0.114 calculated from the literature (7,8). This also applies for the Gibbs energy of
+  formation. A deviation  is also observed for the slopes giving the stoichiometric  ratio
+  between alumina and dissolved Fe(II) and the ones predicted by Eq.  [2] and Eq.  [3].
+  There can be several reasons for this.  It was assumed that the activities of aluminium
+  trifluoride and sodium fluoride were constant. Another assumption was that the activity
+  coefficient of ferrous fluoride does not vary with the alumina content. None of those
+  conditions are likely to be fulfilled.
+
+
+    The effect of temperature on the Fe(II) solubility was investigated. The system under
+  study was cryolite saturated with alumina, meaning that the stable iron-containing solid
+  product was ferrous aluminate. As shown by Xiao et al (14), the apparent partial molar
+  enthalpy of dissolution for ferrous aluminate can be calculated from Eq. [13] by assuming
+  Henrian behaviour, and introduction of the Gibbs-Helmholtz equation. The result was
+  found to be
+
+
+
+                                AH°FeAi2o4 =64.8 (±2.5) kJmol-1                           [16]
+
+
+
+    Diep (4) and DeYoung (5) reported the partial molar enthalpy of dissolution for ferric
+  oxide to be 124 and 138 kJ m ol1. Since the solubility of ferrous aluminate  is several
+  times higher than that of ferric oxide, the obtained value seems reasonable.
+
+
+
+                   ACKNOWLEDGEMENTS
+
+
+
+     Financial  support  from  the  Research  Council  of Norway  and  the Norwegian
+  aluminium   industry   is   gratefully  acknowledged.  Mr.  Odd-Arne  Lorentsen   is
+  acknowledged for his contribution to the conventional solubility experiments.
+
+
+
+
+
+480                   Electrochemical Society Proceedings Volume 99-41
+
+## PDF page 10
+
+                          REFERENCES
+
+
+
+   1.   P. A. Solli, T. Haarberg, T. Eggen, E. Skybakmoen and A. Sterten, in Light Metals
+      1994, U. Mannweiler, Editor, p. 195, TMS, Warrendale, PA (1994).
+  2.  A. Solheim, S. Rolseth, E. Skybakmoen, L. St0en, A. Sterten and T. St0re, in Light
+      Metals 1995, J. E. Evans, Editor, p. 451, TMS, Warrendale, PA (1995).
+   3.   E. W. Dewing and J. Thonstad, Metall. Mater. Trans. B, to be published (1999).
+  4.   Q. B. Diep, Structure and Thermodynamics of Cryolite-Based Melts with Additions
+      of AI2 O3 and Fe2 C>3 , p.  79, Doktor ingenipravhandling  1998:28, Department of
+      Electrochemistry, Norwegian  University of Science and Technology, Trondheim
+       (1998).
+   5.  D.  H. DeYoung,  in  Light Metals  1986, R.  E.  Miller,  Editor,  p.  299, TMS,
+      Warrendale, PA (1986).
+   6.  H. G. Johansen, Jem som forurensningselement  i aluminiumelektrolysen,  p.  16,
+      Doctoral   Thesis,  Department  of  Electrochemistry,  Norwegian   Institute   of
+      Technology, Trondheim (1975).
+  7.   T. N. Rezukhina, V. A. Levitskii and P. Ozhegov, Russ.  J. Phys. Chem., 37, 358
+       (1963).
+   8.    J. C. Chan, C. B. Alcock and K. T. Jacob, Can. Met. Quart., 12, 439 (1973).
+  9.   P. Delahay, New Instrumental Methods  in Electrochemistry, p.  184, Interscience
+      Publishers, New York (1954).
+  10. E. W. Dewing and J. Thonstad, Metall. Mater. Trans. B, 28B, 1089 (1997).
+  11. A. Solheim, Alum. Trans., to be published (1999).
+  12. E. W. Dewing and J. Thonstad, Metall. Mater. Trans. B, 28B, 1257 (1997).
+  13. O. A. Lorentsen, E. W. Dewing and  J. Thonstad,  in Proceedings o f the Twelfth
+      International Symposium on Molten Salts, H. C. DeLong, R. W. Bradshaw, S. Deki,
+      G. R. Stafford and P. C. Trulove, Editors, PV 99-41, The Electrochemical Society
+      Proceedings Series, Pennington, NJ (1999).
+   14. H. Xiao, J. Thonstad and S. Rolseth, Acta Chem. Scand., 49, 96 (1995).
+
+
+
+
+
+Electrochemical Society Proceedings Volume 99-41                 481
+
+## PDF page 11
+
+  Figure 1.  Transients resulting from different current densities at 8.56 wt% alumina and
+             1.55 wt% FeF2 added,  /i = - 1.83 A cm'2, *2 = - 1.98 A cm'2, *3 = - 2.13 A cm'2.
+              iv %   \ ' 2 = - 0.3671 A cm'2 s1/2, »2-t2,/2 = - 0.3669 A cm'2 sl/2, iy t31/2 = - 0.3665 A
+                       -2   1/2
+
+
+
+
+
+  Figure 2.  Plot of ferrous fluoride versus  i-i.1 1 2 for an experiment with 8.56 wt% alumina.
+
+
+
+
+
+482                   Electrochemical Society Proceedings Volume 99-41
+
+## PDF page 12
+
+       Fe)
+         (wt%
+       log
+
+
+
+
+
+                                                  log a(AI20 3)
+
+  ^   3.  Solubility of Fe(II) at 1020 °C as a function of alumina activity plotted on a
+            logarithmic scale. Electrochemical measurements.
+
+
+
+
+
+       Fe)
+         (wt%
+       log
+
+
+
+
+
+  Figure 4.  Solubility of Fe(II)  at 1020 °C as a function alumina activity plotted on a
+            logarithmic scale. The alumina formed by the dissolution reactions is included.
+           Conventional solubility measurements.
+
+
+
+
+
+Electrochemical Society Proceedings Volume 99-41                 483
+
+## PDF page 13
+
+         -0.9
+
+
+
+
+
+                                             T'1 / K1
+
+  Figure 5.  Natural logarithm of Fe(II) solubility as a function of reciprocal temperature in
+           alumina saturated melts.
+
+
+
+
+
+  Figure 6.  Solubility of Fe(II)  at 1020 °C as a function alumina activity plotted on a
+            logarithmic scale. Conventional solubility measurements (o), electrochemical
+           measurements (•) and Johansen (6) (A).
+
+
+
+
+
+484                   Electrochemical Society Proceedings Volume 99-41

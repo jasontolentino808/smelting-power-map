@@ -1,0 +1,240 @@
+Source: literature/Solubility of Some Transition Metal Oxides in Cryolite_Part2.pdf
+
+## PDF page 1
+
+Solubility of Some Transition Metal Oxides in Cryolite-
+Alumina Melts: Part II. Solubility of TiO2
+
+       TROND E. JENTOFTSEN, ODD-ARNE LORENTSEN, ERNEST W. DEWING,
+        GEIR M. HAARBERG, and JOMAR THONSTAD
+
+         The solubility of TiO2 in cryolite-alumina melts at 1020 8C was measured; it decreased with increasing
+          alumina concentration up to ,3.5 wt pct total oxide and then increased at higher alumina concentra-
+             tions. The solubility was found to be 3.1 wt pct Ti in cryolite, and 2.7 wt pct Ti in an alumina-
+            saturated melt. Modeling indicated that the most probable titanium species are TiOF2 and Na2TiO3,
+          which coexist in the solution; the former dominates at low alumina concentrations and the latter at
+           high alumina concentrations. Additional unknown amounts of fluoride may also be associated with
+            these species. Determination of the solubility of TiO2 in alumina-saturated melts as a function of
+           temperature showed that the solubility increased from 1.9 wt pct Ti at 975 8C to 2.8 wt pct Ti at
+          1035 8C, the apparent partial molar enthalpy of dissolution of TiO2 being 88 6 4 kJ mol21.
+
+
+                      I.  INTRODUCTION                        dissolution occurring along specific atomic planes. It was
+  IN most cases, titanium is considered to be an unwanted      also found that the dissolution of TiB2 appears to be enhanced                                                     by the presence of Al2O3 in the solution.impurity in the Hall–He´roult bath. According to Sterten et                                                                Several investigators have measured the solubility of TiO2al.,[1] titanium is present in the bath as a polyvalent species                                                                    in molten cryolite, while one work has been reported onthat reduces the current efficiency (CE) by (0.24 6 0.14)                                                                cryolite-alumina melts. Hayakawa and Kido[8] determinedpct per 0.01 wt pct; Deininger and Gerlach[2] found the                                                                 the solubility in cryolite to be 6.1 wt pct TiO2 at 1020 8C,reduction in CE to be 0.75 pct for each 0.01 wt pct titanium.                                                           while Madhavan et al.,[5] Qui et al.,[3] and Sterten and Skar[9]The possibility of producing aluminum-titanium alloys by                                                                  reported, respectively, 5.2, 5.3, and 6.5 wt pct TiO2. Belyaevelectrolysis, as discussed by Qiu et al.[3] and by Devyatkin                                                                         et  al.[10] determined the solubility as 5.7 wt pct TiO2 inet al.,[4] is another reason for an investigation. Madhavan et                                                                        cryolite, and 5.0 wt pct TiO2 in a melt with 5 wt pct Al2O3al.[5] studied the ternary system Na3AlF6-NaCl-TiO2 with                                                               (both at 1020 8C).regard to a possible application of these mixtures as electro-                                                           There are very few works in the literature that proposelytes for the electrodeposition of titanium, especially in                                                       any dissolution mechanisms for TiO2 in cryolite. Sterten andelectroplating.                                                                       Skar[9] used thermal and chemical analysis; the process they  According to Makyta et al.,[6] titanium diboride (TiB2)                                                              suggest iscomes closest to meeting the  strict requirements for an
+“ideal” cathode lining material in the Hall–He´roult cell.            TiO2 1 2Na3AlF6 5 TiOF22xx 1 Al2OF226
+                                                                                                                               [1]TiB2 exhibits a high melting point and hardness and a high                                      1 (6 2 x)F2 1 6Na1electronic conductivity,  it is wetted by molten aluminum,
+and it is resistant toward chemical attack by both aluminum     Although Ti can exist in the Ti(II) and Ti(III) oxidation
+and cryolite-alumina melts. A possible way of producing      states as well as Ti(IV), it is most unlikely that they will be
+TiB2 is by electrolysis of cryolite electrolytes containing     formed from the Ti(IV) state without a strong reducing agent
+B2O3 and TiO2, although Makyta et al.[6] investigated the     being present. Calculation shows that the equilibrium oxygen
+system and found that the coatings of TiB2 prepared were      pressure between Ti2O3 and TiO2 at 1020 8C is 10221 bar.
+of poor quality, being inhomogeneous and not coherent.     Thus, the problem encountered in the Fe2O3-cryolite sys-
+Another problem observed was the escape of gaseous BF3,      tem[11] of significant amounts of a lower oxidation state
+leading to a continuous decrease in the boron content. Dionne     being formed in an argon atmosphere, and even in pure
+et al.[7] characterized TiB2-carbon composites after immer-     oxygen, is not of any relevance.
+sion in the bath for various periods of time and found that     A more comprehensive version of this work is given in
+TiB2 particles were partially dissolved by the bath, with     a doctoral thesis.[12]
+
+                                                                                                 II. EXPERIMENTAL TROND E. JENTOFTSEN, formerly Doctoral Student, Department of
+Materials Technology and Electrochemistry, Norwegian University of Sci-        Natural handpicked Greenland cryolite, Na3AlF6 (Kryolit-
+ence and Technology (NTNU), is Senior Engineer, Hydro Aluminium AS,      tselskabet, Copenhagen), was crushed, and colored particlesTechnology Centre A˚ rdal, NO-6882 Øvre A˚rdal, Norway. ODD-ARNE
+LORENTSEN, formerly Doctoral Student, Department of Materials Tech-     were removed before use. Alumina, Al2O3 (Fluka, pro ana-
+nology and Electrochemistry, NTNU, is Senior Scientist, Norsk Hydro       lysi), and TiO2 (Alfa Johnson Matthey, 2 mm, 99 pct 1
+ASA, Research  Centre, NO-3907  Porsgrunn, Norway. ERNEST W.       rutile) were stored at 200 8C.
+DEWING, 648 Pimlico Pl., Kingston ON K7M 5T8, Canada, is retired.     A batch (,160 g) was made by mixing the desired
+Contact e-mail: dewing@king.igs.net GEIR M. HAARBERG and JOMAR     amounts of cryolite and alumina with an excess of titaniumTHONSTAD, Professors, are with the Department of Materials Technology
+and Electrochemistry, NTNU, NO-7491 Trondheim, Norway.                dioxide; it was contained in a platinum crucible. The experi-
+  Manuscript submitted December 5, 2001.                         ments were performed in a standard closed furnace[13] at
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—909
+
+## PDF page 2
+
+  Table I.  Concentrations of Ti in Cryolite-Alumina Melts
+          in Equilibrium with Solid TiO2 at 1020 8C
+O (Wt Pct)      Ti (Wt Pct)    O (Wt Pct)      Ti (Wt Pct)
+    1.9               3.1              3.9               2.4
+    2.0               3.1              5.0               2.5
+    2.1               2.7              5.0               2.5
+    2.2               2.7              5.3               2.5
+    2.2               2.8              5.6               2.5
+    2.4               2.6              5.6               2.5
+    2.6               2.5              6.0               2.5
+    2.7               2.5              6.0               2.6
+    2.7               2.4              6.3               2.6
+    3.1               2.4              7.1               2.7
+    3.7               2.4             8.1*              2.7
+    3.2               2.4             8.1*              2.7
+    3.3               2.3             8.2*              2.7
+    3.5               2.4      —      —
+  *Saturated with Al2O3.
+
+
+1020 8C 6 2 8C under oxygen atmosphere. The temperature        Fig. 1—Concentration of titanium vs the oxide content, expressed as percent
+was recorded with a Pt-PtRh10 pct thermocouple in a plati-       oxygen, in cryolite-alumina melts in equilibrium with TiO2 at 1020 8C.
+num tube. When the mixture had melted, it was agitated for
+at least 60 minutes with a platinum stirrer. The melt was
+then left for a minimum of 90 minutes without stirring to
+allow any solid particles to settle. A sample of ,20 g was     on the activity of alumina to elucidate the mechanism of
+then withdrawn  into a quartz tube by  suction;  it was      solution have been given previously.[15] Basically,  if the
+quenched on contact with the cold upper portion of the tube.     oxide ions that have been taken into solution react with the
+  The titanium content of the samples was found by analysis      solvent to produce alumina, then adding alumina to the
+with an X-ray fluorescence instrument. The oxygen content,      solvent will repress the solubility. That is what happens
+and thereby the alumina concentration, was determined by    when FeO and NiO dissolve.[15] If, on the other hand, the
+carbothermic reduction with an instrument from LECO*      solute reacts with alumina to produce some complex species,
+                                                             then adding alumina to the solvent will increase the solubil-
+  *LECO is a trademark of LECO Corporation, St. Joseph, MI.                 ity. A detailed study of the dependence of the solubility on
+                                                         alumina activity can reveal the stoichiometry of the reactions(TC-436). (This method is a standard in the aluminum indus-
+                                                               involved, although there is necessarily an assumption thattry and has been demonstrated to be accurate[14]).
+                                                                 the activity coefficients of the solute species are constant as
+                                                                 the alumina content is changed.
+            III.  RESULTS AND DISCUSSION                 Figure 1 shows a plot of the experimental values for the
+                                                               titanium content of solutions saturated with TiO2 as a func-A. The Effect of Alumina Concentration                                                                    tion of the total oxide content of the melt. (The total oxide
+  The analytical results for titanium and total oxygen con-      content was varied by adding alumina, so that moving to
+centrations in melts saturated with TiO2 at 1020 8C are given      the right in Figure 1 represents going to higher alumina
+in Table I; the relation between them is shown in Figure 1      contents.) With increasing oxide content, the titanium diox-
+and can be expressed empirically by                            ide solubility initially decreases until the oxygen concentra-
+                                                                    tion  is ,3.5 wt pct. This indicates that the dissolution              b [wt pct O]2           [wt pct Ti] 5 a 1                           [2]     mechanism at low alumina contents produces alumina, as
+                             [wt pct O] 2 g                                                            suggested by Sterten and Skar[9] and Eq. [1]. But at higher
+for the range investigated. The constants a, b, and g were     alumina contents, the solubility of TiO2 increases again,
+found by iteration to be 1.8, 0.092, and 1.7, respectively.     implying a reaction between TiO2 and alumina to form a
+The standard deviation of the titanium values from this      solute species, which has more than two oxygen atoms per
+equation was found to be 60.05 wt pct. Equation [2] is       Ti. In attempting to model the situation by iteration, one
+shown as a solid line in Figure 1, and from it the solubility     must then, at each stage, assign to the titanium the amount
+of TiO2 in cryolite at 1020 8C is 3.1 wt pct Ti, i.e., 5.2 wt      of oxygen corresponding to the species currently being pos-
+pct TiO2. This value is in good agreement with the findings      tulated, since  it is only the remaining oxide content that
+of Madhavan et al.[5] and of Qiu et al.[3]                      should be assigned to alumina and used to calculate the
+  The last three mixtures recorded in Table I (the points     alumina activity. This means that, until all the titanium spe-
+furthest to the right in Figure 1) were saturated with alumina      cies have been correctly assigned, the alumina activities
+as well as with TiO2. This was ensured by adding a large      calculated are incorrect by an unknown amount.
+excess of both. The analytical results show that only around       The equation of Dewing and Thonstad[16]
+half of the material added had dissolved.
+  The principles of using the dependence of the solubility                     NAl2O3 5 a a1/3Al2O3 1 b a2/3Al2O3             [3]
+
+910—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 3
+
+is used to convert alumina concentrations into alumina activ-
+ities (N is the molar fraction). The values of the coefficients a
+and bare 0.0772 6 0.0025 and 0.159 6 0.0048, respectively.
+  The evidence of Sterten and Skar[9] that, at low titanium
+and oxide contents, the Ti is present as TiO  . . . species
+seems convincing, and the hypothesis may be accepted, at
+least initially. Their equation (Eq. [1]) is needlessly compli-
+cated for the present purpose and may be written in terms
+of neutral species rather than ions as
+                2               1          TiO2 1  AlF3 5 TiOF2 1  Al2O3         [4]                3               3
+Since it suggests that the concentration of TiOF2 should be
+proportional to (aAl2O3)21/3, this equation accounts, at least
+qualitatively, for the initial drop in solubility as alumina is
+added. One then needs to postulate a species rich in oxygen
+to account for the rise in solubility at high alumina contents,
+and obvious candidates are Na2TiO3 and Na4TiO4. Their
+formation reactions are
+            1                         2     TiO2 1  Al2O3 1 2NaF 5 Na2TiO3 1  AlF3   [5]            3                         3                                                                                   Fig. 2—Plot of [Ti]?(aAl2O3)1/3 vs (aAl2O3)2/3 for the postulated species TiOF2
+and                                                                 and Na2TiO3.
+            2                         4     TiO2 1  Al2O3 1 4NaF 5 Na4TiO4 1  AlF3   [6]
+            3                         3                   at least one oxygen atom, so that initially one oxygen atom
+                                                              per titanium atom is subtracted from the reported total oxy-The Na2TiO3 hypothesis will be considered first. The first                                                              gen, and this leads to the first estimates of K1 (intercept)assumption made is that Reactions [4] and [5] are indepen-
+                                                       and K2 (slope).dent of one another and that the two equilibria are satisfied                                                           For the second (and subsequent) stages of the iteration,simultaneously. Next, the activities of all compounds except                                                       one must have an estimate, for each experimental point, ofalumina are considered constant—that of TiO2 because it is                                              how much of the Ti is present in each of the forms postulated.saturated and those of AlF3 and NaF because the solvent                                                   The ratio of the two is given from Eqs. [7] and [8] bycomposition is substantially constant. The effects of the
+varying alumina and TiO2 contents on the activities of AlF3                      [Na2TiO3]   K2
+and NaF are second order and will be neglected. One must                 5     a2/3Al2O3              [11]                                                                             [TiOF2]    K1also assume that Henry’s law applies to the solute species,
+so that activities can be replaced with concentrations. This     With an estimate available for all of the terms on the right-
+assumption seemed to work well in the cases of iron and     hand side, the oxygen balance can be recalculated and the
+nickel[15] investigated earlier, but one may note that the      entire procedure repeated.
+concentrations of titanium encountered are much higher than      An analogous procedure is followed  if one postulates
+those of iron and nickel.                                  Na4TiO4 as the second species, the term (aAl2O3)11/3 in Eq.
+  With these assumptions, one arrives at the following      [8] being replaced with (aAl2O3)12/3.
+equations:                                             The criterion of the success of the iterations is, of course, a
+                                                                      straight line. Figures 2 and 3 show the plots for the postulated
+                  [TiOF2] 5 K1a21/3Al2O3                  [7]      species Na2TiO3 and Na4TiO4. The line in Figure 2 is visibly
+                                                                      less curved than that in Figure 3, and the qualitative impres-                 [Na2TiO3] 5 K2a1/3Al2O3                 [8]                                                               sion is confirmed by the standard deviations. The postulate
+The constants K1 and K2 are not the true equilibrium con-      of Na2TiO3 fits with a standard deviation of 67 3 1024,
+stants, since they do not contain the activity terms for AlF3     while the standard deviation for the postulate of Na4TiO4 is
+and NaF. Square brackets indicate that the units are in mol    617 3 1024, over twice as much. Furthermore, when one
+per 100 g solution. This concentration unit was chosen in      looks at the activity of alumina calculated for the solution,
+preference to weight percent to simplify the iterations.        which was, in fact, saturated with alumina, the postulate of
+  The total titanium concentration is given by               Na2TiO3 gives an activity of 0.93, while that of Na4TiO4
+                                                               gives 0.83 (because so much oxygen is tied up with the
+           [Ti] 5 [TiOF2] 1 [Na2TiO3]                                                                   titanium). It therefore seems that, purely from the point of                                                           [9]
+       5 K1?(aAl2O3)21/3 1 K2?(aAl2O3)11/3             view of the stoichiometry, Na2TiO3 is the better fit, and one                                                         can plausibly conclude that it is the species most likely to
+Multiplication by (aAl2O3)11/3 gives                          be present.
+                                                     The line in Figure 2 may be represented by           [Ti]?(aAl2O3)11/3 5 K1 1 K2?(aAl2O3)12/3      [10]
+                                                                                      [Ti]a1/3Al2O3 5 (0.0456 6 0.0005)a2/3Al2O3This equation is well suited to linear regression analysis,                                                           [12]
+and iteration can be started. All the titanium species contain            1 (0.0130 6 0.0002)
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—911
+
+## PDF page 4
+
+                                                                   Table II.  Concentrations of Ti in Cryolite Melts in
+                                                                  Equilibrium with Solid TiO2 and Solid Al2O3 as a
+                                                                              Function of Temperature
+                                                                         Temperature (8C)               Ti (Wt Pct)
+                                                                         975                         1.9
+                                                                         985                         2.0
+                                                                         995                         2.2
+                                                                        1005                         2.3
+                                                                        1015                         2.4
+                                                                        1025                         2.7
+                                                                        1035                         2.8
+
+
+
+
+
+Fig. 3—Plot of [Ti]?(aAl2O3)1/3 vs aAl2O3 for the postulated species TiOF2
+and Na4TiO4.
+
+
+
+
+
+                                                                                   Fig. 5—Natural logarithm of the titanium concentration, in melts saturated
+                                                                          with both Al2O3 and TiO2, vs the reciprocal temperature.
+
+
+                                                                             (10,600 6 500)                                                                    ln (wt pct Ti) 5 2        1 (9.15 6 0.39)    [13]
+                                                                  T
+                                                           with a standard deviation of 60.02. The corresponding
+                                                             apparent partial molar enthalpy of dissolution of TiO2 is 88
+                                6 4 kJ/mol. Note that this is only an apparent partial molar
+                                                                  enthalpy, since the alumina content of the solution also
+                                                       changed with temperature.
+Fig. 4—Plot of the calculated concentrations of Ti as TiOF2 and Na2TiO3
+vs alumina activity on a logarithmic scale.                          ACKNOWLEDGMENTS
+                                                                  Financial support from the Research Council of Norway
+                                                       and from the Norwegian aluminum industry is gratefullyFigure 4 shows the calculated distribution of the titanium                                                         acknowledged.between the two species as the alumina activity is changed.
+
+                                                    REFERENCESB. The Effect of Temperature
+                                                                                          1. A˚. Sterten, P.A. Solli, and E. Skybakmoen: J. Appl. Electrochem.,
+  To investigate the effect of temperature on the TiO2 solu-           1998, vol. 28, pp. 781-89.
+bility, experiments were performed in the range from 975          2. L. Deininger and J. Gerlach: Metall. (Berlin), 1979, vol. 33, pp. 131-36.
+8C to 1035 8C with melts saturated with alumina. To ensure          3. Z. Qiu, M. Zhang, Y. Yu, Z. Che, K. Grjotheim, and H. Kvande:
+saturation, not only was an excess of alumina added, but           Aluminium, 1988, vol. 64, pp. 606-09.
+the melts were contained in alumina crucibles. Table II and          4. S.V. Devyatkin, G. Kaptay, J.-C. Poignet, and J. Bouteillon: High                                                                         Temp. Mater. Proc., 1998, vol. 2, pp. 497-506.
+Figure 5 show the results, and the least-squares equation          5. T.P. Madhavan, K. Matiasovsky, and V. Danek: Chem. Zvesti, 1971,
+was found to be                                                                      vol. 25, pp. 253-58.
+
+912—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 5
+
+  6. M. Makyta, V. Danek, G.M. Haarberg, and  J. Thonstad: J. Appl.        12. T.E. Jentoftsen: Doctoral Thesis, Norwegian University of Science
+     Electrochem., 1996, vol. 26, pp. 319-24.                                  and Technology, Trondheim, Norway, 2000.
+  7. M. Dionne, G. L’Espe´rance, and A. Mirtchi: in Light Metals 1999,        13. H. Xiao, J. Thonstad, and S. Rolseth: Acta Chem. Scand., 1995, vol.
+     C.E. Eckert, ed., TMS, Warrendale, PA, pp. 389-94.                            49, pp. 96-102.
+  8. Y. Hayakawa and H. Kido: J. Electrochem. Soc. Jpn., 1952, vol. 20,        14. G.P. Tarcy, S. Rolseth, and J. Thonstad: in Light Metals 1993, TMS,
+     pp. 263-65.                                                                Warrendale, PA, pp. 227-32.
+  9. A˚ . Sterten and O. Skar: Aluminium, 1988, vol. 64, pp. 1051-54.            15. Trond E. Jentoftsen, Odd-Arne Lorentsen, Ernest W. Dewing, Geir
+ 10. A.I. Belyaev, M.B. Rapoport, and L.A. Firsanova: Metallurgiedes Alumi-         M. Haarberg, and Jomar Thonstad: Metall. Mater. Trans. B, 2002, vol.
+     ums,, Band 1, Veb Verlag Technik, Berlin, Germany, 1956, p. 84.              33B, pp. 901-08.
+ 11. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 2000, vol.        16. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 1997, vol.
+    31B, pp. 609-13.                                                      28B, pp. 1089-93.
+
+
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—913

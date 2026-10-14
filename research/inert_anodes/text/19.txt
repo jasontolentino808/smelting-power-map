@@ -1,0 +1,754 @@
+Source: literature/Singh_2023_J._Electrochem._Soc._170_113507_PerformanceEvaluationOfLowTemperatureKF-NaF-AlF3electrolytesForAluminumElectrolysisUsingVerticalInertCuNiFeAlloy.pdf
+
+## PDF page 1
+
+Journal of The
+Electrochemical Society
+
+
+
+OPEN ACCESS                                          You may also like
+                                                                                                                                                                   - Ball-Milled (Cu-Ni-Fe + Fe2O3) CompositePerformance Evaluation of Low-Temperature KF-         as Inert Anode for Aluminum Electrolysis
+                                                                                                                    S. Helle, B. Davis, D. Guay et al.
+
+                                                                                                                                                                   - Mechanically Alloyed Cu-Ni-Fe-O BasedNaF-AlF3 Electrolytes for Aluminum Electrolysis
+Using Vertical Inert Cu–Ni–Fe Alloy Anodes                        MaterialsAluminumasElectrolysisOxygen-Evolving Anodes for
+                                                                                                                    S. Helle, M. Tresse, B. Davis et al.
+
+To cite this article: Kamaljeet Singh et al 2023 J. Electrochem. Soc. 170 113507                                          - An Inverted Aluminum Electrolysis Cell
+                                                                                                           Using a High Density Electrolyte and an
+                                                                                                                                         Inert Anode - A Test of the Concept
+                                                                                                                Sverre Rolseth, Henrik Gudbrandsen and
+                                                                                                   Jomar Thonstad
+View the article online for updates and enhancements.
+
+
+
+
+
+                            This content was downloaded from IP address 50.175.156.58 on 21/07/2026 at 00:16
+
+## PDF page 2
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+             Performance Evaluation of Low-Temperature KF-NaF-AlF3
+               Electrolytes for Aluminum Electrolysis Using Vertical Inert
+            Cu–Ni–Fe Alloy Anodes
+                  Kamaljeet Singh,1,2,*,z  Gudmundur Gunnarsson,3 Jon Hjaltalin Magnusson,4
+                   Geir Martin Haarberg,2,** and Gudrun Saevarsdottir1,2,**
+
+                        1Department of Engineering, Reykjavik University, 102 Reykjavik, Iceland
+                        2Department of Materials Science and Engineering, NTNU, 7491 Trondheim, Norway
+                          3Taeknisetur IceTec, 112 Reykjavik, Iceland
+                          4Arctus Aluminium Limited, 112 Reykjavik, Iceland
+
+              In this study, the performance of low-temperature electrolytes in a 40 A laboratory oxygen-evolving aluminum electrolysis cell
+              with vertical inert electrodes for two compositions of NaF-KF-AlF3 based electrolyte is investigated. Two compositions of
+            Cu–Ni–Fe alloy, single-phase homogenized, 20Cu-42Ni-38Fe wt% and 5Cu-48Ni-47Fe wt%, are evaluated as anodes. Titanium
+              diboride (TiB2) is used as a wetted cathode. The characteristics of a protective oxide layer, pre-formed on the anode through high-
+              temperature air oxidation, are examined using X-ray diffraction (XRD) and scanning electron microscopy (SEM). It is found that a
+              multilayered oxide morphology, revealing Fe2O3 and NiFe2O4 as major constituents, is dense and adherent to the base alloy. The
+                effects of electrolyte compositions, anode alloys, and electrolysis conditions on cell voltage evolution, current efﬁciency,
+              contamination levels in the electrolyte and produced aluminum, and anode wear rate are systematically studied. A protective oxide
+                layer, formed through oxidation treatment on the 20Cu-42Ni-38Fe wt% alloy, not only remains compact post-electrolysis but also
+             performs signiﬁcantly better in a K-rich electrolyte in terms of wear rate and the purity of the aluminum obtained. Inﬂuences of
+                electrolyte composition on anode degradation behavior are discussed.
+        © 2023 The Author(s). Published on behalf of The Electrochemical Society by IOP Publishing Limited. This is an open access
+                 article distributed under the terms of the Creative Commons Attribution 4.0 License (CC BY, http://creativecommons.org/licenses/
+                by/4.0/), which permits unrestricted reuse of the work in any medium, provided the original work is properly cited. [DOI: 10.1149/
+             1945-7111/ad0bae]
+
+
+             Manuscript submitted August 2, 2023; revised manuscript received October 26, 2023. Published November 24, 2023.
+
+
+   Although the ﬁrst patent on oxygen-evolving inert anode for      eutectic NaF-AlF3 electrolyte at 750 °C. In Cu–Ni–Fe alloy, Ni to Fe
+primary aluminum electrolysis was ﬁled by the co-inventor of the      ratio is essential for NiFe2O4 oxide formation during anodic reaction
+conventional Hall-Héroult process about 133 years ago, an industrial     with  oxygen,  while  the  role  of Cu  remains  debated  in  the
+process did not materialize, and this idea is still being researched      literature.5,10–12 Helle et al.11 and Gavrilova et al.12 have demon-
+globally in laboratories and pilot cells.1–6 The main idea is to replace      strated the critical role of a high concentration of Cu, ranging from
+the consumable horizontal carbon anode with a non-consumable    65–70 wt%, in mechanically alloyed Cu–Ni–Fe anode for stable cell
+vertical inert anode, thus producing O2(g) as per reaction 1 rather     voltage during electrolysis using two-electrode cell conﬁgurations
+than CO2(g) as per reaction 2 at the anode. The Hall-Héroult process     with a current rating of less than 5 A. In contrast, Gallino et al.10 and
+requires high energy and produces greenhouse gas emissions, mainly     Gunnarsson et al.5 have shown stable cell voltage with a low Cu
+carbon dioxide and perﬂuorocarbons.7 Using inert anode technology     content ranging from 20–25 wt% in as-cast homogenized Cu–Ni–Fe
+results  in zero greenhouse gas emissions.  Additionally, a new     anodes using three-electrode conﬁgurations with cell current ratings
+compact  cell design  that  utilizes both sides of the anodes and     between 32 and 150 A.
+cathodes, wettable cathodes, and low-temperature electrolyte, could            It has been established that homogenization heat treatment of
+potentially result in overall energy saving, as shown in Fig. 1.2–6      Cu–Ni–Fe alloys results in a signiﬁcant improvement in corrosion
+                                                                            resistance  compared  to  as-cast  unhomogenized  alloys.5,10,13,14
+                     1                  3           Inert anode,    Al2 O 3 (diss. ) = Al (l) +  O 2 (g )            [ 1]     According to Beck,13 as-cast two-phase alloy can develop corrosion
+                     2                  4                       tunnels as a result of selective corrosion of Fe and Ni, leading to the
+                                                                    formation of their respective ﬂuorides during electrolysis. To form a
+                  1            3            3                  protective NiFe2O4 oxide, the surface of alloy can be treated prior to
+   Hall − H éroult,    Al2 O 3 (diss. ) +  C (s) = Al (l) +  CO 2 (g )   [ 2]                  2            4            4                    electrolysis.5,15,16 Recently, we have shown that a homogenized
+                                                         Cu–Ni–Fe alloy, pre-oxidized at 800 °C in air, performed better in
+   The International Aluminum Institute presented a scenario to     terms of cell voltage stability and purity of produced aluminum than
+limit global warming to 1.5 degrees by 2050 by reducing emissions     the non-oxidized anode.5
+from 16.1 to 0.5 CO2-equivalent per tonne of aluminum.8 These      To reduce the high-temperature degradation of the oxygen-
+objectives can be realized through inert anode technology, renewable     evolving  metallic anode and consequent  contamination  of  the
+energy, thermal management, and efﬁcient recycling.8,9               produced    aluminum,    low-temperature     electrolytes    are
+   The search for an ideal inert anode material that focuses on high-      considered.5,6,17 Using the eutectic composition of the NaF-AlF3
+temperature corrosion resistance, good conductivity, thermal stabi-      electrolyte, melting  point 698 °C,  results  in decreased alumina
+lity, and being economically viable for commercial applications has     (Al2O3) solubility of about 3 wt%.7,17 To overcome  this, partly
+not yet been successful.6,7 The development of a Cu–Ni–Fe alloy-     replacing NaF with KF  in  the NaF-AlF3  electrolyte  increases
+based inert anode has received considerable attention in recent years     alumina solubility and reduces the liquidus temperature, while K
+because  of  its  protective NiFe2O4  oxide  layer.2–7,10–12 Beck3     decreases the electrical conductivity. At 1000 °C, for example, the
+evaluated many compositions of Cu–Ni–Fe alloys and suggested      solubility of alumina in pure KF-AlF3 is 2.6 times higher than in
+an optimal range for reduced oxidation rate in a low-temperature     pure NaF-AlF3.18
+                                                             The current study focused on the examination of Na-rich composi-
+                                                                              tion of NaF-KF-AlF3 electrolyte, CR = (NaF+KF)/AlF3 = 1.3 and
+                                           KR = KF/(NaF+KF) = 0.3 (mole ratios), at a bath temperature of
+   *Electrochemical Society Student Member.
+  **Electrochemical Society Member.                                    800 °C and two anode compositions of Cu-Ni-Fe alloys in a laboratory
+   zE-mail: kamaljeets@ru.is                                                          cell with vertical electrodes. For comparison, a K-rich electrolyte with
+
+## PDF page 3
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+
+
+Figure 1. Aluminum reduction process with vertical inert electrodes in low-
+temperature electrolyte at 800 °C (Copyright© Arctus 2023; printed with
+permission).
+
+
+a CR = 1.3 and a KR = 0.8 was also tested. In the Na-rich electrolyte,
+part of the K in NaF-KF-AlF3 has been replaced by Na, improving
+conductivity, reducing cell voltage, and energy use. Another advan-
+tage is that, in Na-cryolite, NaAlF4 has a lower vapor pressure and is
+slightly less volatile than KAlF4 in K-cryolite at same temperature and
+cryolite ratio.18 Additionally, Na salts are often less expensive than K
+salts. However, the solubility of alumina in the selected composition
+of Na-rich electrolyte is ∼30% lower than in K-rich electrolyte;19 see
+Table I.                                                                Figure 2. Typical appearance of a Cu-Ni-Fe alloy anode, (a) before and (b)
+  Two compositions of as-cast homogenized Cu–Ni–Fe alloy with       after pre-oxidation in  air  at 800 °C for 8 h, respectively, and  (c)  after
+                                                                                        electrolysis for 12 h at a bath temperature of 800 °C.
+low Cu wt%, 20Cu-42Ni-38Fe wt%, and 5Cu-48Ni-47Fe wt%, were
+evaluated  as  inert  anodes. Both  compositions  lie  outside  the
+miscibility gap of the Cu–Ni–Fe ternary phase diagram, leading to       The anode for electrolysis, size 200 × 40 × 8 mm, was cut off
+a single-phase structure upon homogenization treatment.20 Because     from a larger plate by water jet cutting and ﬁnished by milling with a
+of their suitability for mass manufacturing and industrialization, as-     surface  roughness  value  (Ra)  measuring  about  0.2–0.4  μm.
+cast compositions are preferred. A protective NiFe2O4 oxide layer     Following this, anode was cleaned with ethanol and pre-oxidized
+was pre-formed on the anode through a pre-oxidation treatment at      in air at 800 °C for 8 h before being cooled to room temperature in
+800 °C in air, and the composition of the oxide layer was studied.     the furnace; see Fig. 2. The anode pre-oxidation temperature of
+TiB2 was  selected  as a cathode  material due  to  its  excellent    800 °C was selected to be close to the operating temperature of the
+aluminum  wettability, superior high-temperature oxidation  resis-      electrolysis bath and low enough to avoid phase instability of the
+tance, and stability in the bath.7,21,22 A three-electrode conﬁguration      selected Cu-Ni-Fe alloy.5,20
+as anode-cathode-anode was used throughout these experiments with       The study of the pre-oxidation of Cu-Ni-Fe alloys was performed
+a constant anode-cathode distance (ACD) of 21 mm.                 on a small sample of size 20 × 10 × 6 mm, and the surface was
+   Post-electrolysis, the current efﬁciency was calculated from the     ﬁnished using 320-grit size abrasive paper. Samples were degreased
+quantity of aluminum obtained, and the level of contamination by     with ethanol and then cleaned ultrasonically in distilled water. Pre-
+electrode constituents in aluminum and electrolyte was measured in     oxidation at 800 °C in air was performed for both a nominal time of
+order to enable the estimation of anode wear rate. The used anodes    8 h and a prolonged duration of 80 h, because the oxide scale
+were characterized with X-ray  diffraction (XRD) and scanning     developed after such a long period is thicker and easier to analyze.
+electron microscopy (SEM) coupled with energy dispersive spectro-      Triplicate tests were conducted for each alloy, and speciﬁc weight
+scopy (EDS) to study the morphology and composition of the oxide     gains were recorded.
+layer.                                                        The cathode was produced by hot-pressing ﬁne-grained, high-
+                                                                           purity (99.7%) TiB2 ceramic (Plansee GmbH), size 180 × 40 ×
+                      Experimental                          10 mm. The microstructure of the TiB2 cathode, with a grain size of
+                                                           2–3 μm, is presented in Fig. 3.
+   Electrodes.—Both compositions of Cu–Ni–Fe alloy were sup-
+plied by Arctus Aluminum, Iceland. 20Cu-42Ni-38Fe wt% was a
+cast and homogenized alloy;5 while 5Cu-48Ni-47Fe wt% was a        Electrolyte.—Na-rich electrolyte was composed of 26 wt% NaF
+commercial-grade hot-rolled single-phase alloy. For homogenization     (99.8% pure, VWR GmbH), 16 wt% KF (100% pure, VWR GmbH),
+treatment, the alloy was annealed at 1100 °C for 12 h, followed by     and 58 wt% AlF3 (97.6% pure, Aluﬂuor AB Sweden) to give a CR
+water quenching.20                                                     of 1.3 and a KR = 0.3. K-rich electrolyte composition of CR = 1.3
+
+
+   Table I. Physicochemical properties of selected Na-rich and K-rich electrolyte compositions.
+
+                                           Na-rich electrolyte, CR = 1.3, KR = 0.3         K-rich electrolyte, CR = 1.3, KR = 0.8         References
+
+   Liquidus temperature (°C)                            704                                      737                          23
+   Density at 800 °C (g ml−1)                               1.83                                           1.78                          24
+   Alumina solubility (wt%)                                   4.0                                               5.7                           19
+    Electrical conductivity (S cm−1)                          1.32                                           1.28                          19
+
+## PDF page 4
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+                                                                         the produced aluminum at cathode potential, with its end a few mm
+                                                             from the bottom. The ratio of the anode to cathode surface area was
+                                                                          0.75, assuming that the anode faces opposite the cathode faces
+                                                                           carried all the current. A scheme of electrode connections has been
+                                                         shown elsewhere.5
+
+                                                                     Electrolysis.—On start-up, the cell was heated to 300 °C for 5 h
+                                                                             to remove any residual moisture content, then ramped up to 800 °C
+                                                                             in steps. The lid containing the electrodes, pre-heated to 400 °C, was
+                                                                       gradually introduced  to the  cell  to reduce thermal shock. The
+                                                                              electrolysis was started by switching on the direct current power
+                                                                   supply (GEN1500W, TDK-Lambda UK).  Electrolysis was  per-
+                                                              formed with a nominal cathode current density of 0.51 A cm−2
+                                                              and bath temperature of 800 °C. During electrolysis, cell parameters
+                                                                 such as cell voltage, temperature of electrolyte and furnace were
+                                                                    recorded every second using a data acquisition system (Agilent
+                                                            34970 A, USA), and the electrolyte was sampled before and after
+                                                                              electrolysis using a 10 ml porcelain crucible.
+                                                                   For continuous feeding of alumina, automatic dosing equipment
+                                                                      (Doser, Lambda Instruments GmbH) was used to supply 70%–80%
+                                                                       of Al2O3 required for theoretical 100% current efﬁciency. The testFigure 3. The SEM image of the TiB2 cathode shows ﬁne grain micro-
+structure.                                                                  duration, originally scheduled for 12 h, was limited in some cases to
+                                                            6 to 10 h due to critical clogging in the alumina feeding channel,
+                                                                   with  no  other  technical  challenges  affecting  the  duration.
+                                                                    Furthermore, using a crucible as an alternative for alumina feeding
+                                                                             in this case posed a risk of leakage for an extended period of time.
+                                                            Alumina feeding could be improved using a mechanical screw-type
+                                                                            feeder.
+                                                            The lid electrode assembly and crucible were removed from the
+                                                                      furnace after electrolysis, cooled to room temperature, and alu-
+                                                     minum was recovered from the frozen electrolyte by breaking the
+                                                                             crucible. Any electrolyte deposits on the anodes above bath level
+                                                             were removed using a chipping hammer. A typical appearance of the
+                                                              anode after electrolysis is shown in Fig. 2c.
+
+                                                             Sample characterization.—Phases on the anode surface were
+                                                                          investigated using XRD analysis (PANalytical Empyrean operating
+                                                                                  at 45 kV, Cu Kα 1.54060 Å, 2θ-scan with step size 0.026°). The
+                                                              anode was sectioned off by a low-speed diamond saw, molded in
+                                                                       Bakelite hot mounting  resin, and polished in successive stages,
+                                                                               starting with a  200-grit  size up  to ﬁnal 1 μm diamond  paste.
+                                                                      Microstructure  analysis was performed using SEM (Carl Zeiss
+                                                            AG-Supra25) equipped with EDS (Oxford Instruments) for ele-
+                                                                  mental analysis.
+                                                        To estimate the wear rate of anode, the contamination from anode
+                                                                           constituents (Cu, Ni, and Fe) both in the electrolyte and produced
+                                                           aluminum were measured by using inductively coupled plasma -
+                                                                             optical  emission  spectrometry (ICP-OES) and  spark  -  optical
+                                                                   emission spectrometry (Spark-OES), respectively. The wear rate
+Figure 4. Schematic diagram of the 40 A laboratory cell setup. 1- alumina    was determined using Eq. 3, where me and mAl represent the mass of
+crucible; 2- anodes 2x; 3- cathode 1x; 4- molten electrolyte; 5- produced      the electrolyte and produced aluminum, respectively (g), and we and
+aluminum; 6- alumina doser; 7- feeding tube; 8- off-gas tube; 9- thermo-                                                                        wAl represent the total amount of Cu, Ni, and Fe contaminates in the
+couple K-type; 10- thermocouple tube; 11- insulation; 12- lid; 13- stainless-
+                                                                              electrolyte and produced aluminum, respectively (wt%). aρ is thesteel container; 14- ceramic lining of furnace; 15- furnace.
+                                                              anode density (g cm−3), A is the area of the anode (cm2) immersed
+                                                                             in the electrolyte, and t is the time of electrolysis (h). In Eq. 3, the
+and KR = 0.8 was composed of 7 wt% NaF, 39 wt% KF, and                                                                                         initial level of contaminants (Cu, Ni, and Fe) present in electrolyte
+54 wt%  AlF3.  The  initial  amount  of  alumina  (98.5%  pure,                                                                           constituents and alumina must be compensated. Gibbs free energy
+Aluminum Oxid Stade GmbH) mixed with the electrolyte was about                                                                    (ΔGr°) data was obtained from HSC software.25
+70% of the solubility limit speciﬁed in Table I. The compounds were
+dried at 200 °C for 24 h and weighed before mixing in a closed                         ( m e⋅ we + m Al⋅ wAl ) × 365 × 24          −1                                                         Wear rate =                                                         ,  ( mm year  )  [ 3 ]container. The total weight of the bath was about 1000 g.
+                                                                                                                        ( ρa ⋅⋅)A t × 10
+   Cell setup.—Figure 4 shows the schematic layout of the 40 A
+laboratory  cell setup. The  cell consists of an externally heated
+                                                                                       Results and Discussion
+sintered alumina crucible, internal diameter of 90 mm and depth of
+125 mm (Almath Crucibles, UK), placed inside a stainless-steel       Inﬂuence of pre-oxidation treatment on oxide layer character-
+container. The crucible was closed with a commercial-grade ceramic      istics of Cu-Ni-Fe alloy.—The outer surface of the oxide layer after
+lid and had multiple openings for electrodes, feeding, off-gas, and     pre-oxidation treatment was found to be adherent to the base alloy
+thermocouple tubes. The cathode was longer than the anode to keep     without any loose scale. The speciﬁc weight gain of each alloy is
+
+## PDF page 5
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+   Table II. Speciﬁc weight gain of Cu-Ni-Fe alloy after pre-oxidation         ii)  Fe-rich oxide: Fe2O3 and NiFe2O4 for alloy of 5Cu-48Ni-47Fe
+   treatment in air for 8 h at 800 °C.                             wt% alloy.
+
+                          Speciﬁc weight gain (std. dev.) (mg cm−2)            Interestingly,  after 80 h of  oxidation,  the  intensity of XRD
+   Alloy (wt%)                                                           spectra of Cu-rich oxide increased relative to Fe-rich oxide for
+                             8 h                    80 h           20Cu-42Ni-38Fe wt%.
+                                                            The morphology and elemental composition of the cross-section
+   20Cu-42Ni-38Fe           3.38 (0.61)                8.44 (0.42)
+                                                                       of oxide layer were examined by SEM and EDS line analysis,
+   5Cu-48Ni-47Fe            2.43 (0.53)                6.93 (0.58)
+                                                                            respectively. Figure 6 represents the SEM image with an arrow
+                                                                          indicating the position of line scan in the oxide layer with the head of
+                                                                         the arrow pointing to the outer surface of oxide in contact with air.
+                                                                   This study focused on the composition of oxide layer. Hence, EDS
+                                                                               line scans were only extended a few μm inside the depletion region-
+                                                                   dark grey islets region in base alloy formed by selective diffusion
+                                                              and oxidation. Furthermore, to provide a clearer representation of
+                                                                                   results, an attempt was made to simplify the depiction of various
+                                                                   phases of the oxide layer.27 Results are discussed with respect to
+                                                                 each alloy composition hereafter.
+                                                                           In case of 20Cu-42Ni-38Fe wt% alloy, the cross-section of oxide
+                                                                          layer showed a dense and adherent layer of oxide formation in
+                                                                           Fig. 6. The average thickness of the oxide layer was observed to
+                                                                         increase with oxidation time, ranging from 25 μm at 8 h to 46 μm at
+                                                            80 h. For 8 h oxidation, the multi-layered oxide was composed of Cu
+                                                              and Fe-rich oxides; major constituents were CuO, CuxFe3−xO4,
+                                                                   Fe2O3, and NiFe2O4. The strong outward diffusion of Cu resulted in
+                                                               an increased intensity of CuO phase for an extended oxidation time
+                                                                       of 80 h. As a result, the average thickness of outer CuO layer was
+                                                                   approximately 7 μm, close to XRD beam penetration depth.
+                                                            The oxidation of Cu-Ni-Fe alloy at 800 °C can be studied with
+                                                                         the relative thermodynamic stability of various oxide formations
+                                                                   with decreasing equilibrium partial pressure of oxygen (atm) due to
+                                                                inward diffusion of oxygen, which can be ranked in the following
+                                                                           order: CuO (10–3), Cu2O (10–9), Fe2O3 (10–10), NiO (10–14), Fe3O4
+                                                                              (10–18), FeO (10–19).28 Cu-oxide features CuO (rather than Cu2O), a
+                                                                             stable  phase  at  higher oxygen  activity  (10–3 atm  at 800 °C).
+                                                             However,  the presence  of small amounts  of Cu2O cannot be
+                                                                         disregarded. Underneath the oxide layer, a Cu depletion region
+                                                                     enriched in mainly Fe slows down the diffusion of Cu, which
+                                                                               inhibits the growth of the outer Cu-oxide layer.28
+                                           A spinel of CuxFe3−xO4 formation was detected in XRD spectra.
+                                                                    Furthermore, EDS line analysis provided inside phase detection.
+                                               EDS spectra indicate a spinel of CuxFe3−xO4 formation, a solid
+                                                                          solution of CuO and Fe2O3, with a gradient of decreasing Cu and
+                                                                        increasing Fe concentrations as the distance from the outer CuO
+Figure 5. XRD spectra of the surface of Cu-Ni-Fe alloy after pre-oxidation
+                                                                 phase  increases. Double-mixed  oxide  formations, CuFeO2 andtreatment in air for 8 h and 80 h at 800 °C.
+                                                             CuFe2O4, have been reported in the literature for Cu-Fe binary
+                                                                               alloys.29 For 8 h oxidation, Fe2O3 oxide phase was detected by XRD
+shown in Table II. It is evident that the overall weight gain in the      spectra. EDS analysis clearly showed Fe2O3 oxide phase when Cu
+20Cu-42Ni-38Fe wt% alloy is about 28% (for 8 h) and 18% (for     gradient falls to a minimum in CuxFe3−xO4 spinel going inward in
+80 h) more than in the 5Cu-48Ni-47Fe wt% alloy. Note that the Ni to     oxide towards alloy. Remarkably, for an extended oxidation time of
+Fe wt% ratio is nearly equal to unity in both alloys, while the Cu    80 h,  strong Cu outward  diffusion  resulted  in  the growth  of
+content varies considerably from 5 to 20 wt%. Clearly, the oxidation    CuxFe3−xO4 spinel over Fe2O3 phase.
+rate is greatly inﬂuenced by the Cu wt% in the alloy. Gallino et al.10       NiFe2O4 oxide phase formation was strongly detected by XRD
+showed that the parabolic rate constant Kp (oxidation at 800 °C,      for 8 h oxidation time, and spectra were relatively weak for an
+1 atm O2, 24 h) signiﬁcantly decreases with decreasing Cu in the Cu-     extended oxidation time due to the growth of outer oxide phases.
+Ni-Fe alloy, i.e., from 2.12 × 10–9 to 4.17 × 10–11 g2 cm−4s−1 for     However, the EDS line analysis clearly indicates the NiFe2O4 oxide
+70Cu-15Ni-15Fe wt% and 40Cu-30Ni-30Fe wt%,  respectively.     phase. The formation of NiFe2O4 can be explained as Fe being
+Cheng et al.26 determined the Kp value (oxidation at 750 °C, air,      preferentially oxidized to Fe2O3. Further diffusion of Fe from alloy
+24 h) to be 1.81 ± 0.67 × 10–11 g2cm−4s−1, for 10Cu-79Ni-11Fe       is limited through the Ni-enriched zone. Meantime, the oxygen
+wt% composition.                                                            activity  falls  to a  sufﬁciently low  level  to form NiO, which
+   The outer surface of oxide layer of the alloy following pre-     immediately  combines  with Fe2O3  at 800 °C  (negative  ΔGr°,
+oxidation  treatment was analyzed using XRD, which  typically    −22.89 kJ mol−1)25 to form a thermodynamically stable and protec-
+penetrates approximately ∼5–10 μm underneath, thereby providing      tive layer of NiFe2O4 oxide.
+insight into the subsurface composition as well. Figure 5 shows the       NiFe2O4 layer serves as a barrier, limiting the inward diffusion of
+results of XRD analysis results. For 8 h of oxidation time, two types     oxygen and outward diffusion of anode constituents, thus slowing
+of oxide composition were observed:                                    the oxidation rate.28 Interestingly, the formation of NiFe2O4 layer
+                                                                   develops a chemical gradient where Fe is consumed at a faster rate
+  i)  Cu and Fe-rich oxide: CuO, Fe2O3 and NiFe2O4 for alloy of     from the alloy than Ni. As a result, Ni was enriched at the oxide/
+    20Cu-42Ni-38Fe wt%, and                                         alloy interface and might form NixFe1−xO spinel at reduced oxygen
+
+## PDF page 6
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+
+
+Figure 6. SEM image of the cross-section of pre-oxidized sample of Cu-Ni-Fe alloy at 800 °C in air for 20Cu-42Ni-38Fe wt% alloy in (a) 8 h and (b) 80 h, and
+5Cu-48Ni-47Fe wt% alloy in (c) 8 h and (d) 80 h. The arrow in SEM image indicates the position of line scan of the oxide layer presented in the middle. The
+image on the right is a schematic representation of various phases in oxide layer.
+
+activity, thus forming a semicontinuous layer of NixFe1−xO spinel.        According to XRD results in Fig. 5 and EDS line analysis in Fig. 6,
+Although not detected by XRD, the EDS line analysis shows a      the major constituents of oxide layer are identiﬁed as Fe2O3 and
+NixFe1−xO spinel formation at oxide layer and depletion region     NiFe2O4. The phase distribution in the oxide layer follows the same
+interface. Additionally, the NixFe1−xO spinel blocks the outward      trend with varying times of oxidation. With reference to lower average
+diffusion of Cu. It is evident in the EDS line analysis, where Cu is     values of weight gain in Table  II and oxide thickness, Cu wt%
+enriched below the semicontinuous layer of NixFe1−xO spinel.           variation notably inﬂuences the kinetics of oxide growth in Cu-Ni-Fe
+   In case of 5Cu-48Ni-47Fe wt% alloy, it developed a markedly      alloys. In contrast to 20Cu-42Ni-38Fe wt% alloy, the 5 wt% Cu
+distinct layered morphology of oxide layer, as shown in Fig. 6. The     concentration reduces the activity and rate of Cu outward diffusion. As
+SEM image of the cross-section of oxide layer featured a relatively     a result, the gradient of Cu element and XRD spectra in Fig. 5 on outer
+high-volume fraction of pores and oxidation defects within and at the     oxide was relatively small compared to the alloy with 20 wt% Cu.
+oxide/alloy interface. As expected, the average thickness of oxide     Thus, the outer layer of oxide was essentially thin CuO. This also
+layer was found to increase with extended oxidation time from,     explains the disappearance of intermediate CuxFe3−xO4 spinel, which
+14 μm (8 h) to 40 μm (80 h).                                   was observed for 20Cu-42Ni-38Fe wt% alloy.
+
+## PDF page 7
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+   The strong preferential oxidation of Fe to Fe2O3 was detected in     then decreased to lower temperatures of 790 °C, 783 °C, and 794 °C.
+both XRD and EDS line analyses. It was followed by protective    The cathode  current  density was  regulated  at  0.40,  0.51, and
+NiFe2O4 oxide formation. Despite the enrichment of Ni observed at     0.59 A cm−2 in different segments. At each segment, electrolysis
+oxide/alloy interface, it differs signiﬁcantly from NixFe1−xO spinel    was conducted for a minimum duration of 0.4 h. The results of each
+formation seen  earlier  in case  of 20Cu-42Ni-38Fe wt%  alloy,     segment are detailed in Table IV and Fig.  7. For instance, in
+where O gradient remained unchanged while Ni at% increased.     segments 1, 2, and 3, the bath temperature was set to 800 °C with
+Haugsrud et al.28 emphasized the critical role of Ni-oxide at the     corresponding  cathode  current  densities  of  0.51,  0.59,  and
+oxide/alloy interface in effectively slowing the rate of oxidation.     0.40 A cm−2, respectively.
+Chapman et al.16 observed the development of Ni-rich non-stoichio-       The results of experiment 6 showed that an increase in bath
+metric spinel at oxide/alloy interface as a solid solution of NiO and     temperature or a decrease  in cathode current density led  to a
+FeO in a binary alloy of 80Ni-20Fe wt%.                              decrease in cell voltage, as expected. In segment 9, the cell voltage
+   Apparently, the high-temperature oxidation kinetics of Cu-Ni-Fe-    was 3.16 V  at 820 °C with a low cathode  current  density  of
+O system  is a complex process  affected by variables such as     0.40 A cm−2. Figure 7 revealed that the cell voltage remained stable
+temperature, time, interdiffusion rate, and oxide stability. Earlier     as  the  bath  temperature and  cathode  current  density changed
+studies have shown that pre-oxidation treatment can improve the     between segments. The results indicate that the electrolysis cell
+stability  and  performance  of  the  anode  alloy   in  molten     responds  steadily  to  rapid  changes  in  cell amperage  or  bath
+cryolite.5,16,30,31 Due to the intricate and interconnected nature of     temperature, suggesting its potential suitability for power modula-
+the aforementioned  variables, determining a standard treatment      tion in smart grid technology.
+method has proven  difﬁcult. The  present study conﬁrmed  the     LECO analysis of electrolyte samples collected before and after
+development of a dense and adherent oxide layer, thanks to the      electrolysis (not shown) revealed saturated alumina bath conditions
+protective NiFe2O4 layer, through experimental pre-oxidation treat-      in all experiments, assuming O is only found in alumina. The cell
+ment. However, under  the  present experimental  conditions,  as     voltage evolution is a critical evaluation parameter in electrolysis
+reported by many researchers, a multi-layered structure of oxide     and was observed to be stable during the experiments.
+growth in the repetitive sequence was not observed.10,12,16,26,28,30,31
+                                                               Inﬂuence of cathode current density on current efﬁciency.—As
+   Effect of aluminum electrolysis conditions and  cell voltage    shown in Table III, the overall current efﬁciency was in the range of
+evolution.—Table III presents a summary of six electrolysis experi-    78%–87%. The immersed length of TiB2 cathode was found to be
+ments. Experiments  1,  2, and 3  utilized a Na-rich  electrolyte     sufﬁciently wetted with a layer of aluminum deposit after removal at
+composition with a 20Cu-42Ni-38Fe wt% alloy anode. The inﬂu-     the end of electrolysis.
+ence of cathode current density, ranging from 0.40 to 0.59 A cm−2,         In the Hall-Héroult process,  it  is generally accepted that the
+on electrolysis was examined in these experiments. Experiment 4     cathode boundary layer establishes a concentration gradient.7 Within
+used a Na-rich electrolyte composition with a 5Cu-48Ni-47Fe wt%     the boundary layer, NaF is enriched while AlF3 is depleted due to
+alloy anode. Experiment 5 involved a comparison of electrolysis      diffusion and migration processes. According to the equilibrium
+performance using a K-rich electrolyte composition. Finally, experi-      reactions 4 and  5, both NaF and KF diffuse into the cathode
+ment 6 evaluated the cell’s behavior in a dynamic scenario by     boundary layer in the NaF-KF-AlF3-Al2O3 electrolyte. In the latter
+abruptly changing the bath temperature and cathode current density      case,  it is expected to contain more Na+ ions than K+ since the
+from their nominal values of 800 °C and 0.51 A cm−2, respectively,     former is the primary charge carrier. However,  it was shown by
+during electrolysis.                                              Cui et al.32 that higher current densities increase the concentration of
+   Figure 7 shows the voltage of the cell as a function of time during   K+ ions in the metal pad, which can lead to an increase in cathodic
+the electrolysis. The reported cell voltage in experiments 1 to 3,     overvoltage. This was shown in the comparison between the cell
+which includes the ohmic drop, increased with increasing cathode     voltage evolution  of Na-rich and K-rich  electrolytes. The  cell
+current density; see Fig. 7. In experiment 4, the auto-tuning cycle of     voltage increased by 5%, from 3.32 V in experiment 2 to 3.49 V
+the furnace’s proportional-integral-derivative (PID) control para-      in experiment 5, when operating under similar electrolysis settings,
+meters resulted in cell voltage to follow temperature proﬁle during     as listed in Table III. Although 3% lower conductivity of K-rich
+the ﬁrst hour. Following this, between 2 h and 8 h of electrolysis, the      electrolyte than Na-rich may also be a factor here.19
+cell voltage gradually increased from 3.32 to 3.57 V. This phenom-
+enon might be caused by the poor conductivity of the developing                     Al + 3KF = 3K + AlF3                         [ 4]
+oxide  layer on  the anode  surface, which may need a  higher
+overpotential.                                                                Al + 3NaF = 3Na + AlF3                       [ 5]
+   In experiment 6, the temperature of the bath and current density
+were changed across different segments labeled from 1 to 15. The        Experiments 1, 2, and 3 examined the effect of cathode current
+temperature varied from 800 °C to 810 °C, followed by 820 °C, and     density on current efﬁciency and found a maximum of 85% at
+
+
+   Table III. Electrolysis parameters and results.
+
+
+   Experiment                     Units               1             2             3             4             5               6
+
+  CR = (NaF+KF)/AlF₃         (Mole ratios)          1.3              1.3              1.3              1.3              1.3                1.3
+  KR = KF/(NaF+KF)          (Mole ratios)          0.3              0.3              0.3              0.3              0.8                0.3
+   Cu-Ni-Fe alloy anode          (wt%)           20–42–38      20–42–38      20–42–38      5–48–47      20–42–38        20–42–38
+   Cathode           —                 TiB2          TiB2          TiB2          TiB2          TiB2             TiB2
+   Bath temperature                (°C)               800           800           800           800           800          783 to 820
+   Current                       (A)                22            30            33            32            31             22, 28, 33
+   Cathode current density        (A cm−2)            0.40            0.51            0.59            0.51            0.51          0.40, 0.51, 0.59
+   Avg. cell voltage (std. dev.)     (V)               3.16 (0.02)      3.32 (0.12)      3.47 (0.02)      3.46 (0.09)      3.49 (0.02)      3.16 to 3.57 (−)
+    Electrolysis time                  (h)                 12            6            12            8            10              10
+   Aluminum produced              (g)                 69            52           107           76            74              73
+   Current efﬁciency             (%)                78            85            81            87            77              81
+
+## PDF page 8
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+
+
+Figure 7. Cell voltage proﬁle plotted against electrolysis time for experiments 1 to 6 with speciﬁed cathode current density. ACD = 21 mm, bath temperature =
+800 °C except experiment 6, ranging from 783 to 820 °C.
+
+0.51 A cm−2 in experiment 2. This value closely aligns with the     included varying electrolysis duration (8 to 12 h) due to alumina
+optimal current density suggested by recent studies.33,34 However,     feeding issues and a higher cathode current density in experiment 3
+with limited experimental data, it is difﬁcult to draw ﬁrm conclu-     (0.59 A cm−2). We believe that it is more appropriate to compare
+sions about the relationship between current density and current     anodes from experiments with longer electrolysis durations and
+efﬁciency. The selection of an appropriate cathode current density      slightly higher current densities rather than vice versa.
+and optimal  cell design parameters  is  crucial  for smooth  cell            It was found that the Fe contamination was much higher than Ni
+operation and high current efﬁciency.5,32–34                         and Cu in the electrolyte. One explanation is the higher solubility of
+                                                                   Fe-oxide in cryolite melts.35 Similarly, in the case of produced
+  Anode wear rate and oxide layer characteristics post-electro-     aluminum, Fe was the major contamination, but Cu and Ni orders
+lysis.—Cu-Ni-Fe  alloy,  during oxygen  evolution  in aluminum     were speciﬁc to alloy composition, i.e., Fe>Cu>Ni for 20Cu-42Ni-
+electrolysis, can undergo a complex degradation mechanism. The    38Fe wt% and Fe>Ni>Cu for 5Cu-48Ni-47Fe wt% alloy, respec-
+oxidation  as  per  reaction 6  is most  desirable  in  inert anode      tively. This trend could be indicative of the mass transfer coefﬁcient
+technology as the oxide surface protects the alloy. While anodic     of anode species to the cathode. The level of Ti and B contamination
+dissolution, as per reaction 7 would degrade the alloy. The wear rate     from the TiB2 cathode in produced aluminum ranged from 0.02–-
+and lifespan of anode can be estimated based on the level of     0.04 wt% for Ti and 0.002–0.015 wt% for B.
+contamination in the electrolyte and produced aluminum.               Comparing the performance of alloys, the wear rate of the 20Cu-
+                                                              42Ni-38Fe wt% alloy, 7 mm year−1 in experiment 3, was relatively
+                        y
+             xM +  O 2 = M x O y                           [ 6]      better than the 5Cu-48Ni-47Fe wt% alloy, 9 mm year−1 in experi-
+                        2                                   ment 4, possibly due to high anodic dissolution for the latter. K-rich
+                                                                              electrolyte showed better compatibility due to lower contamination
+          1                   2                            x                                     1                                                            compared                                                                                        to                                                                                 Na-rich                                                                                                        electrolyte.                                                                                    The                                                                                              wear                                                                                                                                rate                                                                                                                       of                                                                                                                             the 20Cu-42Ni-                                                         2 O 3               [ 7]      M x O y +                                 3 =                    MF 2 xy +                                                            38Fe wt%                                                                                      alloy                                                                       was reduced                                                                                    by                                                                                                    2.33                                                                                                          times                                                                                         when                                                                                                                                   tested                                                                                                                                          in K-rich          y                  3AlF                            y                                  3Al
+                                                                              electrolyte (experiment 5) compared to Na-rich electrolyte (experi-
+where M = Cu, Ni, Fe.                                        ment 3). Consequently, the highest purity of produced aluminum
+   Post-electrolysis,  the  surface  appearance  of  the anode was    was 99.7 wt% in experiment 5 with K-rich electrolyte, followed by
+generally rough and partly corroded without any loose ﬂakes, as     99.3 and 99.2 wt% in experiments 3 and 4, respectively. According
+seen in Fig. 2c.                                                            to the literature, electrolysis tests for several days can signiﬁcantly
+   Table V shows the results of the chemical analysis of contam-     reduce  the  level  of  contamination  after  attaining  steady-state
+ination in the electrolyte and the produced aluminum in terms of      conditions.3,36,37
+anode constituents (Cu, Ni, and Fe) for three experiments (3, 4, and       The morphology and composition of the oxide layer of the used
+5) conducted under  nearly  identical  conditions. The  variations     anodes in experiments 3, 4, and 5 are discussed based on the
+
+## PDF page 9
+
+Journal of The Electrochemical Society, 2023 170 113507
+
+              15       0.5 794 0.51 28.4 3.38                                                           9.3–9.8
+
+
+              14       0.4 783 0.51 28.4 3.42                                                           8.4–9.3
+
+
+              13       0.5 790 0.40 22.1 3.23                                                           8.4–8.9
+
+
+              12       0.5 790 0.59 33 3.57                                                           7.9–8.4
+
+
+              11       0.5 789 0.51 28.4 3.41                                                           7.4–7.9
+
+
+              10       0.4 — — — —                                          7–7.4
+
+
+
+
+
+       9                              0.5 820 0.40 22.1 3.16                                          6.5–7
+
+
+
+
+
+       8                              0.5 820 0.59 33 3.47                                          6–6.5
+
+
+
+
+
+       7                         5–6 1.0 818 0.51 28.4 3.34
+
+
+
+
+
+       6                              0.5 810 0.40 22.1 3.17                                          4.5–5
+
+
+
+        6.
+       5                              0.5 810 0.59 33 3.48                                          4–4.5
+                                          experiment  4                              0.9 807 0.51 28.4 3.37                                          3.1–4
+        of
+                              segment       3       0.5 800 0.40 22.1 3.20                                                           2.6–3.1
+                 each
+        in
+       2       0.9 800 0.59 33 3.54                                                           1.7–2.6
+                                          parameters
+       1                              1.7 799 0.51 28.4 3.41                                          0–1.7
+                                                   electrolysis                              (h) (°C) cm−2) (A) (V)        in        Units
+                              changes               (A
+        of                                                                                        density                                                     x-axis
+                              Details       on                                        time                            voltage                                                                                        current             IV.                  scale                 temperature           cell                     Table           Segment    Time   Electrolysis Bath  Cathode  Current Avg.
+
+## PDF page 10
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+   Table V. Level of contamination (wt%) in terms of anode constituents (Cu, Ni, and Fe) in the electrolyte and produced aluminum measured by ICP-
+  OES and Spark-OES, respectively. The wear rate of anode is calculated according to Eq. 3.
+
+
+                         Contamination in electrolyte (wt%)               Contamination in produced aluminum (wt%)
+                                                                                                     Wear rate (mm year−1)
+                 Cu        Ni         Fe         Total       Cu           Ni          Fe           Total
+
+   Experiment 3     0.001       0.001       0.006       0.008        0.035         0.016          0.63          0.68               7
+   Experiment 4     0.002       0.001       0.017       0.020        0.015         0.021          0.78          0.82               9
+   Experiment 5     0.001       0.001       0.006       0.008        0.013         0.004          0.28          0.30               3
+
+
+thermodynamic stability of compounds in the following sections.     NiFe2O4 resulted in Ni and Cu enrichment.28 Zone 5 featured the
+The SEM images of the cross-section of anode from the active side     formation of iron ﬂuorides, which might be FeF2 and FeF3 according to
+are shown in Fig. 8. The SEM image shows three distinct regions,      possible anodic reactions 12 and 13, respectively. Notably, the presence
+marked as i) oxide layer, ii) depletion region, and iii) base alloy.     of F element scattered spots deep inside the alloy, about 50 to 100 μm
+Following that, EDS point analysis is shown for selected zones (zone     from the outer  layer,  illustrates the substantial  activity of ﬂuoride
+1 to 6) marked in the SEM image. Additionally, EDS mapping of the      species in low-temperature electrolytes. For example, in an industrial
+SEM image displays the distribution of O, Fe, Ni, Cu, Na, F, Al, and     bath of r = NaF/AlF3 = 2.3 (mole ratios) at 960 °C, AlF3 activity is
+K elements. XRD analysis of anode surface is shown in Fig. 9.         about 2.9 × 10−3; while for r = 1.3 at 800 °C, it is 1.4 × 10−1.39
+   In experiment 3, the SEM image in Fig. 8 of the 20Cu-42Ni-38Fe
+wt% alloy anode shows a dense oxide layer adhered to the base alloy,               Fe + 2AlF 25 − = FeF 2 + 2AlF −4 + 2e −                [ 12]
+with some electrolyte deposits on its surface. This morphology of the
+oxide layer helps explain the stable cell voltage observed during                                  2 −              −     −                                                                      Fe + 3AlF 5 = FeF3 + 3AlF 4 + 3e                 [ 13]
+electrolysis in experiment 3, as shown above in Fig. 7. The average
+thicknesses of the oxide layer and depletion region were measured to         In experiment 4, the SEM image of the oxide layer of 5Cu-48Ni-
+be 20 μm and 88 μm, respectively. Further, the EDS point analysis    47Fe wt% alloy anode revealed a porous, fractured, and delaminated
+and mapping revealed a complex structure of oxide layer.              morphology throughout the specimen, see Fig. 8. Due to the open
+   The EDS point analysis in Fig. 8b shows that outer layer (zone 1)     form, the thickness measurements of the oxide layer and depletion
+is composed mainly of Fe2O3. Next, in zone 2, a mixture of Fe2O3     region were approximate, i.e., 35–50 and 40–70 μm, respectively.
+and NiO phases with an atomic ratio Ni:Fe:O = 1:2:4, combines to        According to XRD results in Fig. 9, the oxide layer was most
+form a protective NiFe2O4 phase as per reaction 8.28 XRD analysis      likely represented by Fe2O3 and NiFe2O4. EDS analysis in zone 1
+shown in Fig. 9 further complemented this observation, conﬁrming     and 2 conﬁrmed the presence of a mixture of Fe2O3 and NiFe2O4,
+that NiFe2O4 and Fe2O3 are the major constituents of the oxide layer.     see Fig. 8e. In particular, NiFe2O4 was found to be strongly detected
+Surprisingly, the outermost layer of oxide in contact with the bath      in zone 2. However, EDS mapping (Na, F, Al, K) in Fig. 8f clearly
+was depleted in Cu, leaving behind a porous morphology. It is worth    shows the electrolyte penetration across the oxide layer. During the
+noting that during pre-oxidation treatment, the outer layer of the     pre-oxidation study of the alloy shown in Fig. 6, it was noted that the
+oxide was rich in CuO, as seen in Fig. 6. The depletion of CuO may     oxide layer formed after 8 h was relatively thin. A low percentage of
+be due to its high solubility in the electrolyte,10,35 or it may have    Cu (5 wt%) in Cu-Ni-Fe alloy may affect the oxidation kinetics
+dissolved through ﬂuoridation reactions, forming CuF2 with a low     during electrolysis, potentially forming a discontinuous layer of
+melting point (836 °C).25                                                            NiFe2O4 oxide. Similarly, according to Gavrilova,12 NiFe2O4 spinel
+    Interestingly, the XRD spectra revealed the presence of the     formation is critically affected by Cu wt% in the alloy.
+CuFe2O4 phase, which is consistent with the CuxFe3−xO4 spinel        Beneath the oxide layer (zone 3), the electrolyte was inﬁltrated
+layer observed during the pre-oxidation treatment of the alloy. Small     due to porous oxide layer morphology. It might have accelerated the
+peaks of nickel-aluminate (NiAl2O4) phase were also  detected,     metal  loss by  ﬂuoridization,  as  per  reaction  7, and  increased
+which is a stable phase as per reaction 9 (negative ΔGr°) in the     corrosion  rate,  leading  to  high  contamination,  as  reported  in
+presence  of  high  alumina  activity.38  However,  iron-aluminate     Table V. This also explains the rise in cell voltage observed after
+(FeAl2O4) was not detected in XRD analysis, which could form as    2 h of electrolysis at a rate of 0.04 V h−1, as seen in Fig. 7. Multiple
+per reaction 10. It is because Fe3+ is a more stable phase than Fe2+     authors have reported the presence of a layer of metallic ﬂuorides
+in the presence of oxygen.35 Therefore, FeAl2O4 could oxidize    (MFx) beneath the oxide layer.10,13,14,16 However, EDS and XRD
+further to form Fe2O3 as per reaction 11 with a more negative ΔGr°.      analysis did not detect the presence of MFx. This suggests that these
+                                                                    ﬂuorides might have formed but subsequently dissolved in the
+            NiO(s) + Fe 2 O 3 (s) = NiFe 2 O4 (s)                                                                              electrolyte or converted to more stable aluminates, especially in
+         Δ G ° r,800 ⁰ C = − 22.89 kJ mol−1                      [ 8]     the absence of a protective oxide layer like NiFe2O4.
+                                                                            Additionally, some traces of copper-aluminate (CuAl2O4) were
+                                                                       detected on the surface by XRD analysis. The formation of CuAl2O4           NiO(s) + Al2 O 3 (diss. ) = NiAl2 O4 (s)
+                                                                                         is thermodynamically favorable (negative ΔGr°) under high alumina
+        Δ G ° r,800 ⁰ C = − 16.47 kJ mol−1                        [ 9]      activity but is, unfortunately, an insulator. The literature value of
+                                                             ΔGr° for copper oxides and aluminates was subjected to discrepan-
+          FeO(s) + Al2 O 3 (diss. ) = FeAl2 O4 (s)                          cies due to their complex nature.35 Lorentsen35 calculated the Gibbs
+                                                                             free energy for CuAl2O4 formation experimentally and suggested a                                    −1
+        Δ G ° r,800 ⁰ C = − 14.51 kJ mol                         [ 10]     regression  equation  for  reaction  14,  which  gives  ΔGr° =
+                                                           −64.31 kJ mol−1 at 800 °C.
+       FeAl2 O4 (s) + 41 O 2 (g ) = 21 Fe 2 O 3 (s) + Al2 O 3 (s )                               1
+                               −1                              Cu (s) +  O 2 (g ) + Al2 O 3 (diss. ) = CuAl2 O4 (s)            [ 14]
+     Δ G ° r,800 ⁰ C = − 62.54 kJ mol                                [ 11]                    2
+
+   In the depletion region (zone 3, 4), faster outward diffusion of Fe to       Zone 4 of the depletion region was found to be enriched in Ni and
+form NiFe2O4 and blocking of Cu and Ni by the oxide barrier of    Cu due to preferential depletion and oxidation of Fe element.
+
+## PDF page 11
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+
+
+                                                                                      Figure 8. SEM and EDS analysis of the cross-section of
+                                                                                     Cu-Ni-Fe alloy anode from experiments 3 (a–c), 4 (d–f),
+                                                                                    and 5 (i–k), after electrolysis at 800 °C. The SEM images in
+                                                                                                                       (a), (e), and (h) show three distinct regions, namely i) oxide
+                                                                                                            layer, ii) depletion region, and iii) base alloy. EDS point
+                                                                                                analyses for the designated zones (zone 1 to 6) within these
+                                                           SEM images are presented in (b), (e), and (j). EDS mapping
+                                                                                                 of the SEM image, showing the distribution of O, Fe, Ni,
+                                                                                      Cu, Na, F, Al, and K elements, is presented in (c), (f), and
+                                                                                                                   (k).
+
+
+
+
+
+   In experiment 5, anode 20Cu-42Ni-38Fe wt% alloy displayed     oxide layer, measuring 23 μm in average thickness, was formed
+similar oxide layer composition and phase distribution behavior    on the anode surface. The average thickness of the depletion
+as stated above in experiment 3. In Fig. 8i, a dense and coherent     region was about 85 μm. XRD and EDS analysis conﬁrmed that
+
+## PDF page 12
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+
+
+
+                                                                       Figure 10. Gibbs free energy of possible oxides and ﬂuorides of Cu-Ni-Fe
+                                                                                    alloy anode and TiB2 cathode in molten NaF-KF-AlF3-Al2O3 electrolyte at
+                                                                   800 °C.
+
+                                                                    Al2 O 3 + 4AlF 25 − = 3Al2 OF 26 − + 2F −              [ 15]
+
+                                                                                                                   2 −     −    3         2 −
+                                                                     Al2 O 3 + AlF 5  + F =   Al2 O 2 F 4                [ 16]
+                                                                                            2
+
+                                                             The reduced solubility of alumina in the electrolyte has the potential
+                                                                              to accelerate the corrosion of metallic anodes due to several factors.
+                                                                                       Firstly, the driving force for alumina dissolution from the surface of the
+                                                                       bath to the bulk reduces; hence,  it  is challenging to operate near
+Figure 9. XRD spectra of the active surface of the anode post-electrolysis:      saturated alumina conditions. Secondly, an unsaturated bath accelerates
+alloy 20Cu-42Ni-38Fe wt% in experiment 3; alloy 5Cu-48Ni-47Fe wt% in      the solubility of oxides and rate of anodic dissolution.35 Thirdly, the
+experiment 4; and alloy 20Cu-42Ni-38Fe wt% in experiment 5.                                                                                local depletion of alumina at the anode further lowers the alumina
+                                                                                   activity more in Na-rich than K-rich electrolytes. Consequently, the
+                                                                         equilibrium of the oxide reaction 6 shifts towards the ﬂuoride reaction
+the oxide layer primarily consists of Fe2O3 and NiFe2O4 as the                                                                                 7, leading to an increased corrosion rate.
+major constituents. Remarkably, within the oxide/alloy interface
+                                           A list of possible oxide and ﬂuoride compound formations in a
+(zone 2), an enrichment of Ni was detected. This observation
+                                                                molten electrolyte of NaF-KF-AlF3-Al2O3 operating with a Cu-Ni-suggests the presence of a semicontinuous layer of NixFe1−xO
+                                                            Fe anode and a TiB2 cathode at 800 °C is presented in Fig. 10.spinel, as observed during the pre-oxidation of the alloy in
+                                                                     Notably, ΔGr° of formation is negative, and it shows a sequence ofFig. 6.
+                                                                               relative thermodynamic stability of compounds. Fluorides of anode
+                                                                           constituents (Cu, Ni, and Fe) are more stable products compared to   Inﬂuence of  electrolyte composition on anode degradation
+                                                                         the corresponding oxides. Hence, it is vital to maintain a saturated
+behavior.—There was a signiﬁcant difference between the mor-
+                                                                     bath condition with alumina, as this helps suppress the ﬂuoridation
+phology and phases of the oxide layer and the depletion region, as
+                                                                             reaction.
+seen in Fig. 8. The oxide layer of 20Cu-42Ni-38Fe wt% alloy was
+relatively dense and coherent as compared to the oxide layer on 5Cu-
+                                                                                       Conclusions
+48Ni-47Fe wt% alloy. The major constituents of the protective oxide
+layer were Fe2O3, and NiFe2O4. The test results indicate that the         In this study, aluminum electrolysis with a Na-rich electrolyte
+20Cu-42Ni-38Fe wt% alloy exhibited a relatively lower anode wear     composition, CR = 1.3 and KR = 0.3, was operated at 800 °C under
+rate as reported in Table V and stable cell voltage evolution in K-      stable 40 A laboratory cell conditions with one vertical cathode of
+rich  electrolyte (experiment 5) compared  to Na-rich  electrolyte     TiB2 in between two vertical single-phase anodes of homogenized
+(experiment 3).                                                 Cu-Ni-Fe alloy of compositions 20Cu-42Ni-38Fe wt% and 5Cu-
+   Structures  of  ionic  species and  equilibrium  reactions could     48Ni-47Fe wt%. A K-rich electrolyte composition with CR = 1.3
+explain why a Na-rich electrolyte is more corrosive for metallic     and KR = 0.8 was also evaluated for comparison.
+anodes. In AF-AlF3 (A = Na, K) melts, AlF4 −and AlF52−are        This study investigated in detail the composition of the oxide layer
+dominating anions in low cryolite ratio AF/AlF3 < 2 (mole ratios),    on the Cu-Ni-Fe alloy, formed through pre-oxidation at 800 °C in air.
+and possible oxide complexes are according to reactions 15 and 16.18    The assessment primarily focused on examining the impact of the
+Alkali cations with smaller ionic  radii exhibit a stronger ionic      alloy composition, speciﬁcally the Cu wt%, on the morphology of the
+potential in A+–F- bond. This causes Na+ cations to interact more     oxide scale. It was found that 20Cu-42Ni-38Fe wt% alloy developed
+strongly with F- anions, including AlF4 - and AlF5 2-, than K+.      multi-layered Cu and Fe-rich oxide phases containing CuO, Fe2O3,
+Thereby, replacing K+ with Na+  will  shift the equilibrium of     and NiFe2O4 as major constituents. Conversely, 5Cu-48Ni-47Fe wt%
+reactions 15 and 16 to the left, leading to lower solubility of alumina      alloy produced Fe-rich oxide phases. The alloy with a higher Cu wt%
+in Na-rich than K-rich electrolyte.                                      displayed the formation of dense, defect-free, multi-layered oxide,
+
+## PDF page 13
+
+                                      Journal of The Electrochemical Society, 2023 170 113507
+
+
+along with increased Cu outward diffusion and the presence of         4. T. R. Beck, US Patent, US8480876B2 (2013), https://patents.google.com/patent/
+distinctive intermediate oxide layers (CuxFe3−xO4 and NixFe1−xO).         US8480876B2/en.
+The successful formation of a protective NiFe2O4 oxide layer through         5. G.LightGunnarsson,Metals, 2019,G. Óskarsdóttir,803 (2019). S. Frostason, J. H. Magnússon, and C. Chesonis,
+the pre-oxidation treatment conﬁrms the effectiveness of the treatment         6. S. K. Padamata, K. Singh, G. M. Haarberg, and G. Saevarsdottir, J. Electrochem.
+in meeting the requirement for an inert anode alloy.                                  Soc., 170, 073501 (2023).
+   The evaluation of Cu-Ni-Fe alloys  in aluminum  electrolysis         7.  J. Thonstad  et  al., Aluminium Electrolysis: Fundamentals of the Hall-Héroult
+experiments yielded low and stable cell voltages. The combination          Process (Beuth Verlag GmbH, Germany), p. 372 (2011).
+                                                                                                       8. (https://international-aluminium.org/resource/1-5-degrees-scenario-a-model-to-
+of  a  low-temperature  electrolyte and an  inert anode  alloy  is            drive-emissions-reduction/).
+anticipated  to  result  in improved alumina  solubility of bath, a         9. G. Saevarsdottir, H. Kvande, and B. J. Welch, JOM, 72, 14221422 (2020).
+reduced wear  rate of anode, and  the formation of a compact       10.  I. Gallino, M. E. Kassner, and R. Busch, Corros. Sci., 63, 293 (2012).
+NiFe2O4 oxide on the surface via anodic reactions. Based on these       12.11. E.S. HelleGavrilova,et al.,G.Corros.Goupil,Sci.,B. 52,Davis,3348D.(2010).Guay, and L. Roué, Corros. Sci., 101, 105
+criteria, the use of a K-rich electrolyte and the 20Cu-42Ni-38Fe wt%           (2015).
+alloy show signiﬁcant potential. Post-electrolysis analysis revealed       13. T. R. Beck, C. M. Macrae, and N. C. Wilson, Metall. Mater. Trans. B, 42, 807
+that 20Cu-42Ni-38Fe wt% anode was protected by denser and           (2011).
+coherent  multi-layered oxide  formation compared  to  the 5Cu-       14. L. Ying et al., J. Alloys Compd., 832, 154848 (2020).                                                                                            15. T. T. Nguyen, European Patent Ofﬁce, EP2324142B1 (2012),  https://patents.
+48Ni-47Fe wt%.  Moreover,   it was  found  that  an  electrolyte          google.com/patent/EP2324142B1/en.
+composition with low alumina solubility (high activity of AlF3)       16. V. Chapman, B. J. Welch, and M. Skyllas-Kazacos, Electrochim. Acta, 56, 1227
+could potentially be more corrosive for metallic anodes.                         (2011).
+   The electrolysis experiment, with abrupt changes in bath tem-       17.  J. Thonstad and S. Rolseth, Mineral Processing and Extractive Metallurgy, 114,                                                                                188 (2005).
+perature and current density within deﬁned limits, showed remark-       18. E. Robert et al., J. Phys. Chem. B, 101, 9447 (1997).
+able stability. This suggests the potential use of a full-size cell       19. A. Apisarov et al., TMS Annual Meeting, 401 (2009).
+(100 kA or more) for power modulation in smart grid technology.       20.  I. Gallino, PhD Thesis, Oregon State University (2004).
+These ﬁndings could be encouraging, but they need to be further       21. D. A. Weirauch Jr, W. J. Kraﬁck, G. Ackart, and P. D. Ownby, J. Mater. Sci., 40,
+                                                                                2301 (2005).
+investigated in long-term electrolysis.                                            22. E. Kubiňáková, M. Benköová, P. Veteška, Ľ. Bača, and J. Híveš, Advances in
+                                                                                              applied ceramics, 119, 22 (2020).
+                  Acknowledgments                                       23. A. Apisarov et al., Metallurgical and Materials Transactions B, 42, 236 (2010).
+                                                                                            24. A. Dedyukhin and A. Kataev, ECS Trans., 64, 151 (2014).
+   This work is supported by the Icelandic Research Fund (project       25. A. Roine (ed.),  (2017), (www.mogroup.com/hsc).
+207242051), and the Landsvirkjun Energy Research Fund (project       26. X. Cheng et al., Corros. Sci., 112, 54 (2016).
+                                                                                            27. V. Chapman, B. J. Welch, and M. Skyllas-Kazacos, Corros. Sci., 53, 2815 (2011).
+NYR-11–2021). Support for chemical analysis of electrolyte and       28. R. Haugsrud, T. Norby, and P. Kofstad, Corros. Sci., 43, 283 (2001).
+produced aluminum samples by Trimet Aluminum in Germany is       29. F. Gesmundo et al., Oxid. Met., 49, 115 (1998).
+gratefully acknowledged.                                                            30. G. Goupil, E. Gavrilova, B. Davis, D. Guay, and L. Roué, TMS Light Metals,
+                                                                                                           p. 1305 (2014).
+                                                                                            31. M. Alzamani and K. Jafarzadeh, Oxid. Met., 89, 623 (2018).
+                  ORCID                                            32. P. Cui, A. Solheim, and G. M. Haarberg, Light Metals 2016, ed. E. Williams
+                                                                                                (Springer International Publishing, Cham), p. 383 (2016).
+Kamaljeet Singh   https://orcid.org/0000-0003-3557-3944                  33. S. Bao and O. Martin, Light Metals, 2018, 611 (2018).
+Gudrun Saevarsdottir   https://orcid.org/0000-0002-3884-4351            34. A. V. Suzdaltsev, A. Y. Nikolaev, and Y. P. Zaikov, J. Electrochem. Soc., 168,
+                                                                                46521 (2021).
+                         References                                          35. O.-A. Lorentsen, PhD Thesis, Norwegian University of Science and Technology
+                                                                                                (2000).
+ 1. C.  M.  Hall, US  Patent,  400664  (1889),  https://patents.google.com/patent/       36. E. Olsen and J. Thonstad, Essential Readings in Light Metals: Volume 4 Electrode
+    US400664A/en.                                                                    Technology for Aluminum Production, ed. A. Tomsett and J. Johnson (Springer
+ 2. T.  R.  Beck,  “Essential  Readings  in  Light  Metals.”  Aluminum  Reduction            International Publishing, Cham), p. 1110 (2016).
+    Technology, ed. G. Bearne, M. Dupuis, and G. Tarcy (Springer International       37. A. Apisarov et al., Light Metals, 2012, 783 (2012).
+    Publishing, Cham) Vol. 2, p. 89 (2016).                                                38. T. Jentoftsen, O.-A. Lorentsen, E. Dewing, G. M. Haarberg, and  J. Thonstad,
+ 3. T. R. Beck, “Electrode Technology for Aluminum Production.” Essential Readings           Metallurgical and Materials Transactions B, 33, 901 (2002).
+     in Light Metals, ed. A. Tomsett and J. Johnson (Springer) Vol. 4, p. 1104 (2016).       39. A. Solheim and A. Sterten, Light Metals, 1999, 445 (1999).

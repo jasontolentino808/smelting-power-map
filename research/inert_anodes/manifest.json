@@ -1,0 +1,303 @@
+[
+  {
+    "id": "01",
+    "source_filename": "literature/1_Chan_Ho_2025_PHD.pdf",
+    "pages": 265,
+    "source_sha256": "8073eab1ef2f8665793f680f28eba11b411f89792bc9508f776e05ffd4f77b35",
+    "text": "text/01.txt",
+    "digest": "digests/01.md",
+    "low_text_pages": [],
+    "visual_index": "figures/01/index.html"
+  },
+  {
+    "id": "02",
+    "source_filename": "literature/2014Dre1_Cu-Fe-Ni_assm.pdf",
+    "pages": 11,
+    "source_sha256": "1c417f5f88b805d7a8d23da4a525cd484fcb9f040673662562edf49fc67271b4",
+    "text": "text/02.txt",
+    "digest": "digests/02.md",
+    "low_text_pages": [],
+    "visual_index": "figures/02/index.html"
+  },
+  {
+    "id": "03",
+    "source_filename": "literature/AnodicDissolutionOfMetalsInOxideFreeCryoliteMelts.pdf",
+    "pages": 6,
+    "source_sha256": "73e5ae9c89997ece5232963f7ae1e417d92f3ed39278e6a36406dc72e57da4e9",
+    "text": "text/03.txt",
+    "digest": "digests/03.md",
+    "low_text_pages": [],
+    "visual_index": "figures/03/index.html"
+  },
+  {
+    "id": "04",
+    "source_filename": "literature/Behaviour_of_nickel_iron_and_copper_by_application_of_inert_anodes_in_aluminum_production.pdf",
+    "pages": 292,
+    "source_sha256": "b2b4fd1ec814373ce3e76a57a8b87a4d6661f9cdd8925933a6f573601942ab55",
+    "text": "text/04.txt",
+    "digest": "digests/04.md",
+    "low_text_pages": [
+      62,
+      106,
+      152,
+      202,
+      244,
+      247,
+      248,
+      280
+    ],
+    "visual_index": "figures/04/index.html"
+  },
+  {
+    "id": "05",
+    "source_filename": "literature/Characterization of a Recyclate-Based MgO-Steel Composite.pdf",
+    "pages": 11,
+    "source_sha256": "6fd89b90f91d15a9932be99cf1122fd4da57f3b11db0248f1d995f5dff493f4a",
+    "text": "text/05.txt",
+    "digest": "digests/05.md",
+    "low_text_pages": [],
+    "visual_index": "figures/05/index.html"
+  },
+  {
+    "id": "06",
+    "source_filename": "literature/ConductivityOfLowTemperatureKF_ALF3ElectrolytesContainingLiF_Al2O3.pdf",
+    "pages": 5,
+    "source_sha256": "f76c3240c9a2fb75f9a28a6024927ae8d5440222034ed51576fd8c8c73a2f4d6",
+    "text": "text/06.txt",
+    "digest": "digests/06.md",
+    "low_text_pages": [],
+    "visual_index": "figures/06/index.html"
+  },
+  {
+    "id": "07",
+    "source_filename": "literature/Effect of Additive BaO on corrosion resistance of 10NiO-NiFe2O4.pdf",
+    "pages": 4,
+    "source_sha256": "6374b9f0a06e4a2d489a9c07e73f13527c64fe97ee7638d905b5bc429a17c415",
+    "text": "text/07.txt",
+    "digest": "digests/07.md",
+    "low_text_pages": [],
+    "visual_index": "figures/07/index.html"
+  },
+  {
+    "id": "08",
+    "source_filename": "literature/Electrochemical Degradation Mechanism of a Cermet Anode.pdf",
+    "pages": 17,
+    "source_sha256": "3fd27a03176492379d03f4e3549cb9e1c7a299e4c588a94ec2c57579732460bc",
+    "text": "text/08.txt",
+    "digest": "digests/08.md",
+    "low_text_pages": [],
+    "visual_index": "figures/08/index.html"
+  },
+  {
+    "id": "09",
+    "source_filename": "literature/Evaluation of Ni-Fe base alloys as inert anode for low-temperature.pdf",
+    "pages": 11,
+    "source_sha256": "e1a88ceba3b9285c5727d692080a79075195f971f6174978ac295fe23bda8a38",
+    "text": "text/09.txt",
+    "digest": "digests/09.md",
+    "low_text_pages": [],
+    "visual_index": "figures/09/index.html"
+  },
+  {
+    "id": "10",
+    "source_filename": "literature/Influence of Ni, Cr and Ni-Cr20 coatings on the electrochemical parameters.pdf",
+    "pages": 15,
+    "source_sha256": "11dcee41b89b2676c3ed25d8b38e8da69d3209e05ccbc307fac7efa2ee356a71",
+    "text": "text/10.txt",
+    "digest": "digests/10.md",
+    "low_text_pages": [],
+    "visual_index": "figures/10/index.html"
+  },
+  {
+    "id": "11",
+    "source_filename": "literature/Iron migration from the anode surface in alumina electrolysis.pdf",
+    "pages": 6,
+    "source_sha256": "9a27008b6ba6505dcd21df2148f928eed89ed9fdcd28478526ea88bc6e1a11e3",
+    "text": "text/11.txt",
+    "digest": "digests/11.md",
+    "low_text_pages": [],
+    "visual_index": "figures/11/index.html"
+  },
+  {
+    "id": "12",
+    "source_filename": "literature/MATERIALS CIIARACTERIZATIONOF CERMET ANODES TESTED IN A PILOT CELL.pdf",
+    "pages": 12,
+    "source_sha256": "dccb909b27ab2e6ad74812516d58c9f2aaf4e7b4748271ad48e7a34af015c4b8",
+    "text": "text/12.txt",
+    "digest": "digests/12.md",
+    "low_text_pages": [
+      12
+    ],
+    "visual_index": "figures/12/index.html"
+  },
+  {
+    "id": "13",
+    "source_filename": "literature/materials-15-00719-v3 (1).pdf",
+    "pages": 15,
+    "source_sha256": "6a6b6cff74d09c8682b3406f6fc3678ca7069278bf77f6d4e9802a6bc1f7f899",
+    "text": "text/13.txt",
+    "digest": "digests/13.md",
+    "low_text_pages": [],
+    "visual_index": "figures/13/index.html"
+  },
+  {
+    "id": "14",
+    "source_filename": "literature/MetalAnodePerformanceInLowTemperatureElectrolytesForAluminumProduction.pdf",
+    "pages": 7,
+    "source_sha256": "a60d54bd13642bd3c5f94bbbd198d1655299ddc79af4e8e6f1e42ebdd4c7efb4",
+    "text": "text/14.txt",
+    "digest": "digests/14.md",
+    "low_text_pages": [],
+    "visual_index": "figures/14/index.html"
+  },
+  {
+    "id": "15",
+    "source_filename": "literature/Ni-Fe-based alloy as oxygen evolving anode for sustainable aluminum production_Singh.pdf",
+    "pages": 13,
+    "source_sha256": "0fce3a3391c34ddc5864dfafbde0e6841cac4c6e75f9a96d15d1da8cd61eeb2f",
+    "text": "text/15.txt",
+    "digest": "digests/15.md",
+    "low_text_pages": [],
+    "visual_index": "figures/15/index.html"
+  },
+  {
+    "id": "16",
+    "source_filename": "literature/OPERATIONAL RESULTS OF PILOT CELl, TEST WITH CERMET INERT ANODES.pdf",
+    "pages": 14,
+    "source_sha256": "ec1a9cce46616fbbc148177244c08ff50bf6cbe3938c69996b5310357364c32e",
+    "text": "text/16.txt",
+    "digest": "digests/16.md",
+    "low_text_pages": [
+      13,
+      14
+    ],
+    "visual_index": "figures/16/index.html"
+  },
+  {
+    "id": "17",
+    "source_filename": "literature/Padamata_2023_J._Electrochem._Soc._170_073501_Review-PrimaryProductionOfAluminumWithOxygenEvolvingAnodes.pdf",
+    "pages": 15,
+    "source_sha256": "66a1daf577ab6423ebde7764703d705889636b832ff863e6c240088c9ee35417",
+    "text": "text/17.txt",
+    "digest": "digests/17.md",
+    "low_text_pages": [],
+    "visual_index": "figures/17/index.html"
+  },
+  {
+    "id": "18",
+    "source_filename": "literature/Phase equilibria of FeOx-SiO2-Al2O3 slag system at 1200 \u25e6C and pO2.pdf",
+    "pages": 12,
+    "source_sha256": "79520a1f0a4e8c274a427bc9db0b6b2e7cb738835c74bf238103c00963982a8b",
+    "text": "text/18.txt",
+    "digest": "digests/18.md",
+    "low_text_pages": [],
+    "visual_index": "figures/18/index.html"
+  },
+  {
+    "id": "19",
+    "source_filename": "literature/Singh_2023_J._Electrochem._Soc._170_113507_PerformanceEvaluationOfLowTemperatureKF-NaF-AlF3electrolytesForAluminumElectrolysisUsingVerticalInertCuNiFeAlloy.pdf",
+    "pages": 13,
+    "source_sha256": "43d46c1b56aad715cb6066feca4c2ff42505622b43a0170e60f093d2a119b061",
+    "text": "text/19.txt",
+    "digest": "digests/19.md",
+    "low_text_pages": [],
+    "visual_index": "figures/19/index.html"
+  },
+  {
+    "id": "20",
+    "source_filename": "literature/SOLUBILITIES OF OXIDES FOR INERT ANODES IN CRYOLITE-BASED MELTS.pdf",
+    "pages": 10,
+    "source_sha256": "32f12f136c9bf089ab4e689239a910ec1ec22570389407b8e4cc47fa31011e59",
+    "text": "text/20.txt",
+    "digest": "digests/20.md",
+    "low_text_pages": [],
+    "visual_index": "figures/20/index.html"
+  },
+  {
+    "id": "21",
+    "source_filename": "literature/Solubility of Chromium(III) Oxide in the Molten Cryolite System.pdf",
+    "pages": 4,
+    "source_sha256": "12d3897daed02412e769436a66a0e36083c7c03530d776efe6152d90089937a4",
+    "text": "text/21.txt",
+    "digest": "digests/21.md",
+    "low_text_pages": [],
+    "visual_index": "figures/21/index.html"
+  },
+  {
+    "id": "22",
+    "source_filename": "literature/Solubility of Some Transition Metal Oxides in Cryolite_Part1.pdf",
+    "pages": 8,
+    "source_sha256": "f6c04aea50a2293aff12d06c593ae98d4b4f62ec93862fb8b15e463fc8f19496",
+    "text": "text/22.txt",
+    "digest": "digests/22.md",
+    "low_text_pages": [],
+    "visual_index": "figures/22/index.html"
+  },
+  {
+    "id": "23",
+    "source_filename": "literature/Solubility of Some Transition Metal Oxides in Cryolite_Part2.pdf",
+    "pages": 5,
+    "source_sha256": "c3483c6077211675d092b972ef9a6d3222003792122b3e52c03813d431b01a3f",
+    "text": "text/23.txt",
+    "digest": "digests/23.md",
+    "low_text_pages": [],
+    "visual_index": "figures/23/index.html"
+  },
+  {
+    "id": "24",
+    "source_filename": "literature/SolubilityOfFeOAndFeAl2O4InCryoliteAluminaMelts.pdf",
+    "pages": 13,
+    "source_sha256": "8215b8ccf3c9a64296cd13f3640a63aba35911635a308b664d0696c87966200c",
+    "text": "text/24.txt",
+    "digest": "digests/24.md",
+    "low_text_pages": [],
+    "visual_index": "figures/24/index.html"
+  },
+  {
+    "id": "25",
+    "source_filename": "literature/Solutions of CeO2 in Cryolite Melts.pdf",
+    "pages": 1,
+    "source_sha256": "066dedc5afbda26b96ec192101669c3a1033e464f7424c1c8ad86959c554aeaa",
+    "text": "text/25.txt",
+    "digest": "digests/25.md",
+    "low_text_pages": [],
+    "visual_index": "figures/25/index.html"
+  },
+  {
+    "id": "26",
+    "source_filename": "literature/Solutions of iron oxides in molten cryolite.pdf",
+    "pages": 5,
+    "source_sha256": "91ea380a00b2643ad2aab2c26bf2523cc5b1196e28c0c893b8afffea80642bb4",
+    "text": "text/26.txt",
+    "digest": "digests/26.md",
+    "low_text_pages": [],
+    "visual_index": "figures/26/index.html"
+  },
+  {
+    "id": "27",
+    "source_filename": "literature/StudyOf(Co,Ni)O_CoatedCuNiFeAnodes_Mohammadkhani.pdf",
+    "pages": 203,
+    "source_sha256": "237253b7016bd2c4016f504b16ea183c25c893a2e10b8920e25f855fc4c08214",
+    "text": "text/27.txt",
+    "digest": "digests/27.md",
+    "low_text_pages": [
+      2,
+      198
+    ],
+    "visual_index": "figures/27/index.html"
+  },
+  {
+    "id": "28",
+    "source_filename": "literature/TWG_InertAnode.pdf",
+    "pages": 180,
+    "source_sha256": "140e0415eedd6ced38a8dacdf2b3243b1603c5b5edde6904bbc17155b8557f95",
+    "text": "text/28.txt",
+    "digest": "digests/28.md",
+    "low_text_pages": [
+      10,
+      42,
+      143
+    ],
+    "visual_index": "figures/28/index.html"
+  }
+]

@@ -1,0 +1,412 @@
+Source: literature/Solubility of Some Transition Metal Oxides in Cryolite_Part1.pdf
+
+## PDF page 1
+
+Solubility of Some Transition Metal Oxides in Cryolite-
+Alumina Melts: Part I. Solubility of FeO, FeAl2O4, NiO,
+and NiAl2O4
+
+       TROND E. JENTOFTSEN, ODD-ARNE LORENTSEN, ERNEST W. DEWING,
+        GEIR M. HAARBERG, and JOMAR THONSTAD
+
+         The solubilities of FeO, FeAl2O4, NiO, and NiAl2O4 were measured in cryolite-alumina melts at 1020
+            8C. FeO was found to be the stable solid phase at alumina concentrations below 5.0 wt pct, while
+          FeAl2O4 was stable above that. The corresponding figure for the nickel system was 3.0 wt pct Al2O3.
+          These values correspond to Gibbs energies of formation of the aluminates (from the constituent
+           oxides) of 217.6 and 229 kJ/mol, respectively. In alumina-saturated melts in the range 980 to 1050
+            8C, the solubilities of both aluminates increased with increasing temperature, the apparent enthalpies
+            of solution being 65 kJ/mol for FeAl2O4, and 249 kJ/mol for NiAl2O4. Investigation of the solubilities
+            of the aluminates as a function of the NaF/AlF3 ratio in alumina-saturated melts at 1020 8C showed
+         maxima at a molar ratio of around 5. The results are discussed in terms of the species apparently
+            existing in the solution, and are consistent with the solute species being fluorides, not oxyfluorides.
+         The activity coefficients of FeF2 (liquid) and NiF2 (solid) in dilute solution in cryolite are found to
+          be 0.22 and 1.2, respectively.
+
+
+                      I.  INTRODUCTION                     under 1 atm of oxygen, 4 pct of the total iron in solution is
+ IRON is one of the predominant impurities present in      present as Fe(II), while in an iron crucible under 1 atm of                                                               argon, only 0.5 pct of the total iron is present as Fe(III).the commercial production of aluminum by the Hall–He´roult                                                        With NiO, there is no problem of different oxidation states,process. According to Sterten et al.[1] dissolved iron com-                                                              but the literature data are nonetheless very scattered. Stertenpounds may have a negative influence on the current effi-                                                       and Skar[7] reported the solubility of nickel oxide in pureciency and on metal  quality, since they have a lower                                                                     cryolite to be 1.0 wt pct at 1000 8C; Belyaev et al.[8] reporteddecomposition potential than alumina (Al2O3).                                                            0.32 wt pct at 1000 8C, and Rolin and Bernard[9] reported  Oxygen-evolving inert anodes are a possible alternative                                                            0.15 wt pct at 1030 8C 6 15 8C. Based on liquidus tempera-to conventional consumable carbon anodes, and an absolute                                                                        tures, Sterten and Skar[7] indicated that the cryolite used byrequirement for them is that they should exhibit a low solu-                                                                 the two latter references might have contained traces ofbility in cryolite-based melts, in which all oxides have some                                                             alumina, which may explain the discrepancy between thedegree of solubility. One of the most promising materials                                                                          results. DeYoung[5] obtained a nickel solubility of 0.25 wtso far found is nickel ferrite (NiFe2O4) with excess NiO                                                                 pct in cryolite with 0.6 wt pct alumina; other measurements(mixed with 17 pct Cu prior to calcination to increase the                                                                 are by Horinuchi et al.[10] and by Belov and Gladneva.[11]electrical conductivity).[2] The solubilities and stabilities of                                                          Although at low alumina contents the simple oxides FeOFeO and NiO in cryolite are thus of interest.                                                       and NiO will be the solid phases in equilibrium with the  There are several studies in the literature on the solubility                                                                    solutions, it must be anticipated that at high alumina activi-of iron oxides in cryolite. As has been pointed out,[3] it is                                                                                 ties, the corresponding aluminates will form. This will lead toessential to control the oxygen potential in such experiments.                                                           a change of slope of the plots of solubility vs alumina content.Iron has two oxidation states, Fe(II) and Fe(III), and even                                                     The purpose of the present work was thus to obtain reliablethough the material being dissolved is in either one or the                                                                      solubility data for the oxides and aluminates of Fe(II) andother, the solution can contain both. The solubility of Fe2O3                                                                    Ni(II) in cryolite melts as functions of alumina concentration,in cryolite-based melts has been studied by Diep et al.[4]                                                               temperature, and NaF/AlF3 ratio.and DeYoung,[5] while Johansen[6] investigated the solubility                                                                    Parts of this work have been presented previously,[12,13,14]of FeO. Calculations[3] show that, at alumina saturation and                                                       and many additional details can be found in two doctoral
+                                                                                theses.[15,16]
+ TROND E. JENTOFTSEN, formerly Doctoral Student, Department of
+Materials Technology and Electrochemistry, Norwegian University of Sci-
+ence and Technology (NTNU), is Senior Engineer, Hydro Aluminum AS,                           II. EXPERIMENTAL
+Technology Centre A˚ rdal, NO-6882 Øvre A˚rdal, Norway. ODD-ARNE
+LORENTSEN, formerly Doctoral Student, Department of Materials Tech-        Natural hand-picked Greenland cryolite, Na3AlF6 (Kryo-
+nology and Electrochemistry, NTNU, is Senior Scientist, Norsk Hydro       littselskabet, Copenhagen), was crushed, and colored parti-
+ASA, Research  Centre, NO-3907  Porsgrunn, Norway. ERNEST W.      cles were removed before use. Alumina, Al2O3 (Fluka, pro
+DEWING, 648 Pimlico Pl., Kingston ON K7M 5T8, Canada, is retired.      analysi), was stored at 200 8C. Aluminum fluoride, AlF3
+Contact e-mail: dewing@king.igs.net GEIR M. HAARBERG and JOMAR      (Norzink), was purified by sublimation and dried in argonTHONSTAD, Professors, are with the Department of Materials Technology
+and Electrochemistry, NTNU, NO-7491 Trondheim, Norway.                  at 400 8C for 10 hours. Sodium fluoride, NaF (Merck, p.a.),
+  Manuscript submitted December 5, 2001.                       was dried in argon at 400 8C for 10 hours.
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—901
+
+## PDF page 2
+
+  Ferrous oxide (wustite) was prepared in the laboratory by
+mixing and dry grinding ferric oxide, Fe2O3 (Aldrich, 99
+pct1), with excess iron powder (Aldrich, 99 pct1) in a ball
+mill for 28 hours. The mixture was then heated in an iron
+crucible under argon atmosphere at 1050 8C to 1100 8C
+for 48 hours. Wustite is nonstoichiometric of approximate
+composition Fe0.947O. It is thermodynamically stable at tem-
+peratures above 571  8C[17] and, below this temperature,
+should disproportionate into magnetite, Fe3O4, and iron
+(eutectoid  reaction),  but  the  rate  of  disproportionation
+decreases rapidly with decreasing temperature. At room tem-
+perature, wustite is stable for an unlimited period of time.
+To avoid disproportionation, the mixture was quenched by
+quickly moving the crucible to a colder part of the furnace
+when the temperature had dropped to around 580 8C.
+  High-purity green nickel oxide, NiO (Novamet, 99.98 pct,
+5 mm), was pressed into tablets and sintered under argon
+atmosphere at 1300 8C for 2 hours. Tablets were used to
+avoid dispersion of fine NiO particles in the melt, which
+could have affected the solubility measurements. That was
+not a concern with FeO, because the material was very
+coarse.
+  About 150 g of bath was prepared from natural cryolite
+and alumina, giving a bath height of ,5 cm. Melts with
+various NaF-AlF3 compositions were prepared by mixing
+natural cryolite with excess NaF or AlF3. The amounts of
+alumina added prior to the experiments were based on alu-
+mina saturation limits for basic baths (NaF/AlF3 . 3) meas-
+ured by Diep[18] for the system NaF-AlF3-Al2O3, and the
+saturation limits reported by Solheim et  al.[19] for acidic        Fig. 1—Apparatus for the measurement of the solubility of NiO in cryo-                                                                                                       lite melts.
+baths (NaF/AlF3 , 3).
+  The experiments were performed in a closed furnace.[18,20]
+For the FeO measurements, an iron crucible and argon     were removed from the tube by cracking  it, and were
+atmosphere were used to suppress the formation of Fe(III),      crushed. The oxide contents were determined by carbother-
+and the melts were prepared by simply mixing an excess     mic reduction with an instrument from LECO* (RO-366).
+amount of FeO with the other bath components. For the NiO      (This method is a standard in the aluminum industry and
+measurements, a platinum crucible and oxygen atmosphere     has been demonstrated to be accurate[21]). All dissolved oxide
+were used, and a tablet of sintered NiO was positioned ,2     was reported as alumina, regardless of its origin. The iron
+cm above the bottom of the platinum crucible, suspended      or nickel contents of the samples were found by dissolving
+on a platinum wire. Temperatures were recorded with a     crushed material in hydrochloric acid and analyzing the
+thermocouple (Pt-Pt10 pct Rh) kept inside a sealed platinum      resulting solution with an inductively coupled plasma (ICP)
+tube placed ,2 cm above the bottom of the crucibles. Figure      instrument (Thermo Jarrell Ash, AtomScan 16).
+1 shows the apparatus as used for the nickel measurements.
+  To obtain effective dissolution, the melt was stirred with                                                                                      III.  RESULTS AND DISCUSSIONiron or platinum stirrers as appropriate. After the solubility
+limit is reached, a quiescent melt is desired to allow any     A. The Effect of Alumina Concentration
+oxide particles to settle before the bath sample is collected.                                                     The solubilities measured at 1020 8C for FeO and NiOThermally induced convection caused by density variations                                                               as a function of the alumina concentration are listed in Tablesin the electrolyte was avoided by maintaining constant tem-                                                                               I and II and are shown in Figures 2 and 3, together withperature in the bath, i.e., maximum 2 deg positive difference                                                  some of the literature data.between the top and the bottom of the crucible.                                                                    Johansen[6] measured the solubility of wustite in cryolite   Initial tests showed that melts with excess ferrous oxide                                                              (without alumina) in an iron crucible, and his result, interpo-were saturated within 30 minutes. The experiments were,                                                                    lated to 1020 8C, was 4.54 wt pct Fe, or 5.84 wt pct FeO.therefore, carried out by preheating and melting down the                                                   The oxygen therein corresponds to 2.76 wt pct Al2O3. Thisbath components for 3 hours, stirring for 1 hour at constant                                                             value is shown in Figure 2 and is in good agreement withtemperature, and finally settling for 1 hour. Nickel oxide                                                                 the present results.
+was much slower to reach saturation, probably because of                                                               Figure 4 shows a log-log plot of the solubilities as a
+the use of tablets instead of powder, and 5 hours stirring                                                               function of the alumina activity, which is taken from the
+time was necessary. A sample of 3 to 6 g was withdrawn                                                             equation proposed by Dewing and Thonstad[22] for the binary
+from the melt by sucking it up into a quartz tube immersed                                                                cryolite-alumina system:
+5 to 10 mm into the solution. The liquid was quenched on
+contact with the cold upper portion of the tube. The samples                 NAl2O3 5 0.0772a1/3Al2O3 1 0.159a2/3Al2O3         [1]
+
+902—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 3
+
+ Table I.  Concentrations of Fe in Cryolite—Alumina Melts
+     in Equilibrium with Solid FeO or Solid FeAl2O4 at
+                       1020 8C
+Al2O3 (Wt Pct)   Fe (Wt Pct)   Al2O3 (Wt Pct)   Fe (Wt Pct)
+      2.7             4.17              4.8            2.32
+      3.0             3.54              5.2            2.30
+      3.0             3.85              5.2            2.40
+      3.0             3.50              5.6            2.04
+      3.0             3.43              5.9            1.70
+      3.0             3.61              7.2            1.12
+      3.1             3.48              8.1            0.84
+      3.3             3.19              9.3            0.84
+      3.6             3.35              9.8            0.60
+      4.1             3.15            11.2            0.46
+      4.1             3.27               sat             0.32
+      4.3             2.60               sat             0.31
+  Total oxide was measured with a LECO* apparatus and calcu-
+lated as Al2O3.
+  *LECO is a trademark of LECO Corporation, St. Joseph, MI.
+
+
+                                                                                   Fig. 2—The concentration of Fe in cryolite-alumina melts in equilibrium   Table II.  Concentrations of Ni in Cryolite—Alumina                                                                          with solid FeO at 1020 8C.
+   Melts in Equilibrium with Solid NiO or Solid NiAl2O4
+                           at 1020 8C
+Al2O3 (Wt Pct)   Ni (Wt Pct)   Al2O3 (Wt Pct)   Ni (Wt Pct)
+     0.47           0.319           2.26           0.133
+     0.79           0.245           2.68           0.137
+     0.89           0.243           3.34           0.088
+     0.91           0.191           3.68           0.083
+     0.96           0.239           5.03           0.026
+     1.05           0.156           5.19           0.027
+     1.05           0.153           6.26           0.021
+     1.13           0.233           6.65           0.017
+     1.13           0.171           8.20           0.011
+     1.26           0.161           8.81           0.013
+     1.59           0.166              sat            0.006
+     2.07           0.178              sat            0.007
+     2.24           0.079              sat            0.008
+     2.24           0.105              sat            0.006
+  Total oxide was measured with a LECO apparatus and calculated
+as Al2O3.
+
+
+where NAl2O3 is the mol fraction (based on Al2O3 and Na3AlF6
+as constituents). The changes of slope due to the formation
+of the aluminates are plainly visible.                                    Fig. 3—The concentration of Ni in cryolite-alumina melts in equilibrium
+  The principle of using the slopes of log-log plots of solu-       with solid NiO at 1020 8C.
+bility vs alumina activity to elucidate mechanisms of solution
+is simple. If Henry’s law applies to the dissolved species,
+and if n molecules of Al2O3 are consumed or produced in      position of the break in the line is selected, and all the points
+forming one particle of whatever (mononuclear) species it      lying to the left of that point are transformed by moving
+may be, then the solubility will depend on the plus nth or     them up by an amount equal to (log (a8)-log (a)), where a8
+minus nth power, respectively, of the alumina activity. From     and a are the activities of alumina at the selected breakpoint
+this, it follows that the change in slope when the aluminate     and in the experiment, respectively. The effect is to increase
+forms  will be 21,  since  the  stoichiometry MO?Al2O3     by one the slope of the data lying to the left of the breakpoint,
+requires that one more Al2O3 is liberated when the aluminate      thereby putting all the data on one line. This is fitted by
+dissolves than when the simple oxide dissolves. This fact       least squares, and the resulting sum of squares is minimized
+can be used to make a statistically best estimate of the      as a function of the breakpoint selected (Figure 6). The best
+alumina activity at which the aluminate forms, and to simul-        fit occurs with breakpoints of log (aAl2O3) 5 21.15 for the
+taneously find the best value of n.                         Ni system, or 3.0 wt pct Al2O3, and log (aAl2O3) 5 20.71
+  Figure 5 shows how the operation is performed in the      for the Fe system, or 5.0 wt pct Al2O3. The corresponding
+case of the nickel oxide measurements. A trial value for the      equations are
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—903
+
+## PDF page 4
+
+Fig. 4—Log-log plot of the solubilities of FeO and NiO vs alumina activity        Fig. 6—Sum of squares error of regression lines as a function of the alumina
+in cryolite-alumina melts at 1020 8C.                                               activity chosen as the breakpoint.
+
+                                                   .5.0 wt pct Al2O3:
+                                                                    log (wt pct Fe) 5 20.498 2 1.298 log (aAl2O3)   [5]
+                                                   The standard deviations are 60.096 in the nickel case and
+                                                   60.035 for iron. The nickel results are less precise because
+                                                                 the levels being measured are much lower. The standard
+                                                                    errors of the estimates of the slopes are 60.021 for Ni and
+                                                   60.017 for Fe. The values at low alumina concentrations
+                                                                 are close to 21/3 and are close to 24/3 at high alumina.
+                                                           This implies that the dissolution reactions are, respectively,
+                                                                      2                                      MO (s) 1  AlF3 (soln) 5 MF2 (soln)                                                                      3
+                                                                                                                               [6]
+                                                                      1                                         1  Al2O3 (soln)                                                                      3
+                                                       and
+                                                                          2                                                         MAl2O4 (s) 1  AlF3 5 MF2 (soln)                                                                          3
+                                                                                                                               [7]
+                                                                          4                                           1  Al2O3 (soln)                                                                          3Fig. 5—Illustration of how all the experimental points at alumina activities
+below the breakpoint are transformed to fit a single regression line. Filled     This interpretation was supported by XRD analysis, which
+circles—real data; and open circles—transformed data.                showed that FeAl2O4 and NiAl2O4 were present in samples
+                                                             taken from the solidified material left in the crucibles after
+                                                           experiments at high alumina concentrations.
+                                                     The fact that the slopes of Eqs. [2] through [5] are not,3.0 wt pct Al2O3:                                                                exactly 21/3 and 24/3 is not surprising, because, in deriving
+      log (wt pct Ni) 5 21.123 2 0.186 log (aAl2O3)   [2]      those values, it is assumed that the activity of AlF3 is con-
+                                                                          stant, independent of the alumina activity, as also is the
+.3.0 wt pct Al2O3:                                                 activity coefficient of the dissolved species. These conditions
+                                                                 are likely to be satisfied only to a first approximation.
+      log (wt pct Ni) 5 22.273 2 1.186 log (aAl2O3)   [3]       The alumina activities at the points where the simple
+                                                             oxides coexist with the aluminates give values for the equi-
+,5.0 wt pct Al2O3:                                            librium constants, and hence Gibbs energies, for
+      log (wt pct Fe) 5 10.213 2 0.298 log (aAl2O3)   [4]        MO (s) 1 Al2O3 (s, a) 5 MAl2O4 (s)        [8]
+
+
+904—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 5
+
+                          Table III.  Concentrations of Ni in Equilibrium with NiAl2O4 and Al2O3
+Temperature              Molar                Ni                Temperature              Molar                Ni
+     (8C)               NaF/AlF3            (Wt Pct)                   (8C)               NaF/AlF3            (Wt Pct)
+   1040                    3.00                 0.0102                1020                     2.00                0.0010
+   1040                    3.00                 0.0108                1020                     2.00                0.0012
+   1030                    3.00                 0.0083                1020                     2.29                0.0025
+   1000                    3.00                 0.0039                1020                     2.29                0.0025
+   1000                    3.00                 0.0067                1020                     2.50                0.0058
+   1000                    3.00                 0.0068                1020                     3.00                0.0075
+   1000                    3.00                 0.0061                1020                     3.00                0.0059
+   1000                    3.00                 0.0068                1020                     3.00                0.0064
+   1004                    3.00                 0.0059                1020                     3.00                0.0061
+   1004                    3.00                 0.0063                1020                     4.00                0.0067
+    990                    3.00                 0.0053                1020                     5.00                0.0076
+    980                    3.00                 0.0022                1020                     5.00                0.0077
+    980                    3.00                 0.0040                1020                     8.00                0.0023
+    980                    3.00                 0.0027                1020                     8.00                0.0079
+  —         —        —                1020                   12.00                0.0070
+
+
+                          Table IV.  Concentrations of Fe in Equilibrium with FeAl2O4 and Al2O3
+Temperature              Molar                Fe                Temperature              Molar                Fe
+     (8C)               NaF/AlF3            (Wt Pct)                   (8C)               NaF/AlF3            (Wt Pct)
+    980                    3.00                 0.262                1040                    3.00                 0.341
+    981                    3.00                 0.253                1041                    3.00                 0.352
+    981                    3.00                 0.242                1050                    3.00                 0.365
+    987                    3.00                 0.267                1050                    3.00                 0.360
+    990                    3.00                 0.267                1050                    3.00                 0.368
+    990                    3.00                 0.273                1020                    2.00                 0.354
+    998                    3.00                 0.295                1020                    2.29                 0.343
+   1000                    3.00                 0.288                1020                    2.52                 0.285
+   1000                    3.00                 0.297                1020                    3.00                 0.308
+   1009                    3.00                 0.300                1020                    3.00                 0.315
+   1010                    3.00                 0.305                1020                    3.00                 0.309
+   1011                    3.00                 0.303                1020                    4.00                 0.495
+   1030                    3.00                 0.322                1020                    4.79                 0.588
+   1030                    3.00                 0.318                1020                    5.00                 0.600
+   1040                    3.00                 0.346
+
+
+  One finds DG0 5 2(17.6 6 0.5) kJ/mol for the formation                6 4900)                                                                    ln (wt pct Ni) 5 2(29,900     1 (18.9 6 3.8)     [10]of FeAl2O4 (from the constituent oxides) and DG0 5 2(29                       T
+6 2) kJ/mol for NiAl2O4. These values will be discussed in
+a future publication. Suffice it to say here that they are not     with a standard deviation of 60.23 for NiAl2O4. Again, the
+in good accord with literature values, but that new electro-     accuracy of the result for nickel is limited by the low levels
+chemical measurements have been made of the stabilities      encountered. It will be noted that the temperature depen-
+of these aluminates, and they substantially confirm the pres-     dence of the nickel solubility is much greater than that for
+ent work.                                                             iron, the apparent enthalpies of solution being 64.8 6 2.5
+                                                          kJ/mol and 248 6 40 kJ/mol, respectively. These values are
+                                                           apparent partial molar enthalpies only. The composition of
+B. The Effect of Temperature                                   the solvent was not constant, since the concentration of
+  To investigate the effect of temperature on the solubilities,     alumina in solution also changed with the temperature.
+experiments were performed in the range from 980 8C to
+1050 8C, in cryolite melts saturated with alumina, so that
+                                                          C. The Effect of NaF/AlF3 Ratiothe aluminates were the stable solid phases. The results are
+shown in Tables III and IV, and Figure 7 shows the solubilit-       Although the variation of the solubility of the oxides with
+ies plotted as logarithms vs the reciprocal temperature. The     alumina concentration is consistent with their existing in
+plots are substantially straight and may be represented as       solution as fluorides (Eqs. [6] and [7]), that does not preclude
+                                                                 the possibility that the simple fluorides are in turn complexed             6 300)ln (wt pct Fe) 5 2(7790    1 (4.87 6 0.23)      [9]     with NaF to form MF(x22)2x      species. This possibility can be                   T                                                                  investigated only by examining the variation of solubility
+with a standard deviation of 60.02 for FeAl2O4, and           with the NaF/AlF3 ratio of the solvent, and hence the activity
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—905
+
+## PDF page 6
+
+Fig. 7—Temperature dependence of the concentrations of Fe and Ni in        Fig. 9—Plot based on Eq. [12] to determine the number of NaFs associated
+equilibrium with solid FeAl2O4 and NiAl2O4 in alumina-saturated cryo-       with NiF2 in solution.
+lite melts.
+
+                                                        MAl2O4 (s) 1 2/3AlF3 (s) 1 xNaF (1)
+                                                                                                                     [11]
+                                     5 NaxMF(21x) (1) 1 4/3Al2O3 (s,a)
+                                                       and the equilibrium constant is, if one replaces the activity
+                                                               of NaxMF(2+x) by its concentration,
+                                        K 5 [NaxMF(21x)]?(aAl2O3)4/3?(aAlF3)22/3?(aNaF)2x  [12]
+                                                   The activity of the aluminate is unity, and is omitted. One
+                                                               thus expects that a plot of [log (wt pct Ni) 1 4/3log
+                                                                        (aAl2O3) 2 2/3 log (aAlF3)] vs log (aNaF) will have a slope of x.
+                                                                    Sterten and Mæland[23] have given activities of NaF and
+                                                        AlF3 in alumina-saturated melts; the problem comes with
+                                                                 the activity of alumina. One might think it should be unity
+                                                               throughout, since the solutions are saturated, but at NaF/
+                                                        AlF3 ratios more than 3.7, beta-alumina (Na2O?11Al2O3)
+                                                     becomes the stable phase instead of alpha,[24] and the activity
+                                                               of the latter becomes less than unity.
+                                                             Beta-alumina is formed by
+                                                    6NaF 1 34Al2O3 5 2AlF3 1 3Na2O?11Al2O3  [13]
+                                                           with an equilibrium constant
+Fig. 8—The concentration of Ni in alumina-saturated cryolite melts in
+equilibrium with solid NiAl2O4 as a function of NaF/AlF3 ratio. (The                                  a3b a2AlF3
+latter is represented by the equivalent mol fraction of NaF in the alumina-                          K13 5                          [14]
+free solvent.)                                                                                       a34a a6NaF
+                                                      where aa and ab are the activities of Al2O3 and Na2O?
+                                                          11Al2O3, respectively. If one rearranges Eq. [14], an expres-
+of NaF. One must necessarily make the assumption that the      sion for the activity of a-Al2O3 in basic melts is obtained:
+activity coefficient of the species present is independent of
+the solvent composition.                                                                   a2AlF3   1/34                                                                 aa                               [15]  The nickel case seems the more straightforward of the               51 a6NaFK132
+two and will be considered first. The results are in Table
+III. Figure 8 shows the solubility of NiAl2O4 in alumina-     The equilibrium constant is set at NaF/AlF3 5 3.7, where
+saturated melts of differing NaF/AlF3 ratio; the plot is made      the activities of both alpha and beta alumina are unity, and
+in terms of the equivalent molar fraction of NaF in an oxide-     K13 is found to be 2.05 3 1027.
+free solvent (N 0NaF).                                             Figure 9 shows the plot of [log (wt pct Ni) 1 4/3 log
+  Equation [7] can be extended to                                  (aAl2O3) 2 2/3 log (aAlF3)] vs log (aNaF); it is straight and has
+
+906—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 7
+
+                                                                 the low ratios. Stoichiometric cryolite is in the range where
+                                                           both are significant. One is not sufficiently confident of the
+                                                          assumption that the activity coefficients are constant to try
+                                                                    to pursue the matter in any more detail.
+
+                                                      D. The Activity Coefficients of FeF2 and NiF2 in Cryolite
+                                                     Enough information is available to calculate the activity
+                                                                    coefficients of FeF2 and NiF2 in dilute solution in molten
+                                                                        cryolite, since the values of the equilibrium constants for
+                                                                 the reactions represented by Eq. [6] can be found from
+                                                              standard tables[25] of thermodynamic properties. Standard
+                                                                       states are pure liquid for FeF2 and pure solid for NiF2, since
+                                                                                               it does not melt below its sublimation point of 1714 K.
+                                                             Concentrations (in wt pct) are calculated from Eqs. [2] and
+                                                                    [4] at an alumina activity of 0.05 (2.5 wt pct alumina). This
+                                                             choice is not critical. The fact that Eqs. [2] and [4] have
+                                                               slopes close to the theoretical 21/3 means that the activity
+                                                                    coefficients have a low dependence on alumina concentra-
+                                                                         tion, and the concentration of alumina at that activity is low
+                                                      enough that activities of NaF and AlF3 in the binary NaF-
+Fig. 10—The concentration of Fe in alumina-saturated cryolite melts in     AlF3 system[26] can be used. The concentrations of iron and
+equilibrium with solid FeAl2O4 as a function of NaF/AlF3 ratio. (The      nickel are then calculated formally as molar fractions in the
+latter is represented by the equivalent mol fraction of NaF in the alumina-     system MF2-NaF-AlF3. The results are gFeF2 5 0.22 andfree solvent.)                                                                   gNiF2 5 1.2.
+                                                            Johansen et al.[27] have measured the activity coefficient
+                                                               of solutions of FeF2 in cryolite at the same temperature
+                                                           with a H2/HF electrode. One needs to note, first, that they
+                                                            expressed their concentrations in terms of molar fractions
+                                                                    in cryolite, i.e., the binary system FeF2-Na3AlF6, instead of
+                                                                 the ternary system FeF2-NaF-AlF3. To be compatible, their
+                                                                      activity coefficients must be multiplied by a factor of 4.
+                                                          Second, they used a different standard state for FeF2, giving
+                                              DG0f 5 2542.55 kJ/mol with the pressure unit atmospheres;
+                                                            conversion to bar for the pressure would change  it to
+                                                    2542.69 kJ/mol. The value from the tables[25] used here is
+                                                    2532.113 kJ/mol. The difference of 10.58 kJ/mol reduces
+                                                                        their activity coefficients by a factor of 2.68; the overall
+                                                                       result is thus an increase of a factor of 1.5. Their results
+                                                               lead to gFeF2 5 0.26 in the range up to 1 mol pct FeF2, rising
+                                                                    to 0.37 at 2.5 mol pct. The present value of 0.22 applies
+                                                           nominally at about 3.5 mol pct. In view of the assumptions
+                                                       made, and the amount of auxiliary data needed to derive it,
+                                                                                               it should not be regarded as more accurate than the direct
+                                                               electrochemical measurement; rather, the general agreement
+                                                           should be taken as an indication that the assumptions made
+                                                                        are, indeed, valid.
+
+Fig. 11—Plot based on Eq. [12] to determine the number of NaFs associated
+with FeF2 in solution.                                   ACKNOWLEDGMENTS
+                                                                  Financial support from the Research Council of Norway
+                                                       and  the  Norwegian Aluminum  Industry  is  gratefully
+a slope of 3.1. It thus seems that x is 3, and that the nickel     acknowledged. The Electrochemical Society is thanked for
+in solution is present as (NiF5)32 species.                      permission to publish the solubility data first presented at
+  The situation with iron shows significant differences. The     one of its meetings.
+results are in Table IV, and Figure 10 may be compared with
+Figure 8; at the low-NaF end, the curve bends upward instead
+of continuing down. Figure 11 is the equivalent of Figure                REFERENCES
+9, and the plot is not straight. It looks as if there are at least                                                                                          1. A˚. Sterten, P.A. Solli, and E. Skybakmoen: J. Appl. Electrochem.,two species involved, one, with an x of 3 or 4, dominating                                                                              1998, vol. 28, pp. 781-89.
+at high values of the NaF/AlF3 ratio, and the other, with a          2. J.D. Weyand, D.H. DeYoung, S.P. Ray, G.P. Tarcy, and F.W. Baker:
+low (zero, or one at the most) value of x, most important at             Inert Anodes for Aluminum Smelting, Final Report, Aluminum Com-
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                         VOLUME 33B, DECEMBER 2002—907
+
+## PDF page 8
+
+    pany of America, Alcoa Laboratories, DOE/CS/40158-20, United                J. Thonstad: in Light Metals 2001, J.L. Anjier, ed., TMS, Warrendale,
+     States Department of Energy, Idaho Operation Office, Idaho Falls, ID,          PA, pp. 455-61.
+    1986, p. 212.                                                              15. T.E. Jentoftsen: Doctoral Thesis 2000:118, Norwegian University of
+  3. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 2000, vol.           Science and Technology, Trondheim, Norway, 2000.
+    31B, pp. 609-13.                                                          16. O.-A. Lorentsen: Doctoral Thesis 2000:104, Norwegian University of
+  4. Q.B. Diep, E.W. Dewing, and A˚ . Sterten: Metall. Mater. Trans. B,           Science and Technology, Trondheim, Norway, 2000.
+    2002, vol. 33B, pp. 140-42.                                                17. Ullmann’s Encyclopedia of Industrial Chemistry, 5th edn., VCH Ver-
+  5. D.H. DeYoung: in Light Metals 1986, R.E. Miller, ed., TMS, Warren-             lagsgesellschaft mbH, Weinheim, Germany, 1989, vol. A14, p. 463.
+     dale, PA, pp. 299-307.                                                     18. Q.B. Diep: Doctoral Thesis 1998:28, Norwegian University of Science
+  6. H.G. Johansen: Doctoral Thesis, Norwegian Institute of Technology,          and Technology, Trondheim, Norway, 1998.
+    Trondheim, Norway, 1975, p. 16.                                          19. A. Solheim, S. Rolseth, E. Skybakmoen, L. Støen, A˚, Sterten, and T.
+  7. A˚ . Sterten and O. Skar: Aluminium, 1988, vol. 64, pp. 1051-54.                 Støre: in Light Metals 1995, J.E. Evans, ed., TMS, Warrendale, PA,
+  8. A.I. Belyaev, M.B. Rapoport, and L.A. Firsanova: Metallurgie des            pp. 451-60.
+    Aluminiums, Veb Verlag Technik, Berlin, 1956, Band I, p. 74.              20. H. Xiao, J. Thonstad, and S. Rolseth: Acta Chem. Scand., 1995, vol.
+  9. M. Rolin and M. Bernard: Bull. Soc. Chim., 1963, pp. 1035-38.                49, pp. 96-102.
+ 10. K. Horinouchi, N. Tachikav, and K. Yamada: 1st Proc. Int. Symp.        21. G.P. Tarcy, S. Rolseth, and J. Thonstad: Light Metals 1993, TMS,
+    Molten Salt Chem. Technol., Molten Salt Committee, Electrochemical           Warrendale, PA, pp. 227-32
+     Society of Japan, Kyoto, Japan, 1983, pp. 65-68.                           22. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 1997, vol.
+ 11. S.F. Belov and A.F. Gladneva: Izv. Vyssh. Uchebn. Zaved., Tsvet.          28B, pp. 1089-93.
+     Metall., 1981, pp. 49-52.                                                   23. A˚. Sterten and I. Mæland: Acta Chem. Scand. A, 1985, vol. 39, pp.
+ 12. T.E. Jentoftsen, E.W. Dewing, G.M. Haarberg, and J. Thonstad: Proc.           241-57.
+    12th Int. Symp. Molten Salts, H.C. DeLong, S. Deki, G.R. Stafford, and        24. A˚. Sterten, K. Hamberg, and I. Mæland: Acta Chem. Scand. A, 1982,
+     P.C. Trulove, eds., The Electrochemical Society Proceedings Series,             vol. 36, pp. 329-44.
+     Pennington, NJ, 2000, pp. 473-84.                                         25. O. Knacke, O. Kubaschewski, and K. Hesselmann: Thermochemical
+ 13. O.-A. Lorentsen, E.W. Dewing, G.M. Haarberg and J. Thonstad: Proc.            Properties of Inorganic Substances, 2nd ed., Springer-Verlag, Lon-
+    12th Int. Symp. Molten Salts, H.C. DeLong, S. Deki, G.R. Stafford, and           don, 1991,
+     P.C. Trulove, eds., The Electrochemical Society Proceedings Series,        26. E.W. Dewing: Metall. Mater. Trans. B, 1990, vol. 21B, pp. 285-94.
+     Pennington, NJ, 2000, pp. 428-40.                                         27. H.G. Johansen, A˚ . Sterten, and J. Thonstad: Acta Chem. Scand., 1989,
+ 14. T.E. Jentoftsen, O.-A. Lorentsen, E.W. Dewing, G.M. Haarberg, and             vol. 43, pp. 417-20.
+
+
+
+
+
+908—VOLUME 33B, DECEMBER 2002                                            METALLURGICAL AND MATERIALS TRANSACTIONS B

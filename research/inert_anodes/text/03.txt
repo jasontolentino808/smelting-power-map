@@ -1,0 +1,390 @@
+Source: literature/AnodicDissolutionOfMetalsInOxideFreeCryoliteMelts.pdf
+
+## PDF page 1
+
+Journal of Applied Electrochemistry (2005) 35:999–1004                                                                    Springer 2005
+DOI 10.1007/s10800-005-6727-9
+
+
+Anodic dissolution of metals in oxide-free cryolite melts
+
+
+L. CASSAYRE1,2,*, P. CHAMELOT1, L. ARURAULT3 and P. TAXIL1
+1Laboratoire de Ge´nie Chimique (LGC), Universite´ Paul Sabatier, UMR 5503, 118 route de Narbonne,
+31062 Toulouse Cedex 04, France
+2Alcan, Voreppe Research Center, 725 rue Aristide Berge`s, 38341 Voreppe, France
+3Centre Interuniversitaire de Recherche et d’Inge´nierie des Mate´riaux (CIRIMAT), Universite´ Paul Sabatier,
+UMR 5085, 118 Route de Narbonne, 31062 Toulouse, Cedex 04, France
+(*author for correspondence, tel.: +33-561-55-7465, fax: +33-561-55-6139, e-mail: laurent_cassayre@yahoo.fr)
+
+Received 5 April 2005; accepted in revised form 19 April 2005
+
+
+
+Key words: anodic dissolution, cryolite, ﬂuorine evolution
+
+
+
+Abstract
+
+The anodic behavior of metals in molten cryolite-alumina melts has been investigated mostly for use as inert anodes
+for the Hall–He´roult process. In the present work, gold, platinum, palladium, copper, tungsten, nickel, cobalt and
+iron metal electrodes were anodically polarized in an oxide-free cryolite melt (11%wt. excess AlF3 ; 5%wt. CaF2) at
+1273 K. The aim of the experiments was to characterize the oxidation reactions of the metals occurring without the
+eﬀect of oxygen-containing dissolved species. The anodic dissolution of each metal was demonstrated, and elec-
+trochemical reactions were assigned using reversible potential calculation. The relative stability of metals as well as
+the possibility of generating pure ﬂuorine is discussed.
+
+
+
+1. Introduction                                     2O2ðdissÞ ¼ O2ðgÞ þ 4e                               ð2Þ
+
+The  anodic  behavior  of  metals  in molten  cryolite
+                                                   Platinum was found to behave as a so-called inertmixtures has been investigated for application to inert
+                                                anode and has been used to study oxygen evolution [7].anodes for the Hall–He´roult process [1]. In traditional
+                                             The reversible potential of the  cell Al(l)/Na3AlF6+cryolite-alumina baths, most of the metal anode mate-
+                                                               Al2O3(sat)/O2(g), Pt was determined to be E = 2.20 V atrials show a general tendency to oxidize [2]. Although
+                                                  1273 K. Nevertheless, the anodic dissolution of plati-the  process depends on  the  physical and chemical
+                                       num was found to occur for an overvoltage of aboutproperties of the metal, the reactions involving the
+                                                  1 V.anode and dissolved alumina can be represented by the
+                                             As pointed out by Danek [8], the case of oxide-freefollowing electrochemical equation:
+                                                               cryolite melts has not been investigated to any extent.
+   xMðsÞ þ yO2ðdissÞ ¼ MxOyðsÞ þ 2ye                  ð1Þ   Reactions involving oxoﬂuoroaluminate species do not
+                                                     occur and reactions like (1) and (2) involving ﬂuoroa-
+where O2)                (diss) stands for dissolved oxoﬂuoroaluminates   luminate species (AlFnx  , noted F ðdissÞ) are expected.        n
+(AlOF x  ) and MxOy(s) for solid oxide. Precipitation of    Metal phase oxidation might tend to yield ﬂuoride
+the oxidation product is likely to occur at the electrode-                                                compounds:
+melt interface, particularly in the case of transition metal
+oxides which exhibit low solubility [3]. For instance, a     MðsÞ þ zFðdissÞ ¼ MFzðs;l;gÞ þ ze                    ð3Þ
+copper electrode polarized in an alumina saturated bath
+was shown to form a passivation layer made of Cu2O   Since no studies have been published about this kind
+and CuO  [4]. The oxidation process of  nickel and   of reaction, different possibilities have to be examined
+tungsten has also been established [5], while hematite-   concerning the behavior of the ﬂuorides generated.
+based oxide  layer formation has been reported on   Precipitation  of  solid ﬂuoride  species MFz should
+various Fe-Ni alloys [6].                                  actually lead to anode passivation, while gaseous or
+   If the metal phase is noble enough, oxygen evolution   liquid ﬂuoride formation could result in quantitative
+occurs  without  involving  the  electrode  material   dissolution of the electrode according to Faraday’s
+according to:                                            law.
+
+## PDF page 2
+
+1000
+
+ An inert anode with respect to ﬂuorine evolution   graphite rod (5 mm diameter) as described in [13]. Low
+could  also be  envisaged,  resulting  in  the following   current  densities were applied for  at  least 24 h, to
+reaction:                                                 eliminate traces of oxide in the melt.
+
+  2F ðdissÞ ¼ F2ðgÞ þ 2e                               ð4Þ
+                                                                 2.3. Electrodes
+However, even though ﬂuorine evolution coupled with
+oxygen evolution has been proposed on platinum and                                                  Metal wires used as anodes were supplied by Goodfel-
+gold electrodes in cryolite–alumina melts  [9], no evi-                                                       low. Diameters were either 0.5 mm (gold, platinum, and
+dence of the existence of a material capable of support-                                                      palladium) or 1.0 mm (copper, iron, tungsten, nickel
+ing pure ﬂuorine evolution has ever been mentioned.                                               and cobalt). The electrodes were dipped 5–10 mm into
+  Coupled  with  cathodic aluminium  reduction,  the                                                         the  molten  salt. The  actual immersed  height was
+assumed cell reaction would be:                                                     determined at the end of the run.
+   AlF3ðdissÞ ¼ 32 F2ðgÞ þ AlðlÞ                         ð5Þ    The  auxiliary  electrode was an  8.0 mm diameter
+                                                         graphite rod (Carbone Lorraine), hence with a larger
+According to thermodynamic data [10], the standard   surface area (2.5 cm2) than the working electrodes.
+reversible potential for reaction (5) is calculated to be     Potentials were measured with respect to a platinum
+E =4.07 V vs Al/AlF3  at 1273 K, which  is 1.87 V   wire immersed in the bath and acting as a comparison
+higher than the standard reversible potential for alumina   electrode. Its potential was found to be stable after bath
+decomposition.                                                 electrolysis, due  to  the  reaction  of  platinum  with
+  In the present work, gold, platinum, palladium, cop-   dissolved aluminium leading to the formation of a
+per,  tungsten,  nickel,  cobalt and  iron anodes were  Pt–Al alloy [2]. The platinum electrode potential was
+polarized in an oxide-free cryolite melt at 1273 K. The   related  to  the  aluminium  deposition  potential  by
+aim of the experiments was to characterize oxidation   cathodic polarization of a tungsten electrode [14].
+reactions occurring without the effect of oxygen-contain-
+ing dissolved species. The relative stability of the metals
+                                                                 2.4. Equipmentas well as the possibility of ﬂuorine discharge is discussed.
+
+                                              The furnace was built by AET and used Eurotherm
+                                                       thermoregulation.  Cyclic  voltammetry,  linear sweep
+2. Experimental                                     voltammetry and steady state polarisation were carried
+                                                     out using an Autolab PGSTAT10 potentiostat controlled
+2.1. The cell                                      by GPES software. Scanning electron microscope (SEM)
+                                                        observations were made on a LEO 435 VP. A back-
+The cryolite melt was contained in a vitreous carbon   scattered electron (BSE) detector was also used.
+crucible, placed in a graphite liner protecting the inside
+wall of a cylindrical vessel made of refractory steel. The
+cell was  closed by a  stainless  steel  lid  cooled by                                                                 3. Results
+circulating water. A scheme of the experimental setup
+has been presented elsewhere [11].                           3.1. Coulometry and SEM observation of a nickel
+  The atmosphere was U-grade (less than 5 ppm O2)   electrode
+inert argon dehydrated with a puriﬁcation cartridge (Air
+Liquide). An absolute pressure of around 1.3 atm was   Potensiostatic polarization was performed on a nickel
+maintained during the runs.                               electrode in the oxide-free cryolite melt. The potential
+                                                        value  is chosen so that the  initial current density  is
+2.2. Chemicals and bath preparation                   around 1 A cm)2.  Figure 1 shows  the  variation  of
+                                                         current density with time for an applied potential of
+The cryolite melt consisted of pure Na3AlF6 (Cerac,   1.60 V over 300 s. Current density was found to remain
+purity 99.5%), with an 11%wt. excess of AlF3 (Acros,   stable over the duration of the run, indicating that no
+purity 99.9+%) and a 5%wt. excess of CaF2 (Merck,   passivation of the metal electrode occurs.
+purity 99.95%), leading to a cryolite ratio (CR) of 2.2.   SEM observation of a cross section of the nickel
+An oxygen content of 0.1%wt. was measured in the raw   electrode after polarization  is presented in Figure 2.
+powders by LECO analysis: initial alumina content in   Dissolution of the metal is clearly conﬁrmed, since the
+the melt was under 0.21%wt. The melting point was   electrode diameter is strongly reduced. Careful exami-
+calculated to be 975 C [12].                            nation  of  the  melt–metal  interface  with  the back
+  Two-hundred grams of the mixture were placed in the   scattered electron (BSE) detector showed no passivation
+cell, heated to 773 K and dehydrated under vacuum   layer (Picture B).
+(10)5 atm)  for 24 h. A temperature of 1273 K was     Similar results were obtained on copper and gold
+maintained  for  electrochemical  experiments.  Careful   electrodes polarized at 2.10 V and 3.40 V vs Al/AlF3
+electrolysis of the bath was then performed using a   respectively.
+
+## PDF page 3
+
+                                                                                              1001
+
+                                                           that oxidation products  are  easily  dissolved  in  the
+                                                                 electrolyte. This conﬁrms the SEM observations show-
+                                                         ing fast dissolution of the anodes.
+
+                                                                 3.3. Cyclic voltammetry on gold electrode
+
+                                                         Cyclic voltammetry was performed on a gold electrode
+                                                             in order to identify the anodic reactions occurring on the
+                                                most stable metal in cryolite. Figure 4 shows voltam-
+                                            mograms obtained for sweep rates between 0.1 and
+                                                            5.0 V s)1. A reverse potential scan was applied from the
+                                                open circuit potential (  0.70 V vs ref.) up to the anodic
+                                                           dissolution wave, noted O2.
+                                                        In addition, the whole electrochemical window was
+                                                 examined on a cyclic voltammogram with a sweep rate
+                                                         of 0.2 V s)1. The cathodic limit (R1)  is located at a
+                                                            potential  of around  0.35 V  vs  Al/AlF3. A  similar
+                                                         electrochemical window was observed by Duruz et al.
+Fig. 1. Potentiostatic  polarization  (E=1.60  vs  Al/AlF3)  of  Ni
+                                                                     [15], and reaction (R1) was attributed by the authors toelectrode  in  oxide-free  cryolite  melt [CR = 2.2; 5%wt. CaF2;
+T=1273 K].                                         low melting Au–Al–Na alloy formation.
+                                        An oxidation reaction (O1) is observed before anodic
+                                                           dissolution of the gold electrode, in the potential range
+3.2. Linear sweep voltammetry
+                                                        2.20–2.70 V vs Al/AlF3. Current densities of anodic
+                                                    peaks are plotted in Figure 5 versus the square root of
+Linear sweep voltammetry was performed on cobalt,
+                                                         the potential sweep rate: the linear relationship conﬁrms
+copper, iron, nickel, tungsten, palladium, platinum and
+                                                           that a mass-transport controlled reaction occurs at the
+gold  electrodes  in the  oxide-free  cryolite bath. The
+                                                             electrode. Diﬀusion-limited oxygen evolution due to
+anodic  potential was  slowly  increased  (sweep  rate
+                                                       oxidation of residual dissolved alumina  is the most0.002 V s)1) from the open circuit potential up to high
+                                                     probable assumption to explain this reaction.density currents, typically higher than 2 A cm)2. The set
+                                               The high cathodic currents during the reverse sweep
+of curves is presented in Figure 3.
+                                                            indicate that reaction (O2) yields dissolved species. If the
+  All the materials studied exhibited the same general
+                                                    product were gaseous, the gas would escape from the
+behavior. When the potential of the metal was kept
+                                                           electrode diffusion layer, and no reverse reaction would
+below a  certain  value, EM,  speciﬁc  to each metal
+                                                   be observed. If the oxidation product was a solid, the
+investigated, the current density remained very low,
+                                                              ratio of charge density between anodic and cathodic
+indicating an absence of electrode reaction. Then, when
+                                                           reactions would be close to one, while in this case, a
+the anodic potential reached EM, the current density
+                                                              ratio of around 0.5 was measured from integration of
+increased sharply, with no limiting current. Figure 3
+                                                         the voltammograms for sweep rates between 0.5 and
+shows that, among the metals studied, iron was the
+                                                            5.0 V s)1.
+easiest material to oxidize, while gold was the most
+                                                                         It can be concluded therefore that gold is anodically
+stable.
+                                                          dissolved in the cryolite melt at a potential of around
+  The polarization curves were then ﬁtted using Tafel
+                                                 one volt more anodic than oxygen discharge.
+plots in the range E > EM for each of the eight metals.
+A good correlation was obtained for Tafel  lines, as
+detailed in Table 1: for all the metals studied, a one-step   4. Discussion
+mechanism controlled by electron transfer predominates
+over a large potential range. The reaction taking place at  The dissolution potentials EM were measured for each
+the anode was not limited by mass transport, indicating   metal by  intersection  of  the anodic branch  of  the
+
+
+
+
+
+Fig. 2. SEM-BSE observation of a nickel electrode after potentiostatic polarization (a) dotted line represents the initial diameter (1 mm)
+(b) close up on the interface.
+
+## PDF page 4
+
+1002
+
+
+
+
+
+                                                                             Fig. 5. Linear relationship of oxidation peak vs. the square root of
+Fig. 3. Steady state current versus potential (0.002 V s)1) curves on    potential sweep rate for reaction O1 on gold electrode.
+metal electrodes in oxide-free cryolite melt [CR = 2.2; 5%wt. CaF2;
+T=1273 K].
+                                                                   z                        z
+                                                          MðsÞ þ  AlF3ðdissÞ ¼ MFzðs;l;gÞ þ   AlðlÞ            ð6Þ
+                                                           3                    3Table 1. Tafel slopes measured on linear sweep voltammograms in
+oxide-free cryolite melt. R2: correlation coeﬃcient
+                                                        In order to assign reactions to the dissolution curves,
+Metal                    Tafel slope/V (dec))1             R2
+                                                         the reversible potentials related to equation (6) were
+Gold                     0.105                               0.990   calculated according to the Nernst equation:
+Platinum                 0.089                               0.983                          "            #
+Palladium                0.111                               0.985                   2.303RT    aðMFzÞaðAlÞz=3
+Copper                  0.177                               0.983     EðM=MFzÞ ¼ E þ         log                     ð7Þ
+                                                               zF       aðMÞaðAlF3Þz=3Tungsten                 0.258                               0.984
+Nickel                   0.195                               0.982
+                                                      where: activities of pure phases Al and M (a(Al) andCobalt                   0.117                               0.979
+Iron                     0.209                               0.990  a(M)) are equal to unity, the activity of AlF3 in the
+                                                      melt (CR = 2.2 + 5%wt CaF2)  is a(AlF3)=0.0025
+                                                      according to [16], standard potential E   is deﬁned as
+                                             DrG (T) = zFE   (DrG (T)   is   the  standard   free
+                                                      enthalpy of reaction  (6)). The reversible potential  is
+                                                      then  expressed  versus  the  Al/AlF3  electrochemical
+                                                           reference [2].
+                                               At 1273 K, Equation (7) can be expressed as:
+
+                                                        DrG ð1273 KÞ   0:252
+                                                          EðM=MFzÞ ¼      þ      log ½aðMFzÞ þ 0:219                                                             zF         z
+                                                                                                                 ð8Þ
+
+
+                                                      Table 3 reports the reversible potentials calculated
+                                                from equation (8) for the eight metals studied. Since the
+                                                                activity of MFz ﬂuorides dissolved in the melt are not
+                                               known, a(MFz) was assumed to equal unity. Data from
+                                                     Barin [10] were used for DrG  calculations. As men-
+Fig. 4. Cyclic voltammetry on gold electrode in oxide-free cryolite   tioned in Table 3, some data concerning ﬂuorides had to
+melt. Sweep rates: 0.1, 0.2, 0.5, 1.0, 2.0, 3.0, 5.0 V s)1. R1: reduction
+                                                   be extrapolated to 1273 K.
+reaction; O1 and O2: oxidation reactions.
+                                                        In most cases, as several oxidation states exist, various
+                                                           reactions of the metal phase are possible. The lowest
+voltammogram with the x-axis in Figure 3. Potential   reversible potential means that reaction  is thermody-
+values are reported in Table 2.                          namically favored, and hence determines which ﬂuoride
+  Since the measured potentials are expressed versus the    is the most likely to form. With the exception of gold
+Al/AlF3 reference, the appropriate cell reaction leading  and tungsten, the lowest oxidation state was found to be
+to the formation of ﬂuorides is:                          the most stable.
+
+## PDF page 5
+
+                                                                                              1003
+
+
+Table 2. Dissolution potential of metals measured in oxide-free cryo-
+lite melt at 1273 K
+
+Metal                          Dissolution potential (vs Al/AlF3)/V
+
+Gold                           3.20
+Platinum                       2.85
+Palladium                      2.65
+Copper                         1.75
+Tungsten                       1.60
+Nickel                          1.40
+Cobalt                          1.25
+Iron                            0.85
+
+
+
+  These calculations were then compared to electro-
+chemical  measurements, and M/MFz  couples  were
+assigned as illustrated in Figure 6.
+  First, it should be noted that the calculated relative
+stability of the metals was similar to the experimental
+measurements, except in the case of tungsten. Indeed,
+thermodynamic  data  for  WF4(g)  were  extrapolated
+                                                                             Fig. 6. Comparison  between  measured and  calculated  reversible
+from 500 K (Table 3), so calculation might be erro-                                                                           potentials for reaction (6) in oxide-free cryolite melt at 1273 K.
+neous. Formation of WF6(g) at E = 1.96 V/ref. would
+be  in  better agreement with  the measured  relative
+stability.                                           Both experiment and calculation demonstrate that
+  Another observation is that all the measured poten-   ﬂuorine evolution on a metal anode  is not possible
+tials were smaller by 0.10 to 0.70 V than the calculated   without rapid dissolution of the anode material. Indeed,
+ones. The smallest difference was observed for gaseous   the gold electrode, which was found to be the most
+ﬂuorides WF4(g) and PtF4(g), with a variation of 0.17 and   stable element, started dissolving at 3.20 V vs Al/AlF3.
+0.10 V, respectively, between experiment and calcula-   This potential is about one volt lower than the calcu-
+tion. The most credible explanation is that the activity   lated potential for ﬂuorine evolution. Simple extrapola-
+coeﬃcients of dissolved species are lower than one.   tion using the Tafel slope for a gold electrode (+0.10 V
+Indeed, equation (8) shows that the reversible potential   (dec))1) indicates that a current density of 1010 A cm)2
+decreases by )0.252/z V per decade with decreasing  would be necessary to promote ﬂuorine discharge.
+ﬂuoride species activity.                                Other anode materials are also unlikely to support
+  Dissolved AlF3 has an activity of 0.0025 in the melt   ﬂuorine discharge. Indeed, with carbon materials there
+[16]. Similarly, complexation by the ionic salt is likely to    is an anode effect due to CFx formation [2], while oxide
+lower the activity of the dissolved ﬂuoride and, hence,   materials are expected to decompose in low alumina-
+the reversible potential of the reaction.                  content melts according to [17]:
+
+
+Table 3. Calculated reversible potentials for reaction MðsÞ þ 3z AlF3ðdissÞ ¼ MFzðstdÞ þ 3z AlðlÞ at 1273 K with a (MFz) = 1 and a(AlF) = 0.0025.
+Data for ﬂuorides MFz are extrapolated from Textr. z is the oxidation state
+
+Metal              Possible reactions                                   z           Textr/K       DrG /kJ mol)1         E(vs Al/AlF3)/V
+
+Gold               Au(s) + 1/3 AlF3(diss) = AuF(g)+ 1/3 Al(l)            I           398           387                   4.24
+                    Au(s) + 2/3 AlF3(diss) = AuF2(l) + 2/3 Al(l)           II                        712                   3.62
+                    Au(s) + AlF3(diss) = AuF3(l) + Al(l)                   III         600          1101                   4.02
+Platinum             Pt(s) + 4/3 AlF3(diss) = PtF4(g) + 4/3 Al(l)        IV         500          1049                   2.94
+                        Pt(s) + 2 AlF3(diss) = PtF6(g) + 2 Al(l)           VI         398          2073                   3.80
+Palladium          Pd(s) + 2/3 AlF3(diss) = PdF2(l) + 2/3 Al(l)           II         1100           503                   2.82
+Copper             Cu(s) + 1/3 AlF3(diss) = CuF(l) + 1/3 Al(l)            I                        1089                   2.18
+                    Cu(s) + 2/3 AlF3(diss) = CuF2(l) + 2/3 Al(l)           II                        426                   2.42
+Tungsten          W(s) + 1/3 AlF3(diss) = WF(g) + 1/3 Al(l)             I                         637                   6.82
+                   W(s) + 4/3 AlF3(diss) = WF4(g) + 4/3 Al(l)        IV         500           592                   1.75
+                   W(s) + 5/3 AlF3(diss) = WF5(g) + 5/3 Al(l)      V          500          1106                   2.51
+                   W(s) + 2 AlF3(diss) = WF6(g) + 2 Al(l)           VI                       1009                   1.96
+Nickel               Ni(s) + 2/3 AlF3(diss) = NiF2(s) + 2/3 Al(l)            II                        324                   1.88
+Cobalt             Co(s) + 2/3 AlF3(diss) = CoF2(s) + 2/3 Al(l)           II                        273                   1.63
+                    Co(s) + AlF3(diss) = CoF3(l) + Al(l)                   III        1200           678                   2.56
+Iron                 Fe(s) + 2/3 AlF3(diss) = FeF2(s) + 2/3 Al(l)           II                        254                   1.54
+                      Fe(s) + AlF3(diss) = FeF3(g) + Al(l)                    III                       422                   1.60
+
+## PDF page 6
+
+1004
+
+                     y                                References                         þ 2ye   ð9Þ                           O2ðgÞ þ xMF2y   MxOy þ 2yFðdissÞ ¼                                                            x ðs;l;gÞ                     2
+                                                                                   1. R.P. Pawlek, in J. Anjier (Ed), ‘Inert Anodes: An Update, in Light
+                                                                         Metals, proceedings of TMS Annual Meeting’, (Charlotte, North
+  For instance, a decomposition potential of about
+                                                                           Carolina, March 14–18, 2004), pp. 283–287.
+2.50 V was measured with tin oxide at 1030 C [18].          2. J. Thonstad, P. Fellner, G.M. Haarberg, J. Hives, H. Kvande and
+                                                                                      A˚. Sterten, Aluminium Electrolysis, Fundamentals of the Hall–
+                                                                                  He´roult Process, 3rd ed, (Aluminium-Verlag, Du¨sseldorf, 2001).
+                                                                                   3. K. Billehaug and H.A. Øye, Aluminium 57 (1981) 146.
+                                                                                   4. C.F. Windisch and S.C. Marschman, in R.D. Zabreznik (Ed),
+5. Conclusion                                                           ‘Electrochemical Polarization Studies on Cu and Cu-Containing
+                                                                Cermet Anodes for the Aluminum Industry, in Light Metals,
+The study of the anodic polarization of eight metals in       proceedings of TMS annual meeting’, (Cincinnati, Ohio, 1987),
+                                                                         pp. 351–355.
+oxide-free cryolite melts yields relevant information on                                                                                   5. S.S. Djokic and B.E. Conway, J. Appl. Electrochem. 25 (1995) 106.
+the oxidation reactions occurring at metal electrodes.     6. J.J.R. Duruz and V. de Nora, Cells for the Electrowinning of
+The anodic dissolution of each metal was demonstrated,      Aluminium Having Dimensionally Stable Metal-Based Anodes,
+and  linear voltammetry allowed a scale to be  built    WO patent 00/06,803 (1999).
+indicating the relative stability of the metals. Gold is the     7. J. Thonstad, Electrochim. Acta 13 (1968) 449.
+                                                                                   8. V. Danek, M. Chrenkova´ and A. Silny´, Coord. Chem. Rev. 167
+most stable, followed by platinum, palladium, copper,                                                                           (1997) 1.
+tungsten, nickel, cobalt and iron. The ﬁrst three metals     9. E.W. Dewing and E.T.v.d. Kouwe, J. Electrochem. Soc. 124 (1)
+exhibit a dissolution potential higher than the oxygen       (1977) 58.
+evolution  potential,  while  the  others  dissolve  at a    10.  I. Barin, O. Knacke and O. Kubashewski, Thermochemical Prop-
+potential under 2.20 V vs Al/AlF3.                                       erties of Inorganic Substances (Springer-Verlag, Berlin, 1991).
+                                                                          11. P. Chamelot, B. Lafage and P. Taxil, J. Electrochem. Soc. 143 (5)
+  In  cryolite  melts,  evolution  of  ﬂuorine  at metal                                                                           (1996) 1570.
+anodes seems  to be impossible without  their rapid    12. A. Solheim, S. Rolseth, E. Skybakmoen, L. Stoen, A˚ . Sterten and
+dissolution. Since neither carbon nor oxide materials       T. Store, Metall. Mater. Trans. B 27 (1996) 739.
+allow ﬂuorine to be evolved under polarisation,  it  is    13. J. Thonstad, F. Nordmo and J.K. Rodseth, Electrochim. Acta 19
+concluded that no anode material  is suitable for this       (1974) 761.
+                                                                          14. W.E. Haupin, JOM-J MIN MET MAT S 23 (1971) 46.
+reaction.                                                                          15. J.J. Duruz, G. Stehle and D. Landolt, Electrochim. Acta 26 (6)
+                                                                           (1981) 771.
+                                                                          16. A. Solheim and A˚. Sterten, in C.E. Eckert (Ed), ‘Activity of Alu-
+                                                              mina in the System NaF–AlF3–Al2O3 at NaF/AlF3 Molar Ratios
+                                                                Ranging from 1.4 to 3, in Light Metals, proceedings of TMS an-
+Acknowledgements                                                  nual meeting’, (San Diego, California, February 27–March 4,
+                                                                       1999) pp. 445–452.
+The authors thank L. Massot (Laboratoire de Ge´nie    17. S.P. Ray,  in R.D. Zabreznik (Ed), ‘Eﬀect of Cell Operating
+Chimique,  Toulouse)  for SEM  imaging.This work       Parameters on Performance of Inert Anodes in Hall–He´roult
+                                                                                     Cells, in Light Metals, Proceedings of TMS Annual Meeting’,
+was supported by Aluminium Pechiney and French
+                                                                               (Cincinnati, Ohio, 1987) pp. 367–380.
+‘‘Ministe`re de l’Economie, des Finances  et de  l’In-    18. H. Xiao, On the Corrosion and the Behaviour of Inert Anodes in
+dustrie’’.                                                     Aluminium Electrolysis, PhD Thesis (NTNU, Trondheim, 1993).

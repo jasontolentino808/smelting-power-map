@@ -1,0 +1,612 @@
+Source: literature/Evaluation of Ni-Fe base alloys as inert anode for low-temperature.pdf
+
+## PDF page 1
+
+                                                       Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+                                             Contents lists available at ScienceDirect
+
+                   Journal of Materials Science & Technology
+
+
+                                             journal homepage: www.elsevier.com/locate/jmst
+
+
+Research Article
+
+Evaluation of Ni-Fe base alloys as inert anode for low-temperature
+aluminium electrolysis
+
+Wei Wei, Shujiang Geng ∗, Fuhui Wang
+
+Shenyang National Laboratory for Materials Science, Northeastern University, No.3-11 Wenhua Road, Shenyang 110819, China
+
+
+
+a r t i c l e    i n f o              a b s t r a c t
+
+
+Article history:                                  Isothermal oxidation behaviors of Ni–Fe (wt.%) and of the same alloy with additions of 10 and 15%Cr al-
+Received 4 June 2021                              loys in the air at 800 °C and 900 °C and their anodic behaviors in aluminum electrolysis system at 800 °C
+Revised 24 July 2021                         were evaluated. The composition morphologies of oxide scales were characterized by XRD, SEM, and EDS.
+Accepted 11 August 2021
+                                                 Results show that the scales formed on Ni–Fe alloy at both temperatures consisted of an inner (Ni,Fe) 3 O 4Available online 8 October 2021
+                                                   layer and an outer Fe 2 O 3 layer. For Ni–Fe–10Cr alloy, an external (Ni,Fe) 3 O 4 /Fe 2 O 3 layers and an internal
+Keywords:                                       oxidation zone were formed at 800 °C, while a continuous Cr 2 O 3 layer forms at the internal oxidation
+Alloy                                           zone/substrate interface at 900 °C. A multilayer structure oxide of Cr 2 O 3 /(Ni,Fe,Cr) 3 O 4 /(Ni,Fe) 3 O 4 /Fe 2 O 3
+Inert anodes                              was formed on Ni–Fe–15Cr alloy at 800 °C, while at 900 °C the Fe 2 O 3 becomes discontinuous disperses
+Selective oxidation                                 in the (Ni,Fe) 3 O 4 layer close to the surface. Increases in oxidation temperature or Cr content for Ni–Fe–Cr
+High temperature corrosion                          alloys promote the growth of the inner Cr 2 O 3 layer and simultaneously reduce Fe 2 O 3 content. After 4 h
+                                                   of electrolysis at an anode current density of 0.25 A cm −2 , the oxidation resistance of Ni–Fe–15Cr anode
+                                                             is superior to the Ni–Fe anode.
+                                 © 2022 Published by Elsevier Ltd on behalf of The editorial oﬃce of Journal of Materials Science &
+                                                                                                                                        Technology.
+
+
+
+
+1. Introduction                                                  has been paid to the development of the inert anode materials for
+                                                            aluminium electrolysis.
+   Currently,  the  carbon  anodes  are  still  used  in  the  Hall-        Since the anode will need not only the corrosion resistance to
+Héroult  electrolysis  cells  for  the  production  of  primary  alu-    the ﬂuoride molten salt, but also the good oxidation resistance in
+minum   [ 1 , 2 ].  During  Al   electrolysis,  the   cell  reaction   is    the oxidizing gases at high temperature [6–8] , the operation stabil-
+2Al 2 O 3(diss) + 3C (s) → 4Al (l) + 3CO 2(g)  ( T = 960  °C), and the carbon     ity of electrolysis cells makes strict demands on the performance
+anodes are gradually consumed. This leads to the emissions of a     of inert anode material. To overcome the highly aggressive environ-
+large amount of carbon dioxide (CO 2 ) and other carbon compounds    ment in Hall-Héroult electrolysis cells, various investigations have
+(CF x ) that reach the atmosphere and increase greenhouse warming    been conducted to ﬁnd a viable inert anode material. At present,
+[ 3 , 4 ].  If the electrolysis cells are equipped with non-consumable     three types of materials, including ceramic, cermet and metallic
+inert anodes, the cell reaction will be: 2Al 2 O 3(diss) →4Al (l) + 3O 2(g) .    anodes, are considered to be promising candidates as inert an-
+One key  characteristic of replacing the carbon anode with an     odes. Ceramic anodes, particularly oxide ceramics, have outstand-
+inert anode  is releasing O 2 instead of CO 2 during the Al elec-     ing properties, such as excellent corrosion resistance and chemi-
+trolysis process. So, the use of non-consumable inert anodes in     cal stability in a highly corrosive environment [9–11] . The most
+the Hall-Héroult  electrolysis  cells would  drastically reduce the     typical case of (Ni,Fe) 3 O 4 spinel has a high melting point, excel-
+emission of greenhouse gases, which are green and clean. Beside,     lent corrosion resistance, and has low solubility in cryolite molten.
+the implementation of inert anode economizes the quality carbon    However, the ceramic belongs to low machinability materials, be-
+materials as well as anode manufacture cost [5] . Therefore, the    cause of its high hardness and brittleness. Beside, the electrical
+substitution of the consumable carbon anodes by an inert anode     conductivity of this material is relatively lower even at high tem-
+is a necessity for modern industry, in view of commercial and en-     peratures. As a consequence, their extensive usage in practical in-
+vironmental perspectives. In the past two decades, much attention     dustrial engineering was limited. The cermet material anode is also
+                                                                   researched widely. It is a kind of composite material, which is usu-
+                                                                                  ally fabricated by the hybrids of ceramic oxides and metals. The
+                                                         main purpose is to obtain the composite material that possesses
+  ∗Corresponding author.                                                the excellent properties of electrical conductivity, high temperature
+    E-mail address: gengsj@smm.neu.edu.cn (S. Geng).
+
+
+
+https://doi.org/10.1016/j.jmst.2021.08.028
+1005-0302/© 2022 Published by Elsevier Ltd on behalf of The editorial oﬃce of Journal of Materials Science & Technology.
+
+## PDF page 2
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+corrosion resistance and wear resistance. Unfortunately, that the     layer of (Ni,Fe) 3 O 4 spinel and oxidation resistant inner layer of
+metal phases generally have higher corrosion rates compared with    Cr 2 O 3 was proposed in our previous work [29] , and preliminary
+the ceramic phase, and then form micro-holes and micro-cracks,     results indicated that this layered oxides structure can achieve a
+leading to potentially serious consequences [12–14] . Metallic an-    good electrical property and a corrosion resistance during short-
+odes, due to their advantages of good electrical conductivity, ex-    term electrolysis in a conventional electrolyte at 960 °C. However,
+cellent thermal-shock resistance and easy processing, are regarded    the oxidation behaviors of Ni–Fe–Cr alloys at 800 °C and 900 °C in
+as the most promising inert anode materials [15–21] . Among the    the air have not been revealed. More importantly, the performance
+metallic anodes, the Ni–Fe-based alloys have been extensively in-     of layered structure protective scale with an outer (Ni,Fe) 3 O 4 spinel
+vestigated and have shown promising properties because of their     layer and an inner Cr 2 O 3 layer on Ni–Fe–Cr alloy has not been in-
+ability to form a corrosion resistant layer of (Ni,Fe) 3 O 4 spinel. Un-     vestigated as inert anodes for low-temperature aluminium electrol-
+fortunately, the developed Ni–Fe-based alloy inert anodes are still      ysis.
+not adequate for aluminum industrial requirements and their main        Herein, the oxidation behaviors of Ni–Fe–Cr alloys with differ-
+problem is lack of high temperature oxidation resistance in alu-    ent Cr contents of 0, 10 and 15 wt.% were investigated in the air
+minium electrolysis conditions, since the metal reacts with oxygen     at 800 °C and 900 °C, respectively. Then the corrosion behaviors of
+spontaneously at high temperature to form the corresponding ox-     pre-oxidized Ni–Fe and Ni–Fe–15Cr alloys were evaluated by gal-
+ides (M (s) + x/2O 2(diss) →MO x(s) ) [20] . Therefore, it is a challenge cur-     vanostatic electrolysis in cryolite-alumina electrolyte at 800 °C.
+rently on improving the oxidation resistance for metallic anodes in
+the electrolysis system. For this purpose, researchers have begun to                                                                                 2. Materials and methods
+attempt to lower the working temperature of the electrolysis cell
+in the past thirty years [22–25] .                                                                                                2.1. Sample preparation
+   Recently, Helle and Gallino et al. investigated the anodic behav-
+ior of Cu–Ni–Fe based alloys in low-temperature ( ∼850 °C) cryolite                                                                   Three Ni–Fe, Ni–Fe–10Cr and Ni–Fe–15Cr cast ingots with the
+electrolyte [6,17–19,21] . Their results showed that in the range of                                                                 composition of Ni/Fe (wt.) of 1.2 [ 29 , 30 ] were fabricated from pure
+45–70 wt.% Cu, 28 −42 wt.% Ni and 13–17 wt.% Fe, especially the                                                                                 Fe, Ni and Cr (Fe, Ni and Fe purity > 99.9%) by high frequency in-
+65Cu–20Ni–15Fe alloys presented a relatively high oxidation re-                                                                   duction melting under argon atmosphere. The test samples were
+sistance and good corrosion resistance. The Cu–Ni–Fe alloy shows                                                                     sectioned in size of 15 × 10 × 1.5 mm from the ingot by electro-
+promising properties as inert anodes mainly because of the forma-                                                                     discharge machine, followed by drilling a 1.5 mm diameter hole
+tion of an adherent and electronically conducting outer CuO layer                                                                          in the upper center. All these coupon surfaces were ground with
+and inner (Ni,Fe) 3 O 4 spinel layer on their surface during Al elec-     SiC papers up to 20 0 0-grit, then they were cleaned ultrasonically
+trolysis. The outer CuO layer formed on Cu–Ni–Fe alloys surface is                                                           and dried ﬁnally. Prior to the oxidation test, their ﬁnal dimen-
+because that the Cu preferentially diffuses to the alloy surface and                                                                       sions were measured and precisely weighed. Similarly, the cylin-
+then reacts with oxygen to form a CuO [ 26 , 27 ]. A large amount                                                                              drical samples were sectioned in size of diameter 8 mm and length
+of copper migrates to the surface to form CuO layer, resulting in                                                              15 mm from the ingot. Subsequently, each cylindrical anode sam-
+the formation of the Cu-depleted region beneath  it, which gives                                                                       ple was ground using silicon carbide abrasive papers down to 20 0 0
+the favorable forming conditions of a (Ni,Fe) 3 O 4 spinel layer and      grit, then cleaned ultrasonically, and ﬁnally dried in air before use.
+subsequently offers good corrosion resistance [21] . Despite the for-
+mation of a double oxide layers structure with an inner layer of
+                                                                                      2.2. Isothermal oxidation tests(Ni,Fe) 3 O 4 spinel and an outer layer of CuO, the inward diffusion
+of oxygen and the outward diffusion of the metal cations from Cu–
+                                                                      Oxidation tests were carried out in a box furnace, and the sam-Ni–Fe anodes substrate are still not able to suppress during Al elec-
+                                                                        ples were isothermally oxidized in the air at 800 °C for 150 h andtrolysis. This caused two major problems. Firstly, the oxide scale
+                                                         900 °C for 100 h, respectively. The samples were hung in aluminaformed on the anode surface was constantly thickened with in-
+                                                                          crucibles and then were heated at a rate of 8 °C min −1 . Whencreased the time of electrolysis, causing the surface scale to spall.
+                                                                   the temperature of furnace reached to the desired temperature,Moreover, since the metal cations continuously diffuse outwards,
+                                                                   the timer was started, and the samples were isothermally oxidized.depletion zone and voids are generated in the anode substrate be-
+                                                          Once completing isothermal oxidation, the furnace was turned offneath the oxide scale, especially near the oxide/anode substrate
+                                                           and samples were cooled along with the furnace to room temper-interface. This facilitates to form the metal ﬂuorides (MF x ) inclu-
+                                                                            ature. Their mass gains were then measured by using an electronicsion in the alloy anode substrate or even a MF x layer at the ox-
+                                                                        balance. Experiments were performed in quadruplicate for each al-ide/alloy interface during prolonged electrolysis because of the ﬂu-
+                                                                        loy to take average of the mass gain, and then their isothermalorine ion penetration through the surface scale [ 21 , 28 ]. It is an im-
+                                                                      oxidation kinetic curves were determined.portant cause for the progressive increase of the cell voltage dur-
+ing Al electrolysis. Second, the spallation of the surface scale on al-
+loy anodes not only damages its protective function, but also pol-      2.3. Aluminium electrolysis tests
+lutes the Al metal product. Indeed, obtaining a metallic inert an-
+ode with a long-term viability in the high temperature (960 °C)      Aluminum electrolysis was performed at 800 °C in an elec-
+cryolite-alumina molten electrolyte is quite challenging. Therefore,     trolyte composed of 49.5 wt.% Na 3 AlF 6 , 27.5 wt.% AlF 3 , 4.25 wt.%
+researchers have been using the low-temperature (700–850 °C)    CaF 2 , and 4.5 wt.% Al 2 O 3 . The crucible contained a total of 80 g
+cryolite electrolyte for aluminium electrolysis to decrease the elec-     electrolyte. The electrolyte was contained in a high purity graphite
+trode oxidation/corrosion rate [25] . For these reasons, it is essen-     crucible which was ﬁtted with an open-ended sintered alumina
+tial to further improve the high-temperature oxidation resistance     liner to prevent the ﬂow of current through the sides of the cell. A
+of the oxide scale formed on Ni–Fe-based anodes through the com-    high purity graphite crucible was used as the cathode. Electrolysis
+position design of alloy anodes.  It is important to note that the     tests were performed at an anode current density of 0.25 Acm −2
+protective layer acts as a diffusion barrier for further limiting the     for 4 h using a two electrodes conﬁguration cell. The schematic
+transportation of metal cations from the anode to the reaction    diagram of laboratory electrolysis cell was presented in detail else-
+interface and has acceptable electrical conductivity. Towards this    where [29] . The cylindrical anode sample ( d = 8 mm, h = 15 mm)
+end, a novel layered oxides structure with corrosion resistant outer    was connected to the power supply using threaded stainless steel
+
+
+                                                                           217
+
+## PDF page 3
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+
+
+           Fig. 1. Mass gains of three alloys oxidized at 800 °C (a) and 900 °C (d) in air. (b) and (c) linear regression-ﬁtted line of (  W/A) 2 versus oxidation time.
+
+rods. The distance between the anode and the cathode in the ver-    from the Fig. 1 (a) that the Ni–Fe alloy at 800 °C has the largest
+tical direction 30 mm was employed. Electrolysis was initiated af-    mass gain among three alloys, followed by the Ni–Fe–10Cr alloy,
+ter immersing the anode for 3 min into the molten electrolyte and    then the Ni–Fe–15Cr alloy. After 150 h of oxidation, the mass gains
+passing a current through it using DC Power Supply (HAT3005D).     of Ni–Fe, Ni–Fe–10Cr and Ni–Fe–15Cr alloys are 8.90 mg cm −2 ,
+The cell voltages were recorded by a digital multimeter (Keysight     7.76 mg cm −2 and 2.63 mg cm −2 , respectively. Moreover, their ox-
+Truevolt 34461A). After electrolysis, the anode was raised 20 mm     idation kinetics approximately followed a parabolic growth law
+above the molten electrolyte and the furnace power switched off,     at 800 °C, as shown in Fig. 1 (b), indicative of solid-state diffu-
+then it was cooled to room temperature with furnace.                 sion being the rate-determining step during oxidation. The calcu-
+                                                                         lated parabolic-rate constants (k p values) of the Ni–Fe, Ni–Fe–10Cr
+2.4. Sample characterization                                     and Ni–Fe–15Cr alloys are around 5.15 × 10 −7 , 4.06 × 10 −7 and
+                                                                    4.98 × 10 −8 , respectively. Evidently, the oxidation rate of Ni–Fe is
+   The phase structure of oxide scale thermally grown on alloys     close to that of Ni–Fe–10Cr alloy, but much higher than that of
+was examined by the X-ray diffraction (XRD, PANalytical X’pert    the Ni–Fe–15Cr alloy, suggesting that the thermally grown oxides
+Pro) using Cu-K α radiation and nickel ﬁlter at 40 mA under a volt-    on the Ni–Fe and Ni–Fe–10Cr alloys have a very high growth rate
+age of 40 kV. The samples were scanned in the 2 θ range of 20–    compared to the Ni–Fe–15Cr alloy.  It can be also observed that
+90 ° and the scan speed was 7 ° min −1 with the step of 0.02 °. The     three alloys have a sharp increase in mass gain at the initial ox-
+cross-section morphology of the oxide scales formed on the sam-     idation stages of 30 h, and subsequently their mass gain mono-
+ple was characterized by Scanning Electron Microscopy (SEM, FEI     tonically increases with oxidation time, despite their growth rate
+Quanta 250 ﬁeld emission). Energy Dispersive X-ray Spectroscopy     relatively slow. Those changes in mass gains indicate that the ox-
+(EDS) measurements were carried out to determine the oxide scale     idation behavior of Ni–Fe–10Cr alloy at 800 °C looks very similar
+(product) compositions.                                                 to the Ni–Fe alloy. By contrast, a rapid mass gain was observed for
+                                                               Ni–Fe–15Cr alloy in the ﬁrst 50 h oxidation, and then no substan-
+3. Results and discussion                                                         tial increase in mass gain was observed, it seems to reach a steady
+                                                                            state level. It suggests that a protective oxide layer is developed on
+3.1. Oxidation kinetics                                               the Ni–Fe–15Cr alloy after 50 h oxidation and impedes the further
+                                                                          oxidation.
+    Fig. 1 shows mass gains curves and parabolic oxidation kinetics       At 900 °C,  it can be seen from Fig. 1 (c) that the Ni–Fe and
+of the three alloys oxidized in air at 800 °C and 900 °C. It is clear    Ni–Fe–15Cr alloy also have a largest and smallest mass gain, re-
+
+
+
+
+                                                                          218
+
+## PDF page 4
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+spectively, while mass gain of the Ni–Fe–10Cr alloy was between     inner layer is rich in Cr and O. Its total thickness is approximately
+them. After 100 h oxidation, the mass gains of the Ni–Fe, Ni–Fe–    35 μm, which is obviously thinner than those of the Ni–Fe–10Cr
+10Cr and Ni–Fe–15Cr alloys were 11.51 mg cm −2 , 8.68 mg cm −2 ,    and the Ni–Fe alloys. These results are good consistent with their
+and 2.26 mg cm −2 , respectively. The k p values of the Ni–Fe, Ni–    mass gains ( Fig. 1 ). It is noted that some greyish-white oxides can
+Fe–10Cr and Ni–Fe–15Cr alloys are 1.31 × 10 −6 , 7.44 × 10 −7 and    be observed in the (Ni,Fe,Cr)-oxide layer, as shown in Fig. 2 (f). The
+3.36 × 10 −8 , respectively, as shown in Fig. 1 (d). Obviously, the ox-    EDS line scans analysis also reveal that the Ni% increases while the
+idation rates of alloys at 900 °C are higher than those at 800 °C,    Cr% decreases conversely in the greyish white phases, indicating
+except for the Ni–Fe–15Cr alloy with a similar value. But it must be     that those white oxides are Ni-rich (Ni,Fe,Cr)-oxide phase.
+pointed out that mass gains corresponding to oxidation at 800 °C         Fig. 3 shows the SEM cross-section morphologies of Ni–Fe (a, b),
+have been obtained after 150 h oxidation whereas those at 900 °C    Ni–Fe–10Cr (c, d) and Ni–Fe–15Cr (e, f) alloys after 100 h oxidation
+were obtained from only 100 h oxidation. For Ni–Fe alloy, the ten-     at 900 °C in the air and the corresponding EDS elements line scan
+dency of oxidation at 900 °C was similar to that at 800 °C, show-     analysis. It can be clearly seen that the oxide scales on three al-
+ing a continuous increase in mass gain with oxidation time. In     loys remained well adherent to their alloy substrate and there are
+contrast, the mass gain of Ni–Fe–10Cr alloy after 70 h oxidation    no obvious cracks. According to the SEM/EDS results ( Fig. 3 a and
+increases slowly with increasing time, which is signiﬁcantly dif-      b), the structure and constitution of oxide scale on Ni–Fe alloy is
+ferent from that oxidized at 800 °C. It is possible that a protec-     basically the same as that obtained at 800 °C after 150 h oxida-
+tive oxide layer is formed on Ni–Fe–10Cr alloy after 70 h oxida-     tion, consisting of an inner layer of (Ni,Fe)-oxide and an outer layer
+tion, thereby reducing its oxidation rate. For Ni–Fe–15Cr alloy, a     of Fe-rich oxide. Its total thickness is approximately 60 μm. For
+sharp increase of the mass gain was observed in the ﬁrst 20 h    Ni–Fe–10Cr alloy, a continuous Cr-rich oxide layer is developed be-
+oxidation, and subsequently the mass gain reaches a steady state    tween IOZ and substrate, as revealed in Fig. 3 (c and d), in addition
+level. Apparently, higher temperature would accelerate the forma-     to the IOZ (40 μm width) beneath the surface scale (55 μm) which
+tion of the protective oxide layer. In addition, the higher Cr content     consists of the inner (Ni,Fe)-rich oxide layer and the outer Fe-rich
+in Ni–Fe–Cr alloys also helps from a protective oxide layer. These    oxide layer. Evidently, Ni–Fe–10Cr alloy can generate a continu-
+results indicated that temperature and chromium content play sig-    ous Cr-rich oxide layer when the oxidation temperature is raised
+niﬁcant roles in the formation of protective oxide layer and the ox-     to 900 °C. So, the formation of the inner Cr-rich oxide layer for
+idation mechanism for Ni–Fe–Cr alloys, which will be present and    Ni–Fe–Cr alloy also is strongly inﬂuenced by the oxidation temper-
+discussed in the next section in detail.                                   ature, in addition to the Cr content. It is indisputable that an in-
+                                                                      crease in the temperature can facilitate the development of the in-
+3.2. Microstructures of the oxide scales                               ner Cr-rich oxide layer on the Ni–Fe–Cr alloy. It can be clearly seen
+                                                                        that tri-layered structure oxide scale with a thickness of 38 μm
+   The cross-sectional SEM images and the corresponding EDS el-     are formed on Ni–Fe–15Cr alloy, as shown in Fig. 3 (e and f). The
+ements line scan analysis of oxide scales formed on Ni–Fe, Ni–    outer layer is (Ni,Fe)-rich oxide with some amount of Fe-rich oxide
+Fe–10Cr and Ni–Fe–15Cr alloys after 150 h oxidation at 800 °C     particles, the middle layer is (Ni,Fe,Cr)-oxide, and the inner layer is
+in the air are shown in Fig. 2 (a −f). It can be seen in Fig. 2 (a −f)     Cr-rich oxide based on the results of SEM/EDS analysis. Compared
+that the morphologies of oxide scales formed on three alloys were    with the oxidized at 800 °C, no signiﬁcant change was observed
+quite different. According to the Fig. 2 (a) and (b), the oxide scale     in oxide scale at 900 °C for Ni–Fe–15Cr alloy, except the discontin-
+formed on Ni–Fe alloy is about 52 μm thick and exhibits a dou-    uous Fe-rich oxide. Comparison from the cross-sections indicates
+ble layer structure comprising an inner (Ni,Fe)-oxide layer and an    the Fe-rich oxide in surface scales on Ni–Fe, Ni–Fe–10Cr and Ni–
+outer Fe-rich oxide layer. Moreover, some internal Fe-rich oxide    Fe–15Cr alloys at 900 °C are signiﬁcantly thinner than those form-
+(FeO/Fe 3 O 4 ) precipitates were observed in the substrate near the     ing at 800 °C, suggesting that the Fe-rich oxide on Ni–Fe–Cr alloy
+substrate/oxide interface, which is primarily because of the selec-      is decreased with increase of the temperature.
+tive oxidation of Fe in alloy substrate under low oxygen pressure
+[31–33] . For Ni–Fe–10Cr alloy after oxidation, an about 50 μm      3.3. Phase structure of surface scale
+thick oxide scale was formed, as shown in Fig. 2 (c and d). Its
+structure and components are similar to that formed on Ni–Fe al-         Fig. 4 shows the XRD patterns of surface scales formed on the
+loy, composing of an inner (Ni,Fe)-oxide layer and an outer Fe-rich     Ni–Fe, Ni–Fe–10Cr, and Ni–Fe–15Cr alloys after oxidation in air at
+oxide layer. Interestingly, an internal oxidation zone (IOZ) with a    800 °C for 150 h and 900 °C for 100 h, respectively. Combining
+width of 40 μm can be observed in alloy substrate beneath the    the XRD result with the EDS elements line scan analysis, it is con-
+substrate/oxide interface. The presence of IOZ was often mentioned    cluded that the oxide scales formed on Ni–Fe, Ni–Fe–10Cr, and Ni–
+in the literatures about the research of Fe-base, Ni-base, and Ni–Fe    Fe–15Cr alloys after oxidation at 800 °C and 900 °C are composed
+base containing chromium alloys and was mainly due to the fact     of Fe 2 O 3 and (Ni,Fe) 3 O 4 spinel. Thus, it is conﬁrmed that the Fe-
+that the Cr in alloy substrate was selectively oxidized by the in-     rich oxide and (Ni,Fe)-rich oxide in scales on three alloys should
+ward diffusion of oxygen anions [ 31 , 34 , 35 ]. It can be clearly seen    be Fe 2 O 3 and the (Ni,Fe) 3 O 4 spinel, respectively. However, it may
+that the IOZ is composed of oxide precipitates (darker regions) and    be noted that the oxide scales formed on Ni–Fe–xCr alloys after
+remaining metal (brighter regions). The SEM/EDS analysis reveal     oxidation at the two temperatures are thicker than 30 μm, which
+that the darker region contains a large amount of Cr, Fe and O,      is greater than X-ray penetration depths. Thus, the XRD spectra for
+which are mainly (Fe,Cr) 3 O 4 particles, while the brighter regions    the scales produced after oxidation represent only the exterior por-
+are Ni-rich alloy. This is mainly attributed to the preferential oxida-     tion of the oxide scales, therefore these underlying phases could
+tion of Cr and Fe under low oxygen pressure, resulting in an effec-    not be detected. To further identify the phase structure of the un-
+tive increase of the Ni atomic ratio, and therefore the rest of alloy     derlying oxides of scale formed on Ni–Fe–15Cr alloy after oxidation
+in the IOZ displays enrichment of Ni [ 36 , 37 ]. For Ni–Fe–15Cr alloy     at 800 °C and 900 °C, slight polishing for surface scale was con-
+( Fig. 2 e), the morphology of oxide scale was different from that on     ducted, and then the polished scale was identiﬁed by X-ray diffrac-
+Ni–Fe–10Cr alloy. The oxide scale can be identiﬁed as four layers     tion, as shown in Fig. 4 (c). It is evident that the diffraction peak
+based on the results of SEM/EDS analysis, as shown in Fig. 2 (e and     of matrix phase has been detected on scales for oxidized Ni–Fe–
+f). The outermost layer is rich in Fe and O, the outer layer is rich    15Cr alloy after slight surface polishing, suggesting the penetration
+in Ni, Fe and O, the middle layer is rich in Ni, Fe, Cr and O and the     of X-ray through the oxide scale. By comparing and analyzing, we
+
+
+                                                                          219
+
+## PDF page 5
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+
+
+              Fig. 2. Cross-section SEM images (a, c, e) with their corresponding elements line scan (b, d, f) of three alloys after 150 h oxidation at 800 °C in air.
+
+
+believe that the Cr-rich oxide and (Ni,Fe,Cr)-oxide are Cr 2 O 3 and     layer close to the surface at 900 °C. It is worthwhile noting that
+(Ni,Fe,Cr) 3 O 4 spinel, respectively. So, as for Ni–Fe–10Cr alloy oxi-    the relative peak intensity of the (Ni,Fe) 3 O 4 spinel at 30.5 ° and
+dized at 900 °C, the interfacial Cr-rich oxide layer should be iden-    62.8 ° on three alloys oxidized at 900 °C is stronger than those ox-
+tiﬁed as Cr 2 O 3 layer, and the middle layer of (Ni,Fe,Cr)-oxide in     idized at 800 °C, thus evidencing that the content of (Ni,Fe) 3 O 4
+scales formed on Ni–Fe–15Cr alloy after oxidation is (Ni,Fe,Cr) 3 O 4     spinel in oxide scales formed on three alloys  is increased with
+spinel. Therefore, the surface scales on Ni–Fe alloy at both temper-    the increase of temperature. These results are in good agreement
+atures are made up of an inner layer of (Ni,Fe) 3 O 4 and an outer    with the observations of the cross-sectional SEM in section 3.2
+layer of Fe 2 O 3 . For Ni–Fe–10Cr alloy, the oxide scale at 800 °C con-     above.
+sists of an outer layer of Fe 2 O 3 and an inner layer of (Ni,Fe) 3 O 4           It is evident from the results above that the thickness of the
+spinel, in addition to an IOZ beneath the (Ni,Fe) 3 O 4 spinel layer,    Fe 2 O 3 layer in oxide scale on Ni–Fe–10Cr alloy is basically the same
+while a continuous Cr 2 O 3 layer is formed at 900 °C between IOZ     as that on Ni–Fe alloy for same oxidized period, but is much less
+and substrate. For Ni–Fe–15Cr  alloy, the oxide scales are com-    than that on Ni–Fe–15Cr alloy, as revealed in Figs. 2 and 3 . Ap-
+posed of Cr 2 O 3 layer, (Ni,Fe,Cr) 3 O 4 spinel layer, (Ni,Fe) 3 O 4 spinel     parently, the thickness of the Fe 2 O 3 layer in oxide scales on Ni–
+layer, and Fe 2 O 3  layer, along the direction of inside to outside.    Fe–Cr alloys is decreased with the increase of Cr content from 10%
+The Fe 2 O 3 is discontinuous and scattered in the (Ni,Fe) 3 O 4 spinel     to 15%, which is related to the result of the formation of protec-
+
+
+                                                                     220
+
+## PDF page 6
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+
+
+                       Fig. 3. Cross-section SEM images with their corresponding elements line scan of three alloys after 100 h oxidation at 900 °C in air.
+
+
+
+tive Cr 2 O 3 inner layer at the interface of IOZ/alloy substrate. It has     strate interface in the growth process of oxide scale, as revealed in
+been demonstrated that the higher Cr content in Ni–Fe–Cr alloy      Fig. 3 (c). While at 960 °C, it only takes 15 h to form the continuous
+promotes the establishment of inner Cr 2 O 3 layer [38] . Due to the    Cr 2 O 3 layer [38] . These clearly demonstrate that an increase of the
+early development of protective Cr 2 O 3 layer on high Cr content al-    temperature can signiﬁcantly promote to establish the formation of
+loy, the outward diffusion of Fe cations is impeded, thereby leading    a continuous inner Cr 2 O 3 layer on Ni–Fe–Cr alloys. It is also found
+to forming a relatively thin Fe 2 O 3 layer on alloy surface.               that the Fe 2 O 3 layer in scales formed on Ni–Fe, Ni–Fe–10Cr, and
+    It is interesting to note that the oxidation kinetics of Ni–Fe–    Ni–Fe–15Cr alloys after oxidation at 800 °C is thicker than those at
+10Cr alloy at 900 °C is different from that at 800 °C, as seen in    900 °C. By comparison, the distribution of Fe 2 O 3 in oxide scale on
+Fig. 1 . In detail, at 800 °C, its mass gain increased continuously     three alloys is completely different from those obtained at 960 °C
+with time. However, at 900 °C, a sharp increase in the mass gain     oxidation for 30 h [29] . For oxide scales on Ni–Fe and Ni–Fe–10Cr
+with increasing oxidation time  is  initially observed, and subse-     alloys after oxidation at 960 °C, only small amount of Fe 2 O 3 par-
+quently the mass gain slowly increases over the oxidation time,     ticles are dispersed in the (Ni,Fe) 3 O 4 spinel layer, rather than as
+since a continuous Cr 2 O 3 layer is established at the IOZ/alloy sub-    a continuous Fe 2 O 3 layer. In particular, no obvious Fe 2 O 3 particle
+
+
+                                                                       221
+
+## PDF page 7
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+
+
+Fig. 4. XRD patterns of the surface scales formed on three alloys after oxidation in air at 800 °C (a) for 150 h and at 900 ° (b) for 100 h, respectively. (c): after slight surface
+polishing for Ni–Fe–15Cr alloy oxidized at 900 °C and 800 °C in air.
+
+
+was observed on the surface scale for Ni–Fe–15Cr alloy. Clearly,     strate quickly increased, causing a rapid outward diffusion of Ni
+the content of Fe 2 O 3 formed on Ni–Fe–Cr alloys during oxidation    and the formation of (Ni,Fe) 3 O 4 spinel. Meanwhile, the IOZ also
+is reduced as an increase of the temperature, while the (Ni,Fe) 3 O 4    squeezes Ni into the external oxide scale because of volume ex-
+spinel content is increased conversely.                              pansion of internal oxides, the Ni migration to the external scale is
+    It is well known that the oxidation kinetics of metallic alloy is    promoted. Therefore, the Fe 2 O 3 in scale formed on Ni–Fe–Cr alloys
+controlled by solid-state diffusion which is the rate-limiting step      is reduced signiﬁcantly as an increase of the temperature.
+throughout the oxidation reaction [39] . Generally, the outward dif-           It must be pointed out that, the scale thickness formed on Ni–
+fusion of Cr ions is much faster than that of iron, while nickel    Fe alloy oxidized at 800 °C is thinner than that obtained at 900 °C,
+is the slowest diffusing species. Nonetheless, the (Ni,Fe) 3 O 4 /Fe 2 O 3     despite the longer oxidation time. Namely, the growth rate of oxide
+scale grows outwards on original surface of Ni–Fe and Ni–Fe–10Cr     scale formed on Ni–Fe alloy can be reduced by reducing the tem-
+and Ni–Fe–15Cr substrates by outward diffusion of Fe and Ni dur-     perature. This is mainly because the diffusion coeﬃcients of metal
+ing the oxidation process because of the high activity of Fe and Ni     cations and oxygen anion are decreased with the decreasing of the
+in the present alloy. It is well known that the oxidation rate usu-    temperature [40–42] . Thus, the diffusion rates of metal cations and
+ally increases with increasing temperature due to a faster trans-    oxygen anion through the oxide scale are slow at lower tempera-
+port of reactants through the scales [27,31,40–42] . In other words,     tures. Nonetheless, the mass gain of Ni–Fe alloy even at 800 °C
+the Fe and Ni cations diffuse outwards at 900 °C faster than at    continuously increased with increasing the time according to the
+800 °C. This leads to an increasing concentration of Cr in alloy sub-     oxidation kinetic ( Fig. 1 ). In other words, the Ni–Fe alloy has still
+strate as well as the concentration of Cr at the IOZ/alloy substrate    poor oxidation resistance at 800 °C in the air. This evidence veri-
+interface. Thus, the required time for the formation of a continu-    ﬁes that the oxide scale containing of (Ni,Fe) 3 O 4 inner layer and
+ous Cr 2 O 3 layer at the IOZ/substrate interface shortened with the    Fe 2 O 3 outer layer on alloy surface is  still insuﬃcient to impede
+increasing of temperature. Once the continuous layer of Cr 2 O 3 is    the outward diffusion of metal cations from the substrate when
+formed, which acts as a diffusion barrier and effectively reduces     oxidation is performed at 800 °C. This sort of behavior is also ob-
+the outward diffusion of Fe from the alloy substrate to surface to    served for Ni–Fe–10Cr alloy oxidized at 800 °C. In contrast, the ox-
+form the Fe 2 O 3 . Additionally, because of the high chemical activity     ide scale containing Cr 2 O 3 inner layer formed on Ni–Fe–15Cr alloy
+and the high diffusion rate at higher temperatures, large amount of    provides an excellent oxidation resistance at both temperatures,
+Fe cations migrate to the surface, the concentration of Ni in sub-    because the mass gain only slightly increases with oxidation time
+
+
+
+                                                                     222
+
+## PDF page 8
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+                                                                  continuous layer inner of Cr 2 O 3  is formed between IOZ and Ni–
+                                                                Fe–10Cr alloy substrate. Eventually, the IOZ is further converted
+                                                                         to a middle layer of (Ni,Fe,Cr) 3 O 4 spinel, because a triple-layered
+                                                                   oxide scale with an inner layer of Cr 2 O 3 , an intermediate layer
+                                                                           of (Ni,Fe,Cr) 3 O 4 , and an outer layer of (Ni,Fe) 3 O 4 /Fe 2 O 3 layer  is
+                                                            formed on Ni–Fe–15Cr alloy after oxidation at 900 °C. Thus, it can
+                                                             be inferred that the growth process of surface scale on three alloys
+                                                                            at temperature of both 800 °C and 900 °C are basically similar to
+                                                                   those at 960 °C, in addition to the Ni–Fe–10Cr alloy at 800 °C. Dur-
+                                                                      ing the oxidation process, an outward growing (Ni,Fe) 3 O 4 /Fe 2 O 3
+                                                                           layer and a Cr internal oxidation zone were initially formed on
+                                                                Ni–Fe–Cr alloy. With increasing oxidation time, a continuous in-
+                                                                  ner layer of Cr 2 O 3 was formed between the internal oxidation zone
+                                                           and the substrate, and subsequently the internal oxidation zone
+                                                        was further oxidized into (Ni,Fe,Cr) 3 O 4 spinel layer by the inwardly
+                                                                           diffusing oxygen, establishing the multi-layered oxide scale [38] .
+                                                                     For the Ni–Fe–10Cr alloy at 800 °C, since the Cr 2 O 3 layer cannot
+                                                             be formed at the alloy substrate/IOZ interface, the thicknesses of
+                                                                IOZ and (Ni,Fe) 3 O 4 /Fe 2 O 3 layer will increase continuously as oxi-
+                                                                    dation time.
+
+Fig. 5. Cell voltage vs. electrolysis time at I anode = 0.25 A ·cm −2 in cryolite-alumina
+electrolyte at 800 °C for pre-oxidised Ni–Fe and Ni–Fe–15Cr alloy anodes.               3.4. Electrolysis tests
+
+
+                                                                  To further investigate the performance of layered protective
+after the ﬁrst oxidation stages, as shown the oxidation kinetics of     scale, the Ni–Fe and Ni–Fe–15Cr alloys after pre-oxidized at 900 °C
+Fig. 1 .                                                                       for 100 h in the air for application as an anode material in Hall-
+    It also can be seen from the  Figs. 2 and 3 that the outer    Héroult electrolysis cells, and then their microstructure were ana-
+(Ni,Fe) 3 O 4 /Fe 2 O 3 layer and the IOZ are generated ﬁrst and then a     lyzed. In the present electrolysis system, the ohmic resistance is
+
+
+
+
+
+Fig. 6. SEM/BSE cross-section images with corresponding EDS element maps of pre-oxidized Ni–Fe (a, b) and Ni–Fe–15Cr (c, d) anodes after 4 h of electrolysis at 800 °C, (a)
+and (c): low magniﬁcation SEM; (b) and (d): magniﬁed images and corresponding EDS line scan of the white rectangular areas in (a) and (c), respectively.
+
+
+                                                                     223
+
+## PDF page 9
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+
+
+
+                                                                                       Fig. 6. Continued
+
+
+composed mainly of electrode connection resistance, electrolyte      Fig. 6 (b) and (d) are magniﬁed images and corresponding EDS ele-
+resistance, and external circuit and electrode resistances. So the    ments maps from the white rectangular areas in Fig. 6 (a) and (c),
+ohmic drop mainly depends on the electrical resistance of the ox-     respectively. It can be seen from the Fig. 6 (a) and (c) that surface
+ide scale on anode surface, because the electrolyte, external cir-     scales on both alloy anodes are continuous and uniform. Moreover,
+cuit, and electrode connection resistances in electrolysis system are    the scales adhered to the surface of anode substrates, and no sig-
+same for both alloy anodes. That is to say, the cell voltages can    niﬁcant spallation is observed. The surface scale on Ni–Fe alloy an-
+reﬂect the electrical conductivity of oxide scale grown on anode.    ode after electrolysis is about 50 μm thick and consist of an inner
+Fig. 5 shows the evolution of cell voltage during 4 h of electrolysis     layer of (Ni,Fe)-oxide and an outer layer of Fe-rich oxide according
+at 800 °C in molten cryolite-alumina electrolytes with pre-oxidized     to the SEM/EDS analysis ( Fig. 6 b). The thickness of (Ni,Fe)-oxide
+Ni–Fe and Ni–Fe–15Cr alloy anodes. For Ni–Fe anode, an increase     layer and Fe-rich oxide layer are 38 μm and 12 μm, respectively.
+of the cell voltage was observed during the ﬁrst 50 min of elec-    Compared to the results in Fig. 3 (a), evidently, a Ni-rich (Ni,Fe)-
+trolysis, which was usually ascribed to the growth of oxide scale    oxide layer with a thickness about 10 μm is formed at the inter-
+on anode surface, resulting in an increase of the ohmic drop [28] .     face of oxide scale/alloy substrate Ni–Fe anode after electrolysis,
+Then, its cell voltage reached a relatively stable state with a value    except that the Fe 2 O 3 layer has dwindled from 20 μm to 12 μm
+of around 3.7 V, despite a slight ﬂuctuating during the experiment.     as shown in Fig. 6 (b). For Ni–Fe–15Cr alloy anode after electrol-
+This steady stage is generally considered as the dynamic balance      ysis, the surface scale is around 43 μm thick and presents a tri-
+process between oxide formation and oxide dissolution [ 43 , 44 ]. For     layer oxide structure including an outer layer of (Ni,Fe)-oxide, a
+Ni–Fe–15Cr anode, a slow increase in the cell voltage from 3.6 to    middle layer of (Ni,Fe,Cr)-oxide and an inner layer of Cr-rich ox-
+3.9 V was observed during the 4 h of electrolysis. Clearly, the cell     ide. Clearly, the microstructure of layered scale on Ni–Fe–15Cr al-
+voltage of the Ni–Fe–15Cr alloy anode is signiﬁcantly more stable     loy anode after electrolysis is the same as that obtained at 900 °C
+than that of Ni–Fe anode. It is also observed that Ni–Fe and Ni–     in  air, except for the disappearance of the top layer of Fe 2 O 3 .
+Fe–15Cr anodes have nearly the same value of cell voltage dur-    These results manifested that the oxide scales formed on both al-
+ing the 4 h electrolysis, except their initial stage. This indicates     loy anodes after pre-oxidation acts as an effective barrier to pre-
+that the (Ni,Fe) 3 O 4 -rich spinel layer on top of the Cr 2 O 3 layer ther-    vent the penetration of molten electrolyte into the scale/alloy sub-
+mally grown on Ni–Fe–15Cr alloy anode has a good electrical per-     strate interface during electrolysis. However, it is clearly visible the
+formance at 800 °C.                                                 outer layer of Fe 2 O 3 formed on Ni–Fe anode after electrolysis is
+                                                                   only about 12 μm thick, which is much thinner than that of pre-
+3.5. SEM/EDS analysis of the corrosion products                         oxidized Ni–Fe anode (20 μm thick). In contrast, the thickness of
+                                                                              (Ni,Fe) 3 O 4 spinel layer on Ni–Fe–15Cr anode after electrolysis is
+    Fig. 6 shows the cross-sectional SEM images of the pre-oxidized    30 μm, which is almost equal to that oxidized at 900 °C in air for
+Ni–Fe and Ni–Fe–15Cr anodes after 4 h of electrolysis at 800 °C.    100 h. Moreover, there is no Fe 2 O 3 layer to be found (see Fig. 6 d).
+
+
+                                                                     224
+
+## PDF page 10
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+                                                                    oxides formed under Cr 2 O 3 layer for Ni–Fe–15Cr anode after elec-
+                                                                                     trolysis. Additionally, the F −in the molten cryolite-alumina salts
+                                                                           diffuses into the Ni–Fe and Ni–Fe–15Cr substrates during electrol-
+                                                                              ysis as some amount of ﬂuoride is observed near the interfaces of
+                                                                          scale/substrate for both alloy substrates. The EDS elements maps
+                                                           and line scans results ( Fig. 6 b and d) show that the concentra-
+                                                                         tion of F in Ni–Fe alloy substrate is higher than that in Ni–Fe–
+                                                                15Cr alloy substrate. This reveals that the inward diffusion of F −
+                                                                          in cryolite-alumina molten salts are inhibited to some extent by
+                                                                         protective scale consisting of Cr 2 O 3 /(Ni,Fe,Cr) 3 O 4 /(Ni,Fe) 3 O 4 layers
+                                                            formed on Ni–Fe–15Cr anode. Thus, an improvement of oxidation
+                                                           and corrosion resistance is observed on the pre-oxidized Ni–Fe–
+                                                                15Cr alloy.  It is noted that the crack is observed between scale
+                                                           and substrate for Ni–Fe–15Cr alloy anode. In general, crack could
+                                                                      lead to scale breaking during the electrolysis process, such as local
+                                                                           spallation/corrosion, however, all of which are not observed in our
+                                                                             case. Therefore, the crack should be occurred during cooling pro-
+                                                                       cess most likely due to the big difference in the coeﬃcients of ther-
+                                                          mal expansion (CTE) between the alloy and the Cr 2 O 3 layer [49] .
+                                                                                         Fig. 7 shows the high magniﬁcation SEM micrographs of the
+                                                                    outer layer regions in Fig. 6 (b) and (d).  It is clear that the sur-
+                                                                          faces of scales on Ni–Fe and Ni–Fe–15Cr alloy anodes are remark-
+                                                                      ably different. As displayed in Fig. 7 (a), a serrated cross-section in
+                                                                      contact with the electrolyte can be observed for Ni–Fe alloy an-
+                                                                      ode.  It is obvious that the outer layer of scale on Ni–Fe anode
+                                                                                          is mainly Fe 2 O 3 and appears to be too loose. This phenomenon
+                                                                                          is possibly caused by the quick dissolution of Fe 2 O 3 in cryolite-
+                                                               alumina molten salts, because nearby there are no obvious Fe 2 O 3
+                                                                 fragments found. For Ni–Fe–15Cr anode after electrolysis, a lot of
+                                                                              (Ni,Fe) 3 O 4 spinel fragment existed in the electrolyte near the scale
+                                                                            surface, as shown in Fig. 7 (b). It is no doubt that the (Ni,Fe) 3 O 4
+                                                                         spinel layer scale close to surface was corroded by molten salts
+                                                                         aggressively attacking inwards, leading to (Ni,Fe) 3 O 4 spinel becom-
+                                                                      ing loose. This occurred preferentially along the grain boundaries
+                                                                           of (Ni,Fe) 3 O 4 spinel or defects [ 50 , 51 ]. These iterative processes ul-
+                                                                      timately result in the formation of voids and cracks and subse-
+                                                                   quently loosened (Ni,Fe) 3 O 4 spinel particles away from the scale
+                                                             by action of the oxygen bubbles during the electrolysis process. In
+Fig. 7. Cross-sectional SEM/BSE images of scales on pre-oxidized Ni–Fe and Ni–Fe–    other words, in addition to dissolved in cryolite-alumina molten
+15Cr alloy anodes after 4 h of electrolysis at 800 °C: expanded images of the outer
+layer regions, (a): Ni–Fe anode, (b) Ni–Fe–15Cr anode.                                   salts, the (Ni,Fe) 3 O 4 in the form of particle is peeling off the scale
+                                                                  during electrolysis, which is also one of the main cause of con-
+                                                             sumption of (Ni,Fe) 3 O 4 spinel layer. Despite that, compared with
+Thus we can infer that the original Fe 2 O 3 layer in scales formed    the Fe 2 O 3 , the (Ni,Fe) 3 O 4 spinel provided better protection against
+on both Ni–Fe and Ni–Fe–15Cr alloy anodes after oxidation has     corrosion by molten salts.
+been severely dissolved during electrolysis of 4 h, indicating the     We should stress that long-term electrolysis or large current
+Fe 2 O 3 extremely high solubility in molten cryolite-alumina elec-     density would probably alter the Ni–Fe–Cr anode performances
+trolytes (Fe 2 O 3 + 4AlF 4 −+ 6F −→2AlFeOF 8 4 −+ Al 2 OF 6 2 −). In turn, this     signiﬁcantly. The purpose of this study was not to identify an an-
+result also implies that the (Ni,Fe) 3 O 4 spinel layer formed on al-    ode with suitable long-term stability, but rather to reveal the ox-
+loy anodes is a real barrier layer which has better corrosion re-     idation behavior and the effect of inner Cr 2 O 3 layer on oxidation
+sistance than that of Fe 2 O 3 in cryolite-alumina molten electrolytes     resistance during oxidation/electrolysis.
+[45–47] . But there is no doubt that the (Ni,Fe) 3 O 4 spinel layer lacks
+high temperature oxidation resistance during the electrolysis pro-     4. Conclusions
+cess, since a Ni-rich (Ni,Fe)-oxide layer oxide is formed at the in-
+terface of (Ni,Fe) 3 O 4 spinel layer/substrate for Ni–Fe alloy anode.       Based on the experimental results and discussion, the following
+The formation of the Ni-rich (Ni,Fe)-oxide is caused by the inward     conclusions are summarized as follows:
+diffusion of oxygen during aluminum electrolysis. In detail, alloy       The oxide scales formed on Ni–Fe alloy at 800 °C and 900 °C
+substrate is oxidized by the inward diffusion of oxygen to form     consisted of an inner layer of (Ni,Fe) 3 O 4 spinel and an outer layer
+a NiO/FeO x internal oxides at scale/substrate interface, and subse-     of Fe 2 O 3 . An external (Ni,Fe) 3 O 4 /Fe 2 O 3 layers plus a Cr internal ox-
+quently they further react together to form (Ni,Fe) 3 O 4 spinel layer     idation zone formed on Ni–Fe–10Cr alloy at 800 °C, while at 900 °C
+[ 18 , 44 , 48 ]. Moreover, the outward diffusion of Fe in Ni–Fe alloy    a continuous Cr 2 O 3 layer formed between internal oxidation zone
+during pre-oxidation results in the formation of a Ni-enriched re-    and substrate. For Ni–Fe–15Cr alloy, the oxide scale at 800 °C con-
+gion near the oxide/alloy interface. As a consequence, the Ni-rich     sisted of an outer layer of Fe 2 O 3 , a middle layer of (Ni,Fe) 3 O 4 and
+(Ni,Fe) 3 O 4 spinel layer formed. This is in accordance with the study     (Ni,Fe,Cr) 3 O 4 , and an inner layer of Cr 2 O 3 , while the Fe 2 O 3 layer
+of Gavrilova et al. who showed that the Fe-depleted region is less    was discontinuous at 900 °C. The Ni–Fe–15Cr alloy, due to the for-
+favorable for the formation of NiFe 2 O 4 [21] . In comparison, the in-    mation of a continuous Cr 2 O 3 layer, has excellent high temperature
+ward diffusion of oxygen is blocked by Cr 2 O 3 layer as no metallic     oxidation resistance than Ni–Fe–10Cr and Ni–Fe alloys. An increase
+
+
+                                                                     225
+
+## PDF page 11
+
+W. Wei, S. Geng and F. Wang                                                                                        Journal of Materials Science & Technology 107 (2022) 216–226
+
+
+of oxidation temperature or Cr content for Ni–Fe–Cr alloys not only      [18] S. Helle , M. Pedron , B. Assouli , B. Davis , D. Guay , L. Roué, Corros. Sci. 52 (2010)
+accelerates the formation of the inner layer of Cr 2 O 3 , but also de-         3348–3355 .
+                                                                                             [19] G. Goupil , G. Bonnefont , H. Idrissi , D. Guay , L. Roué, J. Alloy. Compd. 580 (2013)
+creases the Fe 2 O 3 content in surface scale.                                  256–261 .
+   During electrolysis, a Ni-rich (Ni,Fe) 3 O 4 layer was formed be-      [20] M. Oudot , L. Cassayre , P. Chamelot , M. Gibilaro , L. Massot , M. Pijolat , S. Bouvet ,
+tween the oxide scale and substrate for Ni–Fe anode by the in-           Corros. Sci. 79 (2014) 159–168 .
+                                                                                            [21] E. Gavrilova , G. Goupil , B. Davis , D. Guay ,  L. Roué, Corros.  Sci. 101 (2015)
+wardly diffusing oxygen. The three-layered structure oxide scale                                                                                  105–113 .
+formed on Ni–Fe–15Cr alloy anode exhibited an excellent oxidation      [22] V.A. Kovrov , A.P. Khramov , A.A. Redkin , Y.P. Zaikov , in: Weidner (Ed.), Proceed-
+and corrosion resistance.                                                               ings of the 214th ECS Meeting, 1, The Electrochemical Society, 2008, pp. 21–23.
+                                                                                      October .
+                                                                                          [23] T.R. Beck, R.J. Brooks, US patent. 5284, (1994) 562.
+Declaration of Competing Interest                                              [24] T.R. Beck , A non-consumable metal anode for production of aluminum with
+                                                                                     low-temperature ﬂuoride melts, Light Met. (1995) 355–360 .
+  No conﬂict of interest exits in the submission of this manuscript      [25] T.R. Beck , C.M. Macrae , N.C. Wilson , Metall. Mat. Trans. B 42 (2011) 807–
+                                                                                813 .
+and it is approved by all authors for publication.                             [26] R. Haugsrud , T. Norby , P. Kofstad , Corros. Sci. 43 (2001) 283–299 .
+                                                                                           [27] Z.Q. Cao , Y. Shen , C.J. Wang , W.H. Liu , Corros. Sci. 49 (2007) 2450–2460 .
+Acknowledgments                                                                  [28] G. Goupil , S. Helle , B. Davis , D. Guay , L. Roué, Electrochim. Acta 112 (2013)
+                                                                                  176–182 .
+                                                                                          [29] W. Wei , S. Geng , D. Xie , F. Wang , Corros. Sci. 157 (2019) 382–391 .
+   This work is supported by National Natural Science Foundation      [30] J.H. Zhu ,  S.J. Geng ,  Z.G. Lu , W.D. Porter ,  J. Electrochem.  Soc. 154 (2007)
+of China (No. 51571059).                                                     1288–1294 .
+                                                                                             [31] W. Kai , W.L. Jang , R.T. Huang , C.C. Lee , H.H. Hsieh , C.F. Du , Oxid. Met. 63 (2005)
+                                                                                169–192 .
+References                                                                            [32] S. Yamaura ,  Y. Igarashi ,  S. Tsurekawa ,  T. Watanabe , Acta Mater. 47 (1999)
+                                                                                     1163–1174 .
+ [1] W. Haupin, History of Electrical Energy Consumption by Hall-Heoult Cells,      [33]  F. Matsuno , S. Nishikida , T. Harada , Tetsu-to-Hagané 67 (1981) 2029–2038 .
+     Hall-Heroult Centennial, TMS, 1986, pp. 106–113.                                    [34] N. Otsuka , S. Yoshiaki , F. Hisao , Oxid. Met. 32 (1–2) (1989) 13–45 .
+ [2] T.E. Norgate , S. Jahanshahi , W.J. Rankin , J. Clean. Prod. 15 (2007) 838–848 .          [35] X. Zhou ∗, G.B. Thompson , Surf. Coat. Technol. 357 (2019) 332–338 .
+ [3]  P. Desclaux , Metall. Mater. Trans. B 32 (2001) 743–744 .                             [36] T. Gheno , D. Monceau , D.J. Young , Corros. Sci. 64 (2012) 222–233 .
+ [4]  P. Booth , K. Gribben , Environ. Forensics 6 (2005) 133–142 .                           [37] R. Bauer , M. Baccalaro , L.P.H. Jeurgens , M. Pohl , E.J. Mittemeijer , Oxid. Met. 69
+ [5] H. Kvande , W. Haupin , JOM 53 (2001) 29–33 .                                        (2008) 265–285 .
+ [6]  I. Gallino , M.E. Kassner , R. Busch , Corros. Sci. 63 (2012) 293–303 .                   [38] W. Wei , S. Geng , G. Chen , F. Wang , Corros. Sci. 173 (2020) 108737 .
+ [7] L.C. Feng , N. Xie , W.Z. Shao , L. Zhen , V.V. Ivanov ,  J. Alloy. Compd. 610 (2014)      [39] C. Wagner , J. Electrochem. Soc. 99 (1952) 369–380 .
+    214–223 .                                                                            [40] L. Zheng , M. Zhang , J. Dong , Appl. Surf. Sci. 256 (2010) 7510–7515 .
+ [8] M. Glucina , M. Hyland , Corros. Sci. 48 (2006) 2457–2469 .                            [41] D. Kim , C. Jang , W.S. Ryu , Oxid. Met. 71 (2009) 271–293 .
+ [9] Z.L. Tian , L.F. Huang , Y.Q. Lai , J. Li , Y.X. Liu , Effect of additive CaO on corrosion      [42] D. Saber , I.S. Emam , R. Abdelkarim , J. Alloy. Compd. 719 (2017) 133–141 .
+     resistance of 10NiO–NiFe 2 O 4 ceramic inert anodes for aluminium electrolysis,      [43] G. Goupil , S. Jucken , D. Poirier , J.G. Legoux , E. Irissou , B. Davis , D. Guay , L. Roué,
+     Light Met. (2008) 1059–1063 .                                                             Corros. Sci. 90 (2015) 259–265 .
+[10] Y. Fu , X.J. Zhai , B. Bai , X.S. Zhang , Z.W. Wang , J. Rare Earths 23 (2005) 89–92 .       [44] S. Helle , M. Tresse , B. Davis , D. Guay , L. Roué,  J. Electrochem. Soc. 159 (2012)
+[11] E.W. Dewing , G.M. Haarberg , S. Rolseth , L. RØnne , J. Thonstad , N. Aalberg , Met-         62–68 .
+       all. Mater. Trans. B 26 (1995) 81–86 B .                                              [45] V. Chapman ,  B.J. Welch , M. Skyllas-Kazacos , Electrochim. Acta 56 (2011)
+[12] H.B. He , H.N. Xiao , K.C. Zhou , Trans. Nonferrous Met. Soc. China 21 (2011)         1227–1238 .
+    102–108 .                                                                            [46] E. Olsen , J. Thonstad , J. Appl. Electrochem. 29 (1999) 293–299 .
+[13]  J.Y. Liu , Z.Y. Li , Y.Q. Tao , D. Zhang , K.C. Zhou , Trans. Nonferrous Met. Soc. China      [47] T.E. Jentoftsen , O.A. Lorentsen , E.W. Dewing , G.M. Haarberg , J. Thonstad , Metall.
+    21 (2011) 566–572 .                                                                    Mater. Trans. B 33 (2002) 901–908 .
+[14] B. Liu , L. Zhang , K. Zhou , Z. Li , H. Wang , Solid State Sci 13 (2011) 1483–1487 .       [48] S. Helle , B. Brodu , B. Davis , D. Guay ,  L. Rou , Corros.  Sci. 53 (2011) 3248–
+[15] V. Singleton , B.J. Welch , M. Skyllas-Kazacos , Inﬂuence of cobalt additions on         3253 .
+     electrochemical behaviour of Ni–Fe-based anodes for aluminium electrowin-      [49] B.C. Church , T.H. Sanders ,  R.F. Speyer ,  J.K. Cochran , Mater.  Sci. Eng. A 452
+     ning, Light Met. (2011) 1123–1128 .                                                   (2007) 334–340 .
+[16] L. Cassayre , P. Chamelot , L. Arurault , L. Massot , P. Palau , P. Taxil , Corros. Sci. 49      [50] E.N.  Samoilov ,  Yu.A.  Liner ,  E.A.  Levashov ,  L.L.  Rokhlin ,  V.Y.  Dashevsky ,
+     (2007) 3610–3625 .                                                                             D.Y. Rothko , Development of materials for inert anodes, 3-d International
+[17] B. Assouli , M. Pedron , S. Helle , A. Carrere , D. Guay , L. Roué, Mechanically al-           Congress,  Krasnoyarsk, Non-Ferrous Met. (2011) 217 .
+     loyed Cu–Ni–Fe based materials as inert anode for aluminum production, Light      [51] L Ma , K. C Zhou , Z. Y Li , Q.P. Wei ,  L. Zhang , Corros. Sci. 53 (2011) 3712–
+     Met. (2009) 1141–1144 2009 .                                                   3724 .
+
+
+
+
+
+                                                                     226

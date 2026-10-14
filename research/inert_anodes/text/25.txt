@@ -1,0 +1,70 @@
+Source: literature/Solutions of CeO2 in Cryolite Melts.pdf
+
+## PDF page 1
+
+Communications
+Solutions of CeO2 in Cryolite Melts
+
+ERNEST W. DEWING and JOMAR THONSTAD
+
+  Dewing et al.[1] made measurements of the solubility of
+CeO2 in cryolite-alumina melts and interpreted them in
+terms of the formation in solution of the species CeF3 and
+CeOF. This assignment was based on the variation of the
+solubility with the alumina content and a relation between
+alumina content and alumina activity[2,3] derived from elec-
+trochemical measurements.
+  The present authors[4] have recently generated new values
+for the activity of alumina in the binary system, based on        Fig. 1—Solubility of CeO2 in cryolite alumina melts at 1293 K (log-log
+cryoscopic measurements. These activities are higher than        plot). The abscissa is alumina activity derived from recent calculations.[4]
+those from electrochemical measurements and vary less
+rapidly with concentration. This necessitates reconsidera-                  REFERENCES
+tion of the system with CeO2.
+  The original work[1] showed that solution was as Ce(III),        1. E.W. Dewing, G.M. Haarberg, S. Rolseth, L. Rønne, J. Thonstad, and
+not Ce(IV). Two possible solution reactions are, therefore,         N. Aalberg: Metall. Mater. Trans. B., 1995, vol. 26B, pp. 81-86.
+                                                                                        2. E.W. Dewing: Can. Met. Q., 1974, vol. 13, pp. 607-18.
+      4CeO2 1 4AIF3 5 4CeF3 1 2Al2 O3 1 O2     [1]        3. E.W. Dewing: Can. Met. Q., 1991, vol. 30, pp. 153-61.
+                                                                                        4. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 1997, vol. 28B,
+and                                                                              pp. 1089-93.
+
+     6CeO2 1 2AIF3 5 6CeOF 1 Al2 O3 1 3/2O2    [2]
+
+From the equilibrium constants it follows that, at constant
+oxygen pressure and AlF3 content of the melt, the solubility   Dependence of Carbon Solubility onas CeF3 should vary as (aAl2O3)21/2, while the solubility as
+CeOF should vary as (aAl2O3)21/6.                Oxygen Partial Pressure for 80 Mass
+  Analysis of the experimental data for the solubility of    Pct BaO-MnO and CaOsatd-B2O3 SlagsCeO2 in Na3AlF6 at 1 atm pressure of oxygen in terms of
+the equation
+                                     MAMIKO MORI, KAZUKI MORITA, and NOBUO
+           solubility 5 A (aAl2O3)21/2 1 B (aAl2O3)21/6     [3]    SANO
+shows that the coefﬁcient B is not only not statistically dif-      As is well known[1–4] carbon is dissolved as carbonate
+ferent from zero, but is negative. No physical meaning in      ion, CO322, at higher oxygen partial pressures, as shown by
+terms of the existence of CeOF can be attached to it.          Eq. [1], and as carbide ion, C222 , at lower oxygen partial
+  Figure 1 shows a log-log plot of the solubility as a func-      pressures, as shown in Eq. [2].
+tion of the alumina activity.[4] The least-squares slope is
+20.523 5 0.064 (standard error of the estimate), which is       CO2 (g) 1 O22 (slag) 5 CO 223  (slag)             [1]
+not signiﬁcantly different from 20.5, and a line of slope                          22            22                                                   3C (s) 1 O   (slag) 5 C 2  (slag) 1 CO (g)   [2]
+20.5 is shown.
+  The results as they now stand are completely consistent        In the present work, carbon solubilities in 80 mass pct
+with the hypothesis that Eq. [1] is the only mechanism of    BaO-MnO melts and CaOsatd-B2O3 melts were measured
+solution, and there  is no evidence for the existence of     over a wide range of oxygen partial pressures from carbide
+CeOF.                                                             stable region to carbonate stable region, as found in the
+  The original article[1] also gave some data and discussion     sulﬁde and sulfate[5] and phosphide and phosphate[6] equi-
+on the variation of the solubility with variation of the       libria in some slag systems.
+NaF/AlF3 ratio of the solvent at constant alumina content.       The equilibrium among MO, M0.5C, or MCO3 and gas may
+The solubility was found to vary roughly as (aAlF3 )1/3. It was     be written using Eqs. [3] through [5], where M is Ca or Ba.
+postulated that CeF3 was complexed to Na2CeF5 in solution.
+That suggestion stands.
+
+
+
+
+
+                                                MAMIKO MORI,  Research  Assistant,  and KAZUKI MORITA,
+  ERNEST W. DEWING, 648 Pimlico Pl., Kingston, ON K7M 5T8,       Associate  Professor,  are  with  the  Department  of  Metallurgy, The
+Canada, is retired. JOMAR THONSTAD, Professor of Electrochemistry,       University  of Tokyo, Tokyo 113,  Japan. NOBUO SANO, Emeritus
+is with the Norwegian University of Science and Technology, 7034       Professor, Department of Metallurgy, The University of Tokyo, is with
+Trondheim, Norway.                                                 Nippon Steel Corporation, Chiba 293, Japan.
+  Manuscript submitted June 14, 1996.                                       Manuscript submitted February 25, 1997.
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                        VOLUME 28B, DECEMBER 1997—1257

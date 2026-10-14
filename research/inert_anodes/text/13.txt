@@ -1,0 +1,779 @@
+Source: literature/materials-15-00719-v3 (1).pdf
+
+## PDF page 1
+
+    materials
+
+
+
+Article
+Corrosion Protection Oxide Scale Formed on Surface of Fe-Ni-M
+(M = Al, Cr, Cu) Inert Anode for Molten Salt Electrolysis
+
+Myungjae Kim 1    , Jungshin Kang 2,3, Jiwoo Kim 1 and Jiwoong Kim 1,*
+
+
+                                            1  Department of Organic Materials and Fiber Engineering, Soongsil University, Seoul 06978, Korea;
+                                  kmj9733@gmail.com (M.K.); jiwook725@gmail.com (J.K.)
+                                            2  Korea Institute of Geoscience and Mineral Resources, Daejeon 34132, Korea; jskang@kigam.re.kr
+                                            3  Department of Resources Recycling, University of Science and Technology, Daejeon 34133, Korea
+                                     *   Correspondence: jwk@ssu.ac.kr; Tel.: +82-2-828-7046
+
+
+                                Abstract: An oxide scale formed on the surface of metal anodes is crucial for determining the
+                                  overall quality of molten salt electrolysis (MSE), particularly for the durability of the anode materials.
+                           However, the material properties of oxide scales are yet to be revealed, particularly in ternary spinel
+                             oxide phases. Therefore, we investigate the mechanical and thermal properties of spinel oxides
+                                via ﬁrst-principles calculations. The oxides are calculated using the models of normal (cubic) and
+                                inverse (orthorhombic) spinel compounds. The d-orbital exchange correlation potential of transition
+                              metal oxides is addressed using the generalized gradient approximation plus Hubbard U. The lattice
+                                 constant, formation energy, cohesive energy, elastic modulus, Poisson’s ratio, universal anisotropy
+                                index, hardness, minimal thermal conductivity, and thermal expansion coefﬁcient are calculated.
+                           Based on the calculated mechanical and thermal properties of the spinel compound, the Fe–Ni–Al
+                                    inert anode is expected to be the most suitable oxide scale for MSE applications among the materials
+                                investigated in our study.
+
+
+                           Keywords: first-principles calculation; inert anode; spinel compound; elastic property; thermal property
+Citation: Kim, M.; Kang, J.; Kim, J.;
+
+Kim, J. Corrosion Protection Oxide
+
+Scale Formed on Surface of Fe-Ni-M
+(M = Al, Cr, Cu) Inert Anode for        1. Introduction
+Molten Salt Electrolysis. Materials
+2022, 15, 719. https://doi.org/          The carbon anodes used in the primary metal (Mg, Al, and Ti) industry inevitably
+10.3390/ma15030719                result in high energy consumption, severe air pollution, and other problems [1,2]. Therefore,
+                               inert anodes are in high demand as they reduce the production of greenhouse and other
+Academic Editor: Fuhui Wang       harmful gases such as CO2, C2F6, and CF4 [3–6]. In addition, although the molten salt
+Received: 3 December 2021           electrolysis (MSE) method is advantageous, it requires the use of expensive noble metal
+Accepted: 17 January 2022          (Ag, Pt, Pd, and Ir) anodes [7–9].
+Published: 18 January 2022          Among inert anode materials, Fe–Ni-based alloy anodes are good candidates because
+                              of their excellent mechanical properties, electrical conductivity, cracking resistance, good
+Publisher’s Note: MDPI stays neutral
+                           thermal shock resistance, and ease of fabrication [10,11]. In the initial stage of electrolysis,
+with regard to jurisdictional claims in
+                             several types of oxides are formed as scales on the surface of the anode. These oxide
+published maps and institutional afﬁl-
+                               scales protect the alloy anode against highly corrosive conditions [12,13]. However, certainiations.
+                         problems occur such as poor contact with molten salt, poor adhesion of the oxide scale,
+                           heterogeneous oxide scale growth, and formation of a thick oxide scale.
+                                  Therefore, studies regarding ternary inert anodes with other elements added to Fe–Ni
+Copyright: © 2022 by the authors.   based anodes are actively being conducted. In particular, Fe–Ni–Cr, Fe–Ni–Cu, and Fe–
+Licensee MDPI, Basel,  Switzerland.  Ni–Al inert anodes are garnering considerable attention. In general, the corrosion of the
+This article is an open access article   anode surface yields oxide scales composed of binary oxides (Fe2O3, Fe3O4, NiO, Cr2O3,
+distributed  under  the  terms  and   and Al2O3) and spinel compounds (NiFe2O4, FeAl2O4, CrFe2O4, and CuFe2O4) [14,15].
+conditions of the Creative Commons   Although binary oxide scales have been extensively investigated, information regarding
+Attribution (CC BY) license (https://   the thermal and mechanical properties of spinel compounds remains insufﬁcient. Hence,
+creativecommons.org/licenses/by/     in this study, we investigated spinel oxide scales, to which Al, Cr, and Cu were added.
+4.0/).
+
+
+
+
+
+Materials 2022, 15, 719. https://doi.org/10.3390/ma15030719                                      https://www.mdpi.com/journal/materials
+
+## PDF page 2
+
+Materials 2022, 15, 719                                                                                                          2 of 15
+
+
+
+                              For a normal spinel compound, the face-centered cubic (fcc) sites of the tetrahedron
+                              are occupied by 1/8 of A2+, and on the other side, 16/32 of the octahedral sites are occupied
+                        by B3+. Conversely, the inverted spinel compound occupies half of the octahedral sites, B3+
+                        and A2+, and the other half of B3+ occupies tetrahedral sites [16]. The two structures can be
+                            written in the form AX(B2)YO4 and BX(AB)YO4, where X and Y represent the tetrahedral
+                       and octahedral sites of the normal and inverse spinel compounds, respectively [17]. In
+                             general, the metal ion preference for octahedral site occupation is Cu2+ > Cr2+ > Ni2+ >
+                      Mn3+ > Al3+ > Fe2+ > Co2+ > Fe3+ > Mn2+ [18]. This sequence shows that FeNi2O4, FeCr2O4,
+                       and FeCu2O4 are the inverse spinel phases with the molecular formula B3+(A2+B3+)O4.
+                              Therefore, AlFe2O4 is an inverse spinel phase with the molecular formula Fe3+(Fe2+Al3+)O4.
+                             All Al3+ cations occupy the octahedral sites, and Fe cations are distributed similarly between
+                             the octahedral and tetrahedral sites. Conversely, FeAl2O4 is a normal spinel-type structure.
+                         Based on the content of the cation (Al3+, and Fe3+) in tetrahedral sites, FeAl2O4 and AlFe2O4
+                             are classiﬁed as normal and inverse spinel compounds, respectively [19].
+                           The purpose of this study is to investigate the thermal and mechanical properties
+                             of normal and inverse spinel compounds that inevitably form on an alloy-based inert
+                          anode. First-principles calculations were performed to analyze the structural properties
+                             of n-NiFe2O4, n-FeAl2O4, n-CrFe2O4, and n-CuFe2O4 compounds of the normal spinel
+                       and i-NiFe2O4, i-AlFe2O4, i-CrFe2O4, and i-CuFe2O4 compounds of the inverse spinel,
+                            as well as to understand the differences in their thermal and mechanical properties. We
+                             calculated the normal spinel and inverse spinel compounds using different models. The
+                        normal spinel compound reﬂected a cubic (space group: Fd-3m) structure with formula
+                        AB2O4. In contrast, the inverse spinel compound reﬂected an orthorhombic (space group:
+                        Imma) structure, in which the pair strains were uniformly oriented relative to the cubic
+                              structure [20,21].
+
+                                   2. Computational Methods
+
+                                    First-principles calculations were performed using the Vienna Ab initio Simulation
+                         Package (VASP) [22,23]. The exchange and correlation interactions were described using
+                             the generalized gradient approximation (GGA) formulated by Perdew, Burke, and Ernzer-
+                           hof (PBE) [24,25]. Furthermore, we used the GGA with the Hubbard U parameterization
+                       method (GGA + U) to describe the exchange-correlation potential [26]. To integrate the
+                              Brillouin zone, we used the Monkhorst pack [27] for the normal spinel compound (cubic)
+                             of n-NiFe2O4, n-FeAl2O4, n-CrFe2O4, and n-CuFe2O4, and the inverse spinel compound
+                           (orthorhombic) of i-NiFe2O4, i-AlFe2O4, i-CrFe2O4, and i-CuFe2O4 (Figure 1a–h). An
+                          11 × 11 × 11 k-point mesh was used for the structural optimization, total energy, and
+                            density of states calculations, whereas a 7 × 7 × 7 k-point mesh was used to calculate
+                            the elastic constants. The electronic structures were calculated using single-point energy
+                             calculations of the optimized models for normal and inverse spinel compounds. These
+                            k-points were obtained from the k-point convergence test, shown in Figure 1i,j. Accu-
+                              rate results were obtained using a high-energy cutoff of 500 eV with a precise energy
+                          convergence of 0.015 eV/Å. Integration was conducted using the tetrahedron method
+                          with Bloch corrections. All calculations were performed with spin-polarization. The Hub-
+                         bard onsite correction term U parameters of the relevant elements for the d electrons
+                            are as follows: Fe = 4.0 eV, Ni = 6.0 eV, Cr = 3.5 eV, and Cu = 4.0 eV [28–30]. The elas-
+                                    tic constants of the spinel compounds were estimated using the stress–strain method.
+                         Three different independent symmetry elements (C11, C12, and C44) exist for cubic crys-
+                                    tals. Meanwhile, orthorhombic symmetry possesses nine different independent elastic
+                            constants (C11, C12, C13, C22, C23, C33, C44, C55, and C66) [31]. The elastic properties of
+                            the ordered normal and inverse spinel compounds were calculated using the following
+                           equations [32,33]:
+                                                      Bv = BR = 1/3(C11 + 2C12)                                (1)
+
+                                                Gv = 1/5(C11 −C12 + 3C44)                                (2)
+
+## PDF page 3
+
+Materials 2022, 15, 719                                                                                                          3 of 15
+
+
+
+                                      GR = 5(C11 −C12)C44/4C44 + 3(C11 −C12)                       (3)
+
+                                             Bv = 1/9(C11 + C22 + C33 + 2C12 + 2C13 + 2C23)                    (4)
+
+                                  Gv = 1/15[+C22 + C33 + 3C44 + 3C55 + 3C66 −(C12 + C13 + C23)]           (5)
+
+                           BR = [C11(C22 + C33 −2C23) + C22(C33 −2C13) −2C33C12 + C12(2C23 −C12)
+                                                                                                                                    (6)
+                                                   +C13(2C12 −C13) + C23)]−1
+
+           GR = 15{4[C11(C22 + C33 −C23) + C22(C33 + C13) + C33C12 −C12(C12 + C23) −C13(C13
+                          +C12) −C23(C23 + C13)]/C13(C12C23 −C13C22 + C23(C12C13                             (7)
+                         −C23C11) + C33(C11C22 −C212 + 3(1/C44 + 1/C55 + 1/C66)}−1
+                                               E = 9BG/(3B + G)                                     (8)
+
+                        where B, G, and E are the bulk, shear, and Young’s moduli, respectively; V, R, and VRH rep-
+                             resent the Voigt, Reuss, and Voigt–Reuss–Hill approximations, respectively. Additionally,
+                            the formulations employed in the present study are listed in Section 3.
+
+
+
+
+
+                              Figure 1. Structure models of normal (Fd-3m, cubic) and inverse (Imma, orthorhombic) spinel com-
+                         pound for (a) n-NiFe2O4, (b) n-FeAl2O4, (c) n-CrFe2O4, (d) n-CuFe2O4, (e) i-NiFe2O4, (f) i-AlFe2O4,
+                                   (g) i-CrFe2O4, and (h) i-CuFe2O4. K-point convergence test: (i) variations in total electronic energy
+                          and lattice parameter for normal spinel compound model; (j) variations in total electronic energy and
+                          volume for inverse spinel compound model.
+
+## PDF page 4
+
+Materials 2022, 15, 719                                                                                                          4 of 15
+
+
+
+                                   3. Results and Discussion
+
+                           The equilibrium lattice parameters, formation energies, and cohesive energies of
+                            the normal and inverse spinel compounds are listed in Table 1 [34–39]. To evaluate the
+                              structural stability, the formation energy (Eform) and cohesive energy (Ecoh) of the spinel
+                       compounds were calculated as follows [40]:
+
+                                              h                                         i                                      EForm = EABOtot −EAsolid × m −EBsolid × n −1/2EO2gas × 4 /(m + n + 4)         (9)
+
+                                              h                                       i                                            Ecoh = EABOtot −EAatom × m −EBatom × n −EOatom × 4 /(m + n + 4          (10)
+
+                       where m and n refer to the numbers of Fe, Ni, Al, Cr, Cu, and O atoms. EAsolid and EBsolid
+                            are the average energies per atom with Fe, Ni, Al, Cr, and Cu in the solid states; EAatom
+                       and EBatom are the energies of the Fe, Ni, Al, Cr, and Cu free atoms in the cell lattice; EABOtotal
+                                    is the total energy of the AX(B2)YO4 and BX(AB)YO4 spinel compounds. It was observed
+                              that the values of the lattice parameters for all calculated stable spinel compounds were
+                             consistent with the experimental and other theoretical values. The results show that the
+                           formation energy and cohesive energy of both the normal and inverse spinel compounds
+                        were negative. The inverse spinel compound indicated a lower formation energy than the
+                         normal spinel compound. Therefore, it was expected that the inverse spinel phase would
+                            require a lower energy than the general spinel phase during oxide scale formation. In
+                               particular, the oxide scale formation rate of the i-AlFe2O4 spinel compound is expected
+                             to be high. Higher cohesive energies were observed in all normal spinel compounds,
+                       which indicated a decline in bonding strength. In addition, the lower the density of the
+                              spinel compound, the higher the possibility of peeling due to poor contact with the anode
+                               surface. Densities of normal and inverse spinel compounds were lower in the Al-containing
+                        compounds, n-FeAl2O4 and i-AlFe2O4. The n-CuFe2O4 and i-CuFe2O4 compounds were
+                      shown to have high densities.
+
+                             Table 1. Calculated lattice parameters (a0, b0, and c0 in Å), formation energy (Eform in eV/atom),
+                              cohesive energy (Ecoh in eV), and volume (V0 in Å3). For comparison, previous experimental and
+                               other theoretical values are listed.
+
+  Compound    Spinel Type         a0              b0               c0             Eform            Ecoh          V0
+
+                                      8.420           8.420           8.420         −0.951        −1.291          597.01
+   NiFe2O4      Normal         8.426 a          8.426 a          8.426 a                 -                     -                     -
+                                     8.339 b          8.339 b          8.339 b                 -                     -                     -
+   NiFe2O4        Inverse          5.937           5.982           8.417         −2.008        −2.691          298.98
+                                      8.226           8.226           8.226         −1.334        −1.624          556.77
+   FeAl2O4       Normal         8.230 c          8.230 c          8.230 c                 -                     -                     -
+                                     8.119 d          8.119 d          8.119 d                 -                     -                     -
+   AlFe2O4        Inverse          5.838           5.912           8.497         −2.575        −3.154          301.41
+   CrFe2O4      Normal          8.510           8.510           8.510         −1.119        −1.441          614.21
+   CrFe2O4        Inverse          6.019           5.993           8.678         −2.328        −2.971          313.10
+                                      8.466           8.466           8.466         −0.963        −1.274          606.76
+   CuFe2O4      Normal         8.465 e          8.465 e          8.465 e                 -                     -                     -
+                                     8.367 f          8.367 f          8.367 f                 -                     -                     -
+   CuFe2O4        Inverse          5.829           5.907           8.846         −1.936        −2.559          304.66
+
+                                            a Ref. [34] calculation data. b Ref. [35] experimental data. c Ref. [36] calculation data. d Ref. [37] experimental
+                                     data. e Ref. [38] calculation data. f Ref. [39] experimental data.
+
+
+                           The equilibrium bulk (B), shear (G), Young’s moduli (E), Poisson’s ratio (v), Pugh’s
+                             constant (G/B), universal anisotropy index (AU), and empirical hardness of the normal and
+                            inverse spinel compounds are listed in Table 2 [34,41]. The bulk moduli of i-NiFe2O4 and
+                         n-FeAl2O4 were larger, which indicate that they have a greater resistance to deformation
+
+## PDF page 5
+
+Materials 2022, 15, 719                                                                                                          5 of 15
+
+
+
+                          than the other compounds.  Similarly, the shear and Young’s moduli of i-NiFe2O4, n-
+                          FeAl2O4, and i-AlFe2O4 were higher than those of the other spinel compounds. These
+                                results show that i-NiFe2O4, n-FeAl2O4 and i-AlFe2O4 are not only more resistant to shear
+                           deformation, but can also withstand longitudinal deformation better than other spinel
+                       compounds. By contrast, the bulk, shear, and Young’s moduli values of the n-CrFe2O4,
+                            i-CrFe2O4, n-CuFe2O4, and n-CuFe2O4 compounds were lower than those of the other
+                       two compounds. In particular, n-CuFe2O4 exhibited an extremely low shear and Young’s
+                           moduli. Therefore, n-FeAl2O4 and i-AlFe2O4 are expected to exhibit excellent deformation
+                             against external stress, except for the NiFe2O4 compound oxide scale typically formed in
+                      Fe–Ni–M anodes.
+
+                             Table 2. Calculated mechanical properties of two types of spinel compounds: bulk modulus (B in
+                             GPa), shear modulus (G in GPa), Young’s modulus (E in GPa), Poisson’s ratio (v), Pugh’s constant
+                               (G/B), universal anisotropy index (AU), and empirical hardness (Hv in GPa) for NiFe2O4 and FeAl2O4
+                             with normal and inverse spinel compounds.
+
+ Compound   Spinel Type     B       G         E           v         G/B        HV        AU
+
+                                  161.41        47.74        130.15          0.36           0.29           3.91           1.64
+  NiFe2O4      normal                a                                  177.1               -                  -                  -                  -                  -                  -
+  NiFe2O4       inverse        170.69        61.54        164.76          0.34           0.36           5.57           0.69
+
+                                  184.79        64.93        173.51          0.34           0.35           6.22           2.98
+   FeAl2O4      normal              b             b              b                                  172.4         56.9          153.8                 -                  -                  -                  -
+   AlFe2O4       inverse        159.64        61.86        164.19          0.32           0.38           6.21           1.11
+
+  CrFe2O4      normal        155.03        48.88        132.63          0.35           0.31           4.07           0.73
+  CrFe2O4       inverse        164.74        55.03        148.33          0.35           0.33           4.92           1.49
+
+  CuFe2O4      normal        152.78        27.89         77.82          0.41           0.18           1.85           9.25
+  CuFe2O4       inverse        156.69        49.72        134.81          0.35           0.31           4.23           1.11
+
+                                            a Ref. [34] calculation. b Ref. [40] calculation.
+
+
+                           The results reveal that the Poisson’s ratios of the spinel phases were between v = 0.25
+                       and 0.33, indicating ionic and metallic bonding in all atoms of the spinel compound. The
+                            Poisson’s ratio is an index that describes the directionality of chemical bond; it is v = 0.1,
+                               for covalent bonds, v = 0.25 for ionic bonds, and v = 0.33 for metallic bonds [42]:
+
+                                                      v = (3B −2G)/2(3B + G)                             (11)
+
+                                 In addition, the ductile/brittle behavior of spinel compounds was also considered
+                          using Pugh’s constant G/B [43]. A compound exhibits ductility when G/B is lower than
+                                0.57; otherwise, it is brittle. The G/B value calculated for all spinel compounds was less
+                          than 0.57, indicating a high ductility; this is consistent with the Poisson’s ratio calculated
+                             previously. This indicates that all spinel compounds have high thermal shock resistance.
+                          Furthermore, it indicates that cracks progress slowly when plastic deformation occurs.
+                         Hardness is an important parameter for evaluating the wear behavior of materials [44,45].
+                            Therefore, the hardness of the inert anode materials must be investigated. Hardness can
+                         be obtained using the Poisson’s ratio and Young’s modulus [46]. In this study, we used a
+                                relatively simple semi-empirical equation for hardness, as follows [47]:
+
+                                           HV = 0.92k1.137G0.708                                (12)
+
+                          where, G is the shear modulus, and k is Pugh’s constant (G/B). The results are consistent
+                         with the relationship between hardness and ductility. Therefore, we concluded that the
+                          hardness values calculated in this study were reliable. In particular, n-FeAl2O4 and i-
+                        AlFe2O4 indicated the highest values of hardness, i.e., 6.22 and 6.21, respectively. As
+                            such, they were expected to exhibit excellent durability and few cracks when forming an
+                           oxide scale.
+
+## PDF page 6
+
+Materials 2022, 15, 719                                                                                                          6 of 15
+
+
+
+                            The universal anisotropy index (AU) determines the transfer probability of microcracks
+                       and the structural stability of a material [48]. A material is elastically isotropic when it
+                              satisﬁes AU = 0; otherwise, it is elastically anisotropic. To characterize elastic anisotropy,
+                    we adopted the universal anisotropy index proposed for all crystal systems, as follows [49]:
+
+                                       AU = 5Gv/GR + Bv/BR −6 ≥0                          (13)
+
+                       where G is the shear modulus; B is the bulk modulus; and subscripts, V and R, denote
+                            the Voigt and Reuss averages, respectively. Our calculations show that the AU values
+                           deviated from zero, indicating that both compounds were anisotropic. Furthermore, it
+                      was emphasized that these compounds were more likely to develop structural defects
+                           or microcracks during their growth into oxide scales. The ceramics should preferably be
+                               isotropic; otherwise, they will deform preferentially in a speciﬁc direction. In particular,
+                        n-CuFe2O4 exhibited a greater anisotropy than the other compounds; therefore, its oxide
+                               scale was expected to fracture easily.
+                                  Nevertheless, these factors do not contribute sufﬁciently to the complete description of
+                             the elastic anisotropic behavior of the crystals. The orientation dependence of the Young’s
+                       modulus is typically employed to analyze the elastic anisotropy of the crystals [50]. The
+                                  elastic stress ﬁeld is controlled by elastic anisotropy, which dominates the initial slip system.
+                             Therefore, the illustration of elastic anisotropy is important for predicting the stress ﬁeld
+                           evolution as a function of the crystal orientation [51]. Calculating the elastic anisotropy
+                             of spinel compounds is important for understanding these properties and identifying
+                       mechanisms that will improve their durability. To further investigate the anisotropic
+                             features of the spinel compound, a three-dimensional (3D) surface representation of the
+                                 elastic anisotropy of the crystal was created. For cubic and orthorhombic crystals, the
+                          Young’s modulus in any orientation is expressed as [52,53]:
+
+                                    1/E = S11 −2(S11 −S12 −S44/2)  l21l22 + l22l23 + l21l23                 (14)
+
+                       1/E = S11l41 + (2S12 + S66)l21l22 + S22l41 + (2S23 + S44)l22l23 + S33l43 + (2S13 + S55)l21l23  (15)
+
+                       where l1, l2, and l3 are direction cosines with respect to the a, b, and c directions of the
+                                     lattice, respectively. The spatial 3D surface representation of the Young’s modulus is shown
+                              in Figure 2a–h. Young’s modulus surfaces are perfectly spherical for isotropic crystals, but
+                           not for normal and inverse spinel compounds. This shows that the normal and inverse
+                             spinels exhibit elastic anisotropy. Furthermore, the Young’s moduli of the normal and
+                            inverse spinel compounds in the normal direction of three low-index crystal planes {100},
+                                {110}, and {111} were calculated. The equations for normal directions of the planes are as
+                            follows [51]:
+
+                                                                                                                      2
+                                             1/Ehkl = S11 −2S0[(hk)2 + (hl)2 + (lk)2/(h2 + k2 + l2)               (16)
+
+                                                           S0 = S11 −S12 −1/2S44                               (17)
+
+                           The corresponding calculation results are listed in Table 3. The calculated normal
+                       and inverse spinel compounds showed different Young’s moduli values depending on
+                            the plane direction. The general spinel compounds indicated the highest stiffness in the
+                              {111} direction, regardless of the composition. The inverse spinel compounds indicated the
+                             highest stiffness in the {100} direction, regardless of the composition. In terms of n-CuFe2O4,
+                             the Young’s moduli differed signiﬁcantly depending on the plane direction. The calculated
+                     minimum and maximum values of the Young’s modulus were 19.07 and 171.6 GPa for the
+                              {100} plane: 47.87 and 144.33 GPa for the {110} plane, and 54.57 and 278.4 GPa for the {111}
+                            plane. In general, spinel compounds with a high rigidity along the plane direction were
+                             indicated as n-NiFe2O4 in {100}, n-FeAl2O4 in {110}, and n-CuFe2O4 in {111}.
+
+## PDF page 7
+
+Materials 2022, 15, 719                                                                                                          7 of 15
+
+
+
+
+
+                              Figure 2.  Directional dependence of Young’s modulus for spinel compounds (a) n-NiFe2O4,
+                                      (b), n-FeAl2O4, (c) n-CrFe2O4, (d) n-CuFe2O4, (e) i-NiFe2O4, (f) i-AlFe2O4, (g) i-CrFe2O4, and
+                                  (h) i-CuFe2O4.
+
+## PDF page 8
+
+Materials 2022, 15, 719                                                                                                          8 of 15
+
+
+
+                             Table 3. Calculated values of Young’s modulus (Ehkl in GPa) along normal directions of planes {100},
+                                    {110}, and {111}.
+
+                         Compound       Spinel Type            {100}                {110}                {111}
+
+                                NiFe2O4          normal             61.06              118.53             148.19
+                                NiFe2O4            inverse             171.60              57.58              65.50
+
+                                FeAl2O4          normal             67.94              144.33             200.82
+                                AlFe2O4            inverse             159.69              55.72              68.00
+
+                                CrFe2O4          normal             73.22              111.76             129.65
+                                CrFe2O4            inverse             164.75              47.87              62.20
+
+                              CuFe2O4          normal             19.07              109.96             278.40
+                              CuFe2O4           inverse             158.94              44.86              54.57
+
+
+                                 Generally, the Debye temperature (θD) is a fundamental parameter associated with
+                          a number of physical properties of materials, including their elastic constants, speciﬁc
+                              heat, chemical bonding, and melting point [54,55]. Excitation due to low-temperature
+                              vibrations occurs only in acoustic vibrations. The following equation was used to estimate
+                            the magnitude of the θD at the average speed of sound [55]:
+
+                                               θD = h/kB[3n/4π(NAρ/M)]1/3vm                         (18)
+
+                        where M is the mean molecular weight, n the total number of atoms in the formula unit, ρ
+                            the mass density, h the Plank constant, kB the Boltzmann constant, and NA the Avogadro
+                         number. For polycrystalline materials, the average velocity of sound vm is expressed as [9]:
+
+                                                                                 −1/3
+                                               vm = [1/3 1/v3l + 2/v3t   ]                                (19)
+
+                              q
+                                                                           vl =   (B + (4/3)G)/ρ                               (20)
+
+                                                                                    νt = p G/ρ                                     (21)
+
+                       where vl and vt represent the longitudinal and transverse sound velocities in anisotropic
+                              materials, respectively. They can be determined in terms of the bulk modulus B and shear
+                       modulus G [56]. For crystal structures, θD deﬁnes the highest temperature of the material
+                              for the normal vibrational mode, speciﬁc heat, and melting temperature. As shown in
+                           Table 4, the n-FeAl2O4 and i-AlFe2O4 spinels had the largest θD values of 617.7 K and
+                             733.2 K, respectively. The calculated average sound velocities of these n-FeAl2O4 and
+                           i-AlFe2O4 compounds were relatively large, because they had large elastic moduli and
+                           small densities. The vl and vt values are associated with the density, shear modulus, and
+                          bulk modulus. The high volume leads to the formation of thick spinel oxide scale, which
+                          reduces the contact with the electrolyte, thereby reducing the electrochemical properties.
+                            In contrast, when thin spinel oxide scales are formed, the electrochemical properties are
+                             increased but the mechanical behavior is decreased. It is expected that normal spinel oxide
+                              scales are bulkier than inverse spinel oxide scales and form thick oxide scales, whereas
+                             inverse spinel oxide scales are expected to form thin oxide scales. When comparing normal
+                        and inverse spinel of the same element, n-FeAl2O4 and i-AlFe2O4 compounds are expected
+                              to form the most ideal oxide scale. However, no experimental or theoretical evidence for
+                         comparing our results in terms of density, θD, and elastic wave is available in the literature.
+
+## PDF page 9
+
+Materials 2022, 15, 719                                                                                                          9 of 15
+
+
+
+                             Table 4. Calculated thermal properties: density (ρ in g/cm3), transverse (vt in m/s), longitudinal (vl
+                                 in m/s), mean speed of sound (vm in m/s), and Debye temperature (θD in K).
+
+                        Compound   Spinel Type      ρ           vt            vl        Vm         θD
+
+                             NiFe2O4       normal         5.215       3067        6659         3456         463.2
+                             NiFe2O4        inverse         5.207       3477        7047         3904         523.8
+
+                              FeAl2O4       normal         4.147       4003        8183         4496         617.7
+                              AlFe2O4        inverse         4.466       3725        7370         4176         562.8
+
+                             CrFe2O4       normal         4.925       3205        6802         3607         477.8
+                             CrFe2O4        inverse         4.830       3418        7109         3842         507.3
+
+                            CuFe2O4       normal         5.238       2329        6079         2641         353.1
+                            CuFe2O4        inverse         5.216       3134        6638         3527         469.1
+
+
+                             To investigate the causes of the mechanical and electrochemical properties of normal
+                       and inverse spinel compounds, we calculated and compared their electronic structures.
+                           Figure 3 shows the calculated total density of states (TDOS) and partial density of states
+                       (PDOS) of (a) n-Fe2NiO4, (b) i-Fe2NiO4, (c) n-Fe2AlO4, (d) i-AlFe2O4, (e) n-CrFe2O4, (f)
+                            i-CrFe2O4, (g) n-CuFe2O4, and (h) i-CuFe2O4 spinel compounds. The energy level 0 eV on
+                             the x-axis represents the Fermi level of the spinel compound. Figure 3a,b shows that Fe-3d
+                               orbital is separated into t2g-up and e2g-up to generate a valence band using O-2p orbital
+                       and conduction in Fe-3d orbital [57]. Figure 3c,d shows that the high peaks near the Fermi
+                               level correspond to Fe 3d states. In addition, in the Valence band, Fe-3d and Al-3p states
+                            contribute to the formation of the highest peak. The high peak in the conduction band is
+                         caused by the Fe-3d states [58]. As shown in the ﬁgure, majority spins were observed in
+                             the valence band and minority spins in the conduction band. Figure 3e,f show shifts in the
+                         Fermi level of the 3d state peaks of Fe and Cr cations between the two spin directions for
+                                 this compound. As a result, the 3d states of the Fe and Cr transition metals were conﬁrmed
+                            as the possible cause of magnetism. The highest peak in the valence band is due to Fe-3d
+                                  states. The highest peak in the conduction band is caused by Fe-3d states. In particular, it
+                      was observed that the Fe-3d and Cr-3d states overlapped in the peak with a high electron
+                               density. Figure 3g,h shows that the peak at the Fermi level was observed to be connected
+                          with the Cr-3d state. The highest peak in the valence band is caused by the Fe-3d and Cr-3d
+                                  states, and the conduction band is caused by the Fe-3d states. On the other hand, in the case
+                             of i-CuFe2O4, there was no large peak near the Fermi level. In particular, minority Cr-3d
+                                states were observed in the conduction band. As a result, it was observed that the transition
+                           metal elements were determined by 3d states, and Al and O elements were determined by
+                        2p states.
+                           The spinel oxide scales i-NiFe2O4, i-AlFe2O4, n-CrFe2O4, i-CrFe2O4, and i-CuFe2O4
+                              exhibit insulator properties. In contrast, n-NiFe2O4, n-FeAl2O4, and n-CuFe2O4 exhibit
+                           conductor properties. As many densities of states near the Fermi level contribute to charge
+                              storage, the n-NiFe2O4, n-FeAl2O4, and n-CuFe2O4 spinel compounds should improve
+                                their electrochemical performance after they are formed in the scale [41]. In particular, the
+                    TDOS of NiFe2O4 shows a strong peak in the spin-down state close to the Fermi energy level
+                           (±0.2 eV). Al-O bonds are ionic in nature. As Al atoms are replaced by Fe atoms, the charge
+                            density increases, forming Fe-O bonds with both ionicity and covalent properties [59].
+                            Therefore, it is expected that the electrical conductivity properties of the n-NiFe2O4 and
+                          n-FeAl2O4 oxide scales will be excellent.
+
+## PDF page 10
+
+Materials 2022, 15, 719                                                                                                         10 of 15
+
+
+
+
+
+                              Figure 3. TDOS and PDOS of normal and inverse spinel compounds (a) n-NiFe2O4, (b) i-NiFe2O4,
+                                       (c) n-FeAl2O4, (d) i-AlFe2O4, (e) n-CrFe2O4, (f) i-CrFe2O4, (g) n-CuFe2O4, and (h) i-CuFe2O4. The
+                                   vertical dashed lines indicate the Fermi level.
+
+                            The minimum thermal conductivities of the spinel compounds are shown in Figure 4.
+                        Thermal conductivity describes the diffusivity of heat ﬂow via phonon transport in a
+                          temperature gradient. Crystalline materials typically exhibit four distinct regions in the
+
+## PDF page 11
+
+Materials 2022, 15, 719                                                                                                         11 of 15
+
+
+
+                           thermal conductivity–temperature curve. To investigate the behavior at high temperatures,
+                             the last of the four areas must be emphasized, i.e., the high-temperature region that exceeds
+                            θD, where the thermal conductivity exhibits a minimum value. The minimum thermal
+                            conductivity was calculated using Clarke’s model, which can be expressed as [60,61]:
+
+                                                 kmin = 0.87kBMa −2/3E1/2ρ1/6), Ma = [M/(m·NA)]                (22)
+
+                        where KB is the Boltzmann constant, ρ is the density, E is the Young’s modulus, NA is the
+                        Avogadro number, M is the molar mass, m is the total number of atoms per formula, and
+                    Ma is the average mass per atom. The thermal conductivity of solid materials varies with
+                           temperature and pressure because the phonon means that the free paths and vibration prop-
+                                 erties of the material depend on the temperature and pressure [62]. At high temperatures,
+                              solid materials converge to the minimum value of thermal conductivity, as suggested by
+                             Clarke. The minimum thermal conductivity is proportional to the mean acoustic velocity,
+                       and this velocity is affected by the rigidity of the material. Therefore, the results of this
+                          study show the minimum thermal conductivity in the order n-CuFe2O4 > n-CrFe2O4 >
+                          i-CuFe2O4 > i-CrFe2O4 > n-NiFe2O4 > i-FeAl2O4 > i-NiFe2O4 > n-FeAl2O4. According to
+                            the obtained mechanical properties and thermal conductivity, n-FeAl2O4 and i-AlFe2O4
+                             exhibited mechanical stability and a low thermal conductivity. It is beneﬁcial to provide the
+                            physical property information when n-FeAl2O4 and i-AlFe2O4 are regarded as potential
+                            candidates for inert anode oxide scales.
+
+
+
+
+
+                              Figure 4. Minimum thermal conductivity (Kmin) of normal and inverse spinel compound.
+
+                                 Figure 5 shows the measured thermal expansion coefﬁcients of the normal and inverse
+                              spinel compounds. The coefﬁcient of thermal expansion is an important factor that affects
+                          non-uniform epitaxial growth. This is because the signiﬁcant difference in the coefﬁcient of
+                          thermal expansion between dissimilar materials results in defects such as cracks and mis-
+                        match dislocations at the boundary [63,64]. The effect of temperature was analyzed using
+                            the Debye–Grüneisen model [65,66]. Investigations of other NiFe2O4 spinel compounds
+                            indicated comparable values between 11–18 × 10−6 K−1 [67]. This value is consistent
+                          with the experimental data within 10% between 275 and 400 K, but signiﬁcantly (15–16%)
+                            overestimates the measured expansion above this temperature. The possible reason for the
+
+## PDF page 12
+
+Materials 2022, 15, 719                                                                                                         12 of 15
+
+
+
+                              difference is that the anharmonicity correction of the Debye–Grüneisen model is too large to
+                             ﬁt the experimental values. In addition, several different ferrite spinels with NiFe2O4 were
+                              investigated in other studies, all of which indicate expansion at rates of 7–13 × 10−6 K−1 at
+                           1000 K [68]. This indicates that all of the normal and inverse spinel compounds investigated
+                         were overestimated. This deviation is expected because the calculation was performed on a
+                              perfect crystal, whereas the measured values are dependent on the purity of the sample, in
+                        which impurities, defects, and grain boundaries may be present.
+
+
+
+
+
+                              Figure 5. Comparison of calculated thermal expansion coefficients of normal and inverse spinel compound.
+
+                                   4. Conclusions
+
+                      We investigated the mechanical and thermal properties of normal and inverse spinel
+                          (NiFe2O4, FeAl2O4, AlFe2O4, CrFe2O4, and CuFe2O4) compounds using ﬁrst-principles
+                              calculations via the GGA + U approach. In particular, n-CuFe2O4 demonstrated the lowest
+                          compression resistance and theoretical hardness, whereas n-FeAl2O4 exhibited the highest
+                          compression resistance and theoretical hardness. The trend of θD was similar to the trends
+                              of shear and Young’s moduli. Meanwhile, the trends for the mechanical and thermophysical
+                            properties correspond to the Poisson’s ratio and Pugh’s constants of our solid solution
+                             candidates. Mechanical anisotropy was described by both the universal anisotropy index
+                        and spatial 3D surfaces. The minimum thermal conductivity of n-FeAl2O4 was the highest
+                                at 1.680 W/(m·K), whereas that of n-CuFe2O4 was the lowest at 0.948 W/(m·K). According
+                             to our calculations, NiFe2O4, FeAl2O4, and AlFe2O4 are expected to exhibit excellent
+                          thermal shock resistance and anode surface adhesion. Therefore, good performances can
+                         be expected when an inert Fe–Ni–Al anode is used in the MSE process. We hope that this
+                          study will provide some insights for the further investigation of spinel compound oxide
+                               scales and the design of Fe–Ni-based inert anodes for electrolysis.
+
+
+                           Author Contributions: Conceptualization, M.K.; methodology, M.K.; formal analysis, M.K.; inves-
+                                   tigation, J.K. (Jiwoo Kim); writing—original draft preparation, M.K.; writing—review and editing,
+                                      J.K. (Jiwoong Kim); visualization, J.K. (Jiwoo Kim); supervision, J.K. (Jiwoong Kim); project adminis-
+                                    tration, J.K. (Jungshin Kang); funding acquisition, J.K. (Jungshin Kang). All authors have read and
+                             agreed to the published version of the manuscript.
+
+## PDF page 13
+
+Materials 2022, 15, 719                                                                                                         13 of 15
+
+
+
+
+                            Funding: This research was supported by the National Research Council of Science and Technology
+                           (NST) grant by the Korea government (MSIT) (No. CRC-15-06-KIGAM) and the Korea Evaluation
+                                   Institute of Industrial Technology funded by the Korean Ministry of Industry in Korea (Project No.:
+                               20000970, 21-9805).
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: Data sharing is not applicable.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.   Cao, D.; Shi, Z.N.; Shi, D.; Xu, J.L.; Hu, X.W.; Wang, Z.W. Electrochemical Oxidation of Fe-Ni Alloys in Cryolite-Alumina Molten
+      Salts at High Temperature. J. Electrochem. Soc. 2019, 166, E87–E96. [CrossRef]
+2.    Lee, T.H.; Okabe, T.H.; Lee, J.Y.; Kim, Y.M.; Kang, J. Molten Salt Electrolysis of Magnesium Oxide Using a Liquid-Metal Cathode
+      for the Production of Magnesium Metal. Metall. Mater. Trans. B 2020, 51, 2993–3006. [CrossRef]
+3.   Haraldsson, J.; Johansson, M.T. Effects on primary energy use, greenhouse gas emissions and related costs from improving energy
+     end-use efﬁciency in the electrolysis in primary aluminium production. Energy Efﬁc. 2020, 13, 1299–1314. [CrossRef]
+4.   Paraskevas, D.; Kellens, K.; Van de Voorde, A.; Dewulf, W.; Duﬂou, J.R. Environmental Impact Analysis of Primary Aluminium
+     Production at Country Level. Procedia CIRP 2016, 40, 209–213. [CrossRef]
+5.   Thonstad, J. On the Anode Gas Reactions in Aluminum Electrolysis, II. J. Electrochem. Soc. 1964, 111, 955–959. [CrossRef]
+6.    Lee, T.-H.; Park, H.; Lee, J.-Y.; Kim, Y.M.; Kang, J. Investigation of Electrowinning of Mg from MgO Using a Liquid Metal Cathode
+     in MgF2-CaF2-NaF or MgF2-LiF Molten Salt. J. Korean Inst. Met. Mater. 2021, 59, 392–403. [CrossRef]
+7.    Lee, T.-H.; Okabe, T.H.; Lee, J.-Y.; Kim, Y.M.; Kang, J. Development of a novel electrolytic process for producing high-purity
+    magnesium metal from magnesium oxide using a liquid tin cathode. J. Magnes. Alloys 2021, 9, 1644–1655. [CrossRef]
+8.    Lee, D.-H.; Jeoung, H.-J.; Lee, T.-H.; Yi, K.-W.; Lee, J.-Y.; Kim, Y.M.; Okabe, T.H.; Kang, J. Scale-Up Study of Molten Salt Electrolysis
+     using Cu or Ag Cathode and Vacuum Distillation for the Production of High-Purity Mg Metal from MgO. J. Sustain. Metall. 2021,
+      7, 883–897. [CrossRef]
+9.   Wang, D.; Xiao, W. Inert anode development for high-temperature molten salts. In Molten Salts Chemistry; Elsevier: Amsterdam,
+    The Netherlands, 2013; pp. 171–186.
+10.   Tian, Z.; Lai, Y.; Yang, S.; Li, J.; Hwang, J.-Y.; Liu, Y. Anodic Corrosion Behavior of NiFe2O4-Based Cermet in Na3AlF6-K3AlF6-AlF3
+      for Aluminum Electrolysis. Metall. Mater. Trans. B 2015, 46, 1257–1261. [CrossRef]
+11.  Guan, P.; Liu, A.; Shi, Z.; Hu, X.; Wang, Z. Corrosion Behavior of Fe-Ni-Al Alloy Inert Anode in Cryolite Melts. Metals 2019, 9, 399.
+     [CrossRef]
+12.   Olsen, E.; Thonstad, J. Nickel ferrite as inert anodes in aluminium electrolysis: Part II Material performance and long-term testing.
+        J. Appl. Electrochem. 1999, 29, 301–311. [CrossRef]
+13.  Quan, C.; Deng, S.; Jiang, Y.; Jiang, C.; Shuai, M. Characteristics and high temperature oxidation behavior of Ni-Cr-Y2O3
+     nanocomposite coating prepared by cathode plasma electrolytic deposition. J. Alloys Compd. 2019, 793, 170–178. [CrossRef]
+14.  Wei, W.; Geng, S.; Xie, D.; Wang, F. High temperature oxidation and corrosion behaviours of Ni–Fe–Cr alloys as inert anode for
+    aluminum electrolysis. Corros. Sci. 2019, 157, 382–391. [CrossRef]
+15.  Chapman, V.; Welch, B.J.; Skyllas-Kazacos, M. Anodic behaviour of oxidised Ni–Fe alloys in cryolite–alumina melts. Electrochim.
+     Acta 2011, 56, 1227–1238. [CrossRef]
+16.  Hossain, A.; Sarker, M.S.I.; Khan, M.K.R.; Rahman, M.M. Spin effect on electronic, magnetic and optical properties of spinel
+     CoFe2O4: A DFT study. Mater. Sci. Eng. B 2020, 253, 114496–114501. [CrossRef]
+17.  Mo, S.D.; Ching, W.Y. Electronic structure of normal, inverse, and partially inverse spinels in the MgAl2O4 system. Phys. Rev. B
+     Condens. Matter 1996, 54, 16555–16561. [CrossRef]
+18.   Miller, A. Distribution of Cations in Spinels. J. Appl. Phys. 1959, 30, S24–S25. [CrossRef]
+19.  Guo, H.; Durham, J.L.; Brady, A.B.; Marschilok, A.C.; Takeuchi, E.S.; Takeuchi, K.J.; Liu, P. Essential Role of Spinel MgFe2O4
+     Surfaces during Discharge. J. Electrochem. Soc. 2020, 167, 090506–090514. [CrossRef]
+20.   Ivanov, V.G.; Abrashev, M.V.; Iliev, M.N.; Gospodinov, M.M.; Meen, J.; Aroyo, M.I. Short-rangeB-site ordering in the inverse spinel
+     ferriteNiFe2O4. Phys. Rev. B 2010, 82, 024104–024113. [CrossRef]
+21.   Liu, J.; Wang, X.; Borkiewicz, O.J.; Hu, E.; Xiao, R.J.; Chen, L.; Page, K. Uniﬁed View of the Local Cation-Ordered State in Inverse
+     Spinel Oxides. Inorg. Chem. 2019, 58, 14389–14402. [CrossRef] [PubMed]
+22.  Hafner, J. Ab-initio simulations of materials using VASP: Density-functional theory and beyond.  J. Comput. Chem. 2008, 29,
+     2044–2078. [CrossRef] [PubMed]
+23.  Kohn, W.; Sham, L.J. Self-Consistent Equations Including Exchange and Correlation Effects. Phys. Rev. 1965, 140, A1133–A1138.
+     [CrossRef]
+24.  Ernzerhof, M.; Scuseria, G.E. Assessment of the Perdew–Burke–Ernzerhof exchange-correlation functional. J. Chem. Phys. 1999,
+     110, 5029–5036. [CrossRef]
+
+## PDF page 14
+
+Materials 2022, 15, 719                                                                                                         14 of 15
+
+
+
+
+25.  Grimme, S. Semiempirical GGA-type density functional constructed with a long-range dispersion correction. J. Comput. Chem.
+     2006, 27, 1787–1799. [CrossRef] [PubMed]
+26.   Andriotis, A.N.; Sheetz, R.M.; Menon, M. LSDA + U method: A calculation of the U values at the Hartree-Fock level of
+     approximation. Phys. Rev. B 2010, 81, 245103–245107. [CrossRef]
+27.  Monkhorst, H.J.; Pack, J.D. Special points for Brillouin-zone integrations. Phys. Rev. B 1976, 13, 5188–5192. [CrossRef]
+28.   Jain, A.; Hautier, G.; Ong, S.P.; Moore, C.J.; Fischer, C.C.; Persson, K.A.; Ceder, G. Formation enthalpies by mixing GGA and
+   GGA+U calculations. Phys. Rev. B 2011, 84, 045115–045124. [CrossRef]
+29.  Zhou, F.; Cococcioni, M.; Marianetti, C.A.; Morgan, D.; Ceder, G. First-principles prediction of redox potentials in transition-metal
+    compounds with LDA + U. Phys. Rev. B 2004, 70, 235121–235128. [CrossRef]
+30.  Dabaghmanesh, S.; Saniz, R.; Neyts, E.; Partoens, B. Sulfur-alloyed Cr2O3: A new p-type transparent conducting oxide host. RSC
+     Adv. 2017, 7, 4453–4459. [CrossRef]
+31.  Reshak, A.H.; Jamal, M. DFT calculation for elastic constants of orthorhombic structure within WIEN2K code: A new package
+      (ortho-elastic). J. Alloys Compd. 2012, 543, 147–151. [CrossRef]
+32.   Hill, R. The Elastic Behaviour of a Crystalline Aggregate. Proc. Phys. Soc. Sect. A 1952, 65, 349–354. [CrossRef]
+33.  Watt, J.P. Hashin-Shtrikman bounds on the effective elastic moduli of polycrystals with orthorhombic symmetry. J. Appl. Phys.
+     1979, 50, 6290–6295. [CrossRef]
+34.   Fritsch, D.; Ederer, C. Epitaxial strain effects in the spinel ferritesCoFe2O4 and NiFe2O4 from ﬁrst principles. Phys. Rev. B 2010, 82,
+     104117–104127. [CrossRef]
+35.   Li, Z.; Fisher, E.S.; Liu, J.Z.; Nevitt, M.V. Single-crystal elastic constants of Co-Al and Co-Fe spinels.  J. Mater. Sci. 1991, 26,
+     2621–2624. [CrossRef]
+36.   Idrissi, L.; Tahiri, N.; El Bounagui, O.; Ez-Zahraouy, H. Magnetic Properties of NiFe2O4 Compound: Ab Initio Calculation and
+    Monte Carlo Simulation. J. Supercond. Novel Magn. 2019, 33, 1369–1375. [CrossRef]
+37.  Wang, H.; Simmons, G. Elasticity of some mantle crystal structures: Pleonaste and hercynite spinel. J. Geophys. Res. 1972, 77,
+     4379–4392. [CrossRef]
+38.  Odkhuu, D.; Tsevelmaa, T.; Sangaa, D.; Tsogbadrakh, N.; Rhim, S.H.; Hong, S.C. First-principles study of magnetization reorientation
+    and large perpendicular magnetic anisotropy in CuFe2O4/MgO heterostructures. Phys. Rev. B 2018, 98, 094408–094417. [CrossRef]
+39.  Yadav, R.S.; Kuˇritka, I.; Vilcakova, J.; Havlica, J.; Masilko, J.; Kalina, L.; Tkacz, J.; Hajdúchová, M.; Enev, V. Structural, dielectric,
+      electrical and magnetic properties of CuFe2O4 nanoparticles synthesized by honey mediated sol–gel combustion method and
+     annealing effect. J. Mater. Sci. Mater. Electron. 2017, 28, 6245–6261. [CrossRef]
+40.  Waseem, M.; Mahmood, I.; Rashid, M.; Qasim, I.; Laref, A. Investigations of physical aspects of spinel AB2O4 (A = Zn, Cd) oxides
+     via ab-initio calculations. Phys. Lett. A 2019, 383, 1810–1815. [CrossRef]
+41.  Dong, Y.; Lu, H.; Cui, J.; Yan, D.; Yin, F.; Li, D. Mechanical characteristics of FeAl2O4 and AlFe2O4 spinel phases in coatings–A
+     study combining experimental evaluation and ﬁrst-principles calculations. Ceram. Int. 2017, 43, 16094–16100. [CrossRef]
+42.   Moitzi, F.; ¸Sopu, D.; Holec, D.; Perera, D.; Mousseau, N.; Eckert, J. Chemical bonding effects on the brittle-to-ductile transition in
+     metallic glasses. Acta Metall. 2020, 188, 273–281. [CrossRef]
+43.  Pugh, S.F. XCII. Relations between the elastic moduli and the plastic properties of polycrystalline pure metals. Lond. Edinb. Dublin
+      Philos. Mag. J. Sci. 2009, 45, 823–843. [CrossRef]
+44.  Richardson, R.C.D. The wear of metals by hard abrasives. Wear 1967, 10, 291–309. [CrossRef]
+45.   Nicholls, J.R.; Hall, D.J.; Tortorelli, P.F. Hardness and modulus measurements on oxide scales. Mater. High Temp. 2016, 12, 141–150.
+     [CrossRef]
+46.    Ji, Z.-W.; Hu, C.-H.; Wang, D.-H.; Zhong, Y.; Yang, J.; Zhang, W.-Q.; Zhou, H.-Y. Mechanical properties and chemical bonding of
+     the Os–B system: A ﬁrst-principles study. Acta Metall. 2012, 60, 4208–4217. [CrossRef]
+47.   Tian, Y.J.; Xu, B.; Zhao, Z.S. Microscopic theory of hardness and design of novel super hard crystals. Int. J. Refract. Met. 2012, 33,
+     93–106. [CrossRef]
+48.  Ravindran, P.; Fast, L.; Korzhavyi, P.A.; Johansson, B.; Wills, J.; Eriksson, O. Density functional theory for calculation of elastic
+     properties of orthorhombic crystals: Application to TiSi2. J. Appl. Phys. 1998, 84, 4891–4904. [CrossRef]
+49.  Ranganathan, S.I.; Ostoja-Starzewski, M. Universal elastic anisotropy index. Phys. Rev. Lett. 2008, 101, 055504. [CrossRef]
+50.  Luan, X.; Qin, H.; Liu, F.; Dai, Z.; Yi, Y.; Li, Q. The Mechanical Properties and Elastic Anisotropies of Cubic Ni3Al from First
+     Principles Calculations. Crystals 2018, 8, 307. [CrossRef]
+51.  Wu, Q.; Li, S. Alloying element additions to Ni3Al: Site preferences and effects on elastic properties from ﬁrst-principles
+      calculations. Comput. Mater. Sci. 2012, 53, 436–443. [CrossRef]
+52.  Huang, B.; Duan, Y.-H.; Hu, W.-C.; Sun, Y.; Chen, S. Structural, anisotropic elastic and thermal properties of MB (M = Ti, Zr and
+     Hf) monoborides. Ceram. Int. 2015, 41, 6831–6843. [CrossRef]
+53.  Wen, Y.; Wang, L.; Liu, H.; Song, L. Ab Initio Study of the Elastic and Mechanical Properties of B19TiAl. Crystals 2017, 7, 39.
+     [CrossRef]
+54.  Zhu, Y.F.; Lian, J.S.; Jiang, Q. Modeling of the Melting Point, Debye Temperature, Thermal Expansion Coefﬁcient, and the Speciﬁc
+    Heat of Nanostructured Materials. J. Phys. Chem. C 2009, 113, 16896–16900. [CrossRef]
+55.  Anderson, O.L. A simpliﬁed method for calculating the Debye temperature from elastic constants. J. Phys. Chem. Solids 1963, 24,
+     909–917. [CrossRef]
+
+## PDF page 15
+
+Materials 2022, 15, 719                                                                                                         15 of 15
+
+
+
+
+56.  Wachter, P.; Filzmoser, M.; Rebizant, J. Electronic and elastic properties of the light actinide tellurides. Phys. B Condens. Matter
+     2001, 293, 199–223. [CrossRef]
+57.  Benhalima, C.; Amari, S.; Beldi, L.; Bouhafs, B. First-Principles Study of Ferromagnetism in Iron Chromite Spinels: FeCr2O4 and
+     CrFe2O4. Spin 2019, 9, 1950014–1950026. [CrossRef]
+58.  Walsh, A.; Wei, S.-H.; Yan, Y.; Al-Jassim, M.M.; Turner, J.A.; Woodhouse, M.; Parkinson, B.A. Structural, magnetic, and electronic
+     properties of the Co-Fe-Al oxide spinel system: Density-functional theory calculations. Phys. Rev. B 2007, 76, 165119–165127.
+     [CrossRef]
+59.  Zhang, Y.J.; Zhang, W.; Yu, C.; Liu, Z.Y.; Yu, X.F.; Meng, F.B. Synthesis, structure and super capacitive behavior of spinel NiFe2O4
+    and NiO@NiFe2O4 nanoparticles. Ceram. Int. 2021, 47, 10063–10071. [CrossRef]
+60.  Clarke, D.R. Materials selection guidelines for low thermal conductivity thermal barrier coatings. Surf. Coat. Technol. 2003,
+     163–164, 67–74. [CrossRef]
+61.  Chong, X.; Jiang, Y.; Zhou, R.; Zhu, H.; Feng, J. Electronic structure, anisotropic elastic and thermal properties of the η phase
+    Fe6W6C. Comput. Mater. Sci. 2015, 108, 205–211. [CrossRef]
+62.  Kim, J.; Kim, M.; Roh, K.-M.; Kang, I. Bond characteristics, mechanical properties, and high-temperature thermal conductivity of
+     (Hf1−xTax) C composites. J. Am. Ceram. Soc. 2019, 102, 6298–6308. [CrossRef]
+63.  Ohya, Y.; Nakagawa, Z.-e.; Hamano, K. Grain-Boundary Microcracking Due to Thermal Expansion Anisotropy in Aluminum
+     Titanate Ceramics. J. Am. Ceram. Soc. 1987, 70, C184–C186. [CrossRef]
+64.  Tsuru, Y.; Shimazu, M.; Shiono, M.; Morinaga, M. Evaluation of Linear Thermal Expansion Coefﬁcients of Perovskite Oxides
+    Using Ab-initio Molecular Dynamics with Small Cell Sizes for Materials Design. Jpn. J. Appl. Phys. 2010, 49, 045701–045706.
+     [CrossRef]
+65.  Mao, X.-C.; Liu, K.; Hou, B.-S.; Tan, J.; Zhou, X.-L. Theoretical Investigation of the Structural, Elastic, and Thermodynamic
+     Properties of MgAl2O4 Spinel under High Pressure. J. Phys. Soc. Jpn. 2016, 85, 114605–114611. [CrossRef]
+66.  Suzuki, I.; Ohtani, E.; Kumazawa, M. Thermal expansion of modiﬁed spinel, beta-Mg2SiO4. J. Phys. Earth 1980, 28, 273–280.
+     [CrossRef]
+67.  Nelson, A.T.; White, J.T.; Andersson, D.A.; Aguiar, J.A.; McClellan, K.J.; Byler, D.D.; Short, M.P.; Stanek, C.R.; White, M. Thermal
+     Expansion, Heat Capacity, and Thermal Conductivity of Nickel Ferrite (NiFe2O4).  J. Am. Ceram. Soc. 2014, 97, 1559–1565.
+     [CrossRef]
+68.   Petric, A.; Ling, H. Electrical Conductivity and Thermal Expansion of Spinels at Elevated Temperatures. J. Am. Ceram. Soc. 2007,
+      90, 1515–1520. [CrossRef]

@@ -1,0 +1,844 @@
+Source: literature/Electrochemical Degradation Mechanism of a Cermet Anode.pdf
+
+## PDF page 1
+
+  Electrochemical Degradation Mechanism of a Cermet Anode
+                    for Aluminum Production
+   P. Meyer, Laurent Massot, Mathieu Gibilaro, S. Bouvet, V. Laurent, A. Marmottant,
+                                          P. Chamelot
+
+
+
+   To cite this version:
+
+     P. Meyer, Laurent Massot, Mathieu Gibilaro, S. Bouvet, V. Laurent, et al.. Electrochemical Degradation Mech-
+    anism of a Cermet Anode for Aluminum Production.  Materials Sciences and Applications, 2019, 10 (09),
+     pp.614-629. ⟨10.4236/msa.2019.109044⟩. ⟨hal-04142894⟩
+
+
+
+
+
+                 HAL Id: hal-04142894
+                    https://hal.science/hal-04142894v1
+
+                                     Submitted on 5 Jul 2023
+
+
+
+
+  HAL is a multi-disciplinary open access archive      L’archive ouverte pluridisciplinaire HAL, est des-
+for the deposit and dissemination of scientific re-  tinée au dépôt et à la diffusion de documents scien-
+search documents, whether they are published or not.  tifiques de niveau recherche, publiés ou non, émanant
+The documents may come from teaching and research  des établissements d’enseignement et de recherche
+institutions in France or abroad, or from public or pri-  français ou étrangers, des laboratoires publics ou
+vate research centers.                                   privés.
+
+
+          Distributed under a Creative Commons CC BY 4.0 - Attribution - International License
+
+## PDF page 2
+
+                                                                      Materials Sciences and Applications, 2019, 10, 614-629
+                                                                                          https://www.scirp.org/journal/msa
+                                                                                                 ISSN Online: 2153-1188
+                                                                                                  ISSN Print: 2153-117X
+
+Electrochemical Degradation Mechanism of a
+Cermet Anode for Aluminum Production
+
+
+P. Meyer1, L. Massot1*, M. Gibilaro1, S. Bouvet2, V. Laurent2, A. Marmottant2, P. Chamelot1
+
+1Laboratoire de Génie Chimique, Université de Toulouse, UPS-CNRS-INPT, Toulouse Cedex, France
+2Rio Tinto, Aluval, Voreppe Cedex, France
+
+
+
+How to cite this paper: Meyer, P., Massot,   Abstract
+L., Gibilaro, M., Bouvet,  S., Laurent, V.,
+Marmottant, A. and Chamelot, P. (2019)    Tests on (NixFeyO4 - Ni1−xFexO)/(CuxNiyFez) cermets, considered as promising
+Electrochemical  Degradation Mechanism   anode for the aluminium production, were performed under electrolysis at
+of a Cermet Anode for Aluminum Produc-    0.8 A∙cm−2 in molten mixture of cryolite at 960˚C. In order to predict phasetion. Materials Sciences and Applications,
+10, 614-629.                           compositions, a thermodynamic study was performed and experimentally ve-
+https://doi.org/10.4236/msa.2019.109044       rified by SEM-EDS analysis. The metallic phase oxidation leads to the forma-
+                                      tion of different phases such as FeF2, Ni0.90Fe0.10O, NiF2 and Cu2O phases,
+Received: August 27, 2019
+                                    while NixFe3−xO4 spinel is continuously enriched up to x= 0.90, the thermo-Accepted: September 16, 2019
+Published: September 19, 2019            dynamically stable nickel composition. When the cermet material is fully oxi-
+                                       dized, metallic and oxide phases are converted into soluble or non-conductive
+Copyright © 2019 by author(s) and          phases, leading to the end of anode service life.Scientific Research Publishing Inc.
+This work is licensed under the Creative
+Commons Attribution International      Keywords
+License (CC BY 4.0).                                  Metal/Oxide Electrode, Aluminium Electrolysis, Oxidation Reactionhttp://creativecommons.org/licenses/by/4.0/
+            Open Access            Mechanism
+
+
+                              1. Introduction
+
+                                  Hall-Héroult process produces aluminium by alumina electrolysis (Al2O3) in a
+                               molten mixture of cryolite at high temperature (960˚C) [1]:
+                                                 2Al 2 O 3( sol ) + 3C → 4Al ( l ) + 3CO 2 ( g )
+
+                            Aluminum metal is obtained at the cathode and oxygen ions react with a reac-
+                                        tive carbon anode to produce carbon dioxide. The electrolyte is composed of
+                                Na3AlF6 - AlF3 - CaF2 and Al2O3 according to a NaF/AlF3 molar ratio of 2.2
+                                      (called cryolitic ratio CR).
+                           One of the key challenges for the aluminum industry is to replace CO2 by O2
+                                      release on an inert anode. The basic requirements for an inert anode are listed
+
+DOI: 10.4236/msa.2019.109044  Sep. 19, 2019             614                           Materials Sciences and Applications
+
+## PDF page 3
+
+                                                                                                                            P. Meyer et al.
+
+                               below [2]:
+                                             -  High thermo-mechanical properties (shock and thermal gradient resistances).
+                                             -  High electrical conductivity (>80 S∙cm−1).
+                                             -  High stability to oxidation at high temperature.
+                                             -  Consumption rate lower than 1 cm/year for 0.8 A∙cm−2.
+                            To fulfill these conditions, three types of inert anode for aluminum electroly-
+                                           sis have been examined up to now:
+                                •  Metals or alloys [3] [4] [5], for their good ductility, conductivity and thermal
+                                 chock resistance. However, metals are highly degraded under oxidation and
+                                     thus cannot be used as anode (eg: Fe, Ni or Co metals [3]).
+                                •  Ceramics [6] [7], for their excellent oxidation resistance, but are generally
+                                              brittle and have a low conductivity incompatible with an electrolysis process
+                                        (eg: spinel NixFe3−xO4).
+                                •  Cermets (CERamic-METals) [8] [9], made of ceramics (monoxide MO, nick-
+                                               el ferrite NixFe3−xO4) and metal, combining the advantages of both materials.
+                              The first patents on cermet anodes have been published by Aluminum Com-
+                                pany of America (ALCOA) in the 80’s [10] [11].
+                       ALCOA studied cermets composed of copper as metallic phase and a mixture
+                                    of NiFe2O4 and NiO [12] [13]. Anodes were tested in cryolite at 0.8 A∙cm−2 at
+                             970˚C and analyzed by SEM-EDS. The 83 wt% (80NiFe2O4 - 20NiO)/17 wt% Cu
+                                composition presented the best resistance to polarisation.
+                                       Studies by Lai etal.[14] on cermets composed of 83(90NiFe2O4 - 10NiO)/17Ni
+                               concern the degradation mechanism at 960˚C under electrolysis at 0.8 A∙cm−2 in
+                               molten cryolite (saturated in Al2O3). The authors observed preferential oxidation
+                                    of metallic Ni, leading to porosity in the structure, and electrolyte penetration
+                                 along the grain boundaries. The authors also pointed out a chemical dissolution
+                                    of the spinel phase and a reaction between NiO and AlF3 to form NiF2 and Al
+                                   metal. Tian etal. [15] completed this work by varying the metallic Ni content
+                             from 0 to 20 wt% at 970˚C under polarisation at 1 A∙cm−2 and CR = 2.3 (4 wt%
+                                    Al2O3). According to their results, cermet composed of 5wt% of metallic Ni pre-
+                                  sented the best resistance to degradation and the best electrical conductivity un-
+                                 der polarisation.
+                                   Liu et al. [16]  investigated a Cu-Ni mixture  as  metallic phase  in the
+                                83(90NiFe2O4 - 10NiO)/17(Cu - 10Ni) material. Studies were performed in mol-
+                                  ten cryolite at 960˚C, under electrolysis at 1 A∙cm−2 and CR = 2.3, saturated in
+                                   Al2O3. A dense NiFe2O4 layer was formed at the anode surface, whose thickness
+                                   increased during the electrolysis process. A higher oxidation rate of Cu com-
+                                pared to Ni was observed in the cermet. By comparing the microstructure of
+                                90(90NiFe2O4 - 10NiO)/10Cu and 90(90NiFe2O4 - 10NiO)/10(Ni-Cu) cermets
+                                        after electrolysis, He etal. [17] suggested, in agreement with Lai etal. [12], a
+                                      preferential oxidation of the metallic phase and an increase of the porosity. A
+                                dense layer was formed at the salt/electrode interface by reaction between
+                               NiFe2O4 and Al2O3 to form NiAl2O4 and FeAl2O4. The authors suggested that this
+
+
+DOI: 10.4236/msa.2019.109044                         615                           Materials Sciences and Applications
+
+## PDF page 4
+
+P. Meyer et al.
+
+                                      layer acted as a protective barrier, limiting the cermet oxidation, and concluded
+                                     that the cermet composition with metallic Ni is the most promising inert anode.
+                                      Tests were also performed on (90NiFe2O4 - 10NiO)/(Ni-Cu) at 0.95 A∙cm−2 in
+                                Na3AlF6 - K3AlF6 - AlF3 - Al2O3 at 900˚C by Tian etal.[18] but anodes were still
+                                   highly deteriorated. A dense layer composed of FeAl2O4, NiAl2O4 and CuAl2O4
+                             was formed (150 µm) at the salt/electrode interface, and is supposed to protect
+                                   the  initial cermet material. More recently, Meyer et al. [19] observed that
+                                FeAl2O4 is rapidly dissolved in molten cryolite.
+                                    Despite intensive investigations, no satisfactory inert anode material composi-
+                                    tion has been found yet and no global degradation mechanism of cermet under
+                                     polarisation is proposed.
+                       A cermet developed in house (described in §2.d) was tested under galvanos-
+                                          tatic electrolysis at 0.8 A∙cm−2 in Na3AlF6 - AlF3 - CaF2 - Al2O3 at 960˚C for dif-
+                                     ferent durations under Ar atmosphere. Anodes were analyzed by Scanning Elec-
+                                  tron Microscopy (SEM), coupled with the energy-dispersive X-ray spectroscopy
+                                 (EDS), to determine the microstructure compositions. From these analyses, an
+                                   electrochemical degradation mechanism of the cermet is proposed and validated
+                              by thermodynamic calculations using Factsage 7.1 software.
+
+                              2. Experimental
+                                 2.1. The Cell
+
+                            The cell was a vitreous carbon crucible placed in a cylindrical vessel made of re-
+                                     fractory steel and closed by a stainless steel lid cooled by circulating water. The
+                                     inside part of the walls was protected against fluoride vapors by a graphite liner.
+                            The experiments were performed under an inert argon atmosphere (4.5 grade),
+                                   previously dehydrated. The cell was heated using a programmable furnace and
+                                   the temperatures were measured using a chromel-alumel thermocouple. A
+                                 schematic diagram of the experimental setup has already been presented in
+                                  previous article [20].
+                              The cryolite melt is composed of Na3AlF6 (Carlo Erba, purity 99.99%), with an
+                                   addition of 11 wt% excess of AlF3 (ProChem Inc, purity 99.99%) and 5 wt% of
+                               CaF2 (Apollo Scientific, purity 99.99%), leading to a cryolitic ratio (CR) of 2.2.
+                             Alumina saturation was achieved by addition of 8 wt% of alumina (Alfa Aesar,
+                                    purity 99%). The salt mixture was heated until 960˚C under argon atmosphere.
+
+                                 2.2. Electrodes
+
+                     A parallelepipedic shaped cermet (1.25 cm2 surface area) was used as working
+                                      electrode. This relatively small surface area was selected to ensure its full degra-
+                                  dation within few hours. The auxiliary electrode was a Ni plate to avoid Al metal
+                                    in the salt (formation of Al-Ni alloys). The reference electrode is a molybdenum
+                                 wire (Goodfellow 99.99%, 0.5 mm diameter) enclosed in a boron nitride crucible
+                               (BN, AX05 grade), immersed into the bath, in contact with the solution through
+                                 a 0.3 mm diameter hole.
+
+DOI: 10.4236/msa.2019.109044                         616                           Materials Sciences and Applications
+
+## PDF page 5
+
+                                                                                                                            P. Meyer et al.
+
+                                 2.3. Techniques
+
+                            The electrochemical studies and galvanostatic electrolyses were performed with
+                             an Autolab PGSTAT302N potentiostat/galvanostat controlled with the NOVA
+                                     2.1 software. The cermets were embedded in cold conductive resin and polished
+                                     for surface analysis of their cross-sections. Scanning electron microscope (SEM)
+                                with a Backscattered Electron (BSE) detector observations coupled with EDS
+                                     analysis were performed on a PhenomWorldXL.
+
+                                 2.4. The Cermet
+
+                             Cermet was obtained by a powder metallurgy process: NiFe2O4, NiO, Ni and Cu
+                             powder were mixed together with an organic binder, isostatically pressed and
+                                    sintered  at  1350˚C.  After  sintering,  this  cermet  is composed  of  spinel
+                                     (NixFe3−xO4), nickel iron monoxide (Ni1−xFexO) and copper-nickel-iron alloy
+                                    (CuxNiyFez). Figure 1 shows the stable phases when the partial pressure of oxy-
+                              gen is 10−10 atm. in the ternary diagram of Ni, Cu, Fe system. The back point is
+                                  the proportion of the nickel, iron and copper elements in the studied cermet; its
+                                  microstructure is composed of monoxide and metal phases, included in a conti-
+                             nuous spinel matrix, and the residual porosity is 2%vol.
+
+                              3. Results and Discussion
+                                 3.1. Thermodynamic Approach
+
+                          To predict the oxidised phase compositions, thermodynamic evaluation of Gibbs
+
+
+
+
+
+                                    Figure 1. Ternary diagram of the Ni, Cu, Fe system (pO2 = 10−10 atm). Zone 1: metal and
+                                         spinel coexistence. Zone 2: metal, spinel and monoxide coexistence; Zone 3: metal and
+                                monoxide coexistence.
+
+
+DOI: 10.4236/msa.2019.109044                         617                           Materials Sciences and Applications
+
+## PDF page 6
+
+P. Meyer et al.
+
+                                       free energies was realised with FactSage 7.1 software, with FactPS, FTOxid,
+                          SGTEa and FTHall databases. Standard states were selected as follows for the
+                                      different species: the gaseous species (g) obeys the ideal gas equation at standard
+                                   pressure (P = 1 atm), the solid (s) and liquid (l) compounds are considered as
+                                pure substances. Moreover, all the calculations were performed at 960˚C.
+                            From these values, standard potentials were calculated as follows:
+                                ∆°G = nFE °                                  (1)
+                                 •  In presence of fluoride ions, F2(g)/F− redox couple was used to express the iron
+                                      oxidation as:
+                                                    Fe ( s ) + 2F − → FeF2 ( s ) + 2e −                           (2)
+
+                                                 F2 ( g ) + 2e −  2F −                                (3)
+                                                      Fe ( s ) + F2 ( g ) → FeF2 ( s )                             (4)
+
+                               Gibbs free energy was determined for Equation (4) at 960˚C:
+                         ∆G = −535.81 kJ ⋅ mol −1 .
+                              The FeF2/Fe standard potential is equal to E°( FeF2 /Fe ) = −2.80 V vs.F2(g)/F−.
+                                 •  In presence of oxide ions, O2(g)/O2− redox couple was selected and the iron
+                                      oxidation reaction is:
+                                                   Fe ( s ) + O 2 − → FeO ( s ) + 2e −                            (5)
+
+                                                     1 2O 2 ( g ) + 2e −  O 2 −                             (6)
+
+                                                           1
+                                                     Fe ( s ) + O 2 ( g ) → FeO ( s )                            (7)                                                           2
+                              where O2− represents all the fluoroaluminates ions   Al x O y Fz  3 x − 2 y − z  that can
+                                be oxidized to produce dioxygen [21] [22] [23].
+                              The Gibbs free energy determined by FactSage for Equation (7) at 960˚C is
+                 ∆°G = −184.16 kJ ⋅ mol −1 , corresponding to E°( FeO/Fe ) = −0.88 V vs.O2(g)/O2−.
+                            To compare the fluoride and the oxide species standard potentials, the same
+                                    reference potential is needed: AlF3/Al(l) redox couple was chosen; the reference
+                                     potential change is explained elsewhere [24].
+                              The study was realised with the constitutive elements of the anode (Cu, Ni, Fe)
+                                 considered as pure elements and the results are gathered in Figure 2.
+
+
+
+
+
+                                    Figure 2. Standard potentials scales determined at 960˚C.
+
+
+DOI: 10.4236/msa.2019.109044                         618                           Materials Sciences and Applications
+
+## PDF page 7
+
+                                                                                                                            P. Meyer et al.
+
+                            From these scales, metallic iron is the first element to be oxidized into FeO
+                             and FeF2, depending on O2− content. Then, nickel is oxidized into NiO or NiF2
+                             and copper into Cu2O, CuF2 and CuO. All these oxide/fluoride formations were
+                                 confronted to micrographic analyses of the anode after electrolysis. In this work,
+                                  the potentials will be referenced to AlF3/Al redox couple.
+
+                                 3.2. Experimental Anodic Potential during the Electrolysis
+                              Process at 0.8 A∙cm−2
+
+                       On the cermet anode, oxygen is produced; to characterise the material oxidation,
+                                 a linear voltammogram was plotted at 50 mV∙s−1 on the cermet and on gold
+                                     electrode, in a CR 2.2 bath containing 5wt% of CaF2 saturated in alumina at
+                             960˚C (Figure 3).
+                        On the jvs.Ecurve, two zones are observed, meaning that at least two reac-
+                                    tions take place. To identify the O2 evolution, a gold electrode was selected as
+                                 only O2 is formed [25]. The linear voltammetry superimposition shows that the
+                               second zone (from 2 V vs. ref) corresponds to O2 evolution and the first zone
+                               can be attributed to the cermet material oxidation (between 1.55 V vs. ref and 2
+                     V vs. ref).
+                                   In our experimental conditions (j = 0.8 A.cm−2), the anode potential during
+                                  the electrolysis is around 2.8 V vs.ref, meaning that both O2 evolution and ma-
+                                          terial oxidation take place: the next paragraph deals with the investigation of the
+                                   material electrochemical degradation.
+
+                                 3.3. Determination of the Electrochemical Degradation
+                          Mechanism
+
+                            The approach used to determine the material degradation steps was:
+                                •  Electrolyses at 0.8 A.cm−2 for different polarization durations.
+                                • SEM analysis of the anode cross-section to observe the changes of oxide and
+                                        metallic phases.
+                                • EDS analysis to determine their compositions.
+                             As the cermet degradation state is function of its geometrical dimensions, the
+                                                                                                                                   (A.cm-2)                                              11                jj(A.cm-2) 1.21,2                                                                                                                                j = 0.8 A.cm-2
+                                                  0.80,8
+
+                                                  0.60,6
+                                                                                                                     O2- O2(g)
+                                                  0.40,4
+
+                                                  0.20,2
+
+                                              00
+                                             00      0.50,5     11       1,51.5     22       2,52.5      33      3.53,5
+                                                                                                  E (V/réf)                                                                                      E vs. AlF3/Al/V
+                                    Figure 3. Linear voltammograms (vb = 0.050 V∙s−1) plotted on gold electrode (thin line)
+                                and cermet (bold) in cryolitic bath (CR = 2.2, 5 wt% CaF2, saturated in Al2O3, T = 960˚C).
+
+DOI: 10.4236/msa.2019.109044                         619                           Materials Sciences and Applications
+
+## PDF page 8
+
+P. Meyer et al.
+
+                                        electrolysis time was converted into a degradation progress (λ); for λ = 1, the
+                      CERMET is fully oxidised, and corresponds to the anode service life.
+                              The global cermet electrolysis curve E= f(λ), corresponding to the anode end
+                                    of life (λ= 1), is shown in Figure 4.
+                                   This curve is divided into three zones:
+                                 •  In zone 1 (Z1), the potential is stable and corresponds to the potential pre-
+                                       viously measured by linear voltammetry (E= 2.8 V vs.AlF3/Al).
+                                 •  In zone 2 (Z2), a significant increase of the potential is observed.
+                                 •  In zone 3 (Z3), the potential strongly increases up to 10 V vs. AlF3/Al.
+                       A progressive increase of the anode potential is then observed with the elec-
+                                        trolysis duration. To investigate the electrochemical degradation mechanism,
+                                      electrolyses were performed in the different zones and results are detailed below.
+
+                                    3.3.1. Zone 1: Formation of Monoxide and Fluoride Phases
+                                Figure 5 shows the SEM micrographs of the cermet interface after different de-
+                                  gradation progresses λ= 6.25%, 12.5% and 25%.
+                                 These micrographs show an important decrease of the metallic phase amount
+                                 with the electrolysis duration: at the anode/electrolyte interface (100 µm), only
+                          30% of the initial metal remains in the structure for λ= 25%. The metallic phase
+                                              is then continuously oxidized and leads to:
+                                 •  FeF2: this new phase is detected in contact with metallic grains up to 120 µm
+                                   depth for λ= 6.25%, (Figure 5(a)). Its formation can result from the oxida-
+                                       tion of iron metal in presence of fluoride ions according to the reaction:
+                                                     Fe + 2F − → FeF2 + 2e −                             (2)
+                                   This result is in agreement with the thermodynamic approach (Figure 2),
+                              where the iron metal is the first element to be oxidized.
+                                  Moreover, at 45 μm from the anode/electrolyte interface (Figure 5(c)), the
+                                   detected fluoride phases contain both FeF2 and NiF2. NiF2 can be obtained by
+                                  oxidation of nickel metal with fluoride ions, according to the following reaction:
+
+                                        12                             /V
+                                        10
+
+                                         8                                                                                                                                vs.AlF3/Al                                            Z3
+              E  6
+                                                             Z1               Z2
+                                         4
+
+                                         2
+
+                                         0
+                                          0         0.25         0.5         0.75       1
+                                                           Degradation progress
+                                    Figure 4. Variation of anode potential vs the degradation progress for electrolysis at 0.8
+                                   A∙cm−2 in a CR = 2.2 bath saturated in alumina with 5%wt of CaF2 at 960˚C. X: tested du-
+                                           rations.
+
+DOI: 10.4236/msa.2019.109044                         620                           Materials Sciences and Applications
+
+## PDF page 9
+
+                                                                                                                            P. Meyer et al.
+
+                                                              a
+                                                                           Ni0.80Fe0.20O
+
+
+
+                                                                   FeF2
+
+
+
+
+                                                         10 µm
+                                                              b
+                                                                         Ni0.81Fe2.19O4
+
+
+
+
+                                                                               Ni0.81Fe0.19O
+
+
+
+
+                                                              10 µm
+                                                                                                  c
+
+
+                                                                                                      Ni0.90Fe0.10O
+
+
+                                                                                                           Electrolyte                                                                             Ni0.90Fe2.10O4
+
+                                                                                   NiF2 /FeF2
+
+
+                                                                             10 µm
+
+                                    Figure 5. SEM micrographs of the cermet interface after electrolysis at 0.8 A∙cm−2 in a CR
+                            = 2.2 bath, saturated in Al2O3 with 5%wt of CaF2 at 960˚C: (a) λ= 6.25% (b) λ= 12.5% (c)
+                 λ= 25%.
+
+                                                    Ni ( s ) + 2F − → NiF2 ( s ) + 2e −                         (8)
+
+                                However, at the anode/electrolyte interface, FeF2 and NiF2 are never detected:
+                                                   it might be due to their dissolution in the electrolyte. FeF2 and NiF2 dissolution
+                                   generates an additional porosity and therefore accelerates the electrolyte pene-
+                                     tration into the cermet.
+
+DOI: 10.4236/msa.2019.109044                         621                           Materials Sciences and Applications
+
+## PDF page 10
+
+P. Meyer et al.
+
+                            From these observations, oxide phases are then formed next to the salt inter-
+                                     face whereas fluoride phase are detected in the bulk. However, micrographs
+                                       clearly show that their formation front moves inwards with the anode degrada-
+                                    tion progress, as presented in Table 1 where the degradation front has been
+                              measured for different degradation progress.
+                                 •  Ni0.8Fe0.2O: this monoxide is observed close to the electrolyte.
+                                 According to the thermodynamic scales, in presence of oxide ions, iron and
+                                    nickel can be oxidized into FeO and NiO. However, a mixture iron and nickel
+                             monoxide is detected by EDS, so a two-step formation mechanism is proposed:
+                                      1) Metallic iron in contact with the electrolyte is oxidized into FeO:
+                                                     Fe + O 2 − → FeO + 2e −                             (5)
+                                      2) FeO is then dissolved into NiO, formed by oxidation of metallic nickel, ac-
+                                 cording to the following reaction:
+                                              0.80Ni + 0.20FeO + 0.80O 2 − → Ni 0.80 Fe 0.20 O + 1.60e −           (9)
+                                 For λ= 25%, (Figure 5(c)), only one monoxide composition is detected with
+                x= 0.9 nickel amount. This oxide composition is then the most stable and the
+                                Equation (9) becomes:
+                                              0.90Ni + 0.10FeO + 0.90O 2 − → Ni 0.90 Fe 0.10 O + 1.80e −         (10)
+                                 •  The NixFe3−xO4 spinel phase is continuously enriched in nickel, up to a limit
+                                      value of x= 0.90 (Ni0.90Fe2.10O4). This final spinel composition is assumed to
+                                  be the most stable one in this experimental condition [26]. To explain the
+                                        nickel increase in the spinel phase, a ternary phase diagram of the Ni-Fe-O
+                                   system at 960˚C was plotted in Figure 6.
+
+                                   Table 1. Degradation front into the cermet for different degradation progresses.
+
+                                                    Duration (h)                       0.5             1              2
+                                                Degradation front (µm)               180            250            590
+
+
+                                                                           1  NixFe1-xO + (Ni,Fe) alloy
+                                                                                  2  NixFe3-xO4 + FeO + (Ni,Fe) alloy
+                                                                           3  NixFe3-xO4 + (Ni,Fe) alloy
+                                                                           4  NixFe3-xO4 + NixFe1-xO + (Ni,Fe) alloy
+                                                                           5  Ni + NixFe1-xO
+
+
+                                                               2
+                                                                    4                                                                           5
+                                                                  3
+
+                                                         1
+
+
+
+
+                                                        Mole fraction
+
+                                            Figure 6. Phase diagram of Ni-Fe-O system at 960˚C.
+
+DOI: 10.4236/msa.2019.109044                         622                           Materials Sciences and Applications
+
+## PDF page 11
+
+                                                                                                                            P. Meyer et al.
+
+                              The stability zones of the material phases are represented: NixFe3−xO4 spinel,
+                                 Ni1−xFexO nickel iron monoxide and metallic alloy. The only part of the diagram
+                              where the three phases are in equilibrium is in the part 4 (grey zone).
+                              The initial composition of the spinel is displayed with a circle (zone 4) and the
+                                  oxidized spinel phase Ni0.90Fe2.10O4 with a cross. The Ni-Fe-O phase diagram at
+                             960˚C confirms the possible increase of Ni into the spinel phase until x= 0.90, as
+                                observed for the monoxide phase (Ni0.90Fe0.10O).
+                              The reaction producing the nickel increase can be written as:
+                                  Ni x Fe 3 − x O 4 + yNi → Ni x + y Fe 3 −−x  y O 4 + yFe 2 + + 2 ye −  ( x + y = 0 .90 )     (11)
+
+                                   This reaction releases Fe2+ which forms FeF2 according to the reaction:
+                                                   Fe 2 + + 2F − → FeF2                               (12)
+
+                                    3.3.2. Zone 2: Cu2O Formation
+                                     Electrolyses were then carried out in zone 2. Figure 7 represents the SEM mi-
+                                 crographs of cermet interface (a) and core (b) at the half of the degradation (λ=
+                                50%).
+                              The core of the anode (Figure 7(b)) is mainly composed of:
+                                •  Few grains of metallic phase.
+                                •  Ni0.90Fe2.10O4 spinel phase.
+                                •  Ni0.90Fe0.10O monoxide phase.
+                                • A mixture of NiF2 and FeF2.
+                              The same phases detected at the electrolyte/anode interface in zone 1 are
+                                  present at the core at λ= 50% (Figure 7(b)), showing a continuous progression
+                                    of the degradation front towards the core of the anode. Up to 400 μm depth
+                                 (Figure 7(a)), the material is only composed of oxides: Ni0.90Fe0.10O, Ni0.90Fe2.10O4
+
+                                                                                    a
+
+                                                                                 Cu2O
+                                                                                   Ni0.90Fe2.10O4
+
+                                                                                                          Ni0.90Fe0.10O
+
+                                                                                  Electrolyte                     20 µm
+                                                          b                                                        Ni0.90Fe2,10O4
+
+                                                                                  Ni0.90Fe0.10O
+
+                                                       NiF2 /FeF2
+
+
+                                                          20 µm
+
+                                    Figure 7. SEM micrographs of the cermet after electrolysis (λ= 50%) at 0.8 A∙cm−2 in a
+                         CR = 2.2 bath, saturated in Al2O3 with 5 wt% of CaF2 at 960˚C: (a) interface (b) core.
+
+DOI: 10.4236/msa.2019.109044                         623                           Materials Sciences and Applications
+
+## PDF page 12
+
+P. Meyer et al.
+
+                             and Cu2O, formed by oxidation of metallic copper in presence of oxide ions ac-
+                                 cording to the reaction:
+                                            2Cu ( s ) + O 2 − → Cu 2 O ( s ) + 2e −                        (13)
+
+                                 These results are in agreement with the potential scale (Figure 2), where cop-
+                                 per is more noble than iron and nickel. At this step, metallic iron is not present
+                             anymore and the oxide phases have reached a thermodynamically stable compo-
+                                         sition: nickel is then preferentially oxidized into NiF2, while copper is oxidized
+                                    into Cu2O.
+                              The electrolyte is also present into the porosity and keeps on contributing to
+                                   the dissolution of the fluoride phases.
+                              The potential increase in zone 2 is directly correlated to the cermet composi-
+                                       tion: the metallic phase is converted into oxides and leading to porosity. The
+                                    global conductivity of the anode decreases then continuously because of low
+                                   conductivity oxide phase formation at 1000˚C:
+                                             -   Ni0.90Fe0.10O: 18 S∙cm−1 [27]
+                                             -   Ni0.90Fe2.10O4: 0.5 S∙cm−1 [28]
+                                             -  Cu2O: 1 - 2 S∙cm−1 [29]
+
+                                    3.3.3. Zone 3: Formation of (Ni, Cu, Fe)O Monoxide
+                                     Electrolyses were performed in zone 3 and the SEM micrographs of the interface
+                                 obtained after electrolysis at λ= 75% and full degradation progress are presented
+                                    in Figure 8(a) and Figure 8(b).
+
+                                                                                          a
+
+                                                                                                                                  Ni0.90Fe2.10O4
+
+
+                                                                             Aluminate
+
+                                                                                                              Ni0.90Fe0.10O
+
+                                                                                                                Electrolyte
+
+
+                                                                                   10 µm
+                                                                                   b
+                                                                                                                        Ni0.90Fe2.10O4
+
+
+
+
+
+                                                                                                  Ni0.90Cu0.08Fe0.02O
+
+                                                                                                               Electrolyte
+                                                                                    10 µm
+
+                                    Figure 8. SEM micrographs of the cermet interface after electrolysis at 0.8 A∙cm−2 in a CR
+                            = 2.2 bath, saturated in Al2O3 with 5%wt of CaF2 at 960˚C: (a) λ= 75%; (b) λ= 100%.
+
+DOI: 10.4236/msa.2019.109044                         624                           Materials Sciences and Applications
+
+## PDF page 13
+
+                                                                                                                            P. Meyer et al.
+
+                               At λ= 75%, the anode is only composed of Ni0.90Fe2.10O4, Cu2O and electrolyte
+                                    inside the material.
+                               At λ= 100%, the monoxide composition is Ni0.90Cu0.08Fe0.02O. Copper(I) from
+                          Cu2O is oxidized into copper(II), substituting the iron(II) in the structure. As a
+                                 consequence, iron(II) is released and then dissolved in the electrolyte:
+                                               0.04Cu 2 O ( s ) + Ni 0.90 Fe 0.10 O ( s ) + 0.16F −
+                                                                                                                            −            (14)
+                       → Ni 0.90 Cu 0.08 Fe 0.02 O ( s ) + 0.08FeF2 ( s ) + 0.16e
+
+                                  Figure 9(a) and Figure 9(b) represent the core of the cermet after electrolysis
+               λ= 75% and 100% respectively.
+                                   In these experiments, the cermet is totally degraded:
+                                •  The metallic phase is no more detected.
+                                •  The porosity is very important, leading to a complete dissolution of fluoride
+                                      phases.
+                                •  The nickel increases until x = 0.90 in the spinel and monoxide phases con-
+                                      firms the formation of the most thermodynamically stable composition (§3.2).
+                                            Ni0.90Fe2.10O4 and Ni0.90Cu0.08Fe0.02O phases are not conductive enough to en-
+                                  sure the current flow, meaning that the cermet has then reached its end of life.
+
+                                                                    a
+
+                                                            Ni0.90Fe2.10O4
+
+
+                                                                      Cu2O
+
+
+                                                               Ni0.90Fe0.10O
+
+
+                                                              10 µm
+                                                               b
+
+                                                                               Ni0.90Fe2.10O4
+
+
+                                                                                            Electrolyte
+
+
+                                                                         Ni0.90Cu0.08Fe0.02O
+
+
+                                                              10 µm
+
+                                    Figure 9. SEM micrographs of the core of the cermet after electrolysis at 0.8 A∙cm−2 in a
+                         CR = 2.2 bath, saturated in Al2O3 with 5%wt of CaF2 at 960˚C: (a) λ= 75%; (b) λ= 100%.
+
+DOI: 10.4236/msa.2019.109044                         625                           Materials Sciences and Applications
+
+## PDF page 14
+
+P. Meyer et al.
+
+                              4. Conclusions
+
+                             Cermet composed of spinel, nickel monoxide and copper-nickel-iron alloy was
+                                   studied as inert anode for aluminum production. Electrolysis with different du-
+                                     rations at 0.8 A∙cm−2 in molten mixture of cryolite at 960˚C was undertaken and
+                           new phases formation, in addition of dioxygen evolving, was evidenced by SEM
+                                coupled with EDS analysis.
+                                             -  The oxidation of metallic phase, coupling with thermodynamic calculations,
+                                showed that iron is the first element to be oxidized, into FeF2 in presence of
+                                        fluoride F− and into FeO with O2− from the electrolyte:
+                                                     Fe ( s ) + 2F − → FeF2 ( s ) + 2e −
+
+                                                       Fe + O 2 − → FeO + 2e −
+                                             -  NiF2 and Ni0.90Fe0.10O phases are also detected, obtained from the oxidation of
+                                        nickel metal with fluoride and O2− ions, according to the following reactions:
+                                                     Ni ( s ) + 2F − → NiF2 ( s ) + 2e −
+
+                                             0.90Ni + 0.10FeO + 0.90O 2 − → Ni 0.90 Fe 0.10 O + 1.80e −
+
+                                             -  Bath penetration into the cermet occurred and led to the dissolution of the
+                                                  first fluorides formed.
+                                             -  For the spinel phase, a nickel enrichment up to x= 0.90 due to metallic nickel
+                                      oxidation intervened:
+                                     Ni x Fe 3 − x O 4 + yNi → Ni x + y Fe 3 −−x  y O 4 + yFe 2 + + 2 ye −  ( x + y = 0.9 )
+                         And Fe 2 + + 2F − → FeF2
+                                   This final spinel and monoxide compositions are the most stable in our expe-
+                                  rimental conditions.
+                                             -  Then Cu2O is formed by metallic copper oxidation:
+                                              2Cu ( s ) + O 2 − → Cu 2 O ( s ) + 2e −
+
+                                             -  Fully oxidized, the cermet becomes non-conductive and only two oxide
+                                    phases with a nickel amount of x= 0.90 are detected:
+                                              0.04Cu 2 O ( s ) + Ni 0.90 Fe 0.10 O ( s ) + 0.16F −
+                       → Ni 0.90 Cu 0.08 Fe 0.02 O ( s ) + 0.08FeF2 ( s ) + 0.16e −
+
+                                 For the first time, a degradation mechanism of a cermet anode was proposed,
+                                    in agreement with thermodynamic calculations. When Cu2O phase is formed
+                                 (zone 2), the measured potential increases meaning that the anode is less con-
+                                     ductive. For a long-term use, it would be interesting to increase the zone 1,
+                              where the electrolysis potential is stable, by increasing the metal proportion into
+                                   the cermet: it would prevent the formation of non-conductive phases. Another
+                                    possible way is the use of a low-temperature electrolyte, to slow down the oxida-
+                                    tion phenomenon into the cermet.
+
+DOI: 10.4236/msa.2019.109044                         626                           Materials Sciences and Applications
+
+## PDF page 15
+
+                                                                                                                            P. Meyer et al.
+
+                      Acknowledgements
+
+                            The authors express their thanks to the French Research National Agency
+                           ANR-13-RMNP-0012 for their financial support for this research.
+
+                            Conflicts of Interest
+
+                           The authors declare no conflicts of interest regarding the publication of this
+                                  paper.
+
+                        References
+                                         [1]  Charles-M. (1889) Hall. US Patent No. 400766.
+                                         [2]   Pawlek, R.P. (2002) Inert Anodes: An Update. In: Grandfield, J., Ed., LightMetals,
+                                             Springer, Cham, 449-456.
+                                         [3]  Oudot, M., Cassayre, L., Chamelot, P., Gibilaro, M., Massot, L., Pijolat, M. and
+                                          Bouvet, S. (2014) Layer Growth Mechanisms on Metallic Electrodes under Anodic
+                                             Polarization in Cryolite-Alumina Melt. CorrosionScience, 79, 159-168.
+                                         [4]   Helle, S., Pedron, M., Assouli, B., Davis, B., Guay, D. and Roué, L. (2010) Structure
+                                     and High-Temperature Oxidation Behaviour of Cu-Ni-Fe Based Alloys Prepared by
+                                       High-Energy Ball Milling for Application as Inert Anodes Fort Aluminum Electro-
+                                                         lysis. CorrosionScience, 52, 3348-3355.
+                                               https://doi.org/10.1016/j.corsci.2010.06.011
+                                         [5]   Gallino, I., Kassner, M.E. and Busch, R. (2012) Oxidation and Corrosion of Highly
+                                          Alloyed Cu–Fe–Ni as Inert Anode Material for Aluminum Electrowinning in
+                                            as-Cast and Homogenized Conditions. CorrosionScience, 63, 293-303.
+                                               https://doi.org/10.1016/j.corsci.2012.06.013
+                                         [6]   Olsen, E. and Thonstad, J. (1999) Nickel Ferrite as Inert Anode in Aluminium Elec-
+                                                     trolysis: Part II-Material Performance and Long-Term Testing and Preliminary
+                                              Testing. JournalofAppliedElectrochemistry, 29, 301-311.
+                                           https://doi.org/10.1023/A:1003464304488
+                                         [7]   Zarrabian, P., Kalantar, M. and Ghasemi, S.S. (2014) Fabrication and Characteriza-
+                                             tion of Nickel Ferrite Based Inert Anodes for Aluminum Electrolysis. Journalof
+                                      MaterialEngineeringPerformance, 23, 1656-1664.
+                                            https://doi.org/10.1007/s11665-014-0914-y
+                                         [8]   Pawlek, R.P. (2014) Inert Anodes: An Update. In: Grandfield, J., Ed., LightMetals,
+                                             Springer, Cham, 1309-1313.
+                                           https://doi.org/10.1007/978-3-319-48144-9_219
+                                         [9]   Tian, Z.L., Lai, Y.Q., Li, J., Li, Z.Y., Zhou, K.C. and Liu, Y.X. (2008) Effect of Cu-Ni
+                                          content on the Corrosion Resistance of (Cu-Ni)/(10NiO-90NiFe2O4) Cermet Inert
+                                  Anode for Aluminum Electrolysis. ActaMetallurgicaSinica, 21, 72-78.
+                                            https://doi.org/10.1016/S1006-7191(08)60022-8
+                                       [10] Ray, S.P. (1980) Composition for Inert Electrodes, Aluminum Company of Ameri-
+                                                   ca. US Patent No. 4399008.
+                                       [11] Ray, S.P. (1980) Inert Electrode Formulation, Aluminum Company of America. US
+                                           Patent No. 4374761.
+                                       [12] Tarcy, G.P. (1986) Corrosion and Passivation of Cermet Inert Anodes in Cryo-
+                                              lite-Type Electrolytes. In: Grandfield, J., Ed., LightMetals, Springer, Cham, 309-320.
+                                       [13] Weyand, J.D., Deyoung, D.H., Ray, S.P., Tarcy, G.P. and Baker, F.W. (1985) Inert
+
+DOI: 10.4236/msa.2019.109044                         627                           Materials Sciences and Applications
+
+## PDF page 16
+
+P. Meyer et al.
+
+                                    Anodes for Aluminium Smelting. Aluminium Company of America, Final Report.
+                                       [14]  Lai, Y.Q., Tian, Z.L., Li,  J., Ye, S.L. and Liu, Y.X. (2006) Preliminary Testing of
+                                       NiFe2O4-NiO-Ni Cermet as Inert Anode in Na3AlF6-AlF3 Melts. Transactionsof
+                                    NonferrousMetalsSocietyofChina, 16, 654-658.
+                                            https://doi.org/10.1016/S1003-6326(06)60116-7
+                                       [15] Tian, Z.L., Lai, Y.Q., Li, J. and Liu, Y.X. (2008) Effect of Ni Content on Corrosion
+                                         Behaviour of Ni/10NiO-90NiFe2O4) Cermet Inert Anode. TransactionsofNonferr-
+                              ousMetalsSocietyofChina, 18, 361-365.
+                                            https://doi.org/10.1016/S1003-6326(08)60063-1
+                                       [16]  Liu, J.Y., Li, Z.Y., Tao, Y.Q., Zhang, D. and Zhou, K.C. (2011) Phase Evolution of
+                                        17(Cu-10Ni)-(NiFe2O4-10NiO) Cermet Inert Anode during Aluminum Electrolysis.
+                                       TransactionsofNonferrousMetalsSocietyofChina, 21, 566-572.
+                                            https://doi.org/10.1016/S1003-6326(11)60752-8
+                                       [17] He,  H.B.,  Wang,  Y.,  Long,   J.J.  and  Chen,  Z.H.  (2013)  Corrosion  of
+                                       NiFe2O4-10NiO-Based Cermet Inert Anodes for Aluminium Electrolysis. Transac-
+                                      tionsofNonferrousMetalsSocietyofChina, 23, 3816-3821.
+                                            https://doi.org/10.1016/S1003-6326(13)62934-9
+                                       [18] Tian, Z., Lai, Y., Yang, S., Li, J., Hwang, J.Y. and Liu, Y. (2015) Anodic Corrosion
+                                         Behavior of NiFe2O4-Based Cermet in Na3AlF6-K3AlF6-AlF3 for Aluminum Produc-
+                                                  tion. MetallurgicalandMaterialsTransactionsB, 46, 1257-1261.
+                                            https://doi.org/10.1007/s11663-015-0328-8
+                                       [19] Meyer, P., Gibilaro, M., Massot, L., Pasquet, I., Tailhades, P., Bouvet, S., Chamelot,
+                                               P. (2018) Influence of Ni Content on NixFe3−xO4 Spinel Chemical Stability in Molten
+                                              Fluorides. MaterialsScienceandEngineeringB, 228, 117-122.
+                                              https://doi.org/10.1016/j.mseb.2017.11.025
+                                       [20] Chamelot, P., Lafage, B. and Taxil, P. (1996) Studies of Niobium Electrocrystalliza-
+                                              tion Phenomena in Molten Fluorides. Journal of Electrochemical Society, 143,
+                                          1570-1576. https://doi.org/10.1149/1.1836681
+                                       [21]  Sterten, A. (1980) Structural Entities in NaF-AlF3 Melts Containing Alumina. Elec-
+                                      trochimicaActa, 25, 1673-1677. https://doi.org/10.1016/0013-4686(80)80021-1
+                                       [22]  Gilbert, E., Robert, E., Tixhon, J.E. and Ostvold, O.T. (1995) Acid-Base Properties
+                                              of Cryolite Based Melts with CaF2, MgF2 and Al2O3 Additions. In: Grandfield, J.,
+                                                Ed., LightMetals, Springer, Cham, 181-194.
+                                       [23]  Kelly, M., Zanghi, D., Salanne, M., Stabrowski, V. and Bessada, C. (2018) Anionic
+                                             Structure in Molten Cryolite-Alumina Systems. JournalofPhysicalChemistry, 122,
+                                          21807-21816. https://doi.org/10.1021/acs.jpcc.8b06905
+                                       [24] M. Oudot, L. Cassayre, P. Chamelot, M. Gibilaro, L. Massot, M. Pijolat, S. Bouvet
+                                           (2014) Layer Growth Mechanisms on Metallic Electrodes under Anodic Polariza-
+                                              tion in Cryolite-Alumina Melt. CorrosionScience, 79, 159-168.
+                                               https://doi.org/10.1016/j.corsci.2013.10.040
+                                       [25] Massot, L., Cassayre, L., Chamelot, P. and Taxil, P. (2007) On the Use of Electro-
+                                          chemical Techniques to Monitor Free Oxide Content in Molten Fluoride Media.
+                                      JournalofElectroanalyticalChemistry, 606, 17-23.
+                                              https://doi.org/10.1016/j.jelechem.2007.04.005
+                                       [26]  Cassayre, L., Chamelot, P., Arurault, L., Massot, L. and Taxil, P. (2008) Oxidation of
+                                            Stoichiometric Nickel Ferrites Used as Inert Anodes for Aluminium Electrolysis in
+                                      Molten Cryolite Mixtures. MaterialsScienceForum, 595-598, 593-600.
+                                            https://doi.org/10.4028/www.scientific.net/MSF.595-598.593
+
+
+DOI: 10.4236/msa.2019.109044                         628                           Materials Sciences and Applications
+
+## PDF page 17
+
+                                                                                                                            P. Meyer et al.
+
+                                       [27] Corso, S. (2004) Elaboration et caractérisation de céramiques à base de ferrites de
+                                                 nickel. Etude de leurs propriétés en vue de la conception d’anodes inertes de type
+                                        oxydes ou cermets destinées à l’électrolyse de l’aluminium, PhD Thesis, Université
+                                         Paul Sabatier Toulouse.
+                                       [28] Morin, F.J. (1954) Electrical Properties of NiO. PhysicalReviewJournalsArchive,
+                                             93, 1199-1204. https://doi.org/10.1103/PhysRev.93.1199
+                                       [29] Lorentsen, O. (2000) Behaviour of Nickel, Iron and Copper by Application of Inert
+                                    Anodes in Aluminum Production. Norwegian University of Science and Technolo-
+                                                gy, Trondheim.
+
+
+
+
+
+DOI: 10.4236/msa.2019.109044                         629                           Materials Sciences and Applications

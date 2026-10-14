@@ -1,0 +1,867 @@
+Source: literature/2014Dre1_Cu-Fe-Ni_assm.pdf
+
+## PDF page 1
+
+                                                         Journal of Alloys and Compounds 587 (2014) 533–543
+
+
+                                            Contents lists available at ScienceDirect
+
+                      Journal of Alloys and Compounds
+
+
+                              journal homepage: www.elsevier.com/locate/jalcom
+
+
+
+Thermodynamic assessment of the Cu–Fe–Ni system
+
+Liya A. Dreval ⇑, Mikhail A. Turchanin, Pavel G. Agraval
+
+Metallurgical Department, Donbass State Engineering Academy, Shkadinova Street 72, UA-84313 Kramatorsk, Ukraine
+
+
+a r t i c l e    i n f o              a b s t r a c t
+
+
+Article history:                             The thermodynamic description of the Cu–Fe–Ni system has been updated considering the newly avail-
+Received 17 September 2013                     able experimental data, as well as compatibility of the present modeling with those used for the Cu and
+Received in revised form 27 October 2013         Fe systems. All of the experimental data available in the literature have been critically reviewed, and the
+Accepted 29 October 2013
+                                                inconsistent information has been excluded. The thermodynamic parameters have been evaluated in
+Available online 9 November 2013
+                                             order to properly describe the thermodynamic properties of the liquid phase and miscibility gap in the
+                                                   solid state. A signiﬁcant improvement in comparison with the previous thermodynamic descriptions
+Keywords:
+                                           has been achieved. Additionally, for the ordered L12 phase the four-sublattice model has been adopted
+Thermodynamic modeling
+                                                to predict the ternary phase equilibria involving this phase. A set of thermodynamic parameters for
+Phase diagram
+Thermodynamic properties                      the phases is given.
+Compound energy formalism                                                                       2013 Elsevier B.V. All rights reserved.
+
+
+
+
+
+1. Introduction                                                                  [8]. The main drawback of the mentioned above works is that
+                                                                  the lattice stability parameters used in them have been updated
+   The alloys of the Cu–Fe–Ni system are the basis of a wide range     in a subsequent database [12]. The ﬁrst Caphad-type assessment
+of technologically important materials, e.g. structural steels, alloys    has been provided by [13]. Later, [7] has revised this thermody-
+with special electrical and magnetic properties, and materials with    namic model of the system by optimizing only the ternary param-
+high corrosion-resistance. Recently, the copper–iron–nickel alloys     eters of the f.c.c._A1 phase in order to obtain the better ﬁt to their
+have been recognized as a potential anode material for aluminum   own experimental data. At last, for the description of the ordered
+production [1]. Moreover, the system is one of the constituent ter-    L12 phase in binary Fe–Ni system and derived ternary ordered
+naries used for the development of high-entropy alloys [2,3]. Be-    phase [14] have proposed the four-sublattice model instead of
+sides, the knowledge of the interaction between copper, iron, and    those given by [13]. Thermodynamic optimization of the ternary
+nickel in the liquid and solid state is essential as this information    system has been also conducted by [15]. The main problem of all
+provides the possibility to control and conduct different metallur-    these calculations, except for the [7], is the systematic overestima-
+gical processes, for example, electrical arc furnace steelmaking [4],     tion of the composition range of the f.c.c._A1 phase miscibility gap.
+and pyrometallurgy of copper and nickel [5]. In addition, the Cu–    Well agreement between the experimental and calculated bound-
+Fe–Ni system is regarded as a model system for the study of     aries of this region is observed only in [7]. However, no attempts
+decomposition process in solid multicomponent alloys [6,7]. The    have been made to prove the consistency of the obtained set of
+optimization of the alloy composition and process conditions as    thermodynamic parameters with respect to liquid–solid phase
+well as modeling of the physical effects require quantitative infor-     equilibria. Moreover, new experimental data on mixing enthalpies
+mation on the phase equilibria, driving forces for phase transfor-     of liquid phase [16] and phase equilibria [1,5] have showed that
+mations, and  the thermodynamic  factors  used  in  diffusion    the thermodynamic model of the liquid phase is not quite satisfac-
+simulation. The reliable thermodynamic description of the system     tory. Recently, the present group of authors has published the pre-
+which should be based on correct thermodynamic models of the    liminary thermodynamic assessment of the system [17]. We used
+phase is quite useful for these purposes.                            the new data [1,16] to improve the description of the miscibility
+  A number of authors [6,8–11] have published isothermal sec-    gap and phase equilibria involving liquid phase. But the order/dis-
+tions of the ternary Cu–Fe–Ni phase diagram based on the thermo-    order phase transformations have not been considered.
+dynamic modeling. Thermodynamic calculations have been also      The main objective of the present study  is to update the
+used to describe the measured mixing enthalpy of solid alloys     description of the ternary system. The thermodynamic model of
+                                                                  the binary Fe–Ni system is substituted for that compatible with
+ ⇑Corresponding author. Tel.: +38 (0) 626416701; fax: +38 (0) 626416315.          existing assessments of the ternary systems, e.g. the Cr–Fe–Ni
+    E-mail address: phch@dgma.donetsk.ua (L.A. Dreval).                        system, in order to create a database for Cu–Fe-based alloys. The
+
+
+0925-8388/$ - see front matter  2013 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.jallcom.2013.10.223
+
+## PDF page 2
+
+534                                                         L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543
+
+newly available experimental data are used to reﬁne thermody-         2100
+namic model of the system. The phase equilibria including ordered                                                        (δFe)
+                                                                                    T, K                                                                                                      1760L12 phase is predicted.                                                                          L                                                                                                                 1811                                                                   1800
+2. Literature review                                                                                                            (γFe) 1667
+                                                                   1500
+2.1. Binary systems                                                                         1368
+                                                                   1358
+  A short review of the binary phase diagrams and their thermo-         1200      (Cu)          1120                   1185
+dynamic modeling is given in present subsection. The symbols to                                   1033                1043
+                                                                                                                              bcc_A2denote the binary phases are given in Table 1 in order to facilitate                                                                                 Tc                                                                                                                   (αFe)                                                                    900reading.
+
+
+2.1.1. Cu–Fe system                                                    600
+
+   The phase diagram is characterized by the formation of terminal
+solid solutions. The following crystalline phases are stable: (dFe),          300
+                                                             Cu      0.2       0.4       0.6       0.8     Fe
+(aFe), (cFe), and (Cu).                                                                                          xFe
+   For  this  binary system  several assessments  are  available
+[13,18–20]. The description of [13] as well as subsequent one by      Fig. 1. The calculated Cu–Fe phase diagram by Turchanin et al. [20]. In this ﬁgure
+the same group of authors [18] fail to reproduce experimental data     and later on the dotted line denotes magnetic transformation.
+in the high temperature range, especially those associated with the
+(cFe) solvus. The better agreement between calculated and exper-
+                                                               Turchanin et al. [22] used in the present work yield a better overall
+imental values has been achieved by Cheng et al. [19] and Turcha-
+                                                                  ﬁt to the experimental data, especially those on the thermody-
+nin et al. [20]. With respect to the assessment [19], Turchanin and
+                                                          namic properties of the phases, compared to the works by [13,21].
+co-authors further improve the description of the equilibria involv-
+ing (dFe)-phase by introducing new experimental data and a prop-
+er thermodynamic model for the liquid phase. Consequently, the
+parameters from [20] have been adopted for the Cu–Fe system in      2.1.3. Fe–Ni system
+the present work. The calculated phase diagram  is shown in
+Fig. 1. It is noteworthy that in Figures and Tables the concentra-      The stable crystalline phases are (dFe), (aFe), (cFe, Ni), and or-
+tions of elements are given in mole fractions.                      dered FeNi3. In this system (cFe, Ni) phase is an extended solid
+                                                                          solution, while the solubility of Ni in (dFe) and (aFe) is limited.
+2.1.2. Cu–Ni system                                           The ordered phase has a homogeneity range. Furthermore there
+                                                                    are paramagnetic  (cFe,  Ni)par and  ferromagnetic  (cFe,  Ni)fer
+   The Cu–Ni phase diagram is of the continuous solution type     f.c.c._A1 phases below the critical point at 890 K in the system.
+with no intermediate phases. At low temperatures (Cu, Ni) phase       Xing et al. [48] were the ﬁrst who published the Calphad-type
+decomposes into the (Cu) and (Ni) one.                            assessment of the system. The parameters presented by them have
+   The phase equilibria and thermochemical data of the copper–    been rounded off and used in the work [49]. Thereafter the thermo-
+nickel  system  were  thermodynamically  assessed  earlier  in    dynamic description [49] was modiﬁed by Lee [50] in order to bet-
+[13,21,22]. The phase diagram and thermodynamic properties of     ter ﬁt to the liquidus/solidus phase equilibria in the Fe-rich region
+the phases calculated according to these works are shown in     of the phase diagram and, recently, by Servant [14] to describe the
+Figs. 2–4. The relevant experimental points [10,23–44] are also    Gibbs energy of the ordered binary and derived ternary phases. In
+shown in the ﬁgures. Table 2 compares the calculated enthalpy    our preliminary assessment of the ternary system [17] the binary
+of formation of solid alloys at 298 K with literature data. Note that    Fe–Ni has been taken from [49]. In present work we decide to com-
+the experimental results of [44] on the liquidus and solidus tem-     pile the parameters from works [14,49,50] to be able to use the ob-
+peratures, of [42,43] on the activity of copper in solid alloys, and     tained thermodynamic model with the higher-order systems
+of [47] on the enthalpy of the solid alloys formation have not been     [50,51] and to predict phase equilibria with ordered FeNi3 phase.
+incorporated in the assessments [13,21,22]. As follows from the      It should be noted that the model of the binary ordered phase pro-
+ﬁgures, all authors reached fundamental agreement between the    posed by [14] is revised by some minor adjustment (for details see
+calculated and  experimental  values.  But  the  description  of     Section 3.3). The calculated phase diagram is given in Fig. 5.
+
+
+Table 1
+The list of the binary phases and their description.
+
+  Symbol       Phase description                                                 Temperature range, K    Designation used in the thermodynamic database
+
+   L              Liquid                                                                                LIQUID
+   (dFe)         High-temperature iron-based solution with b.c.c._A2 structure          1667–1811           BCC_A2
+   (aFe)         Low-temperature iron-based solution with b.c.c._A2 structure          <1185
+   (Cu)          Copper-based solution with f.c.c._A1 structure                       <1358                FCC_A1
+   (cFe)         Iron-based solution with f.c.c._A1 structure                         1185–1667
+   (Ni)           Nickel-based solution with f.c.c._A1 structure                        <606
+   (Cu, Ni)       Copper- and nickel-based solution with f.c.c._A1 structure             <1728
+   (cFe, Ni)       Iron- and nickel-based solution with f.c.c._A1 structure                <1790
+   (cFe, Ni)par    Paramagnetic iron- and nickel-based solution with f.c.c._A1 structure    <890
+   (cFe, Ni)fer    Ferromagnetic iron- and nickel-based solution with f.c.c._A1 structure   <890
+   FeNi3        Ordered L12 phase                                             <790                  L12_FCC
+
+## PDF page 3
+
+                                                             L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543                                      535
+
+
+               1800                                                 1200
+
+                   T, K                                                             T, K
+                               L                     1728                two phases, [27]
+                                                                                    one phase, [38]
+
+                                                                                                 [13]
+                                                                     900           [21]
+                                                                                                              (Cu,Ni)
+                                                                                                 [22]
+                                                          [28]                                                    723
+               1500                                   [29]                                                            0.67
+                                                          [30]                                                  642
+                                                                                                                           0.61           (Ni) 633
+                                                          [32]
+                                                                     600
+                                                                                     (Cu)                606                                                          [44]                                                                                                                                0.6               1358
+                                   (Cu,Ni)              [13]
+                                                          [21]
+                                                          [22]                                                                              fcc_A1
+                                                                                             Tc
+               1200                                                  300
+                Cu      0.2       0.4       0.6       0.8     Ni          Cu      0.2       0.4       0.6       0.8     Ni
+                                             xNi                                                          xNi
+                               (a)                                      (b)
+
+
+Fig. 2. The calculated Cu–Ni phase diagram (lines) with experimental data (symbols): (a) the part of the phase diagram showing the liquid + (Cu, Ni) two-phase ﬁeld, (b) the
+part of the phase diagram showing the miscibility gap.
+
+
+
+                     5.0                                                     1.0                                                           [29], 1753 K                                 [34], 1673 K
+                                                           [31], 1733-1763 K                                                                                                          [41], 1623 K
+                                                                 [35], 1748 K
+                                                                             0.8
+
+                                        kJ/mol  2.5                                                     0.6          aNi
+                   ΔH,                                                          0.4                                                                                                                    aCu
+                                                     [39], 1739 K
+                                                     [40], 1753 K
+                                                                             0.2                      [13], 1753 K                                                     [13], 1753 K
+                                                     [21], 1753 K                                           [21], 1753 K
+                                               [22],1753 K                                      [22],1753 K
+                   0                                              0
+                 Cu       0.2       0.4       0.6       0.8     Ni    Cu       0.2       0.4       0.6       0.8     Ni
+                       (L)                      xNi                    (L)     (L)                      xNi                    (L)
+                                  (a)                                    (b)
+
+
+Fig. 3. The calculated mixing enthalpy (a) and activities of components (b) of the liquid phase in the Cu–Ni system (lines) and experimental values (symbols). The standard
+element reference states are given below the chemical elements.
+
+
+
+
+2.2. Ternary Cu–Fe–Ni system                                   between   solvus  and   solidus   surfaces,   in  which   the
+                                                                        Cux(Fe50Ni50)100  x (x = 10, 20, 30, 40, 50, 60, 70 wt.%) alloys can
+   There are seven stable crystalline phases,  i.e.  (dFe), (aFe),    be successfully homogenized into a single f.c.c._A1 phase. At the
+(cFe, Ni), (cFe, Ni)fer, (cFe, Ni)par, (Cu, Ni), and ordered FeNi3, in    same time the authors reported that Cu60Fe20Ni20 and Cu70Fe15Ni15
+the ternary system. Authors of [52] have also shown an evidence     alloys undergo peritectic reaction. The compositions of liquid and
+of a new (Cu, Ni)3Fe phase in this system.                              (cFe, Ni) phases in equilibrium have been measured by Hasebe
+   As the most of the experimental data were thoroughly reviewed     et al. [9] at 1423, 1523 K and Ohtani et al. [55] at 1473, 1573 K.
+in [17] a brief discussion of the experimental works is presented      The data on the miscibility gap in the f.c.c._A1 phase are numer-
+here.                                                         ous from the several groups of authors [1,7,9,54,56–58]. Most stud-
+   The liquidus and solidus temperatures have been determined     ies show that the miscibility gap  is almost symmetrical with
+by [1,5,53,54]. These data indicate the ﬂatness of the liquidus     respect to the section (Cu50Fe50)1 x–Nix and becomes wider while
+surface. According to the investigations of [53,54], the three-phase    the temperature decreasing. The data from [56] at  el., which
+triangle L + (cFe, Ni) + (Cu, Ni) degenerates to a line L M ((cFe, Ni),     indicate a peculiar increase in iron solubility in the (Cu, Ni) phase
+(Cu, Ni)). This critical tie-line has been found to occur at 1473 K   when nickel is added, contradict the other experimental results
+and 27 wt.% Ni in solid phases [54]. The most important result of    and have not been used in the present assessment. The experimen-
+Gallino et al. [1] is the ﬁnding of a narrow temperature window     tal values at 873, 1023 and 1073 K [1,58] have been also excluded
+
+## PDF page 4
+
+536                                                         L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543
+
+
+                       5.0                                                         1.0
+                                       [23], 995 K                                                                 [10], 1273 K
+                                       [24], 913 K                                                                 [25], 1273 K
+                                       [26], 773 K                                                                 [33], 1273 K
+                                                                                   0.8
+                                       [13], 1753 K
+
+                                         kJ/mol  2.5                                                         0.6
+                                                                                                aNi
+                    ΔH,                                                              0.4                           [36], 1273 K     aCu
+                                                                                                                        [37], 1300 K
+                                                                                                                        [42], 1273 K
+                                                                                                                        [43], 1173 K                                                                                   0.2
+                     0                [21], 1753 K                                                               [13], 1753 K
+                                            [22], 1753 K                                                               [21], 1753 K
+                                                                                                          [22],1753 K
+                                                                       0
+                  Cu       0.2       0.4       0.6       0.8     Ni       Cu       0.2       0.4       0.6       0.8     Ni
+                 (FCC_A1)                 xNi             (FCC_A1)  (FCC_A1)                 xNi             (FCC_A1)
+                                 (a)                                    (b)
+
+
+Fig. 4. The calculated mixing enthalpy (a) and activities of components (b) of the (Cu, Ni)-phase in the Cu–Ni system (lines) and experimental values (symbols). The standard
+element reference states are given below the chemical elements.
+
+
+
+Table 2
+                                                                     2100
+The enthalpy of formation of the solid Cu–Ni alloys calculated at room temperature,
+DfH298, in comparison with experimental data.                                             T, K  1811            L
+                                                                              1790
+   xNi     DfH273exp       DfH300exp      DfH298exp     DfH298calc    DfH298calc    DfH298calc            1800
+                                                                                                                  1728
+           [45]         [46]        [47]       [13]       [21]       [22]
+                                                                     1667   (δFe)
+   0.05                   0.5 ± 1.8               0.3        0.4        0.3
+   0.12    2.678 ± 0.6                           0.8        0.9        0.8               1500
+   0.17                              1.9 ± 1.4   1.1        1.3        1.1                                             (γFe,Ni)
+   0.2     3.096 ± 1.2                           1.3        1.5        1.2                1185
+   0.21                              2.1 ± 1.4   1.4        1.5        1.3               1200
+                                                                                                           bcc_A2
+   0.298                          0.7 ± 1.7                                                 1.9                                                            2.1                                                                       1.8                                                                    Tc                                                                     1043   0.32          3.745              ±                   2.0                                                 2.1                                                            2.2                                                                       1.9                                                                                     (αFe)                                                                                                                                                              fcc_A1
+   0.4          3.933              ±                   1.7                                                 2.5                                                            2.6                                                                       2.3                                                                                                   (γFe,Ni) par   (γFe,Ni) fer 890  Tc                                                                      900
+   0.414                  2.5 ± 1.2              2.6        2.6        2.3                                                790
+                                                                                          730
+   0.5                    3.2 ± 1.8              3.0        2.9        2.6                        680                        0.74
+   0.52                              5.0 ± 1.6   3.1        3.0        3.1                                                                      600                              FeNi3         633
+   0.6                    2.9 ± 2.1              3.3        3.1        2.9                              642
+   0.689                  3.6 ± 1.4              3.3        3.1        2.8
+   0.83                              3.4 ± 2.0   2.2        2.0        1.9
+   0.85                   2.2 ± 1.8              2.0        1.8        1.7                300
+                                                                         Fe       0.2       0.4       0.6       0.8     Ni
+                                                                                                            xNi
+
+
+                                                                                                 Fig. 5. The calculated Fe–Ni phase diagram according to the thermodynamic
+from the modeling since the tie-line between (cFe, Ni) and (Cu, Ni)      descriptions of [14,49,50].
+phases along the binary Cu–Fe side shows a noticeable discrepancy
+from the phase equilibria in the binary system [20]. For the same
+reason the data on the tie-line between (cFe, Ni) and (aFe) at
+873 and 1073 K by Qin et al. [58] along the binary Fe–Ni side have     3. Thermodynamic modeling
+been neglected in the optimization.
+   The phase transformations associated with the formation of or-      3.1. Pure elements
+dered FeNi3 cubic phase in the system are less studied. Servant
+et al. [52] reported that the new phase with an atomic composition      The molar Gibbs energy for the element i (i = Cu, Fe, Ni) in the u
+Cu5.6Fe22.2Ni72.2 seems to derive from the binary ordered phase.    phase relative to the standard element reference (SER) state is de-
+However, the thermal treatment used in this investigation  is     scribed by
+doubtful since the sample was aged only for 2 h at 773 K after
+one week at 1423 K. Further experimental results are needed to      GiðTÞ   HSERi  ¼ a þ bT þ cT ln T þ dT 2 þ eT  1 þ fT 3 þ gT  9
+determine exactly the composition range of this phase.                                           7                                                   þ hT þ GmagnðTÞ                               ð1Þ
+   The thermodynamic properties of the phases of the Cu–Fe–Ni
+system were studied by several groups of authors. Dreval’ et al.    where HSERi    is the molar enthalpy of the element in its reference
+[16] and Counsell et al. [8] have measured the mixing enthalpy     state at 298.15 K, a through h are coefﬁcients, T is the temperature,
+of the copper–iron–nickel alloys at 1873 and 1323 K. Activity data    and GmagnðTÞ is the magnetic contribution to the Gibbs energy due
+for liquid alloys have been obtained at 1623 K by [41], at 1673 K by     to the magnetic ordering. The last one term is only needed for
+[59], and at 1793 K by [60]. The thermochemical activities of com-     f.c.c._A1 and b.c.c._A2 phases.
+ponents in solid alloys have been investigated at 1023, 1273 K by      The magnetic contribution is expressed according to Inden [62]
+[36] and 1520 K by [61].                                      and Hillert and Jarl [63]
+
+## PDF page 5
+
+                                                             L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543                                      537
+
+GmagnðTÞ ¼ RT lnðb þ 1ÞfðsÞ                                    ð2Þ              Xn
+                                                                        buðxCu; xFe; xNiÞ ¼ xFe buFe þ xNi buNi þ xCuxFe   bui;Cu FeðxCu    xFeÞi
+  where R is the gas constant, s is equal to T=Tcr; Tcr is the critical                                                            i¼0
+temperature for magnetic ordering (i.e. Curie or Neel tempera-         Xn
+ture); b  is the average magnetic moment per atom in Bohr             þ xCuxNi   bui;Cu NiðxCu    xNiÞi
+magnetons.                                                                                                             i¼0
+   The coefﬁcients a, b . . . h, Tcr, and b for pure elements are taken         Xn                                                    þ xFexNi                                                                                    bui;Fe NiðxFe    xNiÞifrom the SGTE compilation of Dinsdale [12]. Obviously, since no
+                                                                                                                            i¼0
+magnetic transition occurs in pure Cu, the relative values are nil.
+                                                    þ xCuxFexNibui;Cu  Fe Ni                            ð6Þ
+
+3.2. Solution phases                                                                 here  TucrFe,  TucrNi,  buFe,  buNi are the critical temperatures and the
+                                                                 average magnetic moments of pure elements; Tui;crCu Fe, Tui;crCu Ni,   For the solution u phase (u = liquid, f.c.c._A1, and b.c.c._A2) the
+                                                            Tui;crFe Ni, bui;Cu Fe, bui;Cu Ni, b/i;Fe Ni are the binary interaction parameters;molar Gibbs energy is expressed by
+                                                            TucrCu Fe Ni, buCu Fe Ni are the ternary interaction terms. For the binary       X
+GuðxCu; xFe; xNi; TÞ ¼         xið Gui ðTÞ   HSERi   Þ                        systems the parameters has been accepted according to the thermo-
+                            i¼Cu;Fe;Ni                                    dynamic assessments [20,22,49], and the Tui;crCu Fe Ni, bui;Cu Fe Ni param-    X   þ RT          xi lnðxiÞ þ DGex;uðxCu; xFe; xNi; TÞ                         eters from [13] have been adopted in the present description.
+              i¼Cu;Fe;Ni
+   þ DGmagn;uðxCu; xFe; xNi; TÞ                                  ð3Þ      3.3. Ordered FeNi3 phase
+
+where xi is the mole fraction of the element i, the ﬁrst term is the
+                                                             The sublattice model developed by Hillert and Staffanssoncontribution of the pure components of the u phase to the Gibbs
+                                                                              [65], and Sundman and Ågren [66] used widely to describe
+energy; the second is the ideal mixing contribution, the third is
+                                                     compound and ordered phases. This approach was extended by
+the contribution due to non-ideal interactions between the compo-
+                                                          Dupin  [67] who used a more complex formulation  for the
+nents, and the last one is the magnetic contribution to the Gibbs en-
+                                                                   ordering phase.
+ergy of the phase.
+                                                             The  ordered  binary  FeNi3  phase  and  derived  ternary   The excess Gibbs energy has been described using the conven-
+                                                                         (Cu, Ni)3Fe compound has been modeled by Servant et al. [14]tional equation developed by Muggianu et al. [64]
+                                                                  according to [67] using ﬁve sublattices as (Cu, Fe, Ni)0.25(Cu,
+         Xn                                            Fe,  Ni)0.25(Cu,  Fe,  Ni)0.25(Cu,  Fe,  Ni)0.25(Va)1, where Va  areDGex;uðxCu; xFe; xNi; TÞ ¼ xCuxFe    iLuCu FeðxCu    xFeÞi                      vacancies. The Gibbs energy per mole of atoms is described by
+                                      i¼0                                    the following expression
+          Xn              þ xCuxNi    iLuCu NiðxCu    xNiÞi                            GL12 FCCðfxig; fysi g; TÞ ¼ GFCC A1ðfxig; TÞ
+                                         i¼0                        X4 X4 X4 X4 XX X X                    FCC
+                                       n                                            þ                              ysi yrj ytkyul y5Va GL12i:j:k:l:Va          X                                                                                         s¼1 r¼1 t¼1 u¼1 i¼Ni j¼Fe k¼Fe l¼Fe
+              þ xFexNi    iLuFe NiðxFe    xNiÞi                                                                 4   4   4   4                                      XXXXXX X X
+                                         i¼0                                           þ                                                                                                                                                                       ysi yrj ytkyul y5Va GL12i:j:k:l:VaFCC
+              þ xCuxFexNiðxCu 0LuCu Fe Ni þ xFe 1LuCu Fe Ni                                               s¼1 r¼1 t¼1 u¼14   i¼Fe4j¼Ni k¼Ni l¼Ni        !                                         X X
+                                                                                                                                                                                                                                                                                                                                                            i lnðysi Þ þ y5Va lnðy5VaÞ              þ xNi 2LuCu Fe NiÞ                         ð4Þ                 þ RT  0:25 s¼1 i¼Cu;Fe;Ni ys
+
+
+                                                                                                                                                                                                                          FCCwhere iLuCu Fe; iLuCu  Ni, and iLuFe Ni are the interaction parameters                 þ X4 X4 X4 X4 XX X X X   ysi ysjyrkytlyumy5VaLL12i;j:k:l:m:Va
+between the elements in the corresponding binary systems, n is                                      s¼1 r¼1 t¼1 u¼1 i¼Fe j¼Ni k¼Cu;Fe;Nil¼Cu;Fe;Nim¼Cu;Fe;Ni
+
+
+                                                                                                                                                                                                                          FCCthe power of the Redlich–Kister polynomial; 0LuCu Fe  Ni, 1LuCu Fe  Ni,                 þ X4 X4 X4 X4 X X X X X   ysi ysj yrkytlyumy5VaLL12i;j:k:l:m:Va
+and 2LuCu Fe Ni are the ternary interaction parameters. The parame-                                      s¼1 r¼1 t¼1 u¼1 i¼Cu j¼Fe k¼Cu;Fe;Ni l¼Cu;Fe;Nim¼Cu;Fe;Ni
+ters for the binary systems have been taken from the assessments                                                                                            ð7Þ
+stated in the Section  2.1. The value of the binary interaction
+                                                         where ysi are the site fractions of species i in their respective sublat-parameter for a hypothetical b.c.c._A2 phase in the Cu–Ni system
+                                                                                     tices, s, r, t, u are the sublattices (s, r, t, u are not equal for the param-
+has been assessed in the present work.
+                                                                                 eters), GFCC A1ðfxig; TÞ is the Gibbs energy of the disordered f.c.c._A1
+   The magnetic contribution to the Gibbs energy  of the u
+                                                                           solution, which is described by Eq. (3), the next two terms denote
+phase (u = (Cu,  Ni),  (Ni),  (cFe,  Ni)fer,  (aFe))  is expressed by
+                                                                   the Gibbs energies of formation of the stoichiometric compounds
+equation similar to that used for the pure metals, but both
+                                                                   FeNi3 and Fe3Ni, the fourth line is the ideal entropy term, the last
+parameters Tcr and b are the functions of alloy composition as                                                                                      FCC
+                                                        two terms correspond to the excess term. The parameters  GL12i:j:k:l:Vafollows
+                                                                            relative to the same stoichiometry are identical, whatever the occu-
+TucrðxCu; xFe; xNiÞ ¼ xFe TucrFe þ xNi TucrNi                                  pation of the sublattices. Furthermore, the interactions between                                                                      species in a given sublattice are assumed to be independent of
+        Xn                                         the site occupations in the others, and identical in whatever sublat-
+          þ xCuxFe   Tui;crCu FeðxCu    xFeÞi                            tice the interaction takes place.
+                                 i¼0
+        Xn
+          þ xCuxNi   Tui;crCu NiðxCu    xNiÞi                              3.4. Optimization
+                                 i¼0
+        Xn                                                    All calculations have been performed using the software pack-
+          þ xFexNi   Tui;crFe NiðxFe    xNiÞi                       age Thermo-Calc and the PARROT module for optimization [68].
+                                 i¼0                                      The following assumptions were made prior to optimization. No
+          þ xCuxFexNiTui;crCu  Fe Ni                           ð5Þ     ternary interaction parameters were introduced for the b.c.c._A2
+
+## PDF page 6
+
+538                                                         L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543
+
+
+solution due to the lack of the accurate experimental information.    could not reach the  equilibrium  state during the specimen
+For the ordered FeNi3 phase the model and parameters by Servant    preparation  at mentioned above temperatures. Moreover, the
+et al. [14] were adopted in present assessment except for the ex-     results of [54] obtained for the vertical sections of the ternary
+cess parameters LL12Cu;Fe:FCC:  : :Va; LL12:Cu;Fe:FCC : :Va; . . . (the last line in Eq. (7))    phase diagram testify that the (cFe, Ni) + (Cu, Ni) region should
+since no reliable data on the solubility of copper in this phase avail-    be wider than that proposed by Qin et al. [58] and Gallino et al.
+able in the literature. The optimization was conducted in the three      [1]. As  for the dataset  of [58] on the (aFe) + (cFe, Ni) and
+stages. At ﬁrst, all reliable experimental values associated with the
+liquid phase were employed for evaluation. Considering a large
+number of experimental points, the three ternary interaction
+parameters, which are temperature dependent, could be intro-
+                                                                                 Table 3
+duced to obtain a good ﬁt to those experimental data. At the sec-     Thermodynamic parameters for the phases of the Cu–Fe–Ni system. All values are
+ond stage, the parameters of the liquid phase were temporarily      given in SI units (J, mol, K).
+ﬁxed, and the parameters of the f.c.c._A1 phase were optimized
+                                                                                Model/parameters of the phase                                 References
+by adding the experimental data relative to the miscibility gap.
+Again, it was found that for the f.c.c._A1 phase three ternary inter-        LIQUID: model (Cu, Fe, Ni)1
+                                                                                                        0LLIQUIDCu Fe ¼ 73316:72  142:79T þ 15:82T ln T                       [20]action parameters, which are function of the temperature, were
+                                                                                                        1LLIQUIDCu Fe ¼ 9100:15  5:94T                                        [20]necessary to ﬁt the experimental results over a large temperature
+                                                                                                        2LLIQUIDCu Fe ¼ 2428:96                                               [20]range. At last, the ternary thermodynamic parameters of liquid
+                                                                                                        3LLIQUIDCu Fe ¼  233:62                                               [20]and f.c.c._A1 phases were optimized simultaneously based on all
+                                                                                                        0LLIQUIDCu Ni ¼ 14259 þ 0:45T                                         [22]reliable experimental data.
+                                                                                                        0LLIQUIDFe Ni ¼  16911 þ 5:1622T                                     [50]   The set of the thermodynamic parameters obtained in this work
+                                                                                                        1LLIQUIDFe Ni ¼ 10180  4:146656T                                    [50]is listed in Table 3.
+                                                                                                        0LLIQUIDCu Fe Ni ¼  52087 þ 12:642T                                  This work
+                                                                                                        1LLIQUIDCu Fe Ni ¼  37431 þ 28:286T                                  This work
+4. Results and discussion                                                                   2LLIQUIDCu Fe Ni ¼ 151450  107:050T                                  This work
+
+                                                                                  FCC_A1: model (Cu, Fe, Ni)1Va1
+   Figs. 6 and 7 show the calculated values of the thermodynamic         0LFCCCu FeA1 ¼ 48885:74  11:51T                                     [20]
+properties of the liquid and f.c.c._A1 phases together with relevant         1LFCCCu FeA1 ¼ 12687:16  8:01T                                      [20]
+experimental points. As can be seen from the ﬁgures most of the         2LFCCCu FeA1 ¼ 4054:11                                               [20]
+experimental data are well reproduced. Good correspondence         0LFCCCu NiA1 ¼ 6877:12 þ 4:6T                                        [22]
+between  calculated and  experimental  values  has  also been         1LFCCCu NiA1 ¼  2450:1 þ 1:87T                                       [22]
+achieved for aFe at 5 at.% Fe and 1673 K [59], and 1520 K [61]. For         TFCC0;crCuA1Ni ¼  935:5                                                [22]
+the activities of the components in liquid alloys by [59,60] the         TFCC1;crCuA1Ni ¼  594:9                                                [22]
+qualitative agreement is obtained. The data on the copper and         bFCC0;Cu A1Ni ¼  0:732                                                 [22]
+nickel activities in f.c.c._A1 phase of Velisek et al. [61] cannot be         bFCC1;Cu A1Ni ¼  0:317                                                 [22]
+described by the calculations. It was proved that better ﬁtting to         0LFCCFe NiA1 ¼  12054 þ 3:27T                                       [49]
+these data resulted in the worse description of the two-phase         1LFCCFe NiA1 ¼ 11082  4:45T                                         [49]
+(cFe, Ni) + (Cu, Ni) region and phase equilibria involving the liquid         2LFCCFe NiA1 ¼  725:8                                                [49]
+and (cFe, Ni) phases.                                                                    TFCC0;crFeA1Ni ¼ 2133                                                  [49]
+   The isothermal sections of the ternary phase diagram calcu-         TFCC1;crFeA1Ni ¼  682                                                  [49]
+lated for different temperatures are shown in Figs. 8 and 9. Results         bFCC0;Fe NiA1 ¼ 9:55                                                   [49]
+according  to assessment by Jansson  [13] and corresponding         bFCC1;Fe NiA1 ¼ 7:23                                                   [49]
+experimental data are also given for comparison. As follows from         bFCC2;Fe NiA1 ¼ 5:93                                                   [49]
+the Figures, the present calculations yield a better overall ﬁt to the
+                                                                                                 bFCC3;Fe NiA1 ¼ 6:18                                                   [49]
+experimental data, compared to those of [13]. For example, we
+                                                                                                  0LFCCCu FeA1 Ni ¼  130430 þ 70:251T                                 This paper
+improved signiﬁcantly the description of the (cFe, Ni) + (Cu, Ni)                                                                                                  1LFCCCu FeA1 Ni ¼ 78396  65:505T                                    This paper
+two-phase ﬁeld in the temperature range 1123–1323 K (Fig. 9a–
+                                                                                                  2LFCCCu FeA1 Ni ¼  57712 þ 48:594T                                  This paper
+d) with respect to previous calculation. For lower temperatures,
+                                                                                               TFCCcr CuA1Fe Ni ¼ 7000                                                 [13]
+our description, as well as that by Jansson [13], fails to reproduce
+                                                                                                 bFCCCu FeA1 Ni ¼ 20                                                   [13]
+the data on the f.c.c._A1 miscibility gap of [1,58]. As already
+                                                                                 BCC_A2: model (Cu, Fe, Ni)1Va3pointed out, the discrepancies between calculation and experi-
+                                                                                               0LBCCCu FeA2 ¼ 40146:22  4:91T                                      [20]mental values result from contradiction between the ternary
+                                                                                           TBCC0;crCuA2Fe ¼  41:4                                                 [20]phase equilibria observed by [1,58] and accepted binary Cu–Fe
+                                                                                               0LBCCCu NiA2 ¼ 10000                                                This paperphase diagram [20]. In present work an explanation of this contra-
+                                                                           A1             0LBCCFe NiA2 ¼  956:63  1:29T                                      [49]diction is proposed based on the position                                           of the spinodal xf:c:c:spin    of
+                                                                                               1LBCCFe NiA2 ¼ 1789:03  1:93T                                       [49]                                              A1
+the f.c.c._A1 phase. The spinodal xf:c:c:spin    is calculated according to
+the procedure by Chuang et al. [6] and shown by dash-dot-dot        L12_FCC: model (Cu, Fe, Ni)0.25(Cu, Fe, Ni)0.25
+                                                                                                    (Cu, Fe, Ni)0.25(Cu, Fe, Ni)0.25Va1
+line in Fig. 9. As temperature decreases from 1123 to 873 K, the
+                                                                                              GL12Ni:Fe:Fe:Fe:Va¼FCC       GL12Fe:Ni:Fe:Fe:VaFCC   ¼  GL12Fe:Fe:Ni:Fe:VaFCC   ¼                      [14]
+ends of the tie-lines [1,58] gradually shift from the binodal to                    FCC
+                                                                                                 GL12Fe:Fe:Fe:Ni:Va ¼ 9171
+spinodal line. They occupy intermediate position between these
+                                                                                              GL12Fe:Ni:Ni:Ni:VaFCC   ¼  GL12Ni:Fe:Ni:Ni:VaFCC   ¼  GL12Ni:Ni:Fe:Ni:VaFCC   ¼                     [14]
+lines at 1073 K (Fig. 9e), and almost coincide with the spinodal                    FCC
+                                                                                                 GL12Ni:Ni:Ni:Fe:Va ¼  14400 þ 12:55471T
+at 873 K (Fig. 9f). This behavior could be attributed to the non-
+                                                                                                    0LL12Fe;Ni:FCC:  : :Va ¼ 0LL12:Fe;Ni:FCC: :Va ¼ 0LL12: :Fe;Ni:FCC  :Va ¼                        [14]
+equilibrium state of investigated alloys. It was also noted by Gal-                    FCC
+                                                                                                       0LL12:  : :Fe;Ni:Va ¼ 345:08a
+lino et al. [1] that spinodal decomposition and gradual structure
+coarsening occurred during the quenching and equilibrating of          a An asterisk, ‘‘  ’’, denotes that the parameter is independent of the constituents
+the specimens at 1023 and 1073 K. This indicates that the authors      of a speciﬁc sublattice.
+
+## PDF page 7
+
+                                                             L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543                                      539
+
+
+            20
+                                                 xCu/xFe=3
+
+             0
+
+          −20
+                                                xCu/xFe=1                   kJ/mol    0
+          1873,Ni                                  [16]
+      ΔH  −20
+                                               xCu/xFe=1/3
+             0
+
+
+
+          −30
+
+              CuxFe1-x  0.2      0.4      0.6      0.8    Ni
+                                        xNi                 (L)                                       (L)
+                            (a)
+
+
+
+           10                                xCu/xFe=3
+
+            0
+                       kJ/mol  2010                                xCu/xFe=1
+            1873,   0
+       ΔH                                   [16]
+           10
+                                              xCu/xFe=1/3
+             0
+
+          −10
+             CuxFe1-x   0.2      0.4      0.6      0.8    Ni
+                (L)                    xNi                  (L)
+                          (b)
+
+              1.0           xCu/xNi=9
+                                             xCu/xNi=3/2                             xCu/xNi=3
+              0.8                                           a1623Cu
+
+                            xCu/xNi=1              0.6
+
+
+
+              0.4
+
+                      a1623Fe              0.2
+
+                                 [41]
+
+
+             CuxNi1-x   0.2      0.4      0.6      0.8    Fe
+                (L)                    xFe                  (L)
+                            (c)
+
+
+Fig. 6. The calculated partial mixing enthalpy of nickel (a), integral mixing enthalpy
+(b), activities of copper and iron (c) of the liquid alloys in the Cu–Fe–Ni system      Fig. 7. The calculated mixing enthalpy (a) and activity of iron (b and c) of the
+(continuous  lines) and experimental values (symbols). The standard element       f.c.c._A1 phase in the Cu–Fe–Ni system (continuous lines) and experimental values
+reference states are given below the chemical elements.                               (symbols). The standard element reference states are given below the chemical
+                                                                                   elements.
+
+## PDF page 8
+
+540                                                         L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543
+
+                                       Ni          [55]                              Ni          [9]
+                           1573 K                    [13]                   1523 K                  [13]
+                                                        This work                                       This work
+                                       0.2            0.8                                   0.2            0.8
+
+                        xCu 0.4                    0.6   xNi              xCu 0.4      (γFe,Ni)      0.6   xNi
+
+                              0.6                  (γFe,Ni)   0.4                  0.6                             0.4
+
+
+                          0.8   L                               0.2         0.8                                      0.2
+                                                         L
+
+
+                 Cu      0.2      0.4      0.6      0.8     Fe    Cu      0.2      0.4      0.6      0.8     Fe
+                                                   xFe                                                       xFe
+                                 (a)                                 (b)
+
+
+                                       Ni         [55]                               Ni          [9]
+                           1473 K                   [13]                   1423 K                  [13]
+                                                       This work                                        This work
+                                       0.2            0.8                                   0.2            0.8
+
+                        xCu 0.4                                            (γFe,Ni)                                                          0.6   xNi              xCu 0.4      (γFe,Ni)      0.6   xNi
+
+                              0.6                             0.4                  0.6                             0.4
+
+
+                          0.8                                      0.2         0.8                                      0.2
+                    L
+                                                           L
+
+                 Cu      0.2      0.4      0.6      0.8     Fe    Cu      0.2      0.4      0.6      0.8     Fe
+                                                    xFe                                                       xFe
+                                 (c)                                 (d)
+
+
+Fig. 8. Isothermal sections of the ternary Cu–Fe–Ni system: (a) T = 1573 K; (b) T = 1523 K; (c) T = 1473 K; and (d) T = 1423 K. Calculated phase boundaries – solid and dashed
+lines; experimental values – symbols.
+
+
+
+(aFe) + (Cu, Ni) + (cFe, Ni) phase regions, it can hardly be repro-     associated with the miscibility gap in the Fe–Ni system  is of
+duced within any equilibrium thermodynamic calculations be-    magnetic origin. The second one is the four-phase eutectoid reac-
+cause of its contradiction with stable phase diagram of the Cu–     tion (cFe, Ni)fer M FeNi3 + (Cu, Ni) + (aFe) at 640 K. The calculated
+Fe and Fe–Ni systems.                                            compositions of the coexisting phase in atomic percent are Cu0.79-
+  Some calculated vertical sections of the ternary phase diagram     Fe47.38Ni51.83 for the (cFe, Ni)fer, Cu0.67Fe36.51Ni62.82 for the FeNi3,
+are compared with experimental data from [1,5,53,54] in Fig. 10.     Cu97.26Fe0.01Ni2.73 for the (Cu, Ni), Cu0.02Fe96.50Ni3.48 for the (aFe).
+The agreement between results of calculation and experiments is      It should be noted that even though the excess parameters
+generally good. For the section Cux–(Fe50Ni50)1 x temperature win-    corresponding to the last line in the Eq. (7) have been excluded
+dow between the solvus and solidus of the f.c.c._A1 phase and the    from the model of the ordered phase, the thermodynamic calcula-
+ternary peritectic reaction reported by Gallino et al. [1] are repro-     tion still predicts the small Cu solubility in the phase. Further
+duced by our calculation. However, calculated L + (cFe, Ni) + (Cu,    experimental data are needed to verify these low temperature
+Ni) three-phase region is very narrow, whereas according to the     equilibria.
+experiment peritectic melting was observed for alloys with 16         Fig. 11 shows the projections of liquidus and solidus surfaces
+and 21 at.% Fe. Attempts to obtain a closer ﬁt to such details led     calculated according to the present description. The assessed
+to a simultaneous worsening in the description of the f.c.c._A1 mis-     coordinates  of  the  critical  tie-line  L M ((cFe,  Ni),  (Cu,  Ni))
+cibility  gap  and  disappearance  of  the  narrow window  of      (Fig. 11a) in atomic percent are follows: Cu65.0Fe18.8Ni16.2 for the
+temperatures.                                                             ((cFe, Ni), (Cu, Ni)) phases and Cu89.8Fe4.4Ni5.8 for the liquid phase
+   The model predicts two invariant reactions in the ternary     at  1420 K.  As  a  consequence,  the  L + (cFe,  Ni) + (Cu,  Ni))
+system at low temperatures. The ﬁrst one is the monotectoid    three-phase region turn out to be not so extended in the ternary
+four-phase  transition  reaction  (cFe,  Ni)par + (Cu,  Ni) M (cFe,    system as reported in [53,54]. The calculated liquidus isolines are
+Ni)fer + (aFe) at 686 K. The compositions of the phases in atomic     in satisfactory agreement with experimental results by Sinyova
+percent  are  follows:  Cu0.63Fe55.63Ni43.74  for  the  (cFe,  Ni)par,     et al. [5] based on thermal analysis of 36 alloys. According to our
+Cu96.87Fe0.02Ni3.11 for the (Cu, Ni), Cu0.83Fe51.77Ni47.40 for the (cFe,    modeling results, the solidus of the (cFe, Ni)-phase (Fig. 11b) is ret-
+Ni)fer, Cu0.03Fe95.79Ni4.18 for the (aFe). This monotectoid reaction    rograde in wide temperature range.
+
+## PDF page 9
+
+                                                             L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543                                      541
+
+
+                               Ni                                                                           Ni         one phase [7]                                                     [9]
+                   1323 K                                      1273 K                     [7]                                                 [58]
+                                                                                                              [9]
+                             0.2            0.8        [13]                       0.2            0.8         [58]
+                                                    This work                                            [13]
+                                                                                                      This work
+                         0.4                    0.6                           0.4                    0.6
+                xCu                                 xNi                                                        xCu                                 xNi
+
+                    0.6                             0.4                  0.6                             0.4
+                                                                                                                                               fcc_A1  (γFe,Ni)                 (Cu,Ni)                                  (γFe,Ni)        (Cu,Ni)                             x spin
+                                                        x spinfcc_A1                0.8                                      0.2         0.8                                      0.2
+
+
+
+          Cu      0.2      0.4      0.6      0.8     Fe    Cu      0.2      0.4      0.6      0.8     Fe
+                                        xFe                                                       xFe
+                             (a)                                      (b)
+
+
+                               Ni                                          Ni                                                      [9]                                                      [9]
+                     1173 K                                                                   1123 K                    [13]                                                   [57]
+                                                                                                 This work
+                              0.2            0.8         [13]                       0.2            0.8
+                                                     This work
+
+                          0.4                    0.6                           0.4                    0.6
+                 xCu                                 xNi              xCu                                 xNi
+
+                     0.6                         x spinfcc_A1   0.4                  0.6                             0.4
+                 (Cu,Ni)                                   (γFe,Ni)         (Cu,Ni)                                   (γFe,Ni)
+
+                 0.8                                      0.2          0.8                        x spinfcc_A1            0.2
+                                                                                                                (αFe)
+
+
+           Cu      0.2      0.4      0.6      0.8     Fe    Cu      0.2      0.4      0.6      0.8     Fe
+                                          xFe                                                       xFe
+                           (c)                                         (d)
+
+
+                           Ni                                              Ni
+                                                [1]                                                      [54]               1073 K                                          873 K
+                                             [58]                                                     [58]
+                         0.2            0.8         [13]                           0.2            0.8         [13]
+                                                This work                               847Κ  862Κ              This work
+                                                                                           (Cu,Ni)                     (γFe,Ni)
+                     0.4                    0.6                               0.4       884Κ   886Κ      0.6             xCu                                 xNi                 xCu                                 xNi
+                 (Cu,Ni)                              (Cu,Ni)+(γFe,Ni)+(αFe)                                            (Cu,Ni)+(γFe,Ni)+(αFe)
+                0.6                             0.4                      0.6                             0.4
+                                                              (γFe,Ni)                x spinfcc_A1
+
+            0.8                                  fcc_A1          0.2             0.8                                      0.2
+                                            x spin
+                                                             (αFe)                                                            (αFe)
+
+
+       Cu      0.2      0.4      0.6      0.8     Fe       Cu      0.2      0.4      0.6      0.8     Fe
+                                                                                                   xFe                                    xFe
+                           (e)                                                    (f)
+
+
+Fig. 9. Isothermal sections of the ternary Cu–Fe–Ni system: (a) T = 1323 K; (b) T = 1273 K; (c) T = 1173 K; (d) T = 1123 K; (e) T = 1073 K; and (f) T = 873 K. Calculated phase
+boundaries – solid and dashed lines; experimental values – symbols.
+
+## PDF page 10
+
+542                                                         L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543
+
+
+               2100                                                            2100       [5]                              L+(Cu,Ni)+(γFe,Ni)                        [5]
+                    T, K                   L                [53]          T, K      [53]        L      L+(γFe,Ni)+(δFe)(δFe)
+               1800       (αFe)+(γFe,Ni)+(Cu,Ni)               [54]        1800  L+(Cu,Ni)+(γFe,Ni)
+
+                                                                                                                                           (γFe,Ni)
+               1500                    (γFe,Ni)fer+(γFe,Ni)par+(Cu,Ni)      1500                                         (αFe)
+                                                   (γFe,Ni)fer+(αFe)+(Cu,Ni)                          (Cu,Ni)     (αFe)+(γFe,Ni)+(Cu,Ni)
+               1200                        (γFe,Ni)fer+FeNi3+(Cu,Ni)      1200     (γFe,Ni)fer+FeNi3+(Cu,Ni)
+                                                                                                        (γFe,Ni)fer+(γFe,Ni)par+(Cu,Ni)
+                                                                       (γFe,Ni)
+                900                                          900
+                             686                         T cfcc_A1                                            686
+                600      640                                  600       640                                                                                                               (γFe,Ni)fer+(αFe)+(Cu,Ni)
+                                 (αFe)+FeNi3+(Cu,Ni)                                  T cfcc_A1       (αFe)+FeNi3+(Cu,Ni)
+                300                                          300
+                      Cu0.5Fe0.5 0.2     0.4     0.6     0.8    Ni        Cu0.75Ni0.25  0.2     0.4     0.6     0.8    Fe
+                                               xNi                                                       xFe
+                                (a)                                   (b)
+
+                2100                                        2100
+                    T, K        [5]                                       L                                                                           T, K      [1][5]             L             [53][54]                                     [53]                                                                      (δFe)
+                1800                                        1800
+                                                                                          L+(Cu,Ni)+(γFe,Ni)
+
+                1500                                           (γFe,Ni)       1500
+
+                                  (Cu,Ni)                                            L+(Cu,Ni)+(γFe,Ni)                                                                       (γFe,Ni)                1200                                        1200       (Cu,Ni)
+                                                                                             (αFe)+(γFe,Ni)+(Cu,Ni)
+                                                                                                           (γFe,Ni)fer+(γFe,Ni)par+(Cu,Ni)
+                 900                                         900
+                                                                                                                  (γFe,Ni)fer+(αFe)+(Cu,Ni)
+                                      (αFe)+(γFe,Ni)+(Cu,Ni)  686                                                           686
+                 600       640                                 600          640                                               (γFe,Ni)fer+(αFe)+(Cu,Ni)
+                                                (αFe)+FeNi3+(Cu,Ni)                    T cfcc_A1         (αFe)+FeNi3+(Cu,Ni)
+                 300                                         300
+                 Cu       0.2        0.4       0.6 Fe0.75Ni0.25     Cu             0.2             0.4 Fe0.50Ni0.50
+                                               xFe                                                          xFe
+                               (c)                                   (d)
+
+                2100                                        2100
+                    T, K        [5]                                     [54]           L                          T, K       [54][5]            L
+                1800                                        1800
+
+
+                1500                                        1500
+                                                                                                                    (γFe,Ni)fer+FeNi3+(αFe)
+                                              (γFe,Ni)fer+(γFe,Ni)par+(Cu,Ni)                                        (αFe)+FeNi3+(Cu,Ni)
+                1200                                                                        (γFe,Ni)       1200     (γFe,Ni)fer+FeNi3+(Cu,Ni)                              (Cu,Ni)
+                                     (γFe,Ni)fer+FeNi3+(Cu,Ni)                                                                         (γFe,Ni)
+                 900                               fcc_A1                900   (Cu,Ni)
+                                            T c
+                                                            686
+                                                                                                                      640
+                 600                 640                          600                                                    (γFe,Ni)fer+(αFe)+(Cu,Ni)
+                                              (αFe)+FeNi3+(Cu,Ni)
+                 300                                         300
+                     Cu0.60Ni0.40      0.2          0.4       Fe0.60Ni0.40   Cu0.40Ni0.60             0.2              Fe0.40Ni0.60
+                                                 xFe                                                      xFe
+                                 (e)                                             (f)
+
+
+Fig. 10. Calculated vertical sections of the ternary Cu–Fe–Ni system: (a) (Cu50Fe50)1 x–Nix; (b) (Cu75Ni25)1 x–Fex; (c) Cux–(Fe75Ni25)1  x; (d) Cux–(Fe50Ni50)1 x; (e) 40 at.% Ni;
+and (f) 60 at.% Ni. Calculated phase boundaries – lines; experimental values – symbols.
+
+
+
+5. Conclusions                                             model  of the system, and predict phase  equilibria including
+                                                                ordered L12 phase.
+   The description of the Cu Fe Ni phase diagram has been up-        Calculated values of the thermodynamic functions, vertical and
+dated using the new experimental data and models compatible    isothermal sections compared to experimental data from various
+with existing assessments of the ternary Fe-based systems in order     sources. The liquidus and solidus projections are also presented.
+to create a database for Cu, Fe-based alloys, reﬁne thermodynamic   A good agreement has been achieved between our thermodynamic
+
+## PDF page 11
+
+                                                             L.A. Dreval et al. / Journal of Alloys and Compounds 587 (2014) 533–543                                      543
+
+
+                                       Ni                                                    of Phase Diagrams  in Metallurgy and Ceramics,  vol. 496, NBS  Special
+                               T, K             1723                                               Publication, 1977, pp. 911–954.
+                                                                                       [10] Z. Moser, W. Zakulski, P. Spencer, K. Hack, CALPHAD 9 (3) (1985) 257–269.
+                                                                                       [11] P. Spencer, K. Hack, Z. Moser, W. Zakulski, CALPHAD 9 (2) (1985) 191–198.
+                                    0.2   1673         0.8                                    [12] A.T. Dinsdale, CALPHAD 15 (4) (1991) 317–425.
+                                                                                       [13] A. Jansson, A thermodynamic evaluation of the Cu–Fe–Ni system, Materials
+                                   1648
+                                                                                     Research Center, The Royal Institute of Technology, Stockholm, 1987. pp. 1-10,
+                                   1623                                                Report No. TRITA-MAC-0340.
+                                                                                       [14] C. Servant, B. Sundman, O. Lyon, CALPHAD 25 (1) (2001) 79–95.
+                             0.4    1598                       0.6                             [15] C.P. Wang, Ph.D. Thesis, Tohoku University, Japan, 2001.
+                 xCu                                                xNi                          [16] L.A.  Dreval’, A.R. Abdulov, P.G. Agraval, M.A. Turchanin, Russian Metall.
+                          1573                                                             (Metally) 2010 (1) (2010) 6–12.
+                                                                                       [17] M.A. Turchanin, T.Ya. Velikanova, L.A. Dreval’, A.R. Abdulov, P.G. Agraval,
+                                                                       0.4                      0.6   1548                                                                           Powder Metall. Met. Ceram. 48 (11–12) (2009) 672–692.                                                    1698
+                                                                                       [18]  I. Ansara,  A. Jansson, Assessment  of the copper–iron system, Materials                    1523
+                                                                                     Research Center, The Royal Institute of Technology, Stockholm, 1993. pp. 1–
+            1473  1498                                1723                                      4, Report No. TRITA-MAC-0533.
+              0.8                                            1748    0.2                 [19] Q. Chen, Z. Jin, Metall. Mater. Trans. A 26A (2) (1995) 417–426.        pc 1423              c                                                                            (δFe)              [20] M.A. Turchanin, P.G. Agraval, I.V. Nikolaenko, J. Phase Equilib. 24 (3) (2003)      1420                                                            1773                                                                                  p1                                                                                 307–319.      1373                                                                       p2      1790      p3                                                                                       [21]                                                                                                         S.A.                                                                                 Mey,                                                                            CALPHAD                                                                                           16                                                                                                                           (3) (1992)                                                                                                              255–260.                                              (γFe,Ni)               1760                                                                      1798    1368                                                                                       [22]                                                                                    M.A.                                                                                             Turchanin,                                                                                                                     P.G.                                                                                                                  Agraval,                                                                                                                                  A.R. Abdulov,                                                                                                             Powder Metall. Met. Ceram. 46 (9–
+       Cu           0.2            0.4            0.6            0.8         Fe                 10) (2007) 467–477.
+                                   xFe                                            [23] O. Kubaschewski, W.A. Dench, V.A. Genta, A high temperature calorimeter for
+                        (a)                                          slow reactions, in: Proc. N. P. L. Sympos. No. 9, Phys. Chem. Met. Solns. and
+                                                                                           Intermet. Compounds, HMSO 1, 1958, pp. 1–8.
+                                                                                       [24] R.J. Oriani, U.K. Murphy, Acta Met. 8 (1960) 23–25.
+                                                                                       [25] R.A. Rapp, F. Maak, Acta Metall. 10 (1) (1962) 63–69.
+                                     Ni                                              [26] L. Elford, F. Muller, O. Kubaschewski, Ber. Bunsengesellschaft 73 (1968) 601–
+                             T, K             1723                                             605.
+                                                                                       [27] M.F. Ebel, Phys. Status Solidi A 5 (1) (1971) 91–94.
+                                   1673                                               [28] E.A. Feest, R.D. Doherty, J. Inst. Metals 99 (1971) 102–103.
+                                                                                       [29] B. Predel, R. Mohs, Arch. Eisenhütten. 42 (8) (1971) 575–579.
+                                  0.2                 0.8                                     [30] E. Schurmann, E. Schultz, Z. Metallkd. 62 (10) (1971) 758–762.
+                                 1623
+                                                                                       [31] Y. Tozaki, Y. Iguchi, S. Ban-ya, T. Fuwa, Heat of mixing of iron alloys, in: Proc.
+                                                                                                   Intern. Symp. On Chem. Metallurgy of Iron and Steel, 1971, pp. 130–132.
+                              1573                                                   [32] B.D. Bastow, D.H. Kirkwood, J. Inst. Metals 100 (1971) 277–283.
+                           0.4                                0.6                               [33]  I. Katayama, H. Shimatani, Z. Kozuka, J. Jpn. Inst. Met. 37 (5) (1973) 509–515.
+                xCu                                                xNi                            [34] A.D. Kulkarni, R.E. Johnson, Metal. Trans. 4 (7) (1973) 1723–1727.
+                        1523                                                          [35] Y. Iguchi, Y. Tozaki, M. Kakizaki, S. Ban-ya, T. Fuwa, J. Iron Steel Inst. Jpn. 63
+                                                                                     (1977) 953–961.
+                    0.6                                               0.4                        [36] A. Kontopoulos, Trans. Inst. Min. Metall. Sect. C 87C (1978) C1–C5.
+                  1473                                                                [37] M. Notin, G. Lefebvre,  J. Hertz,  J. Solid State Chem. 28 (1979) 109–120. in
+                                                                                          French.
+                                                       1723                          [38] T. Tsakalakos, Scr. Metall. 15 (3) (1981) 255–258.                           1373
+            0.8                                                             0.2                  [39] U.K. Stolz, I. Arpshofen, F. Sommer, B. Predel, J. Phase Equilib. 14 (4) (1993)
+     (Cu,Ni)   1423                         1420  1398                          (γFe,Ni) 1773                  473–478.
+            1398                                                   1790              [40] I.V. Nikolaenko, M.A. Turchanin, Metall. Mater. Trans. B 28B (6) (1997) 1119–
+                                 1373                                                 1130.
+                                                                                (δFe)           [41] Y. Fujita, R.U. Pagator, M. Hino, T. Azakami, J. Jpn. Inst. Met. 61 (7) (1997) 619–
+                       1368                                    1760
+      Cu           0.2            0.4            0.6            0.8          Fe                  624.
+                                  xFe                                             [42] T. Oishi, S. Tagawa, S. Tanegashima, Mater. Trans. 44 (6) (2003) 1120–1123.
+                       (b)                                            [43][44] T.K. Oishi,Ananthasivan,S. Tagawa,S. Balakrishnan,S. Tanegashima,I. Kaliappan,J. Phys. Chem.S. Anthonysamy,Solids 66 (2005)R. Pankajavalli,251–255.
+                                                                                                         P.R. Vasudeva, J. Alloys Comp. 468 (2009) 275–279.
+        Fig. 11. Calculated liquidus (a) and solidus (b) surfaces projections.             [45] J.S.LI. Leach, M.B. Bever, Trans. Metall. Soc. AIME 215 (1959) 728–729.
+                                                                                       [46]  J. Rogez, R. Castanet, Mater. Chem. Phys. 9 (1983) 597–602 (in French).
+description and experimental data. However, low temperature      [47] V.P. Glibin, B.V. Kuznetsov, T.N. Vorobyova, J. Alloys Comp. 386 (2005) 139–
+                                                                                       143.
+equilibria (T < 800 K) need to be conﬁrmed by future experimental      [48] Z.S. Xing, D.D. Gohil, A. Dinsdale, T. Chart, DMA (A) 103, National Physical
+work.                                                                                     Laboratory, London, 1985.
+                                                                                       [49] A. Dinsdale, T. Chart, MTDS NPL, Unpublished work, 1986.
+                                                                                       [50] B.-J. Lee, CALPHAD 17 (3) (1993) 251–268.
+Acknowledgment                                                                [51] B.-J. Lee, Unpublished revision of C–Cr–Fe–Ni, 1991.
+                                                                                       [52] C. Servant, M. Guymont, O. Lyon, Scr. Mater. 45 (1) (2001) 103–108.
+   This work was supported by the Ministry of Education and      [53] R. Vogel, Z. Anorg. Chem. 67 (1910) 1–16.
+                                                                                       [54] W. Köster, W. Dannöehl, Z. Metallkd. 27 (1935) 220–226.
+Science of Ukraine under the grant 0109U002665.                         [55] H. Ohtani, H. Suda, K. Ishida, ISIJ Int. 37 (3) (1997) 207–216.
+                                                                                       [56] A.J. Bradley, W.F. Cox, H.J. Goldschmidt, J. Inst. Met. 67 (1941) 189–201.
+References                                                                         [57] W. Gan, Z. Jin, Chin. J. Met. Sci. Technol. 8 (3) (1992) 181–184.
+                                                                                       [58] G.W. Qin, G. Zhao, M. Jiang, H.X. Li, S.M. Hao, Z. Metallkd. 91 (5) (2000) 379–
+                                                                                       382.
+ [1]  I. Gallino, S. Curiotto, M. Baricco, M.E. Kassner, R. Busch, J. Phase Equilib. Diffus.                                                                                       [59] V.I. Volkov, N.N. Novikova, S.E. Vaisburd, Izvest. VUZ Tsvetn. Metall. 4 (1986)
+    29 (2) (2008) 131–135.                                                                           127–128 (in Russian).
+ [2] C.-M. Lin, H.-L. Tsai, J. Alloys Comp. 489 (2010) 30–35.                                                                                       [60] L.Sh. Tsemekhman, V.P. Mintsis, B.P. Burylev, V.D. Linev, V.I. Volkov, Izv. VUZ
+ [3] C.-M. Lin, H.-L. Tsai, H.-Y. Bor, Intermetallics 18 (2010) 1244–1250.                                                                                        Chern. Metall. 3 (1985) 1–4 (in Russian).
+ [4] L. Yin, S. Balaji, S. Sridhar, Metall. Mater. Trans. B 41B (2010) 598–611.                                                                                       [61]  J. Velisek, J. Vrestal, A. Rek, Kovove Mater. 15 (1) (1977) 3–13.
+ [5] S.I. Sineva, R.V. Starykh, M.V. Frolenkova, S.B. Zakhryapin, Russian Metall.                                                                                       [62] G. Inden, Z. Metallkd. 68 (1977) 529–534.
+     (Metally) (3) (2009) 263–270.                                                                                       [63] M. Hillert, M. Jarl, CALPHAD 2 (3) (1978) 227–238.
+ [6] Y.Y. Chuang, R. Schmid, Y.A. Chang, Acta Metall. 33 (8) (1985) 1369–1380.                                                                                       [64] Y.M. Muggianu, M. Gambino, J.P. Bros, J. Chim. Phys. 72 (1) (1975) 83–88.
+ [7] K.J. Rönkä, A.A. Kodentsov, P.J.J. Van Loon, J.K. Kivilahti, F.J.J. Van Loo, Metall.                                                                                       [65] M. Hillert, L.-I. Staffanson, Acta Chem. Scand. 24 (1970) 3618–3626.
+     Mater. Trans. A 27A (8) (1996) 2229–2238.                                                                                       [66] B. Sundman, J. Ågren, J. Phys. Chem. Solids 42 (1981) 297–301.
+ [8] J.F. Counsell, E.B. Lees, P.J. Spencer, Metall. Chem. Proc. Symp. HMSO (1972)                                                                                       [67] N. Dupin, Ph.D. Thesis, Institute National Polytechnique, Grenoble, France
+    451–458.                                                                                     1995.
+ [9] M. Hasebe, T. Nishizawa, Analysis and synthesis of phase diagrams of the                                                                                       [68] B. Sundman, B. Jansson, J.O. Andersson, CALPHAD 9 (2) (1985) 153–190.
+     Fe–Cr–Ni, Fe–Cu–Mn and Fe–Cu–Ni systems, in: G.C. Carter (Ed.), Applications

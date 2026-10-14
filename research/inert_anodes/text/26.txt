@@ -1,0 +1,252 @@
+Source: literature/Solutions of iron oxides in molten cryolite.pdf
+
+## PDF page 1
+
+Solutions of Iron Oxides in Molten Cryolite
+
+        ERNEST W. DEWING and JOMAR THONSTAD
+
+           All the iron oxides (FeO, Fe3O4, Fe2O3, and FeAl2O4) dissolve in cryolite-alumina melts to give
+            solutions containing both Fe(II) and Fe(III). The factor controlling the Fe(II)/Fe(III) ratio is the oxygen
+            pressure, and experimental results are interpreted on that basis. Predictions are made of the variation
+            of solubility with oxygen pressure, and the standard potential of the Fe21/Fe31 redox couple is
+            calculated. The anode and anode gas of an industrial Hall–Heroult cell appear to be insufficiently
+           oxidizing to cause significant conversion of Fe(II) to Fe(III). An anomaly in the liquidus diagrams
+            for FeF2 - Na3AlF6 and FeO - Na3AlF6 is accounted for in terms of solid solution of FeF2 in cryolite.
+
+
+                      I.  INTRODUCTION                     atmosphere of oxygen and compared the results with those
+ STUDY of the solubility of iron oxides in cryolite, and      of Johansen[2] who used argon. In oxygen the solubility was                                                           only 60 pct of its value in argon. What has happened is thatof the nature of the solutions so produced, is of interest for                                                                    in the “neutral” atmosphere of argon the oxygen pressuretwo areas. First, iron is one of the commonest impurities in                                                   was nominally (and initially) zero, so that some Fe2O3 wasthe commercial Hall–Heroult process for producing aluminum                                                          reduced  to  Fe(II);  the oxygen  liberated  generated  ansinceit ispresent inthe rawmaterials used,and alsocomes from                                                  unknown pressure of oxygen in the gas, and Fe21 enteredsteeltoolsand equipment.Ironismuchless electronegativethan                                                                 the solution as well as Fe31. It is impossible to interpretaluminum, so that the bulk of it ends up in the metal produced.                                                          such results in any meaningful way without knowing whatSecond, in the search for a stable, oxygen-evolving anode for                                                                 the effective oxygen pressure was.use in cryolite-alumina melts, iron oxides are frequently among                                                                  In performing the following calculations, the only experi-the constituents of the materials proposed. The life of such an                                                          mental results accepted are those which were obtained eitheranode is controlled, to a large extent, by the rate of solution                                                          under one atmosphere of oxygen or in an iron crucible. Inof  its constituents, and, even  if the life is satisfactory, the                                                               those two cases, the oxygen potential is defined and known.acceptability of the material often hinges on how much contam-
+ination there is of the product metal by anode constituents
+transferred through the electrolyte.                                                          II.  CALCULATIONS
+  The purpose of this article is to set up a framework of                                                                All calculations are made for a temperature of 1293 Ktheoretical understanding within which experimental data                                                         (1020 8C).on the solubility of the iron oxides can be interpreted and                                                      The first step is to construct a predominance area diagramfuture experiments can be planned. Lack of such a frame-                                                                      for the solid phases in equilibrium with the solutions. Therework has led to many experiments in the past being  ill-                                                                   are two key parameters: the oxygen potential and the activity ofconceived, with failure to control or measure what turns out                                                               alumina. The latter enters because there is a ferrous aluminate,to be a critical variable: the oxygen pressure.
+                                                            FeAl2O4, which is stable if the alumina activity is high enough.  Because of the scarcity of usable data, the assumption is                                                                                  Its Gibbs energy has been determined from the electromotivehere made that Henry’s law applies to the iron in solution,                                                                   force of solid-state cells with oxygen-ion-conducting electro-provided the solvent composition is kept fixed. As new                                                                              lytes. Rezukhina et al.[3] give the standard Gibbs energy fordata become available in the future, that assumption can be
+modified if necessary without changing the basic outline of               FeO 1 a-Al2O3 5 FeAl2O4             [1]
+the behavior of the solutions presented here.
+                                                                  as  DG81293 5 223,088 J,  while Chan  et  al.[4]  give   it  as  There are numerous works in the literature on the solubil-
+                                                                      DG81293 5 223,622 J. The agreement is excellent, and the meanity of iron oxides in cryolite. With the exception of those
+                                                                  of DG81293 5 223,355 J is adopted. The corresponding equilib-referenced later, they are of no use for the present purpose
+                                                          rium constant is 8.78. This means that FeO is stable at aluminaas there was no control of the oxygen potential. Iron has
+                                                                           activitiesless than0.114 (log (aAl2O3) 5 20.94), whileathighertwo oxidation states, Fe(II) and Fe(III), and even though the
+                                                                              activities of alumina the aluminate is stable.solid material being dissolved is in one of them, the solution
+                                                              Standard  Gibbs  energies  of  formation  of  wu¨stitecan contain the other. The point is nicely demonstrated by
+                                                                      (Fe0.947O), magnetite (Fe3O4), and hematite (Fe2O3) wereDiep[1] who measured the solubility of Fe2O3 under one                                                             taken from the JANAF Tables.[5] They yield the equilibrium
+                                                      oxygen pressures and activities of iron shown in Table I
+                                                       and plotted in Figure 1 as the predominance area diagram.  ERNEST W. DEWING, Kingston, ON, Canada K7M 5T8, is retired.
+JOMAR THONSTAD, Professor of Electrochemistry, is with the Depart-     Conversion of alumina activity to wt pct alumina is taken
+ment of Materials Science and Electrochemistry, Norwegian University of     from Dewing and Thonstad.[6]
+Science and Technology, 7491 Trondheim, Norway                         In the most general case, one may expect that solutions
+  This article is based on a presentation made at “The Milton Blander      of iron oxides in molten cryolite will contain both Fe(II) and
+Symposium on Thermodynamic Predictions and Applications” at the TMS      Fe(III) species. It is assumed that since the concentrations areAnnual Meeting in San Diego, California, on March 1–2, 1999, under the
+auspices of the TMS Extraction and Processing Division and the ASM       fairly low Henry’s law will apply. (The highest experimental
+Thermodynamics and Phase Equilibrium Committee.                  Fe concentration considered is 4.49 wt pct, under conditions
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                           VOLUME 31B, AUGUST 2000—609
+
+## PDF page 2
+
+                           Table I.  Equilibrium Oxygen Pressures and Iron Activities at 1293 K
+        Equilibrium                 Log (pO2)           Log (aFe)           Log (aFe(pO2)1/2)           Log (aFe(pO2)3/4)
+Fe-Fe0.947O                         214.567                0.000               27.283                  210.925
+Fe0.947O-Fe3O4                       212.887            20.887               27.330                  210.552
+Fe3O4-Fe2O3                         24.856             26.241               28.669                  29.883
+Fe2O3-O2                                  0.000            29.883               29.883                  29.833
+Fe-FeAl2O4 (aAl2O3 5 1)               216.454                0.000               28.227                  212.340
+FeAl2O4-Fe3O4 (aAl2O3 5 1)             27.646             24.381               28.204                  210.115
+
+
+                                                                              [Fe31] 5 K2 aFe (pO2)3/4               [5]
+
+                                                         Square brackets indicate concentrations (conveniently in wt
+                                                                         pct), and the K’s are constants. Since pressures are in bar,
+                                                                 the dimensions of K1 and K2 are (wt pct)/bar1/2 and (wt pct)/
+                                                                              bar3/4. (For all practical purposes, an experiment performed
+                                                                    in the laboratory under normal atmospheric pressure may
+                                                        be regarded as being at one bar.) Specification of a fixed
+                                                                solvent composition (specifically, a fixed NaF/AlF3 ratio
+                                                       and a fixed concentration of alumina) is important since
+                                                        AlF3 may be involved in the dissolution reaction, and the
+                                                               concentration of Al2O3 controls the activity of the O22 ion.
+                                                                                      It is only if their activities are held constant that the preceding
+                                                           simple relations can be expected to hold.
+                                                            Melts saturated with alumina and with a NaF/AlF3 ratio
+                                                               of 3 satisfy the preceding condition. Two experimental points
+                                                                 are available. Diep[1] has reported the solubility of Fe2O3 in
+                                                        an alumina-saturated melt under one atmosphere of oxygen
+                                                               as 0.24 wt pct, or 0.17 wt pct Fe. In a similar melt, but in
+                                                        an iron crucible, Jentoftsen[8] found a solubility of 0.499 wt
+                                                                 pct  Fe;  the  equilibrium  solid phase would have been
+                                                          FeAl2O4, as shown by Figure 1. Values of aFe?(pO2)1/2 and
+                                                                     aFe?(pO2)3/4 can be taken from Table I, and Eq. [4] and [5]
+                                                             solved simultaneously for K1 and K2 as shown in Table 2.
+                                                One then finds that under 1 atm of oxygen, 6 pct of the total
+                                                                  iron in solution is as Fe(II), while in the iron crucible, 0.1
+Fig. 1—Predominance area diagram for solid phases at 1293 K.             pct of the total is as Fe(III).
+                                                        With values for K1 and K2, one can now calculate the
+                                                              equilibrium amounts of Fe(II) and Fe(III) in melts saturated
+where it is virtually all Fe(II). Johansen et al.[7] measured     with alumina at all oxygen pressures (i.e., along the right-
+the activity of FeF2 in cryolite up to a concentration of 2.8     hand border of Figure 1). Figure 2 shows the situation. On
+wt pct Fe; the activity coefficient was substantially constant     a log - log plot such as this the lines for the concentrations
+although it began to rise at the top end of the range. It is      of Fe(II) and Fe(III) are straight within the stability range
+difficult to predict what will happen as the concentration      of any one solid phase, so that the figure is easily created
+goes higher. All the other experimental results considered     from the data in Table I. In the FeAl204 region, the concentra-
+are below 1 wt pct Fe.)  It is convenient to take pO2 as      tion of Fe(II) is constant but the concentration of Fe(III)
+the fundamental independent parameter since, once  it is     goes up as the oxygen pressure is raised. In the Fe2O3 region,
+specified, the solid phase in equilibrium is defined and the      the Fe(III) is constant but the Fe(II) goes down as the oxygen
+remaining parameter, the activity of iron, can be calculated.      pressure is raised. In the Fe3O4 region, both change.
+One can then treat the two dissolution reactions as             The standard potential for the Fe21/Fe31 redox reaction
+                                                                               is that at which the two concentrations are equal. The lines        Fe 1 1/2O2 5 Fe21 (soln) 1 O22 (soln)       [2]                                                                    in Figure 2 intersect at 20.30 V with respect to a reversible
+and                                                   oxygen electrode, or log (pO2) 5 24.63.
+                                                          Data are available to do a similar calculation for one other      Fe 1 3/4O2 5 Fe31 (soln) 1 3/2O22 (soln)     [3]                                                         alumina content. Johansen[2] gives the solubility, interpolated
+It should be noted that these two equations are purely formal;      to 1293 K, of wu¨stite in cryolite (in an iron crucible) as
+nothing is assumed about the chemical environment in which     4.49 wt pct Fe. One has to calculate on the basis that the
+either the iron ions or the oxide ions find themselves. Then,     oxide content thereby introduced is present as alumina, or
+for a fixed composition of solvent,                            2.73 wt pct Al2O3 (log (aAl2O3) 5 21.221). Diep’s[1] data on
+                                                                 the solubility of Fe2O3 under 1 atm oxygen can be interpo-                [Fe21] 5 K1 aFe (pO2)1/2               [4]                                                                    lated to that same alumina content to give 0.28 wt pct Fe.
+and                                             One can then again solve for K1 and K2 (Table III). Under
+
+610—VOLUME 31B, AUGUST 2000                                              METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 3
+
+                                    Table II.   Solubilities in Alumina - Saturated Melts
+                                    Fe(II)           1                      Fe(III)          5              Total Fe
+1 atm O2:                 1.309 3 10210 K1        1               1.309 3 10210 K2       5              0.17
+Fe crucible:               59.29 3 10210 K1        1            0.00457 3 10210 K2       5              0.499
+                     K1 5 0.00841 3 1010                         K2 5 0.121 3 1010
+
+
+                             Table III.   Solubilities in Melts Containing 2.73 Wt Pct Alumina
+                                    Fe(II)           1                      Fe(III)          5              Total Fe
+1 atm O2:                 1.309 3 10210 K1        1              1.309 3 10210 K2       5               0.28
+Fe crucible:               521 3 10210 K1        1              0.119 3 10210 K2       5               4.49
+                      K1 5 0.00857 3 1010                         K2 5 0.205 3 1010
+
+
+                                                                                                III.  DISCUSSION
+                                                 One of the incompletely resolved questions in cryolite
+                                                            chemistry is that of identifying the ionic species present in
+                                                                 the melts. That there are recognizable species is beyond
+                                                       question—both Raman spectra[9] and thermodynamic mod-
+                                                                                eling[10,11] have identified species such as (AlF4)2, (AlF5)22,
+                                                       and (Al2OFx)(x24)2. The question therefore naturally arises:
+                                            When a solute atom, such as Fe, is introduced into the melt,
+                                                           with which anions is it closely associated? The question has
+                                                                     particular relevance when the source of the solute metal is
+                                                        an oxide, and becomes: Is the dissolved metal cation associ-
+                                                               ated with fluoride ions only, or with at least one oxide ion?
+                                                                    Alternatively, and rather loosely, put: Is the solute metal to
+                                                        be regarded as being present as a fluoride or an oxide?
+                                                                  In the treatment given so far, no assumptions have been
+                                                 made about the answer to that question, but there are features
+Fig. 2—Concentrations of Fe(II), Fe(III), and total Fe in solution in melts      of the results which throw some light on the matter.
+saturated with Al2O3.                                                           First, the shift of the standard potential for Fe21/Fe31 to
+                                                           a more negative value (lower oxygen pressure) at a lower
+                                                         alumina activity is consistent with Fe21 and Fe31 both being
+                                                                present as fluorides. If the equilibrium is
+                                                             12FeF2 1 4AlF3 1 3O2 5 12FeF3 1 2Al2O3    [6]
+                                                        one would expect ­ log (pO2)/­ log (aAl2O3) to be 2/3; the
+                                                               experimental figure (based on the two values given previously,
+                                                                   the only ones available) is 0.72. Being based on only two
+                                                                    points it is impossible to make any assessment of its accuracy.
+                                      A second quantitative calculation can be done to predict the
+                                                                         solubility of FeO in cryolite from the hypothesis that it dissolves
+                                                                 as FeF2, and literature data for standard Gibbs energies and
+                                                                          activity coefficients. Suppose that FeO dissolves by
+                                                         3FeO 1 2AlF3 5 3FeF2 1 Al2O3          [7]
+                                                   The activity of AlF3 in cryolite is known,[12] the activity of
+                                                         alumina as a function of its concentration is known,[6] and
+                                                             Johansen, et al.[7] have made measurements of the Gibbs
+                                                           energy of FeF2 in dilute solution in cryolite. The measure-
+Fig. 3—Concentrations of Fe(II), Fe(III), and total Fe in solution in melts     ments were made with a H2/HF electrode, and activity coeffi-
+containing 2.73 wt pct Al2O3.                                           cients were calculated with respect to a standard state of
+                                                        FeF2 that they defined. Provided that the same definition of
+                                                              standard state is used in calculating the equilibrium constant,
+1 atm of oxygen, 4 pct of the total iron is Fe(II), and in         it cancels out. Their activity coefficients can be fitted to
+equilibrium with Fe, 0.5 pct of the total is as Fe(III). Figure     a regular solution model to extrapolate them beyond the
+3 shows the situation. The standard potential for the Fe21/      concentration range in which they were measured. Standard
+Fe31 redox reaction is 20.35 V, or log (pO2) 5 25.51.         free energies of the other three compounds are taken from
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                           VOLUME 31B, AUGUST 2000—611
+
+## PDF page 4
+
+                                                                 gas, consisting of CO2 with 10 to 20 pct CO, has an equilib-
+                                                      rium oxygen potential of 20.75 to 20.8 V.[5] With the
+                                                            standard Fe21/Fe31 potential at around 20.3 V, it looks
+                                                              as if the anode gas cannot be effective at oxidizing Fe21
+                                                                  in solution, although the anode itself could cause some
+                                                               oxidation, particularly if the additional AlF3 in a commer-
+                                                                       cial electrolyte pushes the reversible Fe21/Fe31 potential
+                                                  more negative (Eq. [6]). The question of whether there is
+                                                           a significant contribution to the observed loss of Faradaic
+                                                                efficiency from an Fe21/Fe31 oxidation-reduction cycle
+                                                              thus remains open, but on the basis of the information
+                                                                available at the moment it seems unlikely. If one had a
+                                                                  stable anode generating oxygen, however, the chance of
+                                                                getting such a cycle would appear to be high, although the
+                                                              ultimate loss of Faradaic efficiency might not be signifi-
+                                                              cant since the amount of iron which could be tolerated in
+                                                               solution would be low for other reasons.
+                                                One last matter may be touched upon. Johansen et al.[7]
+                                                       found that with both FeO and FeF2 the depression of freez-
+                                                             ing point of cryolite was less than expected for the number
+                                                              of foreign particles being introduced to the solution. They
+                                                                said that this could be due to formation of solid solutions,
+                                                              or to the iron in the liquid solution being dimerized. They
+                                                           favored the latter alternative, but in fact their activity mea-
+                                                         surements show that the activity coefficient of iron in
+Fig. 4—Operating region of the Hall–Heroult cell.                         dilute solution is substantially constant, and therefore that
+                                                                                            it is not dimerized.  It follows that there must be solid
+                                                                solutions forming, and since it is now established that FeO
+                                                               dissolves in the liquid as FeF2, presumably it is FeF2 going
+the JANAF Tables.[5] The predicted solubility (in equilibrium      into the solid solution in both cases. What is ostensibly
+with Fe) is 4.0 wt pct Fe, as compared to the measured value      the FeO-Na3AlF6 binary diagram then turns out to be part
+of 4.5 wt pct.[1] In view of the uncertainties in the auxiliary      of the NaF-AlF3-Al2O3-FeF2 quaternary. Since solid cryo-
+data, the agreement is close enough to lend strong support       lite is itself nonstoichiometric[16,17] and the solid solubility
+to the hypothesis. What has been demonstrated, in effect, is     must interact with that intrinsic disorder, the system is
+that Fe(II) derived by solution from FeO has the same activ-    much too complex to analyze further with the very limited
+ity coefficient as FeF2 in solution in an oxide-free melt.      data available.
+Were there bonding between Fe and O one would expect
+the bonding energy to cause a shift in the activity coefficient.                                                    REFERENCES  Work on the variation of solubility of FeO with alumina
+content is currently under way[8] and should throw more          1. Q.B. Diep: Structure and Thermodynamics of Cryolite-Based Melts
+light on the situation.                                                        with Additions of Al2O3 and Fe2O3, Doktor Ingeniøravhandling, Insti-
+  There are not yet enough examples worked out in detail             tute for Industrial Electrochemistry, Norwegian University of Science                                                                         and Technology, Trondheim, 1998, p. 28.
+to be able to proclaim a general rule, but  it seems that          2. H.G. Johansen: Jern som Forurensningselement i Aluminium-Elektro-
+when oxides dissolve in cryolite the foreign metal is left             lysen, Institute for Industrial Electrochemistry, Norwegian Technical
+associated with fluoride ions, while the oxide ion is in the             University, Trondheim, 1975.
+same aluminum oxyfluoride complexes that are formed          3. T.N. Rezukhina, V.A. Levitskii, and P. Ozhegov: Russ. J. Phys. Chem.,                                                                              1963, vol. 37, pp. 358-59.
+when  alumina  dissolves.  Specific  cases  are  ZnO,[13]          4. J.C. Chan, C.B. Alcock, and K.T. Jacob: Can. Met. Q., 1973, vol. 12,
+Fe2O3,[1] and CeO2.[14]                                                        pp. 439-43
+  Putting the results for the standard potential of the Fe(II)/          5. M.W. Chase,  Jr., C.A. Davies, J.R. Downey,  Jr., D.J. Frurip, R.A.
+Fe(III) equilibrium in the context of the Hall–Heroult pro-          McDonald, and A.N. Syverud: JANAF Thermochemical Tables, 3rd
+cess is not entirely straightforward since the commercial              ed.; J. Phys. Chem. Ref. Data, 1985, vol. 14, Suppl. no. 1.                                                                                          6. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 1997, vol.
+process operates at a temperature some 60 K lower than          28B, pp. 1089-93.
+that for which these calculations were made, and the elec-          7. H.G. Johansen, A˚ . Sterten, and J. Thonstad: Acta Chem. Scand., 1989,
+trolyte normally contains CaF2 and some additional AlF3.             vol. 43, pp. 417-20.
+However, Figure 4 shows what should be a reasonable          8. T.E. Jentoftsen: Department of Materials Science and Electrochemis-                                                                                                            try, Norwegian University of Science and Technology, Trondheim,
+approximation  to  the  situation. The  reversible C/CO2            personal communication, May 1998.
+potential lies 1 V below the reversible O2 potential, but a          9. B. Gilbert, E. Robert, E. Tixhon, J.E. Olsen, and T. Østvold: in Light
+carbon anode working at around 1 A/cm2 current density           Metals 1995, J. E. Evans, ed., TMS, Warrendale, PA, pp. 181-94.
+has an overpotential of about 0.55 V[15] so that it lies at        10. T. Førland and S.K. Ratkje: Acta Chem. Scand., 1973, vol. 27, pp.
+20.45 V with respect to oxygen. (There is some uncer-           1883-90.                                                                                11. E.W. Dewing: Proc. 5th Int. Symp. Molten Salts, M.L. Saboungi, D.S.
+tainty regarding this value, and it will become more posi-         Newman, K. Johnson, and D. Inman, eds., The Electrochemical Society
+tive at low alumina contents in the electrolyte.) The anode              Inc., Pennington, NJ, 1986, p. 262.
+
+
+
+612—VOLUME 31B, AUGUST 2000                                              METALLURGICAL AND MATERIALS TRANSACTIONS B
+
+## PDF page 5
+
+ 12. E.W. Dewing: Metall. Mater. Trans. B, 1990, vol. 21B, pp. 285-94.         15. E.W. Dewing: Can. Metal. Q., 1991, vol. 30, pp. 153-61.
+ 13. E.W. Dewing, S. Rolseth, L. Støen, and J. Thonstad: Metall. Mater.        16. E. W. Dewing: Metall. Mater. Trans. B, 1997, vol. 28B, pp. 1095-97.
+     Trans. B, 1997, vol. 28B, pp. 1099-1101.                                  17. A. Solheim, S. Rolseth, E. Skybakmoen, L. Støen, A˚ . Sterten, and T.
+ 14. E.W. Dewing and J. Thonstad: Metall. Mater. Trans. B, 1997, vol.             Støre: in Light Metals 1995, J.E. Evans, ed., TMS, Warrendale, PA,
+    28B, p. 1257.                                                                  pp. 451-60.
+
+
+
+
+
+METALLURGICAL AND MATERIALS TRANSACTIONS B                                           VOLUME 31B, AUGUST 2000—613

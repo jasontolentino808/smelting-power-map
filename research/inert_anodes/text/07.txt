@@ -1,0 +1,244 @@
+Source: literature/Effect of Additive BaO on corrosion resistance of 10NiO-NiFe2O4.pdf
+
+## PDF page 1
+
+              2nd International Conference on Electronic & Mechanical Engineering and Information Technology (EMEIT-2012)
+
+
+    Effect of Additive BaO on corrosion resistance of 10NiO-NiFe2O4
+                   Composite Ceramic anodes
+                   Hanbing HE1, 2,a, Hanning XIAO2
+
+ 1.School of Metallurgical Science and Engineering, Central South University, Changsha 410083,
+                                          China;
+
+   2. School of Materials Science and Engineering, Hunan University, Changsha 410082, China
+
+                                      a: hehanbinghhb@163.com
+
+Keywords : 10NiO-NiFe2O4 composite ceramics ; BaO doped ; inert anode ; aluminum electrolysis;
+corrosion resistance
+
+Abstract.The laboratory-scale performance of aluminum electrolysis show that the 10NiO-NiFe2O4
+composite  ceramics doped  with 0.5%-1.0%BaO  exhibit good  general  performances  during
+electrolysis testing in a laboratory-scale cell conducted in cryolite electrolyte at 1233K with anode
+current densities of 1.0A/cm2, which lasted for 10 hours.Moreover, the wear rate of 10NiO-NiFe2O4,
+0.5BaO/(10NiO-NiFe2O4),    1BaO     /(10NiO-NiFe2O4),    2BaO/(10NiO-NiFe2O4)    and
+4BaO/(10NiO-NiFe2O4)  is 5.90  cm·year-1,4.27cm·year-1,3.66  cm·year-1,4.06cm·year-1 and 4.57
+cm·year-1,respectively. Thus the addition of BaO to 10NiO-NiFe2O4 cermet is advantageous, but
+excessive BaO is adverse to corrosion resistance of 10NiO-NiFe2O4 cermet.
+
+Introduction
+   In recent years, the cermet has become one of the most promising inert anode materials due to its
+high ceramic corrosion resistance and metallic electric conductivity. NiFe2O4 is the first choice as
+ceramic matrix for cermet inert anode because of its good performance including high melt point,
+good corrosive  resistance,  stably thermal and chemical  property. The aluminum  electrolysis
+generally happen in cryolite molten salt at 960℃, so the inert anode should have high densification,
+high electric conductivity, strong corrosive resistance, thermal stability, and low overvoltage for
+oxygen evolution[1-3]. The pilot scale of 6000A experiment [4], with the support by US Department
+of Energy, exposed the low relative density, unsatisfied electrical conductivity and high wear rate.
+Hence, it is important to improve its corrosive resistance and other properties.
+  The corrosion resistance of NiFe2O4-based cermet, a potential inert anode material for aluminum
+electrolysis, is dependent on its relative density. Conventional sintering enhances the densification
+usually by increasing the sintering temperature, but the samples of grain coarsening result in low
+mechanical performances and electrical conductivity. Activated sintering is an effective measure to
+gain cermet of high relative density and close grain. Some metal oxide, such as BaO[5-8] and
+CaO[9-10] , may be the selective additive , which do not contaminate the aluminum produced.
+   In this paper, 10NiO-NiFe2O4 composites doped with BaO were prepared by cold isostatic
+pressing-sintering. In order to give some available advice for the choice of inert anode, the effect of
+BaO content on the corrosion resistance of 10NiO- NiFe2O4 composite ceramics were investigated.
+
+Results and discussion
+   Impurities concentration in bath during electrolysis.From Fig.1, it is clear that the different
+ceramic  composition showed  a  varying  dissolution  degree  of anode components. For  the
+10NiO-NiFe2O4 ceramic anode, the steady state of impurities Ni and Fe is reached and the average
+concentrations are 68ppm and 353ppm, respectively, when the electrolysis ends. Compared with the
+solubility of impurities Ni and Fe mentioned by DeYoung (bath ratio 1.1, melt with 6.5 wt% Al2O3,
+1000℃)[11], the values are far below the solubility (90ppm for impurity Ni, 580ppm for impurity
+Fe). However, for the ceramic anode which are studied and contain the oxide BaO as modifying
+
+
+                                                 Published by Atlantis Press, Paris, France.
+                                    © the authors
+                                                          1377
+
+## PDF page 2
+
+              2nd International Conference on Electronic & Mechanical Engineering and Information Technology (EMEIT-2012)
+
+
+
+agent, the concentration of impurities in the electrolyte increases. For example, for the investigated
+ceramic anodes, which the content of the oxide BaO is 0.5%, 1.0%, 2.0% and 4.0%, the average
+concentration of impurity Ni in the bath are 70ppm, 106ppm, 78ppm and 59ppm, respectively; the
+average concentrations of impurity Fe are 206ppm, 230ppm, 142ppm and 78ppm, respectively; the
+average concentrations of impurity Ba are 615ppm, 490ppm, 668ppm and 847ppm respectively at
+the end of electrolysis testing. From the concentration of impurities in the bath during electrolysis, it
+indicates that addition of the oxide BaO to ceramic anode as modifying agent is advantage for
+anti-corrosion to reduce the Fe concentration in molten cryolite, but the corrosion degree of ceramic
+anode deteriorates with the content of BaO increases.
+                           ppm
+         /                                                                                      500
+                            950                                              0.5BaO/10NiO-NiFe2O4
+                                                                                                                                                                                         0.5BaO/10NiO-NiFe2O4                                              1.0BaO/10NiO-NiFe2O4                                                                 ppm/ 450          10NiO-NiFe2O4                                                                                                                                                                                         1.0BaO/10NiO-NiFe2O4                            900
+                                              2.0BaO/10NiO-NiFe2O4                                                                                                     2.0BaO/10NiO-NiFe2O4
+                            850         4.0BaO/10NiO-NiFe2O4                                                         400          4.0BaO/10NiO-NiFe2O4                                                                                                   electrolyte
+                  in 800                                                                                  350                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      electrolyte
+                  Ba 750
+                                                                                        in 300
+                            700                                                               Fe
+                            650                                                                                  250                                                                        impurity                  of 600                                                                                                                                                                                                                                                             impurity 200
+                            550                                                               of 150
+                            500
+                                                                                                                 100
+                            450
+                                                                                                                 50                                                                                                                     Concentration 400                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Concentration
+                                     5         6      Time7    / h    8         9         10                               5         6         7         8         9         10
+                                                                                                                                Time/h
+           （a）impurity Ba versus time                   （b）impurity Fe versus time
+                                                                                   ppm/
+                                                                       120                                                               10NiO-NiFe2O4
+                                                                                                                                                                 0.5BaO/10NiO-NiFe2O4
+                                                                                                                                                                 1.0BaO/10NiO-NiFe2O4
+                                                                                                                                                                 2.0BaO/10NiO-NiFe2O4                                                                                                                                                                                                                                                                                                                electrolyte 100                                                               4.0BaO/10NiO-NiFe2O4
+                                                       in
+                                                       Ni
+                                                                                                                                                                                                                             impurity  80
+                                                       of  60
+
+
+
+                                                                        40                                                                                                                                                                                                                                                                                                                                                                       Concentration
+
+                                                                        20
+                                                                                5         6         7   Time/h8         9         10
+                                （c）impurity Ni versus time
+    Fig.1 Elemental analyses of the electrolyte contamination of anode constituents versus time for the ceramic
+                                                    electrodes
+  Anode Wear rate.
+  The equation of annual corrosion rate of inert anode,
+  Wloss = (Wb × Cb + Wa × Ca ) × 10−6 × 365× 24 /(s anode × ρanode × t )                                                                                                    (1)
+  Where Wloss is annual corrosion rate of inert anode(cm/a), Wb  total quality of electrolyte(g), Cb
+impurity concentration of electrolyte(10-6), Wa total quality of aluminum after electrolysis(g), Ca
+impurity concentration of aluminum after electrolysis (10-6), Sanode total anode area immersed in
+electrolyte(cm2), ρanode  relative density of anode (g/cm3),t electrolysis time(h)
+  From Table.1 and Table 2, The total impurities (Fe and Ni) from 1BaO/(10NiO-NiFe2O4)
+composite ceramic anode  is the lowest in  test. Moreover, the wear rate of 10NiO-NiFe2O4,
+0.5BaO/(10NiO-NiFe2O4),      1BaO/(10NiO-NiFe2O4),      2BaO/(10NiO-NiFe2O4)      and
+4BaO/(10NiO-NiFe2O4)   is 5.90 cm·year-1,4.27cm·year-1,3.66 cm·year-1,4.06cm·year-1 and 4.57
+cm·year-1, respectively. The addition of BaO to 10NiO-NiFe2O4 composite cermic is advantageous,
+but excessive BaO is adverse to corrosion resistance of 10NiO-NiFe2O4 cermet. Possibly because
+BaO can effectively promote relative density of 10NiO-NiFe2O4 composite ceramic and thus
+improve its corrosion resistance.
+
+
+
+
+
+                                                 Published by Atlantis Press, Paris, France.
+                                    © the authors
+                                                          1378
+
+## PDF page 3
+
+              2nd International Conference on Electronic & Mechanical Engineering and Information Technology (EMEIT-2012)
+
+
+
+         Table 1 net increment of elements from anode distributed in electrolyte and aluminum cathode
+                                                increment in electrolyte /g            increment   in cathode /g
+                     sample
+                                     Ba         Fe         Ni      Ba        Fe           Ni
+             NiFe2O4-10NiO      —         0.11        0.02   —         0.21          0.24
+         0.5BaO-(NiFe2O4-10NiO)       0.18       0.06         0.02     <0.006       0.13           0.03
+         1.0BaO-(NiFe2O4-10NiO)       0.15       0.07         0.03     <0.006       0.08           0.03
+         2.0BaO-(NiFe2O4-10NiO)       0.20       0.05         0.02      <0.006       0.10          0.03
+         4.0BaO-(NiFe2O4-10NiO)       0.25       0.03          0.02     <0.006       0.12          0.03
+
+  Table 2 total impurity increment and wear rate of xBaO/NiFe2O4-10NiO composite ceramics after electrolysis
+     Doping content of     Increment in        Increment in           Total
+                                                                     Wear rate /cm/a
+        BaO/wt%           electrolyte/g        aluminum/g       increment/g
+            0                 0.13                0.45              0.58              5.90
+              0.5                0.26                0.16              0.42              4.27
+            1                 0.25                0.11              0.36              3.66
+            2                 0.27                0.13              0.40              4.06
+            4                 0.30                0.15              0.45              4.57
+
+   Generally speaking, the composite ceramic anodes investigated may deteriorate in operating Hall
+cells by a number of possible mechanisms such as chemical dissolution, electrochemical dissolution,
+reduction by dissolved metal aluminum, electrolyte penetration, and grain boundary attack[12].
+Under the current electrolysis conditions, chemical dissolution, electrolyte penetration and grain
+boundary attack serve as three major corrosion mechanisms.
+   There were several possible reactions during electrolysis:
+   2AlF3 (l) + 3 FeO (s) = 3FeF2 (l) + 3/2O2 (g) + 2Al (l)                                           (2)
+  2AlF3 (l) + Fe2O3 (s) = 2FeF3 (l) + 3/2O2 (g) + 2Al (l)                                          (3)
+   2AlF3 (l) + 3NiO (s) = 3NiF2 (l) + 3/2O2 (g) + 2Al (l)                                           (4)
+   2AlF3 (l) + 3BaO (s) = 3BaF2 (l) + 3/2O2 (g) + 2Al (l)                                          (5)
+   In all, for the composite ceramic anode doped with 0.5%-1.0%BaO, the corrosion mainly is
+affected by the chemical dissolution and grain boundary attack, which implies the composite
+ceramic anode is corroded at stoichiometric ratio and peeled off layer by layer. Thus, the stability of
+ceramic anode 0.5%-1.0%BaO can be maintained during electrolysis and it shows good corrosion
+resistance.
+
+Conclusions
+   (1)Addition  of  oxide BaO  to  ceramic anode  as  modifying  agent  is  advantageous  for
+anti-corrosion to reduce the Fe concentration in molten cryolite. Thus, the stability of ceramic anode
+0.5%-1.0%BaO can be maintained during electrolysis and it shows good corrosion resistance.
+   (2)Ceramic anode is corroded badly by electrolyte penetration. Possibly because the reaction
+between bath and composite ceramic anode components (NiO, NiFe2O4)  is limited, but the
+corrosion of composite ceramic anode doped with BaO is mainly affected by the reaction between
+bath and the additive BaO.
+   (3)The  wear  rate  of  10NiO-NiFe2O4,  0.5BaO/(10NiO-NiFe2O4),  1BaO/(10NiO-NiFe2O4),
+2BaO/(10NiO-NiFe2O4) and 4BaO/(10NiO-NiFe2O4)    is 5.90 cm·year-1,4.27cm·year-1,3.66
+cm·year-1,4.06cm·year-1 and 4.57 cm·year-1,respectively. The addition of BaO to 10NiO-NiFe2O4
+composite ceramic  is advantageous, but excessive BaO  is adverse to corrosion resistance of
+10NiO-NiFe2O4 cermet.
+
+Acknowledgements
+
+                                                 Published by Atlantis Press, Paris, France.
+                                    © the authors
+                                                          1379
+
+## PDF page 4
+
+              2nd International Conference on Electronic & Mechanical Engineering and Information Technology (EMEIT-2012)
+
+
+
+  The work was supported by the China Postdoctoral Science Foundation(2011M500959) and the
+Fundamental Research Funds for the Central Universities (No. 201012200021)
+
+References
+[1] Gray P T:Corrosion and passivation of cermet inert anodes in cryolite-type electrolytes. In
+Miller R E eds. Light Metals Warrendale, Pa: TMS, (1986),p. 309-320
+[2] LIU Ye-xiang. Light Metals, Vol.5, (2001),p. 26-29 (in Chinese)
+[3] Pawlek R P. Inert anodes: an update. In Schneider w eds. Light Metals. Warrendale, Pa: TMS,
+(2002), p. 449-456
+[4] Xiao H, Hovland R, Rolseth S, et al. Metallurgical and Materials Transactions B: Process
+Metallurgy and Materials Processing Science, Vol.27 (1996), p. 185-193
+[5]HE Han-bing, ZHOU Ke-chao, LI Zhi-you, HUANG Bai-yun. Transactions of Nonferrous
+Metals Society of China, Vol.18(2008), p. 1134-1138.
+[6]HE Han-bing, HUANG  Bai-yun, LI Zhi-you, ZHOU Ke-chao. The Chinese  Journal  of
+Nonferrous Metals, Vol.18(2008),p. 851-855.(in chinese)
+[7]HE Han-bing, HUANG Bai-yun, LI Zhi-you, ZHOU Ke-chao. Functional material, Vol.40(2009),
+p. 635-638.(in chinese)
+[8]HE Han-bing, LI Zhi-you, ZHOU Ke-chao, HUANG Bai-yun. Journal of Central South
+University of Technology, , Vol.16(2009), p. 703-707.
+[9]LAI Yan-qing, ZHANG Yong, ZHANG Gang, LI Jie, HE Yue-hui, HUANG Bai-yun, LIU
+Ye-xiang. The Chinese Journal of Nonferrous Metals, Vol.16(2006),p. 1355-1360. (in Chinese)
+[10]LI Jie, ZHANG Gang, LAI Yan-qing, ZHANG Yong, TIAN Zhong-liang. Journal of Central
+South University of Technology, Vol.14(2007), p. 629-632
+[11]D. H. DeYoung. Solubilities of Oxides for Inert Anodes in Cryolite–Based Melts [A]. In R. E.
+Miller eds. Light Metals. Warrendale, Pa, USA: TMS, (1986), p. 299-307.
+[12]S. R. Ray. Inert Anodes for Hall Cells. In R. E. Miller eds. Light Metals. Warrendale, Pa, USA:
+TMS,(1986), p. 287-298.
+
+
+
+
+
+                                                 Published by Atlantis Press, Paris, France.
+                                    © the authors
+                                                          1380

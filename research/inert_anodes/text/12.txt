@@ -1,0 +1,776 @@
+Source: literature/MATERIALS CIIARACTERIZATIONOF CERMET ANODES TESTED IN A PILOT CELL.pdf
+
+## PDF page 1
+
+                        P
+
+
+                                                                                                                                                                                                                                    4-
+                                  DISCLAIMER        c .....
+
+                               This report was prepared as an account of work sponsored by an agency of the United States
+                            Government. Neither the United States Government nor any agency thereof, norany of their
+                               employees, makes any warranty, express or implied, or assumes any legal liability or responsi-          Pbi L-S  A--   2 10 8 5
+                                       bility for the accuracy, completeness, or usefulness of any information, apparatus, product, or
+                                process disclosed, or represents that  its use would not infringe privately owned rights. Refer-
+                               ence herein to any specific commercial product, process, or service by trade name, trademark,         D]_ 9 3  0 0 8 '_2 4
+                              manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recom-
+                              mendation, or favoring by the United States Government or any agency thereof. The views
+                           and opinions of authors expressed herein do not necessarily state or renect those of the
+                              United States Government or any agency thereof.
+
+
+                            MATERIALSCHARACTERIZATIONOF CERMET
+                            ANODESTESTEDIN A PILOT CELL
+
+
+
+
+
+                                       T. R. Al corn               A.T.   Tabereaux
+                                   N.  E. Richards            C.F.   Windisch,   Jr.
+                                   D. M. Strachan           C.H.  Henager,  Jr.                              .
+
+
+
+
+                                   February  1993
+
+
+
+                                  Presented  at  the
+                                      Minerals,   Metals,  and
+                                      Materials   Society
+                               122nd Annual Meeting
+                                   February  21-25,  1993
+                                  Denver,  Colorado
+
+                                  Prepared  for
+                                     the  U.S. Department  of  Energy
+
+
+                                  under  Contract  DE-ACO6-76RLO1830             __STER
+                                         Pacific   Northwest  Laboratory                                c_i__
+                                     Richland,  Washington  99352   DISTBIBUTIG_BFTHISDOCUMENTIS UNLIMII_I)
+
+                                                                                                       IINLIMITIZII
+
+1                                                                                                                                                                                                                                                                                                     ., IJI_IBIBUTION°._o.BFTHISBUt     "                                                  . o.,,,..,,_
+                                                                                                                                                                                                                                                                                                                                                                                                                               ,,  ,            ,,
+
+## PDF page 2
+
+               r
+                                                      I
+
+
+
+
+
+                                MATERIALS CIIARACTERIZATIONOF CERMET ANODES TESTED IN A PILOT CELL
+
+
+                                     C. F. Windisch Jr., D. M. Strachan and C. ]I.ilenagerJr.
+                                                  Pacific NorthwestLaboratorya
+                                                      Richland, WA  99352
+
+                                        T. R. Alcorn, A. T. Tabereaux and N. E. Richards
+                                                 ManuFacturing TechnologyLaboratory
+                                                    ReynoldsMetals Company
+                                                     3326 East Second Street
+                                                  Muscle Shoals, AL  35661-1258
+
+
+                               Al!,.;!ra(I,                            m()dilie(l Io  l.e:;l.(:(,rnmtanmlr,s.   A  preliminary
+                                                                  "l)r()tol.yl)eanode Lest" was als(>performed by RMC and
+            Cermet   arm(les   were   evaluated    as   n(m(-tms,mmhle      PNl  in  a  far!le   lahoratory     cell   at   tile  MTI. in   l.larch
+                sul_sl,itul.es   Fur  carlton   an()tles   u'.,it_u a   pil<,l    _(:alt:        19[19tt_ th_,t,:rmine certain   operat, itIu (:(}ndiLi(ms  For Lhc
+              reduction      cell      at    the   Reynolds    Manufacturing        cermet  anocles before  running  the  pilot    cell   test(3,4).                               .
+            Technology  Lal>oratory.    AFter   pilot    cell    t.esLin(j,  Lhc
+            anodes   were    subjected      to    extensive     materials          lhe   pilot     cell    test  was  started   on August    ],   ]991.
+              characLerization    and physical   properties   measurements      Between August    ]  and August  30,  PNL and RMCassisted
+               at   the   Pacific    Northwest    [.al)oratory.       Significant         each other   in  the  evaluation   of  13 cermet  anodes that
+            changes  in  the  composiLion   of  Lhc cermet  anodes were      were  manufactured   by  Ceramic  Magnetics,    Inc.   (CHI,
+            observed  including   Lhe growth  of  a reaction   layer  and         Fairfield,       NJ).      Operational      difficulties       were
+              peneL.ration    of    electr()lyl.e     (leep   into    the  cermet       encountered  during   the  test  as discussed   in a separate
+                nrel+fix.    I-ra(:l.tn-e strentll.h   aral toughness  were mea_;ure(I      paper   in   this   voltum:   (5)  and  Lh(:  I)i]c_L  cell    test
+                    a'.; a  l'uncl.ion   of  l.emperal.ure  and  l.he  (hnctile-hril.l.lf:            l_rocechlres  hacl l.n l>enlo(liFied  severely.    Nevertheless,
+                  l.ransil,  ion was reduced  ILY 500"C  F(_l]owing   pilot     (:ell        cermet  anodes  were  tested   in  the   pilot    cell   For  as
+                  tesl. ing.   These results    imply   difficulties       with   both        long  as 314 h  (]3.]   days)  under  conditions    close   to
+              the  anode  material    and  the   control     of   operating         those   in  an  industrial     environment.     AFter   the  test
+              conditions      in   the    pilot      cell,    and  suggest    that      was completed,   the  anodes were  returned    to  PNL For
+                  a(l(litional    development  work  l>e performed   before   the        various    "l)ost-test"     analyses.    The  results    of  these
+             cermet  anodes are used  in commercial  reduction    cells,         analyses  are  (liscussed   in  this   paper.
+              ]he   results    also   highlight     specific    Fahrication   and
+              operational    consideratinns    that  should he addressed  in             It     is   important     to   recognize     that    the   primary
+               future    testing,                                                                 ol)jective    of   tile  pilot    cell   test  was to  evaluate   the
+                                                                                           "inertness"       of    cermet   anodes   as   nonconsumable
+                                        [!]tro_du_ct_i_oon                               substitutes     for  carbon   in a pilot    reduction    cell.     IF
+                                                                                      the  material    could  be  shown Lo  corrode   or  wear  at
+              Ihe  Inert  Electrodes  Program  is  heing  conducted  aL I.he       acceptably   low  rates   in  this   test,      it  was hoped that
+               Pacific    Northwest   Laboratory    (PNl.)  For  the  U.  S.         in(h|stry   would hecome sufficiently      interested     in  the
+              I)epartment    of  Energy   (DOE),  OFfice   of   Industrial           material   and  the  inert-anode    alternative      to  proceed
+             Processes   (OIP).     lhe  purpose   of   the  program   is  to        with   the  next  step   in  transferring     the  technology   Lo
+             develop    long-lasting,      energy-efficient      anodes,  and       commercial   cells.
+                ancillary    equipment   For   Ilall-Ilerouit       cells   used  to
+            pr<_duce aIunlintml  reel.al.    I+ml)hasis has IH>r,n plac(,d <m                               Disc u._ssinn
+                 Ir,._Linu   am.h.'._ m,t,h: Ircml  a  (:_vdmiL/m(_lal   L,mq,o:,il(_
+              consisLinq   of NiO and nickel   Ferrite    an(l a Cu-Ni metal      Anode ConsLrucLion
+               l)hase.   Anodes of   this   type  were  FirsL  developed  by
+             Alcoa   Lahorato|'ies    (Alcoa  Center,   PA)  in  a program     A set. of  13 cermet anodes were produced(a)t  CMl For use
+              also  sponsored  by DOE (1).     l.aboraLory   Lests   (l,2)         t>y RHC and PNL in  the  pilot    cell    test.      The powder
+            have  shm.m that   this   composiLion   corrodes   at  a  low      From which  these anodes were produced was also made at
+            enough  rate  Lo make  it  an aLtractive    alternaLive    to       CMl.   This  section   covers  some of  the more  important
+              the   consumahle   carbon   anodes   currently    used   in        issues   associaLed   with   boll]   the  Fabrication    of  the
+           commercial smelting operations.   Before  aluminum     powder and the cermet anodes themselves.
+           ((mtl)alli(;svl()tJI<I (:m_,;ith:r     tit, ing    I ]le    £t:l'lllrt        allo(ht:;,
+           however, it was necessary Lo demonstrate success in a      Ceramic Powder. A large, approximaLelylO00-kg,batcll
+           scaled-up operation.    In  parLic|ilar, acceptable     of  the ceramic powder was prepared From hematite
+                l,err.r,,|a,|(',:had   l.(I h,: _.hm.m in  a  lar!l(_r,   _,elF  h,:al,,(l             (l-r:.().,   Pfiz(,r    l)iqmf'nts,    Inc.    Fast.on,   N,])  an(l  hi(lh
+                  cell.     loward  this  end,  Reynolds  Metals  Company (Rf.lC)          l)ur'it_',   green   nickel   oxide   (i_iO,  Novamet,  Wyckofi',
+           was subconLracte(lhy PNl.Lo use the "pilot ceil" at        NJ).   The powder preparation involvedblending the raw    f
+                l.he   l.lanuFacturin!l    Technnln(.ly   [almratnry      (MII)     in        materials,     milling,     calcining,    and then  spray  drying.
+              1.11mscleShoals,   Al+.   lhc  pil_)t    (:ell  was  ,,tlhs(:q|Jenl.ly            lhc   initial     (:onditions   For each step  were discussed
+
+              uperated For tileU.S. Department of Energy l)y        Additional anodes were also made for subsequent
+           Battelle Memorial Institute tmder Contract DE-AC06-     evaluation by RMC and the Eltech Research Corporation
+           76RI.]830.                                             (ERC) in a later phase of the pilot cell test (6).
+
+
+
+
+
+il                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              '''                      '   "      '        '   ''       IP"   "_
+
+## PDF page 3
+
+                                                     i
+
+
+
+               previously       (7);   huwever,   as  indicaLed     belc)vJ,  some  or       Anode    lh'ocl,xction.        Using    the    spray    dried    powder
+               the   procechares   had   to  be  modified       al.  CHI   to   obtain            ilesc-V:i-be-ci-a-l_-ove-;nixecl   with   17 w/o  Cu l_') metal   (Alamo
+             powder   wiLh   Lhc   clesired     properties.         Small     test         Supply   Co.,   llouston,     IX),   a  set  of  "preliminary"        pilot
+              batches    of  powder   were   therefore       firsL    prepared     tn           cell    anodes  were   fabricated.       The  powder  was  pressed
+              delermine       tlm     Imsl.     In'ocediires         |Isin(l       lhc    Ct41           al.  91  l,IPa  (13   ksi)   and  then   sintered    according     to  a
+                     la(i    lilies.                                                           88  h  sc:hedule,  with   a maximum  tevnl)erature    of  1200"C   in
+                                                                                                                                                  ,)   (mllrnll(,(l       alIn()_;phere    wilh    I00  200  ppm  ()_,.     lhc
+                    lhr,   sl.ax'l  ing   inalerial:;      win'(:  nlixe_l  wi, l.   (II.())    in    ,i  _;I.(!(:I           lax'(  el.   an(_de   (Jivnensi()ns    shown       ill       l igure        I   were
+                  ball    mill     for  2 h  to 4  h,  and  then   dried'            l iclvt   50.kg           cfl)l.ained      usin(.l   a    specially      designed     mold.      1o
+                 l)al.ches    of    tlm    povi(ler   were   calcined      at    different            accomnlodate   the   Ni  connector     rod   thal.  was  to  be  used
+                 c_)n(litions       tc)al.l.ain     a   fully     reac:l.e(l    an,l   ,;inl(:rahle                 lc)   SUplmrl       tile    an(_(les   ancl   provi(le    an   electrical
+               pc)vsder.   Chemical    analysis     of   l.he  powder   that   served          connection,      a   metal-rich       core    material     had   been
+             as  the  source   Fox" all   of   the  calcining       tria]s    and  the         cleveloped    (8)  and   is  shown  as  the   "inverted        l"    in
+                   pilot     cell   anodes   indicated     the  actual    composition    was         Figure       I.     This   core   was  constructed      of  50% cermet
+               very  close    to  the  Largeted   composition     (46.5  w/o     l eTO_;       powder   ancl 50% of  an  alloy    that  was 65% Cu and  35_.  Ni.
+              51.7  w/o  NiO).    For   initial     haLches   of   lhe  povJder,   the          lhc  core   material,     when  sintered      in  small   laboratory-
+                calcining     was   not   performed    aL   sufficiently         high          scale   anodes,   provided    a good  electrical     bond  between
+               l.emperal.ures     sn    lhat     the   main    ccm_l, iluents     were          lhc     rli   rocl  and   the   cermet   anode   l)ocl.v  as   well   as  a
+                   l_a,.ic:ally    unr(,a_led      le.,()  l  dw_l Ni().    A_; lh_!   lq'w11),,l',llux',,          re;1:,mlahle       l.ran:;it,   ion    l,.:tween     l.h_    cl)elricient          _)r
+            and   time    at    teml)era(cui'e    were   increased       in     lat._:r          l.her0nal   expansion     or    the   cermeL   and   the   Ni   rod.
+              batches     fronl   800"C   For  2  h  to  980°C    fox"  6  h,   the          Unr(_rl.unately,         this     core    caused    the    preliminary
+            amount   of   these   materials     decreased      in  Favor   or   the         scaled-up    anodes   to  crack   during     sintering     so    it  was
+               desired   covvlpound  vlil.h  nominal    stoichionletry       lliFe?O),             not  used    in   the   anodes   actually    made  for    the   pilot
+                                                                                                                             c:ell    test.    The  13 anodes   for   the   pilot     cell    test   were
+               ()he  (_[  the  problenxs    iclentiried       early     in   l.he   prngravll         Inade  without     the   core   material     and   the   cermet   was
+           was  the  low  consolidati_xn     pressures     availal)le      al  CHI.            drilled      avld  tapped    directly       to  accom(nodate    the   Ni
+                lhe  maximum pressure     that   couId   l)e  attained      al.  Cl,ll was        connector     rod.    Anodes  made  in   this    fashion   contained
+                  9l  r.IPa  (]3   ksi).            l his    is  substantially       lower   than   the        no  visible     cracks     after     sintering.          In  addition,     no
+              1,10  l.IPa  (20   ksi)   used    in   the   laboratory      studies     at         cracks   were  round   using    ultrasonic     methods   on  two  of
+               PNl.     lhis   low  consoli(lation      pressure    led   to  a (h:nsity           the   anodes    selected     randomly     from    the   batch    or
+                al)proximal.ely       0.]      !j.c,l   '_ lower   than   _)hlained      al.   the           thirteen,        the   compositions      of  samples   removed   From
+                 hi(lher    In'essure.,      i.e.   6.1  g.cm  _.     (It     is.  vlorlh    nol. ing.          sivltered     l)reliminary     anodes  were  determined    by wet  lab
+                  thal.   pe]leLs   made from   earlier     batches    of   l.he calcined            analysis    and  Found  Lo he  identical      to   the  theoretica'_
+             imv_der   containing       significant      amounts   of   FeoO._ clave        composition     within    experimental      error    (]7  w/o  Cu,  33.7
+                 sintere(l     densities     close    to   6.l    (l.ctn '_ when   t(le_y were        w/o   NI  and  28.0   vJ/o   Fe).     the   microstructure         of  a
+             pressed    at  140  l.IPa.)                                                sample   removed    from   a   preliminary      anode   was   also
+                                                                                                         d_,l_,rvnin_nl  _)n_l is  slmwn  in  Figure    2.  As expecled,      l.he
+                   lw_,nly-liw.,.kil_)(ll'anl           l)dl.{:lu!,,   _)I Imv_h:x" w_!r_, ,_I.._).'_l_)'ay           iHal_,rial     c_)nlained      l.hree   phases:    NiO   (dark    gray),
+                dried,        larly     h,,Iches    v_(,re  _piay    _Ix'i_l    I._  a   l);Ix'l  iclc!            ft_rriLe          (li(Jlll.      gray),     and   Cu-Ni     alloy      (whiLe).
+               size    of  84  I_m.      II.  was  nc_ted   in   small    tesL    l)al.ches          llowever,    some    microstructural          Features     appeared
+               l.aken   from  each  25  k(.l batch    that       l his  pm._der   di(l   nl_t          different        in   this   sample   than   in  anodes  ma(le
+              blend   well    with  Cu metal,      lhe.   final    500-kg   batc:h   or
+               imw(ler   prepared    For   the   pilot      cell   anodes  was   :,l)ray
+               dried    to  a  particle     size   of  20  iznl.  The  l)arLicle     sizes                _                                           '_(°.s°'")_---        T
+
+                 v_a'., l)robably      in  the   ran(le    ixf    I  l_I,  to  5 l_m.                                          -.....
+
+                of  20  ,_,)xand  50 /_m represented     the  mean  agglov),e)'ate                        _....x._        ,_'  ....      I               li-'-      !_''._/.___(_.                     cal(:ill(:     l.hn   lax'tle  500.kg   batch   nr  l)(xw(h,r   l()r    l.h(,  pi  l_)l.             _4:,.,            I
+                                                                                                                               (300   l)   381cm(l.501n).,,t    L__
+            changecell     allodesor   simplywere thechangeddifferenceslightly.in  calc:inincjWhethera  largethis                         I      I\    n_,=,,,/     /       I-,        _s_,,        d--_-           -
+            powder  had  a  trace    of  hematite    and  pellets    wlade  from
+               the  powder   dicl   not   sinl.er     to  as  high   a densil.y   as  the
+               smaller    batches    of   powder.    The  exact,  cause    of   this                                            I
+               can    only    be    speculatc:cl        at      this     Limo,     but    one                              /                  I-'--r_                  ....               I
+                calciningexplanation    temperattnx'eis  that   portionslonger or  thantile  powder()Lher wereportions.at   the                             I                           (_o_,.)_s_,_,_
+               This  could   l_ossihly   have  hc:en  corrected    by  longer    ball                                              _o_.)
+           _nilling or use or  a di llerevlt Iux'v_ace/ruv'ru_c(:design
+           so that uniform  calcining  occurred.   Apparently,  as a       figure  I:  Nominal  I)imensions oF  the  Cermet  Anode.
+           combined  result of  both the presence  or tile hematite       (Inverted  "T" around  screw connection  corresponds  to
+            and  the  lower   consolidation       pressure,     the    pilot     cell         a    "core     material"        that    was   added     in     earl   ier
+             anodes  were  about   0.2  g.cm "3 lower   than  those   that   had          configurations.)
+            been   Fabricated    aL  PNl. as  well   as  the   prototype     anocle
+            used    in   Lhc   large    lah(}raLory     scale     tesi.     (4).       lhc
+               precise       effects       of     this      ]ov_(,r    density     on     l.he         {')-All.liiii[iiii-C.i_-vnetal  v/as  added  during    preparation       of`
+             performance     of   the  anode  n=aterial    are  noL  known,   but        Lhc  ano(le,   a Cu-Ni    alloy     is  Formed  during     sintering.
+               they  may have   inclu¢led   an  accelev'ali(m      ()F  sonle  of   thu          lhe   Ni   (:omponevxt    is   believed       t.o   resul't    From   the
+              COml)ositional     and  nlicrostructCwal       changes    discusse(l            reduction       of   some  NiO   by    the    residual      organic
+                   lal.er    in   this    pal)e.r,                                                                   sinf.e|'ing     aids.
+
+
+
+-i
+
+## PDF page 4
+
+        t
+
+
+
+
+  L_,_P_C_:z_,.,___; :_:  ¢_': ;_ ._.'L,,_AllOy i_/_e
+
+                                          ,'                          ,           @
+
+
+
+  __        ___e                                rrite _                "
+        __                                                                                   ........
+    4° Pml_/3_3"q__:_l_-l_'NiO               _'_                                            Inert Anode Clust er
+            _  ' • _ _     _'                    ..   !_,, _ ; _ ,_
+   ___,,'_._            _.,   __     "_._i_l".t,,.'_¢._.                             Alumina Feed
+
+ I iuuie     ?:    (}l)t.ical       I.licro!lraldl        _)l    Pilll[        I:ell    Anu(h_
+Haterial    13efore    lesl.  in{i.                                                         Position       Anodes         Time,  h        Current,  A
+
+                                                        A                Al,  E2'        193,  260      35,  74
+                                                            B             Aux2,  A2     181,  182      29,  51
+
+ prl,viml_,ly      al     l'ltl    aral  hl_la     lal,nrall>ri_,_        (I,?).        Inr         C             C1,  C2'        191,  260      51,  86
+ example,     l,he   inaleYial      al)pealeli    1(_ he   inure   i)nr(_us,          D                DI, D2         123,  279      82,  62
+ i_rnhahly   because  or  the   lower   consol   idal. im_  I)res_ur_,          E              Auxl,    El"     313,  135      45,  72
+ used     at.     CI,ll.         I]ensit.y     meas_lremenl.s     wnr(;     als()           F              F1, F2         314,  96       70,  41
+ consistenL     with    this   cm_clusim_    as  dis(uss,:d     helm._.
+
+                                                                                                li(Hre      3"   Schematic      or   Anode    P_)sit, ions    Sl,owinq
+ ]!iJLIt..(;._l.._l__._OI)L:'.l).).L-.i.G.!!                                                                                                     i ",:thaN!le  Sequence  and   lest.  Coed it. inns    for   led  iv  i,lnal
+                                                                                                                  hrl(illt:g     ('l-xl)osed       tr)  a{icjressive     c()ndil,  ion__.)
+ l)eLails     of    l.he   pit(if.      (el]    operalinn     are   ft,von     in  a
+ cnmpanion    paper   elsewheie      in   l.his    w)lunle    (5).      lwn
+ primary     Olu:raLional       object.ives          f()r    m_)r;t,   hl      llle
+ duration     of   l.he   l)ilot,     cell    test.  were   thai.   t.he  current.,                    si!lnir     canlly      different,      than    alil,icipat,e(t    From  these
+ ihui,iily     ()11 lilly     i:l)rllll!l       allllll!       Ilill     i:x(i){)ll    0.[l    A.(III'     anfl              i!ai'ly     llililh;Is,         il.    lilrlle(I       (llll.   I.hal.   I.he   I.al'{li:l.e(l    CIIIT('Fil.
+  thai.     allllllilla      CllllCerli.rai.   iml    li()   inaililaili(.ul       a';   (  I(),;l:   at;          vallle  was  sin, liar.        Ily   k(:ol_ill[I     t.ile   (;llrl'ellt,    to   ally    (iri()
+  l)()ssihle   Lo  sal.uraLion,       lhese    criteria     were  hased   (in        anode  aL  90  A  oi"   less,     t,he  current,    densit.y    .on  any
+ l_revious     del,eml,naL,ees           (}f    the     least,     aggressive              stlrface     of   t,he  ano(Jes  did    not.  exceed   0.5  A.cm         In
+ coed it.ions      for     t.he   cernleL    an(,des    (],2,7,<q).           In         the  case    of:  ann(les   17.2, El,   and  E2,   t,he  anneles  were
+ real   il.y,      Lhe      alumina        concenlral,    inn       varied              (l¢,lil_,ralel.y       sulLiPcl_'(I     l.n  hi(lhni"     Cllrl'l',llls     at.  I.he  w.,ry
+  , '  illliilil,iilll7                ilui'illll       Ilip     lliltll          li,ii        ll,,,I    (g)    '   ,in_l   II,l,               i,iul    iii     Illl,    lijlnl         li,ii       ll_",l     I.iI   ill!ll!iillil,'          tli_'   i,Illu     I'._  iii
+  (llrrl:ill     dent;  Jt.y  v,ii    i t;_l (ll',illla   [  ii:ii  I  l Y  ilrl)llllll      t!il[   li   iillillil_.               {:,iri'en    t  dens  i {y.
+ tleverl.heless,      Lhe  aluinina    concenl.ral,    ion  was  usually
+ kept.   reasorlably      hi qh   dlirin{l     l.he   te.gl    al  an  average           Aiu)_le  Charact.erizal.     inn
+ value       ()[    ali(niL    81)%    (if      sal.llr'al,     i ?n    (di'Sl)   i lt!    l.he               ...................
+ significanL         i)(:ric)(lic     ex(:ursinns);       an(I,   <is  dr._lerniinl:!d          lwelve   of: t,he  13 anodes   l-hat,  were   l,esl,ed    in  t.he   pilrlt.
+  l)y   i()caI    lneaslllU_.qllent,s  of   voltage       (Iri.illS,   Lhc    Clll'relll.             cell   were   (lelivered     Lo   PI'lt    for    post,-t,est     analyses.
+ (lensit,y     di(l     llf)l,  exceed   0.5  A.Clll -_ on any  Slll'f:ace    ()[   l.he         (Ann(le    l]l   broke   hef:ore      ii.  was   inserl,ed     i11 the   ceII.)
+ ano(h:s,    alth(lugh   on  mosl,  sllrfaces      iL was  l)rohal_ly  much             ]lle   results      of:  these   analyses    are   discussed      in   lhc
+   l_i,.lel'.    .%ix  (ei'nlel.   ann(los  were   ll_;llally         ill   (}li(_riil   inn    ill.                                                                                                           f()llm.#infl        lllr(,i,     :,i)ctiiins      (:nncernin{l"         I)     l.hi:   nv(.,rall
+ any   lln(,    l. iine     iii    lh,:   ci)n[iuurdl,      il)n  sh(iwn   in    I  i!lur('    3.           alqi(_aran(i,       (it   lhe   an()(h:s  and  h(iw Lh is   al_liearance   and
+  lhc     l}osil,  im_s      (ii   each      (if     IIi_    (:erniel.   anodes    wer'i:           relalc'd      di,hens,cns     changed   upon    tesLing,      2)   Lhc
+  lahelled   A through    F,  relative       lo   l,he  posil,  inn  or  Lhc          coinl)oSi  Lional     and    nlicrost,ruct,ural        changes      lhal,
+  large   carbon   anode,   as  shown   in  rigure    3.      llulividllal            occulTed   as a  rosuil,    of   l-esr, ing,  and  3)  the   resull,s    or
+  ann(los      l,esle(I            iii    each      l)(}sil,   ioll    were      lahelle(l             physit:al    and ine,:.hanica]    i)rnperl,ies     ineasureme.nt,s  on  t,he
+  Sel)arately       ,'iI   aild  are   lint.oil       iii   I-i{lure   3  al(ing   wilh   the            anl)lies.
+    l into  n[   lesl.    ili(I  For each   anll(le   aiid   l.hP. avf!l'a{je    curroril.
+  durin(j     l,hat,    l. ime.                                                                 !_l!yn'g.e_"si_n_._A.I)i)_e.01Aalyl)oal}d___0_ii!Le.ns_io_.___s.Figure   4 shows
+                                                                        Lhc  cross    sect,ion   or  parl,    of:  l-he I_oLLom edge  or  anode
+ A  (:urrenL    of  90 A was  calculated        I.o  cnrresl)_nd       I.() a              II    al-l.er   renioval    f:roln   l-,le   pilot,     cell.      Ann(le   rl  was
+  lilaXilllllln   CllrrenL     (lensit,y     or    al)()lil.   0.5     A.(lll          fill  any          t.esled    for   the    Ion{lest    period     nf    LilliO  (314     Ii)  under
+  surface    llased  on  eal"iy   lumlels     fit   ciilTenl.    [low  •   While           "nhr,nal"     condil,   ions,     i.e.   aL  less   t.han  or  equal   Lo 90
+  l.he  observed     till'rent         f lm._  in   l.he   i)i1()1,  cell   was            A  and   aL   high    alumina     concenLral,    ions.       During
+                                                                                                      ni)el'at,ion    wiLl_  anode    f-l,   the  average    currenl.    Lhrough
+   I<II-ili_,-i/i-il/iii-{ii;]ii{i        ',_:lieliie    f()l'    Ille     ill(livi(llial         aluull!f,       i _,         anoll(:     II  was  70 A and  aluniina    concenl.rat.inn    wa_  7.4
+  not.   (ibvious    and   reflect,s      t,he  chanties     in    lest,    pro-         wlo  where  8 wln  was  appro×ilnal,eiy       sal,ural,ion      for   t.he
+  cedllres    required     l_ecallse   of   el)oral,tonal        llrifl)lelns     (5).            t,ypica]     condiLions      or    this      l,est,.       lhc   anode  was
+                                                                                      lncaled           iii    llOSit.inn    F  as    indicat.ed       in   Figure     3.
+
+## PDF page 5
+
+           liuure 5 shows a similar view for anode C2 which was      the same volume as the unreacted material from which
+           ol_e|'ate(lFor a short period at tileend of Lhc l.est    iL Formed.
+             under   "aggressive"     condiLions,       i.e.    v/hen  alumina
+               concentration    vlas dropped  to  about 20% of  saturation        The reaction    layer  was also  thicker   For anodes  tested
+            and current  was raised   to  twice  the normal  value  (180        at   longer   times  when  other    cell    conditions    were
+                A).  Anode C2 was  in  position  C as shown in  Figure  3.           similar,        lhc    tllickness     of   the   reaction     layer,
+                                                                        measured  at  the  center   of  anode diameter,     is  plotted
+                                                                                                       in  Figure   6  versus  A.h  For   all    of   the   pilot    cell
+                                                                              anodes,     lhe  data   appear   to  be  grouped   into   two
+                                                                                          regions.      The   anodes   tested    under    aggressive
+                                                                                         conditions   gave  significantly      higher   reaction    layer
+                                                                                    thicknesses    (hnxed   area)   than  anodes   tested   under
+                                                                             norma]  conditions.      For  anodes  treated   under  normal
+                                                                                            conditions,    the  reaction   layer  thickness  was about  13
+                                                mm after   314 h  (13.1  days)   of   testing    (anode  F]);
+                                                                  thicknesses  For  anodes  treated  under  aggressive   ,
+                                                                 conditionswere over 25 mm at much shorter times. Tile
+                                                                   thicknesses of  the reaction layers on  the anodes
+                                                                   treated under norma] conditions appeared to Follow a
+                                                                  roughly linear trend with A.h as shown in Figure 6.
+
+                                                                   fall short of explaining dll the variances; however,
+                                                                  given the varying conditions in the pilot cell test
+                                                                   (5), il,is likely that even these uncertaintieswere
+                                                                  lheim(h:resLimatedtrend is notso  l.hatexacttheandlinearestimatedapln'oximationuncertaintiesis not
+                                    t'  i'                                                                                .........            coml)letely   unfounded.
+
+
+
+
+
+                                                                   Figure 6: Variation of Reaction Layer lhickness with
+                                                                                A.h  For Cermet Anodes•
+
+
+
+                    li(jure   5:  £rnss  See:Lion of  Bnl.tom L!(Iue of Cermet Anncle
+              C2.                                               A  linear      fit    to  these  data,   excluding    the  severely
+                                                                                          corrode(I  anodes and pinned   to  the  origin    to  give  no
+                                                                                             layer   at  the  start   of  the  test,   gives  a slope  or  layer
+                                                                                growth  rate  equal  to 5 x 10-4 mm.A-'.h-',   or 0.8 mm.day-l
+            As illustratedin Figures 4 and 5, ano(lesLhat were in      For 70 A of current.  Recognizing that this rate is
+             (,peral.ionunder  tile aggressive conditions of  low
+            alumina concentration and  higher currenL densil.y    appropriatetileactual valuefor onlyat thethosebottomcurrentsurfacedensitiesof thesecloseanodesto
+            showed much more corrosion than those ol)eral.edunder      (al}out0.2 A•cmP from the calculationsusing data from              nnrmal   condil, ions     Ano(le C2  exhil)ite(l    very   l.hick                                                 •                                                          v(_llag(,  prnh(,s)   an(l  assuming  linearity,             l his   (.irowlh
+                      v,,,i(  l i(m  l_W_(ImI    l,|y,,r'.    '    (l(,li,,r,tlly•            •  Uwr,'.     ,iil(l   vf,ry        raL_:  uiw:'.;  an ,,xlvapolated    annual   rate  of  31 cm'yr    l
+                            irregular              weilr,                ll1    LOllLrasL,             an()(h.,.,,         Le:;l.(,(l             llll{][)i'
+              normal   conditions      (tid  noL  al)pear  Lo  chanqe  much          f'or  a piloL   cell-style    anode operating   at 70 A.   This                                                      •            rate is inconsistent with extrapolated rates from
+            dimensionally, except For the growth of a reaction     earlier  studies  (],2)  and  would  be   clearly
+            layer.  Since tileoriginal shape of the anodes was      unacceptable even if the properties of the reaction
+            largely l)reserved,this suggests the reaction layer     layer were not that detrimental.  Of course, the
+            Formedunder normal conditionsoccupied essentially       extrapolationrelies on the assumptionof linearity
+
+Ii                                                                                               i i ,                                                                i    ii    i
+
+## PDF page 6
+
+            c
+
+
+        For up to a year's time.  If the growth is not linear,
+            ;m,I  lh,,   I.hi(:kn,'!_',    I(!v,'l';  oil   all,,r    '.mm,, I.im,,,   lhr,
+            results   may  not  be  as   u,11avorablu,    l)r(wided    the
+           reaction    layer   imparts  a  sufficiently       Iovl  resistance
+             I(_ lhc  curr(:nt   palh.
+
+          Changes    in   Hicrostructure      and   Comp_osition.        lhis
+           section     focuses    on      tile     microstructural      and
+           coml)osltional    analyses   performed  on anode  Fl,  which
+        was the anode tested   rot" the  ]ongest  time  under normal
+            ol)erating    conditions.    A number of  core  sections  were
+         removed  from  anode  Fl   for    analysis    as  shown   in
+           Figure   7.  The samples  labelled    FI-B,   FI-H  and  F]-l,
+         removed From neat" the  center   of  the  diameter   of  the
+          anode,   encoml)assed  regions   From  the   very   bottom
+           surface    of   the  anode,   incIu(ling    the  reaction    layer
+          discussed   above,   to   l.he  top  surface     (if   lhc   anml(:.
+             l}ase(l  (m  voltage   dto I) measurements made  rluring   the
+              tesl,    the  l)ottom  surface  was estimated     t() have been
+            su[)jected    to   a  current    density    of   approximately
+           0.2  A. cnl z.
+
+
+                                   CORESECTIONS
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           I
+       /  t
+                                                                    t
+
+
+
+                                                                                                       27.5   mm[           :81.0  mm
+
+
+
+
+
+                   BottomSurface                           I  24.0mm,l--_]
+                                    lOmm,
+
+
+                  I igur(:  7: Core Se.cl.ions  Ih!mov(:(I from  (:el'lllel  An(Hies (()r
+          Analys  i s.
+
+
+
+         As shm.m  in  the  scanning   electron   microscopy   (SEH)
+           backscal.tered   image in Figure  8, sample FI-B  contained
+            essentially        all     of    the   "reaction      layer"    whose
+           thickness    variations    were  quantified      earlier,       lhe
+            reaction    layer   in  this   region  had an average  thickness
+             of  ]7.5  mm.  The thickness   varied  somewhat  in  this
+           region   because     il.  was  near   the  beginning    of   the
+           curvature    of   the  bottom   of   the  anode.   As shown  in
+           Figure   8,  the  reaction    layer  was very  comp]icated    in
+            structure   and was composed of many suhlayers.    Energy
+            dispersive      x-ray    spectroscopy    (EDS)   and   x-ray
+                    (li  rrt'a(:l:  ion (XRI}) ,_nal.y,;(;s  in(lical.(,(I   lhal.  lhc  rP.act ion
+               layl:r  was essl:nl, ially    (h,vl|i(I  i_1 mi:l.allie   phasl_ and  lh|:
+        many sld)layers  were  varied   in  COml}t)sition.    £Ol)l)er,    iii          Iitlure    8:Slt.1   Backscatt.(:re(I  Imaqe or  r,ros_  Section  of
+            part  icular,    segr(:uate(l   inl.o  suhlayc:rt;    ill   til(:   r|:a(:t i(m         S,iml)li:  I1 -B Remow.'d froln Ano(le   i  l.           zone.   lhe Cu in  this   region  was  identil-ied   as _iostly
+          Cu_.Oand Cu Ni 0 phases  using  XRD.  Other  regions,    in
+_           pai_ticula   r  Xr_,ght    at   the   surface,    were   severe]y
+           dep]eted    in  Cu.    In  general,   Fe was predominant    in
+           regions  were Cu was al)sent  attd depleted   in  regions
+
+## PDF page 7
+
+v/Iu,re  Cu c(mt.ent  was  Iii(lh,    Nickel  was  distril)ut.(:d
+lllol'e Ilnif-ornlly,     bill,  apl)eared  to be nlore  content.rated                                                                                                                                            i
+in  regions  high   in Cu, parl, icularly   near  l,he electrode
+surface.    1-his  is  consistent   with   tile  Formal,ion oF Live
+Cu:NiyO compounds,  that  were  identified    with  XRD.
+Othe,r   phases    in   sample   FI-B    included   A1 -Ni-Fe
+co,,i_aunds.  The stoichiometry    of some of  these  phases,
+det_,'mined   using  EDS, suggested  they  were  formed by
+the  eplacement  of A1 for  Fe to varying  amounts  in  the
+orig!nal    NiFe204   (ferrite)      phase.      This   type  oF
+reaction   was also  observed   in  bench-scale   tesLs   (9)
+al  hough Lo a much smaller   extent.     In  general,    the
+alr,ount  of  subsLitution   was Lhc greatest    right   aL the
+surface  and decreased  as a function    of  depth  into  the
+anode.    In some cases,   the phases may correspond    I,o
+sl oichiometric    aluminates   since  Ni  and F(: aluminates
+were detecLed   in   l.his  region   with  XRD.  As shown by
+the SEr.Iimage  in  Figure  9,  Lhe phases  formed  from  the
+Ferrite   phase  had a  grain    structure    very   different
+from  the  original.     The grains    in  this   region  appear
+Lc)have grown  significant]y    and fused  together   forming
+one   of    the   bands   or   sublayers     in   the    lovler-
+magnifical,ion    image in  Figure  8.
+
+                 '       _..  ,_,_,,,._,.                    -..
+                          ii":    .i
+        ___,._;            ._.,         .  ,     ,
+
+        r_a_IT_@,-_,_'_,..'   •        ._
+
+
+
+
+
+                                                                                                                                                 ,    .
+
+                                                       a      Jr.          I.
+
+                                                                                                                  ..          .   • ,       .
+                           le               o._
+        ,_ _      _p_                                  ,    .
+              ,. 33 l_m
+
+
+Fig, re  9:  SEI.II.licrogrpah   of" Region  in  Reaction   [.ayer
+(:(mtainincl   Cnns()lidal.e(l   Ferril.e   Phase.
+
+
+Above  l,he reaction layer in FI-B, the microstructure
+appears  similar  to  the  original  or  "native"
+microstructure as shown in Figure 8.   Tltisnative
+microstructure ext.endsup vertically through most oF
+samples   FI-I.I  and  FI-I.      AI.  the  very   top   (_f  FI-T,
+ariel.her,     all)(:il,   much   II|inner,     react  ion   lay(,r  was
+alq)arc:nt.     Ibis   layer  was about   ].0 mm l.hic:k and was
+_l,,w_i_l _(  m_,lalli_    l)ha'.(,   l il:_, lh_, lhi(k_,r    la w_r al  lh_,
+ I)()l.l()lll                 _,lll'l        ill:q.  _ .
+
+The elementaldot map for Al For sample F]-B, shown in
+Figure I0, indicates that signiFicanl,amounl,soF Al
+penetral.ed the  anode,   lhe  penetral,ion  exl,ended
+l,hroughthe reaction layer and significantly into live
+native material. Some regions in FI-B were very rich
+in Al consistent with the formation oF the AI-Ni-Fe
+phases,  llowever,l,hepenetrationoF the electrolyt.e    Figure  ]0:  Element.al Dot  Hap  For  AI  Showing
+also  occurred    into  samples  FI-14 and FI-F  as  shc)wn hy       Penelration      inl.o    Sa,ll)le   FI-B.     (Region  shown   is
+lhc  plul.    ,)I   llu,   liP.;  ,.,ign,iI   inl._,n,,ily    raliw.,    in  ligur_,           ,,xiullv     lh_,  ,.am_' v,'!li,m    a!,  :.frown  in   f;ll_1 ima!l_'  in
+II.        Siclnif"icanl.    amounl.s  oF  Fluorine   were   also                l igure  8.)
+detecl,ed   in  the   interior   oF the  anode,    lZesull.s  From
+EDS and XRDanalyses   indicated   two types   of- compounds
+containing    fluorine.    As shown in  Figure   ]2,  one oF
+
+## PDF page 8
+
+                                                                                                                                                     t
+
+      0.6                                                                          _',_  ,
+  o                                         I
+
+
+       0.4
+
+     o.a.          ,,
+  r_   0.2
+
+ G   0.1
+   IJ.                                                                       I'     Control                                                                                                                                                        -"
+    o.o     -'-,    ,      ,
+         0         20        40        60        80
+                 Distance   from   Bollom,  mm
+
+Figure   11:  Variation    of  Al/Fe  EDS Intensity    Ratio  as
+a Function of Distance From lifeBottom of Anode F1.       Figure 13: S[I.IHicrograph of Fracture Surface Showing
+                                                       Presence of AI-Fluoride Phase at l.heGrain Boundaries.
+
+
+                                                                         reaction   layer   in  sample  FI-B,  however,   the  metallic
+                                                             phase was present  and was composed of  almost  pure Cu.
+                                                                      This    is   in   contrast     to   the   metallic    phase   in  an
+                                                                   unreacted  anode which  was an  alloy   with   the  nominal
+                                                                    composition   of 86 w/o Cu, 13 w/o Ni and  I w/o Fe.   lhe
+                                                                         "refinement"     of Cu  in  the  metallic   phase  just   above
+                                                                        the  reaction    layer  was observed   in  other   studies  on
+      ,'                                                             cermet anodes  (4).   As shown  in  Figure   14,  the  amount
+  _W                                                   of Ni relative to Cu in the metallic phase rises from
+                                                       Lhc very Imv value (almost pure Cu) right above the
+                                                       reaction layer Lo values close to an unreacte(lconlrol
+                                                       anode (O.15) at Further distances inl.othe anode. At
+                                                          l.hel.npHF the anode, where anolher reaction layer is
+                                                       present, the ratio again l)ecomeslow.  lhc thickness
+                                                       of the Cu-enriched meLallic zone seems to be related
+                                                      I,othe overall corrosion performance of the anode,     f
+                                                       For examl)le,anode Fl, which had a reaction layer
+                                                       about 13 mm thick mn the average, showed a Cu-enriched
+                                                       metallic zone about 35 mm thick (Figure 14).   In
+ Iiuur(:   12:  SF/.tr.li(:r(_(.Iral)h oF Cross  Sectinn   of  Region        contrast,   Lhe protolyl)e   anode  (4),  which  ha(I a
+  iii     I]     r,l)ntainill(I         Hi-le      Iluoride        I)hase.                                     reaction       layer     al)out   3 111111thick,      exhibited      a  Cu-
+
+ l.hese phases was (letected   using  SFH Mn polished   core               0.2
+ salnpl(:'.,,     lh(:  phas(: was  del ermined    I{)   I)(.' a  Ni  lc,                                                         o                       Prototype   Anode Fluoride.            lt  was  found  throughout    the  anode  an(I           .,=                                                                         (o                      Test typically    contained  more Fe at  distances    fln-l.her  From     m
+ the  bottom  surface.    XRDcorroborated    this   Finding  by
+ verifying    the existence   of NiF_  in  parts   of  the anode.            _m
+ Anol.her  fluoride   phase was also   identified    using  SEN,
+ but  only  on  Fracture    surfaces    as shown  in  Figure   13.        _          ua
+ EDS analysis revealed this phase was an Al-containing       _, O.1    c_
+ Fluoride   coml)ound (possibly    containing    oxide  ions  as        o              _,
+ we11).   The  presence of  an  aluminum oxyfluori(le      <          O
+ species  along  grain   l)oun(laries  was also  detected   with                 ,-
+ x-ray   I)hotoelectron    spectroscopy   (XPS)   in  previous             "-                               Anode  F1
+ studies    at, PNL (8).         lt  seems reasonal)le   that    this                ::}
+ species  was  the  primary   species    mi(.irat,ing  from the
+ i_l(:{Irtllyll,      int(_  lhc  inli_rim"    ,_I  Ih('  iln_,h,.      Ii',ln'.l.,rl            z                       "'_
+ apparently    occurred   alonq  gi'ain   h()undari(:._,,  alth(mgh                0.0                                           ,                            '
+ migration    throllgh  Imres   [s  al so l}Ossihl_ ,.                            0         20        40        60        80
+
+ Another   important    conlpositiona]   change  occurring         ill                         Distance   Irom  Bottom,  mm
+ the  pilot    cell   anodes concerned  the  metallic    I)hase.
+ As  indicated   previously,     the  phase was  essentially          Figure   14: Ni/Cu  Hass  Ratio   in  the  Alloy  Phase as a
+ absent  from  the  reaction   layer   in sample FI I].    In  the       Function  oF Distance  From the Bottom  of  Tested Anodes.
+ region    of   native    microstructure       just   above   the
+
+## PDF page 9
+
+enriched     zone   o(   nr_ly   al)nUt   10   film,  as   Shov/n   in
+FigUre   14.   1he  ratio    of  Cu-enriched    zone  thickness    Lo
+v'eacl, ion   layer        l hickness     is  roughly    3,   in  Imth  cases,                         i,,        .   ,   .   I  •  •  •   I   ,   ,   ,   I   ,   ,   ,   I   ,   ,  •   I   ,  •  •
+                                                                                                                                                                                                                                         'rransllr_vlular,                         lltilllt,       "_  .......       I ....
+..........................................................................ChangessecL inn  coversin  Physicallhe  resu]and  tsMechanicalof  dens  i tyProperLies.measm'emenLs Thison             12,,  r) c,,,,m,_....................................,_,,,,k.                           ........(_"x     ._,xti_.d./.\      llul'lile
+the  anodes  used   in  the   pilot     cell    test   and  of   studies           _..                                          "_-e< _\
+on    their     mechanical      properties.            lhc    mechanical              ._                                                                                                   Ii t
+l)v'opei'Lies    tested    inclu(led    Fracture    strenuth,     Fracture          =  Xll          10_l_'rllr_nmlar,     ItHerl.lr:_n_01ar,
+tou!jhness,     an(l  ductile-bril.L1e          transition      temperature         C                       i_ri,,IL.-,        I      "m,,,ii_•                   !
+
+on(DIIIT).samples In removedal,    of   thisFrom  v/ork,the  cenLeruleasuremenLsof  anode v/ereFl   alIlladeIcr                      __-    _,l       ...... ---"__.        .....    I_    _      k                                                       I)  ,|Tr
+testing      in  the   pilot     cell      •    lhc  samples   wev'e From  the               _,      A llIPde      I"I   V   "x
+ include    any  of  Lhe  reaction     layev-s,     l.leasurements   onregion     of   native      microstructure,               i.e.     they    did    not                                               _eanode   Fl  were   then   compared   Lo   resuILs    on  another                 2,                                               I)IITT
+anode   (control)      Fabricated     hy  CMl  but   not    testecl     in
+
+                                              •                                                                                                                                                                                                         II                    ._IIII                     ,I  II II                 _IIII                 HIIII                          i  IIIIII                    I _IIII
+
+ l'he  dens   i ty   of  a  sampl(:  removed   fr(ml   the      i nl.er  inr    ()f                                                         'I'el'll'l'ralure   ("(')
+anode   Fl   afler          l esl.  in(l   in   the    pi]rlt       ('ell   wag  5.67   L
+O.O!)      tl'(lll      I.      lhi!,     v,llIl(!       i!;   Im'l_!l"  lha11   lllal        llll',l'.lll'l',l                   I  i'Ulli'   15:  Vdvial   inu    ,II     l  l',l(llll','         '.;II'(,'.',    d'.  _, Itlnclim_
+ l(_r   the   control    anode   (5.82   __ 0.01  U.cm   ;)   aral  much          ni   lemperature.
+ l(_wev" than  anncles  previollsly      fahricaLe(l     Fnr  sludies     al
+ PFII. (6.05     -  6.10   g.cm"_).     The  higher    values    For  Lhe
+ PNl  anodes   are    exl_]ain(:(l,     aL  leasL    partly,     by   the
+ higher   consol   i(latior_    l)ress_res     use(l   in  FahricaLi()n     at
+ Pill. and  are  also   cunsistent      with       l he  al)llarently     higher            lhe.   Fracture   mode  For  the   conlrol     ann(le  was  el)served
+ porosity      exhibil.ed    by  the    pilot      cell    anodes   (Figure            to  be  transgranular      below   the  DBTT,  but   the   Fracture
+ 2).     the   drop    in  density    as  a  result     of    pilot      cell        mode  For  anode   Ft  below   the  DI3TT was   intergranular.
+ testinu    was  not   expected,     however,   and    is   prol)ahly             In   Fact,   anode   Fi  exhibited    an  inLergranular       fracture
+ related        l.(l  the  CUmlmsitional     chan!les   and  the  In'esence           inorphol(igy      at.   ali     tesl.    temperatures.          Ibis   was   in
+ _)f    ele(.tr()lyl.e        cre(ni)nn(mis      wil.tlin      lhc     an(l(le   as          (:m_l.rasl.   Lo  the  (:onLy'oi   ann(le  which    exhil)ited    a mixed
+ (lis_:u,.,se_l  al_(_w,.                                                                     I.raw.,;!lrawular-inlergramllar           n_nrl_hology   above   l.he  [)B1T
+                                                                     and was  transgranular      below  the   I)131[.   Figure    ]6  shows
+ Iour-I_oinl.     I_end  testing    was  performed   m_ rectanutnlar             lhe   different(.   _  in  Fracture    morphology     at  20"C  between
+ I_end  bay's   (4 mm x   ,1 mm x  50  mm)  usin(j   SiC   Fully-           Ihe    control     anode    (Lransuranular)       and   anode    Fl
+ arl.  i(:ulal.ed   hend  Fixtures    having   a  1()iter  span  of   ,I0 mm         (intergranular).
+ a_d  an  upl)er   sl)an   c)f  20 mm.     It:sls   were   l)(:rf_rmed     in
+ air   From amhienL   _Ip to  IIO0°C   at  a  strain    raLe   of  1.27            Inleresl.    ing]y,    the  fracture     toughness   behaved   similar
+ x   I0  "   s_.       lhc:    Ini(l-l)()int      ll(mdinu     d_fle(:liml     was           I.o lhc   sl.renul.h   as a  tim(Lion     of  temperal.ure    For  these
+ measured    an(l  used   t.o  calctI1ate      stress-strain       curves          smnples,      lhe   Fracture    toughness   was  2.5   l.IPa.m _!'   at.
+ for  each  sl_ecimen.     In   ad(liticm,     chevr(m    n(llc:he_l   Ix:nal        1000'C  and  increased    Lo  3.7  14Pa.m_''  aL  I050°C   For  the
+ (CVN)    llars    vlere   used    to  measuv'e   the   chevrm_-notch             control    anode.    1he  values   were   lower   For  anode     ll,
+ fracture     touuhness    over     tile  same  teml)eralure     range,          dropping       lo    1.7   l.lPa.m _'s   at   room   l.eml_erature    and
+ lhese   tests   were  perfm'med    at   l.he same  strain     rate    in         2.6    l.ll'a'wl  II''   at   500°C.    As  shown   in  Lhc  case   nf   the
+ Four-point     bending   and  the  overall    specimen  dimewsions            control    anode    in   Figure     17,   the    similarity         in   the
+ were  Lhc  sam(: as  the  unn(_l.ched  bend   l_ars,     lhe   tesL          teml)erature    dependence    of   the   fracture      strength    and
+ l.eml_erature   was  measurc:d   by  a   lype  K  thermocouple               (racl,  uv'e   toughness     is     striking       suggesting       the
+ insr,rled     into    lhr,  bend  Fixture.        Ali   (lala  was  r(,c()r(Ic,(l         Imlqhness    conlrols     the   st.ren_ll.h   nf  Lhe  mal.erial    below
+ (mln   a  CUmlmler    l)as('d   dal.a    acqui'._il,  im_   !,y',leln.      SI I.I         tlm    I)I_II.       llm   (.m'v'(:sp(mden(:e     Iv:tw(:c:n    stren(.ll.h   and
+ sl(,_',',_   Idml,m)iLr_!l)',_ph:,    vmre   laken    _)I   _',,pI',,'_m_lal    iv,'        Imu  hn_",_ wa_  [mzn(l   In  he  similar     For  anode    II.
+ lla(l_iv_!      _.uvl_,ce'.,   al_v(:    avid  l_,Iow      I I_,_  l)IIll     t_l   (:a(h
+ real,vial        t()  (haracl(:rizL,       lhc   mu(h., of   failur,_,                         llm    l)la:,tic     deFov'mation     or   the   anode   mat.m'ial      at
+                                                                                 elevated    temperatures     appears    to  be  controllecl     by  the
+ 14easured   strength    and  toughness   were  Found   to   l)e  low        weakest    phase   which      is    probably      the    distributed
+ fnr     all    nf   the   anode   mal.erials      tested    COml)ared  Lo         metallic      or  grain   boundary   phase,         lt   is  expected    that
+ typical     cermets.    Room l.eml)eraLure     sl.!'r_ngth   of   lie  MPa        the     l)Bir      is    determined     by     tile    compositinn      and
+ ('16   ksi)   and  toughness    of   2.8    l,ll_a.m''   were  measured           distribution         of   this   phase.   The   fracture     morphology
+ for    Lhc   control     anode•     As  shown    in   Figure     15,        change   For  Lhc  control    anode  at   the  DBTT is  consistent
+ str.:ngth     incv'eased    to   ]17   I,IPa  (17   ksi)     al.  ]O00"C  and         with    this    conclusion,               lt     is   rather    remarkable     (hal
+ l.h_,n decrease(l   above   this   temperature,      the  DBII   of   the           l.he  conLrol   anode  can  maintain     britL1e    behavior   up  to
+ cnhl.rnl   anode  unal.oria],      lhc   Fracture     slren<.ll.h   of   lhc          ]O00"t:   (.liven    l.hat   the  meLallic    phase    is  a Cu-Ni  a11oy
+ (:erlm.t   anodes  was  degv'ade(l  as a  res_all    (_f   l_ilol,    cell            v_ilh   a   rvv:ll, ing   point     of   about    1200"C.       lhc    l(_w
+ Lesting.     As  shown   in   ligure      IS,    anode   F]  strengLh          Loughness    value     implies    LhaL   Lhe   ducLile     meLal]ic
+ ranged    fr(,m  50 14Pa (7.3    ksi)    at  room  temperature      to  a       phase     is   not.   distributed        optimally       for   mechanical
+ high   of   63.3    l,IPa  (9.2    ksi)   aL  350°C.      lhc   I)BTT  For         properties       benefit.          Apparently      the   a11oy    is   ten
+ anode  Ft  material    was  deLermine(l    to  be  500"E,   shiFLe(l          widely     distribuLed        to   impact    the   toughness     of   the
+ dovm  Irom  the  conLrol   anode  by  500C.                              cermet   material.        In  contv'asL,     fracLure    toughness    For
+                                                                  cemenLed   carl)ides    can  be  as  high   as  18  _IPa,m_'5.   The
+ Changes   in  the   fracture   mode  accm,panied     the   shift      in          fracture     behavior    For  the  anode  material    seems  to  be
+ the  DB]T   for   anode  F]  compared    to   the   control    anode,           controlled      by   the   cleavage     strength      of   the   oxide
+ and  the  Fracture  mode   of   the   control     anode  was       grains.        In   general,   the  fracture   strength   is
+ different  above the DBIT compared  to below  the DBTT.       controlled  by  Fracture  toughness  below  the  DBTT  For
+
+## PDF page 10
+
+  (a) Control Anode Showing TransgranularFracture        Figure 17: Toughnessan(JStrength For Control Anode as
+                                                       a Function of lemperatifre.
+
+
+
+                                                  A  low   Fracture    toughness,   high   thermal   expansion
+                                                                             _cmfli(    il,nl   ,  aral m_,h,ral,,ly   IGDWllmrmal   rnn,hlc:livily
+                                                                                  for  Lh_' t:l:i'l,i,L   InilLeri,iI  wnuld  ,llso  ,i,_ke I.hese  arlo(l(:s
+                                                                           ver.y  snscel)tihle   Lo thermal  shock.   OI)served cracking
+                                                                        during    operati()n     (5)    is   consistent    with    this   and
+                                                                  suggests   thal. use of  this  material   For anodes,  without
+                                                                             additional     refinement     of   composition     to   increase
+                                                                    toughness,    will    necessitate    very   delicate    handling
+                                                                     procedures.
+                                                                                           Conclusions
+
+                                                             Cermet anodes were  tested   in  a  pilot-scale     reduction
+                                                                                        cell    for  up  to 314 h  (]3.1   days).    Post-test   analyses
+                                                                           of   the   anodes   revealed    changes    in   appearance,
+                                                                            inicrns l.rucl.ilre,    COml)O._i t ion ,   and    physical     and
+                                                                  mechanical   properties.    These changes were  influenced
+                                                            boLh  l)y  overall    cell   conditions   and  local   conditions
+     (b)  Anode Ft  Showing  Intergranular     Fracture               around  each anode.  Those  parts  of  the  anodes exposed
+                                                            Lo normal  conditions     of  less   than  or  equal   to  0.5
+                                                               A.(m _ and close  Lo alumina  saturation    exhihited     little
+                                                                    dimensional     loss,    but   did   show  the  growth   of   a
+  l-igure   ]6:  Fracture  Horphology  be]ovl I)BTT (20'°C).           reaction     layer    of   significant      thickness.     Anodes
+                                                             exposed   to  aggressive   conditions    of  higher   current
+                                                                         density    and  low  alumina   concentration,      exhibited
+                                                                  severe    dimensional     and   compositional      changes.
+                                                                               Significant     penetration   or  the  e]ectroiyte    deep within
+                                                                           tlm  maleria]   was observed   For   all   anodes  analyzed.
+                                                                                                            llle  penetration    resul Led in compositional   changes even
+                                                                                     in   regions    abov,.,  the   reaction     layer   where   the
+these  materials,    lhe  excellent   correspondence  between       microstructure   was similar    to  the  original    material.
+strength    and  touuhness   For   the   anode   materials          lhe    observed    changes   were   accompanied    by   a
+S_il)ports  this   conclusion,                                               deterioration      of    tile  mechanical    properties     of   the
+                                                              annch:_ an(I, as  relmrl.ed   (:lsewh(.,re  in  I.his volume  (5),               i
+]lie  oi)served   str'(.,n(.ll.h re(hlctioll    an(I  I)I}11  .%hill.  For         ;in increase   in the  ainotJnts of  anode-derived   impurities
+anode FI as a  resll]  [. oi   I)i let    (:(:l 1 test   in(I  Im lnls   to              iii  the  al IIiilinlllli meLal.
+,legradaLion   of  the  intergranular    phase,  perhaps due lo
+electrolyte     migration,      lhe  material   nn  lon!jer   Fails         lhc  apparently   poor performance  of  the anodes observed
+hy cleavage   of  the  oxide   (]rains,   hut  insl.ea_l  deforms                 iii  this   test  can l)robably  be attributed    Lo one or more
+at  l)oundaries   resulting        irl  a completely    intergranu]ar            of  the  rollowing    Factors:     l)  the  inherent   limitations
+FractIire   morl)hology,       rife  changes   in   the   fracl.nre          of   the  cermet   material    tested,    2)  the  differences
+morphology   of  anode Fl  compared  to  the  control   anode      between   the  composition   and  microstructure      of   the
+supports    this   conclusion.       File  presence   of  a  Al-       cermet  material    tested   in  the  pilot    cell  and previous
+(onlainin(I     Iluorid_:   m' oxyfllmri(h:     pha'.,(: al    Iii{!  oxide       lm'met   mal.m'ial    I.ested    in  the   lal)oral.ory,     3)   I.he
+g)'ilJll      lJolln(laries    In   ill]ode  FI   lllaterlal          ([igilre       13)         flilctiJations     in  cell  operating   conditions   and,  in  the
+suggests    that    this    maLerial     is   essentially     very       case   of   alumina   concentration    and  current,      their
+different    From the  control   anode material,                       variance   From "optimal"    conditions,     4)  the  influence
+
+## PDF page 11
+
+o &
+
+
+of    tile   large   carl)on   auo(le  on  l,he  voltages     in    l.h(:  cell            6.      ,i.   S.  (;regg,    I.I.S.    frederick,      A.  J.  Vaccaro,       l.   R.
+and  possil)]y    on anode  reactious,     and  5)  the   failure     of          Alcorn,    A.   T.   lal)ereaux,    and  N.  E.  Richards,      "Pilot
+the   connector     rods   and   the   cracking      of   lhe    brittle              Cell    l)en_onstration       of  Cerium   Oxide   Coated   Anodes,"
+aiu)des,    which    necessiLated     a   si(jnilicant       ammlnt   nr            Ligl).l .... !.}q_l::!]s__Lg__9_3(Warrendale,     PA:   the     l,linerals,
+electrode     manipulation.       Which   of   the  above   factors             Nel.als,   and  Naterials      Society,     ]993).
+was  most   important       is    still     uncertain      at   this    time.
+Clearly,      additional       tesl.ing     is  required     to   (leterl,   ine,            7.    P.   E.   llart,     B.   B.  Brenden,    N.  C.  Davis,    O.    II.
+_,lilhotlt     anlhiguity,     whether   the  cernlet    material       itself            Koski,    S.  C.  Narschman,    K.    II.   Pool,   C.    II.   Schilling,
+is    in  some way  (leFicieut.            Irt  any  Future     pilot      (:ell          C.    F.    Windisch          ,It'.,     and   B.     J.    Wrona,      Inert
+test   on   this    material,             il.    is   recomntende(l       l hat   only          _An__o(JgZc,_'!.tll.o(_l.e._l)!iogr_anL_E_i_s_ca]_Y_e__a_rJ980_onij.a_lRel)qr_t
+cermet    anodes   he  employed     (nt_  carhnn),     anod(:s   he         (PNl.  6247,   l_ich]an(l,    IVA:  Pacific    Northwest     l.aborat()ry,
+fahrical.ed       that    have    ,_icrostruclure       and    physical           1987).
+l)rnpi,rl      it, s   as    (:Ins(,    ag   imss  ihln        I _)   lh(,      i|llli(lp_
+l)reviously      tested     iu   the   ial)()ratc_ry,     the    l_il()t     cell           8.      I).    I.I.  Strat:han,    S.   (:.  l.larschman,    N.  C.   l)avis,    J.
+test     lle   l)erforln_'d     usiutl   a  (lesi(.In   anrl   in'oce(lur_,    that          R.   Irilny,     and  C.     II.    Schilling,           [isca.]    ye_ar  ]_98.8
+,lirli,li/es       rlucLuations         in   Ol_erat. in!l   cmlditinn';     and          Anru.!a!._!!(:l!(]]_.L_[jl_:__.t[!_L'__[lrL?_r_t.[._]£.(-t_._rg(_es__i:(]graij! (PNL-
+more  easily   permiLs   nl)eration    near  alumina    satural,   ion,         7106,    l_ichland,    WA:   Pacific     NorLhwest     Laboratory,
+ I.he  piloL     cell   be model  led  extensively      before    testing            1989).
+particularly          in   regards     to    its    current    and  voltage
+characteristics,        and  a  more  dural)le    anode  design    or          9.  C.    r.   Win(lisch,     Jr.   and  N.  D.  SLice,    Final   .R_e__p_o_r_tL
+effective     heat-up    strategy    be used   I.o ,linilnize     thermal         on   the   CharacterizaLion         of   the   Film   on   Inert   Ano__des
+ shock.                                                                              PHI.- 7589,      Richland,      WA:        Paci  ric      Northwest.
+                                                                                               al)oratory,     1991).
+                            _Ack!!gvzl e.(Igrn(3_n.t:s_
+
+ lhn  aullu_rs   wish   In  ackn()v_l(:(l!in   tlm   ollmr     ,.laf[     ()[    llu,
+ l'u,:i[i(:      rh)rlhw_!:;l      l.lhi_l,llnry           (l'tll)      ari(l   lh,_   ,.1,Iij       ,il.
+ [li_   l,lanufacti_ring      lechunlu(ly     lal_urat(_ry     (r.111)  ()[   l.he
+ l_::ynol(Is   Metals   Company   (I_I,I(_)  _./li() inade  contribul,    ions
+ to  the  pil(_L    :ell    Lest.    Vie are  also   (]fateful       for   l.he
+ assi:;lance     h.y  14.  E.   llaupin,     pro(lranl    consultant,     and
+ the    r,tar[   aL  (:eramic     t,la(Ir)el, ic_;,     Iu(:.,     e_l)n(:ially          I.
+Van    l)i  l'an     ,_rl(l   I.   R.    lltlelti!l    who  hell)cd     (lirect     the
+ rahrication       of   the  cermet   anodes.     Funding    for    l.his
+ research    was   provided    by   the   Office     of    Industrial
+ lh'ocesses    (O]P),    U.S.   Del)art,lent     of  Energy    (I]()[).     Vie
+ are   also    grateful        l.n    t.l.   J.    t.l(:l.lnni!l]e,    l)OE   itrn!lrali_
+In,lna!let',    fur    hi.".   Snlil'_()rl   (lnriufl       llli.";  nrHleav(_r.
+                        !!_.,_r_e_r_n__-e_s
+
+  I.      J.      Ii.  Weyand,      Ii.    II.   DeYoung,   S.   P.  Ray,    (1.  P.
+ Tarcy,   and  F.  W.  Haker,      .l_llerL..A.no!le.s__f__o.lT_A].UIjl!.___tu_n
+ _,__:t'lt  i ..ng;...f_in._!  Te_(-!ln._Lc._1_...R(_.'i__o.r t=.__r__?__:._th___!)._!:i _,.t.__]-.q_8q
+ f:,,.l'_lnHH_er 2(.)      1(.}!_,5  S(,I}l.nnihm'  30     (I,_r,p_rl.   1)()1  (:()ii';
+ 40158  20,   Aloha       {_{!nl    e|',       I'A:  A l IIIIIi IIIIIII      {.()llll),llly           ill
+ AH"'"  i':,i,    1986).
+
+ 2.       (i.     I'.    l,lin(li'.,(.h     Jr.,      I).    t.l.   Sti',l_harl,        tl.    (..   l)uvi',,
+ I.   G.  1.1<}rgan,  ,}.  W.  Shade,   N.    I).   Sl. ice,   and  R.   L.
+Wes l.errnan,   J.!_(:L'L___EE.!e_c_c.L.co..(h:s__l)__i(_)gL'8!!LF-.i.s(-,!I _YL.'ai'__] 99_.0                                  ....
+_An!_LLa!___R.?_p(.}!LL_(Pt,IL-7777,        Richland,      IqA:    Paci[ic
+ lh_rthwest     l.aboral.()ry,     1991).
+
+ 3.    R.   I).   Petnrs()n,    N.    [.    l{i(:hards,     A.    I.    lal,:r(,aux,
+ O.     II.    Koski,        I..   G.   r.lor(.lan,   and    I).      t,l.   Sl rachar_,
+ "l_esu]ts        (li   I00    llour    [lectro]ysis          lest.   or  a  (:erHlet
+ Ano(h::   Operati(mal     Results     an(l  IrHluslry     Persltecl.   iw_,  "
+ !:i_tll.!t./.jL.,t._.__Is__]__990 (Warrendale,        I)A:    lhc     t.liuerals,
+ t.letals,    and  Naterials     SocieLy,    1990).
+
+ 4.      I).  N.  Strachan,    O.   II.  Koski,    L.   _,.  r.lorgan,   R.    [.
+ i,lesternlan,    R.   I).  Pederson,    N.  E.  Richards,    and  A.    I.
+ Tabereaux,     "Results      froin  a lO0-11our   Electrolysis         lest
+ of  a CermeL  Anode:    l,laterials     Aspects,"       L_,!gtlt.._t.!(_.,._tLi]_s
+ .]99_0   (Warrendale,        I)A:   The  r.linerals, Metals,     and
+ Materials     Society,     1990).                                                                                                                                                                                   +
+
+ 5.    T.   II.   klc()rn,    A.    I.   ]iil)ereaux,     N.   [.   Richar(Is,    C.
+ r.     L,liti(liscll        ,lr.,      I).    I.I.  Strachan,        ,l.    I).    (;r('!](.l,   an(l   r.l.
+ S.    I re(leri(k,       "Ol)(:ral.  ioua]   Results    u[    Pilot     (:ell    test
+ with    Cermet      'Inert'       Anodes,"      Li glLt_.!.Let_als___]_9_93_
+ (Warrendale,       I)A:  The  t.linerals,       t.leta]s,    and  l,laterials
+ Society,     1993).
+
+## PDF page 12
+

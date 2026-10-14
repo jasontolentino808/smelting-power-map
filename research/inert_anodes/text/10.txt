@@ -1,0 +1,870 @@
+Source: literature/Influence of Ni, Cr and Ni-Cr20 coatings on the electrochemical parameters.pdf
+
+## PDF page 1
+
+                                                  Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+                                                 Contents lists available at ScienceDirect
+
+                        Journal of Alloys and Compounds
+
+
+                                           journal homepage: www.elsevier.com/locate/jalcom
+
+
+Research article
+
+Influence of Ni, Cr and Ni-Cr20 coatings on the electrochemical parameters
+and corrosion behaviour of Ni–Fe–Cu anodes at 800 ◦C under aluminium
+electrolysis conditions
+Thomas Jamieson a   ,∗,1, Ronja Anton b,∗,1, Andrey Yasinskiy c, Roman Düssel c, Ralf Busch d,
+Uwe Schulz b, Bernd Friedrich e, Isabella Gallino a
+
+a Technical University of Berlin, Ernst-Reuter-Platz 1, Berlin 10587, Germany
+b German Aerospace Center (DLR), Institute for Frontier Materials on Earth and in Space, Linder Höhe, Cologne 51147, North-Rhine Westphalia, Germany
+c TRIMET Aluminium SE, Aluminiumallee 1, Essen 45356, North-Rhine Westphalia, Germany
+d Saarland University, Campus, Saarbrücken 66123, Germany
+e IME Process Metallurgy and Metal Recycling, Intzestraße 3, Aachen 52056, North-Rhine Westphalia, Germany
+
+
+A R T I C L E   I N F O            A B S T R A C T
+
+Keywords:                                  The electrochemical corrosion behaviour of uncoated, Ni, Ni-Cr20 and Cr-coated Ni42Fe38Cu20 wt.% anodes was
+Coatings                                            investigated with respect to corrosion current density, wear rate and scale morphology in a NaF-KF-AlF3-Al2O3
+Molten salt corrosion                              melt at 800 ◦C, for up to 1 h of electrolysis. Ni-Cr20 and Cr-coated anodes were found to be the most resistant
+Kinetics                                             to oxidation in air due to Cr2O3 formation and reduced interdiffusion with substrate elements, whereas Ni-
+Inert anodes
+                                               coated anodes demonstrated significant interdiffusion and oxide penetration. Electrochemical measurements
+Alloys
+                                                     of exchange current densities on the clean and oxidised anode surface were used to calculate the wear
+                                                     rate (WR), where the Ni-Cr20 coating was deemed to be detrimental to anode performance due to the
+                                                   catastrophic tendency towards electrode passivation via NiF2 formation. For the Ni and Cr-coated anodes,
+                                                   whilst a slight increase in the electrochemical parameters and wear rates was observed compared to their
+                                             uncoated counterparts, SEM-EDX analysis of used-anode cross-sections revealed a significant reduction in
+                                                      electrolyte penetration for these two coatings as well as the formation of a more uniform oxide scale with less
+                                                  extensive blistering. Overall, the increase in corrosion parameters for the Ni and Cr-coated anodes appears
+                                                    to derive from the sacrificial dissolution of the coating material, whilst a noticeable degree of protection to
+                                                 the bulk is provided. The longer-term corrosion resistance implications with respect to changes in corrosion
+                                                     scale and desirable NiFe2O4 formation are discussed, and a robust research methodology for future studies on
+                                                     suitable coatings for inert anodes is displayed.
+
+
+
+1. Introduction                                                     replacement has been found that can adequately substitute carbon
+                                                                       anodes.
+   To date, the primary production of aluminium via the Hall–Héroult        Metallic Ni–Fe–Cu anodes have attracted significant interest due to
+process relies on consumable carbon anodes. Continuous oxygen evo-     their tendency to form a surface layer rich in NiFe2O4 during oxidation,
+lution at the anode surface results in the emission of approximately    which exhibits low solubility in cryolite-based melts [4,15,16]. A range
+1.5 t of CO2 per tonne of aluminium produced: 2Al2O3(sol) + 3C(s)     of compositions have been investigated [4–8,17–19] with the overall
+→ 4Al(l) + 3CO2(g). Perfluorocarbons (PFCs) production also presents    aim of improving anode lifespan via altering the alloy design. For
+a concern, with approximately ∼6 Mt CO2e emitted in 2023 [1]. Re-     metallic anodes in particular, corrosion resistance remains the limiting
+                                                                               factor as other prerequisites such as good conductivity, ease of pro-placing the carbon anode with an inert anode (oxygen-evolving anode)
+                                                                      duction and good thermal shock resistance are satisfied. Whilst varyingalternative would eliminate direct green house gas (GHG) emissions
+                                                                        the alloy design has typically been employed to improve the intrinsicfrom the electrolysis process. Various attempts have been made using
+                                                                         corrosion behaviour of Ni–Fe–Cu anodes, the application of surfacemetallic, ceramic, and cermet anodes [2–14]. At present however, no
+
+
+
+  ∗Corresponding authors.
+     E-mail addresses:  t.jamieson@campus.tu-berlin.de (T. Jamieson), Ronja.Anton@dlr.de (R. Anton).
+   1 Thomas Jamieson and Ronja Anton contributed equally to this work and share first authorship.
+
+https://doi.org/10.1016/j.jallcom.2026.190290
+Received 7 April 2026; Received in revised form 22 June 2026; Accepted 5 August 2026
+Available online 12 August 2026
+0925-8388/© 2026 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/).
+
+## PDF page 2
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+coatings has recently emerged as a complementary approach to further       The third mechanism, the electrical passivation, happens when the
+improve corrosion resistance [20,21]. Applying a protective coating     reaction product possesses insulating properties and has, at the same
+has been postulated to offer early-stage protection, allowing a more     time, a high melting temperature. This is often observed in anodes
+stable NiFe2O4 layer to form underneath, thereby extending anode    with high Ni content, when NiF2 deposits between the oxide scale and
+lifespan [21]. Recent work has explored the use of (Co,Ni)O spinel     the metallic surface of the anode and leads to a current redistribution
+coatings to improve corrosion resistance and promote the formation    between the remaining active surface area. The increased local current
+of a coherent NiFe2O4 layer in Cu-rich compositions, both with and     density increases the rate of further passivation and metal fluoridation.
+without a Ni–Cr20 bond coat [20,21]. [Ni–Cr + (Co,Ni)O] coated    The rate of passivation depends on the same factors as the fluoridation.
+Cu-rich alloys demonstrated poor corrosion resistance due to coating    The fourth mechanism is the oxide scale macroscopic breakdown. It
+delamination whereas pure (Co,Ni)O coatings were reported to enhance    happens due to the insufficient properties of the scale or a weak adhe-
+short-term corrosion resistance [21].                                      sion of the scale to the metal. In this work, the first three mechanisms
+   Corrosion resistance is a complex and crucial parameter for alloys    were addressed and evaluated using the electrochemical methods.
+designed for CO2-free aluminium electrowinning. In practice, it is more      A thorough investigation into the role of Ni, Cr, and Ni–Cr20
+common to use a wear rate to evaluate the performance of the anode.     coatings on the corrosion mechanism of highly alloyed Ni42Fe38Cu20
+                                                                        wt. % anodes is presented here, with the aim of assessing whetherThe wear rate can be found in a mass-balance experiment by evaluating
+                                                                            metallic surface engineering alone can improve the short-term sta-the masses of anode constituents in the resultant aluminium after a
+                                                                                       bility of metallic inert anodes. Ni42Fe38Cu20 wt. % was selected ascertain time of electrolysis under preselected ‘‘standard’’ conditions that
+                                                                        the substrate because single-phase alloys of this composition haveinclude a certain temperature, current density, geometry and design
+                                                                         previously shown promising behaviour during aluminium electrolysisof the cell. The accuracy and reproducibility increase with the elec-
+                                                                                          trials [5–8]. Unlike most prior studies on Ni–Fe–Cu inert anodes, which
+trolysis time and size of the cell (and corresponding total current). It
+                                                                have focused primarily on modifying bulk alloy composition, this work
+was demonstrated [17] that certain electrochemical parameters have a
+                                                                          places the emphasis on the deposited coating itself as an additional
+strong linear correlation with the wear rate and can be used to evaluate
+                                                              and potentially enabling design variable. In this context, coatings are
+the corrosion resistance of the alloy in a more practical and convenient
+                                                                              of particular interest because they may provide early-stage protection
+manner. The electrochemical measurements can be conducted much
+                                                                           against fluoridation and oxide-scale destabilisation, thereby delaying
+faster than the electrolysis test and require fewer materials. Addition-
+                                                                      degradation and promoting the establishment of a more protective
+ally, it is easier to maintain a controlled and consistent environment.
+                                                                           surface layer.
+While the electrolysis tests can help to understand the overall resulting
+                                                                          Previous coating studies on metallic inert anodes have largely fo-
+wear rate, the electrochemical measurements can address different
+                                                                    cused on thermally sprayed or plasma-sprayed coatings investigated
+stages and mechanisms of the corrosion. At least four mechanisms
+                                                              by Jalilvand et  al. [20,21]. In contrast, the present work explores
+responsible for the overall wear of the anode can be distinguished.
+                                                                magnetron sputter deposition of metallic Ni, Cr, and Ni–Cr20 coatings
+The first one, electrochemical metal dissolution, dominates when the
+                                                             on Ni42Fe38Cu20 substrates. The use of sputter-deposited coatings is
+oxidation product is liquid or partially liquid. This is often true for                                                                           relevant because it enables the production of thin, dense, and compo-
+fluorides that have low melting temperatures and high solubility in                                                                                   sitionally controlled layers, offering a different pathway from plasma-
+molten cryolite. Additionally, the potential difference between oxide                                                                     sprayed coatings for influencing interfacial reactions during the initial
+formation and fluoridation is rather small for many metals. For in-                                                                            stages of electrolysis.
+stance, the difference in standard potentials between FeO and FeF2 is        Accordingly, this study examines whether sputter-deposited metallic
+less than 20 mV for a wide range of temperatures. For these reasons,     coatings can improve the corrosion resistance of Ni42Fe38Cu20 anodes
+metal dissolution in most cases occurs as fluoridation. The fluoridation     in cryolite-based melts, and how these coatings modify the first three
+rate depends on:                                                wear mechanisms identified above. Ni, Cr, and Ni–Cr20 coatings were
+                                                                       deposited by magnetron sputtering onto homogenised Ni42Fe38Cu20 wt.
+      • the surface area of the metal exposed to the melt, which  is
+                                       % anodes and evaluated in small-scale electrolysis cells with 1 h run-
+      controlled by the properties of the oxide scale normally deposited                                                                            times, alongside an uncoated control group. In parallel, the coating
+     on the surface of the anode during the electrolysis;                                                                          materials were also examined as monolithic anodes, allowing the in-
+      • temperature;                                                                                     trinsic reaction and corrosion behaviour of the coating compositions to
+      • content of dissolved oxides (oxidised anode material & alumina)    be separated from substrate-coating interaction effects. SEM and EDX
+      at the surface of the metal controlled by the bulk concentration,    were used to assess coating integrity, scale adhesion, and corrosion
+     anodic current density and transport properties of the melt;          behaviour, complemented by electrochemical measurements. By focus-
+      • nature of the metal and structure of the anode.                      ing on metallic coatings without an additional spinel top layer, this
+                                                            work aims to clarify both the protective potential and the limitations
+The second mechanism is the chemical dissolution of the oxide scale,                                                                              of sputter-deposited surface layers as a complementary strategy to alloy
+which follows the reaction:                                                                       design for the development of longer-lasting inert anodes.
+
+3𝑛MeOn + 2𝑛AlF3 = 3𝑛MeF2n + 𝑛Al2O3                               (1)
+                                                                           2. Experimental
+   The rate of oxide dissolution is affected by:
+                                                                                 2.1. Sample preparation
+      • surface area of the oxide scale exposed to the melt, which is
+      affected by the macroscopic properties of the scale, such as open        Preparation of the Ni42Fe38Cu20 wt%, bulk Ni–Cr20 and pure Ni
+      porosity;                                                                alloys began with the synthesis of the alloys from constituent nickel,
+      • oxide solubility in the molten salt, which is controlled by the     iron, copper and chromium (≥99.95 wt% purity) in a custom-made
+     nature and structure of the oxide, melt composition and temper-     arc-melter. The correct amounts of the constituent elements were de-
+      ature;                                                         termined with a fine balance, before being melted together in a pre-
+      • dissolved oxide concentration at the surface of the oxide scale,     cleaned vacuum-cycled (10−3 mbar) argon atmosphere (∼0.2 bar). The
+     which is controlled by the anodic current density, aluminium     alloys were flipped and melted four times in total, evenly on each side,
+     oxide concentration, transport properties and fluid dynamics in     to ensure an even distribution of the constituent metals. The alloys
+     the melt.                                                   were then cast into cylindrical forms 45 mm in length and 7 mm in
+
+                                                                        2
+
+## PDF page 3
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+diameter using an Indutherm MC15 tilt-caster under a vacuum-cycled     Table 1
+(10−2 mbar) argon atmosphere (∼0.1 bar). Casting was performed     Overview of the anode types investigated in this study.
+into a water-cooled copper mould. Finally, all the cast Ni42Fe38Cu20        Substrate/bulk alloy            Coating type            No. of anodes measured
+wt% alloys were annealed in a Nabetherm vertical furnace to obtain       Ni42Fe38Cu20                   –                    2
+a homogeneous microstructure. The furnace was heated to 1100 ◦C       Ni42Fe38Cu20                  Ni                   3
+at a heating rate of 0.2 ◦C/s and held for 12 h before cooling in       Ni42Fe38Cu20                  Cr                   3
+                                                                                         Ni42Fe38Cu20                  Ni–Cr20              3
+the furnace. Metallographic preparation was performed, along with an       Ni                            –                    3
+aqueous ferric chloride etchant, prior to optical microscopy analysis to       Ni–Cr20                       –                    3
+confirm the presence of the single-phase microstructure on a separate
+Ni42Fe38Cu20 wt% sample prepared under identical conditions.
+    Finally, the annealed samples were machined to a 40 mm long
+                                                                                 2.3. Electrochemical measurementscustom rod of 𝜙4 mm with a screw hole. For the active component, to
+be coated and used for electrolysis, a length of 20 mm was machined
+                                                                       Experiments were conducted in the low-temperature NaF-KF-AlF3–down even further to produce a 𝜙2 mm pin to be partially submerged in
+the electrolyte, complete with a 120 grit surface finish. For preliminary      Al2O3(𝑠𝑎𝑡) melt with cryolite ratio CR = 1.3 and potassium ratio KR =
+                                                                     0.32 at 800 ± 2 ◦C. The bath was prepared using dried NaF and KFcoating tests, rods with a 6 mm diameter were machined from the
+                                                                                           salts, each with a purity of 99.5% supplied by Sigma-Aldrich. Industrial-as-cast 7 mm casts.
+                                                                    grade AlF3 and smelter-grade alumina, serving as a source of O2-
+                                                                                 ions, were provided by Trimet Aluminium SE (Germany). Electrochem-2.2. Coating deposition analytics
+                                                                                      ical measurements were carried out in a three-electrode cell (Fig. 1),
+   The coatings were fabricated using a batch-type magnetron sputter-     consisting of a graphite container containing approximately 300 g of
+ing system (Z 400, Systec SVS Vacuum Coatings, Karlstadt, Germany).     electrolyte, placed within a gas-tight steel reactor. The reactor had a
+Prior to coating deposition, Ar+-ion etching was performed to clean     continuous Ar supply and a water-cooled lid. The 20 mm × 𝜙2 mm
+and activate the surface of the specimen. Dense polycrystalline Cr and     pin was immersed 10 mm deep in the electrolyte and served as the
+Ni disks, each with a diameter of 100 mm, were used as targets and    working electrode. The quasi-reference electrode (qRE) was a 𝜙1 mm
+arranged in a face-to-face configuration. DC and DC/RF co-sputtering     tungsten rod, also immersed 10 mm deep in the electrolyte. The counter
+were carried out at varying target powers to produce coatings with     electrode was a 𝜙4 mm glassy carbon rod, immersed 20 mm deep. Tem-
+different compositions: 100 at% Cr (Cr), 100 at% Ni (Ni), and 80 at%     perature measurements were conducted using an S-type thermocouple
+Ni with 20 at% Cr (Ni–Cr20). The total pressure during deposition was    immersed 10 mm deep (see Table 1).
+maintained at 0.47 Pa in an Ar atmosphere with a flow rate of 23 sccm.        Corrosion resistance of the alloys was characterised using the
+The deposition rates were approximately 11.5 μm/h for the Cr coating,    method proposed and explained in [17]. Electrochemical kinetic pa-
+4.5 μm/h for the Ni coating, and 6.3 μm/h for the Ni–Cr20 coating. The     rameters,  correlated  with  different  corrosion  mechanisms,  were
+rotation speed during deposition was 12 min−1.                         recorded using an Iviumstat.h potentiostat (Ivium Technologies, The
+   For preliminary investigations of the coatings, rods of 𝜙6 mm were     Netherlands) controlled by Iviumsoft, following the steps summarised
+cut into smaller pieces for coating, testing, and analysis under vary-     in Table 2.
+ing parameters. Although these samples underwent a twofold rotation       Each sample type was tested three times to confirm reproducibility.
+during deposition, they could not be coated uniformly due to shading    The exchange current density was determined by extrapolating the
+effects. These effects were not present in the final rod samples, as they     linear portions of the Tafel plot to the reversible potential (Fig. 2). The
+were mounted in a different way. One piece from each coated sample     average between the cathodic (left) arm and the anodic (right) arm was
+was subjected to a heat treatment in a vacuum furnace at 800 ◦C     calculated.
+for 1 h. To further evaluate the oxidation behaviour, an additional        Stationary  potentials  were  graphically  determined  from  the
+oxidation test was performed in ambient air for one hour at 800 ◦C,     potential-time curve recorded during the chronopotentiometry (gal-
+both on a vacuum-treated sample and an as-deposited sample. One     vanostatic polarisation) (Fig. 3).
+specimen from each coating type was retained in the as-deposited        For the purposes of this study, wear rate (WR) refers to the material
+condition, without any thermal treatment, to serve as a reference      loss of the anode [17]. The wear rate WR (in g/cm2 s) was calculated
+for post-deposition analysis. Based on the oxidation results, the most     using the following empirical equation:
+promising coating condition was selected and subsequently applied to        (   )                                                         𝑀′               )the rods intended for electrolysis testing.                   WR = 𝑎          (𝑏𝑖0(cl) + 𝑖0(ox)                                       (2)                                                                                𝑧′𝐹
+   Several analytical techniques were employed to characterise the
+coatings. X-ray diffraction (XRD) analysis was conducted using a Bruker    where 𝑎= 4.54⋅10−3 is the first dimensionless empirical constant, 𝑀′ =
+D8 Advance diffractometer with Cu K𝛼 radiation and Co K𝛼 radia-     58.7 g mol−1 is the apparent molar mass (Ni), 𝑧′ = 2 is the apparent
+tion, and data evaluation was performed using the EVA/Topas 4.2    number of electrons (Ni), 𝐹= 96485 C mol−1 is the Faraday constant,
+software package (Bruker AXS, Karlsruhe, Germany). This allowed for   𝑏= 15.5 is the second dimensionless empirical constant, 𝑖0(cl) [A cm−2]
+identification of the crystalline phases and tracking of phase evolu-      is the exchange current density on the clean anode and 𝑖0(ox) [A cm−2]
+tion after coating deposition and subsequent oxidation. The XRD-scans      is the exchange current density on the oxidised anode. Cross-sections
+themselves are not included as figures, the results are incorporated in     of the submerged portions of the used anodes were examined by SEM
+the text but can be made available upon request. Surface morphology    and EDX to quantify the corrosion scale thickness and the extent of
+was investigated using a scanning electron microscope (SEM) (DSM     electrolyte penetration beneath the scale, while also characterising the
+Ultra 55, Carl Zeiss NTS, Wetzlar, Germany) operated at 5 kV. To     reaction products within the scale.
+complement the XRD data and determine local composition, energy-
+dispersive X-ray spectroscopy (EDX) was performed using the Aztec     3. Results
+system (Oxford Instruments, Abingdon, UK) at an accelerating voltage
+of 15 kV.                                                                       3.1. Coatings of alloys
+   The specimens tested in the electrolysis bath were also analysed
+using SEM; however, XRD analysis was not possible due to the small       The Ni coating exhibits a typical columnar structure after deposi-
+diameter and geometry of the rod-shaped samples.                           tion, as shown in Fig. 4a. It reveals straight and fine columnar grains
+
+                                                                        3
+
+## PDF page 4
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+                                                                  Fig. 1. Electrochemical set-up.
+
+
+              Table 2
+               Electrochemical measurement protocol. LSV: linear sweep voltammetry.
+
+            #               Procedure                         What is measured                        What is characterised
+
+                1                 Equilibration time (3 min)            Open circuit potential                         –
+                2               LSVa after immersion                  Exchange current and reversible                 Resistance to metal
+                                                                                   potential on a clean anode                       dissolution/fluoridation
+                3                 Galvanostatic polarisation                Stationary potential                          Oxide layer growth and
+                                    (1 h, 𝑖= 0.1 A cm−2)                                                                       passivation behaviour
+                4             LSV after polarisation                  Exchange current and reversible                 Resistance to oxide dissolution
+                                                                                   potential on an oxidised anode
+
+                        a  Linear sweep voltammetry (potential range: 𝐸ocp ± 300 mV, sweep rate 50 mV s−1).
+
+
+with a thickness of about 9.5 μm. XRD analysis confirmed that the       The Cr coating exhibits a fine columnar structure similar to that of
+coating is crystalline in the as-deposited state.                            the Ni coating, although the columns bend at approximately one-third
+   After vacuum treatment for 1 h at 800 ◦C, the Ni coating completely     of the coating thickness, as shown in Fig. 5a. The coating adheres firmly
+interdiffused with the base alloy. Fe and Cu diffused into the coating,     to the alloy and has a thickness between 9.5 μm and 13.5 μm. XRD
+while Ni diffused into the alloy. As a result, the original columnar                                                                             analysis confirmed that the coating is crystalline in the as-deposited
+structure was no longer visible, and the coating bonded entirely to the
+                                                                                      state.
+alloy. When additionally exposed for 1 h in laboratory air at 800 ◦C, a
+                                                                               After vacuum treatment for 1 h at 800 ◦C followed by oxidationthermally grown oxide (TGO) was formed, consisting of two distinct
+regions (Fig. 4b). The upper layer is rich in iron oxide with nickel     for 1 h in laboratory air, the coating developed a thin Cr2O3 thermally
+oxide precipitates, whereas the lower layer is rich in nickel oxide. XRD    grown oxide (TGO), as confirmed by EDX and supported by XRD (Fig.
+analysis also confirms the presence of NiFe2O4, NiO, and Fe2O3. Along     5b). Owing to the sharp and rough surface morphology, the oxide layer
+the former intercolumnar boundaries, iron oxides formed. The total     did not fully cover the surface continuously, although the columnar
+TGO thickness was approximately 5.5 μm. The coating adhered firmly     gaps were sealed by Cr2O3. An interdiffusion zone (IDZ) of about 3 μm
+to the alloy, and no oxidation of the underlying alloy was detected.      was observed. EDX analysis revealed that Cr diffused into the alloy,
+   The coating shown in Fig. 4c, tested in laboratory air for 1 h                                                                     while no elements from the substrate were detected within the coating.
+immediately after deposition, also developed a two-layered TGO with
+                                                             The coating adhered well to the alloy showing no cracks or spallation.
+a similar oxide distribution. The oxide scale thickness was comparable
+                                                                The Cr coating tested directly in laboratory air for 1 h after de-to that of the vacuum-treated coating. Horizontal iron oxide growth
+was observed along the former intercolumnar gaps, which were sealed     position also formed a Cr2O3 TGO, with oxidation occurring along
+during oxidation. Cu and Fe diffusion into the coating was also evident.     the columnar gaps (Fig. 5c). In this case, no interdiffusion of Cr into
+Despite these changes, the coating was well-adhered to the alloy and     the substrate was observed, but the coating continued to exhibit a
+preserved a dense morphology.                                         well-adhered nature.
+
+                                                                        4
+
+## PDF page 5
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+     Fig. 2. Examples of a Tafel plot used to determine the exchange current density: left — after immersion, right — after 1 h-electrolysis at 0.1 A/cm2.
+
+
+
+
+
+                                    Fig. 3. Example of a chronopotentiometry plot used to determine the stationary potential.
+
+
+
+
+   The Ni–Cr20 coating develops wider columns than the pure Ni and       The Ni–Cr20 coating tested directly in laboratory air for 1 h after
+Cr coatings. It adheres well to the alloy, exhibits a dense morphology,     deposition also developed a Cr2O3 TGO. The columnar structure was
+and is crystalline after deposition, with a thickness of about 11 μm, as       still visible but closed off by the Cr-oxide formation, as shown in Fig. 6c.
+shown in Fig. 6a.                                                                 Fe and Cu were detected in the coating at about 5 at% each, while no
+   After vacuum treatment for 1 h and subsequent oxidation in labo-
+                                                                               interdiffusion was observed at the coating–alloy interface. The coating
+ratory air at 800 ◦C for 1 h, the coating formed a continuous Cr2O3                                                               shows no cracks or spallation and therefore adheres well to the alloy
+thermally grown oxide (TGO), as shown in Fig. 6b. The columnar gaps
+                                                                 under both conditions.were already closed during vacuum treatment. EDX analysis revealed
+that Cu and Fe diffused into the coating in amounts of approximately        Since the oxidation behaviour of the vacuum-treated and the as-
+9 at% each.                                                            deposited samples tested for 1 h in ambient laboratory air showed very
+
+                                                                        5
+
+## PDF page 6
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+Fig. 4. SEM images of the Ni coating under different conditions: (a) as-      Fig. 6. SEM images of the Ni–Cr20 coating under different conditions: (a)
+deposited, (b) after 1 h vacuum + 1 h air treatment at 800 ◦C, and (c) after      as-deposited, (b) after vacuum + air treatment at 800 ◦C, and (c) after direct
+direct 1 h air exposure at 800 ◦C.                                                       air exposure at 800 ◦C.
+
+
+
+                                                                   Judging by the reversible potentials one can say firstly, whether the
+                                                                         coating remains on the surface or dissolves within the first minutes after
+                                                                        the immersion, and secondly, whether the process on the coating is dif-
+                                                                              ferent compared to the process on the bulk anode of the same chemical
+                                                                       composition. Exchange current densities were in the range from 0.1 to
+                                                                        8.0 mA/cm2. On average, the presence of the coating did not affect the
+                                                                              resistance towards fluoridation, except for the Ni–Cr20 coating, which
+                                                        made the fluoridation rate much higher. The sample with the bulk
+                                                                Ni–Cr20 composition did not demonstrate the same behaviour as the
+                                                                            coating. In terms of the resistance towards fluoridation, the Cr coating
+                                                                       did not show a considerable effect on the process, neither regarding the
+                                                                              rate nor the nature of the process. The presence of the Ni coating did
+                                                                      not affect the exchange current density; however, the corresponding
+                                                                              reversible potential shifted towards more positive values. This serves
+                                                                          as evidence that the coating affected the nature of the process, and
+                                                                                    this effect was caused not just by the nature of the Ni element but
+                                                                             also by the properties of the coating itself. The evidence for that is
+                                                                             that the average reversible potential of the bulk Ni sample was around
+                                                            300 mV more negative. The average exchange current density on theFig. 5. SEM images of the Cr coating under different conditions: (a) as-
+deposited, (b) after vacuum + air treatment at 800 ◦C, and (c) after direct     clean bulk Ni anode was around 2 mA/cm2 higher than that of the
+air exposure at 800 ◦C.                                                   Ni-coated anode.
+
+                                                                                 3.2.2. Resistance towards oxide dissolution
+                                                                               After performing the linear sweep voltammetry on the clean anode
+similar results, the as-deposited state in each case was selected for fur-
+                                                                               surface, the electrolysis at 0.1 A/cm2 was performed for a duration of
+ther use. This choice was made because maintaining the coatings in the
+                                                            1 h. The purpose of the electrolysis was firstly, to oxidise the surface of
+as-deposited condition minimises interdiffusion, that occurred during
+                                                                        the anode and study the oxidation dynamics and secondly, to assess the
+vacuum annealing, and thus reduces the risk of adversely affecting the
+                                                                              resistance of the anode towards the electrical passivation. The current
+performance of the anodes.
+                                                                          density was selected based on the assumption that, under the studied
+                                                                            conditions, the anode will not be damaged and a smooth oxide scale
+3.2. Electrochemical measurements                                                                         deposition can be maintained. During the electrolysis, the potential
+                                                                            difference between the anode and the quasi-reference electrode was
+3.2.1. Resistance towards fluoridation                                      recorded. After the electrolysis was finished and the initial oxide layer
+   The resistance of the anode towards metal dissolution or fluorida-    was formed, the linear sweep voltammetry was performed again, and
+tion was characterised by the exchange current density on the clean     the exchange current density on the oxidised surface was determined.
+metal surface i0(𝑐𝑙) exposed to the melt. The resulting current densities    The average values and corresponding average reversible potentials
+and corresponding reversible potentials were plotted in Fig. 7a and b,    were plotted in Fig. 8a and b, respectively.
+respectively. The coated samples were tested directly after deposition       The values of exchange current density were in the range from
+with no additional air annealing                                         6.5 to 115.2 mA/cm2, which is around 10 times higher than those on
+   Exchange current density is a kinetic parameter that helps to assess     the clean surface. The corresponding reversible potentials were shifted
+the rate of the process, while the reversible potential is a thermo-    around 1 V towards positive values. The exchange current densities
+dynamic property that can give a hint of what process is dominant.    presumably indirectly characterise the rate of oxide scale dissolution,
+
+                                                                        6
+
+## PDF page 7
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+Fig. 7. The results of linear sweep voltammetry performed on a clean (non-oxidised) surface, with the blue bars representing the [Ni/Cr/Ni–Cr20 + Ni42Fe38Cu20]
+material: a – average exchange current densities; b – average corresponding reversible potentials with respect to tungsten quasi-reference electrode (error bars
+represent the standard deviations of the three samples tested).
+
+
+
+
+
+Fig. 8. The results of linear sweep voltammetry on an oxidised surface after 1-hour electrolysis at 0.1 A/cm2 with the blue bars representing the [Ni/Cr/Ni–Cr20 +
+Ni42Fe38Cu20] material: a – average exchange current densities; b – average corresponding reversible potentials with respect to tungsten quasi-reference electrode.
+
+
+while the corresponding reversible potentials give an idea of the nature     protective oxide scale. The normal values of the stationary potential
+of the dominating dissolution process. The standard deviations of the     are expected to lie in the range from 1.3 to 2.0 V with respect to
+exchange currents were considerably lower compared to those on the     the tungsten quasi-reference electrode. When the value is below this
+clean anodes. The lowest exchange current densities were demon-     range, it means that the oxide scale cannot be formed or sustained,
+strated by the uncoated base samples. The Cr coating provided a slight    and the anode undergoes continuous metal dissolution. However, if the
+increase in exchange currents, and the corresponding reversible poten-     stationary potential is higher than the upper limit of the mentioned
+tials shifted towards more positive values. The Ni-coating demonstrated     range or the stationary state is not reached, it means that there is a
+a considerable increase in exchange current density up to 33 mA/cm2     large portion of an electrically insulating compound. The wear rate was
+on average compared to the uncoated base sample. The bulk Ni sam-     calculated according to Eq. (2) for each tested sample. Fig. 9c shows
+ple showed an even greater increase to 58 mA/cm2. The reversible    how a high wear rate does not necessarily correlate to thicker corrosion
+potentials of the Ni-coated anodes were also shifted towards more      scale, suggesting either the scale constituents are more impactful, or
+positive values. The same is true for the Ni–Cr20 coatings. This serves     in the case of the Ni–Cr20 coated samples for example, catastrophic
+as evidence that the effect of the coatings remains after short-term    breakaway corrosion is occurring during electrolysis.
+polarisation. The average values were in a range from 0.8 to 1.0 V       The average values for each sample type were plotted in Fig. 9b. The
+with respect to the quasi-reference electrode. The average reversible     average stationary potential of the base anode was 1.7 V with respect
+potential of the anode without a coating was 0.54 V. The highest values     to the quasi-reference electrode. The application of the coatings did
+of the exchange current were demonstrated by the Ni–Cr20 coating,     not change this value dramatically. For all coated [Ni/Cr/Ni–Cr20 +
+which is similar to what was observed when measuring the exchange     Ni42Fe38Cu20 wt%] samples, the stationary potential was in the range
+current on clean anodes.                                           from 1.62 to 1.80 V. For the pure Ni anode, the stationary potential was
+                                                                     0.78 V, demonstrating that a sustainable oxide scale cannot be formed
+3.2.3. Resistance towards passivation and overall estimated wear rate        on such an anode. The stationary potential of the bulk Ni–Cr20 anode
+   The potential–time plot recorded during the above-mentioned 1 h    was not reached in 2 out of 3 measurements, leading to a rise of the
+duration electrolysis was evaluated, and the stationary potential E𝑠𝑡     potential up to 5 V, which was a device limit. The wear rate calculated
+was determined (Fig. 9a). Stationary potential provides the  initial     for the uncoated base sample was in the range from 0.46 to 1.40 g/m2
+assessment of the resistance of the anode towards electrical passivation,     h, which is the lowest among all tested samples. The Ni- and Cr-coated
+and it also gives an idea of the ability of the anode to form a sustainable    samples had a slightly higher wear rate, with average values of 1.31 and
+
+                                                                        7
+
+## PDF page 8
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+Fig. 9. Results of chronopotentiometry recorded during the 1 h-electrolysis at 0.1 A/cm2 with the blue bars representing the [Ni/Cr/Ni–Cr20 + Ni42Fe38Cu20]
+material (a) and calculated wear rates (b).
+
+1.19 g/m2 h, respectively. The worst performance was demonstrated by     Table 3
+the Ni–Cr20 coating with the average wear rate of 4.40 g/m2 h. The     Corrosion scale thickness and electrolyte penetration depth averaged across all
+effect of the coating on the wear rate was not consistent among the     samples.
+tested compositions. The wear rate of the [Ni + Ni42Fe38Cu20 wt%]       Base alloy composition     Coating      Avg. scale          Avg. electrolyte
+coated anode is intermediate between the uncoated base anode and the     wt%                                      thickness (μm)      penetration (μm)
+pure Ni anode, while for the bulk Ni–Cr20 anode and the [Ni–Cr20 +       Ni42Fe38Cu20             Ni          113.01             35.00
+                                                                                         Ni42Fe38Cu20              Cr           46.73              41.28
+Ni42Fe38Cu20 wt%] anode, the tendency is different. The [Ni–Cr20 +                                                                                         Ni42Fe38Cu20             Ni–Cr20     85.95              37.02
+Ni42Fe38Cu20 wt%] anode has an average wear rate that is considerably       Ni42Fe38Cu20            None        164.19             90.84
+higher than both the uncoated base anode and the Ni–Cr20 bulk anode.
+    Fig. 10(a) shows how the corrosion current densities on the oxidised
+anode surface and clean anode surface evolves as the scale thickness
+                                                                               extents, with Ni exhibiting the smallest electrolyte penetration zone.increases. At a thickness of 289 μm the average rate of metal dissolution
+is reduced to its lowest value at 1.50 mA/cm2 whilst the average rate of     Fig. 12 shows a depletion of constituent Ni, Fe and Cu in the bulk inside
+oxide dissolution rises to its highest value at 66.8 mA/cm2. The mean     the electrolyte penetration zone, indicative of a more prominent metal
+corrosion current density values demonstrate a trend of increasing     dissolution of bulk constituents. Cr-coated alloys were observed to have
+oxide dissolution rate and decreasing metal dissolution rate as scale     the thinnest corrosion scales (Table 3) that possess a morphology with
+thickness increases, although large variability prevents the emergence    minimal blistering and good overall adhesion to the bulk material (Fig.
+of a clear statistical separation. Fig. 10(b) demonstrates an increase     12).
+in the mean wear-rate up to 147 μm and a slight decrease as the      EDX analysis revealed that, despite the differences in scale thickness
+scale thickness is approximately doubled at 289 μm with a similarly    and structure that appear to arise due to the coating conditions, the
+large wear rate variability preventing a clear statistical pattern from     chemical composition of the corrosion scales retains similarities. An
+emerging.                                                                  outer-layer rich in electrolyte species (Al, F, Na, K) consistently forms.
+   Even though the studied coatings did not enhance the performance    The oxide layer containing constituent elements from the bulk and the
+of the base anode, they noticeably affected the electrochemical be-     coating (Ni, Fe, Cu, Cr, O) usually forms at the interior of the scale,
+haviour not just in terms of the chemical nature of the elements that     although Fig. 12 shows how blistering events may cause irregularities
+constitute the coating, but also the structural properties of the coatings.     in this typical layer structure. Cu was observed only in very weak quan-
+The electrochemical measurements demonstrated that the effect of the      tities regardless of the coating type, suggesting none of the coatings is
+coating remains even after 1 h of electrochemical oxidation. The SEM     able to prevent the outward diffusion of Cu into the electrolyte. Fig. 12
+& EDX analyses were performed to shed light on the reasons behind the     also shows how the measured Cr-coated anode gives rise to a uniform
+differences in the electrochemical parameters.                           oxide layer richest in Fe with some Ni, which is a strong indicator
+                                                                              of the formation of a (Ni, Fe)O spinel structure. Cr was observed
+3.3. SEM & EDX analysis of corrosion scales                                  in weak quantities within the oxide scale in small localised regions,
+                                                                         suggesting the majority of the coating dissolved during operation. In
+    Fig. 11 shows the typical morphologies of the coated and uncoated     contrast, the oxide layer of the uncoated base-alloy is shown to possess
+alloys after electrolysis at low magnifications. The different anode    a more incoherent structure that is Fe-rich and Ni-poor, suggesting an
+types were observed to produce a somewhat similar corrosion scale     oxide layer consisting of mainly Fe-based products (FeO, Fe2O3, Fe3O4)
+morphology to one another. The uncoated Ni42Fe38Cu20 wt% anodes     within this region, as well as (Ni, Fe)O spinel oxides.
+in particular seem to exhibit a scale prone to blistering with relatively      EDX mappings of both the Ni and Ni–Cr20 coated anodes (Fig. 13)
+poor adhesion to the bulk. Extensive blistering and spalling of the scale    were observed to influence the chemical composition of the corrosion
+was also observed in 2/3 of the investigated regions for the [Ni–Cr20 +     scale moreso than the Cr-coated anodes. In both cases a greater Ni con-
+Ni42Fe38Cu20] coated anodes. The most notable characteristic observed     tent was observed in the corrosion scale in comparison to the uncoated
+in the uncoated base anode cross-sections was the much greater pen-     anodes. For the Ni coated anodes, the Ni-rich regions overlapped with
+etration of the electrolyte into the bulk as seen in Figs. 11 and 12.    Fe and O suggesting the formation of a spinel (Ni,Fe)O oxide similar to
+The average scale thickness and electrolyte penetration depth across     the Cr-coated anodes. Ni–Cr20 coated anodes also show evidence of a
+all anode-types is displayed in Table 3. Each of the coatings is seen to     (Ni,Fe)O spinel oxide phase, as well as more prominent overlapping of
+inhibit the penetration of the electrolyte beneath the scale to varying    Ni and F regions indicating the presence of NiF2.
+
+                                                                        8
+
+## PDF page 9
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+Fig. 10. (a) Average oxidised anode (red, left y-axis) and clean anode (blue, right y-axis) corrosion current densities, plotted as a function of average corrosion
+scale thickness. (b) Average wear rate plotted as a function of average corrosion scale thickness.
+
+
+
+
+
+Fig. 11. Low magnification SEM images of anode cross-sections for the Ni, Ni–Cr20 and Cr coated anodes as well as the uncoated base anode after electrochemical
+measurements and 1 h of electrolysis at 𝑇= 800 ◦C.
+
+
+   Greater Cr concentration was observed in the Ni–Cr20 coated an-      blisters to alter the relative position of the oxide layer. Blistering of
+odes in the corrosion scale/oxide region and sub-scale penetration     the scale during oxidation allows for irregular electrolyte penetration
+zone compared to their Cr-coated counterparts, potentially indicative    between the oxide layer and bulk, causing the oxide layer to appear
+of Cr2O3, (Ni,Cr)O, (Fe,Cr)O formation and suggesting Cr diffusion and    non-uniform over a given time period. The two out of three Ni–Cr20
+dissolution is inhibited in the mixed Ni–Cr20 coating. Both the Ni and     coated anodes that exhibit extensive blistering are the two samples that
+Ni–Cr20 coated anodes lead to a reduced electrolyte penetration com-     also exhibit the highest wear-rate measurements in Fig. 9, likely due to
+pared to Cr-coated anodes (Table 3) at the expense of a much thicker     the formation of the passivating NiF2 compound, that was seemingly
+corrosion scale. Whilst Fig. 9 suggests there being no improvement in     not as prevalent in both the Ni and Cr-coated anodes.
+wear-rate for Cr- and Ni-coated anodes vs. their uncoated counterparts,         Fig. 14 shows the corrosion scale structure for both the pure Ni and
+the SEM and EDX findings suggest an overall (scale thickness + elec-     bulk Ni–Cr20 anodes, exposed to identical electrolysis conditions as
+trolyte penetration) reduced attack of the electrolyte and the formation     the [Ni/Cr/Ni–Cr20 + Ni42Fe38Cu20 wt%] coated anodes. Both exhibit
+of a more uniform oxide structure that does imply improved corrosion    a large variance in their corrosion scale thickness, suggestive of a
+behaviour.                                                          non-uniform response of the corrosion mechanism across samples. For
+    Fig. 13 shows the corrosion structure that is typically formed in     the bulk Ni–Cr20 anode #1 sample, extreme blistering and spalling is
+the [Ni + Ni42Fe38Cu20] coated anodes as well as the tendency of     observed with an average scale thickness of 422.94 μm which was the
+the [Ni–Cr20 + Ni42Fe38Cu20] coated anodes to blister and adhere     largest of all analysed cross-sections. The corrosion scale thickness of
+poorly to the bulk. The relatively thin electrolyte penetration zone     the bulk Ni–Cr20 anode #2 was measured to average out at 121.57 μm,
+can be observed underneath the scale, as well as the tendency of the     with a large variance around its perimeter. Between each bulk Ni–Cr20
+
+                                                                        9
+
+## PDF page 10
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+                    Fig. 12. EDX mappings of Cr-coated and base anode cross-sections after 1 h of electrochemical measurements at 800 ◦C.
+
+
+anode, it is inconclusive as to whether the large difference in average     causing irregular current density distributions that lead to the irregular
+corrosion scale thickness is due to the delamination of the scale during     corrosion scale formation observed in Fig. 14.
+electrolysis or due to an intrinsic variance in the corrosion mechanism.
+The scale structure observed for bulk Ni–Cr20 anode #1 in Fig. 14     4. Discussion
+shows a scale with many cracks and empty blisters – supporting the
+notion that catastrophic breakaway corrosion in bulk Ni–Cr20 an-     4.1. Coating of alloys oxidation resistance
+ode #2 and a thinner resultant scale gives the illusion of a reduced
+electrolyte attack and improved performance. Of the coated anodes,       The microstructural evolution of the coatings can be interpreted
+Ni–Cr20 samples were also observed to be the most prone to blistering,     using the Thornton structure zone model (SZM). This model describes
+which would suggest this material possesses an inability to reliably     sputtered film morphologies as a function of the homologous tem-
+form a compact, adherent and suitably protective corrosion scale within     perature (𝑇∕𝑇𝑚, calculated in Kelvin) and working pressure during
+these electrochemical conditions. With respect to the pure Ni anodes,     deposition [22]. For Ni (𝑇𝑚= 1455 ◦C [23]) and Cr (𝑇𝑚= 1840 ◦C [24]),
+a similar comparison can be made, albeit with a reduced effect. A     the effective deposition temperatures were 𝑇Cr = 143 ◦C, 𝑇Ni = 208 ◦C,
+large variance in average scale thickness is observed with 244.19 μm    and 𝑇Ni–Cr20 = 242 ◦C. At these relatively low homologous temperatures
+for Ni anode #2 compared to 139.67 μm for Ni anode #1. Electrolysis    and under a working pressure of 0.47 Pa, the coatings fall within Zone
+of the pure Ni anodes lead to the formation of a more compact and    𝑇  of the Thornton SZM, which is characterised by dense columnar
+dense scale with a more irregular morphology, a behaviour which is     grains with straight boundaries [22]. This is consistent with the fine,
+weakly mimicked by their [Ni + Ni42Fe38Cu20] counterparts, and more     well-defined columnar structures observed in the Ni coating, Fig. 4a.
+strongly mimicked in [Ni–Cr20 + Ni42Fe38Cu20] anodes. The highly    The Cr coating also displayed columnar growth but with bending of
+Ni-rich material selection for the pure Ni and bulk Ni–Cr20 anodes     the columns at one-third of the thickness (Fig. 5a). Such behaviour is
+is likely inducing extensive NiF2 formation, passivating the anode and    most likely related to the cylindrical sample geometry and associated
+
+                                                                        10
+
+## PDF page 11
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+                             Fig. 13. EDX mappings of Ni and Ni–Cr20 coated anode cross-sections after 1 h of operation at 800 ◦C.
+
+
+shadowing or rotation effects during deposition [25]. The Ni–Cr20 coat-     continuous due to the rough surface morphology, the columnar gaps
+ing exhibited wider columns, which can be attributed to co-sputtering    were sealed by Cr2O3, which contributed to its protective properties.
+of two elements and associated changes in atom mobility (Fig. 6a).    The relatively small oxide thickness may be explained by the short
+Nevertheless, this coating also corresponds to Zone T.                       testing time. An interdiffusion zone (approximately 3 μm) formed at
+   The samples were oxidised at 800 ◦C for 1 h, both with and without     the coating–substrate interface. Cr diffused into the substrate, but no
+a prior vacuum-annealing step at the same temperature. After heat     substrate elements were detected in the coating, Fig. 5b. This behaviour
+treatment at 800 ◦C, significant differences in diffusion and oxida-      reflects the well-established protective role of Cr2O3 as a TGO in high-
+tion behaviour were evident among the three coatings. Fig. 4b shows     temperature environments [27]. Coatings without vacuum treatment
+that the Ni coating underwent rapid interdiffusion with the substrate,     exhibited similar behaviour, although no IDZ could be observed, Fig.
+resulting in the disappearance of its columnar morphology and the     4c.
+formation of a mixed interface. Fe and Cu diffused into the coating,       The Ni–Cr20 coating exhibited intermediate behaviour, combining
+while Ni diffused into the substrate. A two-layered thermally grown     features of both pure coatings. A continuous Cr2O3 scale formed, which
+oxide (TGO) developed, consisting of an outer Fe–Ni-rich oxide and     effectively sealed the columnar gaps. This result was expected given
+an inner NiO-rich layer. This oxidation mechanism is consistent with     that Cr has a higher affinity for oxygen and greater thermodynamic
+outward Fe diffusion and inward Ni oxidation, and is comparable to      stability than Ni [28,29]. Similar findings have been reported in other
+the oxidation of the uncoated Ni–Fe–Cu alloy [26]. The coating in Fig.     studies of Ni–Cr20 coatings, in which NiCr2O4 spinel and NiO were
+4c shows similar behaviour. Internal oxidation is more prevalent due to     also identified, in addition to Cr2O3 [29,30]. In the present study,
+the intercolumnar gaps. Since no vacuum treatment was performed, the    however, only Cr2O3 was observed, Fig. 6b. Unlike the pure Ni coating,
+columns closed off by oxidation, causing deeper penetration of oxygen     the Ni–Cr20 coating suppressed interdiffusion at the coating–substrate
+inside the coating. These findings confirm that pure Ni does not provide     interface. This confirms that even moderate Cr additions can stabilise
+an effective diffusion barrier under these conditions.                     oxide formation and enhance barrier performance. Nevertheless, EDX
+   The Cr coating behaved differently. After exposure at 800 ◦C for     detected Cu and Fe within the coating at levels of 5–9 at%, indicating
+1 h, vacuum treatment followed by air oxidation, a thin but protective     that diffusion still occurred to some extent, albeit less than in pure Ni.
+Cr2O3 scale formed on the surface. Although the oxide was not fully    The diffusion behaviour observed here is consistent with the findings of
+
+                                                                        11
+
+## PDF page 12
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+
+
+
+                      Fig. 14. SEM cross-sections of two pure Ni and bulk Ni–Cr20 anodes after 1 h of operation in electrolysis at 800 ◦C.
+
+
+Jalilvand et al. [29]. The coating in Fig. 6c without vacuum treatment    upon initial contact with the electrolyte, leaving behind only a weakly
+shows columnar gaps with minor oxide formation. The coating itself     Cr-enriched surface, would then explain the similar kinetics character-
+exhibits interdiffusion and sealing due to the formation of a closed TGO.      istics between [Cr + Ni42Fe38Cu20] and Ni42Fe38Cu20 anodes observed
+   Overall, the results demonstrate the strong influence of coating com-     in Fig. 7.
+position on high-temperature performance. The Ni coating offered only       Comparing pure Ni anodes with their [Ni + Ni42Fe38Cu20] coun-
+short-term protection and was prone to rapid interdiffusion and non-     terparts, the fluoridation kinetics are broadly comparable, as reflected
+protective oxide formation. In contrast, the Cr and Ni–Cr20 coatings    by the overlapping exchange current density (i0(cl)) values. The lower
+showed significantly better oxidation resistance, with adherent and     average  𝑖0(cl) observed for the [Ni + Ni42Fe38Cu20] coated anodes
+protective Cr2O3 scales. These findings underscore the importance of Cr      likely arises from the anode surface behaving similarly to an uncoated
+in stabilizing protective oxide layers and highlight the Ni–Cr20 compo-     ternary Ni–Fe–Cu alloy. The higher driving force of fluoridation for
+sition as a promising compromise between structural compatibility and    Fe promotes its preferential corrosion and segregation from the bulk,
+oxidation resistance.                                                         resulting in the development of a Ni–Cu-enriched region beneath the
+                                                                         corrosion scale. The formation of a Ni–Cu-rich depletion zone, with a
+4.2. Corrosion behaviour                                       Cu content exceeding that of the bulk alloy, is expected to reduce the
+                                                                                local electrochemical activity towards fluorine. In addition, continued
+4.2.1. Metal dissolution                                                      fluoridation of Fe is increasingly limited by diffusion from the bulk
+   The electrochemical activity of the unoxidised substrate is charac-    through this depletion zone. Together, these effects provide a plausible
+terised by the apparent exchange current density (i0(𝑐𝑙)) which serves     explanation for the lower average exchange current densities observed
+as a kinetic proxy for the metal fluoridation reaction that can be     for both the uncoated base alloy and the Ni-coated anodes.
+generalised as M + nF−→ MF𝑛+ ne−, where 𝑀 represents Ni, Fe,       The relationship between initial electrochemical activity and scale
+Cu or Cr constituents reacting with fluoride species (F− or AlF𝑥).     thickness reveals a transition in behaviour at > 100 μm (Fig. 10a). Up
+The electrochemical measurements suggest a lack of improvement in     to a thickness of approximately 100 μm, increased kinetics on the clean
+corrosion resistance compared to the base alloy, for all three coat-     surface  (i0(𝑐𝑙)) and oxidised surface (i0(𝑜𝑥)) correlates with increased
+ing types. Fig. 7 shows that both Ni and Cr-coated anodes cannot     scale growth and subsequent wear rate as defined by Eq. (2). This
+be said to have behaved significantly differently than the base alloy     positive correlation expectedly increases for i0(𝑜𝑥). At > 100 μm scale
+with respect to metal dissolution/fluoridation. The rapid interdiffusion     thickness a decrease in the clean surface kinetics is observed. This
+observed for the Ni-coating with substrate elements likely means the     indicates that the reduced metal dissolution kinetics prior to oxygen
+[Ni + Ni42Fe38Cu20] surface exposed to the electrolyte is similar in     evolution do not necessarily translate to a more protective substrate,
+composition to the uncoated Ni42Fe38Cu20 alloy, which correlates with     as the anodes with the thickest average corrosion scales (bulk Ni–Cr20
+the similar dissolution behaviour observed between the two. For the    and Ni) form insulating compounds such as NiF2 which lead to cell
+Cr-coated anodes, whilst the observed interdiffusion was less extensive     passivation and an increase in the kinetics on the oxidised anode
+compared to the Ni-coated anodes, exposure to the molten electrolyte     surface.
+likely caused the rapid fluoridation of the Cr coating from, as evidenced       The Ni–Cr20 coating was observed to have a much greater (albeit
+by the weak Cr presence in Fig. 5, due to the greater thermodynamic     negative) impact with a measured increase in the electrochemical
+drive for fluoridation of Cr compared to Ni [31]. Rapid Cr dissolution     activity compared to the base alloy. Upon exposure to the bath, the
+
+                                                                        12
+
+## PDF page 13
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+greater driving force of fluoridation for Cr would cause its preferential     AlF𝑥 (Fig. 5b), with the diffusion of Cr into the substrate likely affecting
+corrosion and segregation from the Ni–Cr20 matrix, leaving behind a     the corrosion mechanism after the dissolution of the Cr2O3 layer due
+Cr-depleted and Ni-rich layer. The dealloying caused by Cr segregation     to the high oxygen affinity of Cr. A key perceived benefit of the Cr-
+has been observed to increase porosity of the Ni-rich region underneath,     coating versus the Ni and Ni–Cr20 coatings, is that it does not enrich the
+which would lend itself to greater infiltration from the electrolyte as    anode surface with Ni, limiting the NiO → NiF2 corrosion pathway. The
+well as enhancing dissolution of the coating via a galvanic coupling      slight increase in the Cr-coated i0(𝑜𝑥) observed versus the base alloy may
+effect [32,33]. This effect appears to be mitigated in the bulk Ni–Cr20    be explained by Cr presence in the substrate-alloy interface interfering
+anode, where the homogeneous distribution of Cr enables continuous    with the oxidation mechanism that allows for NiFe2O4 formation. Both
+replenishment of Cr at the anode surface via diffusion from the bulk,    NiO and Fe2O3 formation is likely inhibited by the Cr present due
+thereby limiting the formation of a severely Cr-depleted, porous Ni-rich     to its high oxygen-affinity. Both of these oxides are prerequisites for
+sub-layer.                                                               the spinel (Ni,Fe)O forms [19,26,36]. The formation of Cr2O3 would
+                                                                           therefore be prioritised in locally rich Cr regions, and the resultant scale
+4.2.2. Oxide dissolution                                           would then demonstrate an increase in the apparent exchange current
+   The kinetics of oxide scale dissolution is characterised by i0(𝑜𝑥), en-     density i0(𝑜𝑥) and a greater anodic consumption rate relative to the more
+compassing both direct oxide dissolution (as per Eq. (1)) and electrolyte     insoluble (Ni,Fe)O scale of the uncoated anodes.
+penetration and subsequent metal fluoridation on the oxidised surface        Ultimately, the roles of the fluoride species such as F− and AlF𝑥
+of the anode during electrolysis [17].                                       in oxide dissolution facilitates both the flux of metal Ni, Fe, Cu and
+   The base composition is known to produce a thick, well-adhered and    Cr ions into the bath via direct scale/metal dissolution, as well as
+relatively insoluble NiFe2O4 layer during oxidation [26]. In general,    forming insulating NiF2 phases in Ni-rich environments that may lead
+the coatings worsened the measured electrochemical activity of the     to anode failure. The tendency of all the coatings to produce other more
+oxidised anode surfaces (i0(𝑜𝑥)) in each case, with the worst-performer     soluble oxide products instead of NiFe2O4 during initial electrolysis and
+Ni–Cr20, causing an approximate ten-fold increase in the apparent    oxygen evolution, provides an explanation for the base-alloy ultimately
+exchange current density on their oxidised surface compared to the     possessing the lowest calculated wear rate as per Eq. (2) (Fig. 9) over
+base alloy. Fig. 6b shows how these coated anodes tend to oxidise with     the duration of the measurements.
+a Cr2O3 layer across the perimeter of the grains, with no NiO. During
+electrolysis this Cr2O3 layer is formed during oxygen evolution on the     4.2.3. Wear rate & scale morphology
+anodes surface, where F− and AlF𝑥 species facilitate the subsequent        Despite this, SEM and EDX analysis of the corrosion scales demon-
+dissolution of this Cr2O3 layer through the formation of soluble oxyflu-     strates a change in scale morphology as well as electrolyte penetration
+oride Cr complexes [34]. Thin and soluble Cr2O3 formations would    depth across each anode archetype. Comparing the corrosion scale of
+then be prone to a higher frequency of electrolyte penetration, where     the Cr-coated anodes, which possessed the lowest calculated wear-
+the aggressive fluoride species can come into contact with the metal     rate (Eq. (2)) of the coated variants, to the uncoated anodes with the
+anode surface [17] giving rise to more extensive anode dissolution.     lowest overall calculated wear rate - on average the Cr-coated anodes
+Consequently, due to the minimal interdiffusion of substrate elements     possess a thinner corrosion scale, less extensive blistering and a reduced
+into the coating, a highly Ni-rich environment is then exposed to the     electrolyte penetration depth into the bulk (Fig. 5, Table 3). While the
+electrolyte as the finite Cr coating is depleted, becoming subject to    appearance of a thin, well-adhered scale might suggest material loss
+significant fluoridation from F− and AlF𝑥 species. Extensive blistering     during electrolysis, the reduced penetration of the electrolyte into the
+of the scale occurred in 2/3 of the [Ni–Cr20 + Ni42Fe38Cu20] coated    anode substrate (Table 3) supports the hypothesis that the Cr-coating
+anodes, with EDX mappings (Fig. 13) suggesting the presence of a     provides superior bulk protection.  It  is proposed that initial Cr2O3
+relatively high amount of NiF2 resulting from Ni fluoridation. For the     formation acts as a sacrificial barrier, providing a period of protection
+[Ni–Cr20 + Ni42Fe38Cu20] anodes  it  is probable that the high Ni-     to the substrate underneath to form NiFe2O4  - similar to the role of
+content lends itself to extensive NiO formation during electrolysis [35]     external Cu oxidation in facilitating the formation of NiFe2O4 [19,26,
+(with the thin Cr2O3 rapidly dissolving) which then evolves to NiF2    36] on the surface of regular Ni–Fe–Cu anodes. The initial formation
+via nickel fluoridation, passivating the cell and causing extensive cor-    and dissolution of a Cr2O3 barrier into the bath (via the formation
+rosion where passivation in this context refers to the formation of     of soluble Cr complexes) would explain the increased kinetics on the
+NiF2, an electrical insulator. While this layer inhibits the intended     oxidised surface of the Cr-coated anodes measured in Fig. 8, as well
+electrochemical reaction,  it leads to localised cell polarisation and     as the near absence of the Cr in EDX mappings (Fig. 5). Consequently,
+high over-potentials, which physically destabilise the scale and cause      this would mean the Cr-coating is effective in providing some short-
+the observed blistering. For the bulk Ni–Cr20 anode, the consistent    term protection for up to 1 h in these electrolysis conditions. A similar
+diffusion of Cr from the bulk to the surface likely somewhat inhibits     albeit weaker behaviour is demonstrated by the [Ni + Ni42Fe38Cu20]
+the formation of NiO in favour of Cr2O3, limiting this passivation effect.     anodes.
+The lack of Fe also means the relatively insoluble (Ni, Fe)O cannot form       The increase in measured electrochemical parameters (correlating
+and reduce the rate of anodic consumption.                                to poorer corrosion resistance) in Cr and Ni coated anodes can then be
+   The Ni-coated anodes seem to avoid this passivation behaviour     linked to the accelerated dissolution of the coating material rather than
+due to substantial interdiffusion between the coating and substrate     the substrate material, with the substrate being partially insulated from
+elements, allowing for the formation of less detrimental (Ni,Fe)O and     fluoridation, as evidenced by the reduced penetration of the molten
+Fe-oxides, leading to a corrosion mechanism comparable to that of a     electrolyte (Table 3). The Cr and Ni coated anodes leaving behind a
+Ni–Fe–Cu surface where a more protective oxide can form. For the    more compact corrosion scale may also mean that the calculated wear
+pure Ni anode, a stable oxide was not formed and passivation via NiF2     rate over electrolysis runs beyond 1 h could be lower than that of the
+formation occurred. The lower electrochemical activity of the oxide for    uncoated base alloy, although this cannot be stated with certainty based
+the Ni anode compared to the bulk Ni–Cr20 anode can be explained      off of the measurements presented in this study. Overall, elemental Cr
+via the absence of the more reactive Cr and a galvanic coupling effect    and Ni coatings can be said to provide short-term protection to the
+potentially accelerating anodic consumption. Fig. 8 demonstrates how    anode in these electrolysis conditions.
+the Cr-coating, with an average i0(𝑜𝑥) still higher than the uncoated base       The corrosion mechanism of Ni–Cr20 coatings on average, while
+composition, had the lowest measured electrochemical activity across     also able to insulate the bulk from attack by the molten electrolyte and
+all coated samples. A thin Cr2O3 layer likely forms during the initial     fluoridation in a similar manner (Table 3), greatly enhances passivation
+stages of electrolysis where it is subject to dissolution from F− and    and cannot be said to provide any short-term benefit to the anode.
+
+                                                                        13
+
+## PDF page 14
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+Taken together with the findings of Jalilvand et al. [21], which reports    CRediT authorship contribution statement
+delamination of [Ni–Cr + (Co,Ni)O] coatings during electrolysis for Ni-
+rich and Cu-rich ternary alloys, the present results strongly indicate      Thomas Jamieson: Writing – review & editing, Writing – original
+that Ni–Cr20 is not a suitable coating material for Ni–Fe–Cu anodes      draft, Visualization, Investigation, Formal analysis, Conceptualization.
+and may be limited to strictly boosting corrosion resistance in dry    Ronja Anton: Writing – review & editing, Writing – original draft,
+oxidising environments such as air and O2, in which the [Ni–Cr20 +     Visualization, Methodology, Investigation, Formal analysis, Conceptu-
+Ni42Fe38Cu20] anodes showed promise.                                       alization. Andrey Yasinskiy: Writing – original draft, Methodology,
+   Overall, [Cr + Ni42Fe38Cu20] anodes possess slightly better elec-     Investigation, Formal analysis. Roman Düssel: Supervision, Resources.
+trochemical parameters than their [Ni + Ni42Fe38Cu20] counterparts,     Ralf Busch: Writing – review & editing, Supervision, Resources. Uwe
+with an average calculated wear rate of 1.19 g/m2 h vs. 1.31 g/m2 h     Schulz: Writing – review & editing, Supervision, Resources. Bernd
+respectively. In addition, when also considering the improved corrosion     Friedrich: Supervision, Resources. Isabella Gallino: Writing – review
+scale uniformity and adhesion observed in the Cr-coated anodes, it can   & editing, Supervision, Resources, Conceptualization.
+be concluded that the Cr-coating was the strongest performer of the
+Cr/Ni/Ni–Cr20 coating types, followed closely by the Ni-coating. The    Declaration of competing interest
+Cr/Ni coating layers were observed to partially insulate the underly-
+ing Ni42Fe38Cu20 substrate material from corrosion during the initial       The authors declare that they have no known competing finan-
+stages of electrolyte exposure, potentially allowing time for favourable      cial interests or personal relationships that could have appeared to
+(Ni, Fe)O spinel formation underneath. Future studies should seek to     influence the work reported in this paper.
+prolong the coating layer lifespan through the selection of a more
+insoluble coating constituent and through the potential application of    Acknowledgements
+pre-oxidation treatments on [coating + alloy] anodes.
+                                                                        For the technical support at the DLR – German Aerospace Center the
+5. Conclusion                                                         authors thank A. Handwerk, R. Nodeh-Farahani and J. Brien as well as
+                                                                              E. Wiesner and J. Müller. The authors would also like to thank the Chair
+                                                                              of Metallic Materials at Saarland University for long-term collaboration
+   The viability of Ni, Cr and Ni–Cr20 as coatings to improve the
+                                                              and technical support. This work was carried out within the framework
+corrosion resistance of Ni42Fe38Cu20 wt% oxygen-evolving anodes for
+                                                                              of ongoing research activities at the Technical University of Berlin,
+aluminium electrolysis was investigated. Each coating demonstrated
+                                                                        the German Aerospace Center (DLR), and TRIMET Aluminium SE. No
+good adhesion to the bulk. Extensive interdiffusion between the coating
+                                                                                  specific external grant funding was received for this study.
+and substrate was observed for the Ni-coating, leading to an oxida-
+tion behaviour that mimics regular Ni–Fe–Cu compositions with an
+                                                             Data availability
+enhanced Ni:Fe ratio and demonstrates the inefficacy of pure Ni to act
+as a diffusion barrier at elevated temperatures. For both the Cr and
+                                                                The data that support the findings of this study are available from
+Ni–Cr20 coating, interdiffusion was found to be greatly reduced by the
+                                                                        the corresponding author upon reasonable request.
+presence of a Cr2O3 oxide layer across the grain boundaries, consistent
+with established literature.
+   Electrochemical measurements concluded that the apparent ex-                                                                 References
+change current densities (i0(𝑐𝑙),i0(𝑜𝑥)) and the resulting calculated wear
+rates (WR) were, on average, higher in the Cr and Ni-coated anodes        [1]  International Aluminium Institute, Primary aluminium production, 2024, https://
+compared to the base alloy after 1 h of operation. However, SEM            international-aluminium.org/statistics/primary-aluminium-production. (Accessed
+analysis does show a more compact corrosion scale forming for both of          23 July 2025).
+                                                                                            [2]  A.S. Yasinskiy, S.K. Padamata, P.V. Polyakov, A.S. Samoilo, A.V. Suzdaltsev, A.Y.
+these coating types, along with a reduced average penetration depth of
+                                                                                                 Nikolaev, Electrochemical behaviour of Cu-Al oxygen-evolving anodes in low-
+the electrolyte into the bulk. This is evidence for a noticeable degree of            temperature fluoride melts and suspensions, in: A. Tomsett (Ed.), Light Metals
+short-term protection provided by these coatings, where the increased           2020, 2020, pp. 591–599, http://dx.doi.org/10.1007/978-3-030-36408-3_81.
+electrochemical activity and calculated wear-rates are attributed to the        [3]  S. Helle, B. Brodu, B. Davis, D. Guay, L. Roué, Influence of the iron content in
+sacrificial dissolution of the coating material during initial operation,           Cu–Ni based inert anodes on their corrosion resistance for aluminium electrolysis,
+                                                                                                    Corros. Sci. 53 (2011) 3248–3253, http://dx.doi.org/10.1016/j.corsci.2011.05.
+rather than the consumption of the bulk material.                                   069.
+   The Ni–Cr20 coating did not express this behaviour, possessing the        [4]  T.R. Beck, A non-consumable metal anode for production of aluminum with
+highest apparent kinetics of metal and oxide dissolution, the highest            low-temperature fluoride melts, Light Met. 69 (1995) 355–360.
+wear-rate and the least compact corrosion scale in large part due to its        [5]   I. Gallino, Phase Diagram, Thermal Stability, and High Temperature Oxidation
+                                                                                                        of the Ternary Cu-NI-FE System (Ph.D. thesis), Oregon State University, 2004.
+catastrophic enhancement of the NiO → NiF2 corrosion pathway. This        [6]   I. Gallino, M.E. Kassner, R. Busch, Oxidation and corrosion of highly alloyed
+behaviour was avoided by the Ni coated anodes via the rapid interdiffu-           Cu–Fe–Ni as inert anode material for aluminum electrowinning in as-cast and
+sion of the coating and substrate elements reducing local Ni-enrichment           homogenized conditions, Corros. Sci. 63 (2012) 293–303, http://dx.doi.org/10.
+and facilitating Fe-oxidation. In comparison to the base Ni42Fe38Cu20             1016/j.corsci.2012.06.013.
+                                                                                            [7]  K. Singh, G.M. Haarberg, A.R. Mallah, G. Gunnarsson, T. Jamieson,  I. Gallino,
+alloy, the coated Cr and Ni variants were seen to reduce corrosion                                                                                             G. Saevarsdottir, Overpotential on oxygen-evolving platinum and Ni-Fe-Cu anode
+scale blistering and pore formation in the substrate directly beneath              for low-temperature molten fluoride electrolytes, JOM 76 (2024) 3284–3293,
+the scale, demonstrating positive effects on the resultant structure.                http://dx.doi.org/10.1007/s11837-024-06425-5.
+   While the Cr and Ni coatings demonstrated signs of superior sub-        [8]  G. Saevarsdottir, G.M. Haarberg, M. Bourmaud, K. Singh, S.K. Padamata, Anodic
+                                                                                           behaviour of Ni42Fe38Cu20 electrode in molten fluoride salts, Electrochem. Soc.
+strate protection within the first hour of operation, the rapid depletion                                                                                170 (2023) 072508, http://dx.doi.org/10.1149/1945-7111/ace5e3.
+of the coating suggests that long-term corrosion resistance may eventu-        [9]  X. Zhang, G. Yao, Y. Liu, J. Ma, Z. Zhang, Effects of the additive ZrO2 on
+ally revert to that of the base composition. Future studies should focus             properties of nickel ferrite cermet inert anode, in: S.J. Lindsay (Ed.), Light Metals
+on extending coating longevity through pre-oxidation treatments — to           2011, 2011, pp. 1129–1134, http://dx.doi.org/10.1007/978-3-319-48160-9_191.
+                                                                                      [10]  H. He, H. Xiao, K. Zhou, Effect of additive BaO on corrosion resistance of
+stabilise the [oxide + coating] interface — or through the investigation
+                                                                                       xCu/(10NiO-NiFe2O4) cermet  inert anodes  for aluminum  electrolysis, Trans.
+of more insoluble coating constituents that can better facilitate the            Nonferr. Met. Soc. China 21 (2011) 102–108, http://dx.doi.org/10.1016/S1003-
+prolonged formation of the protective nickel ferrite (NiFe2O4) spinel.             6326(11)60684-5.
+
+                                                                        14
+
+## PDF page 15
+
+T. Jamieson et al.                                                                                                              Journal of Alloys and Compounds 1080 (2026) 190290
+
+
+[11]  Z. Zhigang, X. Jianrong, Sintering kinetics and properties of NiFe2O4-based      [25] M.M. Hawkeye, M.J. Brett, Glancing angle deposition: Fabrication, properties,
+      ceramics  inert anodes doped with TiN  nanoparticles,  Int.  J. Appl. Ceram.           and applications of micro- and nanostructured thin films, J. Vac. Sci. Technol.
+      Technol. 20 (2023) 329–340, http://dx.doi.org/10.1111/ijac.14231.                 A 25 (2007) 1317–1335, http://dx.doi.org/10.1116/1.2764082.
+[12]  L. Cassayre, T.A. Utigard,  S. Bouvet, Visualizing gas evolution on graphite      [26]  T. Jamieson, D. Apel, A. Yasinskiy, R. Düssel, P. Decker, et al., On the long-term
+     and oxygen-evolving anodes, JOM 54 (2002) 41–45, http://dx.doi.org/10.1007/            oxidation behaviour of homogeneous Ni-Fe-Cu alloys for CO2-free aluminium
+      BF02701696.                                                                             electrowinning applications at 800◦C, J. Mater. Sci. (2025) http://dx.doi.org/10.
+[13] A.M. Popescu, Current efficiency obtained with SnO2-based  inert anodes in           1007/s10853-025-11313-7.
+      laboratory aluminium cell, Z. Naturforsch. A 56 (2001) 735–738, http://dx.doi.      [27]  D. Caplan, G.I. Sproule, Effect of oxide grain structure on the high-temperature
+      org/10.1515/zna-2001-1106.                                                               oxidation  of  Cr,  Oxid. Met. 9 (1975) 459–472,  http://dx.doi.org/10.1007/
+[14]  R. Galasiu, Inert anodes for aluminium electrolysis: Variation of the properties           BF00612672.
+       of nickel ferrite ceramics as a function of the way of preparation, in: Proc. 11th      [28]  E. Epifano, D. Monceau, Ellingham diagram: A new look at an old tool, Corros.
+        Int. Al. Symp, 2001, pp. 19–22.                                                                      Sci. 217 (2023) 111113, http://dx.doi.org/10.1016/j.corsci.2023.111113.
+[15]  T.R.  Beck,  C.M.  Macrae,  N.C.  Wilson,  Metal anode  performance  in  low-      [29]  V. Jalilvand, S. Mohammadkhani, F.B. Ettouil, L. Roué, A. Dolatabadi, D. Guay,
+      temperature electrolytes for aluminum production, Met. Mater. Trans. B 42             C. Moreau, The effect of bond coat on the high-temperature behavior of HVOF-
+      (2011) 807–813, http://dx.doi.org/10.1007/s11663-011-9511-8.                          sprayed (Co, Ni)O coating on Cu-Ni-Fe anodes, Surf. Coat. Technol. 441 (2022)
+[16]   I. Galasiu, R. Galasiu, J. Thonstad, Inert Anodes for Aluminium Electrolysis, first           128576, http://dx.doi.org/10.1016/j.surfcoat.2022.128576.
+       ed., Aluminium-Verlag, Düsseldorf, 2007.                                          [30]  A. Ul-Hamid, Diverse scaling behavior of the Ni–20Cr alloy, Mater. Chem. Phys.
+[17]  A. Yasinskiy, T. Jamieson, K. Singh, G. Gunnarsson, J. Magnusson, D. Feldhaus,          80 (2003) 135–142, http://dx.doi.org/10.1016/S0254-0584(02)00472-7.
+      R.  Düssel,  I.  Gallino,  B.  Friedrich,  Correlation between corrosion  rate and      [31]  X. Yaxin, Y. Wang, C. Zeng, Electrochemical studies of the corrosion of pure
+      electrochemical parameters of anode process on the metallic electrode in molten             Fe, Ni and Cr in molten (Li, Na, K)F, High Temp. Mater. Process. 33 (2013)
+       oxyfluorides, Light Met. (2024) 596–601.                                                http://dx.doi.org/10.1015/htmp-2013-0071.
+[18]  S.K. Padamata, K. Singh, G.M. Haarberg, G. Saevarsdottir, Anodic behavior of      [32]  P. Asghari-Rad, N. Smith, S. Kim, F. Shi, H. Kim, Electrochemical stability and
+      Ni48Fe47Cu5 and Ni42Fe38Cu20 in potassium-rich NaF-KF-AlF3-Al2O3 melts, JOM             corrosion behavior of Ni-Cr alloy in molten LiCl-KCl salt, Electrochim. Acta 532
+     76 (2024) 3275–3283, http://dx.doi.org/10.1007/s11837-024-06512-7.                    (2025) 146507, http://dx.doi.org/10.1016/j.electacta.2025.146507.
+[19]  E. Gavrilova, G. Goupil, B. Davis, D. Guay, L. Roué, On the key role of Cu on      [33]  P. Asghari-Rad, N. Smith, S. Kim, F. Shi, H. Kim, Evolution of micro-pores
+      the oxidation behavior of cu–ni–fe based anodes for al electrolysis, Corros. Sci.             in Ni–Cr alloys via molten salt dealloying, Sci. Rep. 12 (2022) 20785, http:
+     101 (2015) 105–113, http://dx.doi.org/10.1016/j.corsci.2015.09.006.                     //dx.doi.org/10.1038/s41598-022-20286-5.
+[20]  V. Jalilvand, S. Mohammadkhani, F.B. Ettouil, L. Roué, A. Dolatabadi, D. Guay,      [34]  D. Šuleková, V. Danielik, P. Fellner, J. Thonstad, Solubility of chromium(III)
+       C. Moreau, The effect of bond coat on the high-temperature behavior of HVOF-            oxide in the molten cryolite system, Metall. Mater. Trans. B 44 (2013) 328–331,
+      sprayed (Co, Ni)O coating on Cu-Ni-Fe anodes, Surf. Coat. Technol. 441 (2022)            http://dx.doi.org/10.1007/s11663-012-9788-2.
+      128576, http://dx.doi.org/10.1016/j.surfcoat.2022.128576.                         [35]  K. Singh, T. Jamieson, G. Gunnarsson, G. Haarberg,  I. Gallino, R. Busch,  J.
+[21]  V. Jalilvand, Thermal Spray Coating Development of Inert Anode for Aluminum           Magnusson, G. Saevarsdottir, Ni–Fe-based alloy as oxygen evolving anode for
+       Electrolysis Process (Ph.D. thesis), Concordia University, 2022.                              sustainable aluminum production, Electrochim. Acta 552 (2026) 148195, http:
+[22]  J.A. Thornton, The microstructure of sputter-deposited coatings,  J. Vac.  Sci.            //dx.doi.org/10.1016/j.electacta.2026.148195.
+      Technol. A 4 (1986) 3059–3065, http://dx.doi.org/10.1116/1.573628.               [36]  S. Helle, M. Pedron, B. Assouli, B. Davis, D. Guay, L. Roué, Structure and high-
+[23]  L. Jordan, W.H. Swanger, The properties of pure nickel, Bureau Stand. J. Res. 5            temperature oxidation behaviour of Cu–Ni–Fe alloys prepared by high-energy
+      (1930) 1291–1307.                                                                                 ball milling for application as inert anodes in aluminium electrolysis, Corros.
+[24]  D.S. Bloom,  J. Putman, N. Grant, Melting point and transformation of pure               Sci. 52 (10) (2010) 3348–3355, http://dx.doi.org/10.1016/j.corsci.2010.06.011.
+      chromium, JOM 4 (1952) 626.
+
+
+
+
+
+                                                                        15

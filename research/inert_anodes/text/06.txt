@@ -1,0 +1,292 @@
+Source: literature/ConductivityOfLowTemperatureKF_ALF3ElectrolytesContainingLiF_Al2O3.pdf
+
+## PDF page 1
+
+ISSN 1023-1935, Russian Journal of Electrochemistry, 2007, Vol. 43, No. 8, pp. 870–874. © Pleiades Publishing, Ltd. 2007.
+Original Russian Text © A.P. Apisarov, V.A. Kryukovskii, Yu.P. Zaikov, A.A. Red’kin, O.Yu. Tkacheva, V.A. Khokhlov, 2007, published in Elektrokhimiya, 2007, Vol. 43, No. 8,
+pp. 916–920.
+
+
+    Conductivity of Low-Temperature KF–AlF3 Electrolytes
+          Containing Lithium Fluoride and Alumina
+
+              A. P. Apisarov, V. A. Kryukovskii, Yu. P. Zaikov, A. A. Red’kin,
+                        O. Yu. Tkacheva, and V. A. Khokhlovz
+                 Institute of High-Temperature Electrochemistry, Ural Branch, Russian Academy of Sciences,
+                                          ul. S. Kovalevskoi 22, Yekaterinburg, 620219 Russia
+                                               Received December 20, 2006
+
+      Abstract—Electroconductance of molten electrolytes KF–AlF3 (cryolite ratio 1.3) containing LiF or/and
+      Al2O3 is evaluated using empirical equations. The electroconductivity of molten mixtures KF–AlF3, KF–AlF3–
+      Al2O3, KF–AlF3–LiF, and KF–AlF3–LiF–Al2O3 is measured in the temperature interval 687 to 797°C. The
+       electroconductivity is determined in cells with a capillary of pyrolytic boron nitride and parallel molybdenum
+       electrodes. Comparing calculated and experimental data on the electroconductivity of cryolite–alumina melts
+      conﬁrms that the model proposed for the calculations reﬂects the temperature and concentration dependences
+       adequately enough and makes it possible to forecast variations in the electroconductivity upon adding different
+      admixtures into the electrolyte.
+
+     Key words: potassium cryolite, conductivity, empirical equations
+     DOI: 10.1134/S1023193507080034
+
+
+           INTRODUCTION                      Earlier we suggested a classiﬁcation for individual mol-
+                                                         ten salts in accordance with their electroconductance
+  The ﬂuoride–oxide melts are too difﬁcult to explore
+                                                and determined basic parameters affecting it [3]. For aexperimentally, because the choice of inert construction
+                                                    base characteristic of the ionic composition and thematerials that may be used for the creation of a conduc-
+timetric cell is relatively poor. The most stable material    ability of a melt to conduct electric current we selected
+is platinum. However, for electroconductivity measure-   an ionic potential (Zie)/ri. Here, e is the electron charge,
+ments to be more accurate, it is necessary to use a cap-  Zi is the nominal charge of the cation, and ri is its crys-
+illary of an insulating material. In the last few years the   tallochemical radius. The ratio Zi/ri = µ i was used to
+capillaries in question were tubes made mostly of pyro-   evaluate electroconductance. The best conductance  is
+lytic boron nitride. However, this material is not univer-                                                –1                                                           inherent in salts with µi below 20 nm  . The melts of salts
+sal either. It undergoes destruction in melts containing                        –1                                                      with µi > 100 nm  are poor electric conductors. The melts
+lithium ﬂuoride. Therefore, we think it very important                                                  –1                                                         of salts with µi between 50 and 100 nm  are poor electricthat experimental exploration of conductivity of ﬂuo-
+                                                     conductors in the vicinity of the melting point, but ele-ride–oxide systems be complemented by empirical
+                                                        vating the temperature by 100–200°C boosts their elec-evaluation. Experiments is the only means to accurately
+evaluate electroconductance, while empirical equations   troconductance by a few orders of magnitude. Alumi-
+allow one to evaluate its value and the tendency of vari-  num ﬂuoride belongs with such salts. Though its electro-
+ations with composition and temperature and thus   conductivity is unknown, it may be estimated accurately
+reduce the amount of experimental work.              enough from some implicit data. The ionic potential of
+                                               Al3+ (66 nm–1) is close to that of Be2+ (64 nm–1), Ti4+
+                                                     (61 nm–1), Zr4+ (55 nm–1), and Hf4+ (55 nm–1). Figure 1
+        EMPIRICAL EVALUATION
+                                                        gives  values  of  electroconductivity  for  systemsOF ELECTROCONDUCTIVITY OF THE KF–ALF3
+                                    KF−BeF2 [4] and KF−ZrF4 [5] at 1000°ë in the interval   SYSTEM CONTAINING ADMIXTURES
+          OF LIF AND AL2O3                   of concentrations of the second component extending
+                                                 from zero to 50 mol %. The electroconducti-vity of the
+  The data on conductivity in molten KF–AlF3 system  KF–AlF3 system [1] containing 25 mol % AlF3 lies
+[1, 2] are not numerous. However, experimental mate-
+                                                 between that of the KF−BeF2 and KF–ZrF4 systems. Onrial available for other ﬂuoride melts permits empirical
+                                                         the basis of this we offer a procedure for calculating theevaluation of the electroconductivity for this system.
+                                                         electroconductivity of molten KF–AlF3. The procedure
+z Corresponding author, e-mail: v.khokhlov@ihte.uran.ru              is based on the similarity between properties of this sys-
+
+                                                870
+
+## PDF page 2
+
+               CONDUCTIVITY OF LOW-TEMPERATURE KF–AlF3 ELECTROLYTES               871
+
+tem (at [AlF3] = 0–50 mol %) and the KF–BeF2 and       σ, S cm–1
+KF–ZrF4 systems. In [3] we put forth the equation          5
+
+                                                                                           1     σ = 6.666 exp                        ⎛ –1052---------------------------------------– 13 487/V ⎞                4                        ⎝       T        ⎠                                                     2
+                                                     (1)                                          3
+                       ⎛ 9.52  276                        3            × exp   --------- + --------⎞,
+                       ⎝ V   V 2 ⎠                                                      2
+where σ is the electroconductivity, in S cm–1;V is the
+molar volume of the melt, in cm3mol–1; and T is the      1
+temperature, in K. This empirical equation satisfacto-
+rily describes the electroconductivity of molten mix-
+tures of alkali metal ﬂuorides. It can be applied to mix-      0        10      20      30      40      50
+tures of alkali metal ﬂuorides with other salts in the                Molar fraction of second component, %
+form that takes into account properties of ﬂuorides of
+polyvalent metals:                                                    Fig.   1.  Experimental  values  of  electroconductivity
+                                                                             for (1) KF–BeF2 [4], (2) KF–AlF3 [1], and (3) KF–ZrF4 [3]
+                                                                     melts at 1000°C.
+                        ⎛      – 13 487/V ⎞     σ = 6.666 exp –1052---------------------------------------
+                        ⎝       T        ⎠
+                                                     (2)                                                         troconductivity increases with decreasing molar vol-
+                  ⎛ 9.52  276⎞        × exp   --------- + -------- exp ( AN ).            ume upon going from KF to LiF.
+                  ⎝ V   V 2 ⎠
+                                               The action of admixtures of dissolved alumina on
+Here, A is an empirical coefﬁcient and N is the molar                                                         the electroconductivity of ﬂuoride electrolytes was esti-
+fraction of the component that is added to an alkali                                               mated in [8, 9]. An analysis of this information suggests
+metal ﬂuoride. Calculated for ﬂuoride melts containing                                                              that the electrolyte’s electroconductivity drops propor-
+AlF3 from the electroconductivity values for NaF– AlF3 [6],                                                             tionally to the alumina content. It is taken into accountA = –1.65. Figure 2 compares values of electroconduc-
+                                                            in the equationtivity calculated with equation  (2), which contains
+coefﬁcient A, with experimental data [6]. As seen, the
+equation accurately describes experimental electrocon-       σ = 6.666 exp ⎛ –1052---------------------------------------– 13 487/V ⎞
+ductivity values for the NaF–AlF3 system as a function                           ⎝       T        ⎠
+of the AlF3 concentration.                                                                                      (3)
+                                                                    ⎛ 9.52  276⎞                                                                  exp ( –1.65N1 ) exp ( –2.5N2 ),                                                                                                2 ⎠   Calculations  of  the  electroconductivity  of  the    × exp ⎝ ---------V  + --------VKF−AlF3 melts are complicated by the following. In
+contradistinction to the LiF–AlF3 and NaF–AlF3 sys-                                               where N1 and N2 are molar concentrations of AlF3 andtems, the KF-containing mixtures are far from being
+                                                     Al2O3, respectively. Tables 1 and 2 list values of elec-ideal. For an electroconductivity calculation to be accu-
+                                                         troconductivity calculated for the KF–AlF3, KF–AlF3–rate, additional information is required, which would
+allow for the fact that the mixtures are not ideal. The   Al2O3, KF–AlF3–LiF, and KF–AlF3–LiF–Al2O3 melts
+most suitable is information about the thermodynamics  (CR = 1.3). The calculation of the molar volume used
+of mixing components of salt mixtures [7]. However, as   the density data [10].
+is exempliﬁed by the KF–BeF2 system (Fig. 3), values
+of electroconductivity calculated at the second-compo-
+nent concentrations in the interval 0–50 mol % are       σ, S cm–1
+close to experimental data even if thermodynamic data      6
+are ignored. Upon going to the three-component system                                        1
+LiF–KF–AlF3, the effect of LiF may be viewed as the                                        2
+                                                      4substitution of the lithium cation for the potassium cat-
+ion. The basic factors that deﬁne the change in the elec-
+troconductivity of this system are the change in the cry-      2
+olite ratio (CR) and the decrease in the molar volume.
+With the molar ratio of the sum of alkali metal ﬂuorides
+to aluminum ﬂuoride retained, the basic factor that
+affects the change in the electroconductivity  is the      0        10      20      30      40      50
+                                                                             Molar fraction of AlF3, %molar volume of the electrolyte. Figure 4 presents val-
+ues of the electroconductivity for the molten KF−LiF
+mixture, which were obtained experimentally in [6] and        Fig. 2. Electroconductivity of molten NaF–AlF3 at 1000°C:
+calculated with (1). At a constant temperature the elec-        (1) calculated and (2) experimental [6].
+
+
+   RUSSIAN JOURNAL OF ELECTROCHEMISTRY    Vol. 43   No. 8   2007
+
+## PDF page 3
+
+872                               APISAROV et al.
+
+σ, S cm–1                                                          σ, S cm–1
+5                                                         12
+                                                                                   1
+                                                                                   2
+4                                     1                    8
+                                      2
+3
+                                                           4
+
+2
+
+                                                           0               50            100
+1                                                                          Molar fraction of LiF, %
+
+                                                                          Fig. 4. Electroconductivity of molten KF–LiF at 1000°C:
+0                      50                    100         (1) calculated and (2) experimental [6].
+                           Molar fraction of BeF2, %
+
+                                                    with two parallel electrodes [11]. The former, with plat-
+    Fig. 3. Electroconductivity of molten KF–BeF2 at 1000°C:
+    (1) calculated and (2) experimental [4].                  inum electrodes, we used in measurements of the elec-
+                                                         troconductivity of potassium cryolite KF–AlF3 (CR =
+                                                               1.3). The material selected for the capillary was pyro-
+     EXPERIMENTAL DETERMINATION            lytic boron nitride. The latter exhibits high corrosion
+      OF ELECTROCONDUCTIVITY               stability in the cryolite melts, has a small coefﬁcient of
+       FOR THE KF–AlF3 SYSTEM              thermal expansion, and is an insulator even at 1000°ë
+   WITH ADMIXTURES OF LiF AND Al2O3        [12]. The capillary was calibrated relative to molten
+                                                   potassium chloride [6] at 790–860°ë. The cell’s con-
+  To estimate the ability of the above empirical equa-                                                             stant was equal to 12.36 ± 0.03 at 690–795°C.
+tions to satisfactorily forecast the electroconductivity
+of the cryolite–alumina melts, measurements were     The  electroconductivity  of  the KF–AlF3–Al2O3,
+taken  of  the  electroconductivity  of  the KF–AlF3,   KF–AlF3–LiF, and KF–AlF3–LiF–Al2O3 melts was
+KF−AlF3–Al2O3, KF–AlF3–LiF, and KF–AlF3–LiF–Al2O3   measured in  cells with  parallel molybdenum elec-
+melts (CR = 1.3) at 687–797°ë.                           trodes. The cell’s constant was determined from the
+  The electrolytes were prepared from individual salts   electroconductivity of KF–AlF3 that was determined in
+AlF3 (chemically pure) and LiF (analytical grade).   the capillary cell. The electroconductivity of the elec-
+Potassium ﬂuoride was taken in the form of KF · HF   trolytes under study, which was measured in cells with
+(acid potassium ﬂuoride). The mixture of components   parallel  electrodes, was  calculated with allowance
+was gradually heated and left for 4–6 h at 700°ë in a  made for the temperature dependence of the constant.
+glassy-carbon container. The absence of the HF group  The resistance of the electrolytes was determined from
+in the electrolyte thus prepared was monitored by deter-   impedance spectra obtained with the aid of an imped-
+mining pH of an aqueous solution of the electrolyte   ance meter Zahner Electric IM6 at ac frequencies of
+salt. An atomic-absorption analysis showed that the   100 Hz to 100 kHz.
+concentration of bound oxygen in the electrolyte did                                                        Table 3 lists values of the electroconductivity of the
+not exceed 0.1 wt %. Alumina that was used in experi-                                               KF–AlF3,   KF–AlF3–Al2O3,   KF–AlF3–LiF,   andments was manufactured at the Achinsk alumina plant.                                              KF−AlF3–LiF–Al2O3 electrolytes (CR = 1.3) measured
+  The  electroconductivity  of  the  electrolytes was    at 797°ë. The temperature dependence of the electro-
+determined in cells of two types: with a capillary and   conductivity in these electrolytes is described by the
+
+
+Table 1. Values of electroconductivity, calculated for mol-   Table 2. Values of electroconductivity, calculated for mol-
+ten KF–AlF3–Al2O3                                           ten KF–AlF3–LiF–Al2O3
+                             σ, S cm–1                       LiF,   Al2O3,                 σ, S cm–1  Al2O3,
+   wt %                                                    wt %   wt %    797°C   747°C   727°C   687°C            797°C    747°C    727°C    687°C
+
+                                                      5      0       1.47      1.39      1.35      1.28
+    0        1.37       1.29       1.26       1.19
+                                                             2       1.42      1.34      1.31      1.23
+    2        1.32       1.25       1.21       1.15
+                                                             3       1.40      1.32      1.29      1.21
+    3        1.30       1.22       1.19       1.13                                                             4       1.37      1.30      1.26      1.29
+    4        1.27       1.20       1.17       1.11        10      0       1.51      1.43      1.40      1.32
+
+
+                                  RUSSIAN JOURNAL OF ELECTROCHEMISTRY    Vol. 43   No. 8   2007
+
+## PDF page 4
+
+               CONDUCTIVITY OF LOW-TEMPERATURE KF–AlF3 ELECTROLYTES               873
+
+Table 3. Empirical coefficients in equation for temperature dependence of conductivity
+
+ Electrolyte composition, wt %   Al2O3, wt %      A ± ∆A          –B ± ∆B        σ at 797°C, S cm–1
+
+
+KF             47.35            0             1.896 ± 0.039       1353.6 ± 28.4                1.22
+
+AlF3            52.65              1.0           1.718 ± 0.036       1244.6 ± 25.7                1.17
+
+                                     2.0           1.751 ± 0.039       1286.1 ± 28.3                1.15
+
+                                     2.8           1.694 ± 0.021       1256.2 ± 14.8                1.13
+
+                                     3.4           1.674 ± 0.062       1249.7 ± 44.7                1.11
+
+KF              39.1             0             1.782 ± 0.012       1178.0 ± 8.7                 1.36
+
+AlF3            55.9              0.97          1.853 ± 0.039       1248.0 ± 27.8                1.33
+
+LiF               5.0              1.91          1.867 ± 0.033       1272.2 ± 24.1                1.31
+
+                                   2.88          2.077 ± 0.030       1440.0 ± 21.2                1.31
+
+                                   3.55          2.099 ± 0.027       1471.6 ± 19.0                1.29
+
+
+linear equation lnσ = A – B/T, where A and B are empirical   ponents of the KF–AlF3 melt interact with one another.
+constants and T is the temperature in degrees Celsius.         It is this interaction that reduces the electroconductivity
+                                                        as compared with the ideal (calculated) value.
+       COMPARING CALCULATED                Thus, the model offered for calculating the electro-
+      AND EXPERIMENTAL DATA              conductivity of the cryolite–alumina melts reﬂects the
+   Figure 5 presents the temperature dependences of   temperature and concentration dependences in the melt
+the electroconductivity of the KF–AlF3 system, which   adequately enough. It allows one to forecast the electro-
+were calculated with (2) and determined experimen-   conductivity variations caused by various admixtures to
+tally. The concentration dependences of the electrocon-   the melt. Coupling experimental and calculation meth-
+ductivity of the KF–AlF3–Al2O3 and KF–AlF3–LiF–   ods makes it possible to reduce the time required for
+Al2O3 melts appear in Fig. 6. The calculated values of   performing experiments. It also gives one a chance to
+the electroconductivity exceed the experimental values   acquire additional information,  in  particular, about
+by 0.1–0.15 S cm–1 in all cases. It follows that the com-                                                            interaction between the melt components.
+
+
+       σ, S cm–1                                                                   σ, S cm–1
+       1.4                             1                                 1.5
+       1.2                                                          1.4                              3
+                                    2
+                                                                     1.3                              1
+                                                                             4       1.0
+                                                                     1.2
+                                                                                     2
+       0.8                                                                     1.1        680       720       760       800                                                            0       1       2       3       4
+                                               T, °C
+                                                                                               [Al2O3], wt %
+
+    Fig. 5. The temperature dependences of electroconductivity            Fig. 6. Electroconductivity of melts containing KF–AlF3
+    of molten KF–AlF3 (CR = 1.3): (1) calculated and (2)         (CR = 1.3) and (1, 2) 5 wt % LiF–Al2O3 and (3, 4) Al2O3:
+    experimental.                                                               (1, 3) calculated and (2, 4) experimental.
+
+
+   RUSSIAN JOURNAL OF ELECTROCHEMISTRY    Vol. 43   No. 8   2007
+
+## PDF page 5
+
+874                               APISAROV et al.
+
+            REFERENCES                              Stafford, G.R., and Trulove, P.C., Eds., Pennington (NJ):
+                                                     The Electrochem. Soc., 2002, p. 453.
+ 1. Yim, E.W. and Feinleb, M., J. Electrochem. Soc., 1957,
+                                                                     8. Klimenkov, A.A., Kurbatov, N.N., Raspopin, S.P., and     vol. 104, p. 626.
+                                                                  Chervinskii, Yu.F., Zh.  Prikl. Khim., 1983,  vol. 58,
+ 2. Danelik, V. and Hives, J., J. Chem. Eng. Data, 2004,                                                                         p. 2537.
+     vol. 49, p. 1414.
+                                                                     9. Abramov, A.G.,  Teoreticheskie osnovy  elektrometal-
+ 3. Redkin, A.A., Zaikov, Yu.P., Tkacheva, O.Yu., and                                                                           lurgii alyuminiya (The Theoretical Foundation of the
+    Kryukovsky, V.A., Proc. 7th Int. Conf. on Molten Salts,                                                  Aluminum Electrometallurgy), Moscow: Metallurgiya,
+    Chemistry, and Technology, Toulouse (France), p. 883.                                                            1953.
+ 4. Koverda, A.P., Extended Abstract of Cand. Sci. (Chem.)                                                             10. Fernandez, R. and Ostvold, T., Acta Chem. Scand., 1989,
+    Dissertation, Sverdlovsk: IVTE AN SSSR, 1981.                                                                 no. 43, p. 151.
+ 5. Darienko,   S.E.,  Koverda,  A.P.,  Kurbatov,  N.N.,                                                             11. Kryukovsky, V., Frolov, A., Tkatcheva, O., Redkin, A.,
+    Raspopin, S.P., and Chervinskii, Yu.F., Zh. Prikl. Khim.,                                                                Zaikov, Yu., Khokhlov, V., and Apisarov, A., Light Met.,
+    1981, vol. 56, p. 2344.                                                            2006, vol. 2, p. 409.
+ 6. Janz, G.J., J. Phys. Chem. Ref. Data, 1974, vol. 3, p. 1.                                                             12. Grotheim, K., Krohn, C., Malinovsky, M., Matiasovsky, K.,
+ 7. Redkin, A., in Proc. 13th Int. Symp. on Molten Salts,      and Thonstad, J., Aluminium Electrolysis, Dusseldorf:
+    Delong,  H.C.,  Bradshaw,  R.W.,  Matsunaga,  M.,       Aluminium, 1982, p. 443.
+
+
+
+
+
+                                  RUSSIAN JOURNAL OF ELECTROCHEMISTRY    Vol. 43   No. 8   2007

@@ -1,0 +1,784 @@
+Source: literature/OPERATIONAL RESULTS OF PILOT CELl, TEST WITH CERMET INERT ANODES.pdf
+
+## PDF page 1
+
+                                                                                                          PNL-SA--21117
+
+
+                                                                                                          DE93     009338
+
+
+
+
+
+                           OPERATIONALRESULTS OF PILOT CELL
+                           TEST WITH CERMET "INERT" ANODES
+
+
+
+
+
+                                       Richland,   Washington    99352
+                            Pacific NorthwestLaboratory                 _ASTER
+
+
+                                                   DI$_IBUTI(IN@F THISOOCUMENTiS UNLIMIT_
+                                                                                                                   •m,,t_,, .,.o,..   ..  -...o
+_                                                                                                                                                                   ,,.....,_,&_,,_,s.._W_'_
+
+## PDF page 2
+
+                                                                                                                                               ii     ,          ,       ,       ii              _i               ,   ,       ,      lh J       ,   ,                         "          "                     '  '
+    i      ,             Ill iH,     ,     i      ,,     .      ,   ,           II              ,,   ,   ,      II       Jl
+
+
+
+
+
+r
+
+
+
+
+
+                                OPERATIONAL   RESULTS  OF PILOT  CELl,  TEST
+                                            W1TII CERMET  "INERT"  ANODES
+
+
+      T. R. Alcorn  A. T. Tabereaux,  N. E. Richards          C.F.  Windisch,   Jr.,  I.). M  Strachan             J S Gregg, M S  Frederick
+         Manufacturing  Technology   l.aborator),                   Pacific Northwest   I.ab_n alt_ly                I:.I.Ti-('ll  Research  Col poration
+               Reynolds Metals (7onlpany                         P O.liox 999                            Fairpor!  l lalbor,  Ohio
+               3326 iV_astSecond  Street                                 itichland,  \Vashingicul
+         Muscle Shoals. AI;ibaula 35661-  12'_g
+
+
+
+
+                    ABSTRACT                                                E.X.PI._R!b1E_!.T_A!,_.D1_S ]_(3.N..A_N!)PROC!'DURE.S
+
+  The  ot!erational  perfom_ance  of a "six-pack"  ef cermet  anodes  and        Pilot Reduction  Design
+  corrosion   rates was evaluated   in a  six kA  pilot  reduction   cell  at
+  R.eynolds' Manufacturing  Technology   Laboratory.   Two  separate      MTL's  pilot  reduction   cell, as shown  in Figure  1, is a small  self-
+   test periods were conducted  with the cermet anodes;  the  first period        heated  cell with the capacity  for running  two  industrial-size  (15.5"
+  was in conjunction  with the  Pacific Northwest  Laboratory  and the    X 21.5")  carbon  anodes.   Special  modifications  were made  to the
+  second  with ELTECH   Research  Corporation.    Bolh  tests  used       system  to accommodate   the testing  of the cermet  anodes.  One of
+  identical  NiO-NiF%O,cCu    anodes   manufactured   by  Ceramic        the carbon anodes was replaced by an inert anode  cluster consisting
+  Magnetics,   lnc..  The ELTECtt   testing  involved  the in situ coating        of six cermet anodes  in a 2-by-3 arrangement  as shown  in Figures 2
+  of the anodes with cerium oxide.   Primary  evaluations  for both  test      and 3.  The identification  (A-F) of the anode  positions  is shown  in
+  p_...riodswere conducted   at target  conditions  of alumina  saturation        Figure  2.  The holder  system  allowed  for the removal  of individual
+  and  0 5  amp/cre 2  anode   current   density     Individual   anodes       anodes  during operation.   Current was supplied  to the anode  cluster
+  remained   in operation   for 25  days  during  the two  and  one-half       by means of cables connected  to the top ofeach  stem.  Cur;ent was
+  month    testing    period.      Operational     difficulties   developed       monitored   to each cermet  anode by means  of a calibrated  current
+  throughout  the  test due to breakage  of the anode conductor  stems,       shunt located  near the top of the anode  superstructure.   Each of the
+  cracking  and breaking  of the cermet  anodes,  unequal anode  current       anodes  was  electrically   isolated  from  the  holder  by means  of  a
+  distribution,   and  alumina  muck   build-up   in  the   cell.    These       ceramic  insulator  (fi_sed silica  or alumina  refractory).   Current  to
+  operat!onal  problems  are discussed  as well as an estimate  of anode        the cermet  anode  cluster  was  supplied  by  separate   rectifiers  and
+  corroston   rates  based  on metal  impurity   leve',s  in the  aluminum      was  isolated  from  the  adjacent  carbon  anode  allowing  individual
+  metal  pad.                                                                       control  of current  or voltage  of the carbon anode  and cermet  anode
+                                                                                          cluster   This allowed  the  operation  of the carbon  anode  at higher
+  Separate   papers   will  be  presented   by  the  Pacific   Nonh,,vest        voltages  or  currents   to  provide   sufficient  heat  for  maintaining  a
+  l.aboratory  and  EI.'FF.(?li  detailing  the  autopsies  and  results  c+f     proper thermal balance  in the cell
+   microstructt,ral  and  metallurgical   analysis  of the anodes  removed
+  I'lom lhc cell
+
+                   INTRODUCTION
+
+
+   Pacitic  Northwest   l.aboratory  (PNL)  has been  in a development
+  program  of inert anodes  for the Hall  - Heroult  cell funded by  the
+  Department   of  Energy  (DOE)   since  1985     This  work  was
+  following  through  on the development  work  previously  conducted
+  by Alcoa in using a NiO-NiF%O,cCu  cermet  material  for the anode.
+  The  initial scale-up  ofthe  anode  size was first done in 1989 (I,2)  in
+  a  single  anode   test   at  Reynolds'   Manufacturing   Technology
+  Laboratory.   Following  this evaluation,  plans were made  to further
+  evaluate   these  anodes  in a  pilot  cell  test  in which  a  "six-pack"
+  arrangement   of  lhc  cermet  anodes  would  replace  one  standard
+  carbon  anode in the pilot cell operation
+
+  EL'I'ECH  Research  Corporation    is  developing   a  technology   in
+  which a cerium oxide coating  is formed on the surface of the cermet
+  anode, fiHthct leducing  the corrosion  rates of lhc anodes.  As DOE
+  was jointly funding  both of these  developments,    ii was  decided  to
+   test  the "CEROX"  technology  during  the  pilot  cell testing  using
+   identically  fabricated anodes
+
+  Ceramic  Magnetics was selected  by PNL  to supply  the powder  for
+  the anodes  as well as fabricate  the anodes.   After  initial fabrication
+  problems were  resolved,  anodes were manufactured   for both of the
+   pilot cell test periods.                                                                    Figure   i      MTL's  Pilot Reduction  Cell
+
+## PDF page 3
+
+("_[Et__ AtLQdc_Dcsig!l
+
+The   cermet    anodes    oi"  the   type   NiO-NiFe2()4-Cu    were                                                                                                                        ...i
+manufactured   by Ceramic  Magnet  cs  Inc,   /:airfield, NJ   These                                                                                                  ,,._
+anodes contained  apl',roximately ,120%  Ni(), 40 I%  FelOn, and
+17%  ('li   The t'_'Inwl  ;m,_d_'desi_.,.nust'd in lhc  lfih.   cell  test    i'.;                ",. I'..
+shown in  i:igule  ,1  '1hc anoth.'s wcle  cylimhical  with a radius of           _"
+three inches and a height of three inches with an additional one inch
+lip extending above the top face of the cylinder  The bottom edges        Figure 3        Pilot Cell Cermet Anoclesin Cell for Preheatingof the anodes were rounded with a radius of curvature of 1,5 inch
+An  IS-inch  long,  I-inch diameter  rod was screwed  into the center
+of cach  cczmct  anode      Initially,  nickel  was  used  for  the  rod
+material,  however,   failures  of these  stems  resulted  in replacement
+anodes  using  either 304  stainless  steel or  Inconel 601•  The stems
+were  protected   v,'ith an  I 25 inch diameter  alumina  sleeve  placed
+over the  rod, extending  three inches up from the top of the  cermel
+ ;lllc      lilt'
+
+                               l',h_t (.'cii ()l)Ctatlun
+ I c',l St hcdulc
+
+lhc  lfilot  cell ICSl Of the cermet anodes was conducted from August
+ I  lo  October   I0,  1991  A summaD, of  the  test program  is
+summarized in Table  I  Thc first test period of the cermet anodes
+was in conjunction  with PNL from Augusl 10-30  Following a re-
+stablization period of the pilot cell with standard carbon anodes, a
+second   test period  of the cermel anodes was conducted  with
+l£1.rl-Cl!  from September 15lhrough October I0
+
+               Tahle I      TEST  S('I II:.I)UI_E
+
+
+
+       [ )ale                                                                Cofi1111elllS
+
+Aug  I. 1991          PIIolCell Slart-up wilhTwo Carbon Au(xlcs
+Aug 2-_,                 IiIiIJ;11Slabili/allon of Cell
+.,\u,t,,c,.q,              ()lWlallonwith",qix-lhlck"(;I;ll'4nlcAl_odeCluslcr
+Aug Io.27           PNl. Cermet Anodesal St:md,udq'esl Colldilions
+.Aug  27-;0           PNl. Ccm_clAnodesal ModifiedTest Conditions
+Au,l.,._11- Sept 14      Rc-slilbili/.alionof Cell ,O,llh T_o C;irbo. Anodes                                                                                                                   _':'/
+%CplIS-Ill              [:1.'1I-('11('CrtllelAu_xlcs;II Slaud,qrd"lcsl Colldlllons
+Sept _t)-O_l IO     EI.TECIt CermelAnodesal StandardTesi Coll(hliol|S
+(k:l  I(t. 19ql        Endof CermelAnode Tcsling
+.......                                                                                       Figure 4      Cermet Anode  Assembly
+
+## PDF page 4
+
+C.c.m_!_Ano_de_.l__eheiuin_and Installation
+
+The preheating  and  installation  of  tile cermet  anodes was expected
+lo  be a  critical  part of the  tesl  due  to  the  thernlal  sht)ck
+characteristics of the material  A "six-pack" oFglaphile anodeswas
+installed  hl the  cell initially  to assure  proper  operation  of the  data
+collection   system  and   to  evaluate   the   individual   change-out
+procedures  l_orthe cermet  anodes   The rnethod  for preheating  and
+transferring  the cermet anodes  to the cell was as fc>llo,,vs
+I    Preheat  the anodes   to  300'+'C at a  rate  of SO°C/hour  in an
+      electric  f+urrmce The  anodes  wouhJ be bundled   irt Kam.vool
+     insulation  to retard  heat loss during  transpoFt  to the cell
+
+2  Renwwe one Y.laph,c ;uu_deIiom  the cell. allmviug  stlllh.'icnl
+    _qwnmg   .ll tlm  t.tttsl   Ii.  lhc  celm+..l amid;'  t_ be  h,calt'tl   ill
+     l+[ace
+
+     Itc_w,_veone tclmet  anode  l)tmt lhc luehcat   It.n+|te.  p!aClilg ii
+     into  the  cell, hanging  several  inches above  the  nlolten  bath
+     surface
+
+4     ,,ks the  temperature   incleases  on  the anode,  lower   it down                Figure 5       Cracked Anode After Fxposure  to
+     toward the bath untd  it is eventually  subrnerged                                                              !lear Frorn  the Bath
+
+       ,,kt this  time  the  ct, tent  lead  will be  connected  and  cultent
+     passed through  the anode                                                                           rf'he   test conditions  wine  altered  on  August 27  with  tile alumina
+                                                                            c_mcentration   being   reduced   to  values   significantly   less  than
+The   first anode  transferred   in  this  nlanner  (position   til  cracked        saturation   ()peraticm  ,,vax further modified on August 28 when  the
+upon  exposure  to the open  bath   Figure  5 shows  this anode   As       current  on  each  anode  was  increased   to  180 amp  (nominal)   or
+shown,  the anode  cracked  radially down  tile center  line including       about double  tile value under the "normal" con¢litions
+the  nickel  rc,d-cermet  anode  connection    "l'hernml she,ck coupled
+with too huge  a CTI:. rnisrrmtch between  the nickel rod and cernlet        l:!ec!iolyte  (..'!tCt0ast_ry
+anode was the probable cause of the cracking    Follo,.ving lhis initial
+failure   it; transferring  a  cermet  anode,  the  preheating  procedures        I.igu+es (_and 7 show  the prm;ar3,.' chemical  con_posith',n  c,f the balh
+were nloditied  Two allelnalive  plocedules   v.'ele ev;Iu;led                 NI;ml;ruing   hath  tatio   at  target   levels  was  diMct,ll  chin  to  the
+                                                                         changing  v(dtnnes  in  tilt'  I_ilot cell as a lesuh   t,l" the variability  _t
+I    .,Xn anode,   lal',cled ALIXI,  was  l',osmoncd  v,u the  cell   ;,,tld      balh   lelnl)elatUleS        hleasured    ball;   teilll)elatures         atc  shown   in
+    allowed  to  Fueheat  over  the  CIUSl    Then   ii was  gradually        I:igute ,R   ;\ ht;ge  vazial',ilitv is seen  in  thi.,',;ts the dynamics  <_lIII;'
+     Io,,vered  through   lhc  semi-solid   cnlst   into  the  bath     Ibis         cell   ;tie    stlch   thai   ;I  quick   lesponse    ill tempelatt.e    occuls   with
+     plocedure  generally took  abottl 2,{ houls                                dislulbances   to  lhc  cell  cl_,,olite-alunlilta  cover  or  energy   input
+                                                                      These    distull+at_ces  were   enhanced   by   fiequent    cell    test
+2     ,,',,itanode,  labeled AI.;X2, was preheated   it; at) electric  l'tunace      nleasmemeuts  and nu'tteiial ploblenls  which will be discussed  later
+     to 970°C.  then transfeMed  to the cell and inserted  directly  into                                                                                                    ...........................
+
+                                                                                                                                                                                                                     qlA/,lll^ltl)                {;II,AP_+III|                CI lIMl       r I     ,                  ",¢.I
+                                                                                                                                                                                                                                                                                           , +_    t.Alttll^Pe,<14II11"4            AP41I<+I                                                          IQ _(l
+It,orb   of  these  nlctlu+ds   _.s(+tkcd   satlsfactoallv,       v,.ilh  oF,lion     I  I',l<+vllLt.t                            ...._........ _        t,._,,.,,,,t....                                                                                       (-_i,|ta.....I_.A114")f+it•    4'
+t<>be the simplest  in hat_dling   the anodes    ihi'.+ l'ntwc&.c   v.a,, u,,cd            .,      .,.                 ,                                                            ._.
+
+l'_+tilist;tilingali stx cerrnet ;tilan,tidesant_desxvetem  lutureinstalledcxch;mgesin the cellI'oi;liIhelhc I'ii.sameI15('11test.time  I,v           t,'"     ,'                   ,                                                "     '
+placing the allf+desover thesolid crtisIand  ;;tellcllVelltlglhc  l()t)S       'l                I_                     _     ,I,.'_%,P  ,._"
+v,.._th;;It htsulating  blanket  and  alhv,,,,ing them  to  p_el;eat  sluv, l,,,.           ';....                "._      ._'.        "
+gradually   rnoving   the  anodes   into   the  mc,hen   I',alh  as   lhcil                                ",  _     _.,"
+tenlpelature  increased                                                                                               '              "%"i        '
+
+                                                                                                                                                                                                        l_si o:n,•       (mm" "       (w_o    rime,CllV[}ale'.              Pl_.-,_)              im.-/-I               t_.-1o
+!:NI__iIest.!.0.g
+                                                                                                      l:_gt,e  t,        P,ath Ratio l)uring PNL Test  Period
+Operaticm with lhc cetrnet  anodes   it; the l,dOl cell began on  .+\tlt,tlSl                                     ,,                                        ...................................................
+                                                                                                                                                                                                                                                                              /I,/'4OO'1 Oot               iiI_--lJurmgIt) and continuedmost  of theuntiltimeAt+gust(until 30Augustfor the27),PNl.the ph;isecerrnetofanodeslhc testing,.,.cre                 6       s,.._,,( k.'KIllnl )N  _ &N( ""_'.,.X lm""      "
+tested    under   "nornlal"  conditions,   i e.  at nominal  culrenl  densities          .g            <,.,,.,,,,,,,,,,             .                  ,
+•-I)  5 amp/crn _ and  as  close  to  ahimina  satt,ati(m   as  Imssible               ,    ,.                                 '.             " "_                -           ,,,,,.....
+ Ihesc  conditions   ,.vete totJn(I hv PNl.  1¢)plt_duce theleast auaouttt            ::                    _,"_,,+                   -,,,_,%,,,_,,_,,'._.-     ,.....t......
+t,l" c_,lOsitm  of the ctr_lncl amides  ii; laln+lal_v  It:Ms   l;ugcl   Ii'xi             ,,,                     _.-                                                '_''            ",,ce"conditions  for ;Ius phase of cell opera;tlm  v..e_eas Iolh_ws                         tr--O   :_                   :   f
+                                         %                         ,..;
+NiaximLlm     individual     anode    Ctllrcnl     Q0 amp                               %  +                  9     •'
+Anode  immetsion                                       I R illch                                         ¢"                    l"se"
+l_,dlh   I;IIIO                                        I I-  I .I                                                                                 '         p  '
+('al:,                             4-(+wt%                                                     "-." ]           ..............................
+,,\1.(}_•                                        100q.'0satulaticm  (7.g wt".o)                o_,,        .... ,,,_.......                I ii'rill,,,,.....[ }1111}          -.....             -.....           "'
+
+                                                                                                                                     }'igtile      l             (';t}_    ('(_lllt'llt    In  lh;,   I_lal)l  l)t]_llu      llnl       I csl   ['cl.,d
+
+## PDF page 5
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                        i_ff  C)    loto    S1iu'4                                                                                                                       :>t..:I""                             1.3IL.'XllO.5%CAF2.76.%ALUMINA100                     _K_4 o_"_11_-  _,_"_           ....... -&]'G(rE.,_-X,t-_iG-tK/,m.............,_AI V/TdlNA
+
+                                                                                                          2"         I     ..........                                                                                                         '_,      t.-
+
+          i_,n                                                                                                                                                   ( )
+
+
+
+               I/Q                                                                                          t                                                                                                                      MJ_(]MU        /_ UMIN_
+                  Ii                                                                                                        ._)                                                                                                             k)til"                                                                                                                                                                                         ;,;       t S                                                                        ..........                              _      rx
+
+
+                                                                            '                       '                                                                      ----'_'--                                           t                                                                                         tot_
+                                                                                                               1EMPERATURE,  DEG C
+     Figure 8      Bath Tcrnperature During PNL Test Period           Figure 11     E_ecls of Bath Temperature on Ah.nrfinaSolubility
+
+                                                                        Li__31uidLevel Contlol
+
+      '_     s,^,r_,,n  .....,.,,.-----T c,,_,,,_,_   ,,'¢,,_,,,*,-..................         The targel operaling conclitions included a depth of immer._ion for
+           '_'   0_,,:,.,,.'_-_I                  _             t,,,.,,,,,,,I,_,',l,,alt,,,._i,,ches,, ,,,asa_sop,a,l,,edtha_thea,lo,_e-
+
+ ._  ,_     ,o    _'u_'"_,1,_, "        I            "  ll'[__!• tdx _l    t        ""                  alicathodeTypicallyanodesdistanceonlywereanodes(ACD)maintainedinwouldpositionswithinbe relativelyB 0.5and incheslarge.C wereMeasuredof measuredeach otheranodefor
+ ._-E                     I _                      "        " _'_'_"."_             anodeimmersionimmersionlevels. variedII  is evidentmore fromthan thedesired,plot informationfrom one  tothatthreethe
+             '                  ,                                                        •                inches.  This was due to the difficulty  in adjusting anodes  as a result
+                                                                                 _,.              of anode  material  problems  ahd changing  bath  level  as shown   in
+                             ,     ;_!_!!j)0i_,_iXt-             [/    ,           _,_o._._,.       ilnmersion levels during the test are shown in Figure  ] 2. Generally,
+          ....         ,._               !              .                ,                              Figureup occurred13. Asinthethepilotcell,celltheoperationtotal  iiquidprogressedinventoryand decreasedmuck  build-as
+         ota,       _           o_,,o    l.irne,0_ato    _          (,_       o_'_--      shown by the reduced bath level.  Initial operation with the cermet
+                                                           anodeswas at eight inches of liquid bath, but by lhe end of the tesi
+  Figure 9       Alurnina Wcighl  Percent  l)tuing  PNl. l'csl   i'ctitul         lhc level had decreascd  lo two  lo three  inches   AI the end of the
+                                                                             _un, atWt_ximately  six inches  of hard muck had  built up  in the  cell
+                                                                                        bottonl,  primarily tinder the cermet  anodes.
+
+
+        i_n                                    .....................................
+
+
+                                         _    ,........                           L__.I ALLJ_It_A
+
+
+ z    _                              .......................                                                                                                 i,                      '  ...................................
+
+
+
+
+
+ ""J                                                                                                                   "_    '_o  I                                          i                      ...................
+  I'igtHc IO     Alumina ContentExpressed  as i'c_ccnl  ,_alUlillJon                                 iii_/ii%                I_IO                  IWIlllIME, DAlE III_/'_11              _,"Ii                    OR," VI
+                     During PNL Test  Period
+                                                                                   Figure 12     Anode Immersion  Level I)uring PNL Test
+
+One  of  the key  operational   control  parameters  was  to  maintain
+alumina content  in the bath as close  to saturation  as possible during
+Ihe majority  of the  test.   Figures  9 and  I0 show  the results ofthe          "   ..............................
+measured   alunfina  content   in  the  bath  and  the  corresponding                          "_,,,,.,,,,     i"_1......      (_,,,,;t,.,.,,oot.,., ,,,,,,o,,
+calculated  alumina  saturation  throughout   the  test.  As  these  plots                              O_"[ll,_TK._,I,,,,,,o,T
+
+was generally  7-8 wt% resulting  in calculated  percent  saturation  of              --zu             '                                                            O_£RAIK)N,__o,.,cEo
+80-90%.   During  the  test period  at reduced  alumina  content,  the       -*
+content  was 2-3 wt% or 20-30  percent  saturation.   Maintaining  the
+cell near ah, mina saturat'.on  for an extended  period of time  resulted         :_                                                                     I
+in a very  difficult operation,  enhanced  by  the  temperature  swings     m<                                                   _  L'_
+indicate,experiencedthe inaluminathe  cell.contentThis duringproblemtheis cermetillustratedanodein Figureoperation11       "   F,../_.>_.,Ii_X_..._!,0_,  l,j._.:]Z_l_                        _     ......,.,__,,.,,,,,,"_which shows when severe  tenll)erature  redt,ctions  occur,  significant                                               _*':'
+amounts  of alumina  will come  OUt  of  soh,tion   This  is the type of          o    .............................,
+ol)eralion  which  occurs  in a small  pilot  cell,  resulting  in alunfina                       .........                                "_'_       _          _"
+muck deposits  on the cell bottom.                                                                  riME,DAlE
+                                                                                         Figure  13     Bath Level During PNl. Test
+
+## PDF page 6
+
+_ermet Anode Current Distribution                                                 Table 11    PNL Anode Summary
+Throughoutthe test, the currentwas maintainedso that the
+maximumforanyoneanodewas90amp(excepthelasttwodays    Anode  CellPosition  Operation   Comments
+ofoperationwhenthetargetwasraisedto 180amps)Asshownirl
+Figure  14, a current  imbalance  existed  for the cermet  anodes   The           I        A                9/15-23         Section ofanode
+current   imbalance  was  caused   primarily  by  two   factors:   (a)                                  213 hr.         broke, removed
+significant  conduction   of  current   to  the  sidewall,  and  (b)  the
+perturbing   effects  of the  large  carbon  anode   The  nature  of  this       2        B                9/14          Cracked down center
+current  imbalance   o,i  tile cermet  anodes  also changed  during  tile                                                  lhr.             of anode  al strut-up
+test because  of changes  in operating  conditions,  particular ACD.  In
+general,   the  impact  of  the  adjacent   carbon  anode  current  and       3        C                9/15-26       Removed on schedule
+sidewall conduction  were  lessened  toward  the end of the  test as the                                  275 hr.
+ACD was reduced  due  to the lower  bath  levels•  The  effect of the
+large carbon anode was a unique  part of the pilot cell operation  due       4        D                   9/I 5-10/I 0    End of test•
+to the separate  power  supplied  to the two  sides  of the cell and  the                                 614  hr.
+need  to  operate   the  carbon  anode   at  elevated  power  inputs  to
+maintain  sufficient  heat  input  to  the  cell•   Figure  15 shows  the      5         E                9/15-10/10     End oftest.
+effects  of  various  power  inputs  to  the  carbon  anode  upon  the                                 614 hr.
+current  of the cermet  anodes.
+                                                                    6          F                9/15-10/10      I-nd oftcs!
+     100                                                                                                                                           ..............................                                                             61,1Itr.
+
+       90       _----_Au_  13
+    oo    U".I^,,, .-_                         _./'_t_"-.,                          7        A                  '1/2"1-IO/Ii)312 hr.              li0b(I _)l"It'M
+
+
+
+                                                         ]                 /             O            ("               0/27-10/10     End of tesi
+ "   :)o                   " "/       "_""I                                                        3 12hr.
+
+5""]:,...O.o.O,o0   _     _          ,.x_,._/,_!: 8. ___             ""•I     I                  |3           312hr9/27"10/10F.ndof test.
+                  A            B     ANOOEC   F'OSmOND            E             g            The nickel  rods used  tbr current  conductors   to the cermet  anodes
+                                                                       began  to break very early  in the  pilot cell test•  The  anode,  during
+         Figure  14     Cermet Anode Current  I)islribution                  operation,  typically had a cryolite-alumina  cover over  tile top of the
+                              I)tuing  PNl.  "l'cst                               anodes  extending  alcove the  protect;re  ah,mina  sleeve  as shown  in
+                                                                              Figure  16.  Temperatures   were  measured   in the  700"  to  850'_C
+                                                                          range in the stem area submerged  in the crust  cover,    lt was in this
+                                                                                        area,  approximately   three  inches  (or  less)  above  the  top  of  the
+        ..................................                                                     anode,   lhaI  the   lath,res   of  the   nickel  stem  occurred        l'h('
+ ?-<  ,,    .,                  '""......  .........._        .._    .                               -  ]       chflmoh_gical  listi::g oi'lhc  stem failures  is summarized   in Table  I11
+
+ t.U                        ......................................                                                                                                   ,.A
+ I_.                                                                                                                                                                                         .+'''
+         tO
+ O:._            ,,(,,_.....r _                             I
+             Posmo_     C,                                                      ...      ....     'e°
+o                                     ....-lib.-....        ............                                     .1--
+                    A-.'
+ _.li                                       _,-__--          _.,,o_  (,            I
+ LOC.)      J"J                                                                                                                                                                    I
+               3              CAnnONANOt)I:(;tJmUNt.MA1                                                                                          i
+
+    l:igurc  I 5       l'IYccts of Adjacent  Cafbi>n Anodc's Currenl on
+                  Cezmet Anode  Current  Distribution
+
+
+ Meaningful  voltage  drop measurements  could  not be made due  to
+ the  multiplicity  of current  paths  caused  by  the   adjacent  carbon
+attode,   cell  condition  (muck   btfild-up),  and  sidewall  conduction
+lhose   taken  indicate  normal  anode  drop  of O 2 volts  at 90 amps
+and 0.5 volts  at 180 amps
+PNL Cermet  Anode Evaluation
+
+A total  of 13 cermet anodes was used  during  the  first test period•
+The anodes'  identification,   position  installed  in the  cell, and  life of
+ each one  is summarized  in Table  II. The  longest  time any individual
+ anode  remained  in service  was 314  hours (13  days).  Two  major
+ prol_lenls aff._cte(t tile life of the anodes    (I) breakage  of  tile nickel
+ _..'_,ll,ccll), lilds,   ai,li  (2)  Clilckil,g   ilntl  blcilkil,g  O1' lhc  co, nicr
+ anodes                                                                         Figure  16     Cermet  Anodes with Cryolite  - Alumina Cover
+
+## PDF page 7
+
+   Table  llI       Chronological  Listing  of Anode  Stem Failures
+
+
+Date             Anode Position      Comment                      _  o_        oer.nn1_ON        or'E _  _ vo_,t I                                                          __,_o I
+
+
+Aug  15.3 pm.      B, I-. and D     13and F replaced  with  sleeve.       _  o_                                                     _"
+                        D anode  replaced                        ,3   o,
+Aug  18, 113am    11             Stem  btokc   beneath   sleeve,                     ,,,                ,...,.                                                                   i        i
+                                                        Jt'l_l;Itttl llnt_tlc
+                                                                                                                                                0                             -*                       '  'j    --                                                       __3
+Aug.  18, 1 p.m.    A               Replace with new anode.                                                  l-imo.Oalo
+                                                                                    Figure  17     Copper Content  in the Aluminum Metal
+                                                                                                During PNL Test
+As shown  in the Table,  the stem  failures  first occurred   four days
+after  beginning  operation,  with only one stem  (in  position  E) not                      ......
+failing.  If sufficient  stem length remained connected   to the anode,  a                  _      G'_,_III_E
+steel  pipe  was  fitted  over  the  stub  and  the  anode  continued                          ,,,,,ooc_s,.,,ooE
+operation.    Replacemem  anodes   for  the  remaining   of  the  PNl.         ,_                                                                                                    ,-,,,,,,,  ,,testing  used 304 SS for the stems, which proved  t(_be satisl'actozy            ,-
+in combination  with packing  the alumina  sleeve  with a "punq_able"         ,_   °'                                                                                            l,t
+castable  refractory.  A similar system,  but with Inconel {}OI stems,        L'                        Y
+worked  well  during  the  EI.'I'I-Cll   test.  SEM/EI)S   analysis  of the       §   o,
+fractured  nickel rod  surface  indicated  abnormally  large  grain/crystal       8
+and high sulfur  content,  suggesting  embrittlement   of the nickel  rod          o2
+had   occurred.     The   prolonged    operation    at   the   elevated
+temperatures   in the  presence  of the cryolite  crust  (which  contains
+some  sulfur)  probably  led to the very  fast penetration   of the  grain           o o,-h,    --o,_,,-      o,,,°   n,,,o_,,to    _       _
+boundaries,   embrittlement  and oxidation,  and  early  failures  of the
+stems.  These  failures  of the anode  stems dominated   the events  of              Figure  18      Nickel Content  in the Aluminum Metal
+the   early   part   of   the   cell   operation   _-esuhing  in   significant                               During PNLTest
+modification  of the  test schedule  and operation.
+
+
+the cracking/breakage   of the cermet  anodes  du_ng  operation.   As                                    c_             no,
+previously  indicated,  the  first cermet anode  that was transferred  to                 °'       °_"°"l
+the pilot cell broke immediately  upon exposure  to the heat from the      _                                                                    "
+open  bath.  Even  though  the transfer  procedures  were  modified  to         ,_  o,
+reduceThe  otherthermalsignificantshock,problemali  of whichthe  anodesoccurred eventuallyduring  thedevelopedtest was         _,        '        _-I___j                   ii'_:_ii             _!_.---_'--il,l_I
+cracks,anode.  "/healthoughcrackingnot ofallas suddenlyofthe  anodesand  catastrophicallyhad similar  characteristics,_:_the  first      _  °'            _-_.,,_._'_'_<,4""                  ,_,,,,x
+i.e.,  radially down  the  center  of  the  anode.  Two  anodes  broke                                              I                             _      _t,
+completely   apart  during  cell  operation:   Anode  A2  (position  B,          °_
+August  26), and Anode C 1 (position  C, August   i 8)  Pa_t of Anode
+CthatI thathadbrokebrokenoff andoff, fellwasintoneverthe cellrecovered,and, unlike Post-testother  largeanalysispieces              o  orn,         '  _--o,_,,o        .i.imo_l_S'ateo,_       _        mim
+revealed   significant   penetration   of  electrolyte   into  most  of  the                Figure  19      Iron Content  in the Aluminum Metal
+cracks  indicating  they  were  present  during  operation,      lt  is also                               During PNL Test
+suspected   that  the  strong  alumina-cryolite    crust  prevented   the
+anodcs  from  falling  apart  in most  instances    The  p_oblcms  with
+an(>dcs  ct;icking  wclc   iliH tlllCXllCt:led b;ivell  III0  raisin;itch   ill       lhc   n_Cl;ll h_ss li_11  lhr'  t'tUlllt'l ;111odt's thllinb_ IIil._ pt'li¢_d was
+thermal  expal_sivities  ¢_1"lhc  nickel iod  anti lhc  ct.'llnCl rnatCllal  ;is      t'SlmlalCd by  I'illinl4 cu_vt.s lo tl_e pl(Hs as shown in I:igtnes 20-22
+wt'li as lhc  hil.,.hI]lClnlal sh_ck  sensitivily  _flhc   t(.llll(.I m;_t<,li:d           Xe'lr  y._t   c<_larhltn_n_,wr,t'  _d_t;:in¢'_lIWt_,_inly,lhr  lidh_w_.y, li,,_'_l
+                                                                                                                                                 ;1111_nHiIs          t_l    _11t'1;11     IIII1_111011c_          Itrl)tHIiii/_             ,   It_      lilt'     itlll_11111uI11        111¢1al      I_11(I
+Metal  Impurities                                                          each day
+
+The  primary  indicator  of the  corrosion   rate  of the cermet  anodes                 Cu           0 13 Ib per day
+during  operation was the rate of increase  of nickel,  copper,  and iron                    Ni            0 26 Ib per day
+impurity  content   in  the aluminum  metal    Metal  samples  were                            l-e           0 31 Ib per day
+collected  every  four  hours  to  track  the  concentration   of  these
+elements.   These resuhs  are shown  in Figures  17-19  The  increase      The  ratio  of  these  metal  losses  is 1.2:2 4 (Cu Ni Fe)  The  actual
+in metal  concentrations  was seen to increase  at a nearly  linear  rate        ratio  of these  three  elements  in the cermet  is  I 1.98:1 65,  which
+during  the period  of cermet  anode  operation   at normal  operating        suggests   that  iron  contamination  may be  supplemented  by  other
+conditions  (8/10-27)  and experience  a sharp  increase  with operation        sources.    If  ali components  came from the anodes  uniformly,  iron
+at reduced  alumina  content  and  increased  anode  current.   During      would  have  been released  at a rate  of O21  Ib per day   Assuming
+normal  conditions,   the  rate  of increase  for  the  various  impurities       these  calculated   rates  are  indicative  of the dissolution   rates of the
+was as follows:                                                              anodes,   it can be calculated  that the rate of total material loss  ftore
+                                                                                   the anodes was 0.76  lb per day.  This corresponds   to a volumetric
+              Fe           0.017% per day                                 loss of 57.5 crn_, based on an anocle density  of 6 g/cn9   Applying
+            Cu          0.008% per day                                   this uniformly  to ali surfaces of ali the anodes gives a "wear  rate" of
+              Ni           0.019% per day                          02 mm per day.
+
+## PDF page 8
+
+                                              CEROX Ccrmet Anode_C_o_a[[ng_Pr_oce__d_u!c
+
+        ...............                ]I   ---_[-F-!!----I---I......................                  The  cermet  anodes  were  coated  with  cerium  oxide  in the  pilot
+       °'                            l!       II   til     It     • _                           reduction  cell by controlling   tile additions  of cerium  fluoride  to the
+                                                                                           sutlicient  concentrations   of cerium  tluoride   in the cell bath   lhe
+-°z.  *"                               lt      Ih_              1                         majorityelectrolyte.of tileFor ceriumthe coatingaddedto tooccurtile bathproperly,reportedit is toessentialthe aluminumto have
+
+      •,                                                                      Typical  equilibrium   concentration   values  for  the  distribution  of
+o                                                                        cerium between  tile bath and aluminum are as follows
+ ('-)     ohi                                     •
+                                                                                              Ccriunl  in bath             0.44%
+                                                                                 Cerium  it, metal             3.23%
+,_                                 o,,. ,j,_/_/.so       ].,k,._j_o0.,,,               o*, io                o,t 1._             oe.;:1o              oi,e*]         metal  pad.   These  vah, es  for  cerit,m  are shown   in Figure  23
+                                                   TIME,  DATE
+     Figure 20     Model  Prediction  of Copper  Content  in the
+                 Aluminum Metal During PNL Test                      6
+
+                                                                                                                                                                                                                                                                                                                                                                               I                                                           [CONTENT1         IN THE ]/
+        o*                                                                                         .................................
+
+
+  ai'I-     o_                                                                                                                                                                                    t.,Jt-z
+
+
+                                                                                                                                                                                                           ()    3
+ ooi     nt                                                                                                                                                                                                              t)
+  (i                                                                                                                                                                                                                           •
+
+
+
+
+ u                                                                                                                                            ANODES    A. B. AND C
+                                                           I,+/l_ll                                                                                     1     _,    i                  .            l                     1.                           i.                           t                  ______
+                                      _,_                                                                                                 09109          09/14          09119          "rIME.00/24 DATE    09/29          10104        10109
+
+           o1,o1               o1+.,o               o1, i,+             o*+,+.o               o,+.t I+               o•,io                    oe,,o,,                      1.4                                                                                                                                                                                                 ............
+                                                   TIME.  DATE                                                   crnuEr A,OOES      nCP_CCDCEnMrt
+        Figure 21     Model  Prediction  oi'Nickel  Content  in                _.2         BEGAN  OPEFtAIION         ANODESA.  B.ANO C
+                                tile Aluminum Metal During PNL Test                         "             I                            !    I--CO-NTE-Iql-I-I_--'I'-I4F.:
+                                                                                                                             iT    [     BATH                                                                                                                                      #   ,     ,    +                                                                                                                                                                                              I
+                                                                                                                                '-             !                    i                            I   A
+
+
+e                                                           _3o,e
+....    I    (i..i:"
+
+
+U_      o,t                                                                                                                                           0.2    09/09i          09114i          09119         09124         09129'                      ....i10104          10/09)+_____,       iyt-,
+                                ;.                                                                        |-igure 23     Cerium  Content  in the Metal and Bath°°+=o,,°     i     .                          ,,M,
+            g,._-                o,..o •        '       ,,..,                   o,.,_-     ..............................Olllq              OI/lO              Oft04                                  During ELTECI  I Test
+                                                   TIME,  DATE
+
+        t:igt,+c22     Model  Predictionot'lton('ontcnt     mlhc            At the time  (Septeml)cr   15 att(I 26)  of  the  initial  coating  of  lhc
+                         Alimfintm_Nlclal  I)u_inyPNI.   Tcsl                amides,  increased   amounts   of  CcI:_  ,,vc_e added   1(_ lhc   cell.
+                                                                               ICml)(u;uily  at:hicvil_g  highct   levels  o1" cc_iuln  in  lhc  bath   A
+                                                                                      separate,  small (rcfmence)  cermet  anode  (I 5 inch in diameter)  was
+                                I'[I.TI.:C!i l'c.,iting                                   pl,ccd  into lhc electrolyte,  operating on a separate  powel supply,  t(_
+                                                                                evaluate  the cerium  coating  process    This  _et'elence anode  was
+An  evaluation  was  made  of  the   I-I.TF.CII  "C:I-I{OX"  coating       operated  Ibr a few hours and  then removed  to evaluate  the quality
+ technology  with the cern,ct  anodes  in the  pilot cell for the second       of the "CEROX"   coating.   The  first evaluation  was on September
+ phase  of  the   test  from  September   15  through   October   10      13 at  1:30 p.m.  in which no coating  was  observed  on the anode
+ Following  the completion  of the PNl+ testing,  the cermet  anodes        after  five hours  of operation   A second  evaluation  was made on
+ were  replaced  with  a  standard  carbon  anode  and  the  cell  was      September  14 and,  again,  little  or no coating  of  tile cermet  anode
+ operated  in a n,anner  to  return  the cell to normal  conditions,    ie.,       occurred.  On September   15, after increased  amounts  of CeFj were
+ achieving a clean cathode  bottom  (free of muck)  and reducing  the      added  to the  cell, a coating was observed  on the anode   This anode
+ metal impurity concentrations   to normal levels                          and  its coating  is shown  in Figure  24.  As this photograph  shows,  a
+                                                                                       significant  coating  did occur,  approximately   1/8" thick, on a portion
+The anodes  used  during  the second  test  period  were  identical  to      of  the cermet  anode.   The  side  of the cermet  attode  next  to  the
+ those  used  for PNL   The  primary  difference   in  tile  pilot   cell      carbon  anode  did  not  form  a  coating,   as  minimal  current  flow
+ operation  was   tit,-, addition  of CeF]  to  the  cryolitic  bath  which      occurred  from  this  area  of the cermet  anode.   After  obtaining  the
+ forms an in situ cerium  oxide, "CEROX,"  coating  on  the cermet         initial  coating,  a maintenance   (25-60  g/br)  amount  of CeF+ was
+ anodes      Pre-heating   and   installation   methods   as  previously      added  to the cell to compensate   for the cerium being removed  from
+ described were used for theseanodes                                   the bath by aluminum metal being produced
+
+## PDF page 9
+
+                                                                                             I IOO
+                                                                                                                                                           CFRM['| ANOOEOPERATION
+                                                                           U                          _AII|ION ANF)I)|/              "    "
+                                                                                                 0                               OI*f I|A| ION  _                                          |
+                                                                                                w",ooo                  |         Jt                   '
+
+
+
+
+
+                                                                                                                                                                       K'_N
+                                                                                                                 _oo                              .....                                ,___..!t_
+                                                                                                          00130              09/09           Ti_:I_TE              09/29              1010!
+
+                                                                                    Figure 26      Bath Temperature  During ELTECtt  Test
+
+
+                                                                                                    150
+                                                                                                                                                             ..,____L4  ____     _-/1MEI AHO0_. Of'EIIM loft
+                                                                                                                                               C.A/l|tll_qAH(10("_-,_ -     .     70"%t  I:!            _1       O_'|ILA|If'_
+
+                                                                   o _oo .........................................
+        •:L.  _                                                        _                             'M  ":L                                                                                                                                                                                                  i      :  ....!
+         I"igulc 2,1      ('I-R()X  ('oaling tm Ilcfc, cnce All()de                       ;._t,irr   eo                                                                                                                   cle,,,_. 1(_
+'l'csl(•"tm(lllitm.'.;                                                                                                                                            14"i,u,,,ll&l1411
+Similar to the PNL test schedule, the majority of the cermet anode         o   o9/o9               oo: _o               o9/z9               _o)o9
+testing  was  directed   to  "normal"  ELTECtt  recommended    test                                  TIME,DATE
+conditions,   i.e.,  at nominal  current  densities  (<=0.5  amp/cre 2) and             Figure 27     Alumina  Saturation  During ELTECII Test
+as close to alumina saturation as possible  Target  test conditions
+for this phaseof cell operation were as follows
+                                                                                                     12
+      Maximum indiviclual anodecurrent         90 amp                                             ...i ......................  c_n,.,_T,_ootooE_.o..........
+       Bath Ratio                                  1.4 -1.6                                         -'91...............  • |"*_2o............. _ LNg:.._S__Dcy.n_2o_uutl,).g.
+
+       AI203 (100%  Saturation)                      7-8 wt %           o=z
+                                                                                     B
+On  September   30,  the   test   target   operating   conditions    ,,,,'cre
+changed  such that maximum  current  to an individual  cermet  anocle     Z
+was increased  to   li 5 amp   An  actditional change  was  made on
+October 6 with the target  ratio being lowered  Io 12.                                      4                                                            j
+Qp_ra_t.i.on_a_!_Q.ol_ditigns
+
+Electrolyte chemistry control was similar lo thai described Ibr the                                 o,/_,_E,D_;_          |o;o,_     ,o/o*
+PNl.  testing,  Figures 25-27 show the measured resuhs for  ratio,                Figure 28      P,alh l.evel During F.[XF.CII Test
+bath temperalure, and alumina content  As before, severe mucking
+conditions occurred in the cell cathode cavity resulting in a similar
+effect on bath  levels,  Figure  28, and anode immersion,  Figure 29        s
+Anin theinitialbathoperationalat 2-3 inches,targetandwastotominimizemaintainanythe anodes'immersionmc,vementsof the                 "__  .........     _.,-. o, -  ............. _  -........................'"c"c_°cu""E':h--°_-_t_-k-'_
+anodes which may enhance  anode cracking or breaking   3"0 achieve       _  "                                                                       ,  •          ,  I ,-,,_,,^,,o,
+
+Additionally,  sm,di amounts  of bath  were taken  (),,trof lhc  cell  to          z,,,         _.                                                    ,.,           [
+mainlainlhis,  metallhc wasconsislenlremovedimmc,incremelltallysitm dcplh  ofinlhc(it,ant;liesm,)dcs   of  ._,-20 lh       g                                                        "_tl=i'/_i" !l-I_-I;._["
+
+      , o   ..............................................                                                       'a                                                        _;
+
+    '_   >'.              ;"i              I    t'   i    f"                               -
+o      '   !                  -c--                  l   _  .  l    _     t       ',! _   ,..,,,  _|              [                          Figure 29     Cermet Anode  lmrnersion  l)epths
+   __        _!     i_l.'i   d                 ,t ._   "   1            _l                                       During ELTECIt  Test
+
+                      c._,o,,,,,,,oto_nanc_  I r----I,,-,,          .....      ",:r,'n'_'_'_::e_'_-_--_"'        The  electrical   current  distribution  among   tile  six  cermet  anodes
+    09               ,,0._.,3       "I"       c_-,_:,,,,c_,cc,.r.,u,_                 varied  throughout   tile  cell  operation  as shown  in  Figure  30
+        o,_,_o        o,/o_       T,_P.._,k_'_     o_:_,         _o;o,           Generally,.  the current  distribution  was better  than that experienced
+                                                                                         ,n the PNL  testing   This can be attributed  to operating  a narrower
+          Figure 25     Bath Ratio During EI.TECil  Test                  inter-electrode   distance  which  lessened  the  effects  of the adjacent
+
+## PDF page 10
+
+          I      ii  J            ,I ,lh               lh,  ,_  ,                                     .... il ,,     i  ,  ,  LnlII,  iJ,
+
+
+
+
+
+              carbon anode and  sidewall conduction   As  the  cell  operation                  Table IV       FI.TF_.Cii Anode Summary                continued,  it can be seenthat the current conducted by positions D,
+                E, and F was reduced while the current conducted by A, I3, and C
+               increased correspondingly.  This was due to muck and frozen ledge     Anode    Cell Position     Operation     Comments
+                 building under the cermet anodes, minimizing any metal inventory
+              under them, such  that the current  path was through   tile metal      AI        A              g/10-18      Removed due to
+               pooled under the carbon anode•  "]'his resulted in an extremely                              193 hi        broken stem
+                  resistive path  for  those cermet anodes furthest away  from  the
+                carbon  anode.  The uneven current  distribution  among  tile cermet     A2       B                8/19-26       Removed  prior to
+                anodes  and on an individual anode  has  the added  disadvantage  of                                                             l g2 hr         reduced  alumina,
+                 using the "CEROX"  coating  in that an uneven coating  will occur on                                                 anode broke  in half
+                       tile anode•  In the worse  case, no coating was observed  on sections
+                  of the anode  directly adjacent  to the carbon anode                        Bl          13                8/8           Broke  at installation
+                                                                                                  0 hr
+
+                                140
+
+                                    ,,a"_,_.,_..".,._,_                                                        ('1                  ('               g/19-30      Removed al end
+                   ,2o  __                              _                                                260hr           oftest.
+                     loo     _        _                                              DI       D              8/10-15      Removed due to
+
+              _  6o       _t[l      _                                                      1.)2      D              8/16-28123 ht        brokenRemovedstemprior to
+                            ug                                                                                   279 hr        increased current test
+                                 40
+
+
+                                0                                                                                                                              , [                                                  ) t _'ft      E1                I-             8124-30         P, elnoved    al end                                     T,aE,o^,_                                   1':2       A                  [4/19-tt)       i_,cnloved iii end
+                        Figure 30     Cermet Anode Current I)istribution                                      260 hr          oflest
+                                       During El.']'l-(711Tesi
+                                                                                FI                I"              g/10-23     Removed at end
+                                                                                                  314 hr.         of test.
+              ELTECll  Cermet Anode Evaluation
+                                                                      F2        F              8/24-28     Removed prior to
+              Nine cermet anodes were used during this phase of the  pilot cell                              96 hr         increased current test
+                operation  Table IV summarizes tile life of each anode Anodes 4-
+                 6, located in positions D, E, and F, remained in operation for the    AUX  I     E               8/10-23     Removed as
+                 entire test period, 614 hours (25.6 days)  Only anodes I (position                              313 hr        scheduled
+              A)   and  2   (position   F,_  were  removed   early  due   to
+               cracking/breakage.   Special '_Tcr_s were made to minimize  the    AUX2     B               8/10-1g     Removed due
+            movement and disturbances to the anodes during the reduction cell                                                                            l gl hr          to broken stem
+                operation.  This probab!y ce':tributed  to the reduced breakage of
+                the anodes as compared with that experienced during the PNL test
+              as  well  as  the use  of  impr,.,ved stem  material and  ceramic
+                  protectors     While  breakage  was  not  the  problem  experienced       Metal  ln_urities
+                  previously,  upon  removal  of  the anodrs,  numerous  cracks  were
+              found to exist in tile anodesas shown in :igure 31                         Similar to the initial period, the rate of increase of nickel, copper,
+                                                                                  and iron impurity  in the ahlminum metal during  cell operation was
+                                                                                     the primary  indicator of the corrosion  rate of the cermet anodes
+                                                                                      Figures 32-34 show the results of these analyses along with  the
+                                                                                         predicted concentrations using a fixed amount of material reporting
+                                                                                                         lo the metal pad each day  The data shows an initial inclease  iii
+                                                                                             impurity levels with the introduction of  tile cermet anodes, but then
+                                                                         a stabilization of the impurity concentrations occ reed     lt should be
+                                                                                 noted that the concentrations were much more sensitive to change
+                                                                                    than in tile PNL test, as the cell was operated at a greatly reduced
+                                                                                   metal inventory  (200 Ib versus 750 117) The data shows several
+                                                                                      spikes in  tile  impulity  concentiations whicl_ can be attributed  to
+                                                                                      segregation o.c tile metal pad within the  cell preventing obtaining
+                                                                                         representative analysis of the metal  The data does nol  clearly
+                                                                                              indicate any significant changes in corrosion rates with  tile changes
+i                                                                                                        in cell operation (increased current and lower  ratio)
+
+                                                                                             Similar  to  the PNL  analysis, fixed amounts  of  the  impurities
+                                                                                             reporting to the aluminum metal pad each day could be determined
+                                                                         These amounts are:
+
+                                                                          Cu              0.075 lb per day
+                                                                                                     Ni              0 13Ib per day
+                                                                                               Fe                 0.30 Ib per day
+
+                                                                                                     Tile ratio of these metal  losses  is 1:1.74:4  (Cu.Ni:Fe)   as compa, ed
+                                                                                         with the actual  ratio in the cermet anode  of  1:1.98:1:65     II is not
+                                                                                                      surprising  that  the iron  losses appear  to be significantly  higher  than
+                  Figure 31     Removed Cermet Anodes  at End oFELTECIt  Test       what would be expected  flora the anode as fiequenl  dipping  ofthe
+
+
+
+
+                                                                                                                                                                                                                           r
+
+## PDF page 11
+
+         0.8
+
+
+
+
+
+                                                                                               ,2                                              l     i
+         "  '              ,.                       , ".                      iii'             io    ,1,,o                 .......................1,I           ¢/                                                   g  o.B                                          J"
+
+
+        Figure 32     Copper  Content  in the Aluminum Metal
+                          During ELTECH  Test                                   o.s    _p_"
+                                                                                                                                                                          0.4     09114             09/   19          09/24             09/29             10/04            10109
+                                                                                                                                                                 TIME, DATE
+     09
+
+
+
+      0.607                                       ii         i   ,1                                                         Figure  34       IronMetalDuringConlentELTECIIin the AJunlinumTest
+
+8 o._                             _-_'x._"_ v._,._.         lhe appalentneed to operateatlow anode currentdensitywillz                                                                                  require  the  design  of  a reduction  cell  with  signifcantly  increased
+  o.,                                                                           surface  area  with  suft'icient  current  conduction   for  the  thermal
+   o._       ,/                                                                                stability  of the ahlminum  reduction  cell   This  revised  design  must
+        ¢                                                                          cxhihit  utiifi_rm  cu,.,,cnl  disttibutitm  and  also  incct  the  necess;uy
+    o       ......                                                                  lequitements    for minimization  of theNnal  stress       lt  appears  the
+                             riME,DArE                                most  likely success  for such a cell design would  be in conjunction
+        Figure 33      Nickel  Content  in the Aluminum Metal              with  refractory   hard  metal  cathodes  (such   as  the  "riB_-G type
+                          During I-I.TECll  Test                             currently  trader development)
+                                                                             Operation  at Alumina  Saturation
+ metal  from  the  cell was done  with  iron  ladles   Based  upon  the
+ composition   of the anode,  the iron  losses  should  be  at the  rate  of      While the  test was not conclusive  as to the  effects  of operation  of
+ 012   Ib  per  day,  assuming   uniform   dissolution   of  the   three       the cermet  anodes  at  redtlced  alumina  concentrations,   indicatiom
+ components  into the aluminurn  metal    lt can then be calculated  that      were   that   the  corrosion    rate  did   increase   significantly   with
+ a "wear  rate"  of 0. I mm per  (lay existed  for these  anodes  during       operation  at _educed alumina    lt is essentially  impossible  to operate
+ this  'est period  or approximately   half  that found  in the absence  of        for the long term  at saturated  conditions  in a conventional   reduction
+ "CI.:.ROX "                                                                               cell due to the increasing  mt,ck build-up which results  in an increase
+                                                                                  in cathode  voltage  dlop  and a reduced  liquid  volume  for the  cell
+                                                                  The development   of  innovative   cell  designs   will be  required   to
+                               Discussion                                      address  these problems
+ The  performance   of  the cermet  anodes  during  the  pilot  cell  test
+ suffered  from a number  of limitations.  These  include  the failure  to      Cermet Anode  Corrosion  Rate
+ be  able  co operate  a conventional   pilot  reduction   cell  at  desired
+ target  conditions   of alumina  saturation  and  constant   current  and      The corrosion   rates  experienced  for the celmet  anodes  dr:ring the
+ voltage  conditions,  and the mechanical  fracture  problems  with both        tests were too  high, resuhing  in unacceptable  metal  impurity  levels
+ the anode connections  and the cermet anodes  themselves    Despite        in the aluminum    Despite  showing  significa':t  corrosion   rates  for
+ these  limitations,  however,  the pilot cell  test was successful  in that       the  cermet   anodes,   the   pilot   cell   test   did  not   conclusively
+ certain  important  and  relevant  information  was  learned  about  the       demonstrate   for or  against  the  "inertness"  of  the cermet  anodes.
+ cermet  anodes  under  scaled-up   conditions  and  the  direction   for      This was because  of (1)  the poor  current  distribution  among  the
+  further development   of the cermet anode technology                      anodes  as well as on  the  individual  anodes,  and (2)  the impact  of
+                                                                               cracking  and  Neaking   of  the  anodes   Many  fundamental   an(I
+ Correct Anode Material  and Stem Connections                               applied  questions  remain  concerning  both  materials  development
+                                                                       and fabrication  techniques
+ The  cracking  of  the  cermet  anodes  and  breaking  of  the  stems
+ indicate thai signilicant design and nlatetial selection considetations      CliltOX  .(.'oating'l-echnolol:LV
+  IllUSl  lie given  in these  areas   Thc anode  SlOln  nlatcrial  bleakagc
+  api)ears  to  be  a manageable   problcln  with  proper   selection   of     The CI:.ItOX coating  appeared  to significantly  reduce  the measured
+  materials  and  the  use  of  ceramic   barriers   to  protect   against       corrosion   rate  of  the  cermet  anodes.   The  effectiveness   of  the
+  electrolyte/vapor    attack.    The  more   difficult  technica!  problem       coating  was  reduced  somewhat  because   not   ali  surfaces   of  the
+ appears  to be  centered  around  the stem-to-anode   connection  and      cermet  anodes  were  coated,  due to  the  current  imbalance  on  the
+  the thermal  stress  cracking  which oc,"urred  in the cermet  anodes        individual anodes.  The  corrosion  rates  were also probably  reduced
+ Regardless  of the anode  design  used  in any subsequent  large-scale       somewhat,   as  compared   with  the PNL   test,  due   to  reduced
+  testing,   it is recommended   that additional  testing ofihe  physical and      mechanical  failures ofthe  anodes and stems.
+ mechanical    properties   and   modeling   of  thermal   stresses   be
+ performed   before   the  next  phase   of  pilot  evaluation     The     The  use   of   the  CEROX   coating   presents   some   additional
+  re(luircnlents   for  contlolled   heal-up  of  the  anodes mandates     challenges, inchiding.
+  specialized  start-up  and  operating   techniques.   These  procedures
+  will have to be modified using the current  experience  as a basis              a)   Increased  impoilance  on uniform anode  current  density,
+
+## PDF page 12
+
+b) lhoccdtJtcl'otlhcillilml coatingoflhcan_dcs,inch.hllg wlw,_
+     cxistit_g coaled anc,dt'._al c inOl'_Clation,
+
+c)  Management  of the increased  levels of cerium  in tile altmlinum
+     metal.
+
+                          Acknowledgments
+
+The authors  wish to acknowledge   the many people who assisted  in
+performing  the pilot cell  tests  including  those  at the Manufacturing
+Technology    Laboratory,    Pacific   Northwest   Laboratory,    and
+ELTECH Research  Corporation
+
+This   material  was   prepared   with   the  support   of  the    I,I S
+Delmntment  of  l-nergy  (I)OI-  Cooperative   Agleemt'nts  No   i)I--
+AC0{_-76RI.01830   - I'NL  and  DI'_-FC07-9011) I2940  [-I.T[-Cil)
+However, any opinions,  findings,  conclusions,  or recommendations
+expressed  herein  are those  of  the authors  and do  not  necessarily
+reflect the view of DOE.
+
+                             References
+
+ I.  R. D. Peterson,  D. M. Strachan,   ct.  al,  "Results  of 100 Hour
+     Electrolysis  Test  of a Cermet  Anode:   Operational  Results and
+     Industry  Perspective,"  Light Metals  1990, 385-393.
+
+2.  D. M. Strachan,  R. D.  Peterson,   et.  al,  "Results  of 100  l tour
+     Electrolysis   Test  of  a Cermet  Anode:    Materials  Aspects,"
+     Light Metals  1990, 395-401.
+
+## PDF page 13
+
+
+
+## PDF page 14
+

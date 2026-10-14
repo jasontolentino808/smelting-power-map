@@ -1,0 +1,427 @@
+Source: literature/Iron migration from the anode surface in alumina electrolysis.pdf
+
+## PDF page 1
+
+                                                         Applied Surface Science 265 (2013) 790–795
+
+
+                                        Contents lists available at SciVerse ScienceDirect
+
+                         Applied Surface Science
+
+
+                              jou rn al h om epa g e: www.elsevier.com/locate/apsusc
+
+
+
+Iron migration from the anode surface in alumina electrolysis
+
+Elena N. Zhuravleva a, Tatiana N. Drozdova a, Svetlana V. Ponomareva a, Sergei D. Kirik a,b,∗
+
+a Siberian Federal University, Krasnoyarsk, 660041, Russia
+b Institute of Chemistry and Chemical Technology SB RAS, Krasnoyarsk, 660036, Russia
+
+
+
+a r t i c l e    i n f o               a b s t r a c t
+
+
+Article history:                                 Corrosion destruction of two-component iron-based alloys used as an anode in high-temperature alu-
+Received 24 August 2012                     mina electrolysis in the melt of NaF/KF/AlF3 electrolyte has been considered. Ni, Si, Cu, Cr, Mn, Al, Ti in the
+Received in revised form                    amount of up to 10% have been tested as the dopants to an anode alloys. The composition of the corrosion
+11 November 2012
+                                            products has been studied using X-ray diffraction, scanning electron microscopy and electron microprobe
+Accepted 24 November 2012
+                                                   analysis. It has been established that the anode corrosion is induced by a surface electrochemical polariza-
+Available online 30 November 2012
+                                                tion and iron atom oxidation. Iron ions come into an exchange interaction with the ﬂuoride components
+                                                  of the melted electrolyte, producing FeF2. The last interacts with oxyﬂuoride species transforming into
+Keywords:
+                                             the oxide forms: FeAl2O4, Fe3O4, Fe2O3. Due to the low solubility, the iron oxides are accumulated inCorrosion mechanism
+Alumina electrolysis                            the near-electrode sheath. The only small part of iron from anode migrates to cathode that makes an
+Metallic inert anodes in aluminum                production of high purity aluminum of a real task. The alloy dopants are also subjected to corrosion in
+production                                  accordance with electromotive series resulting corrosion tunnels on the anode surface. The oxides are
+                                            ﬁnal compounds which collect in the same area. The corrosion products form an anode shell which is
+                                                 electronic conductor at electrolysis temperature. The electrolysis of alumina occurs beyond the corrosion
+                                                        shell. The rate limiting step in the corrosion is the electrolyte penetration through corrosion shell to the
+                                        anode surface. The participation of the released oxygen in the corrosion has not been observed.
+                                                                 © 2012 Elsevier B.V. All rights reserved.
+
+
+
+1. Introduction                                                   interphase boundary was characterized by high current density,
+                                                                       resulting in their fast and deep degradation.
+   The investigations on inert anodes are connected with one of the       According to Samoilov et  al. [7] the corrosion of metallic
+main directions of the aluminum industry modernization [1]. Their    single-phase anode alloys consisted of Ni,Fe and Al follows two
+use offers the prospects of the revolutionary change of environ-    mechanisms. In the ﬁrst mechanism the oxidation of the surface
+mental consequences and decrease the expenses of the aluminum     layer occurs giving NiFe2O4; NiO; Fe2O3. The second mechanism
+production. However, according to literature data an optimal mate-    includes the penetration of the cryolite melt along the grain bound-
+rial to be introduced in the production has not been found yet     aries deep into the anode. The mechanism of channel-diffusion
+[1–5]. In large-scale investigations a great number of ceramic,    degradation was described in [5]. It includes the saturation of
+metal-ceramic and metallic materials are considered [1,6]. The    the anode surface with oxygen and formation of oxides with the
+most perspective from the economic and technological point of    dopants of the anode alloy.
+view are metallic alloys. They have high mechanical strength and     A similar mechanism of the metallic anode destruction was
+low electrical resistance. Their main drawback is a corrosion in the    described in [2] as a selective dissolution of alloy components. This
+cryolite-alumina melt under the conditions of anode polarization.     results in the formation of a porous layer and saturation of the near-
+   The mechanism of anode corrosion was widely studied in litera-     electrode sheath with the components of one of the metallic phase
+ture [1,4,7–9]. Xiao [8] noted that at the normal electrolysis regime    without destroying the second one.
+with metal-ceramic anode the corrosion was due to the chemical       Iron-based alloys are the most perspective from the point of
+dissolving of the anode and reduction of the corrosion products    view of the technology. To improve the corrosion and heat resis-
+on the cathode. The authors in [9] came to a conclusion that the    tance some metals such as Ni, Cu, Cr, Al are introduced into anode
+destruction of composite materials followed a mechanism of inter-    composition. The data available in literature shows that the corro-
+granular migration of the cryolite deep into the anode surface. The     sion rate can be decreased down to 2 cm/year, which is considered
+                                                                     to be a perspective result [4]. However, many important details
+                                                           remain unclear, for example, the mechanism of electrolysis, the role
+                                                                        of the released oxygen in the anode corrosion, formation of spinel
+  ∗Corresponding author at: Siberian Federal University, Krasnoyarsk, 660041,
+Russia.                                                         phases in the near-electrode sheath, the migration of iron ions from
+    E-mail address: kiriksd@yandex.ru (S.D. Kirik).                            the anode surface and some others [10–12]. Further improvement
+
+
+0169-4332/$ – see front matter © 2012 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.apsusc.2012.11.113
+
+## PDF page 2
+
+                                                          E.N. Zhuravleva et al. / Applied Surface Science 265 (2013) 790–795                                        791
+
+Table 1                                                                  detector. The areas of the electron microprobe analysis are pointed
+Alloy compositions used for anodes.                                      out in the images.
+
+  Sample             Doped elements                Concentration (wt.%)
+
+  Fe100               –                         –
+  Ni10                 Ni                         10
+  Cu10               Cu                        10                       2. Results and discussion
+  Cr10                  Cr                         10
+ Мn10           Mn                        10                    The investigation of the anode corrosion was carried out on the
+  Al10                   Al                         10                 sample group of the electrodes made of the alloys based on iron
+  Ti10                     Ti                         10
+                                                             with the addition of 10% wt. dopants. Due to iron being the basis
+                                                                        of the alloys under study (90 wt. % and more) special attention
+                                                      was paid to the iron behavior during the electrolysis. The anode
+of the anode material requires of the speciﬁcation of the mentioned                                                   made of the pure iron is taken for comparison. The external view
+details, and as a whole, the improvement of understanding the                                                                        of the anodes taken out of the electrochemical cell after ten hours
+mechanism of corrosion.                                                                        of electrolysis are presented in Fig. 1a and b.
+   In the present paper the mechanism of iron migration from the                                                 When an anode was taken out of the melt there remains a shape-
+anode surface into the melt is speciﬁed at the example of two-                                                                            less near-electrode layer resulting from the undissolved particles
+component iron alloys with Ni, Cu, Cr, Mn, Al, Ti. Using X-ray                                                         and the electrolytic melt associated with this zone. The distri-
+diffraction, scanning electron microscopy and electron microprobe                                                                  butions of the iron contained oxides and ﬂuorides for each alloy
+analysis the role of electrolytic polarization of the anode surface as                                                        were obtained on the basis of semi-quantitative X-ray diffrac-
+the initial corrosion process has been revealed. The scheme of the                                                                      tion phase analysis (XRD) (Fig. 2). The XRD has revealed that the
+processes occurring on the anode including the corrosion mecha-                                                                   near-electrode layer consisted mainly of crystallized electrolyte
+nism have been suggested on the basis of the obtained results.                                                         components independently of the anode composition. Iron diﬂuo-
+                                                                       ride FeF2 was the main «non-electrolyte» ﬂuoride which amount
+1.1. Experimental and research methods                                varies from 6% to 10%. No ﬂuoride phases of the dopants, except
+                                                          aluminum, were observed.
+   The electrolysis was carried out in the laboratory electrochem-        Iron oxides (II,III) were present in all the samples analyzed.
+ical cell with the vertical electrodes. The cylindrical rods with the    Hematite (Fe2O3)–was the ﬁnal form of the oxidation. Its content
+diameter of 8–10 mm and length of 80–150 mm, were used as the    varied in the wide range from 3% for Al10 to 44% for Fe100. Iron
+anodes. The alloy chemical compositions are given in Table 1. The    could an partly be present in the phases with the spinel structure:
+process was carried out under the galvanostatic conditions at the    FeAl2O4 and Fe3O4, Me(Fe,Al)2O4. The spinels locate in the anode
+anode current density of 0.5 A/cm2. The experiment duration was     sheath. There was the correlation in the content of the Fe2O3 and
+10 h. Potassium-containing cryolite melt at a temperature 900 ◦C    Fe3O4 phases. As the former decreased, the latter increased. Since
+was used as electrolyte.                                           the ﬁnal oxidation form was hematite Fe2O3, this correlation was
+   After the electrolysis the anodes changed their volume and    due to the transition of Fe(II) into Fe(III), indicating that initially
+shape considerably. Fragile layers formed at the surface. To avoid     iron was present in the near-electrode sheath in the form of Fe(II).
+the losses of the outer layers the samples were ﬁrst covered     In the near-anode sheath other phases were also observed includ-
+with plastic and after the plastic polymerization, were cut in the    ing the doping components:  -Al2O3 (7–12%), FeCr2O4 (6%), NiO
+cross-section. The microsections were made using the automated     (0.5%), Cu (0.5%), Fe2,50Ti0.5O4 (10%), MnO2 (1%).
+polisher/grinder Saphir 520 (Germany) and consumable materials      The anode samples after the electrolysis were subjected to the
+fabricated by Lam Plan (France) according to the techniques sup-     electron microprobe analysis to study the layer composition in
+plied by «Latemi» Co Ltd. The microstructural analysis was made    more detail. Fig. 3 shows the images of the cross-section of the
+using the microscope Axio Obserber.A1 m, Carl Zeiss.               sample Fe100, Cu10, Al10. The central metallic part is surrounded
+   To determine the phase composition the X-ray diffraction pat-    by a rather thick circle of the corrosion and electrolysis products
+terns were scanned using the X-ray diffractometer X’Pert Pro    forming the near-electrode layer. A certain asymmetry of the near-
+(PANalytical) equipped with PIXEL detector, graphite monochro-     electrode layer is consistent with the orientation of the anode
+mator in diffracted beam and ﬁne long focus tube with copper     relative to the cathode. At the cathode side the layer is thicker
+anode, The electron microprobe analysis was made in the selected    and more porous. The anode corrosion in this area is more signiﬁ-
+points using the scanning electron microscope (SEM) EVO 50 HVP     cant, resulting in asymmetry form. It is obvious that the observed
+(Carl Zeiss) with an energy-dispersive analyzer INCA Energy 350    asymmetry is caused by more intensive electrochemical processes.
+(Oxford Instruments). The current was 200–230 рA and accelera-    Besides the total shift of the «section center», there was the corro-
+tion voltage - 20 kV. The images of the alloy microstructure were     sion irregularity observed across the anode. The irregularity of the
+obtained on microsections using the back-scattered electrons (BSE)    given type is likely to be caused by the local inhomogeneities in the
+
+
+
+
+
+                                                          Fig. 1. The anode layout after the high-temperature electrolysis.
+
+## PDF page 3
+
+792                                                      E.N. Zhuravleva et al. / Applied Surface Science 265 (2013) 790–795
+
+
+
+
+
+                 Fig. 2. The histogram of the phase distribution for the products of anode degradation in the near-electrode layer for the anodes under study.
+
+
+
+
+
+                              Fig. 3. The microsection patterns of the anodes Fe100 (а), Cu10 (b), Al10 (c), observed under the optical microscope.
+
+
+anode alloy. The electron-microscopy images (Fig. 4) conﬁrm the     electrolyte and iron diﬂuoride. In the peripheral area (spectrum
+existence of such inhomogeneities.                                   3) oxides are observed, which are most likely to be in the form
+    Fig. 4а presents the SEM image of the near-electrode layer struc-     of spinel FeAl2O4. In general, the near-electrode layer does not
+ture of the iron anode (sample Fe100). The irregular boundary of    have integrity and is intercepted with some segments which have
+the metal, as well as the presence of some metallic areas in the     different composition including metallic anode fragments.
+near-surface layer (spectra 1,2) illustrate non-uniform corrosion.        Certain cylindrical zones are clearly visible in the structure of the
+Directly near the metallic surface iron diﬂuoride–FeF2 (spectra 9,    near-electrode sheath for Cu10 sample (Fig. 3b). At higher mag-
+11) as well as the areas ﬁlled with the electrolyte without any oxy-    niﬁcation at least, four zones can be distinguished (Fig. 4b). The
+gen content species (spectrum 10) can be observed. It should be    outer boundary of the near-electrode sheath consists of a homo-
+noteed a considerable number of cations Na+, K+, Ca2+ penetrating    geneous oxide layer (Fig. 4b, spectra 1–3), which is likely to be a
+onto the anode surface. It is obvious that the cation penetration onto    combination of the spinel phases and hematite. Copper was not
+the surface of the metallic anode is only possible within large anion    found both at the outer boundary and in the inner zones. The inner
+aggregates. It indicates electrolyte penetration onto the metal-    porous degradation zone adjacent to the metal is a result of the
+lic surface. The iron diﬂuoride layer propagates further from the     surface etching of the anode. This zone is a ﬁne «net-sponge» of the
+metallic surface (spectra 6, 7, 8). The composition in points 4, 5     metallic phase consisting of copper and copper oxide, whose cells
+correspond to aluminum ﬂuoride (AlF3) with the small content of    contain the etching products: iron diﬂuoride, aluminum triﬂuoride
+
+
+
+
+
+Fig. 4. The SEM images for the samples Fe100 (а, the metal is below), Cu10 (b, the metal is below), Al10 (c, the metal is above). The points and rectangles indicate the areas
+of the electron microprobe analysis.
+
+## PDF page 4
+
+                                                          E.N. Zhuravleva et al. / Applied Surface Science 265 (2013) 790–795                                        793
+
+
+Table 2
+The results of the electron microprobe analysis.
+
+  Spectrum    O      F      Na      Al     K     Ca     Fe
+
+  Sample Fe100 (the areas of imaging are given in Fig. 4а)
+  Spectrum 1                                                  100.00
+  Spectrum 2                                                  100.00
+  Spectrum 3    62.23                   25.20                   12.56
+  Spectrum 4            77.99     0.73   13.20   3.99   0.25      3.85
+  Spectrum 5            75.10     6.17     9.52   1.68   0.65      6.89
+  Spectrum 6            78.07             0.45                   21.48
+  Spectrum 7            79.98             0.36                   19.66
+  Spectrum 8            75.64             1.41                   22.95
+  Spectrum 9            75.30             0.58                   24.11
+  Spectrum 10          72.21   10.99   10.37   0.58   2.42      3.43
+  Spectrum 11          77.56                                    22.44
+
+
+  Sample Cu10 (the areas of imaging are given in Fig. 4b)
+
+  Spectrum    O       F      Na     Al     K     Ca   Fe     Cu
+
+  Spectrum 1    49.18                    8.85                41.98
+  Spectrum 2    49.43                    7.06                43.51
+  Spectrum 3    50.21                    7.80                41.99
+  Spectrum 4    33.42   27.97          17.59                21.02
+  Spectrum 5            76.11   1.01   13.22   4.94          4.71
+  Spectrum 6            75.70   0.79   13.27   5.07          5.17
+  Spectrum 7            76.15           0.92   0.55   0.26  22.10
+  Spectrum 8            74.45                              25.55
+  Spectrum 9            71.80           1.02                27.18                  Fig. 5. Schematic presentation of anode processes, phase location and the forms of
+  Spectrum 10    8.77   59.99           8.02   1.23         11.52   10.46        iron migration. gr5.
+  Spectrum 11    8.46   56.67           4.52                17.11   13.23
+
+  Sample Al10 (the areas of imaging are given in Fig. 4c)
+                                                                   there are irregular inhomogeneous areas of the metal and oxides
+  Spectrum    O      F      Na      Al     K     Ca     Fe               (Fig. 4c, spectrum 10).
+  Spectrum 1            75.12                                    24.88            Similar results are observed in all the samples under study. The
+  Spectrum 2            79.28            12.67                     8.06      SEM data conﬁrm that the anode destruction is caused by the pen-
+  Spectrum 3            79.38             0.63                   19.99         etration of the electrolyte into the electrode metallic boundary and
+  Spectrum 4            79.17            20.83                            the interaction of the electrolyte with the anode surface, forming
+  Spectrum 5            79.57            20.43
+  Spectrum 6            80.27            19.73                              iron diﬂuoride and aluminum ﬂuoride. The electrolyte etching of
+  Spectrum 7                                                  100.00        the surface occurs non-uniformly with the penetration into the
+  Spectrum 8                                                  100.00          inter-crystalline areas, causing roughness, porosity and tunnels. As
+  Spectrum 9            76.06                                    23.94        the iron diﬂuoride is carried to the peripheral area, its interaction
+  Spectrum 10   26.98                     8.09                   64.93
+                                                             with the oxyﬂuoride species of the melt occurs, forming the spinel
+  Spectrum 11          72.99   12.07     9.25   0.32   0.24      5.13
+  Spectrum 12          74.14                                    25.86        phases and, at the ﬁnal stage, hematite which is collected in the
+  Spectrum13           67.78     2.45   17.05   6.14   0.35      6.23         outer near-electrode sheath. Schematically the iron migration from
+                                                          anode surface is reﬂected in the ﬁg. 5.
+                                                            The dopants introduced into the iron-based alloys in the amount
+                                                                        of up to 10 wt.%, exhibit different activity during the anode corro-
+and a little amount of the electrolyte (Fig. 4b, spectra 9, 10, 11).
+                                                                           sion. The introducing more electronegative elements into the alloy
+The metallic fragments of the «sponge» interchange with contin-
+                                                                                     e.g. aluminum, titanium and chromium in accordance with the elec-
+uous homogeneous layers. In whole, electron microprobe analysis
+                                                                tromotive series leads to the active dissolving of the metallic base
+data of the sample Cu10 (Table 2b) indicate that the anode destruc-
+                                                                        of the alloy with the formation of a number of oxides and spinels
+tion has occured within the metal regions enriched with iron giving
+                                                       on the basis of these elements. Besides spinels aluminum leads to
+corrosion tunnels ﬁlled with iron diﬂuoride. In this form iron was
+                                                                 the formation of aluminum ﬂuorides. Manganese has passivating
+carried to the periphery. The continuous region adjacent to the
+                                                                          action, forming an insoluble oxide shell on the anode. Nickel can be
+porous layer contains a salt mixture of ﬂuorides: aluminum triﬂu-
+                                                               transformed into the oxide and ﬂuoride phases at lower rates than
+oride, iron diﬂuoride and the electrolyte fragments (Fig. 4b, spectra
+                                                                     iron forming a low-conductive shell. Copper does not interact with
+5, 6). Further, depletion of aluminum ﬂuoride occurs and the next
+                                                                 the cryolite-alumina melt components and does not form oxides
+layer mainly consists of iron diﬂuoride (Fig. 4b, spectra 7, 8).
+                                                         and ﬂuorides.
+   The sample Al10 was subjected to corrosion to the highest
+extent. The metal boundary in the alloy (Figs. 3c and 4c) was con-
+siderably destroyed and loosed its cylindrical shape. This is likely     3. Mechanism
+to be connected with the fact that the doping component in the
+alloy was dissolved faster than the main one due to its position in      The electrolytic production of aluminum is possible due to the
+electromotive series. This is evidenced by metallic iron inclusions in     dissolving of alumina in the cryolite melt [11]. The metal corro-
+the near-electrode sheath (Fig. 4c, spectra 7,8). The electrolyte con-     sion in the medium of ﬂuorine salts in the presence of ionizing
+taining sodium, potassium and calcium cations is observed nearby     factors was earlier investigated in relation to the nuclear energy
+the metal surface (Fig. 4c, spectra 11, 13). The corrosion products    production [13]. Under the alumina electrolysis conditions the cor-
+did not form the layered structure. In general, the near-electrode    rosion process proceeds much more intensively. The mechanism
+volume is ﬁlled by iron diﬂuoride (Fig. 4c, spectra 1, 3, 9, 13) and    and kinetic of the multi-component alloy corrosion are deﬁned
+aluminum triﬂuoride (Fig. 4c, spectra 4, 5, 6), which are not sepa-    by a number of factors. The composition and microstructure of
+rated by a sharp boundary. More distantly from the metal surface    the anode alloy, electrolyte composition, electrolysis temperature,
+
+## PDF page 5
+
+794                                                      E.N. Zhuravleva et al. / Applied Surface Science 265 (2013) 790–795
+
+
+voltage on the anode and some other are among them. The most     for compensating their charges, reach the anode surface and inter-
+considerable factor is the high-temperature alumina electrolysis.      act with the charged particles located on it, in particular, with iron
+   The detailed mechanism of alumina dissolving is still unknown     cation for the formation of iron diﬂuoride according to the exchange
+[14,15]. It is possible to assume that during the dissolving process     reaction of the following type:
+complex ﬂuoride-oxygen aluminum anions are formed. [1]. The
+                                                                Fe2+ + Na2[AlF6]−→ FeF2 + NaAlF4 + Na+                       (7)fact that NaF, giving free ﬂuorine ions to the melt, does not dis-
+solve alumina, indicates the signiﬁcance of hexaﬂuoroaluminate       Here, the anions Na2[AlF6]−, neutral molecules NaAlF4 [17,18]
+ions [AlF6]3−in the dissolving process. The application of square    and some other ones can be considered as ﬂuoroaluminate species,
+brackets here and below emphasizes the importance of octahe-    which bring ﬂuorine to anode. It is worth to note that the atomic
+dron coordination of aluminum atom. The recent review devoted to     ratio F:Al does not decrease below 3. Actually electrolyte ﬂuorine
+inorganic ﬂuorides ﬁxes that the octahedron ﬂuorine coordination      is «consumed» for the iron diﬂuoride formation and sodium cation
+is the most stable and usual for aluminum [16]. The maximum sol-     receives uncompensated positive charge. In its turn, a sodium
+ubility of Al2O3 in the cryolite melt Na3AlF6, amounts to about 15%     cation, being the most mobile particle, diffuses from the near-anode
+(wt.), which is close to the molar ratio Na3AlF6:½Al2O3. This allows    sheath into the electrolyte and carries the positive charge. The com-
+one to nominally describe the dissolving process by the following    pound NaAlF4 known as highly fugitive [19] can escape the anode
+reaction:                                                               via gaseous phase. The iron diﬂuoride forms crystalline particles
+                                                         which are detected by the XRD and electron microprobe analysis.
+Al2O3(s) + 2[AlF6](melt.) 3−→ [AlO][AlF6]2− (melt.)
+                                                                       In the frame of discussed scheme the alkaline cations are the indi-
+ + [AlO2][AlF6](melt.) 4−                                         (1)     cators of electrolyte penetration into metallic surface and corrosion
+                                                                      process.
+   The oxygen-containing complex anions are carried to the anode       Oxygen-containing particles penetrate to the anode surface to
+under the action of the electric ﬁeld. In the melt for the charge    a smaller extent. However, they also can interact with iron ions or
+compensation highly charged anions are accompanied by cations.    other alloy components, yielding oxides according to the approxi-
+On the anode the anion «discharge» occurs in the process of the    mate reactions:
+oxygen «oxidation»:
+                                                                Fe2+ + Na2[AlO][AlF6] → FeO + [Al][AlF6] + 2Na+             (8)
+[AlO][AlF6](melt.) 2−→ [Al][AlF6]0 + 1/2O2 + 2e−                (2)
+                                                              2Fe3+ + 3Na2[AlO][AlF6] → Fe2O3 + 3[Al][AlF6] + 6Na+       (9)
+[AlO2][AlF6](melt.) 4−→ [Al][AlF6]0 + O2 + 4e−                   (3)
+                                                           Cu2+ + Na2[AlO][AlF6] → CuO + [Al][AlF6] + 2Na+          (10)
+   The hypothetical polarized particles [Al][AlF6]0, which reﬂect
+                                                                                                   It is important to note that the hypothetical species [Al][AlF6]association of multiply charged ions in the melt, interact with the
+                                                             can transform to crystalline phase AlF3, which is really observed incations Na+ or К+, resulting in complex cations which, according to
+                                                           sample Cu10.
+the charge migrate to the cathode:
+                                                                        Similar reactions describe the interaction of iron diﬂuoride with
+[Al][AlF6]0 + Na+ → [Al][AlF6][Na]+                             (4)    oxyﬂuoride ions of aluminum with the formation of the observed
+                                                                      spinel phases more distantly from the anode surface:
+  On the cathode they are reduced with the deposition of metallic
+aluminum:                                                       FeF2 + [AlO][AlF6]2−→ FeO + 2[AlF4]−                      (11)
+[Al][AlF6][Na]+ +3e− → Al0 + [AlF6]3−+ Na+                   (5)    FeO + 3[AlO][AlF6]2−→ FeAl2O4 + [Al][AlF6] + 2[AlF6]3+    (12)
+
+   The released hexaﬂuoroaluminate ions repeatedly participate       There are experimental evidences that ﬂuorides transform into
+in the process of alumina dissolving. As a result, the dissolved alu-     oxides. Small oxide nucleation centers, which can be observed
+mina, in a complex way, migrate ﬁrst to the anode, and, then to    under additional magniﬁcation on boundary of ﬂuorides and
+the cathode, accompanied by hexaﬂouroaluminate ions and cations     oxides, develop up to form oxides crust of anode area. Appeared
+«compensating» the charge. The diffusion rate of oxyﬂuoride ions in    oxides are dissolved poorly in electrolyte and are not subjected to
+the near-anode sheath is less than that of hexaﬂuoro-ions due to the     electrolysis.
+difference in their weight. Besides, the loss of their electro-diffusion       Further oxidation of Fe2+ into Fe3+ observed on the anode can
+mobility is due to the decrease of their charge.                      occur during the direct oxidation by the released oxygen or accord-
+   The corrosion on the anode acts as an accompanying process.    ing to the electrochemical reaction:
+It can be caused by three factors: electrochemical oxidation of the    Fe2+ → Fe3+ + e−                                           (13)
+anode metal due to the applied voltage, chemical oxidation by the
+oxygen released in the main process, oxidation by ﬂuoride due to       And, further with the formation of magnetite and hematite:
+the overpotential voltage on the electrode in the absence of the
+                                                        2FeO+ + Na2[AlO][AlF6] → Fe2O3 + [Al][AlF6] + 2Na+        (14)oxygen phases.
+   The measurements given here show the absence of oxygen      The experimental observation of hematite location on the
+directly on the metal surface. The electrolysis is carried out with the     external layer of near-electrode sheath prompts that the oxy-
+excess of alumina under the conditions excluding ﬂuorine release.    gen discharge locates in the same area distanced from metallic
+One should note that in some cases the presence of oxygen on the     surface. The hematite, magnetite, iron-aluminum spinel phases
+boundary with the metal is recorded.                              migrate gradually to the periphery of the near-anode sheath due
+   The electrochemical process of anode etching at positive polar-     to corrosion process development and their poor solubility in the
+ization implies the appearance of iron cations on the surface or     electrolyte. They form a crystallite suspension around the anode
+other alloy species with lower ionization potential:                which is observed when taking the anode out of the melt. These
+                                                                 oxides are not subjected to electrolysis because of solid state. The
+Fe0 → Fe2+ + 2e−                                                (6)
+                                                        most probable location of the alumina discharging seems to be the
+   As a result of the electro-diffusion migration the hexaﬂuoroa-    boundary between of external oxide layer of near-anode sheath and
+luminate anions accompanied by sodium and potassium cations     electrolyte.
+
+## PDF page 6
+
+                                                          E.N. Zhuravleva et al. / Applied Surface Science 265 (2013) 790–795                                        795
+
+
+4. Conclusion                                                                           [4] X.U. Shi Zhong-ning, Jun-Li, Qui Zhu-Xian, Iron-nickel anodes for aluminum
+                                                                                                      electrolysis, Light Metal (2004) 333.
+                                                                                               [5] T.N. Drozdova, V.S. Biront, V.V. Baturova, Yu.V. Kim, A.L. Voynich, Modeling
+   Thus, based on the XRD, SEM and electron microprobe analysis           of processes of destruction of the anode surface of the nickel-base alloys in
+of the near-electrode sheath it is possible to reproduce the main          high-temperature electrolysis, Bulletin of Siberian State Aerospace University.
+stages of the corrosion of the iron-containing anodes at alumina          Krasnoyarsk 85 (2006).
+                                                                                               [6] H. Kvande, Inert electrodes in aluminum electrolysis cells, Light Metals 369
+electrolysis. The scheme is presented in ﬁg. 5. Due to the elec-                                                                                           (1999).
+trochemical polarization of metallic surface the oxidation of the       [7] E.N. Samoilov, Yu.A. Liner, E.A. Levashov, L.L. Rokhlin, V.Y. Dashevsky, D.Y.
+metallic iron into Fe2+ occurs on the anode surface. The formed ions          Rozhkov, Development of materials for inert anodes, in: 3-d International
+interact with the electrolyte penetrating to the anode giving iron          Congress, Krasnoyarsk, Non-Ferrous Metals (2011) 217.
+                                                                                               [8] H. Xiao, Studies on the corrosion and the behavior of inert anodes in alu-
+diﬂuoride. Electrolyte diffusion to metallic surface seems to be rate       minum electrolysis, Metallurgical and Materials Transactions 27B (2) (1996)
+limiting stage of the anode corrosion and the presence of sodium          185.
+and potassium cations nearby the metallic surface is the indica-       [9] S. Vasiliev, V. Laurinavichute, A. Abakumov, V. Govorov, E. Bendovskii, S.
+                                                                                          Turner, A. Filatov, V. Tarasovskii, A. Borzenko, A. Alekseeva, E. Antipov,
+tor of corrosion. Iron diﬂuoride is displaced by electrolyte from          Microstructural aspects of the degradation behavior of SnO2-based anodes for
+the metallic surface to more distance area where iron diﬂuoride        aluminum electrolysis, Journal of the Electrochemical Society 157 (5) (2010)
+interacts with oxyﬂuoride polynuclear aluminum complexes, pro-          178.
+                                                                                      [10] T.R. Beck, C.M. MacRae, N.C. Wilson, Metal anode performance in low-
+ducing iron-aluminum spinels. Upon further oxidation magnetite         temperature  electrolytes  for aluminum  production,  Metallurgical  and
+and hematite are formed. The oxide phases migrate to the periphery          Materials Transactions 42B (8) (2011) 809–813.
+of the anode area, forming a dense peripheral layer on the electrode.      [11] V.A. Kovrov, A.P. Khramov, Yu.P. Zaikov, V.N. Nekrasov, M.V. Ananyev, Studies
+                                                                         on the oxidation rate of metallic anodes by measuring the oxygenevolved in
+In whole it is become clear that kinetic phenomena more than ther-         low-temperature aluminium electrolysis, Journal of Applied Electrochemistry
+modynamic manage the corrosion process. The presented results         41 (11) (2011) 1301–1309.
+urge to the conclusion that the key direction in the “inert anode”      [12] E.N. Zhuravleva, T.N. Drozdova, S.V. Ponomareva, S.D. Kirik, The corrosion of
+                                                                                           iron content anodes at aluminium electrolysis, Journal of Siberian Federal Uni-
+problem is the inhibiting electrolyte diffusion to anode surface.                                                                                                      versity. Technics and Technology 5 (4) (2012) 87–92.
+                                                                                      [13] V.M. Novikov, V.V. Ignatiev, V.I. Fedulov, V.N. Cherednikov, Nuclear power
+Acknowledgements                                                                    plants: perspectives and problems, in: Physics and Technology of Nuclear Reac-
+                                                                                                          tors, Energoatomizdat, Moscow, 1990, p. 192.
+                                                                                      [14] K. Grjotheim, C. Krohn, M. Malinovsky, K. Matiasovsky,  J. Thonstad, Alu-
+   The authors grateful to prof. P.V.Polykov for fruitful discussion        minium Electrolysis Fundamentals of the Hall-Heroult Process, 2nd edition,
+of the paper results and “RUSAL ETC” (the project “Electrolysis with          Aluminium-Verlag, Dusseldorf, 1982, p. 360.
+inert anode”) for ﬁnancial support and the permission to publish.       [15]  J. Thonstad, P. Fellner, G. Haarberg,  J. Hives, H. Kvande, A. Sterten, Alu-
+                                                                      minium Electrolysis Fundamentals of the Hall-Heroult Process, 3nd edition,
+                                                                                Aluminium-Verlag Marketing and Kommunikation GmbH, Dusseldorf, 2001,
+References                                                                                       p. 355.
+                                                                                      [16] K. Adil, A. Cadiau, A. Hemon-Ribaud, M. Leblanc, V. Maisonneuve, in: A. Tres-
+                                                                               saud (Ed.), Polyanion Condensation in Inorganic and Hybrid Fluoroaluminates
+ [1]  I. Galasiu, R. Galasiu,  J. Thonstad, Inert Anodes for Aluminium Electrolysis,
+                                                                                               in Functionalized Inorganic Fluorides. Synthesis, Characterization & Proper-
+    Aluminium-Verlag, Dusseldorf, 2007, p. 207.
+                                                                                                        ties of Nanostructured Solids, Bordeaux University, John Wiley and Sons, Ltd.,
+ [2] E.N. Lyndina, T.N. Drozdova, S.V. Ponomareva, V.S. Biront, A.O. Gusev, D.A.
+                                                                                            France, 2010, p. p347.
+    Simakov, Simulation and experimental study of the mechanism of degradation
+                                                                                      [17] J.N. Zaitseva, I.S. Yakimov, S.D. Kirik, Thermal transformation of quaternary
+     channel-diffusion of due to high temperature corrosion of anode metal alloy,
+                                                                        compounds in NaF–CaF2–AlF3 system, Journal of Solid State Chemistry 182
+     Journal of Siberian Federal University. Engineering & Technologies 2 (2010)
+                                                                                    (2009) 2246.
+     139.
+                                                                                      [18] S.D. Kirik, J.N. Zaitseva, NaAlF4: preparation, crystal structure and thermal sta-
+ [3] V.A. Kovrov, N.I. Shurov, A.P. Khramova, Y.P. Zaikov, Character and causes of
+                                                                                                                  bility, Journal of Solid State Chemistry 183 (2010) 431.
+     corrosion destruction of inert anodes in the electrolysis of cryolite-alumina
+     melts, Non-Ferrous Metallurgy (Rus) 5 (2009) 46.

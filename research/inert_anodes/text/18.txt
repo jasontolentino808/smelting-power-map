@@ -1,0 +1,645 @@
+Source: literature/Phase equilibria of FeOx-SiO2-Al2O3 slag system at 1200 ◦C and pO2.pdf
+
+## PDF page 1
+
+                          CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 79 (2022) 102502
+
+                                                 Contents lists available at ScienceDirect
+                                 Calphad
+
+
+                                          journal homepage: www.elsevier.com/locate/calphad
+
+
+Phase equilibria of FeOx-SiO2-Al2O3 slag system at 1200 ◦C and pO2
+of 10−8.6 atm
+Miao Tian a,b, Xingbang Wan c, Min Chen a, Pekka Taskinen a, Mia Tiljander d, Ari Jokilaakso a,*
+a Department of Chemical and Metallurgical Engineering, School of Chemical Engineering, Aalto University, Kemistintie 1F, P.O. Box 16100, FI-00076, Aalto, Finland
+b School of Metallurgy and Environment, Central South University, Changsha, 410083, China
+c School of Energy Science and Engineering, Central South University, Changsha, 410083, China
+d Geological Survey of Finland, Vuorimiehentie 2, 02150, Espoo, Finland
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                  The increasing concentrations of metallic Al or Al2O3 in secondary copper resources like electronic wastes
+Equilibria                                       motivate research into the slag chemistry of high-Al2O3 iron silicate slags for optimizing the industrial smelting
+High-Al2O3 slag                                      process. In this study, the effect of Al2O3 in slag on the phase equilibria of the FeOx-SiO2-Al2O3 slag system wasThermodynamic                                                experimentally investigated at 1200 ◦C and pO2 of 10−8.6 atm. The high-temperature experiments were under­Copper smelting                                               taken in silica and spinel crucibles in a controlled CO–CO2 gas atmosphere, followed by rapid quenching and
+                                                  Electron Probe Microanalysis. The equilibrium compositions of liquid slags in the tridymite primary phase field,
+                                                     spinel primary phase field, and the three-phase invariant point were determined. The 1200 ◦C isothermal section
+                                         was constructed for the FeOx-SiO2-Al2O3 system, and the results showed that Al2O3 can dissolve in the liquid
+                                                      slags to a maximum concentration of 17 wt%. The present experimental results were compared with the pre­
+                                                     dictions by MTDATA and FactSage. It was found that the present experimentally determined liquid domain
+                                              agreed well with the calculations by FactSage except the invariant point. However, the present isotherm in the
+                                                     spinel primary phase field of spinel displayed lower Al2O3 concentrations. The present results help regulating
+                                                    fluxing strategies of FeOx-SiO2-Al2O3 slags and optimizing smelting operations of recycling high-alumina con­
+                                                   centration copper resources.
+
+
+1. Introduction                                                        equilibrium relations of smelting slags is of great importance for effi­
+                                                                              cient and stable smelting operation.
+   Aluminum, iron, and copper represent the major components in the       The slag properties of the FeOx–SiO2–Al2O3 system in equilibrium
+waste electrical and electronic equipment (WEEE) [1]. With the deple­     with metallic iron, metallic copper, and sulphidic copper matte have
+tion of primary ores and increasing demand for metals, WEEE becomes    been investigated extensively (Table 1). Muan et al. [4,5] measured the
+an essential secondary copper resource due to  its various valuable    phase equilibrium relations and the liquidus temperature of copper-free
+metals [2]. One possible method of recovering WEEE is the pyrometal­    FeO–Fe2O3–SiO2–Al2O3 slag system in a pO2 range from 10−12.5 to 1
+lurgical copper smelting process, in which aluminum and iron are easily     atm. Zhao et  al. [6] determined the phase boundary lines in the
+oxidized to the smelting slags and copper can be selectively and effi­     iron-saturated Al2O3-“FeO”-SiO2 system at Al2O3 concentrations from
+ciently extracted [3]. Compared with primary copper concentrates,    0 to 6 wt%. It was found that the Al2O3 addition led to an expansion of
+WEEE brings a significant amount of alumina to the smelting process,     the fayalite primary phase field towards the region with lower iron oxide
+producing high-alumina FeOx–SiO2-Al2O3 slags. The increasing Al2O3     concentrations and resulted in a decrease of the liquidus temperature by
+concentration of smelting slags may affect the slag properties, such as     approximately 3◦C for each 1 wt% of Al2O3 added. Snow [7] reported
+emerging solid phases and metal loss in slags, which would significantly     the equilibrium phase relations between FeO–SiO2–Al2O3 slag and
+influence the industrial processes and metal recovery efficiency. Inves­     metallic iron at 1400◦C in nitrogen atmosphere.
+tigation on  the  effect  of  increasing Al2O3  concentration on  the        In  typical  black  copper  smelting  conditions  [8],  equilibrium
+
+
+ * Corresponding author.
+    E-mail addresses: miaotian2016@126.com (M. Tian), xingbangwan@126.com (X. Wan), min.chen@aalto.fi (M. Chen), pekka.taskinen@aalto.fi (P. Taskinen),
+mia.tiljander@gtk.fi (M. Tiljander), ari.jokilaakso@aalto.fi (A. Jokilaakso).
+https://doi.org/10.1016/j.calphad.2022.102502
+Received 8 July 2022; Received in revised form 6 November 2022; Accepted 8 November 2022
+Available online 16 November 2022
+0364-5916/© 2022 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+
+## PDF page 2
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+compositions  of high-alumina FeOx–SiO2–Al2O3  slags and metallic     publications compiled in Table 1, only limited studies have been pub­
+copper were examined when investigating the distribution behavior of     lished on the slag system at 1200◦C in controlled atmospheres. This
+trace elements. Reddy et al. [9,10] studied the distributions of copper     accelerated  the  need  for  establishing  phase  relations  of  the
+and nickel between copper-nickel alloys and Al2O3-saturated iron sili­     FeOx–SiO2-Al2O3 system with the equilibrium of liquid slags, silica, and
+cate slags at 1200–1300◦C and pO2 of 10−10 to 10−8 atm. Nagamori et al.     spinel for a range of Al2O3 concentrations under controlled smelting
+[11,12] reported the distributions of trace elements between metallic     conditions to enrich the thermodynamic data.
+copper and FeO–Fe2O3–SiO2–Al2O3 slags with Al2O3 concentrations of       The objective of this study was to investigate the equilibrium phase
+4–10 wt% at 1200–1300◦C and pO2 of 10−11 to 10−6 atm. Derin and     relations of the FeOx–SiO2-Al2O3 slag system at 1200◦C and pO2 of
+Yüsel [13] studied the solubility of cobalt in Al2O3-saturated iron silicate     10−8.6 atm. Three sets of experiments were conducted for investigating
+slags in equilibrium with cobalt-copper-iron alloys at 1400◦C and pO2 of     the effects of Al2O3 on equilibrium phase relations between slag, tridy­
+10−7.95 to 10−6.3 atm. Klemettinen et al. [14] investigated the equilib­     mite, spinel, and gas of FeOx–SiO2-Al2O3 slags with an Al2O3 concen­
+rium phase relations and copper distributions between metallic copper     tration range from 0 to 23 wt%. The present experimental results were
+alloy and alumina-spinel saturated iron silicate slags at 1300◦C and pO2    compared with calculations by FactSage and MTDATA, which provides
+= 10−10 - 10−5 atm. Equilibria within the copper and alumina-bearing     guidance  for updating the thermodynamic databases. The present
+iron silicate slags were examined in alumina or silica saturation by     experimentally determined equilibrium phase relations and chemical
+Avarmaa et al. [15,16] at 1300◦C and pO2 = 10−10 - 10−8 atm, focusing     compositions of phases are essential for adjusting fayalite-based slag
+on the distribution behaviors of Ga, In, Ge, and Sn.                       compositions with a high-alumina concentration and optimizing sec­
+   Concerning the copper matte smelting process, the slag chemistry of    ondary copper smelting operations of industrial interest.
+the FeOx-SiO2-Al2O3 system has been researched at silica saturation and
+spinel saturation. Chen et al. [17,18] investigated the effect of Al2O3 on     2. Experimental
+the equilibrium phase relations between matte and silica-saturated iron
+silicate slags at 1300◦C and pSO2 of 0.1 atm and 0.5 atm. Sukhomlinov     2.1. Materials
+et al. [19] studied trace elements distributions between copper matte
+and silica-saturated fayalite slags with 5 wt% Al2O3 at 1300◦C and pSO2       High purity oxide powders of Fe2O3 (99.995 wt%, Alfa Aesar), SiO2
+of 0.1 atm. At pSO2 of 0.25 atm, Fallah-Mehrjardi et al. [20] measured     (99.99 wt%, Umicore, 0.2–0.7 mm), and Al2O3 (99.99 wt%, Sigma-
+the phase relations of silica-saturated fayalite slags with Al2O3 concen­     Aldrich) were utilized to prepare the initial slag mixtures. The prepa­
+tration of 3–10 wt% at 1200◦C, and equilibria with 2–18 wt% Al2O3 at     ration of the slag mixtures started with mixing the required amounts of
+1300◦C were examined by Abdeyazdan et al. [21]. In the spinel primary    components (Table 2) thoroughly in an agate mortar for approximately
+phase field, the equilibria of matte and FeOx-SiO2-Al2O3 slags were    30 min, followed by placing them in a desiccator for later use. Each
+researched in the synthesized spinel (Fe3O4) crucibles at 1250◦C and    sample was weighed as 0.20 g, then pressed into a 5 mm diameter pellet.
+pSO2 of 0.25 atm by Chen et al. [22].                                   For the experiments in the tridymite saturated and the tridymite-spinel
+   In the previous studies, the phase relations for the FeOx–SiO2-Al2O3    double saturated domain, the bowl-shaped fused silica crucibles (H × O.
+ternary system were mainly conducted at silica saturation with a low Fe/     D. = 6 × 10 mm) were used to support the sample pellets. For the ex­
+SiO2 ratio and Al2O3 concentration. However, with the increasing use of     periments in the spinel primary phase  field, spinel crucibles were
+secondary copper resources in the industry, high-Al2O3 iron silicate    employed as substrates for the samples. To evaluate the availability of
+slags under silica saturation [23] and spinel saturation [24] were pro­    molybdenum (Mo) for supporting matte-free oxide slags at 1200 ◦C with
+duced. The fundamental thermodynamic phase equilibrium and slag    low oxygen partial pressure, a duplicate series of experiments were
+chemistry are essential for industrial practice. As can be seen in the     carried out in Mo crucibles which were prepared by folding the high
+
+Table 1
+Equilibrium investigations of FeOx-SiO2-Al2O3 slags in the literature.
+  Investigators                 Type of slag                   Al2O3 concentration           Crucible          logpO2/atm              Temperature/◦C          Ref
+  FeOx-SiO2-Al2O3 slag
+  Present study                  SiO2 saturated                 0-23 wt%                    SiO2            −8.6                  1200                    –
+                                   Spinel saturated                                          Fe3O4                                                              –
+                                    SiO2-spinel saturated                                        SiO2                                                               –
+ Muan et al.                     FeOx-SiO2-Al2O3               4-34 wt%                     Pt             −12.5⁓ 0              1050–1529                [4]
+ Muan et al.                     FeOx-SiO2-Al2O3               4-37 wt%                     Pt                 −0.67(air)              1340–1684                [5]
+  Copper matte- FeOx-SiO2-Al2O3 slag
+  Fallah-Mehrjardi et al.          SiO2 saturated                 3-10 wt%                    SiO2             pSO2 = 0.25 atm         1200                    [20]
+  Sineva et al.                     Spinel saturated                2-8 wt%                    Fe3O4           pSO2 = 0.25 atm         1200                    [25]
+  Abdeyazdan et al.              SiO2 saturated                 2-18 wt%                    SiO2             pSO2 = 0.25 atm         1300                    [21]
+  Chen et al.                     SiO2 saturated               8 wt%                       SiO2             pSO2 = 0.1 atm          1300                    [17]
+  Chen et al.                     SiO2 saturated                  7-9 wt%                     SiO2             pSO2 = 0.5 atm          1300                    [18]
+  Chen et al.                      Spinel saturated                2-4 wt%                    Fe3O4           pSO2 = 0.25 atm         1250                    [22]
+  Sukhomlinov et al.              SiO2 saturated               5 wt%                       SiO2             pSO2 = 0.1 atm          1300                    [19]
+  Copper alloy- FeOx-SiO2-Al2O3 slag
+  Klemettinen et al.                Al2O3-spinel saturated         17 wt%                     Al2O3         −10⁓ −5              1300                    [14]
+  Avarmaa et al.                   Al2O3-spinel saturated         20 wt%                     Al2O3         −10⁓ −5              1300                    [15]
+  Avarmaa et al.                 SiO2 saturated               10 wt%                     SiO2         −10⁓ −5              1300                    [16]
+  Nagamori et al.                Se/Te/Sn distribution           4-10 wt%                   Al2O3         −11⁓ −6               1200,1300               [11]
+  Reddy et al.                   Al2O3 saturated                0-16 wt%                   Al2O3         −10⁓ −8              1200–1300                [9]
+  Derin et al.                    Al2O3 saturated              10 wt%                     Al2O3          −7.95⁓ −6.3           1400                    [13]
+  Copper matte- Metallic copper -FeOx-SiO2-Al2O3 slag
+  Shimpo et al.                   SiO2 saturated               8 wt%                       SiO2         −13⁓ −8              1200                    [26]
+  Metallic iron -slag
+  Zhao et al.                     SiO2 saturated                  0-6 wt%                          Pt, Fe             Nitrogen                1140–1190                [6]
+  Snow et al.                     Liquidus surface               8-69 wt%                   Fe                Nitrogen                900–1380                 [7]
+
+
+
+                                                                        2
+
+## PDF page 3
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+Table 2
+Equilibrium phase compositions of FeOx-SiO2-Al2O3 slags at 1200 ◦C and pO2 of 10−8.6 atm (EPMA, wt%).
+  Sample No          Initial compositions/wt%        Crucible       Phase                 Equilibrium phase compositions/wt%-normalized                Original total (Mo)
+                 Al2O3      SiO2      Fe2O3                                    Al2O3             SiO2            “FeO”           Fe/SiO2
+  Liquid - Tridymite
+  F1           0        40      60          SiO2          Liquid         –                33.99 ± 0.13     66.01 ± 0.13      1.51 ± 0.01     97.62
+                                                                Tridymite      –                99.54 ± 0.20      0.46 ± 0.20                       99.40
+  F13          0        36      64          SiO2          Liquid         –                33.89 ± 0.11     66.11 ± 0.11      1.52 ± 0.01     98.62
+                                                                Tridymite      –                99.30 ± 0.17      0.70 ± 0.17                      100.21
+  F2           5        45      50          SiO2          Liquid         7.13 ± 0.06       38.51 ± 0.03     54.36 ± 0.07      1.10 ± 0.00     99.26
+                                                                Tridymite      0.03 ± 0.01       99.14 ± 0.19      0.83 ± 0.18                       97.42
+  F3-1          8        48      44          SiO2          Liquid         11.67 ± 0.12     41.37 ± 0.11     46.96 ± 0.12      0.88 ± 0.00     100.45
+                                                                Tridymite      0.06 ± 0.02       99.07 ± 0.14      0.88 ± 0.14                       99.16
+  F3-2          8        48      44       Mo           Liquid         11.80 ± 0.12     39.96 ± 0.22     46.80 ± 0.22      0.91 ± 0.01     99.00
+                                                                                                                                                          (1.44 ± 0.04)
+                                                                Tridymite      0.08 ± 0.03       98.95 ± 0.14      0.97 ± 0.11                       99.99
+                                                                                                                                                          (0.00 ± 0.01)
+  F4           10       43      47          SiO2          Liquid         10.70 ± 0.05     39.85 ± 0.14     49.45 ± 0.14      0.97 ± 0.01     99.31
+                                                                Tridymite      0.03 ± 0.01       99.17 ± 0.06      0.79 ± 0.06                      100.75
+  Liquid - Tridymite - Spinel
+  F5-20 h       13       47      40          SiO2          Liquid         17.28 ± 0.61     45.00 ± 0.62     37.72 ± 1.19      0.65 ± 0.03     99.16
+                                                                Tridymite      0.07 ± 0.05       99.28 ± 0.17      0.65 ± 0.15                      100.30
+                                                                    Spinel         51.68 ± 0.31      0.12 ± 0.00       48.20 ± 0.31                     100.42
+  F5-40 h       13       47      40          SiO2          Liquid         16.78 ± 0.13     44.30 ± 0.17     38.92 ± 0.27      0.68 ± 0.01     98.87
+                                                                Tridymite      0.20 ± 0.16       98.39 ± 0.98      1.41 ± 0.92                       99.81
+                                                                    Spinel         48.37 ± 0.20      0.20 ± 0.08       51.44 ± 0.19                     100.25
+  F6           20       47      33          SiO2          Liquid         17.38 ± 0.49     44.79 ± 0.36     37.83 ± 0.81      0.66 ± 0.02     97.76
+                                                                Tridymite      0.31 ± 0.10       97.76 ± 0.53      1.93 ± 0.58                       99.62
+                                                                    Spinel         48.53 ± 0.24      0.10 ± 0.06       51.37 ± 0.19                     99.22
+  F7-20 h       23       43      34          SiO2          Liquid         18.11 ± 0.52     44.81 ± 1.12     37.08 ± 1.62      0.64 ± 0.05     98.65
+                                                                Tridymite      0.13 ± 0.02       99.14 ± 0.05      0.73 ± 0.06                       99.59
+                                                                    Spinel         48.89 ± 1.29      0.11 ± 0.02       51.00 ± 1.28                     100.61
+  F7-40 h       23       43      34          SiO2          Liquid         18.88 ± 0.47     45.94 ± 0.30     35.18 ± 0.76      0.60 ± 0.02     99.24
+                                                                Tridymite      0.40 ± 0.14       97.56 ± 0.34      2.04 ± 0.29                      100.86
+                                                                    Spinel         51.02 ± 0.25      0.06 ± 0.04       48.92 ± 0.23                     100.84
+  F8           20       40      40          SiO2          Liquid         17.57 ± 0.55     44.19 ± 0.87     38.24 ± 1.42      0.67 ± 0.04     98.46
+                                                                Tridymite      0.36 ± 0.27       97.75 ± 1.11      1.89 ± 0.93                       99.90
+                                                                    Spinel         47.84 ± 0.45      0.14 ± 0.02       52.02 ± 0.45                     99.93
+  F9           20       32      48       Mo           Liquid         15.46 ± 0.21     41.69 ± 0.20     40.97 ± 0.29      0.76 ± 0.01     97.75
+                                                                                                                                                          (1.89 ± 0.04)
+                                                                Tridymite      0.10 ± 0.02       99.02 ± 0.13      0.87 ± 0.12                      100.62
+                                                                                                                                                          (0.01 ± 0.00)
+                                                                    Spinel         49.29 ± 0.72      0.19 ± 0.21       50.34 ± 0.59                     99.48
+                                                                                                                                                          (0.19 ± 0.03)
+  Liquid - Spinel
+  F10          12       26      62           Spinel        Liquid         8.48 ± 1.18       33.88 ± 0.22     57.63 ± 1.37      1.32 ± 0.04     99.38
+                                                                    Spinel         20.31 ± 1.80      0.38 ± 0.05       79.32 ± 1.77                     99.72
+  F11          10       28      62           Spinel        Liquid         6.56 ± 0.39       33.33 ± 0.27     60.12 ± 0.50      1.40 ± 0.02     99.31
+                                                                    Spinel         11.90 ± 0.33      0.55 ± 0.02       87.55 ± 0.32                     99.61
+  F12          8        22      70           Spinel        Liquid         6.65 ± 0.58       32.91 ± 0.12     60.44 ± 0.54      1.43 ± 0.01     99.58
+                                                                    Spinel         10.96 ± 0.37      0.63 ± 0.07       88.41 ± 0.32                     99.12
+  F14          0        20      80           Spinel        Liquid         –                29.51 ± 0.16     70.49 ± 0.16      1.86 ± 0.01     99.25
+                                                                    Spinel         –                 1.14 ± 0.10       98.86 ± 0.10                     99.47
+  F15          0        10      90       Mo           Liquid         –                28.82 ± 0.12     71.18 ± 0.13      1.92 ± 0.01     98.17
+                                                                                                                                                          (0.01 ± 0.01)
+                                                                    Spinel         –                 0.48 ± 0.04       87.14 ± 0.73                     98.48
+                                                                                                                                                     (12.38 ± 0.75)
+
+purity Mo foil into a crucible shape.                                  working tube and hung in the cold zone by a molybdenum (Mo) wire.
+                                                             The CO–CO2 gas mixture was led into the furnace tube for around 15
+2.2. Experimental procedures                                     min to flush the residual air and stabilize the oxygen partial pressure,
+                                                                                  after which the samples were lifted up to the hot zone of the furnace for
+   The high-temperature isothermal equilibration experiments were     equilibration. All samples were pre-melted at 1250 ◦C for 30 min, fol­
+conducted at 1200 ◦C with the corresponding primary phases as sub­    lowed by equilibration at 1200 ◦C for the required time. After equili­
+strates, followed by rapid quenching in an ice-water mixture and the     bration, the bottom end of the work tube was immersed in the ice-water
+direct phase analysis. The experiments were carried out in a vertical     mixture, and the rubber stopper that sealed the tube was removed.
+alumina tube furnace (Nabertherm RHTV 120–150/18, L × O. D. =     Pulling up the wire, the samples were dropped directly into the ice-water
+1200 × 45 mm) equipped with MoSi2 heating elements, as shown in     mixture for quenching, so that the high-temperature phase assembles
+Fig. 1. The furnace temperature was regulated with a Eurotherm 3216    can be retained at room temperature within seconds.
+PID controller with an overall temperature accuracy of ±3 ◦C. A cali­       At 1200 ◦C, the oxygen partial pressure in the working tube was
+brated S-type Pt/Pt–10%Rh thermal couple, placed next to the sample     controlled at 10−8.6 atm by mixing CO (99.99 vol%, Woikoski Oy,
+inside the working tube, was used to monitor the actual temperature of     Finland) and CO2 (99.99 vol%, Woikoski Oy, Finland) according to the
+the sample.                                                                reaction Eq. (1) [27]. The required oxygen partial pressure and gases
+   The samples were introduced into the furnace from the bottom of the     proportion could be calculated by Eq. (2), where ΔG (J⋅mol−1) is the
+
+                                                                        3
+
+## PDF page 4
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+
+
+
+
+                           Fig. 1. Schematic of (a) the vertical furnace and the substrates used in the experiments: (b) SiO2, (c) spinel.
+
+standard Gibbs energy of reaction (1), R is the gas constant with a value       The elemental compositions of equilibrium samples were accurately
+of 8.314 (J mol−1 K−1), Pᶿ is the standard atmospheric pressure 1 bar,     analyzed with a CAMECA (SX100)  electron microprobe  analyzer
+pCO2, pCO, and pO2 are the partial pressures of CO2, CO, and O2. To    (EPMA) using the wavelength dispersive spectrometry (WDS) technique.
+generate the experimental condition of pO2 = 10−8.6 atm at 1200 ◦C, the    The accelerating voltage and beam current were 20 kV and 40 nA,
+gas flowrates of CO2 and CO were regulated to 18 mL/min and 285     respectively. A defocused beam diameter was set to 20 μm for the slag
+mL/min, respectively, using digital mass flow controllers (Aalborg, US)     phases and to 5 μm for the tridymite and spinel phases. Natural and
+with a volumetric CO2/CO ratio of 15.80. Argon gas (99.999 vol %,     synthetic minerals were used as standards: pure Al2O3 for O Kα and Al
+Woikoski Oy, Finland) was used for flushing the working tube prior to     Kα, quartz for Si Kα, hematite for Fe Kα, and metallic molybdenum for
+equilibration and for removing CO2/CO gases after quenching.        Mo Lα. The average elemental detection limits of EPMA were 1530 ppm
+                                                                                for O, 159 ppm for Al, 176 ppm for Si, 176 ppm for Fe, and 345 ppm for2CO + O2 = CO2, ΔGθ( kJ • mol−1) = −561.14 + 0.17T(K)            (1)                                                            Mo, respectively. Five to eight analysis points were randomly selected
+   (   /                           /                           from the well-quenched area of each phase for statistical reliability. Thelg pO2  Pθ) = 2 lg(pCO2 / pCO) + 0.434ΔGθ  RT                     (2)                                                                              analytical results have been corrected using the PAP on-line correction
+                                                               program [29].
+2.3. Analytical methods
+                                                                                 2.4. Spinel crucible preparation
+   The quenched samples were dried swiftly and mounted in epoxy
+resin (Epofix, Struers, Denmark). The sample surfaces were ground on       The spinel crucibles were prepared from high purity iron  foil
+waterproof silicon carbide abrasive papers and polished with metallo­     (thickness 0.25 mm, 99.5 wt%, Sigma Aldrich & Merck). The iron foil
+graphic polishing cloths using diamond sprays. The polished sections    was folded into a box shape and the bottom was pressed into a bowl
+were carbon coated with a vacuum evaporator (JEOL IB-29510VET)    shape with a hemispherical stamping rod. The iron crucible was sus­
+carbon coater to ensure adequate electrical conductivity of the sample    pended in the hot zone of the vertical furnace by a platinum wire and
+surfaces. The microstructures and phases compositions of all samples     oxidized for 2 h at 1250 ◦C and pO2 = 10−7 atm to generate spinel
+were pre-examined by a Scanning Electron Microscope (SEM, Tescan     (Fe3O4). The oxidizing conditions for spinel crucible preparation were
+Mira3, Brno, Czech Republic) coupled with an UltraDry Silicon Drift    determined based on the Fe–O phase diagram predicted by FactSage 8.1
+Energy Dispersive X-ray Spectrometer (EDS, Thermo Fisher Scientific,    under different temperatures and oxygen partial pressures, as shown in
+Waltham, MA, USA) and NSS Microanalysis software, with an acceler­     Fig. 2(a). The oxygen partial pressure was controlled by a gas mixture of
+ating voltage of 15 kV and a beam current of 20 nA. At least six analysis    CO2 (293.6 mL/min) and CO (6.4 mL/min) [30]. Finally, the synthesized
+points were randomly selected from each phase for statistical reliability.     crucible was moved to the cold zone of the furnace for 30 min and cooled
+The Proza (Phi-Rho-Z) matrix correction procedure was used for pro­     to room  temperature  while  maintaining  the same  gas  mixture
+cessing the raw data [28]. The external standards utilized in EDS ana­     composition.
+lyses were Al metal for Al Kα, hematite for Fe Kα, quartz for O Kα and Si       To identify the phase composition, one synthesized crucible was
+Kα. The mineral and metal standards were supplied by Astimex (Tor­    ground to powder and analyzed by X-Ray Diffraction (XRD, PAN­
+onto, Canada).                                                               analytical X’Pert Alpha 1, the Netherlands) with Cu Kα radiation under
+
+                                                                        4
+
+## PDF page 5
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+
+
+
+
+Fig. 2. (a) Stable regions of iron oxides as a function of temperature and oxygen partial pressure in the Fe–O phase diagram, calculated by FactSage 8.1, (b) XRD
+pattern of the synthesized spinel crucible.
+
+45 kV, 40 mA. As shown in Fig. 2(b), the XRD pattern of the synthesized     experiments.
+crucible indicates the metallic iron was fully oxidized to iron spinel      SEM-EDS was used to analyze the compositions and microstructures
+(Fe3O4).                                                                     of the samples in the time series, as shown in Fig. 3. The required
+                                                                             equilibration time was determined based on the stabilization of the
+2.5. Thermodynamic calculation                                         compositions of the liquid phase. The liquid phase of the sample F5 and
+                                                             F7 was in contact with tridymite and spinel. The results show that the
+   In the present study, FactSage 8.1 and MTDATA were used to predict     experimentally determined liquid compositions of sample F5 were in the
+the isotherms of the FeOx–SiO2–Al2O3 slag system under fixed pO2 of     tridymite-spinel double saturated domain, instead of in the computa­
+10−8.6 atm at 1200 ◦C. In FactSage simulation [31], the databases of     tional tridymite primary phase field. Fig. 3(a) indicated that the liquid
+“FactPS” and “FToxide”, and the solutions of “FToxid-SLAG”, “FTox­     slag with an Al2O3 concentration of 13 wt% in the initial slag samples
+id-SPIN”, “FToxid-MeO”, “FToxid-Mull”, “FToxid-CORU”, and “FTox­     reached constant phase compositions within 10 h. However, in Fig. 3(b),
+id-cPyrA” were selected to calculate the isotherms of the slag system     the liquid slag with a 23 wt% Al2O3 concentration in the initial slags
+using  the  “PhaseDiagram”  module.  In MTDATA  simulation,  a    became homogenous within 20 h.
+quasi-ternary liquidus contour FeOx-SiO2-Al2O3 slag was calculated        Therefore, all samples in the following experiments were annealed at
+using  the Mtox database  [32],  including  the  solution phases  of     the experimental conditions for at least 20 h to achieve uniform and
+corundum, cordierite, liquid oxide, mullite, spinel, and tridymite.          constant phase compositions resembling the state of equilibrium.
+
+3. Results                                                                     3.2. Equilibrium phase relations of FeOx-SiO2-Al2O3 slags at 1200 ◦C and
+                                                               pO2 = 10−8.6 atm
+3.1.  Equilibration time
+                                                                                             Initial sample pellets with 0–23 wt% Al2O3 concentration were
+  A time series of experiment was conducted to determine the proper     equilibrated at 1200 ◦C and pO2 = 10−8.6 atm to clarify the impact of
+equilibration time for reaching homogenous liquid and solid composi­    Al2O3 concentration on the phase relations of fayalite-based slags. The
+tions. The initial slag samples in the tridymite primary phase field     typical microstructures of the quenched samples and the equilibrium
+(sample F5) and the tridymite-spinel double saturated domain (sample    phase compositions are shown in Fig. 4 and Table 2, respectively. As the
+F7) with different Al2O3 concentrations were annealed at pO2 = 10−8.6   EPMA is not sensitive to the oxidation degree of iron, the concentration
+atm and 1200 ◦C for 5 h, 10 h, 20 h, and 40 h. The samples were pre-     of iron was recalculated to “FeO” for the ease of presentation. In the
+melted at 1250 ◦C for 30 min to promote the equilibration, after     FeOx-SiO2-Al2O3 slag systems, two liquid-solid phase equilibria (i.e.,
+which temperature was lowered to 1200 ◦C for the duration of the     liquid-tridymite and liquid-spinel), and one three-phase equilibrium
+
+
+
+
+
+Fig. 3. The liquid phase compositions of the samples as a function of the equilibration time at 1200 ◦C and pO2 of 10−8.6 atm, (a) sample F5 with 13 wt% Al2O3 and
+(b) sample F7 with 23 wt% Al2O3 in the initial slags (SEM-EDS data).
+
+                                                                        5
+
+## PDF page 6
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+
+
+
+
+Fig. 4. Back scattered electron micrographs of the equilibrium phases of FeOx-SiO2-Al2O3 slags at 1200 ◦C and pO2 of 10−8.6 atm. Tridymite- saturated domain,
+liquid-tridymite, (a) F1-0 wt% Al2O3, (b) F2-7 wt% Al2O3, (c) F3-12 wt% Al2O3.Tridymite-spinel saturated domain, liquid-tridymite-spinel, (d) F6-17 wt% Al2O3.
+Spinel saturated domain, liquid-spinel, (e) F12-6 wt% Al2O3, liquid-spinel, (f) F14-0 wt% Al2O3.
+
+were observed for a wide range of Al2O3 concentrations.                   calculated using the average  of samples F5–F8, which gave the
+  When the Al2O3 concentration raised from 0 wt% to 12 wt%, a     composition of 17.7 (±0.7) wt% Al2O3 + 44.8 (±0.6) wt% SiO2 + 37.5
+liquid-tridymite primary phase field was obtained in the high SiO2     (±1.3) wt% “FeO” for the liquid slag phase, and 49.4 (±1.6) wt% Al2O3
+domain, as shown in Fig. 4(a)-4(c) in samples F1–F4. The black rod-like   + 0.1 (±0.04) wt% SiO2 + 50.5 (±1.5) wt% “FeO” for the coexisting
+crystals were secondary tridymite resulting from the excessive dissolu­     solid spinel phase. The composition of tridymite was confirmed to be
+tion of the silica crucible and the recrystallization of the excess silica as     close to its stoichiometric value.
+separate crystals. A liquid-spinel equilibrium was detected in the high        Furthermore, as Mo foil is much softer and more easily folded than
+“FeO” domain, as shown in samples F12 and F14 in Fig. 4(e) and (f).       iron foil, the use of Mo foil to support matte-free oxide slags was eval­
+  A  liquid-tridymite-spinel equilibrium was confirmed, when the     uated in repeated experiments, which aimed to simplify specific crucible
+Al2O3 concentration in slags was increased. As indicated in Fig. 4(d),     preparation procedures. As listed in Table 2, for the equilibrium phases
+three condensed phases of liquid, tridymite, and spinel were found in     obtained using SiO2 and spinel crucibles, the original totals of EPMA
+sample F6. The phase relations in the multicomponent equilibrium    measurements before normalization were within 97.0–100.7 wt%. Some
+system can be determined by the Gibbs Phase Rule [33], and the number      totals were slightly over 100 wt%, due to uncertainties in the EPMA
+of phases are constrained by the degrees of freedom, as described by Eq.     analyzing technique.
+(3),                                                               As shown in Table 2, the Mo concentration in the liquid slag of the
+                                                                   samples F3-2, F9, and F15 were 1.44 wt%, 1.89 wt%, and 0.01 wt%,F = C −P + 2                                                        (3)                                                                               respectively. In the tridymite phases of sample F3-2 and F9, the Mo
+                                                                        concentration was below 0.01 wt%. In the spinel phases of sample F9Where F is the degrees of freedom, C is the total number of independent
+                                                              and F15, the dissolution of Mo was 0.19 wt% and 12.38 wt%, respec­components, P is the number of coexisting phases, and the number 2
+                                                                                     tively. The results show that the equilibrium compositions of liquid slagsrefers  to  the environmental  conditions  of temperature and  total
+                                                               were contaminated by quite high fractions of Mo. A large fraction of Mopressure.
+                                                                          dissolved in the spinel phase in the high “FeO” domain, while Mo was   With a fixed temperature and total pressure of 1200 ◦C and 1 atm in
+                                                                       hardly at all distributed to the tridymite phase. Therefore, Mo foil is notthis study, the degrees of freedom can be simplified as F= C–P. The FeOx-                                                                              suitable for holding the oxide slags at this condition because Mo dis­SiO2-Al2O3 slag has four independent components (C) and one of them is                                                                            solves  in  the  liquid oxide and  the  spinel phase  at high “FeO”constrained (pO2). The number of equilibrium phases (P) is 3 for the                                                                           concentrations.liquid-tridymite-spinel equilibria. Thus, the degrees of freedom (F) for
+the liquid-tridymite-spinel equilibria could be confirmed as F= C–P = 3 -
+3 = 0, indicating that the liquid compositions for the liquid-tridymite-     3.3.  Effect of Al2O3 on Fe/SiO2 ratio of the liquid slag
+spinel three-phase equilibrium was constrained to a fixed point. This
+means the solubilities of SiO2 and Al2O3 reached the maximum in the        According to the compositions given in Table 2, the increasing Al2O3
+liquid slag phase, and the excess liquid oxides recrystallized as separate     concentration led to decrease in the Fe/SiO2 ratio, both in the primary
+solid tridymite and spinel solid particles. The compositions of the    phase fields of tridymite and spinel of the FeOx-SiO2-Al2O3 system. With
+coexisting solid oxides formed an invariant point in the present FeOx-     increasing the Al2O3 concentration from 0 to 12 wt%, the Fe/SiO2 ratio
+SiO2-Al2O3 slag system.                                                decreased from 1.52 to 0.88 in the tridymite-saturated slags, while it
+   As the liquid-tridymite-spinel coexisting equilibrium was observed in     declined from 1.86 to 1.32 in the spinel saturated slags, presenting a
+the samples F5–F8, the composition of the invariant point can be     higher Fe/SiO2 ratio at the same Al2O3 concentration. The lowest Fe/
+
+                                                                        6
+
+## PDF page 7
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+SiO2 ratio in the liquid slag was 0.65 at the invariant point of tridymite-     tridymite in this study displayed a composition with a higher “FeO” but
+spinel double saturation.                                             lower Al2O3 concentration.
+   The present experimental results showing the effect of Al2O3 con­       As shown in Fig. 8, the isotherms experimentally determined in this
+centration on the Fe/SiO2 ratio were displayed in Fig. 5. Data from the     study agreed well with the simulations by FactSage [34]. However, the
+literature were also plotted on the graph for comparison. Similarly to the     composition of the spinel phase in equilibrium with the liquid slag and
+current data, Shimpo et al. [26] reported that when compared with     tridymite in current results had a higher “FeO” but lower Al2O3 con­
+alumina-free system, the Fe/SiO2 ratio got lower at 8 wt% Al2O3 in the     centration than the predictions by FactSage. It should be noticed that in
+slag in equilibrium with matte, metallic copper, and tridymite in the     the high Al2O3 concentration range, FactSage predicted the mullite
+Cu–Fe–Si–Al–O system at 1200 ◦C and pO2 = 10−8 atm. Fallah-Mehrjardi    primary  phase   field,  and  two   three-phase   equilibriums   of
+et al. [20] found that the Fe/SiO2 ratio in the liquid slag in equilibrium     liquid-mullite-spinel and liquid-tridymite-mullite, while the three-phase
+with matte and tridymite decreased significantly from 1.36 to 0.90 when     equilibrium of the liquid-tridymite-spinel domain was not obtained in
+Al2O3 concentration increased from 3 wt% to 10 wt% in the FeOx-­     the calculations. The presence of liquid-tridymite-spinel phase equilib­
+SiO2-Al2O3 system at 1200 ◦C and pSO2 = 0.25 atm, fitting well with the    rium in this study contradicts the existence of liquid-mullite two-phase
+present work. Similar effect of Al2O3 addition on the Fe/SiO2 ratio of     equilibrium predicted by FactSage (Fig. 8).
+spinel-saturated FeOx-SiO2-Al2O3 slag in equilibrium with matte at           It is evident that the simulations by FactSage and MTDATA deviate
+1200 ◦C and pSO2 of 0.25 atm was also observed by Sineva et al. [25].      significantly in the mullite primary phase field and its stabilization
+                                                                     temperature in this system. Mullite is a solid solution compound of
+4. Discussion                                                     alumina and silica that is stable above 1200 ◦C, with stoichiometries
+                                                                      ranging  from  relatively  silica-rich  3Al2O3⋅2SiO2  to  alumina-rich
+4.1. Construction of the 1200 ◦C isotherm at pO2 of 10−8.6 atm             2Al2O3⋅SiO2 [35]. Muan et al. [5] found that the coexisting tempera­
+                                                                           ture for liquid-tridymite-spinel-mullite equilibrium in air was 1380 ◦C,
+   The 1200 ◦C isothermal section of the FeOx-SiO2-Al2O3 phase dia­    below which the mullite disappeared and the liquid-tridymite-spinel
+gram at pO2 = 10−8.6 atm was constructed using the present experi­     equilibria formed. When pO2 was reduced from 10−3 to 10−9.6 atm,
+mental equilibrium phase compositions, as shown in Fig. 6. The primary     the lowest stability temperature for the liquid-tridymite-spinel-mullite
+phase fields of tridymite and spinel were determined at 1200 ◦C. The     equilibrium decreased from 1230 ◦C to 1191 ◦C [4]. The liquidus tem­
+phase domain for liquid-tridymite-spinel three-phase equilibrium can be     perature, thus, decreased when oxygen partial pressure was lowered.
+constructed by connecting the liquid point and the measured solid        In MTDATA, the enclosed liquidus surface diagram in temperature
+composition points of tridymite and spinel.                                  interval of 1100–1300 ◦C shows the mullite disappearing when tem­
+                                                                        perature falls below about 1230–1240 ◦C, whereas FactSage predicts
+                                                                             that the mullite primary phase field is stable above 1190–1200 ◦C. As a
+4.2. Comparison between experimental and predicted results by MTDATA        result, the stability temperature of mullite is too high in the FactSage
+and FactSage                                                          database compared with data by Muan et  al. [5] and this study.
+                                                                     Furthermore, MTDATA was used to predict the 1300 ◦C isotherms of
+   The present experimental equilibrium phase relations of the FeOx-     FeOx-SiO2-Al2O3 slags in equilibrium with matte [17] and copper alloy
+SiO2-Al2O3 system were compared with the predicted isothermal sec­     [14]. The calculated isotherms matched the FactSage predictions in
+tions by MTDATA [18], with the same atmospheric constraint, as dis­     Fig. 8, indicating mullite was stable at higher temperatures. However,
+played  in  Fig.  7. The  liquid point  for the  liquid-tridymite-spinel     because mullite formation was assumed to be slow, it may not have been
+three-phase equilibrium obtained in this study was close to the pre­     visible in the experimental samples of the literature [36].
+dictions. The experimentally measured liquid slag domain was slightly       The predicted liquidus from MTDATA and FactSage were both pro­
+narrower than the predictions by MTDATA. The present isotherm in the     vided for comparison in Fig. 9. The present experimentally determined
+tridymite primary phase field agreed well with the simulations by     liquid domain was consistent with the calculated results from MTDATA
+MTDATA, while the present results in the spinel primary phase field    and FactSage, while the predictions by MTDATA extending the liquid
+exhibited a lower “FeO” but higher SiO2 concentrations. Compared with     compositions to a slightly higher “FeO” concentration area. As for the
+MTDATA simulations, the spinel phase coexisted with liquid and     spinel in equilibrium with liquid and tridymite, the calculated values by
+                                                 MTDATA and FactSage exhibited a higher Al2O3 concentration. Small
+                                                                          discrepancies between MTDATA and FactSage results can be attributed
+                                                                            to differences in the selected databases and their thermodynamic data.
+                                                                However, the three-phase equilibrium calculated by FactSage was the
+                                                                               mullite-spinel-liquid oxide system, whereas MTDATA predicted the
+                                                                            invariant point as found in this study, between silica, spinel, and liquid
+                                                                      oxide slag.
+                                                                               In Fig. 9, the experimental slag compositions observed by Fallah-
+                                                                     Mehrjardi et  al. [20] at 1200 ◦C and pSO2 = 0.25 atm from the
+                                                                           matte-slag-tridymite equilibrium system were also presented to show
+                                                                        the impact of Al2O3 concentration. The reported slag compositions in the
+                                                                           tridymite-saturated domain fitted well with the present study and Muan
+                                                                                 et al. [5], with Al2O3 concentrations ranging from 3 to 10 wt%.
+
+                                                                                 4.3. Spinel composition of the FeOx-SiO2-Al2O3 slags
+
+                                                                                 4.3.1. “FeO”-Al2O3 binary system
+                                                                The spinel compositions of iron silicate slags in the present study and
+                                                                                  literature were plotted in the “FeO”-Al2O3 pseudo-binary plane in
+Fig. 5. The Fe/SiO2 ratio of the liquid slag as a function of the Al2O3 con­     Fig. 10 and compared with the predictions to investigate the solubility of
+centration in the FeOx-SiO2-Al2O3 system in the present study and literature    Al2O3 in the solid spinel phase at different conditions. All iron oxide in
+results [20,28,29].                                                        the spinel was recalculated to “FeO” for the ease of presentation.
+
+                                                                        7
+
+## PDF page 8
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+
+
+
+
+                           Fig. 6. The isotherm of the FeOx-SiO2-Al2O3 system of the present study at 1200 ◦C and pO2 of 10−8.6 atm.
+
+
+
+
+
+Fig. 7. A comparison of the isotherms from the present work and the pre­
+dictions by MTDATA of FeOx-SiO2-Al2O3 system at 1200 ◦C and pO2 of      Fig. 8. A comparison of the isotherms from the present work and the simula­
+10−8.6 atm.                                                                           tions by FactSage of FeOx-SiO2-Al2O3 system at 1200 ◦C and pO2 of 10−8.6 atm.
+
+   Klemettinen et al. [14] and Avarmaa et al. [15] observed the spinel    and pSO2 of 0.25 atm. Sineva et al. [25] reported that the Al2O3 con­
+composition of the iron-alumina spinel saturated iron  silicate slag     centration  in  the  recrystallized  spinel  increased  along  with  the
+equilibrated with copper alloy in alumina crucibles at 1300 ◦C. They     increasing solubility of Al2O3 in the liquid slag at 1200 ◦C and pSO2 of
+found that the spinel was almost pure FeAl2O4 at the reducing point     0.25 atm. The experimental data [22,28] suggested that when Al2O3
+(pO2 = 10−10 atm) with 59 wt% Al2O3, and turned to the iron-rich state     concentration in the liquid slag was lower than its maximum solubility,
+with Al2O3 decreased to approximately 25 wt% at the oxidizing condi­     the spinel composition shifted from the iron-rich area (Fe3O4) of the
+tions when increasing the pO2 to 10−5 atm. It was suggested that the     spinel primary domain to the alumina-rich state with increased solubi­
+spinel composition in the invariant point of the FeOx-SiO2-Al2O3 slags      lity of Al2O3 in the liquid slag.
+was highly dependent on the oxygen partial pressure [37], which agreed        In the present study, the experimentally determined spinel compo­
+well with the spinel composition at the corundum-spinel phase bound­      sition was pure Fe3O4 in the Al2O3-free iron silicate slags and exhibited a
+ary at 1300 ◦C predicted by FactSage.                                    higher Al2O3 but lower “FeO” concentration when increasing the Al2O3
+   However, for FeOx-SiO2-Al2O3 slags equilibrated with matte in the     solubility in the coexisting liquid slag at the fixed oxygen partial pres­
+synthesized spinel (Fe3O4) crucibles, Chen et al. [22] found that the     sure, similar to the data obtained by Sineva et al. [25]. In the current
+alumina concentration in the spinel increased from 6 wt% to 10 wt%      results, the spinel composition at the invariant point of tridymite-spinel
+with the oxygen partial pressure ranging from −7.9 to −7.5 at 1250 ◦C    double saturated slag was close to FeAl2O4, while presenting a slightly
+
+                                                                        8
+
+## PDF page 9
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+                                                                              gible SiO2 concentration in the spinel, the spinel composition would be
+                                                                             close to the ternary FeO–Fe2O3–Al2O3 system [37]. As shown in Table 3,
+                                                                        the mass fraction of FeO and Fe2O3 in the spinel phase could be calcu­
+                                                                             lated based on the elemental compositions measured by EPMA through
+                                                                        the following equations,
+                                                                                              mO−total = mO−FeO + mO−Fe2O3 + mO−Al2O3                                (4)
+
+                                                                                                  mFe−total = mFe−FeO + mFe−Fe2O3                                         (5)
+                                                              where mo-total and mFe-total represent the mass of O and Fe in the spinel
+                                                               measured by EPMA. The mo-i is the mass of O in the FeO, Fe2O3, and
+                                                                  Al2O3 of the spinel. The mFe-i is the mass of Fe in the FeO and Fe2O3 of
+                                                                        the spinel.
+                                                                The spinel compositions in the present study (Table 3) and the pre­
+                                                                             dictions by FactSage 8.1 were projected onto the FeO–Fe2O3–Al2O3
+                                                                         ternary system (Fig. 11) for comparison. In the FactSage predictions, the
+                                                                             spinel composition shifted to the FeO higher concentration area and was
+                                                                             close to the Fe3O4–FeAl2O3 join when the pO2 decreased from 10−3 to
+                                                                         10−8.6 atm at 1200 ◦C. Compared with the predictions by FactSage, the
+                                                                       experimentally determined spinel composition in this study displayed aFig. 9. A comparison of the present isotherms of FeOx-SiO2-Al2O3 system and                                                                       higher FeO but a lower Fe2O3 concentration. When Al2O3 concentrationdata from the literature [20,25] at 1200 ◦C and pO2 of 10−8.6 atm.                                                                              in the spinel increased, the spinel in the present study occurred between
+                                                                        the composition points of Fe3O4 and FeAl2O3, with some excess FeO. Thelower Al2O3 concentration compared with predictions by FactSage and                                                                                 ratio of Fe3+ to the total iron in the spinel-saturated fayalite slags [42]
+MTDATA at 1200 ◦C. In the FactSage predictions, compared with the                                                                         predicted by FactSage was below 0.2 at 1200 ◦C and pO2 of 10−8.6 to
+FeOx-Al2O3 system, the spinel composition in the invariant point of the     10−7.9 atm, which indicated the excess Fe2+ in the slags.
+FeOx-SiO2-Al2O3 system displayed a higher “FeO” and lower Al2O3                                                                               In  Fig.  12,  the  1500  ◦C  and  1200  ◦C  isotherms  of  the
+concentration, due to the existence of the mullite phase in the FeOx-­                                                                FeO–Fe2O3–Al2O3 ternary system were calculated by FactSage 8.1 andSiO2-Al2O3 system (Fig. 8).                                                              by Lindwall et al. [41], respectively. The calculated isotherms of the
+                                                                             spinel primary phase field displayed a higher FeO but lower Fe2O34.3.2. FeO–Fe2O3–Al2O3 ternary system                                                                        concentration area when the temperature decreased. Atlas et al. [43]
+   The spinel composition in the FeO–Fe2O3–Al2O3 system was inves­                                                                            investigated the spinel composition by equilibrium experiments in a
+tigated by experimental observations [38,39] and thermodynamic as­                                                                  helium atmosphere at temperatures of 1000, 1250, and 1350 ◦C. It was
+sessments [40,41]. The spinel phase was a solid solution between Fe3O4                                                                 founded  that  the width  of  the  spinel primary phase  field was
+(FeO⋅Fe2O3) and FeAl2O4 (FeO⋅Al2O3) with some excess Fe2O3 or Al2O3.                                                                    temperature-dependent and was limited by the ability of the spinelThe Fe2+/Fe3+ ratio in the spinel varies with the temperature and oxy­                                                                             structure to tolerate cation deficiencies at various temperatures. The
+gen partial pressure [38]. Muan et al. [38] experimentally investigated                                                                             spinel vertex of the Spinel-Corundum equilibria exhibited a lower FeO
+the amount of FeO and Fe2O3 in the spinel of the FeO–Fe2O3–Al2O3                                                                     but a higher Al2O3 concentration with increasing temperature.system by chemical analysis. Shishin et al. [40] simulated the spinel                                                                              Roiter et al. [44] researched the range of oxygen partial pressure for
+region of Fe2O3–Fe3O4–FeAl2O4 by thermodynamic model. Lindwall                                                                       preparing the spinel phase at 1500 ◦C. As shown in Fig. 12, they found
+et al. [41] calculated the concentration of FeO and Fe2O3 in the spinel of                                                                             that a definite oxygen partial pressure was necessary for maintaining the
+the FeO–Fe2O3–Al2O3 system by optimizing model parameters.                                                                             spinel phase. Oxygen partial pressure lower than the definite value
+   In this study, the concentrations of Fe and O in the spinel phase were                                                             would produce two-phase materials. Similar conclusions were obtained
+measured by EPMA. The oxidation states of iron could not be measured,                                                              by the predicted  isobars  of pO2  in the 1200◦C isotherm  of theas the EPMA was not sensitive to the valence of iron. Due to the negli­
+
+
+
+
+
+Fig. 10. Oxygen partial pressures and phase boundaries of the FeOx-Al2O3 system calculated by FactSage 8.1, and the experimentally determined spinel composition
+of the present study and literature [14,15,22,25].
+
+                                                                        9
+
+## PDF page 10
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+Table 3
+Equilibrium composition of the spinel in the FeOx-SiO2-Al2O3 slags at 1200 ◦C and pO2 of 10−8.6 atm (wt%).
+  Sample No             Elemental composition measured by EPMA                                                 Original total         Normalized composition
+                 O                    Al                       Si                  Fe                                       Al2O3        FeO          Fe2O3
+  Invariant point         34.9 ± 0.7            26.0 ± 0.8            0.1 ± 0.0            39.0 ± 1.3           100.1                49.1          43.1           7.8
+  F10                   29.93 ± 0.38         10.37 ± 0.93         0.17 ± 0.02         59.53 ± 1.28         99.72                19.63         42.05         38.33
+  F11                   28.74 ± 0.22         6.01 ± 0.17          0.25 ± 0.01         65.00 ± 0.28         99.61                11.39         39.07         49.55
+  F12                   28.34 ± 0.11         5.56 ± 0.20          0.28 ± 0.03         65.82 ± 0.16         99.12                10.52         42.08         47.39
+  F14                   25.70 ± 0.30         –                    0.51 ± 0.04         73.78 ± 0.32         97.47                –             52.12         47.88
+
+                                                                                 4.4. The fluxing strategy of the FeOx-SiO2-Al2O3 slag in the smelting of
+                                                                          high-alumina copper resources
+
+                                                                The effect of Al2O3 concentration on the equilibrium chemical
+                                                                      compositions of FeOx-SiO2-Al2O3 slags under fixed temperature and
+                                                                  atmosphere can be quantified based on the present experimental results.
+                                                               As shown in Fig. 9, at 1200 ◦C and pO2 of 10−8.6 atm, Al2O3 can dissolve
+                                                                              in the liquid phase of FeOx-SiO2-Al2O3 slags to a maximum concentra­
+                                                                             tion of 17 wt%. By varying the Al2O3 concentration from 0 to 17 wt%,
+                                                                        the Fe/SiO2 ratio of the liquid phase in the FeOx-SiO2-Al2O3 slags
+                                                                      decreased from 1.2 to 0.6 for the tridymite saturated slags and from 1.8
+                                                                            to 0.6 for the spinel saturated slags, respectively.
+                                                                The current data can be used to evaluate fluxing strategies for high-
+                                                                  Al2O3 slags and optimize operations in the secondary copper smelting.
+                                                               As given in Figs. 5 and 9, the Fe/SiO2 ratios in the slag at the liquidus of
+                                                                        the tridymite and  spinel primary phase  fields decrease with the
+                                                                           increasing Al2O3 concentration in the slag. Between the two liquidus
+                                                                                       lines, the slag is fully liquid and no solid phase forms [45]. In industrial
+                                                                                practice, when the Al2O3 concentration in the raw materials increases,
+                                                                        the Fe/SiO2 ratio in slag needs to be adjusted by adding flux such asFig. 11. A comparison of the spinel composition of the present study and the                                                                                         silica to obtain a fully liquid slag or a slag with a low solid fraction.predictions by FactSage 8.1 in the FeO–Fe2O3–Al2O3 ternary system.                                                                The addition of the fluxes is controlled to avoid over-fluxing based on
+                                                                        the isotherms of the FeOx-SiO2-Al2O3 system. When the slag reaches
+                                                                    SiO2 saturation or spinel saturation, the solid proportion of the slag in­
+                                                                               creases, and the slag tends to be viscous. As a result, the separation ki­
+                                                                               netics of matte and slag would be affected, and the loss of entrained
+                                                                        valuable metals in the slag will increase [46]. For example, at 1200 ◦C
+                                                              and pO2 of 10−8.6 atm, when the Al2O3 concentration in slag is 5 wt%,
+                                                                        the Fe/SiO2 ratio in the FeOx-SiO2-Al2O3 system should be maintained
+                                                                between 1.3 and 1.6 to obtain a fully liquid slag or slag with a low
+                                                                              fraction of the solid [42]. Furthermore, when properly controlled, the
+                                                                                 solids present can help form a protective layer on the refractory lining of
+                                                                        the smelting furnace [47]. Therefore, the fluxing strategies for the
+                                                                        smelting of high-alumina e-wastes will be regulated based on the current
+                                                                            study, to optimize the proportion of solid to limit entertainment while
+                                                                     maintaining refractory integrity.
+
+                                                                           5. Conclusions
+
+                                                                The effect of Al2O3 on the phase equilibria of fayalite-based slags was
+                                                                            investigated under typical oxygen-enriched copper smelting tempera­Fig. 12. A comparison of the spinel composition of the present study and the
+literature [41,43,44] in the FeO–Fe2O3–Al2O3 ternary system.                    ture of 1200 ◦C and pO2 of 10−8.6 atm. The equilibrium phase relations
+                                                                              of the FeOx-SiO2-Al2O3 system were experimentally determined for a
+                                                                    range of Al2O3 concentrations under controlled conditions. Two liquid-FeO–Fe2O3–Al2O3 system (Fig. 11). The width of the spinel primary                                                                                solid primary phase fields of liquid-tridymite and liquid-spinel, and onephase field was limited by the oxygen partial pressure.                                                                        three-phase equilibrium of liquid-tridymite-spinel were observed. The   The spinel composition obtained at 1200 ◦C in this study agreed with                                                            1200 ◦C isothermal section of the FeOx-SiO2-Al2O3 phase diagram at pO2the 1200 ◦C isotherms of the FeO–Fe2O3–Al2O3 system simulated by                                                                              of 10−8.6 atm was constructed based on the present experimental equi­Lindwall et al. [41]. With increasing Al2O3 concentration in the spinel,                                                                        librium phase compositions. The maximum solubility of Al2O3 in thethe composition point moved toward FeAl2O4. The Al2O3 gave a                                                                              liquid oxide of FeOx–SiO2-Al2O3 slags was determined to be approxi­maximum solubility of approximately 50 wt% in the spinel, which                                                                   mately 17 wt% when the liquid slag was saturated with tridymite andcoexisted with the liquid slag and solid tridymite at the invariant point                                                                                  spinel.of this study.                                                                The current experimental results were compared with the previous
+                                                                      data and predictions by MTDATA and FactSage, showing good agree­
+                                                            ment in the liquid domain. While compared with MTDATA, the spinel
+
+                                                                        10
+
+## PDF page 11
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+phase field in the present results exhibited a lower “FeO” but higher SiO2          2018 Proc. First Glob. Conf. Extr. Metall. Miner. Met. Mater. Ser., Springer
+concentration. The spinel phase in equilibrium with liquid slag and            International Publishing, Vancouver, Canada, 2018, pp. 1061–1071, https://doi.                                                                                          org/10.1007/978-3-319-95022-8_85.
+tridymite in this study displayed a higher “FeO” but lower Al2O3 con­      [17] M. Chen, K. Avarmaa, L. Klemettinen, J. Shi, P. Taskinen, A. Jokilaakso,
+centration than the computed data from MTDATA and FactSage. The           Experimental study on the phase equilibrium of copper matte and silica-saturated
+current results enrich the fundamental data and provide guidance for           FeOx-SiO2-based slags in pyrometallurgical WEEE processing, Metall. Mater. Trans.                                                                          B 51 (2020) 1552–1563.
+optimizing fluxing of alumina-rich iron silicate slags and regulating      [18] M. Chen, K. Avarmaa, L. Klemettinen, J. Shi, P. Taskinen, D. Lindberg,
+secondary copper smelting operations.                                                 A. Jokilaakso, Equilibrium of copper matte and silica-saturated iron silicate slags at
+                                                                                 1300◦C and Pso2 of 0.5 atm, Metall. Mater. Trans. B 51 (2020) 2107–2118.
+                                                                                      [19] D. Sukhomlinov, L. Klemettinen, H. O’Brien, P. Taskinen, A. Jokilaakso, Behavior
+Declaration of competing interest                                                         of Ga, In, Sn, and Te in copper matte smelting, Metall. Mater. Trans. B 50 (2019)
+                                                                                     2723–2732.
+   The authors declare that they have no known competing financial      [20] A. Fallah-Mehrjardi, T. Hidayat, P.C. Hayes, E. Jak, The effect of Al2O3 on fayalite-                                                                                         based copper smelting slags in equilibrium with matte and tridymite at 1200◦C and
+interests or personal relationships that could have appeared to influence          P(SO2) = 0.25 atm, Int. J. Mater. Res. 111 (2020) 283–289.
+the work reported in this paper.                                                  [21] H. Abdeyazdan, A. Fallah-Mehrjardi, T. Hidayat, M. Shevchenko, P.C. Hayes,
+                                                                                                        E. Jak, Experimental study of gas-slag-matte-tridymite equilibria in the Cu-Fe-O-S-
+Data availability                                                              41Si-Al(2020)System66–78.at 1573 K (1300◦C) and P(SO2) = 0.25 atm, J. Phase Equilibria Diffus.
+                                                                                      [22] M. Chen, K. Avarmaa, P. Taskinen, R. Michallik, A. Jokilaakso, Investigation on the
+   The data that has been used is confidential.                                        matte/slag/spinel/gas equilibria in the Cu-Fe-O-S-SiO2-(CaO, Al2O3) system at
+                                                                                 1250◦C and pSO2 of 0.25 atm, Miner. Process. Extr. Metall. Rev. (2022) 1–12,
+                                                                                          https://doi.org/10.1080/08827508.2022.2047966.
+Acknowledgements                                                              [23] G.R.F. Alvear Flores, S. Nikolic, P.J. Mackey, IsasmeltTM for the recycling of e-scrap
+                                                                                  and copper in the U.S. case study example of a new compact recycling plant, JOM
+   This work was financed by School of Chemical Engineering, Aalto          66 (2014) 823–832.                                                                                      [24] M. Chen, Y. Sun, E. Balladares, C. Pizarro, B. Zhao, Experimental studies of liquid/
+University. This study utilized the Academy of Finland’s RawMatTERS           spinel/matte/gas equilibria in the Si-Fe-O-Cu-S system at controlled P(SO2) 0.3 and
+Finland Infrastructure (RAMI), based jointly at Aalto University, GTK,            0.6 atm, Calphad 66 (2019), 101642.
+and VTT in Espoo. Miao Tian and Min Chen are grateful for the financial      [25]  S. Sineva, A. Fallah-Mehrjardi, T. Hidayat, P.C. Hayes, E. Jak, Experimental study                                                                                                       of the individual effects of Al2O3, CaO and MgO on gas/slag/matte/spinel
+support  from  the  China  Scholarship  Council  [grant  number             equilibria in Cu-Fe-O-S-Si-Al-Ca-Mg system at 1473K (1200◦C) and P(SO2) = 0.25
+202006370337, 201806370217].                                                     atm, J. Phase Equilibria Diffus. 41 (2020) 859–869.
+                                                                                      [26] R. Shimpo, S. Goto, O. Ogawa, I. Asakura, A study on the equilibrium between
+                                                                                         copper matte and slag, Can. Metall. Q. 25 (1986) 113–121.
+Appendix A. Supplementary data                                             [27] X. Wan, J. Shi, L. Klemettinen, M. Chen, P. Taskinen, A. Jokilaakso, Equilibrium
+                                                                                         phase relations of CaO-SiO2-TiO2 system at 1400◦C and oxygen partial pressure of
+   Supplementary data to this article can be found online at https://doi.           10-10 atm, J. Alloys Compd. 847 (2020), 156472.
+org/10.1016/j.calphad.2022.102502.                                           [28] G.F.correctionBastin,programJ.M. Dijkstra,for electronH.J.M.probeHeijligers,microanalysis,PROZA96:basedan improvedon a doublematrixGaussian
+                                                                                                φ(ρz) approach, X Ray Spectrom. 27 (1998) 3–10.
+References                                                                        [29]  J. Pouchou, F. Pichoir, Basic expression of “PAP” computation for quantitative
+                                                                           EPMA, Proc. ICXOM. 11 (1987) 249–253.
+                                                                                      [30] M. Chen, K. Avarmaa, P. Taskinen, L. Klemettinen, R. Michallik, H. O’Brien, [1] V. Forti, C.P. Bald´e, R. Kuehr, G. Bel, The Global E-Waste Monitor 2020: Quantities,                                                                                              A. Jokilaakso, Handling trace elements in WEEE recycling through copper     Flows and the Circular Economy Potential, United Nations Uninersity/United                                                                                               smelting-an experimental and thermodynamic study, Miner. Eng. 173 (2021),     Nations of Institute for Training and Research-co-hosted SCYCLE Programme,                                                                                      107189, https://doi.org/10.1016/j.mineng.2021.107189.      International Telecommunication Union & International Solid Waste Association,                                                                                      [31] C.W. Bale, E. B´elisle, P. Chartrand, S.A. Decterov, G. Eriksson, A.E. Gheribi,     Bonn/Geneva/Rotterdam, 2020.                                                                                                  K. Hack, I.-H. Jung, Y.-B. Kang, J. Melançon, A.D. Pelton, S. Petersen, C. Robelin, [2] C. Hagelüken, Recycling of electronic scrap at Umicore’s integrated metals smelter                                                                                                                     J. Sangster, P. Spencer, M.-A. Van Ende, FactSage thermochemical software and     and refinery, World Metall 59 (2006) 152–161.                                                                                                  databases, 2010–2016, Calphad 54 (2016) 35–53. [3] M. Reuter, C. Hudson, A. van Schaik, K. Heiskanen, C. Meskers, C. Hagelüken,                                                                                      [32]  J. Gisby, P. Taskinen, J. Pihlasalo, Z. Li, M. Tyrer, J. Pearce, K. Avarmaa,     Metal Recycling: Opportunities, Limits, Infrastructure, United Nations                                                                                                        P. Bj¨orklund, H. Davies, M. Korpi, S. Martin, L. Pesonen, J. Robinson, Mtdata and     Environment Programme, Nairobi, 2013.                                                                                                the prediction of phase equilibria in oxide systems: 30 years of industrial [4] A. Muan, Phase equilibrium relationships at liquidus temperatures in the system                                                                                                      collaboration, Metall. Mater. Trans. B 48 (2017) 91–98.     FeO-Fe2O3-Al2O3-SiO2, J. Am. Ceram. Soc. 40 (1957) 420–431.                                                                                      [33] D.R. Gaskell, Introduction to the Thermodynamics of Materials, fifth ed., Taylor & [5] A. Muan, Phase equilibria at liquidus temperatures in the system iron oxide-Al2O3-                                                                                                        Francis, New York, 2008.     SiO2 in air atmosphere, J. Am. Ceram. Soc. 40 (1957) 121–133.                                                                                      [34] D. Shishin, T. Hidayat, A. Fallah-Mehrjardi, P.C. Hayes, S.A. Decterov, E. Jak, [6] B. Zhao, E. Jak, P.C. Hayes, The effect of Al2O3 on liquidus temperatures of fayalite                                                                                                   Integrated experimental and thermodynamic modeling study of the effects of      slags, Metall. Mater. Trans. B 30 (1999) 597–605.                                                                                      Al2O3, CaO, and MgO on slag–matte equilibria in the Cu-Fe-O-S-Si-(Al, Ca, Mg) [7] R.B. Snow, W.J. McCaughey, Equilibrium studies in the system FeO-Al2O3-SiO2,                                                                                               system, J. Phase Equilibria Diffus. 40 (2019) 445–461.       J. Am. Ceram. Soc. 25 (1942) 151–160.                                                                                      [35] D.J. Duval, S.H. Risbud, J.F. Shackelford, Mullite, in: J.F. Shackelford, R. [8] M.A.H. Shuva, M.A. Rhamdhani, G.A. Brooks, S. Masood, M.A. Reuter,                                                                                        H. Doremus (Eds.), Ceram. Glass Mater., Springer US, Boston, MA, 2008,     Thermodynamics data of valuable elements relevant to e-waste processing through                                                                                                pp. 27–39.     primary and secondary copper production: a review, J. Clean. Prod. 131 (2016)                                                                                      [36] M.-L. Bouchetou, J.-P. Ildefonse, J. Poirier, P. Daniellou, Mullite grown from fired     795–809.                                                                                                   andalusite grains: the role of impurities and of the high temperature liquid phase [9] R.G. Reddy, C.C. Acholonu, Activity coefficient of CuO0.5 in alumina saturated iron                                                                                 on the kinetics of mullitization and consequences on thermal shocks resistance,       silicate slags, Metall. Trans. B 15 (1984) 345–349.                                                                                     Ceram. Int. 31 (2005) 999–1005.[10] R.G. Reddy, C.C. Acholonu, Distribution of nickel between copper-nickel and                                                                                      [37]  L. Klemettinen, Iron activity measurements and spinel-slag equilibria in alumina-     alumina saturated iron silicate slags, Metall. Trans. B 15 (1984) 33–37.                                                                                              bearing iron silicate slags, J. Alloys Compd. 855 (2021), 157539.[11] M. Nagamori, P.J. Mackey, Distribution equilibria of Sn, Se and Te between FeO-                                                                                      [38] A. Muan, C.L. Gee, Phase equilibrium studies in the system iron oxide-Al2O3in air     Fe2O3-SiO2-Al2O3-CuO0.5 slag and metallic copper, Metall. Trans. B 8 (1977)                                                                                  and at 1 atm. O2 pressure, J. Am. Ceram. Soc. 37 (1956) 207–214.     39–46.                                                                                      [39] M. Kudo, E. Jak, P. Hayes, K. Yamaguchi, Y. Takeda, Lead solubility in FeOx-CaO-[12] M. Nagamori, P.J. Mackey, P. Tarassoff, Copper solubility in FeO-Fe2O3-SiO2-Al2O3                                                                                           SiO2 slags at iron saturation, Metall. Mater. Trans. B 31 (2000) 15–24.      slag and distribution equilibria of Pb, Bi, Sb and as between slag and metallic                                                                                      [40] D. Shishin, V. Prostakova, E. Jak, S.A. Decterov, Critical assessment and      copper, Metall. Trans. B 6 (1975) 295–301.                                                                                   thermodynamic modeling of the Al-Fe-O system, Metall. Mater. Trans. B 47 (2016)[13] B. Derin, O. Yücel, The distribution of cobalt between Co-Cu alloys and Al2O3-FeO-                                                                                      397–424.     Fe2O3-SiO2 slags: cobalt distribution between alloys and slags, Scand. J. Metall. 31                                                                                      [41] G. Lindwall, X. Liu, A. Ross, H. Fang, B. Zhou, Z. Liu, Thermodynamic modeling of     (2002) 12–19.                                                                                                the aluminum-iron-oxygen system, Calphad 51 (2015) 178–192.[14]  L. Klemettinen, K. Avarmaa, P. Taskinen, Slag chemistry of high-alumina iron                                                                                      [42] T. Hidayat, A. Fallah-Mehrjardi, P.C. Hayes, E. Jak, Experimental investigation of       silicate slags at 1300◦C in WEEE smelting, J. Sustain. Metall. 3 (2017) 772–781.                                                                                                gas/slag/matte/spinel equilibria in the Cu-Fe-O-S-Si system at 1473K (1200◦C) and[15] K. Avarmaa, S. Yliaho, P. Taskinen, Recoveries of rare elements Ga, Ge, in and Sn                                                                                     P(SO2) = 0.25 atm, Metall. Mater. Trans. B 49 (2018) 1750–1765.     from waste electric and electronic equipment through secondary copper smelting,                                                                                      [43] L.M. Atlas, W.K. Sumida, Solidus, subsolidus, and subdissociation phase equilibria     Waste Manag. 71 (2018) 400–410.                                                                                                       in the system Fe-Al-O, J. Am. Ceram. Soc. 41 (1958) 150–160.[16] K. Avarmaa, P. Taskinen, The Influence of aluminum on indium and tin behaviour
+     during secondary copper smelting, in: B.R. Davis, M.S. Moats, S. Wang (Eds.), Extr.
+
+                                                                        11
+
+## PDF page 12
+
+M. Tian et al.                                                                                                                                 Calphad 79 (2022) 102502
+
+[44] B.D. Roiter, Phase equilibria in the spinel region of the system FeO-Fe2O3-Al2O3,       [46] P. Tan, Applications of thermodynamic modeling in copper converting operations,
+       J. Am. Ceram. Soc. 47 (1964) 509–511.                                                                Int. J. Mater. Res. 98 (2007) 995–1003.
+[45] N. Cardona, P.J. Mackey, P. Coursol, R. Parada, R. Parra, Optimizing Peirce-Smith      [47] P. Taskinen, M. Kaskiala, P. Hietanen, K. Miettinen, A. Forsstr¨om, Microstructure
+      converters using thermodynamic modeling and plant sampling, JOM 64 (2012)            and formation kinetics of a freeze lining in an industrial copper FSF slag, Miner.
+     546–550.                                                                                      Process. Extr. Metall. (IMM Trans. Sect. C) 120 (2011) 147–155.
+
+
+
+
+
+                                                                        12

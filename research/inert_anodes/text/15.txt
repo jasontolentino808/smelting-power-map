@@ -1,0 +1,664 @@
+Source: literature/Ni-Fe-based alloy as oxygen evolving anode for sustainable aluminum production_Singh.pdf
+
+## PDF page 1
+
+                                                          Electrochimica Acta 552 (2026) 148195
+
+                                                 Contents lists available at ScienceDirect
+                              Electrochimica Acta
+
+
+                                    journal homepage: www.journals.elsevier.com/electrochimica-acta
+
+
+Ni–Fe-based alloy as oxygen evolving anode for sustainable
+aluminum production
+Kamaljeet Singh a,b,c,*   , Thomas Luke Jamieson d,e   , Gudmundur Gunnarsson c   ,
+Geir Martin Haarberg b   , Isabella Gallino d,e, Ralf Busch e   , Jon Hjaltalin Magnusson f,
+Gudrun Saevarsdottir a,b
+a Department of Engineering, Reykjavik University, 102 Reykjavik, Iceland
+b Department of Materials Science and Engineering, Norwegian University of Science and Technology (NTNU), 7491 Trondheim, Norway
+c Taeknisetur IceTec, Arleynir 8, 112 Reykjavik, Iceland
+d Chair of Metallic Materials, Technical University of Berlin, 10587 Berlin, Germany
+e Chair of Metallic Materials, Saarland University, 66123 Saarbrücken, Germany
+f Arctus Aluminium Limited, Arleynir 8, 112 Reykjavik, Iceland
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                       Achieving global net-zero carbon targets by 2050 requires the decarbonization of metal production. Molten salt
+Inert anode                                              electrolysis, combined with the rapidly expanding renewable energy sector, provides a transformative and
+Aluminum electrolysis                               sustainable alternative to conventional metallurgical processes and reduces greenhouse gas emissions. Today,Nickel ferrite                                         aluminum is produced by electrolysis in molten fluoride melts, using consumable carbon anodes for theirMolten fluoride melts                                                           feasibility, low  cost, good conductivity, and  efficient reaction  kinetics. However, achieving carbon-free
+                                         aluminum production requires the development of a cost-effective, non-consumable, and efficient oxygen
+                                                evolving anode (OEA)—a critical challenge that remains unsolved. Here, we demonstrate an earth-abundant and
+                                                      easily processable Ni–Fe-based anode, capable of forming a protective NiFe2O4 oxide, both ex-situ and in-situ,
+                                                    that enhances stability and catalytic activity for OEA. The principal approach to evaluating OEA alloy suit­
+                                                         ability combines analyzing oxide thermodynamics, investigating oxidation kinetics, and performing extended
+                                                        electrolysis in fluoride melts to elucidate the mechanism of protective oxide formation. By optimizing the Ni/Fe
+                                                       ratio in alloy, we demonstrate reduced alloy corrosion, high purity aluminum production, and efficient oxygen
+                                                   evolution. This method lays the framework for a durable and active Ni–Fe-based OEA, thereby advancing carbon-
+                                                      free sustainable aluminum production.
+
+
+1. Introduction                                                  The global demand for primary aluminum reached over 73 million
+                                                                      tonnes in 2024, driven by its high recyclability and low density. How­
+   Shifting toward renewable energy in primary metal synthesis  is     ever, the conventional Hall–H´eroult process remains carbon-intensive,
+necessary to curb man-made greenhouse gas (GHG) emissions and to     producing significant direct GHG emissions—mainly CO2, CF4, and
+achieve climate goals established in the 2015 Paris Agreement [1,2].    C2F6—due to the use of a consumable carbon anode (~1.8 tonnes direct
+Using molten salt electrolysis, coupled with renewable energy, offers a     CO2-equivalent per tonne of aluminum) [5]. Despite extensive efforts, a
+sustainable path for metal production by slashing GHG emissions and      cost-effective, non-consumable, and efficient oxygen evolving anode
+simplifying the process compared to traditional metallurgical methods    (OEA) remains unavailable for the aluminum industry in achieving
+[2–4]. Established electrochemical processes like the Hall–H´eroult for     net-zero carbon  targets. This limitation  is due to severe material
+aluminum and molten chloride electrolysis for magnesium demonstrate     degradation under anodic polarization conditions [6–11].
+the viability of this approach. Emerging innovations such as molten      A successful non-consumable OEA in high temperature aluminum
+oxide electrolysis in steelmaking further push the boundaries of sus­     production must: (1) resist corrosion at rates below 5 mm⋅year−1, (2)
+tainable industrial practices [3,4].                                      maintain excellent electrical conductivity, and (3) facilitate oxygen
+
+
+ * Corresponding author.
+    E-mail addresses: kamaljeet@taeknisetur.is, kamaljeet.singh@ntnu.no (K. Singh).
+https://doi.org/10.1016/j.electacta.2026.148195
+Received 15 December 2025; Received in revised form 12 January 2026; Accepted 12 January 2026
+Available online 13 January 2026
+0013-4686/© 2026 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).
+
+## PDF page 2
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+evolution efficiently [6,7,12]. Although precious metals like platinum    a 5 mm diameter and 40 mm length, and another stepped down from 5
+perform effectively as OEAs in laboratory investigations, developing   mm to 2 mm diameter over 12 mm, with a total length of 40 mm. The
+cost-effective anodes from earth-abundant materials remains essential     surface of the anode was polished with 400-grit SiC abrasive paper,
+for achieving commercial viability.                                     degreased in ethanol, ultrasonically cleaned in distilled water for 15
+   In this context, OEAs made from earth-abundant transition metals,    min, and dried before being used.
+such as Ni–Fe-based alloys, are promising due to their ability to form       To form a protective oxide scale ex-situ on the surface of the anode
+conductive and protective oxides, enhancing both performance and     prior to the electrolysis test, high temperature air oxidation was con­
+durability. In recent years, single-phase Ni–Fe–Cu alloys have attracted     ducted at 800◦C for 8 h in a chamber furnace (300 × 170 × 170 mm,
+significant attention for aluminum production in low temperature    Entech Sweden). The heating and cooling rates were set at 100◦C⋅h−1.
+electrolytes. This is attributed to their stable oxide formation, such as        For electrical contact, the anode was connected via a connection rod
+NiFe2O4, and their enhanced electrocatalytic activity for the oxygen     (diameter 3 × 600 mm, SS316) using a threaded joint. The anode section
+evolution reaction [9–11]. In addition, the anode lifespan can be    above the bath, along with the connection rod, was coated with 3 to 5
+extended by transitioning from the conventional sodium-based electro­     layers of boron nitride coating (Combat SF, Saint Gobain USA), then
+lyte (NaF-AlF3) operating at ~960◦C to a new lower temperature     shielded within a machined boron nitride shield and an alumina tube
+potassium–sodium-based electrolyte (KF-NaF-AlF3) at 800◦C, which     shield, respectively. The shield design ensured that any dry corrosion
+offers favorable alumina solubility and electrical conductivity [13,14].     products formed during operation above the melt remained contained
+   For OEAs composed of Ni–Fe–Cu alloys, the Ni/Fe ratio is critical for     within the shields.
+forming a stable and self-sustaining NiFe2O4 oxide at 800◦C. However,
+the Cu content must be limited to ~22 wt. % [9,15] to prevent an un­     2.2. Cathode preparation
+stable, corrosion susceptible double-phase region. Additionally, Cu im­
+purities (>0.05 wt. %) from the anode compromise the quality and      A fine grained TiB2 cathode (purity 99.5 wt. %, Plansee Germany)
+natural corrosion resistance of primary aluminum. Also, reducing Cu in    was used as the counter electrode in this study. Due to its excellent
+alloy allows for the economic and direct production of single-phase    aluminum wettability, the TiB2 cathode was found to be superior to the
+anodes through casting. On the cathode side, TiB2  is, so  far, the     typical graphite cathode in the test cell. It suppressed aluminum metal
+best-known cathode material, offering excellent wettability with liquid     fog formation and prevented the detrimental spontaneous oxide reduc­
+aluminum and chemical stability in the fluoride bath [16].                  tion of the anode scale. The cathode was obtained in a rod shape with a
+   The development of a long-term stable OEA remains a challenge,     diameter of 10 mm and a length of 40 mm. The cathode electrical
+however, primarily due to the lack of a fundamental understanding of     connection was made by attaching a  tight-fitting female graphite
+oxide scale growth under anodic polarization in molten fluoride melts.     connector, secured with platinum wire, enabling a threaded joint with
+To address this knowledge gap, our study outlines three main objectives.     the connection rod. This connection rod was coated with boron nitride
+Firstly, developing a reaction scheme and theoretical framework that    and shielded inside an alumina tube.
+describes oxide stability in new low temperature electrolytes. Secondly,
+investigating the high temperature oxidation behavior of a series of     2.3.  Electrolysis experiments
+Ni–Fe-based alloys, focusing on the relationship between oxidation ki­
+netics, oxide scale structure, and the Ni/Fe ratio. Thirdly, evaluating the      An alumina crucible (OD 65 × depth 140 mm, purity 99.7 wt. %,
+alloys’ electrolysis performance at an anodic current density (j) of 0.8    Meetcera China) containing 300 g of an electrolyte mixture of KF-NaF-
+A⋅cm−2 over a 24 h period by assessing: anode potential stability, oxide     AlF3-Al2O3 in a weight ratio of 30.7: 12.4: 53.3: 3.6 was used as the
+scale morphology, aluminum purity, and alloy consumption rate.         molten fluoride bath. This composition resulted in a CR of 1.3 [(NaF +
+   As a result, we identified a cost-effective Ni–Fe-based alloy that     KF)/(AlF3)] and a KR of 0.64 [(KF)/(KF + NaF)] in molar ratios. The
+fulfills the three fundamental requirements of a non-consumable OEA:     reagent grade chemicals NaF (purity 99.9 wt. %), KF (purity 99.9 wt. %)
+(1) resisting corrosion at consumption rates below 2 mm⋅year−1, (2)    and γ-Al2O3 (purity 99.5 wt. %) were sourced from Sigma-Aldrich
+forming a conductive NiFe2O4 oxide scale, and (3) exhibiting effective    Germany. AlF3 (99.5 wt. %, Alufluor Sweden) was sublimed in-house
+electrocatalytic activity for oxygen evolution. The protective NiFe2O4     at 1100◦C under vacuum (10−2 mbar), resulting in a final purity of
+oxide scale on anode surface was developed in two stages: formed by air    99.97 wt. %. The chemicals were dried at 300◦C for a minimum 48 h,
+oxidation (ex-situ) for short-term stability and sustained by electro­    weighed to the required proportions, mixed in a closed  lid poly­
+chemical oxidation  (in-situ) for long-term  stability. The structural     propylene container and transferred to the alumina crucible.
+characteristics of the oxide scale were investigated during both oxida­       The crucible was then dried for a minimum of 8 h at 500◦C under
+tion stages to clarify the mechanisms of oxide scale growth. These     high purity nitrogen atmosphere (purity 99.9999 vol. %) in an exter­
+findings advance the understanding of the oxidation and corrosion     nally heated vertical tube furnace (OD 120 × length 700 mm, Entech
+behavior of Ni–Fe-based OEA alloys in molten fluoride melts.             Sweden), positioned centrally inside the furnace tube. The top and
+                                                                bottom flanges of the furnace tube were water-cooled and fitted inside
+2. Methods                                                        with alumina radiation shields to ensure a uniform thermal gradient in
+                                                                        the crucible, about 4◦C. The furnace temperature was ramped up to
+2.1. Anode preparation                                                 achieve bath temperature (T) of 800◦C and controlled by a Eurotherm
+                                                            3508 temperature controller. A second crucible of graphite (OD 95 ×
+   Six compositions of the Ni90-xFexCu10 alloy series (wt. %), with x    depth 110 mm, Schunk SE Sweden) was used as a secondary container in
+ranging from 10 to 60 in increments of 10, were prepared as single-phase     case of failure to alumina crucible and to protect the vertical tube
+(γ-fcc) homogenized alloys and evaluated as OEAs for aluminum elec­     furnace.
+trolysis. High purity metal pieces (purity >99.95 wt. %) of nickel, iron,       The reference electrode was liquid aluminum (Al0/Al3+) inside a
+and copper were weighed and melted under a vacuum-cycled (10−3     closed-end alumina tube (OD 8 mm) featuring a small side opening of 1
+mbar) argon atmosphere to produce master alloys. These master alloys   mm, located 26 mm above the closed-end, for ionic contact with the
+were subsequently induction melted and cast into 7 mm diameter rods in    molten bath. The reference tube was initially  filled with 0.8 g of
+a water-cooled copper mold under vacuum conditions (MC15 tilt-caster,    aluminum (purity 99.998 wt. %) and 0.5 g of electrolyte powder
+Indutherm Germany). The rods were then homogenized at 1100◦C for 12     mixture. A tungsten wire (diameter 1 mm, purity 99.95 wt. %) shielded
+h under argon atmosphere to ensure phase consistency. Following this,     inside an alumina tube (OD 3 mm, purity 99.7 wt. %) with an exposed
+the homogenized rods were machined into two anode designs: one with     length of 15 mm was introduced into the reference tube to make
+
+                                                                        2
+
+## PDF page 3
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+electrical contact with liquid aluminum pool at the bottom. The ohmic    mL⋅min−1. The temperature was set to 800◦C at a heating rate of
+drop (iR) between the reference electrode (Al0/Al3+) and working    12◦C⋅min−1 from room temperature. Specific mass gain (mg⋅cm−2) was
+electrode (anode) was determined by AC impedance spectroscopy, with     plotted over time (h). Subsequently, the surface and cross section of
+85 % compensation applied in all measurements.                          oxidized samples were  characterized using XRD, SEM, and EDS,
+   To eliminate moisture and trace noble impurities from the molten     following the same procedures outlined for anodes post-electrolysis.
+bath, a pre-electrolysis was conducted with 8 mm diameter high purity
+graphite electrodes (HTW Germany) at 1.8 V versus Al0/Al3+. Following     3. Results and discussion
+this, the anode and cathode were introduced into the furnace and
+allowed to equilibrate for 10 min above the bath. Then, the anode was     3.1. Thermodynamic analysis of oxide stability
+lowered under an anodic polarization potential of 2.1 V to prevent direct
+chemical dissolution reactions in the fluoride bath. These practices were          First, we analyzed the stability of the oxides formed by the alloy
+found to be crucial to protect the pre-formed oxide scale and to ensure     constituents—Ni, Fe, and Cu—in the new KF-NaF-AlF3-Al2O3 electrolyte
+good performance of anode during electrolysis.                              at 800◦C, and we determined the correlation between their oxide
+   The anode and cathode were positioned vertically and in parallel, 5     dissociation potentials and the activity of alumina. To estimate the oxide
+cm apart, in the bath with equal immersion depths for uniform current     dissociation potentials, we applied a formal reaction scheme to identify
+distribution. The geometric areas of the anode and cathode within the     the possible reactions. Fig. 1 illustrates a formal reaction scheme within
+bath were used to estimate current densities. The anode areas were 0.53     the reaction zone of an aluminum electrolysis cell, adapted from the
+cm2 (2 mm diameter rod) and 2.55 cm2 (5 mm diameter rod), with     conventional Hall–H´eroult cell with modifications to incorporate a
+corresponding cathode areas of 3.30 cm2 and 5.50 cm2, which were used     vertical electrode configuration and a new KF-NaF-AlF3-Al2O3 based
+to calculate the current density. The alumina crucible served as source of     electrolyte [16,17]. In this scheme, Na+ and K+ ions facilitate charge
+alumina feed during the electrolysis, without any external additions.       transport by migration (M), while aluminum is discharged at the cath­
+   Electrochemical measurements, including linear sweep voltammetry    ode by diffusion (D) of AlF3 species (such as AlF−4 and AlF3−6  ). Simulta­
+(LSV) and constant current electrolysis, were carried out using a soft­     neously, NaF and KF diffuse in the opposite direction to maintain ionic
+ware controlled Ivium XP40 potentiostat. For LSV, a 2 mm diameter rod     balance. Meanwhile at the anode, alumina (complex Al-O-F species)
+anode was used, whereas a 5 mm diameter rod anode was utilized for    undergoes electrochemical oxidation, evolving O2(g).
+constant current electrolysis for durations ranging from 1 to 24 h at j =       The reaction scheme can be represented as follows:
+0.8 A⋅cm−2. Electrolyte samples, ~5 mL, were collected pre- and post-
+                                                                    1                   3electrolysis using a quartz tube of 5 mm diameter. Upon completing    At anode,   Al2O3(diss.) + 3NaF(l) =     + AlF3(diss.) + 3Na+ + 3e−electrolysis, the electrodes were raised from the bath and cooled down            2                         4O2(g)
+                                                                                                                                                  (1)inside the furnace with inert atmosphere to retain reaction species.
+                                                                   At cathode, AlF3(diss.) + 3Na+ + 3e−=  Al(l) + 3NaF(l)               (2)2.4.  Post-electrolysis analysis
+                                                                       1                3                                                           = Al(l) +                                  (3)   The Faradaic current efficiency was determined by the total weight     Cell reaction,   Al2O3(diss.)                                                                       2                     4O2(g)of aluminum extracted from the bottom of the frozen crucible and the
+weight gain of the TiB2 cathode after brushing off electrolyte remains.       The reversible potential for Eq. (3) was calculated using Nernst
+Aluminum collected from the crucible and the cathode was analyzed     relation:
+using ICP-MS to quantify anode constituents, mainly Fe, Ni, and Cu. The
+electrolyte samples, collected both before and after electrolysis, were
+analyzed using ICP-OES to determine baseline compositions and to
+adjust impurity levels in the produced aluminum. The alumina satura­
+tion level in the electrolyte was analyzed by oxygen analysis using a
+LECO instrument.
+   The surface of anode post-electrolysis was characterized using XRD
+(PANalytical Empyrean) operating at 40 mA and 45 kV, with a 2θ-scan
+and step size of 0.013◦, using Cu Kα 1.54060 Å. XRD identified phases
+present on the surface and to a depth of about 10 to 20 µm, based on the
+penetration depth of the rays and the integrity of the scale. To charac­
+terize the microstructural properties of the oxide scale developed on the
+anode, the cross-section of the anode was prepared. It was cut using a
+low speed diamond saw and embedded in conductive Bakelite hot-mold
+resin. The sample was sequentially polished using SiC papers with grit
+sizes from 220 to 1000, followed by diamond paste ranging from 3 µm to
+1 µm. The microstructural and elemental distribution across the anode
+cross-section were then examined using SEM (Jeol JSM-IT800) coupled
+with EDS (Oxford Instruments).
+
+2.5. Dry oxidation experiments
+
+   Dry oxidation experiments on Ni90-xFexCu10 alloy series were con­
+ducted using a Thermogravimetric Analyzer (TGA) with a Differential
+Thermal Analyzer (Netzsch STA 449C Jupiter). Disc samples of alloys, 5
+mm in diameter and 3 mm in thickness, were cut from 5 mm alloy rods,      Fig. 1. Schematic illustration of formal reaction scheme in an aluminum
+produced, homogenized, and finished following the same procedure as      electrolysis  cell with vertical electrodes, featuring an OEA paired with a
+specified for anode preparation. High temperature oxidation tests were     wettable aluminum cathode of TiB2 in a molten bath composed of KF-NaF-AlF3-
+conducted in a pure O2(g) environment at 1 atm with a flow rate of 50     Al2O3 at 800◦C.
+
+                                                                        3
+
+## PDF page 4
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+                )            (
+                                                                                                    [16,20].                                                                                                                                                    It is                                                                                                         important                                                                                                                               to note that                                                                    bath                                                                         temperature                                                                                                of 800◦C                                                                                                                              NiFe2O4,                    1                                                                     (4)               3 −RT lnErev3  = −ΔG0                                                               which                                                                                                         is not included                                                                                                     in the                                                                                                        reaction                                                                                                    scheme,                                                                                                                                                            is unlikely                                                                                                                                       to convert                                                                                                                                                  to         zF    zF      a1/2Al2O3                                                                      corresponding fluorides under the described conditions. This is because
+                                                                  NiO, in the presence of the Fe2O3, spontaneously forms NiFe2O4, awhere ΔG0 is the standard Gibbs free energy (kJ⋅mol−1), z is the number                                                                   thermodynamically stable oxide (ΔG at 800◦C= −22.89 kJ⋅mol−1) [19]of exchanged electrons, F is Faraday’s constant (96500 C⋅mol−1), R is the                                                                    with low solubility in cryolite melts [21].ideal gas constant (8.314 J⋅K−1⋅mol−1), T is the temperature (1073 K)                                                                                      Fig. 2 presents the dissociation potentials of metal oxides and metaland a is the activity of the species involved in the reaction. The activity                                                                      aluminates as a function of alumina activity. We can observe two trends.of all species, except aAl2O3 and aAlF3, was considered to be unity. In a                                                                                          First, the reversible potential of the primary reaction, Al2O3(diss.)/O2(g),melt under alumina saturated conditions, the activity of alumina is ex­                                                                            increases as the activity of alumina decreases. Second, as the aluminapected to be one (aAl2O3 ≈1).                                                                                 activity decreases, the gap between the reversible potential of primary   Using the Ni-Fe-Cu alloy anode—protected by an oxide scale formed                                                                           reaction and the dissociation potentials of the corresponding oxides andeither ex-situ or in-situ—the main anodic reaction will involve the                                                                      aluminates becomes smaller. In general, if the anode potential exceedsevolution of O2(g) from alumina dissolved in the electrolyte. This reac­                                                                        the dissociation potential, all anode oxides/aluminates will ultimatelytion proceeds in one of two ways: if the oxide (represented as MOx) of                                                                       convert to their corresponding stable fluorides, leading to anode con­the protective scale is stable and has a higher dissociation potential than                                                                 sumption or corrosion.the anode potential (Erev3  ), then the O2(g) will evolve without consuming                                                                       According to Fig. 2, NiO is only stable at low activity of aluminathe alloy. Conversely, if this MOx is not stable, the anode alloy will be                                                                 whereas NiAl2O4 phase is stable at higher activity of alumina. Fe2O3 isconsumed over time [18]. The dissociation reaction scheme of MOx and                                                                   moderately stable across the entire alumina activity range and is un­the corresponding reversible dissociation potential are calculated as                                                                                   likely to convert to a less stable FeAl2O4 aluminate phase than FeF3(g).follows:                                                             The dissociation potential of CuO is highest among all. CuO could form
+                         x                                                               CuAl2O4 at very high activity of alumina, although this is uncertainMOx(s) + yNaF(l) = MFy(s) +                    + yNa+ + ye−                    (5)                               2O2(g)                                     because thermodynamic data of CuAl2O4 in cryolite melts is not well
+                                                                           established [22].y                       y  AlF3(diss.) + yNa+ + ye−=    Al(l) + yNaF(l)                         (6)        Furthermore, this model indicates that the potential difference be­3                     3                                                               tween O2(g) evolution and oxide dissociation increases with increasing
+where M represents Ni, Fe, and Cu.                                   alumina activity, with Cu-based anode showing the largest difference.
+   Combining Eqs. (5) and (6) gives an overall metal oxide dissociation     Consequently, a Cu-based anode would perform optimally for two rea­
+reaction Eq. (7).                                                 sons—the thermodynamic stability and the conductive nature of the Cu-
+                                                                      oxide scale. In the literature, various studies on Cu-based anodes have3                       3x      3  MOx(s) + AlF3(diss.) = Al(l) +   O2(g) +  MF(s)                        (7)    been reported in low temperature electrolytes [23,24]. During elec­y                      2       y                                                                                    trolysis at 700◦C, high Cu content in the alloy, varying from 70 to 85 wt.
+   The reversible dissociation potential of Eq. (7) is:                  %, resulted in stable cell voltages due to the formation of a thick oxide
+             (   )                                                scale of CuO [23,24]. This stability behavior is accurately described by
+               7 −RT ln  1                                          (8)     the proposed theoretical model. Notably CuO has high solubility inErev7  = −ΔG0         zF    zF     aAlF3
+   Eq. (8) shows that the magnitude of the dissociation potential (Erev7  )
+of the oxide (MOx) decreases as the activity of aluminum fluoride (aAlF3)
+increases.
+    Similarly, for metal aluminates (MAl2O4), which readily form from
+their corresponding oxides and/ or fluorides under anodic polarization,
+the reaction scheme and dissociation potential are expressed as:
+                        1                     + Al2O3(diss.) + yNa+ + ye−      (9)MAl2O4(s) + yNaF(l) = MFy(s) + 2O2(g)
+Combining Eqs. (6) and (9) gives the overall metal aluminate dissocia­
+tion reaction Eq. (10) and corresponding reversible potential in Eq. (11).
+3                       3       3           3  MAl2O4(s) + AlF3(l) = Al(l) +     +    Al2O3(diss.) +   MFy(s)   (10)y                              2yO2(g)   y            y
+
+             (   )
+                                 Al2O3                                   (11)               10 −RT ln   a3/yErev10 = −ΔG0         zF     zF      aAlF3
+   Eq. (11) indicates that the magnitude of the dissociation potential
+(Erev10 ) of the aluminate decreases with either an increase in the activity of
+aluminum fluoride (aAlF3) or a decrease in the activity of alumina
+(aAl2O3).
+   Using Eq. (4), (8), and (11), the reversible potential of the primary
+cell reaction Al2O3(diss.)/O2(g), the dissociation potential of various sta­
+ble metal oxides (NiO, Fe2O3, CuO) and aluminates (NiAl2O4, CuAl2O4)
+of alloy constituents (Ni, Fe, and Cu) were calculated. The HSE Chem­
+istry software was used to compute the ΔG0 of each reaction [19]. Since      Fig. 2. Thermodynamic analysis of oxide stability of Ni, Fe, and Cu systems,
+the activity data of aAlF3 in the new KF-NaF-AlF3 system are unavailable     showing reversible potential (Erev) of Al2O3, NiO, NiAl2O4, Fe2O3, CuO and
+in the literature, it was calculated based on the relationship provided for     CuAl2O4 as a function of activity of alumina (aAl2O3) at 800◦C. For a saturated
+conventional NaF-AlF3 electrolytes, with NaF/AlF3 molar ratio 1.3 at a     alumina bath, aAl2O3 ≈1.
+
+                                                                        4
+
+## PDF page 5
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+cryolite [22], resulting in Cu impurities in aluminum beyond a few ppm,    with slow kinetics [9,23,28,31]. The oxidation kinetics of Ni–Fe–Cu
+which are intolerable due to their harmful impact on its natural corro­     alloys were found to be highly sensitive to both the oxidation temper­
+sion resistance. Similarly, Fe-based anode forms Fe2O3, which also has     ature and the Cu content of the alloy. The kinetics slow down signifi­
+high solubility in cryolite. This results in significant Fe contamination,     cantly with decreasing temperature (below 850◦C, where the behavior
+making them unsuitable [22,25]. In high alumina  activity baths,    changes from linear to parabolic) and with decreasing Cu content (as Cu
+Ni-based anodes tend to form NiAl2O4, an insulating phase that increases      is the fastest diffusing element in the system) [9,23,28]. This presents an
+the potential of anode significantly. Studies have shown that Ni-based     opportunity: at a sufficiently low oxidation temperature of 800◦C (to
+anodes suffer from severe corrosion due to aluminate and fluoride for­    remain within the parabolic kinetic regime), with Cu content as low as
+mation, leading to unstable cell voltages, which is consistent with this    10 wt. % in the selected Ni90-xFexCu10 alloys series, a thermodynami­
+model prediction [24,26].                                                     cally stable and kinetically protective oxide scale may form. The
+   Therefore, the thermodynamic analysis helps in identifying alloying     following section presents the results on the high temperature oxidation
+elements that can form stable oxides as a function of activity of alumina     behavior of the Ni90-xFexCu10 alloys series in pure oxygen at 800◦C.
+(aAl2O3) and aluminum fluoride (aAlF3) in low temperature electrolytes.         Fig. 3 a shows the TGA curves and oxidation kinetics of each alloy.
+Although Cu- and Fe-based anodes can form stable phases with rela­    The sharp peak in the oxidation curve of Ni80Fe10Cu10 and Ni70Fe20Cu10
+tively high  dissociation  potential, they  lead  to  intolerable metal     alloys within the first 5 h indicates localized cracking (Fig. 3 a, inset).
+contamination. In contrast, Ni-based anodes have the lowest dissocia­     Subsequently, the curve returns to normal, indicating the formation of a
+tion potential and are prone to aluminates and corrosion. Consequently,    more adherent and stable oxide scale. No evidence of catastrophic
+the analysis indicates that Ni–Fe-based anodes with low Cu content and    breakaway oxidation or flaking of the oxide was observed in any of the
+an optimized Ni/Fe  ratio, which promote the formation of stable     experiments. TGA curves can be described by the power law behavior
+NiFe2O4 by consuming less stable NiO and Fe2O3, present a promising     according to Eq. (12).
+alternative. However, systematic studies on the optimal Ni/Fe ratio in                                                          (ΔM)m = kmΔt + C                                             (12)Ni–Fe-based alloys in low temperature electrolytes remain limited, an
+area further investigated in this report.                                                              where km is the rate constant (g2⋅cm−4⋅s−1), ΔM the specific mass gain
+                                                                   (mg⋅cm−2), Δt the time (s), and C the integration constant. An increase
+3.2. Oxidation kinetics of Ni90-xFexCu10 alloys                                                                              in the exponent ‘m’ corresponds to a slower oxidation rate.
+                                                                The oxidation kinetics of Ni90-xFexCu10 alloys series were found to be   Ni90-xFexCu10 alloys series were evaluated for OEA in aluminum                                                                    complex, which in most cases could be effectively approximated by the
+production and showed remarkable corrosion resistance in aggressive                                                                         parabolic rate law. Accordingly, fitting the TGA curves in Fig. 3 a for the
+molten fluoride melts. Therefore, understanding the oxidation kinetics                                                                             steady-state region  (after 5 h) revealed an approximate parabolic
+of these alloys is of interest. Oxidation experiments were first conducted                                                                     behavior (m = 2) for each alloy, although the oxidation rate of
+in a pure oxygen environment at 1 atm and 800◦C for 18 h, conditions                                                                      Ni30Fe60Cu10 alloy shows a significant deviation. After about 7 h, thesimilar to those encountered by OEA.                                                                      Ni30Fe60Cu10 alloy transitions from a parabolic to a stable cubic regime   The oxidation behavior of Ni–Fe–Cu alloys is controlled by both                                                       (m = 3), indicative of a slower growth regime despite possessing lower
+thermodynamic and kinetic factors governing the formation of complex                                                                  Ni (highest Fe) content. This behavior is likely explained by the rapid
+multilayered oxides. In Ni–Fe–Cu alloy, CuO  is thermodynamically                                                                         oxidation of the alloy during the first 7 h, which forms a sufficientlystable only at higher partial pressures of oxygen (~10−3 atm) near                                                                            thick and adherent scale that significantly inhibits the inward diffusion
+oxide/O2(g) interface, followed by Fe2O3 and NiO (Supplementary                                                                              of oxygen. Therefore, a similar evolution toward a cubic regime may yet
+Fig. s2). However, Fe3O4 and FeO are unlikely to form unless the partial                                                                 be observed at longer oxidation run times for alloys containing 40–80pressure of oxygen drops significantly below 10−18 atm, which could                                                                        wt. % Ni. The oxidation rate constant in Table 1 obtained for these alloys
+occur when the oxide scale becomes sufficiently thick (Supplementary                                                                                                is consistent with reported literature values [9,23,28,31,32].
+Fig. s2) [19]. Among the constituent elements, Cu is the fastest outward                                                                           Notably, in Fig. 3 b, the mass gained at 800◦C oxidation in pure
+diffusing element in Ni–Fe–Cu system followed by Fe and Ni at 800◦C                                                                oxygen oxidation (18 h), compared to air oxidation (8 h), is not signif­
+which means that CuO is essentially the outermost oxide favored by both                                                                              icantly  higher,  despite  the  longer exposure time (Supplementary
+thermodynamics and kinetics [27,28]. Beneath the CuO, Fe2O3 and NiO                                                                                  Fig. s3). This aligns with the literature, indicating that the oxidation of
+spontaneously react to produce the protective NiFe2O4 oxide spinel—a                                                                Ni–Fe–Cu alloys is largely influenced by temperature rather than by
+characteristic feature of the Ni–Fe–Cu alloy for OEA application [11].                                                                oxygen partial pressure [9,23,28].
+   However, the formation of a multilayered oxide scale may influence                                                                The oxide scale typically exhibits a stratified structure composed of
+the rate of ion transport and oxidation kinetics, depending on the defect                                                                          four primary layers, as previously reported [11]. As illustrated in Fig. 4,
+structures within each oxide. Therefore, the defect structures of the                                                             moving from the outer oxide/O2(g) interface towards the alloy, theseoxides in the scale, such as NiFe2O4 and NiO, play an important role.                                                                             layers comprise, in sequence, CuO, Fe2O3, NiFe2O4, NiO, along withNiFe2O4 oxide is characterized by an inverse spinel structure where Ni2+                                                                minor mixed oxides.
+cations occupy half of the octahedral site and rest half and whole                                                                                    Interestingly, two distinct oxide scale morphologies were observedtetrahedral sites by Fe3+ cations [29]. The Fe diffusion through NiFe2O4                                                                   based on the Ni content in the alloy, as revealed by SEM-EDS elemental
+is faster than Ni as the activation energy required for the former is 1 eV                                                                             analysis (Fig. 4) and XRD phase analysis (Fig. 5). Alloys with high Ni
+compared to 1.4 eV  for the  latter [29]. In  contrast,  for NiO—a                                                                       content 70–80 wt. % developed a Ni-rich oxide scale, predominantly
+Mott–Hubbard insulator with a band gap of ~4.3 eV—significantly                                                             composed of NiO, whereas alloys with lower Ni content 30–40 wt. %
+slows Ni diffusion, with activation energies reaching up to 11.86 eV                                                                   developed an Fe-rich oxide scale, primarily containing NiFe2O4 and[30]. This suggests that the NiFe2O4 layer promotes efficient ion trans­                                                                      Fe2O3. For intermediate compositions with Ni content 50–60 wt. % al­port, whereas the NiO layer may hinder it, resulting in limited growth of                                                                                  loys, a mixed morphology was noted, indicating a compositional tran­
+the protective oxide scale on Ni–Fe-based alloys. Therefore, optimizing                                                                                  sition from Fe-rich to Ni-rich scales with increasing Ni content.
+the Ni/Fe ratio to favor the formation and growth of desired oxide                                                                      At the macroscopic level, the two oxide scale types—Ni-rich and Fe-
+phases offers an effective approach to regulating ion transport and                                                                     rich—exhibited distinctly different morphologies. The Ni-rich scale
+oxidation kinetics in the alloy.                                                                                   (Fig. 4 a, b) displayed porosity, poor adhesion to the base alloy, and
+   Previous high temperature oxidation studies of Ni–Fe–Cu alloys in                                                                        notable defects. In contrast, the Fe-rich scales (Fig. 4 c) were dense, well-
+pure oxygen at 700–850◦C using TGA have confirmed a parabolic                                                                        adherent, and demonstrated superior structural integrity.
+oxidation behavior, characteristic of a diffusion-controlled mechanism
+
+                                                                        5
+
+## PDF page 6
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 3. TGA oxidation kinetics of Ni90-xFexCu10 alloys series. (a) Specific mass gain for each alloy composition, denoted simply as Ni90-x, measured in 1 atm of O2(g) at
+800◦C for 18 h duration; the inset graph shows an enlarged view of the highlighted area. (b) Oxide scale thickness formed after oxidation at 800◦C, comparing results
+from 18 h in O2(g) and 8 h in air, with thicknesses quantified from cross-sectional measurements via SEM (std. dev., n = 5 measurements).
+
+                                                                     continuous NiO layer, they develop dense, well-adherent Fe-rich scales
+Table 1                                                                     that exhibit superior structural integrity—an essential attribute forSummary of TGA oxidation data derived from Fig. 3 a, presenting the oxidation                                                                            protective oxide formation in OEA applications.rate constants for the Ni90-xFexCu10 alloys series, obtained under conditions of 1
+atm O2(g) at 800◦C for 18 h.
+                                                                                 3.3.  Electrolysis performance of Ni90-xFexCu10 anode  Alloy composition        Parabolic rate constant, kp       Cubic rate constant, kc
+  (wt. %)                  (g2⋅cm−4⋅s−1)                     (g3⋅cm−6⋅s−1)            A series of Ni90-xFexCu10 alloys, building on prior successful trials,
+Ni70Fe20Cu10Ni80Fe10Cu10            1.601.45 ×× 10−1210−11                                      has been tested for OEA in aluminum electrolysis [10,11,34]. We
+Ni60Fe30Cu101.72 × 10−11                                           selected anode alloys containing a fixed 10 wt. % Cu and varying Ni
+Ni50Fe40Cu104.73 × 10−11                                         contents (30–80 wt. %) to ensure the development of a stable, protective
+Ni40Fe50Cu103.70 × 10−10                                       oxide scale with slow oxidation kinetics and to maintain a corrosionNi30Fe60Cu102.59 × 10−17                                                                                 resistant single-phase (γ-fcc) alloy structure during electrolysis at 800◦C.
+                                                                  These alloys had demonstrated remarkable performance in earlier trials
+                                                                           [11]. A low temperature KF-NaF-AlF3-based electrolyte at 800◦C was   The Ni-rich scales, where NiO formed the predominant oxide phase,
+                                                                   chosen due to its better alumina solubility, reasonable electrical con­were associated with slower oxidation kinetics. This behavior was evi­
+                                                                                ductivity, and stable liquidus plateau [13,14], which provides optimaldenced by thin scale development (Fig. 3 b), a low parabolic rate con­
+                                                                          compatibility for ledge cell design. Alloy performance during electrol­stant (Table  1), and minimal mass gain (Supplementary  Fig.  s3).
+                                                                                   ysis was investigated under constant current mode at a fixed anodicTogether, these features suggest that the NiO layer acts as an effective
+                                                                          current density of 0.8 A⋅cm−2 for durations between 1 and 24 h,diffusion barrier, restricting both the outward diffusion of metallic cat­
+                                                                          revealing the mechanism of protective oxide scale growth.ions and the inward diffusion of oxygen anions [33]. This interpretation
+is further supported by the absence of a depletion region in Fig. 4 a,
+which limits the oxide scale thickness of the Ni70 and Ni80 alloys to less     3.4. Ni40Fe50Cu10 anode
+than 14 µm (Fig. 3 b).
+   For intermediate alloy compositions containing Ni 50–60 wt. %, a       The electrolysis test with Ni40Fe50Cu10 anode demonstrated stable
+thin, continuous NiO layer (~3 µm) remains present at oxide/alloy     operation for 24 h (Fig. 6a). The anode potential remained steady at ~4
+interface, with an overall scale thickness of about 20 µm (Fig. 3 b).     V, with no obvious fluctuations, highlighting the alloy’s strong elec­
+However, when the Ni content drops below 50 wt. %, the oxide     trochemical durability. The catalytic activity and stability of the alloy
+composition shifted toward an Fe-rich scales, with NiFe2O4 and Fe2O3 as    were further evaluated under similar conditions using LSV (Fig. 6 b).
+the primary constituents. In these alloys, a distinct depletion region    The anodic polarization curve revealed no apparent oxidation current
+emerged, characterized by the absence of a continuous NiO layer [32].     before the onset of O2(g) evolution potential of approximately 2.4 V, and
+Instead, a non-stoichiometric form of NixFe3-xO4 spinel rich in Fe, was     the potential required to reach a current density of 0.8 A⋅cm−2 was about
+formed at the oxide/alloy interface, potentially representing a solid     2.9 V. This increased by only 90 mV after 3 h of electrolysis, indicating
+solution of NiO and Fe3O4—a thermodynamically favored phase as scale     high stability in performance. After the 24 h electrolysis test, there was
+thickens (Supplementary Fig. s2). The thickness of oxide scales in the    no observable change in the anode’s dimensions (Fig. 6 c). Aluminum
+Ni30 and Ni40 alloys ranged from 22 to 34 µm (Fig. 3 b).                was produced on the TiB2 cathode, which was adequately covered with
+   Overall, the oxidation rate of the Ni90-xFexCu10 alloys series (with     the metal (Fig. 6 d), while additional aluminum that dripped from
+low Cu content) at 800◦C was found to be reasonably slow, following a     cathode and collected at the bottom of the crucible was recovered (Fig. 6
+parabolic trend. Notably, as Ni content decreased, especially in the      e). The total mass of the produced aluminum was used to calculate the
+Ni30Fe60Cu10 alloy, the oxidation kinetics transitioned from a parabolic     Faradaic current efficiency, which reached 90 %, while the purity of
+to a slower cubic regime. Because alloys with Ni 30–40 wt. % lack a     metal measured 99.9 wt. % (Fig. 6 f). This level of performance is
+                                                                              especially impressive for a system of this scale. Based on the impurities
+
+                                                                        6
+
+## PDF page 7
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 4. Cross-sectional analysis revealed multilayered oxide scale formation in the Ni90-xFexCu10 alloys series following oxidation treatment in air at 800◦C for 8 h,
+presented as SEM images (left) with corresponding EDS line scans (center) and schematics of oxide layer structures (right) for each alloy composition: (a)
+Ni80Fe10Cu10, (b) Ni60Fe30Cu10, and (c) Ni40Fe50Cu10.
+
+from the anode (Ni, Fe, and Cu) in the electrolyte and the produced     spinel enhances the conductivity of the scale, attributed to the formation
+aluminum,  the  alloy  consumption  rate was  calculated  to be 2     of oxygen vacancies [35]. XRD analysis (Fig. 7 d) confirmed these ob­
+mm⋅year−1—well below the typical limit of 5 mm⋅year−1 for OEA [12].     servations, identifying NiFe2O4 and Fe2O3 as the major constituent of
+   The stability of the Ni40Fe50Cu10 alloy correlates with the formation      scale, with a noticeable signal from frozen electrolyte. The Fe-rich Nix­
+of a dense and protective NiFe2O4 oxide layer (Fig. 4 c), which was pre-     Fe3-xO4 spinel at the oxide/alloy interface likely represents a solid so­
+formed ex-situ by high temperature air oxidation and is likely to remain     lution of NiO and Fe3O4, which is thermodynamically stable under the
+stable during in-situ electrochemical oxidation. Cross sectional analysis    low oxygen activity within the scale (Supplementary Fig. s2), leading to
+of the oxide scale after electrolysis, however, revealed a complex    a substantial increase in conductivity [35]. Remarkably, this Fe-rich
+structure with several notable features (Fig. 7 a). First, an intact and     spinel can readily convert to stoichiometric NiFe2O4 spinel under
+limited growth of the scale, 219 ± 33 µm thick, was detected, with     higher oxygen partial pressure encountered at the oxide/electrolyte
+minimal electrolyte penetration confined to localized spots. Second, and     interface, showing the self-regenerating capability of the protective
+of importance to the high performance of the anode, a characteristic     oxide scale. These observations are consistent with the electrochemical
+dual-layered oxide structure was identified. This dual-layered oxide    performance of the alloy, which maintained high catalytic activity, a
+structure comprised an outer layer of stoichiometric NiFe2O4 spinel at     stable voltage, and low consumption throughout the 24 h test (Fig. 6).
+the oxide/electrolyte interface and an inner layer of non-stoichiometric,     This indicates that the scale growth of Ni40Fe50Cu10 alloy remained
+Fe-rich NixFe3-xO4 spinel at the oxide/alloy interface. EDS line analysis     stable, self-sustaining, and protective under operating conditions.
+(Fig. 7 a, points 1–2, and Supplementary Table s1) confirmed that the
+outer layer (~120 µm thick) possessed a Ni/Fe atomic ratio close to 0.5,
+                                                                                 3.5. Ni80Fe10Cu10 anodeconsistent with stoichiometric NiFe2O4 spinel, whereas the inner layer
+(~90 µm thick) exhibited a lower Ni/Fe ratio of about 0.3 (Fig. 7 c),
+                                                                               In contrast to the low Ni alloys (30–40 wt. %), the high Ni alloy,indicative of a non-stoichiometric, Fe-rich NixFe3-xO4 spinel.
+                                                                        Ni80Fe10Cu10, exhibited severe corrosion throughout the 24 h electrol­    It has been reported that this non-stoichiometric Fe-rich NixFe3-xO4                                                                                   ysis  test  (Fig.  8), which  significantly contaminated the produced
+
+                                                                        7
+
+## PDF page 8
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+                                                                            resulted from the increased ohmic resistance caused by NiO scale growth
+                                                                                   (Fig. 8 c, points 1–3, and Supplementary Table s2). The thermodynamic
+                                                                                     stability of NiO at low oxygen partial pressures (Supplementary Fig. s2),
+                                                              combined with the limited outward diffusion of Ni in NiO due to its
+                                                                            defect structure [30], suggests that scale growth proceeds via internal
+                                                                         oxidation at the oxide/alloy interface through the inward diffusion of
+                                                             O2−ions [9,28].
+                                                                               In the second stage (between 1 and 3 h of electrolysis; Fig. 8 d), the
+                                                                      oxide scale developed a complex three-layered structure. The outermost
+                                                                            layer consisted of a thin (~8 µm) stoichiometric NiAl2O4 spinel (points
+                                                              1–2 in Fig. 8 d, and Supplementary Table s3), forming a clear boundary
+                                                                between the molten bath and the underlying scale. Beneath this, a dense
+                                                                  middle layer (~350 µm) composed mainly of O, Ni, Al, and Fe was
+                                                                    observed (EDS line scan in Fig. 8 e). This middle layer exhibited a
+                                                                                 relatively high Al concentration (~17.4 at. %) and no detectable Na, K,
+                                                                        or F, indicating a chemical gradient of Al from the outer layer. This
+                                                                     behavior is consistent with literature that reported selective Al diffusion
+                                                                              in the scale of Ni-rich alloys after electrolysis [26]. EDS analysis (Fig. 8
+                                                                              e)   further   indicated   that   this  middle   layer   contained  a
+                                                                         non-stoichiometric spinel, NixAl1-xO4. Next, an innermost layer of NiO
+                                                          (~45 µm) formed adjacent to the alloy substrate (point 4 in Fig. 8 d, and
+                                                                  Supplementary Table s3). Consequently, the oxide scale consisted of
+                                                                          three sequential layers: an outermost NiAl2O4 spinel layer, a middle
+                                                                         non-stoichiometric NixAl1-xO4 spinel layer, and an innermost NiO layer.
+                                                                        This multilayered structure reflects the coupled diffusion-controlled
+                                                                             ionic transport and chemical–electrochemically driven oxidation re­
+                                                                            actions that occur during electrolysis. The formation of NiAl2O4 can be
+                                                                             attributed to the high alumina activity under saturated bath conditions,
+                                                                          as confirmed by LECO analysis (data not shown). Under such conditions,
+                                                          NiO becomes unstable and transforms into the thermodynamically
+                                                                      favored NiAl2O4 phase (Fig. 2).
+                                                                The third stage is marked by excessive growth of the insulating oxide
+                                                                                   scale, which raised the anode potential beyond the dissociation potential
+                                                                              of the oxide. Having a thin aluminate layer on the anode presents a
+                                                                  unique condition—it may redistribute the current on the anode surface,
+                                                                       causing locally high current density at aluminate-free regions. This high
+                                                                     anodic current density breaks down the  (protective) oxide  scale,
+                                                                     exposing the unprotected, oxide-free base alloy to the corrosive fluoride
+                                                                           bath. The exposed oxide-free alloy will draw more current at higher
+                                                               anode potential and will undergo severe corrosion [8]. As shown inFig. 5. XRD pattern of the oxide scale surface for Ni90-xFexCu10 alloys series
+after oxidation in air at 800◦C for 8 h.                                            Fig. 8 a, the anode potential peaked at 10 V after 3 h of electrolysis and
+                                                                                oscillated between 6 V and 10 V thereafter, ultimately causing frag­
+                                                                   mentation and spallation of the oxide scale (Fig. 8 d) and failure of thealuminum. The produced aluminum had a purity of only 99.22 wt. %                                                                                  alloy. XRD analysis confirmed the presence of both NiO and NiAl2O4 as(with anode impurities comprising Ni–0.39 %, Cu–0.25 %, and Fe–0.15                                                                 major phases (Fig. 8  f), consistent with thermodynamic model pre­%). The Faradaic current efficiency decreased to 71 % due to elevated                                                                             dictions (Fig. 2). Although NiF2 layer was not detected in XRD, thisanode impurities in the bath, which may undergo cyclic redox reactions                                                                 might be due to its easy dissolution in the molten bath or poor adhesionand thus lower the current efficiency [16]. As shown in Fig. 8 a, the                                                                 under the action of oxygen bubbles.anode potential quickly rose to the upper limit of 10 V within 2 h and                                                                               In summary, the high Ni alloys Ni80Fe10Cu10 and Ni60Fe30Cu10 (referremained above 6 V for the remainder of the test, indicating continued                                                                            to Supplementary Note 1) exhibited rapid oxide growth and a pro­degradation of the alloy.                                                               nounced decline in current density due to the poor catalytic perfor­   The oxide scale that developed on the Ni80Fe10Cu10 anode proved to                                                           mance of NiO and the formation of insulating NiAl2O4. Severe anodebe a poor catalyst for O2(g) evolution in the molten fluoride bath.                                                                      degradation produced low purity aluminum and increased alloy con­Initially, an anodic current density of 0.8 A⋅cm−2 was achieved at 3.38 V                                                                 sumption rates to 16 mm⋅year−1 for Ni80Fe10Cu10 and 15 mm⋅year−1 for(Fig. 8 b); however, after 3 h, the current density was halved at the same                                                                        Ni60Fe30Cu10.potential, reflecting the insulating nature of the growing oxide scale.
+This decline in catalytic performance coincided with rapid oxide scale                                                                                 3.6. Ni70, Ni50, and Ni30 anodegrowth during electrolysis, increasing from 4 ± 1.2 µm at 0 h (Fig. 4 a) to
+195 ± 34 µm after 1 h (Fig. 8 c), and reaching 394 ± 109 µm after 3 h                                                                The  performance   of  the  Ni70Fe20Cu10,  Ni50Fe40Cu10,  and(Fig. 8 d). Based on these observations, the degradation mechanism of                                                                      Ni30Fe60Cu10 alloy anodes showed a range of behaviors, reflecting thethe alloy can be divided into three successive stages of oxide scale                                                                           influence of Ni content on stability and catalytic efficiency (Fig. 9). Thegrowth.                                                                      Ni70Fe20Cu10 (Fig. 9 a) and Ni50Fe40Cu10 (Fig. 9 b) alloys followed   In the first stage, a primary NiO layer—pre-formed by air oxida­                                                                          trends similar to those of the Ni80Fe10Cu10 (in the previous section) andtion—developed on the alloy surface. After 1 h of electrolysis, this layer                                                                      Ni60Fe30Cu10 alloys (refer to Supplementary Note 1), respectively, butgrew to 195 ± 34 µm (Fig. 8 c) with no significant electrolyte penetra­                                                                    with variations in stability duration. Notably, the Ni50Fe40Cu10 alloytion. This indicates that the increase in anode potential (Fig. 8 a) mainly                                                                   maintained stable operation for up to 12 h before its potential rose
+
+                                                                        8
+
+## PDF page 9
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 6. Performance of Ni40Fe50Cu10 alloy anode during electrolysis in molten fluoride bath at 800◦C. (a) Evolution of anode potential as a function of electrolysis
+time. (b) LSV curve at a sweep rate of 100 mV⋅s−1; the inset graph shows the evolution of anode potential during 3 h of electrolysis. (c) Image of the Ni40Fe50Cu10
+alloy anode before (left) and after (right) electrolysis. (d) Image of the TiB2 cathode after electrolysis, showing deposition of aluminum layer. (e) Extracted aluminum
+from the bottom of the frozen crucible. (f) Aluminum purity with respect to anode alloy constituents.
+
+
+
+
+
+Fig. 7. Ni40Fe50Cu10 alloy anode formed a protective NiFe2O4 oxide during 24 h electrolysis at 800◦C. (a) SEM image in backscattered electron (BSE) mode of the
+anode cross-section. The arrow in the oxide scale at the top right indicates the path for line analysis shown in (c), moving from the oxide/alloy interface toward the
+outer scale. The number markers 1, 2, and 3 within oxide scale in (a) indicate the point at which EDS point analysis was performed (Supplementary Table s1). (b) EDS
+mapping of the SEM image for O, Ni, Fe and Cu elements. (c) EDS line analysis of the Ni/Fe atomic ratio along the arrow in (a), revealing an increasing Fe con­
+centration near the oxide/alloy interface. (d) XRD pattern of oxide scale on the anode surface.
+
+sharply to 6 V after 16 h (Fig. 9 b), highlighting the importance of      A closer examination of anode potential evolution (Fig. 9 a–c) in
+evaluating the performance of OEA over longer durations. In contrast,     relation to oxide morphology from SEM (Fig. 9 d), elemental mapping
+the high Fe-content alloy, Ni30Fe60Cu10 in Fig. 9 c, exhibited the most    from EDS (Fig. 9 e) and phase analysis from XRD (Fig. 9 f) revealed
+stable anode potential among all tested alloys in Ni90-xFexCu10 series.       distinct variations in electrolyte penetration that correlated strongly
+
+                                                                        9
+
+## PDF page 10
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 8. Performance of Ni80Fe10Cu10 alloy anode during electrolysis in molten fluoride bath at 800◦C. (a) Evolution of anode potential as a function of electrolysis
+time. (b) LSV at a sweep rate of 100 mV⋅s−1; the inset graph shows the evolution of anode potential during 3 h of electrolysis. (c) SEM-BSE image of the anode cross-
+section after 1 h of electrolysis, and (d) after 3 h of electrolysis, with number markers indicate the point at which EDS point analysis was performed (Supplementary
+Table s2 and s3). The arrow mark in (d) indicates the path for line analysis shown in (e), moving from the oxide/alloy interface toward the outer scale. (e) EDS line
+analysis for major elements (O, Ni, Al, and Fe). (f) XRD pattern of oxide scale on the surface of anode after 1 h and 24 h of electrolysis.
+
+with the anode’s stability. XRD analysis (Fig. 9 f) confirmed the presence     high Fe content of alloy (60 wt. %) appeared to enhance the catalytic
+of NiAl2O4 on the surface the unstable Ni70Fe20Cu10 and Ni50Fe40Cu10      activity, as suggested by LSV results, where the anodic potential for O2(g)
+alloys, while the stable Ni30Fe60Cu10 alloy developed a scale mainly     evolution increased by only 60 mV (from 2.96 V at j = 0.8 A⋅cm−2) after
+composed of Fe2O3 and NiFe2O4 (points 1–2 in Fig. 9 d, and Supple­    3 h of electrolysis (Supplementary Fig. s4). The calculated anode con­
+mentary Table s5). EDS mapping of Ni30Fe60Cu10 alloy oxide cross-    sumption rate for the Ni30Fe60Cu10 alloy was 4 mm⋅year−1.
+section revealed minimal fluoride presence (Fig. 9 e) compared to
+Ni70Fe20Cu10 and Ni50Fe40Cu10 alloys. After 24 h, the oxide scale on                                                                                 3.7. Influence of Ni/Fe ratio on mechanism of oxide scale growthNi30Fe60Cu10 alloy remained limited to 169 ± 22 µm, with electrolyte
+penetration confined to small isolated pockets (in dark color, Fig. 9 d).
+                                                  We demonstrate the time dependent evolution of multilayered oxide   Despite the outstanding anode stability of the Ni30Fe60Cu10 alloy, the                                                                               scales on Ni–Fe-based OEAs, shedding light on its complex mechanisms.aluminum produced had relatively high Fe contamination, resulting in a
+                                                                    Understanding these mechanisms is essential for optimizing and devel­purity of 99.84 wt. % (Fig. 9 g). This contamination was likely attributed
+                                                                    oping alloys for metallic anode applications. The formation of the pro­to the higher diffusion rate of Fe compared to Ni within the bulk alloy
+                                                                                tective NiFe2O4 oxide on the Ni–Fe-based anode should involve defect-and to the increased fraction of the Fe2O3 phase in the scale [27].                                                                  mediated diffusion of cations (Ni, Fe) and oxygen anions across theAdditionally, the high solubility of Fe2O3 in molten cryolite would                                                                 growing scale. The driving forces for these diffusion processes shouldinevitably increases Fe contamination in the produced aluminum [22].
+                                                                                 arise from the chemical gradients of the cations (Ni/Fe ratio) within theInterestingly, a non-stoichiometric Fe-rich NixFe3-xO4 spinel was formed                                                                              alloy and from the activities of the anions (O2−, F−) established byat the oxide/alloy interface (point 3 in Fig. 9 d, and Supplementary
+                                                                    coupled chemical and electrochemical reactions at the anode/electro­Table s5), similar to that observed in the Ni40Fe50Cu10 alloy. This                                                                                 lyte interface.conductive and stable spinel likely contributed to the low potential
+                                                                      At the start of electrolysis, the pre-formed multi-oxide scale, gener­(about 4 V) observed in the Ni30Fe60Cu10 alloy [35]. Furthermore, the                                                                       ated ex-situ by high temperature air oxidation (Fig. 4), provides short-
+
+                                                                        10
+
+## PDF page 11
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 9. Performance of Ni70Fe20Cu10, Ni50Fe40Cu10, and Ni30Fe60Cu10 alloy, denoted as Ni70, Ni50 and Ni30, respectively, during electrolysis in molten fluoride bath
+at 800◦C. (a, b, c) Evolution of anode potential as a function of electrolysis time. (d) SEM-BSE image of the anode cross-section after 24 h of electrolysis, with number
+markers (1,2,3) indicate the point at which EDS point analysis was performed (Supplementary Table s5). (e) EDS elemental mapping (O, Fe, Ni, Cu, and F) cor­
+responding to SEM image (d). (f) XRD pattern of the oxide scale on the surface of the anode, and (g) aluminum purity with respect to anode alloy constituents after 24
+h of electrolysis for Ni70, Ni50 and Ni30 alloys.
+
+term stability to the alloy [10,11,26]. Under continuous anodic polari­     (F−), due to its thermodynamic instability (Fig. 2). Under saturated bath
+zation to evolve oxygen, the outermost oxide surface reaches a fully     conditions with high alumina activity, this NiO tends to convert to more
+oxidized state, influenced by the high activity of oxygen at 800◦C.     stable NiAl2O4 (Fig. 8 d, and Supplementary Fig. s1-c), an insulating
+Beneath this outer layer, NiO and Fe2O3 spontaneously react, forming    phase that raises the anode potential beyond the oxide dissociation
+NiFe2O4, which serves as a conductive and protective layer. Over pro­     potential limit. Once this potential is exceeded, the alloy consumption is
+longed  operation,  however,  the  phase  ratio  between NiO  and     accelerated through the formation of metallic fluorides such as NiF2.
+Fe2O3—governed by the Ni/Fe ratio of the alloy—influences the sus­        In contrast, alloys with lower Ni 30–40 wt. %, exhibit a dense and
+tained formation of NiFe2O4. This in-situ sustained growth of NiFe2O4     well-adherent Fe-rich oxide scale structure (Fig. 4 c, Fig. 7 a, and Fig. 9
+oxide under electrochemical oxidation conditions ultimately ensures the      d). The high Fe activity in the alloy and the larger volume fraction of Fe-
+long-term stability of the anode alloy.                                   oxide lead to the formation of a dual-layered structure: an outer NiFe2O4
+   Based on the above results, Fig. 10 illustrates the mechanisms of     layer at the oxide/electrolyte interface and an inner, non-stoichiometric
+unstable oxide scale growth in the high Ni alloy (Fig. 10 a) and stable     Fe-rich NixFe3-xO4 layer at the oxide/alloy interface (Fig. 7 c, Fig. 9 d).
+oxide scale growth in the low Ni alloy (Fig. 10 b). In alloys with high Ni     This inner layer, owing to its defect structure, enhances the conductivity
+content 50–80 wt. %, a predominantly NiO layer forms, creating a     of the scale [35]. With increased oxygen ion (O2−) diffusion, this
+diffusion barrier that slows outward diffusion of Fe, limiting the for­     conductive  non-stoichiometric  layer  eventually  transforms  into
+mation of NiFe2O4 within the scale (Fig. 4) [29,30]. Meanwhile, ther­     NiFe2O4, resulting in a dense and moderately thick oxide scale that
+modynamically, NiO layer grows via internal oxidation of O2−ions at     limits further oxidation of base alloy. The outer NiFe2O4 layer sustains
+the oxide/alloy interface—characterized as porous, thick scales with    oxygen evolution while inhibiting electrolyte infiltration, and the inner
+poor adhesion (Fig. 8 c, and Supplementary Fig. s1-c). Apparently, NiO     layer restricts oxygen diffusion, continuously self-regenerating NiFe2O4
+scale on anode does not offer protection against molten fluorides species     to supply the outer layer. This dual-layered structure slows the oxidation
+
+                                                                        11
+
+## PDF page 12
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+
+
+
+
+Fig. 10. Schematic illustration of the mechanism of oxide scale growth during electrolysis. (a) High Ni alloy Ni80Fe10Cu10 forming an unprotective scale with a high
+consumption rate. (b) Low Ni alloy Ni40Fe50Cu10 forming a protective scale with low consumption.
+
+rate of the alloy, shifting it from a parabolic to a cubic regime (as seen in    Gunnarsson: Writing – review & editing, Validation, Supervision,
+Ni30Fe60Cu10 alloy in Fig. 3 a and Table 1) [32]. This promotes the     Conceptualization. Geir Martin Haarberg: Writing – review & editing,
+growth of a stable, low consumption protective scale on OEA.              Validation, Supervision, Conceptualization. Isabella Gallino: Writing –
+   In summary, the Ni/Fe ratio of Ni90-xFexCu10 alloys proves to be a     review &  editing, Validation, Supervision, Conceptualization. Ralf
+critical factor influencing stability and performance of OEA. A decrease    Busch: Visualization, Supervision. Jon Hjaltalin Magnusson: Visuali­
+in the Ni/Fe ratio from 8 to 0.5 shows a positive impact on performance.     zation, Project administration. Gudrun Saevarsdottir: Writing – review
+Alloys with a Ni/Fe ratio between 8 and 1.25 are deemed unsuitable for   & editing, Validation, Supervision, Conceptualization.
+OEA applications due to their high consumption rates, ranging from 5 to
+16 mm⋅year−1. In contrast, an optimal Ni/Fe ratio between 0.8 and 0.5    Declaration of competing interest
+demonstrates the ability to form a protective and conductive oxide scale,
+with an anode consumption rate of less than or equal to 4 mm⋅year−1.       The authors declare that they have no known competing financial
+                                                                                  interests or personal relationships that could have appeared to influence
+4. Conclusions                                                         the work reported in this paper.
+
+   This study demonstrates that Ni–Fe-based alloys hold significant    Acknowledgements
+promise  as  cost-effective,  durable OEA  materials  for  carbon-free
+aluminum production. We highlighted the essential role of thermody­        This manuscript is based on the Ph.D. thesis of Kamaljeet Singh, a
+namic analysis, oxidation kinetics, and long-hour electrolysis perfor­    double degree (cotutelle) doctoral thesis at Reykjavik University and the
+mance in fluoride melts for understanding the mechanisms of stable    Norwegian University of Science and Technology (NTNU;2025:244).
+oxide scale growth and assessing alloy suitability.                         This work was financially supported by the Icelandic Research Fund
+  A series of Ni90-xFexCu10 alloys was successfully tested in low tem­     (grant number 207242051), the German PROGRESS.NRW program, and
+perature KF-NaF-AlF3-Al2O3 electrolytes at 800◦C, achieving stable po­     additional funding from the Sustainability Institute and Forum 2024 at
+tential evolution and producing high purity aluminum. An optimized     Reykjavik University. The authors are grateful to Trimet Aluminium
+Ni/Fe ratio between 0.8 and 0.5 as in the Ni40Fe50Cu10 alloy resulted in a    Germany for providing ICP-OES analysis of the electrolyte samples.
+stable and low anode potential, with metal purity approaching 99.9 wt.
+% after 24 h of electrolysis. This excellent anode performance  is    Supplementary materials
+attributed to the formation of a kinetically slow-growing, self-regener­
+ating NiFe2O4 oxide scale. This protective NiFe2O4 scale on the anode       Supplementary material associated with this article can be found, in
+enhances corrosion resistance and maintains electrochemical stability.      the online version, at doi:10.1016/j.electacta.2026.148195.
+   Our findings underline the importance of long-hour electrolysis
+screening of OEA  alloys  for accurately evaluating  their corrosion    Data availability
+behavior and long-term viability. The optimized alloy composition
+identified in this study is key to achieving excellent anode performance.       Data will be made available on request.
+It will enable the design of a pilot-scale cell to accurately assess long-
+term durability in an industrially relevant setting, thereby advancing    References
+the goals of sustainable and carbon-free aluminum production.
+                                                                                           [1] Global Energy Transition A Roadmap to 2050, (n.d.). https://www.irena.org/publi
+                                                                                           cations/2018/Apr/Global-Energy-Transition-A-Roadmap-to-2050 (accessed
+CRediT authorship contribution statement                                       October 29, 2024).
+                                                                                           [2] G. Saevarsdottir, H. Kvande, B.J. Welch, Aluminum production in the times of
+   Kamaljeet Singh: Writing – original draft, Methodology, Investi­            climate change: the global challenge to reduce the carbon footprint and prevent                                                                                         carbon leakage, JOM 72 (2020), 1422–1422.
+gation, Data curation, Conceptualization. Thomas Luke Jamieson:       [3] A. Allanore, L. Yin, D.R. Sadoway, A new anode material for oxygen evolution in
+Writing – review & editing, Investigation, Data curation. Gudmundur          molten oxide electrolysis, Nature 497 (2013) 353–356.
+
+                                                                        12
+
+## PDF page 13
+
+K. Singh et al.                                                                                                                                      Electrochimica Acta 552 (2026) 148195
+
+ [4] Y. Yan, D. Fray, Molten salt electrolysis for sustainable metals extraction and          [20] A. Solheim, A. Sterten, Activity of alumina in the system NaF-AlF3-Al2O3 at NaF/
+      materials processing a review, Electrolysis: Theory Types Appl. (2010).                    AlF3 molar ratios ranging from 1.4 to 3, Light Met. 1999 (1999) 445–452.
+ [5] Primary Aluminium Production - International Aluminium Institute, 2023             [21] D.H. DeYoung, Solubilities of oxides for inert anodes in cryolite-based melts, in:
+      database, accessed on October 9, 2024, IAI, UK. (n.d.). https://international-alumi            A. Tomsett, J. Johnson (Eds.), Essential Readings in Light Metals: Volume 4
+     nium.org/.                                                                                 Electrode Technology for Aluminum Production, Springer International
+ [6] D.R. Sadoway, Inert anodes for the Hall-H´eroult cell: The ultimate materials                  Publishing, Cham, 2016, pp. 1073–1081.
+      challenge, JOM 53 (2001) 34–35.                                                  [22] O.-A. Lorentsen, Behaviour of nickel, iron and copper by application of inert
+ [7] S.K. Padamata, K. Singh, G.M. Haarberg, G. Saevarsdottir, Review—primary                anodes in aluminium production, PhD thesis, Norwegian University of Science and
+     production of aluminium with oxygen evolving anodes, J. Electrochem. Soc. 170            Technology, 2000.
+     (2023) 073501.                                                                  [23] E. Gavrilova, G. Goupil, B. Davis, D. Guay, L. Rou´e, On the key role of Cu on the
+ [8] T.R. Beck, A non-consumable metal anode for production of aluminum with low-             oxidation behavior of Cu–Ni–Fe based anodes for Al electrolysis, Corros. Sci. 101
+     temperature fluoride melts, Essent. Read. Light Met.: Vol. 4 Electrode Technol.              (2015) 105–113.
+     Alum. Prod. 4 (2016) 1104–1109.                                                  [24]  S. Helle, M. Pedron, B. Assouli, B. Davis, D. Guay, L. Rou´e, Structure and high-
+ [9]  I. Gallino, M.E. Kassner, R. Busch, Oxidation and corrosion of highly alloyed                temperature oxidation behaviour of Cu–Ni–Fe alloys prepared by high-energy ball
+     Cu–Fe–Ni as inert anode material for aluminum electrowinning in as-cast and                 milling for application as inert anodes in aluminium electrolysis, Corros. Sci. 52
+     homogenized conditions, Corros. Sci. 63 (2012) 293–303.                                 (2010) 3348–3355.
+[10] G. Gunnarsson, G. ´Oskarsd´ottir, S. Frostason, J.H. Magnússon, Aluminum              [25] D. Cao, Y. Ma, Z. Shi, J. Xu, X. Hu, Z. Wang, Corrosion behavior of Fe-Ni alloys in
+      electrolysis with multiple vertical non-consumable electrodes in a low temperature           molten KF-AlF3-Al2O3 salts at 700 ◦C, Corros. Sci. 156 (2019) 32–43.
+      electrolyte, Light Met. 2019 (2019) 803–810.                                       [26] V. Chapman, B.J. Welch, M. Skyllas-Kazacos, Anodic behaviour of oxidised Ni–Fe
+[11] K. Singh, G. Gunnarsson, J.H. Magnusson, G.M. Haarberg, G. Saevarsdottir,                    alloys in cryolite–alumina melts, Electrochim. Acta 56 (2011) 1227–1238.
+     Performance evaluation of low-temperature KF-NaF-AlF3 electrolytes for              [27] S.V. Divinski, F. Hisker, C. Herzig, R. Filipek, M. Danielewski, Self- and
+     aluminum electrolysis using vertical inert Cu–Ni–Fe alloy anodes, J. Electrochem.             interdiffusion in ternary Cu-Fe-Ni alloys, Defect Diffus. Forum 237–240 (2005)
+      Soc. 170 (2023) 113507.                                                             50–61.
+[12] D.R. Bradford, Inert Anode Life in Low Temperature Reduction Process, Northwest      [28] R. Haugsrud, T. Norby, P. Kofstad, High-temperature oxidation of Cu–30 wt.%
+    Aluminum Technologies, The Dalles, Oregon, 2005.                                    Ni–15 wt.% Fe, Corros. Sci.. 43 (2001) 283–299.
+[13] A. Apisarov, A. Dedyukhin, O. Tkacheva, E. Nikolaeva, Y. Zaikov, P. Tinghaev,         [29] C.L. Muhich, V.J. Aston, R.M. Trottier, A.W. Weimer, C.B. Musgrave, First-
+      Physical-chemical properties of the KF-NAF-ALF3 molten system with low cryolite             principles analysis of cation diffusion in mixed metal ferrite spinels, Chem. Mater.
+       ratio, in: , 2009, pp. 401–403.                                                   28 (2016) 214–226.
+[14] A. Apisarov, A. Dedyukhin, E. Nikolaeva, P. Tinghaev, O. Tkacheva, Y. Zaikov,         [30]  J. Yu, K.M. Rosso, S.M. Bruemmer, Charge and ion transport in NiO and aspects of
+     Liquidus temperatures of cryolite melts with low cryolite ratio, Metall. Mater.              Ni oxidation from first principles, J. Phys. Chem. C 116 (2012) 1948–1954.
+      Trans. B 42 (2010) 236–242.                                                      [31]  L. Ying, C. Dengpeng, W. Wei, L. Dongsheng, W. Junwei, L. Yudong, S. Zhirong,
+[15]  I. Gallino, S. Curiotto, M. Baricco, M.E. Kassner, R. Busch, Homogenization of                Influences of heat treatment on the oxidation and corrosion behavior of Cu–Ni–Fe
+      highly alloyed Cu-Fe-Ni: a phase diagram study, J. Phs. Eqil. Diff. 29 (2008)                   inert anodes for aluminium electrolysis, J. Alloys Compd. 832 (2020) 154848.
+     131–135.                                                                        [32] T. Jamieson, D. Apel, A. Yasinskiy, R. Düssel, P. Decker, G. Gunnarsson, K. Singh,
+[16]  J. Thonstad, P. Fellner, G.M. Haarberg, J. Hives, H. Kvande, A. Sterten, Aluminium               J. Magnusson, B. Adam, R. Busch, B. Friedrich, I. Gallino, On the long-term
+      Electrolysis: Fundamentals of the Hall-H´eroult Process, Beuth Verlag GmbH, 2011.            oxidation behaviour of homogeneous Ni–Fe–Cu alloys for CO2-free aluminium
+[17] A. Solheim, Sodium in aluminium as a cell performance indicator: a quantitative             electrowinning applications at 800◦C, J. Mater. Sci. (2025).
+     framework, in: A.P. Ratvik (Ed.), Light Metals 2017, Springer International            [33] R. Haugsrud, On the high-temperature oxidation of nickel, Corros. Sci. 45 (2003)
+      Publishing, Cham, 2017, pp. 633–639.                                                211–235.
+[18] H. Xiao, R. Hovland, S. Rolseth, J. Thonstad, Studies on the corrosion and the         [34] K. Singh, G.M. Haarberg, A.R. Mallah, G. Gunnarsson, T.L. Jamieson, I. Gallino,
+     behavior of inert anodes in aluminum electrolysis, Met. Materi. Trans. B 27 (1996)            G. Saevarsdottir, Overpotential on oxygen-evolving platinum and Ni-Fe-Cu anode
+     185–193.                                                                                          for low-temperature molten fluoride electrolytes, JOM 76 (2024) 3284–3293.
+[19] A. Roine, HSC Chemistry Software, Version 9.9.2.3, Metso Outotec, Pori, Finland,      [35]  S. Anjum, G.H. Jaffari, A.K. Rumaiz, M.S. Rafique, S.I. Shah, Role of vacancies in
+      (2017). www.mogroup.com/hsc.                                                              transport and magnetic properties of nickel ferrite thin films, J. Phys. D: Appl.
+                                                                                               Phys. 43 (2010) 265001.
+
+
+
+
+
+                                                                        13
